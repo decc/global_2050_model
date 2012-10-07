@@ -1,0 +1,9 @@
+*.o
+*.dylib
+*.gem
+spreadsheet/2050Model
+ext/Makefile
+ext/test_global_2050_model.rb
+ext/global_2050_model.rb
+*.swp
+spreadsheet/~$2050Model.xlsx
