@@ -146102,6 +146102,462 @@ end
   # start of B.a
 
   # start of VI.a
+def test_vi_a_c1086
+  r = spreadsheet.vi_a_c1086
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("Type",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_d1086
+  r = spreadsheet.vi_a_d1086
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("Description",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_e1086
+  r = spreadsheet.vi_a_e1086
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("Notes",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_f1086
+  r = spreadsheet.vi_a_f1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2009.0,r[:number],0.001)
+end
+
+def test_vi_a_g1086
+  r = spreadsheet.vi_a_g1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2010.0,r[:number],0.001)
+end
+
+def test_vi_a_h1086
+  r = spreadsheet.vi_a_h1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2015.0,r[:number],0.001)
+end
+
+def test_vi_a_i1086
+  r = spreadsheet.vi_a_i1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2020.0,r[:number],0.001)
+end
+
+def test_vi_a_j1086
+  r = spreadsheet.vi_a_j1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2025.0,r[:number],0.001)
+end
+
+def test_vi_a_k1086
+  r = spreadsheet.vi_a_k1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2030.0,r[:number],0.001)
+end
+
+def test_vi_a_l1086
+  r = spreadsheet.vi_a_l1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2035.0,r[:number],0.001)
+end
+
+def test_vi_a_m1086
+  r = spreadsheet.vi_a_m1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2040.0,r[:number],0.001)
+end
+
+def test_vi_a_n1086
+  r = spreadsheet.vi_a_n1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2045.0,r[:number],0.001)
+end
+
+def test_vi_a_o1086
+  r = spreadsheet.vi_a_o1086
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2050.0,r[:number],0.001)
+end
+
+def test_vi_a_c1087
+  r = spreadsheet.vi_a_c1087
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("A",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_d1087
+  r = spreadsheet.vi_a_d1087
+  assert_equal(:ExcelString,r[:type])
+  assert_equal(" Forest ",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_e1087
+  r = spreadsheet.vi_a_e1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(4038719000.0,r[:number],0.001)
+end
+
+def test_vi_a_f1087
+  r = spreadsheet.vi_a_f1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3719578574.4689,r[:number],0.001)
+end
+
+def test_vi_a_g1087
+  r = spreadsheet.vi_a_g1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3719578574.4689,r[:number],0.001)
+end
+
+def test_vi_a_h1087
+  r = spreadsheet.vi_a_h1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3685908727.0559125,r[:number],0.001)
+end
+
+def test_vi_a_i1087
+  r = spreadsheet.vi_a_i1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3652238879.6429253,r[:number],0.001)
+end
+
+def test_vi_a_j1087
+  r = spreadsheet.vi_a_j1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3618569032.2299376,r[:number],0.001)
+end
+
+def test_vi_a_k1087
+  r = spreadsheet.vi_a_k1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3584899184.8169503,r[:number],0.001)
+end
+
+def test_vi_a_l1087
+  r = spreadsheet.vi_a_l1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3551229337.4039626,r[:number],0.001)
+end
+
+def test_vi_a_m1087
+  r = spreadsheet.vi_a_m1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3517559489.990975,r[:number],0.001)
+end
+
+def test_vi_a_n1087
+  r = spreadsheet.vi_a_n1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3483889642.5779877,r[:number],0.001)
+end
+
+def test_vi_a_o1087
+  r = spreadsheet.vi_a_o1087
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3450219795.165,r[:number],0.001)
+end
+
+def test_vi_a_c1088
+  r = spreadsheet.vi_a_c1088
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("B",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_d1088
+  r = spreadsheet.vi_a_d1088
+  assert_equal(:ExcelString,r[:type])
+  assert_equal(" Arable land and permenant crops ",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_e1088
+  r = spreadsheet.vi_a_e1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(1533353920.0,r[:number],0.001)
+end
+
+def test_vi_a_f1088
+  r = spreadsheet.vi_a_f1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3142871645.2348094,r[:number],0.001)
+end
+
+def test_vi_a_g1088
+  r = spreadsheet.vi_a_g1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3142871645.2348094,r[:number],0.001)
+end
+
+def test_vi_a_h1088
+  r = spreadsheet.vi_a_h1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3288468334.4674153,r[:number],0.001)
+end
+
+def test_vi_a_i1088
+  r = spreadsheet.vi_a_i1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3362932478.66718,r[:number],0.001)
+end
+
+def test_vi_a_j1088
+  r = spreadsheet.vi_a_j1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3369334197.611456,r[:number],0.001)
+end
+
+def test_vi_a_k1088
+  r = spreadsheet.vi_a_k1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3310743611.0775924,r[:number],0.001)
+end
+
+def test_vi_a_l1088
+  r = spreadsheet.vi_a_l1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3190230838.842939,r[:number],0.001)
+end
+
+def test_vi_a_m1088
+  r = spreadsheet.vi_a_m1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3010866000.6848445,r[:number],0.001)
+end
+
+def test_vi_a_n1088
+  r = spreadsheet.vi_a_n1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2775719216.3806605,r[:number],0.001)
+end
+
+def test_vi_a_o1088
+  r = spreadsheet.vi_a_o1088
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2487860605.707736,r[:number],0.001)
+end
+
+def test_vi_a_c1089
+  r = spreadsheet.vi_a_c1089
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("C1",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_d1089
+  r = spreadsheet.vi_a_d1089
+  assert_equal(:ExcelString,r[:type])
+  assert_equal(" Meadows and pasture for grazing ",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_e1089
+  r = spreadsheet.vi_a_e1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3355694290.0,r[:number],0.001)
+end
+
+def test_vi_a_f1089
+  r = spreadsheet.vi_a_f1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2986009997.01165,r[:number],0.001)
+end
+
+def test_vi_a_g1089
+  r = spreadsheet.vi_a_g1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(2986009997.01165,r[:number],0.001)
+end
+
+def test_vi_a_h1089
+  r = spreadsheet.vi_a_h1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(3793820759.116098,r[:number],0.001)
+end
+
+def test_vi_a_i1089
+  r = spreadsheet.vi_a_i1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(4602766599.852277,r[:number],0.001)
+end
+
+def test_vi_a_j1089
+  r = spreadsheet.vi_a_j1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(5411649020.754862,r[:number],0.001)
+end
+
+def test_vi_a_k1089
+  r = spreadsheet.vi_a_k1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(6219269523.358529,r[:number],0.001)
+end
+
+def test_vi_a_l1089
+  r = spreadsheet.vi_a_l1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(7024429609.197952,r[:number],0.001)
+end
+
+def test_vi_a_m1089
+  r = spreadsheet.vi_a_m1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(7825930779.807799,r[:number],0.001)
+end
+
+def test_vi_a_n1089
+  r = spreadsheet.vi_a_n1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(8622574536.722755,r[:number],0.001)
+end
+
+def test_vi_a_o1089
+  r = spreadsheet.vi_a_o1089
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(9413162381.477482,r[:number],0.001)
+end
+
+def test_vi_a_c1090
+  r = spreadsheet.vi_a_c1090
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("E",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_d1090
+  r = spreadsheet.vi_a_d1090
+  assert_equal(:ExcelString,r[:type])
+  assert_equal("Settlements",r[:string].force_encoding('utf-8'))
+end
+
+def test_vi_a_e1090
+  r = spreadsheet.vi_a_e1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(165000000.0,r[:number],0.001)
+end
+
+def test_vi_a_f1090
+  r = spreadsheet.vi_a_f1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(338195777.7,r[:number],0.001)
+end
+
+def test_vi_a_g1090
+  r = spreadsheet.vi_a_g1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(338195777.7,r[:number],0.001)
+end
+
+def test_vi_a_h1090
+  r = spreadsheet.vi_a_h1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(396874032.9387448,r[:number],0.001)
+end
+
+def test_vi_a_i1090
+  r = spreadsheet.vi_a_i1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(455552288.17748964,r[:number],0.001)
+end
+
+def test_vi_a_j1090
+  r = spreadsheet.vi_a_j1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(514230543.41623443,r[:number],0.001)
+end
+
+def test_vi_a_k1090
+  r = spreadsheet.vi_a_k1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(572908798.6549792,r[:number],0.001)
+end
+
+def test_vi_a_l1090
+  r = spreadsheet.vi_a_l1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(631587053.8937241,r[:number],0.001)
+end
+
+def test_vi_a_m1090
+  r = spreadsheet.vi_a_m1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(690265309.1324688,r[:number],0.001)
+end
+
+def test_vi_a_n1090
+  r = spreadsheet.vi_a_n1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(748943564.3712137,r[:number],0.001)
+end
+
+def test_vi_a_o1090
+  r = spreadsheet.vi_a_o1090
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(807621819.6099588,r[:number],0.001)
+end
+
+def test_vi_a_e1091
+  r = spreadsheet.vi_a_e1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(13015816000.0,r[:number],0.001)
+end
+
+def test_vi_a_f1091
+  r = spreadsheet.vi_a_f1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(10186655994.41536,r[:number],0.001)
+end
+
+def test_vi_a_g1091
+  r = spreadsheet.vi_a_g1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(10186655994.41536,r[:number],0.001)
+end
+
+def test_vi_a_h1091
+  r = spreadsheet.vi_a_h1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(11165071853.57817,r[:number],0.001)
+end
+
+def test_vi_a_i1091
+  r = spreadsheet.vi_a_i1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(12073490246.339872,r[:number],0.001)
+end
+
+def test_vi_a_j1091
+  r = spreadsheet.vi_a_j1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(12913782794.012491,r[:number],0.001)
+end
+
+def test_vi_a_k1091
+  r = spreadsheet.vi_a_k1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(13687821117.90805,r[:number],0.001)
+end
+
+def test_vi_a_l1091
+  r = spreadsheet.vi_a_l1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(14397476839.33858,r[:number],0.001)
+end
+
+def test_vi_a_m1091
+  r = spreadsheet.vi_a_m1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(15044621579.616089,r[:number],0.001)
+end
+
+def test_vi_a_n1091
+  r = spreadsheet.vi_a_n1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(15631126960.052618,r[:number],0.001)
+end
+
+def test_vi_a_o1091
+  r = spreadsheet.vi_a_o1091
+  assert_equal(:ExcelNumber,r[:type])
+  assert_in_epsilon(16158864601.960176,r[:number],0.001)
+end
+
 
   # start of VI.b
 

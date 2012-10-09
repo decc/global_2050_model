@@ -16,6 +16,8 @@ class Global2050ModelResult < Global2050ModelUtilities
       reset
       @pathway = { _id: code, choices: set_choices(code) }
       primary_energy_tables
+      fossil_fuel_reserve_tables
+      land_use_table
     end
     return pathway
   end
@@ -24,7 +26,26 @@ class Global2050ModelResult < Global2050ModelUtilities
     pathway[:ghg] = table 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151
     pathway[:final_energy_demand, ] = table 13, 14, 15, 16
     pathway[:primary_energy_supply] = table 23, 24, 25, 26, 27, 28, 29, 30, 32, 36, 39, 43, 46
-    pathway[:temperature] = r("intermediate_output_t334")
+    pathway[:cumulative_emissions] = c = r("intermediate_output_t333").to_f
+    # pathway[:temperature] = r("intermediate_output_t334").to_s.gsub(/[^0-9]+/,'') # Doesn't work?
+    pathway[:temperature] = (c * 0.000004908718)-3.533933411416
+  end
+
+  def fossil_fuel_reserve_tables
+    pathway[:fossil_fuel_used] = h = {}
+    h[:coal] = r("intermediate_output_n348").to_f
+    h[:gas] = r("intermediate_output_p348").to_f
+    h[:oil] = r("intermediate_output_r348").to_f
+  end
+
+
+  def land_use_table
+    pathway[:land_use] = h = {}
+    1087.upto(1091).each do |row|
+      name = r("vi_a_d#{row}").to_s.strip
+      values = ('g'..'o').to_a.map { |column| r("vi_a_#{column}#{row}") }
+      h[name] = values
+    end
   end
   
   
@@ -69,4 +90,5 @@ if __FILE__ == $0
   te = Time.now - t
   puts "#{te/tests} seconds per run"
   puts "#{tests/te} runs per second"
+  p a.map { |h| h[:temperature] }
 end

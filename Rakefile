@@ -23,7 +23,8 @@ file 'ext/global_2050_model.c' do
     "Flows" => :all, 
     "AQ Outputs" => :all, 
     'IX.a' => (0.upto(12).to_a.map { |i| "f#{595+i}" }),
-    'IX.c' => (0.upto(12).to_a.map { |i| "n#{317+i}" })
+    'IX.c' => (0.upto(12).to_a.map { |i| "n#{317+i}" }),
+    'VI.a' => (1086.upto(1091).to_a.map { |row| ('c'..'o').to_a.map { |column| "#{column}#{row}" } }).flatten
   }
   
   # Add the version number
