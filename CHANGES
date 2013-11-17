@@ -1,4 +1,10 @@
-# 0.0.8
+# 0.0.3
+
++ Slight tweak to the underlying excel to change a lever name
++ Update to the new version of excel_to_code
++ Slightly modernised the scripts for setting up an AWS for building the gem
+
+# 0.0.2
 
 1. Updated to new version of excel_to_code that avoids memory leaks
 2. Added some useful utility scripts for deploying the model

@@ -4,7 +4,7 @@ class Global2050ModelResult < Global2050ModelUtilities
   attr_accessor :excel, :pathway
   
   def initialize
-    @excel = Global2050Model
+    @excel = Global2050ModelShim.new
   end
   
   def self.calculate_pathway(code)

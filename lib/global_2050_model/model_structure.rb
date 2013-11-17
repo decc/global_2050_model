@@ -7,7 +7,7 @@ class ModelStructure < Global2050ModelUtilities
   attr_accessor :excel, :choices
     
   def initialize
-    @excel = Global2050Model
+    @excel = Global2050ModelShim.new
     @choices = []
     types.each_with_index do |choice_type,i|
       case choice_type
