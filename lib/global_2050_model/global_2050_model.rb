@@ -361,18 +361,106 @@ module Global2050Model
   attach_function 'outputs_climate_impacts_c2', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_e2', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_b3', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_b4', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c5', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d7', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d9', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e9', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f9', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g9', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d10', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e10', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f10', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g10', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d11', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e11', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f11', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g11', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d12', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e12', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f12', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g12', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c15', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d17', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d19', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e19', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f19', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d20', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e20', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f20', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g20', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d22', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d24', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e24', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f24', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g24', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d25', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e25', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f25', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g25', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d32', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d34', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e34', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f34', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d35', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e35', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f35', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g35', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c38', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d40', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d41', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d43', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d45', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e45', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f45', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g45', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d46', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e46', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f46', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g46', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d47', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e47', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f47', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g47', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d48', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e48', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f48', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g48', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d49', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e49', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f49', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g49', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d50', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e50', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f50', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g50', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d51', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e51', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f51', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g51', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d52', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e52', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f52', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g52', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d53', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e53', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f53', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g53', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c58', [], ExcelValue.by_value
   # end of Outputs - Climate impacts
 
   # start of Outputs - Emissions
   attach_function 'outputs_emissions_b2', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c2', [], ExcelValue.by_value
   attach_function 'outputs_emissions_e2', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k2', [], ExcelValue.by_value
   attach_function 'outputs_emissions_b3', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k3', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c5', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k5', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c7', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d7', [], ExcelValue.by_value
   attach_function 'outputs_emissions_f7', [], ExcelValue.by_value
@@ -380,6 +468,8 @@ module Global2050Model
   attach_function 'outputs_emissions_c8', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d8', [], ExcelValue.by_value
   attach_function 'outputs_emissions_f8', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k8', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k9', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c11', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c13', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c14', [], ExcelValue.by_value
@@ -391,7 +481,7 @@ module Global2050Model
   attach_function 'outputs_emissions_c19', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c21', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d21', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_g21', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d22', [], ExcelValue.by_value
   attach_function 'outputs_emissions_b26', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c26', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c28', [], ExcelValue.by_value
@@ -821,42 +911,73 @@ module Global2050Model
   attach_function 'outputs_emissions_ah58', [], ExcelValue.by_value
   attach_function 'outputs_emissions_ai58', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj58', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c59', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d59', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d60', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c63', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj59', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c62', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h63', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r63', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa63', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d64', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p64', [], ExcelValue.by_value
   attach_function 'outputs_emissions_r64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z64', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aa64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai64', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj64', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c65', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r65', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai65', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj65', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c66', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d66', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s66', [], ExcelValue.by_value
@@ -872,9 +993,36 @@ module Global2050Model
   attach_function 'outputs_emissions_c70', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d70', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s70', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c71', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r71', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj71', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c72', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d72', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h72', [], ExcelValue.by_value
   attach_function 'outputs_emissions_i72', [], ExcelValue.by_value
@@ -904,41 +1052,45 @@ module Global2050Model
   attach_function 'outputs_emissions_ah72', [], ExcelValue.by_value
   attach_function 'outputs_emissions_ai72', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj72', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d73', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d74', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c75', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h76', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r76', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa76', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c77', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h78', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r78', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa78', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj77', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c78', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d78', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s78', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r79', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d79', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai79', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj79', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c80', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d80', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s80', [], ExcelValue.by_value
@@ -960,52 +1112,106 @@ module Global2050Model
   attach_function 'outputs_emissions_c86', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d86', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s86', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c87', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r87', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai87', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj87', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c88', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d88', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s88', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj89', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c90', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c93', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d93', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d94', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_b99', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c91', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d91', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d92', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_b97', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c97', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c99', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj99', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h100', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r100', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa100', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai101', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj101', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d102', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p102', [], ExcelValue.by_value
   attach_function 'outputs_emissions_r102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z102', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aa102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj102', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c103', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d103', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h103', [], ExcelValue.by_value
   attach_function 'outputs_emissions_i103', [], ExcelValue.by_value
@@ -1275,100 +1481,46 @@ module Global2050Model
   attach_function 'outputs_emissions_ah111', [], ExcelValue.by_value
   attach_function 'outputs_emissions_ai111', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj111', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c112', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj112', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj113', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d114', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c118', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h119', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r119', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa119', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c116', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h117', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r117', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa117', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj118', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c119', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d119', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s119', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c120', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r120', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai120', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj120', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c121', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d121', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s121', [], ExcelValue.by_value
@@ -1393,77 +1545,77 @@ module Global2050Model
   attach_function 'outputs_emissions_c128', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d128', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s128', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c129', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r129', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s129', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c130', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai129', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj129', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d130', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s130', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj131', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d132', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d133', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c134', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h135', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r135', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa135', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c136', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h137', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r137', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa137', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj136', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c137', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d137', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s137', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c138', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r138', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai138', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj138', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c139', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d139', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s139', [], ExcelValue.by_value
@@ -1476,76 +1628,76 @@ module Global2050Model
   attach_function 'outputs_emissions_c142', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d142', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s142', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c143', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r143', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s143', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c144', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai143', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj143', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d144', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s144', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj145', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d146', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d147', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c148', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h149', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r149', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa149', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c150', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h151', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r151', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa151', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj150', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c151', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d151', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s151', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r152', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d152', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai152', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj152', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c153', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d153', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s153', [], ExcelValue.by_value
@@ -1567,52 +1719,106 @@ module Global2050Model
   attach_function 'outputs_emissions_c159', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d159', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s159', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c160', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r160', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai160', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj160', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c161', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d161', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s161', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj162', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c163', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c166', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d166', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d167', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_b172', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c164', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d164', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d165', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_b170', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c170', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c172', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj172', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h173', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r173', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa173', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai174', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj174', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d175', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p175', [], ExcelValue.by_value
   attach_function 'outputs_emissions_r175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z175', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aa175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj175', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c176', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d176', [], ExcelValue.by_value
   attach_function 'outputs_emissions_h176', [], ExcelValue.by_value
   attach_function 'outputs_emissions_i176', [], ExcelValue.by_value
@@ -1882,100 +2088,46 @@ module Global2050Model
   attach_function 'outputs_emissions_ah184', [], ExcelValue.by_value
   attach_function 'outputs_emissions_ai184', [], ExcelValue.by_value
   attach_function 'outputs_emissions_aj184', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c185', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj185', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj186', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d187', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c191', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h192', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r192', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa192', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c189', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h190', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r190', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa190', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj191', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c192', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d192', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s192', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c193', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r193', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai193', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj193', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c194', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d194', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s194', [], ExcelValue.by_value
@@ -2000,77 +2152,77 @@ module Global2050Model
   attach_function 'outputs_emissions_c201', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d201', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s201', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c202', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r202', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s202', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c203', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai202', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj202', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d203', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s203', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj204', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d205', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d206', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c207', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h208', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r208', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa208', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c209', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h210', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r210', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa210', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj209', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c210', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d210', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s210', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c211', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r211', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai211', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj211', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c212', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d212', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s212', [], ExcelValue.by_value
@@ -2083,76 +2235,76 @@ module Global2050Model
   attach_function 'outputs_emissions_c215', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d215', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s215', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c216', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r216', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s216', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c217', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai216', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj216', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d217', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s217', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj218', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d219', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d220', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c221', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h222', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r222', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa222', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c223', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h224', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r224', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa224', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj223', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c224', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d224', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_s224', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r225', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d225', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai225', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj225', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c226', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d226', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s226', [], ExcelValue.by_value
@@ -2174,45 +2326,39 @@ module Global2050Model
   attach_function 'outputs_emissions_c232', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d232', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s232', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c233', [], ExcelValue.by_value
   attach_function 'outputs_emissions_d233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_h233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_i233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_j233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_k233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_l233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_m233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_n233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_o233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_p233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_r233', [], ExcelValue.by_value
   attach_function 'outputs_emissions_s233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_t233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_u233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_v233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_w233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_x233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_y233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_z233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aa233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ab233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ac233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ad233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ae233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_af233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ag233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ah233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_ai233', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_aj233', [], ExcelValue.by_value
   attach_function 'outputs_emissions_c234', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d234', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s234', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_h235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_i235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_j235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_k235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_l235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_m235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_n235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_o235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_p235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_r235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_s235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_t235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_u235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_v235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_w235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_x235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_y235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_z235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aa235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ab235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ac235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ad235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ae235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_af235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ag235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ah235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_ai235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_aj235', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c236', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_c239', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d239', [], ExcelValue.by_value
-  attach_function 'outputs_emissions_d240', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_c237', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d237', [], ExcelValue.by_value
+  attach_function 'outputs_emissions_d238', [], ExcelValue.by_value
   # end of Outputs - Emissions
 
   # start of Outputs - Energy
@@ -2627,51 +2773,71 @@ module Global2050Model
   attach_function 'outputs_energy_e86', [], ExcelValue.by_value
   attach_function 'outputs_energy_f86', [], ExcelValue.by_value
   attach_function 'outputs_energy_h86', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k86', [], ExcelValue.by_value
   attach_function 'outputs_energy_c87', [], ExcelValue.by_value
   attach_function 'outputs_energy_d87', [], ExcelValue.by_value
   attach_function 'outputs_energy_e87', [], ExcelValue.by_value
   attach_function 'outputs_energy_f87', [], ExcelValue.by_value
   attach_function 'outputs_energy_h87', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k87', [], ExcelValue.by_value
   attach_function 'outputs_energy_c88', [], ExcelValue.by_value
   attach_function 'outputs_energy_d88', [], ExcelValue.by_value
   attach_function 'outputs_energy_e88', [], ExcelValue.by_value
   attach_function 'outputs_energy_f88', [], ExcelValue.by_value
   attach_function 'outputs_energy_h88', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k88', [], ExcelValue.by_value
   attach_function 'outputs_energy_c89', [], ExcelValue.by_value
   attach_function 'outputs_energy_d89', [], ExcelValue.by_value
   attach_function 'outputs_energy_e89', [], ExcelValue.by_value
   attach_function 'outputs_energy_f89', [], ExcelValue.by_value
   attach_function 'outputs_energy_h89', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k89', [], ExcelValue.by_value
   attach_function 'outputs_energy_c91', [], ExcelValue.by_value
   attach_function 'outputs_energy_c93', [], ExcelValue.by_value
   attach_function 'outputs_energy_d93', [], ExcelValue.by_value
   attach_function 'outputs_energy_e93', [], ExcelValue.by_value
   attach_function 'outputs_energy_f93', [], ExcelValue.by_value
   attach_function 'outputs_energy_h93', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k93', [], ExcelValue.by_value
   attach_function 'outputs_energy_c94', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d94', [], ExcelValue.by_value
   attach_function 'outputs_energy_e94', [], ExcelValue.by_value
   attach_function 'outputs_energy_f94', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h94', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k94', [], ExcelValue.by_value
   attach_function 'outputs_energy_c95', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d95', [], ExcelValue.by_value
   attach_function 'outputs_energy_e95', [], ExcelValue.by_value
   attach_function 'outputs_energy_f95', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h95', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k95', [], ExcelValue.by_value
   attach_function 'outputs_energy_c96', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d96', [], ExcelValue.by_value
   attach_function 'outputs_energy_e96', [], ExcelValue.by_value
   attach_function 'outputs_energy_f96', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h96', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k96', [], ExcelValue.by_value
   attach_function 'outputs_energy_c98', [], ExcelValue.by_value
   attach_function 'outputs_energy_c100', [], ExcelValue.by_value
   attach_function 'outputs_energy_d100', [], ExcelValue.by_value
   attach_function 'outputs_energy_e100', [], ExcelValue.by_value
   attach_function 'outputs_energy_f100', [], ExcelValue.by_value
   attach_function 'outputs_energy_h100', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k100', [], ExcelValue.by_value
   attach_function 'outputs_energy_c101', [], ExcelValue.by_value
-  attach_function 'outputs_energy_e101', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d101', [], ExcelValue.by_value
   attach_function 'outputs_energy_f101', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h101', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k101', [], ExcelValue.by_value
   attach_function 'outputs_energy_c102', [], ExcelValue.by_value
-  attach_function 'outputs_energy_e102', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d102', [], ExcelValue.by_value
   attach_function 'outputs_energy_f102', [], ExcelValue.by_value
-  attach_function 'outputs_energy_c103', [], ExcelValue.by_value
-  attach_function 'outputs_energy_e103', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h102', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k102', [], ExcelValue.by_value
+  attach_function 'outputs_energy_d103', [], ExcelValue.by_value
   attach_function 'outputs_energy_f103', [], ExcelValue.by_value
+  attach_function 'outputs_energy_h103', [], ExcelValue.by_value
+  attach_function 'outputs_energy_k103', [], ExcelValue.by_value
   attach_function 'outputs_energy_b107', [], ExcelValue.by_value
   attach_function 'outputs_energy_h109', [], ExcelValue.by_value
   attach_function 'outputs_energy_r109', [], ExcelValue.by_value
@@ -3489,6 +3655,15 @@ module Global2050Model
   attach_function 'outputs_energy_flows_j2', [], ExcelValue.by_value
   attach_function 'outputs_energy_flows_b3', [], ExcelValue.by_value
   # end of Outputs - Energy flows
+
+  # start of Data for webtool
+  # end of Data for webtool
+
+  # start of Summary historic energy data
+  # end of Summary historic energy data
+
+  # start of Detailed historic energy data
+  # end of Detailed historic energy data
 
   # start of Structure of the model
   # end of Structure of the model
