@@ -1,0 +1,29 @@
+require 'bundler'
+Bundler.setup
+require 'excel_to_code'
+
+command = ExcelToC.new
+
+command.excel_file = "spreadsheet/2050Model.xlsx"
+command.output_directory = 'ext'
+command.output_name = 'global_2050_model'
+
+command.cells_that_can_be_set_at_runtime = { "User inputs" => (7.upto(45).to_a.map { |r| "d#{r}" }) }
+
+command.cells_to_keep = {
+  "User inputs" => :all,
+  "Detailed lever guids" => :all,
+  "Outputs - Climate impacts" => :all,
+  "Outputs - Emissions" => :all,
+  "Outputs - Energy" => :all,
+  "Outputs - Land use, technology" => :all,
+  "Outputs - Costs" => :all,
+  "Outputs - Energy flows" => :all,
+}
+
+command.actually_compile_code = true
+command.actually_run_tests = true
+
+command.run_in_memory = true
+
+command.go!
