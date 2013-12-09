@@ -1,17 +1,29 @@
-GEM
-  remote: http://rubygems.org/
+GIT
+  remote: /Users/tamc/Documents/github/excel_to_code
+  revision: 8f9810344dacf78b1f3fe0bb249e776e535ee134
+  branch: symbolise
   specs:
-    diff-lcs (1.2.5)
-    excel_to_code (0.1.21)
+    excel_to_code (0.1.23)
       ffi (>= 1.0.11)
       nokogiri (>= 1.5.0)
       rspec (>= 2.7.0)
       rubypeg
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coderay (1.0.9)
+    diff-lcs (1.2.5)
     ffi (1.9.3)
+    method_source (0.8.2)
     mini_portile (0.5.2)
     minitest (5.0.8)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    pry (0.9.12.4)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rake (10.1.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -24,12 +36,15 @@ GEM
     rubypeg (0.0.4)
       rubyscriptwriter
     rubyscriptwriter (0.0.2)
+    slop (3.4.4)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
-  excel_to_code (= 0.1.21)
+  excel_to_code!
   ffi
   minitest
+  pry
   rake
