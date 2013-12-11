@@ -1,7 +1,7 @@
 GIT
   remote: /Users/tamc/Documents/github/excel_to_code
-  revision: 8f9810344dacf78b1f3fe0bb249e776e535ee134
-  branch: symbolise
+  revision: bab85f52dd1a866c23c1630bc0bb72d4cad330ad
+  branch: fewerSaveLoads
   specs:
     excel_to_code (0.1.23)
       ffi (>= 1.0.11)
@@ -12,9 +12,13 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     coderay (1.0.9)
+    debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     ffi (1.9.3)
+    interception (0.3)
     method_source (0.8.2)
     mini_portile (0.5.2)
     minitest (5.0.8)
@@ -24,6 +28,12 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pry-rescue (1.2.0)
+      interception (>= 0.3)
+      pry
+    pry-stack_explorer (0.4.9.1)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
     rake (10.1.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -47,4 +57,6 @@ DEPENDENCIES
   ffi
   minitest
   pry
+  pry-rescue
+  pry-stack_explorer
   rake
