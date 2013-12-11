@@ -8,7 +8,7 @@ command.excel_file = "spreadsheet/2050Model.xlsx"
 command.output_directory = 'ext'
 command.output_name = 'global_2050_model'
 
-command.cells_that_can_be_set_at_runtime = { "User inputs" => (7.upto(45).to_a.map { |r| "d#{r}" }) }
+command.cells_that_can_be_set_at_runtime = { "User inputs" => (7.upto(46).to_a.map { |r| "E#{r}" }) }
 
 command.cells_to_keep = {
   "User inputs" => :all,
