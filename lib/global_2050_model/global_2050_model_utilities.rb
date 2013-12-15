@@ -21,7 +21,7 @@ class Global2050ModelUtilities
     end
   end
   
-  CONTROL = (5..57).to_a.map { |r| "control_e#{r}"  }
+  CONTROL = (7..46).to_a.map { |r| "user_inputs_e#{r}"  }
   
   def set_choices(code)
     choices = code.split('')
