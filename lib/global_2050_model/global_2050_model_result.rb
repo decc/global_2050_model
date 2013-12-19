@@ -38,5 +38,5 @@ if __FILE__ == $0
   te = Time.now - t
   puts "#{te/tests} seconds per run"
   puts "#{tests/te} runs per second"
-  p a.map { |h| h[:ghg] }
+  p a.map { |h| h[:ghg].last }
 end
