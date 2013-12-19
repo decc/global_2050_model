@@ -4851,6 +4851,101 @@ class TestGlobal2050Model < Minitest::Test
   def test_outputs_emissions_c380; assert_equal("Emissions intensity", worksheet.outputs_emissions_c380); end
   def test_outputs_emissions_d380; assert_equal("Mt/TWh", worksheet.outputs_emissions_d380); end
   def test_outputs_emissions_d381; assert_equal("g/KWh", worksheet.outputs_emissions_d381); end
+  def test_outputs_climate_impacts_b2; assert_equal("G", worksheet.outputs_climate_impacts_b2); end
+  def test_outputs_climate_impacts_c2; assert_equal("Global", worksheet.outputs_climate_impacts_c2); end
+  def test_outputs_climate_impacts_e2; assert_equal("Click here to return to the \"contents\" page", worksheet.outputs_climate_impacts_e2); end
+  def test_outputs_climate_impacts_b3; assert_equal("Climate impacts", worksheet.outputs_climate_impacts_b3); end
+  def test_outputs_climate_impacts_c5; assert_equal("Global Warming (simple model calculation)", worksheet.outputs_climate_impacts_c5); end
+  def test_outputs_climate_impacts_d7; assert_equal("Change in models' global mean temperature from own baseline", worksheet.outputs_climate_impacts_d7); end
+  def test_outputs_climate_impacts_d9; assert_equal("Scenario", worksheet.outputs_climate_impacts_d9); end
+  def test_outputs_climate_impacts_e9; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_e9, 0.002); end
+  def test_outputs_climate_impacts_f9; assert_in_epsilon(2100.0, worksheet.outputs_climate_impacts_f9, 0.002); end
+  def test_outputs_climate_impacts_g9; assert_equal("Units", worksheet.outputs_climate_impacts_g9); end
+  def test_outputs_climate_impacts_d10; assert_equal("High", worksheet.outputs_climate_impacts_d10); end
+  def test_outputs_climate_impacts_e10; assert_in_epsilon(2.431359791517281, worksheet.outputs_climate_impacts_e10, 0.002); end
+  def test_outputs_climate_impacts_f10; assert_in_epsilon(3.232107281422814, worksheet.outputs_climate_impacts_f10, 0.002); end
+  def test_outputs_climate_impacts_g10; assert_equal("degrees C", worksheet.outputs_climate_impacts_g10); end
+  def test_outputs_climate_impacts_d11; assert_equal("Mid", worksheet.outputs_climate_impacts_d11); end
+  def test_outputs_climate_impacts_e11; assert_in_epsilon(1.3960702665710598, worksheet.outputs_climate_impacts_e11, 0.002); end
+  def test_outputs_climate_impacts_f11; assert_in_epsilon(1.908548660110601, worksheet.outputs_climate_impacts_f11, 0.002); end
+  def test_outputs_climate_impacts_g11; assert_equal("degrees C", worksheet.outputs_climate_impacts_g11); end
+  def test_outputs_climate_impacts_d12; assert_equal("Low", worksheet.outputs_climate_impacts_d12); end
+  def test_outputs_climate_impacts_e12; assert_in_delta(0.4480351332855299, worksheet.outputs_climate_impacts_e12, 0.002); end
+  def test_outputs_climate_impacts_f12; assert_in_delta(0.7042743300553005, worksheet.outputs_climate_impacts_f12, 0.002); end
+  def test_outputs_climate_impacts_g12; assert_equal("degrees C", worksheet.outputs_climate_impacts_g12); end
+  def test_outputs_climate_impacts_c15; assert_equal("Back of the envelope calculation", worksheet.outputs_climate_impacts_c15); end
+  def test_outputs_climate_impacts_d17; assert_equal("Extra energy trapped by the extra carbon dioxide in atmosphere (over pre-industrial levels):", worksheet.outputs_climate_impacts_d17); end
+  def test_outputs_climate_impacts_d19; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_d19, 0.002); end
+  def test_outputs_climate_impacts_e19; assert_in_epsilon(2100.0, worksheet.outputs_climate_impacts_e19, 0.002); end
+  def test_outputs_climate_impacts_f19; assert_equal("Units", worksheet.outputs_climate_impacts_f19); end
+  def test_outputs_climate_impacts_d20; assert_in_epsilon(4398278.138150311, worksheet.outputs_climate_impacts_d20, 0.002); end
+  def test_outputs_climate_impacts_e20; assert_in_epsilon(5140693.796253677, worksheet.outputs_climate_impacts_e20, 0.002); end
+  def test_outputs_climate_impacts_f20; assert_equal("EJ", worksheet.outputs_climate_impacts_f20); end
+  def test_outputs_climate_impacts_g20; assert_equal("Makes most sense in big units (TWh)", worksheet.outputs_climate_impacts_g20); end
+  def test_outputs_climate_impacts_d22; assert_equal("Order of magnitude mass of ice melted:", worksheet.outputs_climate_impacts_d22); end
+  def test_outputs_climate_impacts_d24; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_d24, 0.002); end
+  def test_outputs_climate_impacts_e24; assert_in_epsilon(2100.0, worksheet.outputs_climate_impacts_e24, 0.002); end
+  def test_outputs_climate_impacts_f24; assert_equal("Units", worksheet.outputs_climate_impacts_f24); end
+  def test_outputs_climate_impacts_g24; assert_equal("Equivalent to % of Greenland by 2100", worksheet.outputs_climate_impacts_g24); end
+  def test_outputs_climate_impacts_d25; assert_in_epsilon(351114723680245.3, worksheet.outputs_climate_impacts_d25, 0.002); end
+  def test_outputs_climate_impacts_e25; assert_in_epsilon(410381796035173.0, worksheet.outputs_climate_impacts_e25, 0.002); end
+  def test_outputs_climate_impacts_f25; assert_equal("t", worksheet.outputs_climate_impacts_f25); end
+  def test_outputs_climate_impacts_g25; assert_in_delta(0.15273941813346423, worksheet.outputs_climate_impacts_g25, 0.002); end
+  def test_outputs_climate_impacts_d27; assert_equal("Sea level rise due to this ice melting:", worksheet.outputs_climate_impacts_d27); end
+  def test_outputs_climate_impacts_d29; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_d29, 0.002); end
+  def test_outputs_climate_impacts_e29; assert_in_epsilon(2100.0, worksheet.outputs_climate_impacts_e29, 0.002); end
+  def test_outputs_climate_impacts_f29; assert_equal("Units", worksheet.outputs_climate_impacts_f29); end
+  def test_outputs_climate_impacts_d30; assert_in_delta(0.9753186768895702, worksheet.outputs_climate_impacts_d30, 0.002); end
+  def test_outputs_climate_impacts_e30; assert_in_epsilon(1.1399494334310358, worksheet.outputs_climate_impacts_e30, 0.002); end
+  def test_outputs_climate_impacts_f30; assert_equal("m", worksheet.outputs_climate_impacts_f30); end
+  def test_outputs_climate_impacts_d32; assert_equal("Order of magnitude sea level rise due to thermal expansion of the oceans:", worksheet.outputs_climate_impacts_d32); end
+  def test_outputs_climate_impacts_d34; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_d34, 0.002); end
+  def test_outputs_climate_impacts_e34; assert_in_epsilon(2100.0, worksheet.outputs_climate_impacts_e34, 0.002); end
+  def test_outputs_climate_impacts_f34; assert_equal("Units", worksheet.outputs_climate_impacts_f34); end
+  def test_outputs_climate_impacts_d35; assert_in_delta(0.2104327160999217, worksheet.outputs_climate_impacts_d35, 0.002); end
+  def test_outputs_climate_impacts_e35; assert_in_delta(0.2459531035112335, worksheet.outputs_climate_impacts_e35, 0.002); end
+  def test_outputs_climate_impacts_f35; assert_equal("m", worksheet.outputs_climate_impacts_f35); end
+  def test_outputs_climate_impacts_c38; assert_equal("Simple model outputs", worksheet.outputs_climate_impacts_c38); end
+  def test_outputs_climate_impacts_d40; assert_equal("Temperature patterns: see folder with pictures (emailed to Markus).  Display those with GMT between low and high values above.", worksheet.outputs_climate_impacts_d40); end
+  def test_outputs_climate_impacts_d41; assert_equal("For the first iteration of the calculator this will not be user-interactive but will show only a 2-degree animation (range from 1.9 to 2.1 degrees above each model's own baseline).", worksheet.outputs_climate_impacts_d41); end
+  def test_outputs_climate_impacts_d43; assert_equal("Pictures to include in animation:", worksheet.outputs_climate_impacts_d43); end
+  def test_outputs_climate_impacts_d45; assert_equal("Model name", worksheet.outputs_climate_impacts_d45); end
+  def test_outputs_climate_impacts_e45; assert_equal("RCP scenario", worksheet.outputs_climate_impacts_e45); end
+  def test_outputs_climate_impacts_f45; assert_equal("Central year", worksheet.outputs_climate_impacts_f45); end
+  def test_outputs_climate_impacts_g45; assert_equal("Change from baseline (K)", worksheet.outputs_climate_impacts_g45); end
+  def test_outputs_climate_impacts_d46; assert_equal("NorESM1-M", worksheet.outputs_climate_impacts_d46); end
+  def test_outputs_climate_impacts_e46; assert_equal("rcp45", worksheet.outputs_climate_impacts_e46); end
+  def test_outputs_climate_impacts_f46; assert_in_epsilon(2070.0, worksheet.outputs_climate_impacts_f46, 0.002); end
+  def test_outputs_climate_impacts_g46; assert_in_epsilon(1.9083, worksheet.outputs_climate_impacts_g46, 0.002); end
+  def test_outputs_climate_impacts_d47; assert_equal("MIROC5", worksheet.outputs_climate_impacts_d47); end
+  def test_outputs_climate_impacts_e47; assert_equal("rcp45", worksheet.outputs_climate_impacts_e47); end
+  def test_outputs_climate_impacts_f47; assert_in_epsilon(2070.0, worksheet.outputs_climate_impacts_f47, 0.002); end
+  def test_outputs_climate_impacts_g47; assert_in_epsilon(1.9481, worksheet.outputs_climate_impacts_g47, 0.002); end
+  def test_outputs_climate_impacts_d48; assert_equal("NorESM1-M", worksheet.outputs_climate_impacts_d48); end
+  def test_outputs_climate_impacts_e48; assert_equal("rcp85", worksheet.outputs_climate_impacts_e48); end
+  def test_outputs_climate_impacts_f48; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_f48, 0.002); end
+  def test_outputs_climate_impacts_g48; assert_in_epsilon(1.9763, worksheet.outputs_climate_impacts_g48, 0.002); end
+  def test_outputs_climate_impacts_d49; assert_equal("MIROC5", worksheet.outputs_climate_impacts_d49); end
+  def test_outputs_climate_impacts_e49; assert_equal("rcp85", worksheet.outputs_climate_impacts_e49); end
+  def test_outputs_climate_impacts_f49; assert_in_epsilon(2050.0, worksheet.outputs_climate_impacts_f49, 0.002); end
+  def test_outputs_climate_impacts_g49; assert_in_epsilon(2.0023, worksheet.outputs_climate_impacts_g49, 0.002); end
+  def test_outputs_climate_impacts_d50; assert_equal("NorESM1-M", worksheet.outputs_climate_impacts_d50); end
+  def test_outputs_climate_impacts_e50; assert_equal("rcp45", worksheet.outputs_climate_impacts_e50); end
+  def test_outputs_climate_impacts_f50; assert_in_epsilon(2080.0, worksheet.outputs_climate_impacts_f50, 0.002); end
+  def test_outputs_climate_impacts_g50; assert_in_epsilon(2.0056, worksheet.outputs_climate_impacts_g50, 0.002); end
+  def test_outputs_climate_impacts_d51; assert_equal("IPSL-CM5A-LR", worksheet.outputs_climate_impacts_d51); end
+  def test_outputs_climate_impacts_e51; assert_equal("rcp85", worksheet.outputs_climate_impacts_e51); end
+  def test_outputs_climate_impacts_f51; assert_in_epsilon(2030.0, worksheet.outputs_climate_impacts_f51, 0.002); end
+  def test_outputs_climate_impacts_g51; assert_in_epsilon(2.0311, worksheet.outputs_climate_impacts_g51, 0.002); end
+  def test_outputs_climate_impacts_d52; assert_equal("CanESM2", worksheet.outputs_climate_impacts_d52); end
+  def test_outputs_climate_impacts_e52; assert_equal("rcp85", worksheet.outputs_climate_impacts_e52); end
+  def test_outputs_climate_impacts_f52; assert_in_epsilon(2030.0, worksheet.outputs_climate_impacts_f52, 0.002); end
+  def test_outputs_climate_impacts_g52; assert_in_epsilon(2.0604, worksheet.outputs_climate_impacts_g52, 0.002); end
+  def test_outputs_climate_impacts_d53; assert_equal("MIROC5", worksheet.outputs_climate_impacts_d53); end
+  def test_outputs_climate_impacts_e53; assert_equal("rcp45", worksheet.outputs_climate_impacts_e53); end
+  def test_outputs_climate_impacts_f53; assert_in_epsilon(2080.0, worksheet.outputs_climate_impacts_f53, 0.002); end
+  def test_outputs_climate_impacts_g53; assert_in_epsilon(2.0721, worksheet.outputs_climate_impacts_g53, 0.002); end
+  def test_outputs_climate_impacts_c58; assert_equal("End of sheet", worksheet.outputs_climate_impacts_c58); end
   def test_outputs_land_use_technology_b2; assert_equal("G", worksheet.outputs_land_use_technology_b2); end
   def test_outputs_land_use_technology_c2; assert_equal("Global", worksheet.outputs_land_use_technology_c2); end
   def test_outputs_land_use_technology_e2; assert_equal("Click here to return to the \"contents\" page", worksheet.outputs_land_use_technology_e2); end
