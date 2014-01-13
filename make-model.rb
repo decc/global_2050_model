@@ -13,7 +13,7 @@ command.output_name = 'global_2050_model'
 
 command.cells_to_keep = {
   "User inputs" => :all,
-  "Detailed lever guids" => :all,
+  "Detailed lever guides" => :all,
   "Outputs - Climate impacts" => :all,
   "Outputs - Emissions" => :all,
   "Outputs - Energy" => :all,
