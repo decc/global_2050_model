@@ -16,7 +16,7 @@ file 'ext/global_2050_model.c' do
 
   command.cells_to_keep = {
     "User inputs" => :all,
-    "Detailed lever guids" => :all,
+    "Detailed lever guides" => :all,
     "Outputs - Climate impacts" => :all,
     "Outputs - Emissions" => :all,
     "Outputs - Energy" => :all,
@@ -24,6 +24,9 @@ file 'ext/global_2050_model.c' do
     "Outputs - Costs" => :all,
     "Outputs - Energy flows" => :all,
   }
+
+  command.extract_repeated_parts_of_formulae = false
+  command.isolate = "G.30 (data)"
   
   command.actually_compile_code = true
   command.actually_run_tests = true

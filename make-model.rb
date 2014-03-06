@@ -20,46 +20,19 @@ command.cells_to_keep = {
   "Outputs - Land use, technology" => :all,
   "Outputs - Costs" => :all,
   "Outputs - Energy flows" => :all,
-  "Outputs - Misc" => :all
 }
 
-command.named_references_to_keep = [
-  'webtool.1990.to.2050.demand',
-  'webtool.1990.to.2050.supply',
-  'webtool.bio.2011',
-  'webtool.bio.2050',
-  'webtool.buildings.2011.to.2050',
-  'webtool.buildings.historic',
-  'webtool.C02e.timeseries',
-  'Webtool.CO2.50.percent.2C',
-  'webtool.CO2e.total.emissions',
-  'webtool.cumulative.CO2e.2011',
-  'webtool.cumulative.CO2e.2100',
-  'webtool.demand.2011.actual',
-  'webtool.demand.2050',
-  'webtool.diet.2050',
-  'webtool.electricity',
-  'webtool.electricity.2011',
-  'webtool.electricity.2050',
-  'webtool.land.use',
-  'webtool.remaining.coal',
-  'webtool.remaining.gas',
-  'webtool.remaining.oil',
-  'webtool.supply.2011.actual',
-  'webtool.supply.2050',
-  'webtool.transport.2011.to.2050',
-  'webtool.transport.historic',
-  'webtool.vehicles.2011',
-  'webtool.vehicles.2050',
-  'webtool.warming.2100',
-  'webtool.user.choices.description',
-  'webtool.user.choices.limit',
-  'webtool.user.choices.names'
-]
+command.named_references_to_keep = lambda do |named_reference|
+  named_reference =~ /^webtool\./i
+end
 
 command.named_references_that_can_be_set_at_runtime = [
   'webtool.user.choices',
 ]
+
+#command.isolate = ["G.30", "Outputs - Energy", "G.2011.energy", "G.30 (data)"]
+#command.isolate = ["G.30 (data)"]
+#command.isolate = ["G.30", ]
 
 command.actually_compile_code = true
 command.actually_run_tests = true
