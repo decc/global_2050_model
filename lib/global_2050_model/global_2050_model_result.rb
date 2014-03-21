@@ -21,7 +21,7 @@ class Global2050ModelResult < Global2050ModelUtilities
   end
       
   def test_results
-    @pathway[:ghg] = ('p'..'x').map { |c| r("outputs_emissions_#{c}38") }
+    @pathway[:ghg] = ('p'..'x').map { |c| r("outputs_emissions_#{c}54") }
   end
 
 end
@@ -29,7 +29,7 @@ end
 if __FILE__ == $0
   g = Global2050ModelResult.new
 
-  tests = 100
+  tests = 500
   t = Time.now
   a = []
   tests.times do
