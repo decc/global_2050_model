@@ -20,6 +20,7 @@ def setup(command)
     "Outputs - Land use, technology" => :all,
     "Outputs - Costs" => :all,
     "Outputs - Energy flows" => :all,
+    "Outputs - food flows" => :all,
   }
 
   command.named_references_to_keep = lambda do |named_reference|
