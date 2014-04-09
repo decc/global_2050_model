@@ -19,23 +19,26 @@ class ModelStructure < Global2050ModelUtilities
   end
   
   def reported_calculator_version
-    r("control_t1")
+    "0.0.0"
+    #r("control_t1")
   end
   
   def types
-    @types ||= (5..58).to_a.map { |row| r("control_f#{row}") }
+    @types ||= @excel.webtool_user_choices_limit.flatten
   end
   
   def names
-    @names ||= (5..58).to_a.map { |row| r("control_d#{row}") }
+    @names ||= @excel.webtool_user_choices_names.flatten
   end
 
   def descriptions
-    @descriptions ||= (5..58).to_a.map { |row| [r("control_h#{row}"),r("control_i#{row}"),r("control_j#{row}"),r("control_k#{row}")] }
+    @descriptions ||= names.map.with_index do |name, i|
+      (1..4).to_a.map { |level| "#{name} #{level}" }
+    end
   end
 
   def long_descriptions
-    @long_descriptions ||=  (5..58).to_a.map  { |row| [r("control_be#{row}"),r("control_bf#{row}"),r("control_bg#{row}"),r("control_bh#{row}")] }
+    descriptions
   end
     
   def demand_choices

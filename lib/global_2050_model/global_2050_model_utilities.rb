@@ -6,6 +6,8 @@ class Global2050ModelUtilities
   FLOAT_TO_LETTER_MAP[2.0] = '2'
   FLOAT_TO_LETTER_MAP[3.0] = '3'
   FLOAT_TO_LETTER_MAP[4.0] = '4'
+  FLOAT_TO_LETTER_MAP[5.0] = '5'
+  FLOAT_TO_LETTER_MAP[6.0] = '6'
   
   LETTER_TO_FLOAT_MAP = FLOAT_TO_LETTER_MAP.invert
   
@@ -20,13 +22,57 @@ class Global2050ModelUtilities
       LETTER_TO_FLOAT_MAP[entry].to_f || entry.to_f
     end
   end
-  
-  CONTROL = (7..46).to_a.map { |r| "user_inputs_e#{r}"  }
+
+  COUNTRY_TO_NUMBER_MAP = {
+    "US" => 1.0,
+    "India" => 2.0,
+    "China" => 3.0,
+    "Central and South America / Former Soviet Union" => 4.0,
+    "Western Europe" => 5.0,
+    "Africa" => 6.0
+  }
+
+  NUMBER_TO_COUNTRY_MAP = COUNTRY_TO_NUMBER_MAP.invert
+
+  ABCD_TO_NUMBER_MAP = { 'A' => 1.0, 'B' => 2.0, 'C' => 3.0, 'D' => 4.0 }
+  NUMBER_TO_ABCD_MAP = ABCD_TO_NUMBER_MAP.invert
+
+  def decode(code)
+    choices = code.to_s.split('')
+    choices.concat(['1']*(48-choices.length)) if choices.length < 48
+    choices.map! do |entry|
+      LETTER_TO_FLOAT_MAP[entry].to_f
+    end
+    # Countries expect a country name
+    choices[-1] = NUMBER_TO_COUNTRY_MAP[choices[-1]]
+    choices[-2] = NUMBER_TO_COUNTRY_MAP[choices[-2]]
+    choices[-3] = NUMBER_TO_COUNTRY_MAP[choices[-3]]
+    # Some choices that expect a letter
+    choices[-4] = NUMBER_TO_ABCD_MAP[choices[-4]] 
+    choices[-6] = NUMBER_TO_ABCD_MAP[choices[-6]] 
+    choices
+  end
+
+  def encode(choices)
+    choices = choices.flatten
+    # Some choices use a letter
+    choices[-4] = ABCD_TO_NUMBER_MAP[choices[-4]] 
+    choices[-6] = ABCD_TO_NUMBER_MAP[choices[-6]] 
+    # Some choices use a country name
+    choices[-1] = COUNTRY_TO_NUMBER_MAP[choices[-1]]
+    choices[-2] = COUNTRY_TO_NUMBER_MAP[choices[-2]]
+    choices[-3] = COUNTRY_TO_NUMBER_MAP[choices[-3]]
+    choices.map! do |entry|
+      FLOAT_TO_LETTER_MAP[entry.to_f]
+    end
+    code = choices.join('')
+    code
+  end
   
   def set_choices(code)
-    choices = code.split('')
-    choices = convert_letters_to_float(choices)
-    set_array(CONTROL,choices)
+    return @excel.webtool_user_choices.flatten unless code
+    choices = decode(code)
+    @excel.webtool_user_choices = choices
     choices
   end
   
