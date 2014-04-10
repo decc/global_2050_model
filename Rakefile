@@ -17,7 +17,7 @@ def setup(command)
     "Outputs - Climate impacts" => :all,
     "Outputs - Emissions" => :all,
     "Outputs - Energy" => :all,
-    "Outputs - Land use, technology" => :all,
+    "Outputs - physical implications" => :all,
     "Outputs - Costs" => :all,
     "Outputs - Energy flows" => :all,
     "Outputs - food flows" => :all,

@@ -1,9 +1,9 @@
 GIT
   remote: /Users/tamc/Documents/github/excel_to_code
-  revision: 51c80387c3f51a59807b6a090f1f42638f28566f
+  revision: d66341df58ce8c49b0697b78bbf08e788acbe841
   branch: master
   specs:
-    excel_to_code (0.2.19)
+    excel_to_code (0.2.20)
       ffi (>= 1.0.11)
       nokogiri (>= 1.5.0)
       ox (>= 2.0.12)
