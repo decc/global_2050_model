@@ -13,24 +13,17 @@ GEM
       rspec (~> 2.7, >= 2.7.0)
       rubypeg (~> 0)
     ffi (1.9.3)
-    ffi (1.9.3-java)
     interception (0.4)
     method_source (0.8.2)
-    mini_portile (0.6.0)
+    mini_portile (0.5.2)
     minitest (5.2.3)
-    nokogiri (1.6.2.1)
-      mini_portile (= 0.6.0)
-    nokogiri (1.6.2.1-java)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
     ox (2.1.1)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
-    pry (0.9.12.6-java)
-      coderay (~> 1.0)
-      method_source (~> 0.8)
-      slop (~> 3.4)
-      spoon (~> 0.0)
     pry-rescue (1.4.0)
       interception (>= 0.4)
       pry
@@ -50,8 +43,6 @@ GEM
       rubyscriptwriter
     rubyscriptwriter (0.0.2)
     slop (3.5.0)
-    spoon (0.0.4)
-      ffi
 
 PLATFORMS
   java
