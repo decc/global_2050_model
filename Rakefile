@@ -11,17 +11,17 @@ def setup(command)
   # Superceeded by named_references_that_can_be_set_at_runtime below
   # command.cells_that_can_be_set_at_runtime = { "User inputs" => (7.upto(46).to_a.map { |r| "E#{r}" }) }
 
-  command.cells_to_keep = {
-    "User inputs" => :all,
-    "Detailed lever guides" => :all,
-    "Outputs - Climate impacts" => :all,
-    "Outputs - Emissions" => :all,
-    "Outputs - Energy" => :all,
-    "Outputs - physical implications" => :all,
-    "Outputs - Costs" => :all,
-    "Outputs - Energy flows" => :all,
-    "Outputs - food flows" => :all,
-  }
+  #command.cells_to_keep = {
+  #  "User inputs" => :all,
+  #  "Detailed lever guides" => :all,
+  #  "Outputs - Climate impacts" => :all,
+  #  "Outputs - Emissions" => :all,
+  #  "Outputs - Energy" => :all,
+  #  "Outputs - physical implications" => :all,
+  #  "Outputs - Costs" => :all,
+  #  "Outputs - Energy flows" => :all,
+  #  "Outputs - food flows" => :all,
+  #}
 
   command.named_references_to_keep = lambda do |named_reference|
     named_reference =~ /^webtool\./i
