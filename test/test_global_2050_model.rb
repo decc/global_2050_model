@@ -1665,6 +1665,3827 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_costs_h13; assert_in_epsilon(2.491760825666284, worksheet.outputs_costs_h13, 0.002); end
   def test_outputs_costs_f13; assert_in_epsilon(1.6063047155033339, worksheet.outputs_costs_f13, 0.002); end
   def test_outputs_costs_g13; assert_in_epsilon(3.5195725340268176, worksheet.outputs_costs_g13, 0.002); end
+  def test_outputs_energy_flows_c8; assert_equal("Vector code energy is taken from", worksheet.outputs_energy_flows_c8); end
+  def test_outputs_energy_flows_d8; assert_equal("TAKEN FROM", worksheet.outputs_energy_flows_d8); end
+  def test_outputs_energy_flows_e8; assert_equal("Vector code energy is taken to", worksheet.outputs_energy_flows_e8); end
+  def test_outputs_energy_flows_f8; assert_equal("TAKEN TO", worksheet.outputs_energy_flows_f8); end
+  def test_outputs_energy_flows_g8; assert_equal("Technology code", worksheet.outputs_energy_flows_g8); end
+  def test_outputs_energy_flows_h8; assert_equal("Technology description", worksheet.outputs_energy_flows_h8); end
+  def test_outputs_energy_flows_i8; assert_equal("Energy code", worksheet.outputs_energy_flows_i8); end
+  def test_outputs_energy_flows_j8; assert_equal("Description", worksheet.outputs_energy_flows_j8); end
+  def test_outputs_energy_flows_k8; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_k8); end
+  def test_outputs_energy_flows_l8; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_l8); end
+  def test_outputs_energy_flows_m8; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_m8); end
+  def test_outputs_energy_flows_v8; assert_in_epsilon(2011.0, worksheet.outputs_energy_flows_v8, 0.002); end
+  def test_outputs_energy_flows_w8; assert_in_epsilon(2015.0, worksheet.outputs_energy_flows_w8, 0.002); end
+  def test_outputs_energy_flows_x8; assert_in_epsilon(2020.0, worksheet.outputs_energy_flows_x8, 0.002); end
+  def test_outputs_energy_flows_y8; assert_in_epsilon(2025.0, worksheet.outputs_energy_flows_y8, 0.002); end
+  def test_outputs_energy_flows_z8; assert_in_epsilon(2030.0, worksheet.outputs_energy_flows_z8, 0.002); end
+  def test_outputs_energy_flows_aa8; assert_in_epsilon(2035.0, worksheet.outputs_energy_flows_aa8, 0.002); end
+  def test_outputs_energy_flows_ab8; assert_in_epsilon(2040.0, worksheet.outputs_energy_flows_ab8, 0.002); end
+  def test_outputs_energy_flows_ac8; assert_in_epsilon(2045.0, worksheet.outputs_energy_flows_ac8, 0.002); end
+  def test_outputs_energy_flows_ad8; assert_in_epsilon(2050.0, worksheet.outputs_energy_flows_ad8, 0.002); end
+  def test_outputs_energy_flows_c10; assert_equal("R.01", worksheet.outputs_energy_flows_c10); end
+  def test_outputs_energy_flows_d10; assert_equal("Global Solar", worksheet.outputs_energy_flows_d10); end
+  def test_outputs_energy_flows_e10; assert_equal("n/a", worksheet.outputs_energy_flows_e10); end
+  def test_outputs_energy_flows_f10; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f10); end
+  def test_outputs_energy_flows_g10; assert_equal("n/a", worksheet.outputs_energy_flows_g10); end
+  def test_outputs_energy_flows_h10; assert_equal("solar", worksheet.outputs_energy_flows_h10); end
+  def test_outputs_energy_flows_i10; assert_equal("E.02", worksheet.outputs_energy_flows_i10); end
+  def test_outputs_energy_flows_j10; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j10); end
+  def test_outputs_energy_flows_v10; assert_in_delta(0.19187020800000004, worksheet.outputs_energy_flows_v10, 0.002); end
+  def test_outputs_energy_flows_w10; assert_in_delta(0.513757728, worksheet.outputs_energy_flows_w10, 0.002); end
+  def test_outputs_energy_flows_x10; assert_in_epsilon(1.5387485759999997, worksheet.outputs_energy_flows_x10, 0.002); end
+  def test_outputs_energy_flows_y10; assert_in_epsilon(1.6599297599999998, worksheet.outputs_energy_flows_y10, 0.002); end
+  def test_outputs_energy_flows_z10; assert_in_epsilon(1.84296384, worksheet.outputs_energy_flows_z10, 0.002); end
+  def test_outputs_energy_flows_aa10; assert_in_epsilon(2.12698224, worksheet.outputs_energy_flows_aa10, 0.002); end
+  def test_outputs_energy_flows_ab10; assert_in_epsilon(2.187572832, worksheet.outputs_energy_flows_ab10, 0.002); end
+  def test_outputs_energy_flows_ac10; assert_in_epsilon(2.6988059519999994, worksheet.outputs_energy_flows_ac10, 0.002); end
+  def test_outputs_energy_flows_ad10; assert_in_epsilon(3.516778943999999, worksheet.outputs_energy_flows_ad10, 0.002); end
+  def test_outputs_energy_flows_c12; assert_equal("R.01", worksheet.outputs_energy_flows_c12); end
+  def test_outputs_energy_flows_d12; assert_equal("Global Solar", worksheet.outputs_energy_flows_d12); end
+  def test_outputs_energy_flows_e12; assert_equal("L.01", worksheet.outputs_energy_flows_e12); end
+  def test_outputs_energy_flows_f12; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f12); end
+  def test_outputs_energy_flows_g12; assert_equal("n/a", worksheet.outputs_energy_flows_g12); end
+  def test_outputs_energy_flows_h12; assert_equal("solar", worksheet.outputs_energy_flows_h12); end
+  def test_outputs_energy_flows_i12; assert_equal("L.01", worksheet.outputs_energy_flows_i12); end
+  def test_outputs_energy_flows_j12; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j12); end
+  def test_outputs_energy_flows_v12; assert_in_delta(0.040954752, worksheet.outputs_energy_flows_v12, 0.002); end
+  def test_outputs_energy_flows_w12; assert_in_delta(0.26542214246730117, worksheet.outputs_energy_flows_w12, 0.002); end
+  def test_outputs_energy_flows_x12; assert_in_epsilon(1.6375383400125538, worksheet.outputs_energy_flows_x12, 0.002); end
+  def test_outputs_energy_flows_y12; assert_in_epsilon(1.9355457997544665, worksheet.outputs_energy_flows_y12, 0.002); end
+  def test_outputs_energy_flows_z12; assert_in_epsilon(2.4130989906537725, worksheet.outputs_energy_flows_z12, 0.002); end
+  def test_outputs_energy_flows_aa12; assert_in_epsilon(2.7563705591445915, worksheet.outputs_energy_flows_aa12, 0.002); end
+  def test_outputs_energy_flows_ab12; assert_in_epsilon(2.676151755713701, worksheet.outputs_energy_flows_ab12, 0.002); end
+  def test_outputs_energy_flows_ac12; assert_in_epsilon(3.1157967661676977, worksheet.outputs_energy_flows_ac12, 0.002); end
+  def test_outputs_energy_flows_ad12; assert_in_epsilon(3.860680886409402, worksheet.outputs_energy_flows_ad12, 0.002); end
+  def test_outputs_energy_flows_c14; assert_equal("R.01", worksheet.outputs_energy_flows_c14); end
+  def test_outputs_energy_flows_d14; assert_equal("Global Solar", worksheet.outputs_energy_flows_d14); end
+  def test_outputs_energy_flows_e14; assert_equal("N/A", worksheet.outputs_energy_flows_e14); end
+  def test_outputs_energy_flows_f14; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f14); end
+  def test_outputs_energy_flows_g14; assert_equal("n/a", worksheet.outputs_energy_flows_g14); end
+  def test_outputs_energy_flows_h14; assert_equal("Global buildings", worksheet.outputs_energy_flows_h14); end
+  def test_outputs_energy_flows_i14; assert_equal("N/A", worksheet.outputs_energy_flows_i14); end
+  def test_outputs_energy_flows_j14; assert_equal("Heating, cooling and hot water", worksheet.outputs_energy_flows_j14); end
+  def test_outputs_energy_flows_v14; assert_in_delta(0.3652678323974, worksheet.outputs_energy_flows_v14, 0.002); end
+  def test_outputs_energy_flows_w14; assert_in_delta(0.4437888320379728, worksheet.outputs_energy_flows_w14, 0.002); end
+  def test_outputs_energy_flows_x14; assert_in_delta(0.5605627439552463, worksheet.outputs_energy_flows_x14, 0.002); end
+  def test_outputs_energy_flows_y14; assert_in_delta(0.6975303059619533, worksheet.outputs_energy_flows_y14, 0.002); end
+  def test_outputs_energy_flows_z14; assert_in_delta(0.8644424512297011, worksheet.outputs_energy_flows_z14, 0.002); end
+  def test_outputs_energy_flows_aa14; assert_in_epsilon(1.0543179726879837, worksheet.outputs_energy_flows_aa14, 0.002); end
+  def test_outputs_energy_flows_ab14; assert_in_epsilon(1.2595444822707536, worksheet.outputs_energy_flows_ab14, 0.002); end
+  def test_outputs_energy_flows_ac14; assert_in_epsilon(1.4964251336322378, worksheet.outputs_energy_flows_ac14, 0.002); end
+  def test_outputs_energy_flows_ad14; assert_in_epsilon(1.7252662306546875, worksheet.outputs_energy_flows_ad14, 0.002); end
+  def test_outputs_energy_flows_c16; assert_equal("R.02", worksheet.outputs_energy_flows_c16); end
+  def test_outputs_energy_flows_d16; assert_equal("Global Wind", worksheet.outputs_energy_flows_d16); end
+  def test_outputs_energy_flows_e16; assert_equal("n/a", worksheet.outputs_energy_flows_e16); end
+  def test_outputs_energy_flows_f16; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f16); end
+  def test_outputs_energy_flows_h16; assert_equal("wind", worksheet.outputs_energy_flows_h16); end
+  def test_outputs_energy_flows_i16; assert_equal("E.02", worksheet.outputs_energy_flows_i16); end
+  def test_outputs_energy_flows_j16; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j16); end
+  def test_outputs_energy_flows_v16; assert_in_epsilon(1.5996452767199998, worksheet.outputs_energy_flows_v16, 0.002); end
+  def test_outputs_energy_flows_w16; assert_in_epsilon(2.9582094239999996, worksheet.outputs_energy_flows_w16, 0.002); end
+  def test_outputs_energy_flows_x16; assert_in_epsilon(3.5750973887999997, worksheet.outputs_energy_flows_x16, 0.002); end
+  def test_outputs_energy_flows_y16; assert_in_epsilon(3.7459502352, worksheet.outputs_energy_flows_y16, 0.002); end
+  def test_outputs_energy_flows_z16; assert_in_epsilon(4.1983599888, worksheet.outputs_energy_flows_z16, 0.002); end
+  def test_outputs_energy_flows_aa16; assert_in_epsilon(4.604506300800001, worksheet.outputs_energy_flows_aa16, 0.002); end
+  def test_outputs_energy_flows_ab16; assert_in_epsilon(5.912884396800001, worksheet.outputs_energy_flows_ab16, 0.002); end
+  def test_outputs_energy_flows_ac16; assert_in_epsilon(8.808167966400001, worksheet.outputs_energy_flows_ac16, 0.002); end
+  def test_outputs_energy_flows_ad16; assert_in_epsilon(10.849881571200003, worksheet.outputs_energy_flows_ad16, 0.002); end
+  def test_outputs_energy_flows_c18; assert_equal("R.03", worksheet.outputs_energy_flows_c18); end
+  def test_outputs_energy_flows_d18; assert_equal("Global Tidal", worksheet.outputs_energy_flows_d18); end
+  def test_outputs_energy_flows_e18; assert_equal("n/a", worksheet.outputs_energy_flows_e18); end
+  def test_outputs_energy_flows_f18; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f18); end
+  def test_outputs_energy_flows_g18; assert_equal("tidal.elec", worksheet.outputs_energy_flows_g18); end
+  def test_outputs_energy_flows_h18; assert_equal("Global Tidal", worksheet.outputs_energy_flows_h18); end
+  def test_outputs_energy_flows_i18; assert_equal("E.02", worksheet.outputs_energy_flows_i18); end
+  def test_outputs_energy_flows_j18; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j18); end
+  def test_outputs_energy_flows_v18; assert_in_delta(0.0041577138, worksheet.outputs_energy_flows_v18, 0.002); end
+  def test_outputs_energy_flows_w18; assert_in_delta(0.0069426719999999996, worksheet.outputs_energy_flows_w18, 0.002); end
+  def test_outputs_energy_flows_x18; assert_in_delta(0.01104516, worksheet.outputs_energy_flows_x18, 0.002); end
+  def test_outputs_energy_flows_y18; assert_in_delta(0.01735668, worksheet.outputs_energy_flows_y18, 0.002); end
+  def test_outputs_energy_flows_z18; assert_in_delta(0.029979719999999994, worksheet.outputs_energy_flows_z18, 0.002); end
+  def test_outputs_energy_flows_aa18; assert_in_delta(0.04575851999999999, worksheet.outputs_energy_flows_aa18, 0.002); end
+  def test_outputs_energy_flows_ab18; assert_in_delta(0.07100459999999999, worksheet.outputs_energy_flows_ab18, 0.002); end
+  def test_outputs_energy_flows_ac18; assert_in_delta(0.08836127999999997, worksheet.outputs_energy_flows_ac18, 0.002); end
+  def test_outputs_energy_flows_ad18; assert_in_delta(0.11045159999999997, worksheet.outputs_energy_flows_ad18, 0.002); end
+  def test_outputs_energy_flows_c20; assert_equal("R.04", worksheet.outputs_energy_flows_c20); end
+  def test_outputs_energy_flows_d20; assert_equal("Global Wave", worksheet.outputs_energy_flows_d20); end
+  def test_outputs_energy_flows_e20; assert_equal("n/a", worksheet.outputs_energy_flows_e20); end
+  def test_outputs_energy_flows_f20; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f20); end
+  def test_outputs_energy_flows_g20; assert_equal("wave.elec", worksheet.outputs_energy_flows_g20); end
+  def test_outputs_energy_flows_h20; assert_equal("Global Wave", worksheet.outputs_energy_flows_h20); end
+  def test_outputs_energy_flows_i20; assert_equal("E.02", worksheet.outputs_energy_flows_i20); end
+  def test_outputs_energy_flows_j20; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j20); end
+  def test_outputs_energy_flows_v20; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v20||0), 0.002); end
+  def test_outputs_energy_flows_w20; assert_in_delta(0.0043549487999999985, worksheet.outputs_energy_flows_w20, 0.002); end
+  def test_outputs_energy_flows_x20; assert_in_delta(0.0043549487999999985, worksheet.outputs_energy_flows_x20, 0.002); end
+  def test_outputs_energy_flows_y20; assert_in_delta(0.023289508799999994, worksheet.outputs_energy_flows_y20, 0.002); end
+  def test_outputs_energy_flows_z20; assert_in_delta(0.06627095999999998, worksheet.outputs_energy_flows_z20, 0.002); end
+  def test_outputs_energy_flows_aa20; assert_in_delta(0.11360735999999995, worksheet.outputs_energy_flows_aa20, 0.002); end
+  def test_outputs_energy_flows_ab20; assert_in_delta(0.16662412799999995, worksheet.outputs_energy_flows_ab20, 0.002); end
+  def test_outputs_energy_flows_ac20; assert_in_delta(0.23289508799999994, worksheet.outputs_energy_flows_ac20, 0.002); end
+  def test_outputs_energy_flows_ad20; assert_in_delta(0.2802314879999999, worksheet.outputs_energy_flows_ad20, 0.002); end
+  def test_outputs_energy_flows_c22; assert_equal("R.05", worksheet.outputs_energy_flows_c22); end
+  def test_outputs_energy_flows_d22; assert_equal("Global Geothermal", worksheet.outputs_energy_flows_d22); end
+  def test_outputs_energy_flows_e22; assert_equal("n/a", worksheet.outputs_energy_flows_e22); end
+  def test_outputs_energy_flows_f22; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f22); end
+  def test_outputs_energy_flows_g22; assert_equal("geothermal.elec", worksheet.outputs_energy_flows_g22); end
+  def test_outputs_energy_flows_h22; assert_equal("Global Geothermal", worksheet.outputs_energy_flows_h22); end
+  def test_outputs_energy_flows_i22; assert_equal("E.02", worksheet.outputs_energy_flows_i22); end
+  def test_outputs_energy_flows_j22; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j22); end
+  def test_outputs_energy_flows_v22; assert_in_delta(0.2885626944, worksheet.outputs_energy_flows_v22, 0.002); end
+  def test_outputs_energy_flows_w22; assert_in_delta(0.36354355200000005, worksheet.outputs_energy_flows_w22, 0.002); end
+  def test_outputs_energy_flows_x22; assert_in_delta(0.44938022399999994, worksheet.outputs_energy_flows_x22, 0.002); end
+  def test_outputs_energy_flows_y22; assert_in_delta(0.509970816, worksheet.outputs_energy_flows_y22, 0.002); end
+  def test_outputs_energy_flows_z22; assert_in_delta(0.5453153279999999, worksheet.outputs_energy_flows_z22, 0.002); end
+  def test_outputs_energy_flows_aa22; assert_in_delta(0.8432190719999999, worksheet.outputs_energy_flows_aa22, 0.002); end
+  def test_outputs_energy_flows_ab22; assert_in_epsilon(1.0502369279999997, worksheet.outputs_energy_flows_ab22, 0.002); end
+  def test_outputs_energy_flows_ac22; assert_in_epsilon(1.383485184, worksheet.outputs_energy_flows_ac22, 0.002); end
+  def test_outputs_energy_flows_ad22; assert_in_epsilon(1.7369303039999997, worksheet.outputs_energy_flows_ad22, 0.002); end
+  def test_outputs_energy_flows_c24; assert_equal("R.05", worksheet.outputs_energy_flows_c24); end
+  def test_outputs_energy_flows_d24; assert_equal("Global Geothermal", worksheet.outputs_energy_flows_d24); end
+  def test_outputs_energy_flows_e24; assert_equal("L.01", worksheet.outputs_energy_flows_e24); end
+  def test_outputs_energy_flows_f24; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f24); end
+  def test_outputs_energy_flows_g24; assert_equal("geothermal.elec", worksheet.outputs_energy_flows_g24); end
+  def test_outputs_energy_flows_h24; assert_equal("Global Geothermal", worksheet.outputs_energy_flows_h24); end
+  def test_outputs_energy_flows_i24; assert_equal("L.01", worksheet.outputs_energy_flows_i24); end
+  def test_outputs_energy_flows_j24; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j24); end
+  def test_outputs_energy_flows_v24; assert_in_epsilon(2.5970642496, worksheet.outputs_energy_flows_v24, 0.002); end
+  def test_outputs_energy_flows_w24; assert_in_epsilon(3.2640786279201723, worksheet.outputs_energy_flows_w24, 0.002); end
+  def test_outputs_energy_flows_x24; assert_in_epsilon(4.022749387880884, worksheet.outputs_energy_flows_x24, 0.002); end
+  def test_outputs_energy_flows_y24; assert_in_epsilon(4.551581030083372, worksheet.outputs_energy_flows_y24, 0.002); end
+  def test_outputs_energy_flows_z24; assert_in_epsilon(4.852612993023374, worksheet.outputs_energy_flows_z24, 0.002); end
+  def test_outputs_energy_flows_aa24; assert_in_epsilon(7.481392058012148, worksheet.outputs_energy_flows_aa24, 0.002); end
+  def test_outputs_energy_flows_ab24; assert_in_epsilon(9.290655341938646, worksheet.outputs_energy_flows_ab24, 0.002); end
+  def test_outputs_energy_flows_ac24; assert_in_epsilon(12.20263612737634, worksheet.outputs_energy_flows_ac24, 0.002); end
+  def test_outputs_energy_flows_ad24; assert_in_epsilon(15.275119686205679, worksheet.outputs_energy_flows_ad24, 0.002); end
+  def test_outputs_energy_flows_c26; assert_equal("R.06", worksheet.outputs_energy_flows_c26); end
+  def test_outputs_energy_flows_d26; assert_equal("Global Hydro", worksheet.outputs_energy_flows_d26); end
+  def test_outputs_energy_flows_e26; assert_equal("n/a", worksheet.outputs_energy_flows_e26); end
+  def test_outputs_energy_flows_f26; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f26); end
+  def test_outputs_energy_flows_g26; assert_equal("hydro.elec", worksheet.outputs_energy_flows_g26); end
+  def test_outputs_energy_flows_h26; assert_equal("Global Hydroelectric dam", worksheet.outputs_energy_flows_h26); end
+  def test_outputs_energy_flows_i26; assert_equal("E.02", worksheet.outputs_energy_flows_i26); end
+  def test_outputs_energy_flows_j26; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j26); end
+  def test_outputs_energy_flows_v26; assert_in_epsilon(13.46878368, worksheet.outputs_energy_flows_v26, 0.002); end
+  def test_outputs_energy_flows_w26; assert_in_epsilon(13.9769872704, worksheet.outputs_energy_flows_w26, 0.002); end
+  def test_outputs_energy_flows_x26; assert_in_epsilon(15.035050483199997, worksheet.outputs_energy_flows_x26, 0.002); end
+  def test_outputs_energy_flows_y26; assert_in_epsilon(16.17642576, worksheet.outputs_energy_flows_y26, 0.002); end
+  def test_outputs_energy_flows_z26; assert_in_epsilon(17.4080557728, worksheet.outputs_energy_flows_z26, 0.002); end
+  def test_outputs_energy_flows_aa26; assert_in_epsilon(18.7216093152, worksheet.outputs_energy_flows_aa26, 0.002); end
+  def test_outputs_energy_flows_ab26; assert_in_epsilon(20.121251990399998, worksheet.outputs_energy_flows_ab26, 0.002); end
+  def test_outputs_energy_flows_ac26; assert_in_epsilon(21.5333914752, worksheet.outputs_energy_flows_ac26, 0.002); end
+  def test_outputs_energy_flows_ad26; assert_in_epsilon(23.045505436800003, worksheet.outputs_energy_flows_ad26, 0.002); end
+  def test_outputs_energy_flows_c28; assert_equal("R.06", worksheet.outputs_energy_flows_c28); end
+  def test_outputs_energy_flows_d28; assert_equal("Global Hydro", worksheet.outputs_energy_flows_d28); end
+  def test_outputs_energy_flows_e28; assert_equal("E.02", worksheet.outputs_energy_flows_e28); end
+  def test_outputs_energy_flows_f28; assert_equal("Storage", worksheet.outputs_energy_flows_f28); end
+  def test_outputs_energy_flows_g28; assert_equal("storage.elec", worksheet.outputs_energy_flows_g28); end
+  def test_outputs_energy_flows_h28; assert_equal("Global Storage unit", worksheet.outputs_energy_flows_h28); end
+  def test_outputs_energy_flows_i28; assert_equal("E.02", worksheet.outputs_energy_flows_i28); end
+  def test_outputs_energy_flows_j28; assert_equal("Storage", worksheet.outputs_energy_flows_j28); end
+  def test_outputs_energy_flows_v28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v28||0), 0.002); end
+  def test_outputs_energy_flows_w28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w28||0), 0.002); end
+  def test_outputs_energy_flows_x28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x28||0), 0.002); end
+  def test_outputs_energy_flows_y28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y28||0), 0.002); end
+  def test_outputs_energy_flows_z28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z28||0), 0.002); end
+  def test_outputs_energy_flows_aa28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa28||0), 0.002); end
+  def test_outputs_energy_flows_ab28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab28||0), 0.002); end
+  def test_outputs_energy_flows_ac28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac28||0), 0.002); end
+  def test_outputs_energy_flows_ad28; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad28||0), 0.002); end
+  def test_outputs_energy_flows_c30; assert_equal("R.07", worksheet.outputs_energy_flows_c30); end
+  def test_outputs_energy_flows_d30; assert_equal("Global Environmental heat", worksheet.outputs_energy_flows_d30); end
+  def test_outputs_energy_flows_e30; assert_equal("n/a", worksheet.outputs_energy_flows_e30); end
+  def test_outputs_energy_flows_f30; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f30); end
+  def test_outputs_energy_flows_g30; assert_equal("n/a", worksheet.outputs_energy_flows_g30); end
+  def test_outputs_energy_flows_h30; assert_equal("Global buildings", worksheet.outputs_energy_flows_h30); end
+  def test_outputs_energy_flows_v30; assert_in_epsilon(6.54163397005528, worksheet.outputs_energy_flows_v30, 0.002); end
+  def test_outputs_energy_flows_w30; assert_in_epsilon(7.302853304231076, worksheet.outputs_energy_flows_w30, 0.002); end
+  def test_outputs_energy_flows_x30; assert_in_epsilon(8.206703064226135, worksheet.outputs_energy_flows_x30, 0.002); end
+  def test_outputs_energy_flows_y30; assert_in_epsilon(9.038255104076995, worksheet.outputs_energy_flows_y30, 0.002); end
+  def test_outputs_energy_flows_z30; assert_in_epsilon(9.905850674076177, worksheet.outputs_energy_flows_z30, 0.002); end
+  def test_outputs_energy_flows_aa30; assert_in_epsilon(10.71698451690964, worksheet.outputs_energy_flows_aa30, 0.002); end
+  def test_outputs_energy_flows_ab30; assert_in_epsilon(11.399401988519696, worksheet.outputs_energy_flows_ab30, 0.002); end
+  def test_outputs_energy_flows_ac30; assert_in_epsilon(12.081119702892632, worksheet.outputs_energy_flows_ac30, 0.002); end
+  def test_outputs_energy_flows_ad30; assert_in_epsilon(12.530001711455089, worksheet.outputs_energy_flows_ad30, 0.002); end
+  def test_outputs_energy_flows_d32; assert_equal("Forest residues", worksheet.outputs_energy_flows_d32); end
+  def test_outputs_energy_flows_e32; assert_equal("Forest", worksheet.outputs_energy_flows_e32); end
+  def test_outputs_energy_flows_f32; assert_equal("Solid", worksheet.outputs_energy_flows_f32); end
+  def test_outputs_energy_flows_g32; assert_equal("Forest", worksheet.outputs_energy_flows_g32); end
+  def test_outputs_energy_flows_h32; assert_equal("Global Native forest", worksheet.outputs_energy_flows_h32); end
+  def test_outputs_energy_flows_i32; assert_equal("C.01", worksheet.outputs_energy_flows_i32); end
+  def test_outputs_energy_flows_j32; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j32); end
+  def test_outputs_energy_flows_v32; assert_in_epsilon(19.52229479302264, worksheet.outputs_energy_flows_v32, 0.002); end
+  def test_outputs_energy_flows_w32; assert_in_epsilon(19.16699397132284, worksheet.outputs_energy_flows_w32, 0.002); end
+  def test_outputs_energy_flows_x32; assert_in_epsilon(18.179964134941905, worksheet.outputs_energy_flows_x32, 0.002); end
+  def test_outputs_energy_flows_y32; assert_in_epsilon(17.22052238709775, worksheet.outputs_energy_flows_y32, 0.002); end
+  def test_outputs_energy_flows_z32; assert_in_epsilon(16.38891904030321, worksheet.outputs_energy_flows_z32, 0.002); end
+  def test_outputs_energy_flows_aa32; assert_in_epsilon(15.510862895895764, worksheet.outputs_energy_flows_aa32, 0.002); end
+  def test_outputs_energy_flows_ab32; assert_in_epsilon(14.908258705411104, worksheet.outputs_energy_flows_ab32, 0.002); end
+  def test_outputs_energy_flows_ac32; assert_in_epsilon(14.424174367174464, worksheet.outputs_energy_flows_ac32, 0.002); end
+  def test_outputs_energy_flows_ad32; assert_in_epsilon(14.061398361436364, worksheet.outputs_energy_flows_ad32, 0.002); end
+  def test_outputs_energy_flows_d34; assert_equal("Traditional biomass", worksheet.outputs_energy_flows_d34); end
+  def test_outputs_energy_flows_e34; assert_equal("Forest", worksheet.outputs_energy_flows_e34); end
+  def test_outputs_energy_flows_f34; assert_equal("Solid", worksheet.outputs_energy_flows_f34); end
+  def test_outputs_energy_flows_g34; assert_equal("Forest", worksheet.outputs_energy_flows_g34); end
+  def test_outputs_energy_flows_h34; assert_equal("Global Native forest", worksheet.outputs_energy_flows_h34); end
+  def test_outputs_energy_flows_i34; assert_equal("BM.13", worksheet.outputs_energy_flows_i34); end
+  def test_outputs_energy_flows_j34; assert_equal("Global Traditional biomass", worksheet.outputs_energy_flows_j34); end
+  def test_outputs_energy_flows_v34; assert_in_epsilon(21.277705206977366, worksheet.outputs_energy_flows_v34, 0.002); end
+  def test_outputs_energy_flows_w34; assert_in_epsilon(21.27043340628122, worksheet.outputs_energy_flows_w34, 0.002); end
+  def test_outputs_energy_flows_x34; assert_in_epsilon(20.97736429204835, worksheet.outputs_energy_flows_x34, 0.002); end
+  def test_outputs_energy_flows_y34; assert_in_epsilon(20.634944203589413, worksheet.outputs_energy_flows_y34, 0.002); end
+  def test_outputs_energy_flows_z34; assert_in_epsilon(19.858183835796467, worksheet.outputs_energy_flows_z34, 0.002); end
+  def test_outputs_energy_flows_aa34; assert_in_epsilon(19.27561130717662, worksheet.outputs_energy_flows_aa34, 0.002); end
+  def test_outputs_energy_flows_ab34; assert_in_epsilon(18.782649421189532, worksheet.outputs_energy_flows_ab34, 0.002); end
+  def test_outputs_energy_flows_ac34; assert_in_epsilon(17.88946466891831, worksheet.outputs_energy_flows_ac34, 0.002); end
+  def test_outputs_energy_flows_ad34; assert_in_epsilon(18.2175946322212, worksheet.outputs_energy_flows_ad34, 0.002); end
+  def test_outputs_energy_flows_d36; assert_equal("Biocrops", worksheet.outputs_energy_flows_d36); end
+  def test_outputs_energy_flows_f36; assert_equal("Solid", worksheet.outputs_energy_flows_f36); end
+  def test_outputs_energy_flows_g36; assert_equal("arable.bio", worksheet.outputs_energy_flows_g36); end
+  def test_outputs_energy_flows_h36; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_h36); end
+  def test_outputs_energy_flows_i36; assert_equal("C.01", worksheet.outputs_energy_flows_i36); end
+  def test_outputs_energy_flows_j36; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j36); end
+  def test_outputs_energy_flows_v36; assert_in_epsilon(8.807824862870735, worksheet.outputs_energy_flows_v36, 0.002); end
+  def test_outputs_energy_flows_w36; assert_in_epsilon(9.798501314583001, worksheet.outputs_energy_flows_w36, 0.002); end
+  def test_outputs_energy_flows_x36; assert_in_epsilon(11.031734993016343, worksheet.outputs_energy_flows_x36, 0.002); end
+  def test_outputs_energy_flows_y36; assert_in_epsilon(12.24928173197055, worksheet.outputs_energy_flows_y36, 0.002); end
+  def test_outputs_energy_flows_z36; assert_in_epsilon(13.447128508775872, worksheet.outputs_energy_flows_z36, 0.002); end
+  def test_outputs_energy_flows_aa36; assert_in_epsilon(14.620003462091596, worksheet.outputs_energy_flows_aa36, 0.002); end
+  def test_outputs_energy_flows_ab36; assert_in_epsilon(15.761018889748227, worksheet.outputs_energy_flows_ab36, 0.002); end
+  def test_outputs_energy_flows_ac36; assert_in_epsilon(16.861242176316594, worksheet.outputs_energy_flows_ac36, 0.002); end
+  def test_outputs_energy_flows_ad36; assert_in_epsilon(17.90920021535305, worksheet.outputs_energy_flows_ad36, 0.002); end
+  def test_outputs_energy_flows_d38; assert_equal("Biocrops", worksheet.outputs_energy_flows_d38); end
+  def test_outputs_energy_flows_f38; assert_equal("Liquid", worksheet.outputs_energy_flows_f38); end
+  def test_outputs_energy_flows_g38; assert_equal("arable.bio", worksheet.outputs_energy_flows_g38); end
+  def test_outputs_energy_flows_h38; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_h38); end
+  def test_outputs_energy_flows_i38; assert_equal("C.02", worksheet.outputs_energy_flows_i38); end
+  def test_outputs_energy_flows_j38; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j38); end
+  def test_outputs_energy_flows_v38; assert_in_delta(0.6921751371292655, worksheet.outputs_energy_flows_v38, 0.002); end
+  def test_outputs_energy_flows_w38; assert_in_delta(0.8025243264426388, worksheet.outputs_energy_flows_w38, 0.002); end
+  def test_outputs_energy_flows_x38; assert_in_delta(0.9455726992913466, worksheet.outputs_energy_flows_x38, 0.002); end
+  def test_outputs_energy_flows_y38; assert_in_epsilon(1.1043080116191915, worksheet.outputs_energy_flows_y38, 0.002); end
+  def test_outputs_energy_flows_z38; assert_in_epsilon(1.2827432860959211, worksheet.outputs_energy_flows_z38, 0.002); end
+  def test_outputs_energy_flows_aa38; assert_in_epsilon(1.4861503840622479, worksheet.outputs_energy_flows_aa38, 0.002); end
+  def test_outputs_energy_flows_ab38; assert_in_epsilon(1.7214170076876676, worksheet.outputs_energy_flows_ab38, 0.002); end
+  def test_outputs_energy_flows_ac38; assert_in_epsilon(1.9974757724013559, worksheet.outputs_energy_flows_ac38, 0.002); end
+  def test_outputs_energy_flows_ad38; assert_in_epsilon(2.3257997846469514, worksheet.outputs_energy_flows_ad38, 0.002); end
+  def test_outputs_energy_flows_d40; assert_equal("Biocrops", worksheet.outputs_energy_flows_d40); end
+  def test_outputs_energy_flows_f40; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f40); end
+  def test_outputs_energy_flows_g40; assert_equal("arable.bio", worksheet.outputs_energy_flows_g40); end
+  def test_outputs_energy_flows_h40; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_h40); end
+  def test_outputs_energy_flows_i40; assert_equal("L.01", worksheet.outputs_energy_flows_i40); end
+  def test_outputs_energy_flows_j40; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j40); end
+  def test_outputs_energy_flows_v40; assert_in_epsilon(2.375, worksheet.outputs_energy_flows_v40, 0.002); end
+  def test_outputs_energy_flows_w40; assert_in_epsilon(2.4825186627718274, worksheet.outputs_energy_flows_w40, 0.002); end
+  def test_outputs_energy_flows_x40; assert_in_epsilon(2.5745614665708114, worksheet.outputs_energy_flows_x40, 0.002); end
+  def test_outputs_energy_flows_y40; assert_in_epsilon(2.6215636306433847, worksheet.outputs_energy_flows_y40, 0.002); end
+  def test_outputs_energy_flows_z40; assert_in_epsilon(2.62556627159346, worksheet.outputs_energy_flows_z40, 0.002); end
+  def test_outputs_energy_flows_aa40; assert_in_epsilon(2.588489010989008, worksheet.outputs_energy_flows_aa40, 0.002); end
+  def test_outputs_energy_flows_ab40; assert_in_epsilon(2.5121388826227538, worksheet.outputs_energy_flows_ab40, 0.002); end
+  def test_outputs_energy_flows_ac40; assert_in_epsilon(2.3982184674670215, worksheet.outputs_energy_flows_ac40, 0.002); end
+  def test_outputs_energy_flows_ad40; assert_in_epsilon(2.2483333333333313, worksheet.outputs_energy_flows_ad40, 0.002); end
+  def test_outputs_energy_flows_d42; assert_equal("Biocrops", worksheet.outputs_energy_flows_d42); end
+  def test_outputs_energy_flows_f42; assert_equal("Global oversupply", worksheet.outputs_energy_flows_f42); end
+  def test_outputs_energy_flows_g42; assert_equal("arable.bio", worksheet.outputs_energy_flows_g42); end
+  def test_outputs_energy_flows_h42; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_h42); end
+  def test_outputs_energy_flows_i42; assert_equal("O.01", worksheet.outputs_energy_flows_i42); end
+  def test_outputs_energy_flows_j42; assert_equal("Global Oversupply", worksheet.outputs_energy_flows_j42); end
+  def test_outputs_energy_flows_v42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v42||0), 0.002); end
+  def test_outputs_energy_flows_w42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w42||0), 0.002); end
+  def test_outputs_energy_flows_x42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x42||0), 0.002); end
+  def test_outputs_energy_flows_y42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y42||0), 0.002); end
+  def test_outputs_energy_flows_z42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z42||0), 0.002); end
+  def test_outputs_energy_flows_aa42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa42||0), 0.002); end
+  def test_outputs_energy_flows_ab42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab42||0), 0.002); end
+  def test_outputs_energy_flows_ac42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac42||0), 0.002); end
+  def test_outputs_energy_flows_ad42; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad42||0), 0.002); end
+  def test_outputs_energy_flows_c44; assert_equal("n/a", worksheet.outputs_energy_flows_c44); end
+  def test_outputs_energy_flows_d44; assert_equal("Food waste", worksheet.outputs_energy_flows_d44); end
+  def test_outputs_energy_flows_e44; assert_equal("n/a", worksheet.outputs_energy_flows_e44); end
+  def test_outputs_energy_flows_f44; assert_equal("Bio conversion", worksheet.outputs_energy_flows_f44); end
+  def test_outputs_energy_flows_g44; assert_equal("Arable.food", worksheet.outputs_energy_flows_g44); end
+  def test_outputs_energy_flows_h44; assert_equal("Global Arable land for food crops", worksheet.outputs_energy_flows_h44); end
+  def test_outputs_energy_flows_i44; assert_equal("BM.09", worksheet.outputs_energy_flows_i44); end
+  def test_outputs_energy_flows_j44; assert_equal("Global Dry biomass and waste", worksheet.outputs_energy_flows_j44); end
+  def test_outputs_energy_flows_v44; assert_in_epsilon(4.366532977240504, worksheet.outputs_energy_flows_v44, 0.002); end
+  def test_outputs_energy_flows_w44; assert_in_epsilon(4.643988321301491, worksheet.outputs_energy_flows_w44, 0.002); end
+  def test_outputs_energy_flows_x44; assert_in_epsilon(5.010773610627841, worksheet.outputs_energy_flows_x44, 0.002); end
+  def test_outputs_energy_flows_y44; assert_in_epsilon(5.371705575377009, worksheet.outputs_energy_flows_y44, 0.002); end
+  def test_outputs_energy_flows_z44; assert_in_epsilon(5.727263177438184, worksheet.outputs_energy_flows_z44, 0.002); end
+  def test_outputs_energy_flows_aa44; assert_in_epsilon(6.077823924156319, worksheet.outputs_energy_flows_aa44, 0.002); end
+  def test_outputs_energy_flows_ab44; assert_in_epsilon(6.422191706396695, worksheet.outputs_energy_flows_ab44, 0.002); end
+  def test_outputs_energy_flows_ac44; assert_in_epsilon(6.757718810934998, worksheet.outputs_energy_flows_ac44, 0.002); end
+  def test_outputs_energy_flows_ad44; assert_in_epsilon(7.081953615610837, worksheet.outputs_energy_flows_ad44, 0.002); end
+  def test_outputs_energy_flows_c46; assert_equal("n/a ", worksheet.outputs_energy_flows_c46); end
+  def test_outputs_energy_flows_d46; assert_equal("Waste from animals", worksheet.outputs_energy_flows_d46); end
+  def test_outputs_energy_flows_e46; assert_equal("n/a", worksheet.outputs_energy_flows_e46); end
+  def test_outputs_energy_flows_f46; assert_equal("Bio conversion", worksheet.outputs_energy_flows_f46); end
+  def test_outputs_energy_flows_g46; assert_equal("Pasture.food", worksheet.outputs_energy_flows_g46); end
+  def test_outputs_energy_flows_h46; assert_equal("Global Pasture for animals", worksheet.outputs_energy_flows_h46); end
+  def test_outputs_energy_flows_i46; assert_equal("BM.09", worksheet.outputs_energy_flows_i46); end
+  def test_outputs_energy_flows_j46; assert_equal("Global Dry biomass and waste", worksheet.outputs_energy_flows_j46); end
+  def test_outputs_energy_flows_v46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v46||0), 0.002); end
+  def test_outputs_energy_flows_w46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w46||0), 0.002); end
+  def test_outputs_energy_flows_x46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x46||0), 0.002); end
+  def test_outputs_energy_flows_y46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y46||0), 0.002); end
+  def test_outputs_energy_flows_z46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z46||0), 0.002); end
+  def test_outputs_energy_flows_aa46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa46||0), 0.002); end
+  def test_outputs_energy_flows_ab46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab46||0), 0.002); end
+  def test_outputs_energy_flows_ac46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac46||0), 0.002); end
+  def test_outputs_energy_flows_ad46; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad46||0), 0.002); end
+  def test_outputs_energy_flows_c48; assert_equal("Q.01", worksheet.outputs_energy_flows_c48); end
+  def test_outputs_energy_flows_d48; assert_equal("Global Coal reserves ", worksheet.outputs_energy_flows_d48); end
+  def test_outputs_energy_flows_e48; assert_equal("CFF.01", worksheet.outputs_energy_flows_e48); end
+  def test_outputs_energy_flows_f48; assert_equal("Global Crude coal", worksheet.outputs_energy_flows_f48); end
+  def test_outputs_energy_flows_g48; assert_equal("Coal.extract", worksheet.outputs_energy_flows_g48); end
+  def test_outputs_energy_flows_h48; assert_equal("Global Coal Extraction", worksheet.outputs_energy_flows_h48); end
+  def test_outputs_energy_flows_v48; assert_in_epsilon(126.67735671248202, worksheet.outputs_energy_flows_v48, 0.002); end
+  def test_outputs_energy_flows_w48; assert_in_epsilon(131.3579346371513, worksheet.outputs_energy_flows_w48, 0.002); end
+  def test_outputs_energy_flows_x48; assert_in_epsilon(149.49852157596357, worksheet.outputs_energy_flows_x48, 0.002); end
+  def test_outputs_energy_flows_y48; assert_in_epsilon(167.23098195488186, worksheet.outputs_energy_flows_y48, 0.002); end
+  def test_outputs_energy_flows_z48; assert_in_epsilon(183.62377768274672, worksheet.outputs_energy_flows_z48, 0.002); end
+  def test_outputs_energy_flows_aa48; assert_in_epsilon(197.1356847146045, worksheet.outputs_energy_flows_aa48, 0.002); end
+  def test_outputs_energy_flows_ab48; assert_in_epsilon(206.53948303013172, worksheet.outputs_energy_flows_ab48, 0.002); end
+  def test_outputs_energy_flows_ac48; assert_in_epsilon(208.2177439907133, worksheet.outputs_energy_flows_ac48, 0.002); end
+  def test_outputs_energy_flows_ad48; assert_in_epsilon(211.87663984789575, worksheet.outputs_energy_flows_ad48, 0.002); end
+  def test_outputs_energy_flows_c50; assert_equal("Q.01", worksheet.outputs_energy_flows_c50); end
+  def test_outputs_energy_flows_d50; assert_equal("Global Coal reserves ", worksheet.outputs_energy_flows_d50); end
+  def test_outputs_energy_flows_e50; assert_equal("L.02", worksheet.outputs_energy_flows_e50); end
+  def test_outputs_energy_flows_f50; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f50); end
+  def test_outputs_energy_flows_g50; assert_equal("Coal.extract", worksheet.outputs_energy_flows_g50); end
+  def test_outputs_energy_flows_h50; assert_equal("Global Coal Extraction", worksheet.outputs_energy_flows_h50); end
+  def test_outputs_energy_flows_v50; assert_in_epsilon(31.669339178120495, worksheet.outputs_energy_flows_v50, 0.002); end
+  def test_outputs_energy_flows_w50; assert_in_epsilon(29.817445285733726, worksheet.outputs_energy_flows_w50, 0.002); end
+  def test_outputs_energy_flows_x50; assert_in_epsilon(33.935247228899726, worksheet.outputs_energy_flows_x50, 0.002); end
+  def test_outputs_energy_flows_y50; assert_in_epsilon(37.96040694681369, worksheet.outputs_energy_flows_y50, 0.002); end
+  def test_outputs_energy_flows_z50; assert_in_epsilon(28.658046227943146, worksheet.outputs_energy_flows_z50, 0.002); end
+  def test_outputs_energy_flows_aa50; assert_in_epsilon(30.766840967019192, worksheet.outputs_energy_flows_aa50, 0.002); end
+  def test_outputs_energy_flows_ab50; assert_in_epsilon(32.23448579082981, worksheet.outputs_energy_flows_ab50, 0.002); end
+  def test_outputs_energy_flows_ac50; assert_in_epsilon(32.49641091184543, worksheet.outputs_energy_flows_ac50, 0.002); end
+  def test_outputs_energy_flows_ad50; assert_in_epsilon(31.380122319607977, worksheet.outputs_energy_flows_ad50, 0.002); end
+  def test_outputs_energy_flows_c52; assert_equal("Q.02", worksheet.outputs_energy_flows_c52); end
+  def test_outputs_energy_flows_d52; assert_equal("Global Oil reserves ", worksheet.outputs_energy_flows_d52); end
+  def test_outputs_energy_flows_e52; assert_equal("CFF.02", worksheet.outputs_energy_flows_e52); end
+  def test_outputs_energy_flows_f52; assert_equal("Global Crude oil", worksheet.outputs_energy_flows_f52); end
+  def test_outputs_energy_flows_g52; assert_equal("Oil.extract", worksheet.outputs_energy_flows_g52); end
+  def test_outputs_energy_flows_h52; assert_equal("Global Oil Extraction", worksheet.outputs_energy_flows_h52); end
+  def test_outputs_energy_flows_v52; assert_in_epsilon(165.2139601973134, worksheet.outputs_energy_flows_v52, 0.002); end
+  def test_outputs_energy_flows_w52; assert_in_epsilon(182.4621450161924, worksheet.outputs_energy_flows_w52, 0.002); end
+  def test_outputs_energy_flows_x52; assert_in_epsilon(198.08689369710876, worksheet.outputs_energy_flows_x52, 0.002); end
+  def test_outputs_energy_flows_y52; assert_in_epsilon(213.55284706206785, worksheet.outputs_energy_flows_y52, 0.002); end
+  def test_outputs_energy_flows_z52; assert_in_epsilon(231.13893431306352, worksheet.outputs_energy_flows_z52, 0.002); end
+  def test_outputs_energy_flows_aa52; assert_in_epsilon(246.5466434702447, worksheet.outputs_energy_flows_aa52, 0.002); end
+  def test_outputs_energy_flows_ab52; assert_in_epsilon(265.0817399308658, worksheet.outputs_energy_flows_ab52, 0.002); end
+  def test_outputs_energy_flows_ac52; assert_in_epsilon(286.0808675729464, worksheet.outputs_energy_flows_ac52, 0.002); end
+  def test_outputs_energy_flows_ad52; assert_in_epsilon(303.6444246463092, worksheet.outputs_energy_flows_ad52, 0.002); end
+  def test_outputs_energy_flows_c54; assert_equal("Q.02", worksheet.outputs_energy_flows_c54); end
+  def test_outputs_energy_flows_d54; assert_equal("Global Oil reserves ", worksheet.outputs_energy_flows_d54); end
+  def test_outputs_energy_flows_e54; assert_equal("L.02", worksheet.outputs_energy_flows_e54); end
+  def test_outputs_energy_flows_f54; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f54); end
+  def test_outputs_energy_flows_g54; assert_equal("Oil.extract", worksheet.outputs_energy_flows_g54); end
+  def test_outputs_energy_flows_h54; assert_equal("Global Oil Extraction", worksheet.outputs_energy_flows_h54); end
+  def test_outputs_energy_flows_v54; assert_in_epsilon(12.435459369690221, worksheet.outputs_energy_flows_v54, 0.002); end
+  def test_outputs_energy_flows_w54; assert_in_epsilon(13.733709839928423, worksheet.outputs_energy_flows_w54, 0.002); end
+  def test_outputs_energy_flows_x54; assert_in_epsilon(14.90976619225546, worksheet.outputs_energy_flows_x54, 0.002); end
+  def test_outputs_energy_flows_y54; assert_in_epsilon(16.073870208972806, worksheet.outputs_energy_flows_y54, 0.002); end
+  def test_outputs_energy_flows_z54; assert_in_epsilon(17.397554195606887, worksheet.outputs_energy_flows_z54, 0.002); end
+  def test_outputs_energy_flows_aa54; assert_in_epsilon(14.902607293535482, worksheet.outputs_energy_flows_aa54, 0.002); end
+  def test_outputs_energy_flows_ab54; assert_in_epsilon(16.022968373339722, worksheet.outputs_energy_flows_ab54, 0.002); end
+  def test_outputs_energy_flows_ac54; assert_in_epsilon(17.292268771641545, worksheet.outputs_energy_flows_ac54, 0.002); end
+  def test_outputs_energy_flows_ad54; assert_in_epsilon(18.353904777136393, worksheet.outputs_energy_flows_ad54, 0.002); end
+  def test_outputs_energy_flows_c56; assert_equal("Q.03", worksheet.outputs_energy_flows_c56); end
+  def test_outputs_energy_flows_d56; assert_equal("Global Gas reserves ", worksheet.outputs_energy_flows_d56); end
+  def test_outputs_energy_flows_e56; assert_equal("CFF.03", worksheet.outputs_energy_flows_e56); end
+  def test_outputs_energy_flows_f56; assert_equal("Global Unprocessed gas", worksheet.outputs_energy_flows_f56); end
+  def test_outputs_energy_flows_g56; assert_equal("NaturalGas.extract", worksheet.outputs_energy_flows_g56); end
+  def test_outputs_energy_flows_h56; assert_equal("Global Natural Gas Extraction", worksheet.outputs_energy_flows_h56); end
+  def test_outputs_energy_flows_v56; assert_in_epsilon(89.96839014856472, worksheet.outputs_energy_flows_v56, 0.002); end
+  def test_outputs_energy_flows_w56; assert_in_epsilon(95.6665400731284, worksheet.outputs_energy_flows_w56, 0.002); end
+  def test_outputs_energy_flows_x56; assert_in_epsilon(102.09531878888724, worksheet.outputs_energy_flows_x56, 0.002); end
+  def test_outputs_energy_flows_y56; assert_in_epsilon(109.84206163266036, worksheet.outputs_energy_flows_y56, 0.002); end
+  def test_outputs_energy_flows_z56; assert_in_epsilon(119.32612883043343, worksheet.outputs_energy_flows_z56, 0.002); end
+  def test_outputs_energy_flows_aa56; assert_in_epsilon(128.97651342323692, worksheet.outputs_energy_flows_aa56, 0.002); end
+  def test_outputs_energy_flows_ab56; assert_in_epsilon(137.01598890548516, worksheet.outputs_energy_flows_ab56, 0.002); end
+  def test_outputs_energy_flows_ac56; assert_in_epsilon(148.2341350798628, worksheet.outputs_energy_flows_ac56, 0.002); end
+  def test_outputs_energy_flows_ad56; assert_in_epsilon(157.55938705603702, worksheet.outputs_energy_flows_ad56, 0.002); end
+  def test_outputs_energy_flows_c58; assert_equal("Q.03", worksheet.outputs_energy_flows_c58); end
+  def test_outputs_energy_flows_d58; assert_equal("Global Gas reserves ", worksheet.outputs_energy_flows_d58); end
+  def test_outputs_energy_flows_e58; assert_equal("L.02", worksheet.outputs_energy_flows_e58); end
+  def test_outputs_energy_flows_f58; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f58); end
+  def test_outputs_energy_flows_g58; assert_equal("NaturalGas.extract", worksheet.outputs_energy_flows_g58); end
+  def test_outputs_energy_flows_h58; assert_equal("Global Natural Gas Extraction", worksheet.outputs_energy_flows_h58); end
+  def test_outputs_energy_flows_v58; assert_in_epsilon(38.55788149224203, worksheet.outputs_energy_flows_v58, 0.002); end
+  def test_outputs_energy_flows_w58; assert_in_epsilon(40.99994574562646, worksheet.outputs_energy_flows_w58, 0.002); end
+  def test_outputs_energy_flows_x58; assert_in_epsilon(43.75513662380884, worksheet.outputs_energy_flows_x58, 0.002); end
+  def test_outputs_energy_flows_y58; assert_in_epsilon(47.075169271140155, worksheet.outputs_energy_flows_y58, 0.002); end
+  def test_outputs_energy_flows_z58; assert_in_epsilon(36.65573892176714, worksheet.outputs_energy_flows_z58, 0.002); end
+  def test_outputs_energy_flows_aa58; assert_in_epsilon(39.6202361496218, worksheet.outputs_energy_flows_aa58, 0.002); end
+  def test_outputs_energy_flows_ab58; assert_in_epsilon(42.08987894482223, worksheet.outputs_energy_flows_ab58, 0.002); end
+  def test_outputs_energy_flows_ac58; assert_in_epsilon(45.53597613564412, worksheet.outputs_energy_flows_ac58, 0.002); end
+  def test_outputs_energy_flows_ad58; assert_in_epsilon(48.40059602374993, worksheet.outputs_energy_flows_ad58, 0.002); end
+  def test_outputs_energy_flows_c60; assert_equal("CFF.01", worksheet.outputs_energy_flows_c60); end
+  def test_outputs_energy_flows_d60; assert_equal("Global Crude coal", worksheet.outputs_energy_flows_d60); end
+  def test_outputs_energy_flows_e60; assert_equal("FF.01", worksheet.outputs_energy_flows_e60); end
+  def test_outputs_energy_flows_f60; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_f60); end
+  def test_outputs_energy_flows_g60; assert_equal("Coal.wash", worksheet.outputs_energy_flows_g60); end
+  def test_outputs_energy_flows_h60; assert_equal("Global Coal washeries", worksheet.outputs_energy_flows_h60); end
+  def test_outputs_energy_flows_v60; assert_in_epsilon(120.34348887685792, worksheet.outputs_energy_flows_v60, 0.002); end
+  def test_outputs_energy_flows_w60; assert_in_epsilon(123.87053236283366, worksheet.outputs_energy_flows_w60, 0.002); end
+  def test_outputs_energy_flows_x60; assert_in_epsilon(139.48212063037403, worksheet.outputs_energy_flows_x60, 0.002); end
+  def test_outputs_energy_flows_y60; assert_in_epsilon(154.8558892902206, worksheet.outputs_energy_flows_y60, 0.002); end
+  def test_outputs_energy_flows_z60; assert_in_epsilon(168.19938035739602, worksheet.outputs_energy_flows_z60, 0.002); end
+  def test_outputs_energy_flows_aa60; assert_in_epsilon(179.1963374055755, worksheet.outputs_energy_flows_aa60, 0.002); end
+  def test_outputs_energy_flows_ab60; assert_in_epsilon(185.6789952440884, worksheet.outputs_energy_flows_ab60, 0.002); end
+  def test_outputs_energy_flows_ac60; assert_in_epsilon(185.7302276397163, worksheet.outputs_energy_flows_ac60, 0.002); end
+  def test_outputs_energy_flows_ad60; assert_in_epsilon(186.87519634584402, worksheet.outputs_energy_flows_ad60, 0.002); end
+  def test_outputs_energy_flows_c62; assert_equal("CFF.01", worksheet.outputs_energy_flows_c62); end
+  def test_outputs_energy_flows_d62; assert_equal("Global Crude coal", worksheet.outputs_energy_flows_d62); end
+  def test_outputs_energy_flows_e62; assert_equal("L.02", worksheet.outputs_energy_flows_e62); end
+  def test_outputs_energy_flows_f62; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f62); end
+  def test_outputs_energy_flows_g62; assert_equal("Coal.wash", worksheet.outputs_energy_flows_g62); end
+  def test_outputs_energy_flows_h62; assert_equal("Global Coal washeries", worksheet.outputs_energy_flows_h62); end
+  def test_outputs_energy_flows_v62; assert_in_epsilon(6.333867835624105, worksheet.outputs_energy_flows_v62, 0.002); end
+  def test_outputs_energy_flows_w62; assert_in_epsilon(7.487402274317631, worksheet.outputs_energy_flows_w62, 0.002); end
+  def test_outputs_energy_flows_x62; assert_in_epsilon(10.016400945589538, worksheet.outputs_energy_flows_x62, 0.002); end
+  def test_outputs_energy_flows_y62; assert_in_epsilon(12.375092664661253, worksheet.outputs_energy_flows_y62, 0.002); end
+  def test_outputs_energy_flows_z62; assert_in_epsilon(15.424397325350697, worksheet.outputs_energy_flows_z62, 0.002); end
+  def test_outputs_energy_flows_aa62; assert_in_epsilon(17.939347309029017, worksheet.outputs_energy_flows_aa62, 0.002); end
+  def test_outputs_energy_flows_ab62; assert_in_epsilon(20.860487786043308, worksheet.outputs_energy_flows_ab62, 0.002); end
+  def test_outputs_energy_flows_ac62; assert_in_epsilon(22.487516350996998, worksheet.outputs_energy_flows_ac62, 0.002); end
+  def test_outputs_energy_flows_ad62; assert_in_epsilon(25.00144350205173, worksheet.outputs_energy_flows_ad62, 0.002); end
+  def test_outputs_energy_flows_c64; assert_equal("CFF.02", worksheet.outputs_energy_flows_c64); end
+  def test_outputs_energy_flows_d64; assert_equal("Global Crude oil", worksheet.outputs_energy_flows_d64); end
+  def test_outputs_energy_flows_e64; assert_equal("FF.02", worksheet.outputs_energy_flows_e64); end
+  def test_outputs_energy_flows_f64; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_f64); end
+  def test_outputs_energy_flows_g64; assert_equal("Oil.refine", worksheet.outputs_energy_flows_g64); end
+  def test_outputs_energy_flows_h64; assert_equal("Global Oil refineries", worksheet.outputs_energy_flows_h64); end
+  def test_outputs_energy_flows_v64; assert_in_epsilon(153.1552875458585, worksheet.outputs_energy_flows_v64, 0.002); end
+  def test_outputs_energy_flows_w64; assert_in_epsilon(169.68979486505896, worksheet.outputs_energy_flows_w64, 0.002); end
+  def test_outputs_energy_flows_x64; assert_in_epsilon(184.22081113831118, worksheet.outputs_energy_flows_x64, 0.002); end
+  def test_outputs_energy_flows_y64; assert_in_epsilon(198.60414776772313, worksheet.outputs_energy_flows_y64, 0.002); end
+  def test_outputs_energy_flows_z64; assert_in_epsilon(214.95920891114912, worksheet.outputs_energy_flows_z64, 0.002); end
+  def test_outputs_energy_flows_aa64; assert_in_epsilon(231.75384486203, worksheet.outputs_energy_flows_aa64, 0.002); end
+  def test_outputs_energy_flows_ab64; assert_in_epsilon(249.17683553501385, worksheet.outputs_energy_flows_ab64, 0.002); end
+  def test_outputs_energy_flows_ac64; assert_in_epsilon(268.91601551856957, worksheet.outputs_energy_flows_ac64, 0.002); end
+  def test_outputs_energy_flows_ad64; assert_in_epsilon(285.4257591675306, worksheet.outputs_energy_flows_ad64, 0.002); end
+  def test_outputs_energy_flows_c66; assert_equal("CFF.02", worksheet.outputs_energy_flows_c66); end
+  def test_outputs_energy_flows_d66; assert_equal("Global Crude oil", worksheet.outputs_energy_flows_d66); end
+  def test_outputs_energy_flows_e66; assert_equal("L.02", worksheet.outputs_energy_flows_e66); end
+  def test_outputs_energy_flows_f66; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f66); end
+  def test_outputs_energy_flows_g66; assert_equal("Oil.refine", worksheet.outputs_energy_flows_g66); end
+  def test_outputs_energy_flows_h66; assert_equal("Global Oil refineries", worksheet.outputs_energy_flows_h66); end
+  def test_outputs_energy_flows_v66; assert_in_epsilon(12.058672651454913, worksheet.outputs_energy_flows_v66, 0.002); end
+  def test_outputs_energy_flows_w66; assert_in_epsilon(12.772350151133452, worksheet.outputs_energy_flows_w66, 0.002); end
+  def test_outputs_energy_flows_x66; assert_in_epsilon(13.866082558797586, worksheet.outputs_energy_flows_x66, 0.002); end
+  def test_outputs_energy_flows_y66; assert_in_epsilon(14.94869929434472, worksheet.outputs_energy_flows_y66, 0.002); end
+  def test_outputs_energy_flows_z66; assert_in_epsilon(16.179725401914396, worksheet.outputs_energy_flows_z66, 0.002); end
+  def test_outputs_energy_flows_aa66; assert_in_epsilon(14.792798608214696, worksheet.outputs_energy_flows_aa66, 0.002); end
+  def test_outputs_energy_flows_ab66; assert_in_epsilon(15.904904395851958, worksheet.outputs_energy_flows_ab66, 0.002); end
+  def test_outputs_energy_flows_ac66; assert_in_epsilon(17.16485205437681, worksheet.outputs_energy_flows_ac66, 0.002); end
+  def test_outputs_energy_flows_ad66; assert_in_epsilon(18.218665478778576, worksheet.outputs_energy_flows_ad66, 0.002); end
+  def test_outputs_energy_flows_c68; assert_equal("CFF.03", worksheet.outputs_energy_flows_c68); end
+  def test_outputs_energy_flows_d68; assert_equal("Global Unprocessed gas", worksheet.outputs_energy_flows_d68); end
+  def test_outputs_energy_flows_e68; assert_equal("FF.03", worksheet.outputs_energy_flows_e68); end
+  def test_outputs_energy_flows_f68; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_f68); end
+  def test_outputs_energy_flows_g68; assert_equal("Natural.gas.process", worksheet.outputs_energy_flows_g68); end
+  def test_outputs_energy_flows_h68; assert_equal("Global Natural gas processing plants", worksheet.outputs_energy_flows_h68); end
+  def test_outputs_energy_flows_v68; assert_in_epsilon(88.16902234559343, worksheet.outputs_energy_flows_v68, 0.002); end
+  def test_outputs_energy_flows_w68; assert_in_epsilon(93.75320927166584, worksheet.outputs_energy_flows_w68, 0.002); end
+  def test_outputs_energy_flows_x68; assert_in_epsilon(100.0534124131095, worksheet.outputs_energy_flows_x68, 0.002); end
+  def test_outputs_energy_flows_y68; assert_in_epsilon(107.64522040000715, worksheet.outputs_energy_flows_y68, 0.002); end
+  def test_outputs_energy_flows_z68; assert_in_epsilon(116.93960625382476, worksheet.outputs_energy_flows_z68, 0.002); end
+  def test_outputs_energy_flows_aa68; assert_in_epsilon(126.39698315477219, worksheet.outputs_energy_flows_aa68, 0.002); end
+  def test_outputs_energy_flows_ab68; assert_in_epsilon(134.27566912737547, worksheet.outputs_energy_flows_ab68, 0.002); end
+  def test_outputs_energy_flows_ac68; assert_in_epsilon(145.26945237826553, worksheet.outputs_energy_flows_ac68, 0.002); end
+  def test_outputs_energy_flows_ad68; assert_in_epsilon(154.4081993149163, worksheet.outputs_energy_flows_ad68, 0.002); end
+  def test_outputs_energy_flows_c70; assert_equal("CFF.03", worksheet.outputs_energy_flows_c70); end
+  def test_outputs_energy_flows_d70; assert_equal("Global Unprocessed gas", worksheet.outputs_energy_flows_d70); end
+  def test_outputs_energy_flows_e70; assert_equal("L.02", worksheet.outputs_energy_flows_e70); end
+  def test_outputs_energy_flows_f70; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f70); end
+  def test_outputs_energy_flows_g70; assert_equal("Natural.gas.process", worksheet.outputs_energy_flows_g70); end
+  def test_outputs_energy_flows_h70; assert_equal("Global Natural gas processing plants", worksheet.outputs_energy_flows_h70); end
+  def test_outputs_energy_flows_v70; assert_in_epsilon(1.7993678029712896, worksheet.outputs_energy_flows_v70, 0.002); end
+  def test_outputs_energy_flows_w70; assert_in_epsilon(1.913330801462564, worksheet.outputs_energy_flows_w70, 0.002); end
+  def test_outputs_energy_flows_x70; assert_in_epsilon(2.0419063757777423, worksheet.outputs_energy_flows_x70, 0.002); end
+  def test_outputs_energy_flows_y70; assert_in_epsilon(2.196841232653213, worksheet.outputs_energy_flows_y70, 0.002); end
+  def test_outputs_energy_flows_z70; assert_in_epsilon(2.3865225766086695, worksheet.outputs_energy_flows_z70, 0.002); end
+  def test_outputs_energy_flows_aa70; assert_in_epsilon(2.5795302684647368, worksheet.outputs_energy_flows_aa70, 0.002); end
+  def test_outputs_energy_flows_ab70; assert_in_epsilon(2.7403197781096935, worksheet.outputs_energy_flows_ab70, 0.002); end
+  def test_outputs_energy_flows_ac70; assert_in_epsilon(2.964682701597269, worksheet.outputs_energy_flows_ac70, 0.002); end
+  def test_outputs_energy_flows_ad70; assert_in_epsilon(3.1511877411207365, worksheet.outputs_energy_flows_ad70, 0.002); end
+  def test_outputs_energy_flows_c72; assert_equal("FF.01", worksheet.outputs_energy_flows_c72); end
+  def test_outputs_energy_flows_d72; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d72); end
+  def test_outputs_energy_flows_e72; assert_equal("n/a", worksheet.outputs_energy_flows_e72); end
+  def test_outputs_energy_flows_f72; assert_equal("Solid", worksheet.outputs_energy_flows_f72); end
+  def test_outputs_energy_flows_g72; assert_equal("coal.network", worksheet.outputs_energy_flows_g72); end
+  def test_outputs_energy_flows_h72; assert_equal("Global Coal distribution network", worksheet.outputs_energy_flows_h72); end
+  def test_outputs_energy_flows_i72; assert_equal("C.01", worksheet.outputs_energy_flows_i72); end
+  def test_outputs_energy_flows_j72; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j72); end
+  def test_outputs_energy_flows_v72; assert_in_epsilon(120.08870818706784, worksheet.outputs_energy_flows_v72, 0.002); end
+  def test_outputs_energy_flows_w72; assert_in_epsilon(123.60828452562527, worksheet.outputs_energy_flows_w72, 0.002); end
+  def test_outputs_energy_flows_x72; assert_in_epsilon(139.18682130642011, worksheet.outputs_energy_flows_x72, 0.002); end
+  def test_outputs_energy_flows_y72; assert_in_epsilon(154.5280419703561, worksheet.outputs_energy_flows_y72, 0.002); end
+  def test_outputs_energy_flows_z72; assert_in_epsilon(167.8432833674411, worksheet.outputs_energy_flows_z72, 0.002); end
+  def test_outputs_energy_flows_aa72; assert_in_epsilon(178.81695862174476, worksheet.outputs_energy_flows_aa72, 0.002); end
+  def test_outputs_energy_flows_ab72; assert_in_epsilon(185.28589194511204, worksheet.outputs_energy_flows_ab72, 0.002); end
+  def test_outputs_energy_flows_ac72; assert_in_epsilon(185.33701587600103, worksheet.outputs_energy_flows_ac72, 0.002); end
+  def test_outputs_energy_flows_ad72; assert_in_epsilon(186.47956055470976, worksheet.outputs_energy_flows_ad72, 0.002); end
+  def test_outputs_energy_flows_c74; assert_equal("FF.01", worksheet.outputs_energy_flows_c74); end
+  def test_outputs_energy_flows_d74; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d74); end
+  def test_outputs_energy_flows_e74; assert_equal("L.02", worksheet.outputs_energy_flows_e74); end
+  def test_outputs_energy_flows_f74; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f74); end
+  def test_outputs_energy_flows_g74; assert_equal("coal.network", worksheet.outputs_energy_flows_g74); end
+  def test_outputs_energy_flows_h74; assert_equal("Global Coal distribution network", worksheet.outputs_energy_flows_h74); end
+  def test_outputs_energy_flows_i74; assert_equal("C.01", worksheet.outputs_energy_flows_i74); end
+  def test_outputs_energy_flows_j74; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j74); end
+  def test_outputs_energy_flows_v74; assert_in_delta(0.2547806897900884, worksheet.outputs_energy_flows_v74, 0.002); end
+  def test_outputs_energy_flows_w74; assert_in_delta(0.26224783720839245, worksheet.outputs_energy_flows_w74, 0.002); end
+  def test_outputs_energy_flows_x74; assert_in_delta(0.2952993239539098, worksheet.outputs_energy_flows_x74, 0.002); end
+  def test_outputs_energy_flows_y74; assert_in_delta(0.3278473198644902, worksheet.outputs_energy_flows_y74, 0.002); end
+  def test_outputs_energy_flows_z74; assert_in_delta(0.35609698995492245, worksheet.outputs_energy_flows_z74, 0.002); end
+  def test_outputs_energy_flows_aa74; assert_in_delta(0.379378783830735, worksheet.outputs_energy_flows_aa74, 0.002); end
+  def test_outputs_energy_flows_ab74; assert_in_delta(0.3931032989763737, worksheet.outputs_energy_flows_ab74, 0.002); end
+  def test_outputs_energy_flows_ac74; assert_in_delta(0.3932117637152598, worksheet.outputs_energy_flows_ac74, 0.002); end
+  def test_outputs_energy_flows_ad74; assert_in_delta(0.395635791134257, worksheet.outputs_energy_flows_ad74, 0.002); end
+  def test_outputs_energy_flows_c76; assert_equal("FF.02", worksheet.outputs_energy_flows_c76); end
+  def test_outputs_energy_flows_d76; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d76); end
+  def test_outputs_energy_flows_e76; assert_equal("n/a", worksheet.outputs_energy_flows_e76); end
+  def test_outputs_energy_flows_f76; assert_equal("Liquid", worksheet.outputs_energy_flows_f76); end
+  def test_outputs_energy_flows_g76; assert_equal("oil.network", worksheet.outputs_energy_flows_g76); end
+  def test_outputs_energy_flows_h76; assert_equal("Global Oil distribution network", worksheet.outputs_energy_flows_h76); end
+  def test_outputs_energy_flows_i76; assert_equal("C.02", worksheet.outputs_energy_flows_i76); end
+  def test_outputs_energy_flows_j76; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j76); end
+  def test_outputs_energy_flows_v76; assert_in_epsilon(153.0104275275249, worksheet.outputs_energy_flows_v76, 0.002); end
+  def test_outputs_energy_flows_w76; assert_in_epsilon(169.5292958892217, worksheet.outputs_energy_flows_w76, 0.002); end
+  def test_outputs_energy_flows_x76; assert_in_epsilon(184.04656818198535, worksheet.outputs_energy_flows_x76, 0.002); end
+  def test_outputs_energy_flows_y76; assert_in_epsilon(198.4163005118578, worksheet.outputs_energy_flows_y76, 0.002); end
+  def test_outputs_energy_flows_z76; assert_in_epsilon(214.7558924247071, worksheet.outputs_energy_flows_z76, 0.002); end
+  def test_outputs_energy_flows_aa76; assert_in_epsilon(231.53464337866276, worksheet.outputs_energy_flows_aa76, 0.002); end
+  def test_outputs_energy_flows_ab76; assert_in_epsilon(248.94115473324527, worksheet.outputs_energy_flows_ab76, 0.002); end
+  def test_outputs_energy_flows_ac76; assert_in_epsilon(268.6616646596314, worksheet.outputs_energy_flows_ac76, 0.002); end
+  def test_outputs_energy_flows_ad76; assert_in_epsilon(285.15579277349735, worksheet.outputs_energy_flows_ad76, 0.002); end
+  def test_outputs_energy_flows_c78; assert_equal("FF.02", worksheet.outputs_energy_flows_c78); end
+  def test_outputs_energy_flows_d78; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d78); end
+  def test_outputs_energy_flows_e78; assert_equal("L.02", worksheet.outputs_energy_flows_e78); end
+  def test_outputs_energy_flows_f78; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f78); end
+  def test_outputs_energy_flows_g78; assert_equal("oil.network", worksheet.outputs_energy_flows_g78); end
+  def test_outputs_energy_flows_h78; assert_equal("Global Oil distribution network", worksheet.outputs_energy_flows_h78); end
+  def test_outputs_energy_flows_i78; assert_equal("C.02", worksheet.outputs_energy_flows_i78); end
+  def test_outputs_energy_flows_j78; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j78); end
+  def test_outputs_energy_flows_v78; assert_in_delta(0.14486001833357612, worksheet.outputs_energy_flows_v78, 0.002); end
+  def test_outputs_energy_flows_w78; assert_in_delta(0.16049897583727216, worksheet.outputs_energy_flows_w78, 0.002); end
+  def test_outputs_energy_flows_x78; assert_in_delta(0.17424295632582387, worksheet.outputs_energy_flows_x78, 0.002); end
+  def test_outputs_energy_flows_y78; assert_in_delta(0.1878472558653402, worksheet.outputs_energy_flows_y78, 0.002); end
+  def test_outputs_energy_flows_z78; assert_in_delta(0.2033164864420126, worksheet.outputs_energy_flows_z78, 0.002); end
+  def test_outputs_energy_flows_aa78; assert_in_delta(0.21920148336725348, worksheet.outputs_energy_flows_aa78, 0.002); end
+  def test_outputs_energy_flows_ab78; assert_in_delta(0.23568080176857506, worksheet.outputs_energy_flows_ab78, 0.002); end
+  def test_outputs_energy_flows_ac78; assert_in_delta(0.25435085893817466, worksheet.outputs_energy_flows_ac78, 0.002); end
+  def test_outputs_energy_flows_ad78; assert_in_delta(0.26996639403326583, worksheet.outputs_energy_flows_ad78, 0.002); end
+  def test_outputs_energy_flows_c80; assert_equal("FF.03", worksheet.outputs_energy_flows_c80); end
+  def test_outputs_energy_flows_d80; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d80); end
+  def test_outputs_energy_flows_e80; assert_equal("n/a", worksheet.outputs_energy_flows_e80); end
+  def test_outputs_energy_flows_f80; assert_equal("Gas", worksheet.outputs_energy_flows_f80); end
+  def test_outputs_energy_flows_g80; assert_equal("gas.nework", worksheet.outputs_energy_flows_g80); end
+  def test_outputs_energy_flows_h80; assert_equal("Global Gas distribution network", worksheet.outputs_energy_flows_h80); end
+  def test_outputs_energy_flows_i80; assert_equal("C.03", worksheet.outputs_energy_flows_i80); end
+  def test_outputs_energy_flows_j80; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j80); end
+  def test_outputs_energy_flows_v80; assert_in_epsilon(85.74387898879355, worksheet.outputs_energy_flows_v80, 0.002); end
+  def test_outputs_energy_flows_w80; assert_in_epsilon(91.1744694082175, worksheet.outputs_energy_flows_w80, 0.002); end
+  def test_outputs_energy_flows_x80; assert_in_epsilon(97.30138157525211, worksheet.outputs_energy_flows_x80, 0.002); end
+  def test_outputs_energy_flows_y80; assert_in_epsilon(104.68437219959175, worksheet.outputs_energy_flows_y80, 0.002); end
+  def test_outputs_energy_flows_z80; assert_in_epsilon(113.72311023619109, worksheet.outputs_energy_flows_z80, 0.002); end
+  def test_outputs_energy_flows_aa80; assert_in_epsilon(122.92035615060918, worksheet.outputs_energy_flows_aa80, 0.002); end
+  def test_outputs_energy_flows_ab80; assert_in_epsilon(130.582334004664, worksheet.outputs_energy_flows_ab80, 0.002); end
+  def test_outputs_energy_flows_ac80; assert_in_epsilon(141.2737264644609, worksheet.outputs_energy_flows_ac80, 0.002); end
+  def test_outputs_energy_flows_ad80; assert_in_epsilon(150.1611065283338, worksheet.outputs_energy_flows_ad80, 0.002); end
+  def test_outputs_energy_flows_c82; assert_equal("FF.03", worksheet.outputs_energy_flows_c82); end
+  def test_outputs_energy_flows_d82; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d82); end
+  def test_outputs_energy_flows_e82; assert_equal("L.02", worksheet.outputs_energy_flows_e82); end
+  def test_outputs_energy_flows_f82; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f82); end
+  def test_outputs_energy_flows_g82; assert_equal("gas.nework", worksheet.outputs_energy_flows_g82); end
+  def test_outputs_energy_flows_h82; assert_equal("Global Gas distribution network", worksheet.outputs_energy_flows_h82); end
+  def test_outputs_energy_flows_i82; assert_equal("C.03", worksheet.outputs_energy_flows_i82); end
+  def test_outputs_energy_flows_j82; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j82); end
+  def test_outputs_energy_flows_v82; assert_in_epsilon(2.4251433567998735, worksheet.outputs_energy_flows_v82, 0.002); end
+  def test_outputs_energy_flows_w82; assert_in_epsilon(2.578739863448334, worksheet.outputs_energy_flows_w82, 0.002); end
+  def test_outputs_energy_flows_x82; assert_in_epsilon(2.752030837857391, worksheet.outputs_energy_flows_x82, 0.002); end
+  def test_outputs_energy_flows_y82; assert_in_epsilon(2.9608482004154006, worksheet.outputs_energy_flows_y82, 0.002); end
+  def test_outputs_energy_flows_z82; assert_in_epsilon(3.2164960176336783, worksheet.outputs_energy_flows_z82, 0.002); end
+  def test_outputs_energy_flows_aa82; assert_in_epsilon(3.476627004163002, worksheet.outputs_energy_flows_aa82, 0.002); end
+  def test_outputs_energy_flows_ab82; assert_in_epsilon(3.6933351227114684, worksheet.outputs_energy_flows_ab82, 0.002); end
+  def test_outputs_energy_flows_ac82; assert_in_epsilon(3.9957259138046197, worksheet.outputs_energy_flows_ac82, 0.002); end
+  def test_outputs_energy_flows_ad82; assert_in_epsilon(4.2470927865824875, worksheet.outputs_energy_flows_ad82, 0.002); end
+  def test_outputs_energy_flows_c84; assert_equal("n/a ", worksheet.outputs_energy_flows_c84); end
+  def test_outputs_energy_flows_d84; assert_equal("Bio conversion", worksheet.outputs_energy_flows_d84); end
+  def test_outputs_energy_flows_e84; assert_equal("n/a ", worksheet.outputs_energy_flows_e84); end
+  def test_outputs_energy_flows_f84; assert_equal("Solid", worksheet.outputs_energy_flows_f84); end
+  def test_outputs_energy_flows_g84; assert_equal("n/a", worksheet.outputs_energy_flows_g84); end
+  def test_outputs_energy_flows_h84; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_h84); end
+  def test_outputs_energy_flows_i84; assert_equal("C.01", worksheet.outputs_energy_flows_i84); end
+  def test_outputs_energy_flows_j84; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j84); end
+  def test_outputs_energy_flows_v84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v84||0), 0.002); end
+  def test_outputs_energy_flows_w84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w84||0), 0.002); end
+  def test_outputs_energy_flows_x84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x84||0), 0.002); end
+  def test_outputs_energy_flows_y84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y84||0), 0.002); end
+  def test_outputs_energy_flows_z84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z84||0), 0.002); end
+  def test_outputs_energy_flows_aa84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa84||0), 0.002); end
+  def test_outputs_energy_flows_ab84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab84||0), 0.002); end
+  def test_outputs_energy_flows_ac84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac84||0), 0.002); end
+  def test_outputs_energy_flows_ad84; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad84||0), 0.002); end
+  def test_outputs_energy_flows_c86; assert_equal("n/a ", worksheet.outputs_energy_flows_c86); end
+  def test_outputs_energy_flows_d86; assert_equal("Bio conversion", worksheet.outputs_energy_flows_d86); end
+  def test_outputs_energy_flows_e86; assert_equal("n/a ", worksheet.outputs_energy_flows_e86); end
+  def test_outputs_energy_flows_f86; assert_equal("Liquid", worksheet.outputs_energy_flows_f86); end
+  def test_outputs_energy_flows_g86; assert_equal("n/a", worksheet.outputs_energy_flows_g86); end
+  def test_outputs_energy_flows_h86; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_h86); end
+  def test_outputs_energy_flows_i86; assert_equal("C.02", worksheet.outputs_energy_flows_i86); end
+  def test_outputs_energy_flows_j86; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j86); end
+  def test_outputs_energy_flows_v86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v86||0), 0.002); end
+  def test_outputs_energy_flows_w86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w86||0), 0.002); end
+  def test_outputs_energy_flows_x86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x86||0), 0.002); end
+  def test_outputs_energy_flows_y86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y86||0), 0.002); end
+  def test_outputs_energy_flows_z86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z86||0), 0.002); end
+  def test_outputs_energy_flows_aa86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa86||0), 0.002); end
+  def test_outputs_energy_flows_ab86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab86||0), 0.002); end
+  def test_outputs_energy_flows_ac86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac86||0), 0.002); end
+  def test_outputs_energy_flows_ad86; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad86||0), 0.002); end
+  def test_outputs_energy_flows_c88; assert_equal("n/a ", worksheet.outputs_energy_flows_c88); end
+  def test_outputs_energy_flows_d88; assert_equal("Bio conversion", worksheet.outputs_energy_flows_d88); end
+  def test_outputs_energy_flows_e88; assert_equal("n/a ", worksheet.outputs_energy_flows_e88); end
+  def test_outputs_energy_flows_f88; assert_equal("Gas", worksheet.outputs_energy_flows_f88); end
+  def test_outputs_energy_flows_g88; assert_equal("n/a", worksheet.outputs_energy_flows_g88); end
+  def test_outputs_energy_flows_h88; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_h88); end
+  def test_outputs_energy_flows_i88; assert_equal("C.03", worksheet.outputs_energy_flows_i88); end
+  def test_outputs_energy_flows_j88; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j88); end
+  def test_outputs_energy_flows_v88; assert_in_epsilon(3.711553030654428, worksheet.outputs_energy_flows_v88, 0.002); end
+  def test_outputs_energy_flows_w88; assert_in_epsilon(3.9473900731062677, worksheet.outputs_energy_flows_w88, 0.002); end
+  def test_outputs_energy_flows_x88; assert_in_epsilon(4.259157569033665, worksheet.outputs_energy_flows_x88, 0.002); end
+  def test_outputs_energy_flows_y88; assert_in_epsilon(4.565949739070457, worksheet.outputs_energy_flows_y88, 0.002); end
+  def test_outputs_energy_flows_z88; assert_in_epsilon(4.971264438016344, worksheet.outputs_energy_flows_z88, 0.002); end
+  def test_outputs_energy_flows_aa88; assert_in_epsilon(5.275551166167685, worksheet.outputs_energy_flows_aa88, 0.002); end
+  def test_outputs_energy_flows_ab88; assert_in_epsilon(5.574462401152331, worksheet.outputs_energy_flows_ab88, 0.002); end
+  def test_outputs_energy_flows_ac88; assert_in_epsilon(5.865699927891578, worksheet.outputs_energy_flows_ac88, 0.002); end
+  def test_outputs_energy_flows_ad88; assert_in_epsilon(6.147135738350207, worksheet.outputs_energy_flows_ad88, 0.002); end
+  def test_outputs_energy_flows_c90; assert_equal("n/a ", worksheet.outputs_energy_flows_c90); end
+  def test_outputs_energy_flows_d90; assert_equal("Bio conversion", worksheet.outputs_energy_flows_d90); end
+  def test_outputs_energy_flows_e90; assert_equal("n/a ", worksheet.outputs_energy_flows_e90); end
+  def test_outputs_energy_flows_f90; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f90); end
+  def test_outputs_energy_flows_g90; assert_equal("n/a", worksheet.outputs_energy_flows_g90); end
+  def test_outputs_energy_flows_h90; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_h90); end
+  def test_outputs_energy_flows_i90; assert_equal("L.01", worksheet.outputs_energy_flows_i90); end
+  def test_outputs_energy_flows_j90; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j90); end
+  def test_outputs_energy_flows_v90; assert_in_delta(0.6549799465860757, worksheet.outputs_energy_flows_v90, 0.002); end
+  def test_outputs_energy_flows_w90; assert_in_delta(0.6965982481952238, worksheet.outputs_energy_flows_w90, 0.002); end
+  def test_outputs_energy_flows_x90; assert_in_delta(0.7516160415941764, worksheet.outputs_energy_flows_x90, 0.002); end
+  def test_outputs_energy_flows_y90; assert_in_delta(0.8057558363065516, worksheet.outputs_energy_flows_y90, 0.002); end
+  def test_outputs_energy_flows_z90; assert_in_delta(0.7559987394218401, worksheet.outputs_energy_flows_z90, 0.002); end
+  def test_outputs_energy_flows_aa90; assert_in_delta(0.802272757988634, worksheet.outputs_energy_flows_aa90, 0.002); end
+  def test_outputs_energy_flows_ab90; assert_in_delta(0.8477293052443633, worksheet.outputs_energy_flows_ab90, 0.002); end
+  def test_outputs_energy_flows_ac90; assert_in_delta(0.8920188830434199, worksheet.outputs_energy_flows_ac90, 0.002); end
+  def test_outputs_energy_flows_ad90; assert_in_delta(0.9348178772606301, worksheet.outputs_energy_flows_ad90, 0.002); end
+  def test_outputs_energy_flows_c92; assert_equal("n/a", worksheet.outputs_energy_flows_c92); end
+  def test_outputs_energy_flows_d92; assert_equal("Solid", worksheet.outputs_energy_flows_d92); end
+  def test_outputs_energy_flows_e92; assert_equal("n/a", worksheet.outputs_energy_flows_e92); end
+  def test_outputs_energy_flows_f92; assert_equal("Thermal generation", worksheet.outputs_energy_flows_f92); end
+  def test_outputs_energy_flows_i92; assert_equal("C.01", worksheet.outputs_energy_flows_i92); end
+  def test_outputs_energy_flows_j92; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j92); end
+  def test_outputs_energy_flows_k92; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k92); end
+  def test_outputs_energy_flows_l92; assert_equal("Unabated power", worksheet.outputs_energy_flows_l92); end
+  def test_outputs_energy_flows_v92; assert_in_epsilon(86.94146718841361, worksheet.outputs_energy_flows_v92, 0.002); end
+  def test_outputs_energy_flows_w92; assert_in_epsilon(87.48399041048222, worksheet.outputs_energy_flows_w92, 0.002); end
+  def test_outputs_energy_flows_x92; assert_in_epsilon(98.49694684060279, worksheet.outputs_energy_flows_x92, 0.002); end
+  def test_outputs_energy_flows_y92; assert_in_epsilon(109.26811266218962, worksheet.outputs_energy_flows_y92, 0.002); end
+  def test_outputs_energy_flows_z92; assert_in_epsilon(118.21801346454676, worksheet.outputs_energy_flows_z92, 0.002); end
+  def test_outputs_energy_flows_aa92; assert_in_epsilon(124.87672342113856, worksheet.outputs_energy_flows_aa92, 0.002); end
+  def test_outputs_energy_flows_ab92; assert_in_epsilon(127.26114478351867, worksheet.outputs_energy_flows_ab92, 0.002); end
+  def test_outputs_energy_flows_ac92; assert_in_epsilon(123.06311651388268, worksheet.outputs_energy_flows_ac92, 0.002); end
+  def test_outputs_energy_flows_ad92; assert_in_epsilon(120.7122656041492, worksheet.outputs_energy_flows_ad92, 0.002); end
+  def test_outputs_energy_flows_c94; assert_equal("n/a", worksheet.outputs_energy_flows_c94); end
+  def test_outputs_energy_flows_d94; assert_equal("Liquid", worksheet.outputs_energy_flows_d94); end
+  def test_outputs_energy_flows_e94; assert_equal("n/a", worksheet.outputs_energy_flows_e94); end
+  def test_outputs_energy_flows_f94; assert_equal("Thermal generation", worksheet.outputs_energy_flows_f94); end
+  def test_outputs_energy_flows_i94; assert_equal("C.02", worksheet.outputs_energy_flows_i94); end
+  def test_outputs_energy_flows_j94; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j94); end
+  def test_outputs_energy_flows_k94; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k94); end
+  def test_outputs_energy_flows_l94; assert_equal("Unabated power", worksheet.outputs_energy_flows_l94); end
+  def test_outputs_energy_flows_v94; assert_in_epsilon(13.366790608402482, worksheet.outputs_energy_flows_v94, 0.002); end
+  def test_outputs_energy_flows_w94; assert_in_epsilon(21.183974722149724, worksheet.outputs_energy_flows_w94, 0.002); end
+  def test_outputs_energy_flows_x94; assert_in_epsilon(24.439565117480907, worksheet.outputs_energy_flows_x94, 0.002); end
+  def test_outputs_energy_flows_y94; assert_in_epsilon(27.993091565164942, worksheet.outputs_energy_flows_y94, 0.002); end
+  def test_outputs_energy_flows_z94; assert_in_epsilon(33.20102825737788, worksheet.outputs_energy_flows_z94, 0.002); end
+  def test_outputs_energy_flows_aa94; assert_in_epsilon(38.893455559908006, worksheet.outputs_energy_flows_aa94, 0.002); end
+  def test_outputs_energy_flows_ab94; assert_in_epsilon(45.51246083488472, worksheet.outputs_energy_flows_ab94, 0.002); end
+  def test_outputs_energy_flows_ac94; assert_in_epsilon(53.899326107720576, worksheet.outputs_energy_flows_ac94, 0.002); end
+  def test_outputs_energy_flows_ad94; assert_in_epsilon(59.82319129543151, worksheet.outputs_energy_flows_ad94, 0.002); end
+  def test_outputs_energy_flows_c96; assert_equal("n/a", worksheet.outputs_energy_flows_c96); end
+  def test_outputs_energy_flows_d96; assert_equal("Gas", worksheet.outputs_energy_flows_d96); end
+  def test_outputs_energy_flows_e96; assert_equal("n/a", worksheet.outputs_energy_flows_e96); end
+  def test_outputs_energy_flows_f96; assert_equal("Thermal generation", worksheet.outputs_energy_flows_f96); end
+  def test_outputs_energy_flows_i96; assert_equal("C.03", worksheet.outputs_energy_flows_i96); end
+  def test_outputs_energy_flows_j96; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j96); end
+  def test_outputs_energy_flows_k96; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k96); end
+  def test_outputs_energy_flows_l96; assert_equal("Unabated power", worksheet.outputs_energy_flows_l96); end
+  def test_outputs_energy_flows_v96; assert_in_epsilon(35.74892547965594, worksheet.outputs_energy_flows_v96, 0.002); end
+  def test_outputs_energy_flows_w96; assert_in_epsilon(37.606499006064425, worksheet.outputs_energy_flows_w96, 0.002); end
+  def test_outputs_energy_flows_x96; assert_in_epsilon(38.812965580488836, worksheet.outputs_energy_flows_x96, 0.002); end
+  def test_outputs_energy_flows_y96; assert_in_epsilon(41.676177229280896, worksheet.outputs_energy_flows_y96, 0.002); end
+  def test_outputs_energy_flows_z96; assert_in_epsilon(45.9776308200029, worksheet.outputs_energy_flows_z96, 0.002); end
+  def test_outputs_energy_flows_aa96; assert_in_epsilon(50.53957159868566, worksheet.outputs_energy_flows_aa96, 0.002); end
+  def test_outputs_energy_flows_ab96; assert_in_epsilon(54.05592547101497, worksheet.outputs_energy_flows_ab96, 0.002); end
+  def test_outputs_energy_flows_ac96; assert_in_epsilon(60.25835660258358, worksheet.outputs_energy_flows_ac96, 0.002); end
+  def test_outputs_energy_flows_ad96; assert_in_epsilon(65.62948510782317, worksheet.outputs_energy_flows_ad96, 0.002); end
+  def test_outputs_energy_flows_c98; assert_equal("N.01", worksheet.outputs_energy_flows_c98); end
+  def test_outputs_energy_flows_d98; assert_equal("Global Nuclear fission", worksheet.outputs_energy_flows_d98); end
+  def test_outputs_energy_flows_e98; assert_equal("n/a", worksheet.outputs_energy_flows_e98); end
+  def test_outputs_energy_flows_f98; assert_equal("Thermal generation", worksheet.outputs_energy_flows_f98); end
+  def test_outputs_energy_flows_g98; assert_equal("nuclear.elec", worksheet.outputs_energy_flows_g98); end
+  def test_outputs_energy_flows_h98; assert_equal("Global Nuclear power stations", worksheet.outputs_energy_flows_h98); end
+  def test_outputs_energy_flows_v98; assert_in_epsilon(29.05342456550469, worksheet.outputs_energy_flows_v98, 0.002); end
+  def test_outputs_energy_flows_w98; assert_in_epsilon(30.810010146552408, worksheet.outputs_energy_flows_w98, 0.002); end
+  def test_outputs_energy_flows_x98; assert_in_epsilon(31.225696864304222, worksheet.outputs_energy_flows_x98, 0.002); end
+  def test_outputs_energy_flows_y98; assert_in_epsilon(32.18595686107117, worksheet.outputs_energy_flows_y98, 0.002); end
+  def test_outputs_energy_flows_z98; assert_in_epsilon(32.43266849176103, worksheet.outputs_energy_flows_z98, 0.002); end
+  def test_outputs_energy_flows_aa98; assert_in_epsilon(33.479333152855254, worksheet.outputs_energy_flows_aa98, 0.002); end
+  def test_outputs_energy_flows_ab98; assert_in_epsilon(33.89666579819007, worksheet.outputs_energy_flows_ab98, 0.002); end
+  def test_outputs_energy_flows_ac98; assert_in_epsilon(34.72611971550832, worksheet.outputs_energy_flows_ac98, 0.002); end
+  def test_outputs_energy_flows_ad98; assert_in_epsilon(35.59554910606688, worksheet.outputs_energy_flows_ad98, 0.002); end
+  def test_outputs_energy_flows_c100; assert_equal("n/a", worksheet.outputs_energy_flows_c100); end
+  def test_outputs_energy_flows_d100; assert_equal("Thermal generation", worksheet.outputs_energy_flows_d100); end
+  def test_outputs_energy_flows_e100; assert_equal("H.01", worksheet.outputs_energy_flows_e100); end
+  def test_outputs_energy_flows_f100; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_f100); end
+  def test_outputs_energy_flows_k100; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k100); end
+  def test_outputs_energy_flows_l100; assert_equal("Unabated power", worksheet.outputs_energy_flows_l100); end
+  def test_outputs_energy_flows_m100; assert_equal("Nuclear", worksheet.outputs_energy_flows_m100); end
+  def test_outputs_energy_flows_v100; assert_in_epsilon(9.635809154838396, worksheet.outputs_energy_flows_v100, 0.002); end
+  def test_outputs_energy_flows_w100; assert_in_epsilon(10.545354721530195, worksheet.outputs_energy_flows_w100, 0.002); end
+  def test_outputs_energy_flows_x100; assert_in_epsilon(11.884088679352642, worksheet.outputs_energy_flows_x100, 0.002); end
+  def test_outputs_energy_flows_y100; assert_in_epsilon(13.154345007096746, worksheet.outputs_energy_flows_y100, 0.002); end
+  def test_outputs_energy_flows_z100; assert_in_epsilon(14.557343049174946, worksheet.outputs_energy_flows_z100, 0.002); end
+  def test_outputs_energy_flows_aa100; assert_in_epsilon(15.938892910355834, worksheet.outputs_energy_flows_aa100, 0.002); end
+  def test_outputs_energy_flows_ab100; assert_in_epsilon(17.166026876989314, worksheet.outputs_energy_flows_ab100, 0.002); end
+  def test_outputs_energy_flows_ac100; assert_in_epsilon(18.51761706815896, worksheet.outputs_energy_flows_ac100, 0.002); end
+  def test_outputs_energy_flows_ad100; assert_in_epsilon(19.5086660428596, worksheet.outputs_energy_flows_ad100, 0.002); end
+  def test_outputs_energy_flows_c102; assert_equal("n/a", worksheet.outputs_energy_flows_c102); end
+  def test_outputs_energy_flows_d102; assert_equal("Thermal generation", worksheet.outputs_energy_flows_d102); end
+  def test_outputs_energy_flows_f102; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f102); end
+  def test_outputs_energy_flows_i102; assert_equal("E.02", worksheet.outputs_energy_flows_i102); end
+  def test_outputs_energy_flows_j102; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j102); end
+  def test_outputs_energy_flows_k102; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k102); end
+  def test_outputs_energy_flows_l102; assert_equal("Unabated power", worksheet.outputs_energy_flows_l102); end
+  def test_outputs_energy_flows_m102; assert_equal("Nuclear", worksheet.outputs_energy_flows_m102); end
+  def test_outputs_energy_flows_v102; assert_in_epsilon(58.64944014387076, worksheet.outputs_energy_flows_v102, 0.002); end
+  def test_outputs_energy_flows_w102; assert_in_epsilon(63.778848803611815, worksheet.outputs_energy_flows_w102, 0.002); end
+  def test_outputs_energy_flows_x102; assert_in_epsilon(70.81870490295437, worksheet.outputs_energy_flows_x102, 0.002); end
+  def test_outputs_energy_flows_y102; assert_in_epsilon(78.98150206709649, worksheet.outputs_energy_flows_y102, 0.002); end
+  def test_outputs_energy_flows_z102; assert_in_epsilon(87.4202340527809, worksheet.outputs_energy_flows_z102, 0.002); end
+  def test_outputs_energy_flows_aa102; assert_in_epsilon(95.9625593420769, worksheet.outputs_energy_flows_aa102, 0.002); end
+  def test_outputs_energy_flows_ab102; assert_in_epsilon(102.77303590799978, worksheet.outputs_energy_flows_ab102, 0.002); end
+  def test_outputs_energy_flows_ac102; assert_in_epsilon(108.76626739520572, worksheet.outputs_energy_flows_ac102, 0.002); end
+  def test_outputs_energy_flows_ad102; assert_in_epsilon(114.19751612817821, worksheet.outputs_energy_flows_ad102, 0.002); end
+  def test_outputs_energy_flows_c104; assert_equal("n/a", worksheet.outputs_energy_flows_c104); end
+  def test_outputs_energy_flows_d104; assert_equal("Thermal generation", worksheet.outputs_energy_flows_d104); end
+  def test_outputs_energy_flows_e104; assert_equal("L.02", worksheet.outputs_energy_flows_e104); end
+  def test_outputs_energy_flows_f104; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f104); end
+  def test_outputs_energy_flows_k104; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k104); end
+  def test_outputs_energy_flows_l104; assert_equal("Unabated power", worksheet.outputs_energy_flows_l104); end
+  def test_outputs_energy_flows_m104; assert_equal("Nuclear", worksheet.outputs_energy_flows_m104); end
+  def test_outputs_energy_flows_v104; assert_in_epsilon(2.5219259261864426, worksheet.outputs_energy_flows_v104, 0.002); end
+  def test_outputs_energy_flows_w104; assert_in_epsilon(2.7481363468656435, worksheet.outputs_energy_flows_w104, 0.002); end
+  def test_outputs_energy_flows_x104; assert_in_epsilon(3.0617718411162045, worksheet.outputs_energy_flows_x104, 0.002); end
+  def test_outputs_energy_flows_y104; assert_in_epsilon(3.421412035069035, worksheet.outputs_energy_flows_y104, 0.002); end
+  def test_outputs_energy_flows_z104; assert_in_epsilon(3.8218883238919132, worksheet.outputs_energy_flows_z104, 0.002); end
+  def test_outputs_energy_flows_aa104; assert_in_epsilon(4.211320013218496, worksheet.outputs_energy_flows_aa104, 0.002); end
+  def test_outputs_energy_flows_ab104; assert_in_epsilon(4.534207961473349, worksheet.outputs_energy_flows_ab104, 0.002); end
+  def test_outputs_energy_flows_ac104; assert_in_epsilon(4.834210368225704, worksheet.outputs_energy_flows_ac104, 0.002); end
+  def test_outputs_energy_flows_ad104; assert_in_epsilon(5.151712853236764, worksheet.outputs_energy_flows_ad104, 0.002); end
+  def test_outputs_energy_flows_c106; assert_equal("n/a", worksheet.outputs_energy_flows_c106); end
+  def test_outputs_energy_flows_d106; assert_equal("Thermal generation", worksheet.outputs_energy_flows_d106); end
+  def test_outputs_energy_flows_e106; assert_equal("L.01", worksheet.outputs_energy_flows_e106); end
+  def test_outputs_energy_flows_f106; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f106); end
+  def test_outputs_energy_flows_k106; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_k106); end
+  def test_outputs_energy_flows_l106; assert_equal("Unabated power", worksheet.outputs_energy_flows_l106); end
+  def test_outputs_energy_flows_m106; assert_equal("Nuclear", worksheet.outputs_energy_flows_m106); end
+  def test_outputs_energy_flows_v106; assert_in_epsilon(94.30343261708111, worksheet.outputs_energy_flows_v106, 0.002); end
+  def test_outputs_energy_flows_w106; assert_in_epsilon(100.01213441324113, worksheet.outputs_energy_flows_w106, 0.002); end
+  def test_outputs_energy_flows_x106; assert_in_epsilon(107.21060897945354, worksheet.outputs_energy_flows_x106, 0.002); end
+  def test_outputs_energy_flows_y106; assert_in_epsilon(115.56607920844436, worksheet.outputs_energy_flows_y106, 0.002); end
+  def test_outputs_energy_flows_z106; assert_in_epsilon(124.0298756078408, worksheet.outputs_energy_flows_z106, 0.002); end
+  def test_outputs_energy_flows_aa106; assert_in_epsilon(131.67631146693626, worksheet.outputs_energy_flows_aa106, 0.002); end
+  def test_outputs_energy_flows_ab106; assert_in_epsilon(136.252926141146, worksheet.outputs_energy_flows_ab106, 0.002); end
+  def test_outputs_energy_flows_ac106; assert_in_epsilon(139.82882410810478, worksheet.outputs_energy_flows_ac106, 0.002); end
+  def test_outputs_energy_flows_ad106; assert_in_epsilon(142.9025960891962, worksheet.outputs_energy_flows_ad106, 0.002); end
+  def test_outputs_energy_flows_c108; assert_equal("n/a", worksheet.outputs_energy_flows_c108); end
+  def test_outputs_energy_flows_d108; assert_equal("Storage", worksheet.outputs_energy_flows_d108); end
+  def test_outputs_energy_flows_e108; assert_equal("n/a", worksheet.outputs_energy_flows_e108); end
+  def test_outputs_energy_flows_f108; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f108); end
+  def test_outputs_energy_flows_g108; assert_equal("storage.elec", worksheet.outputs_energy_flows_g108); end
+  def test_outputs_energy_flows_h108; assert_equal("Global Storage unit", worksheet.outputs_energy_flows_h108); end
+  def test_outputs_energy_flows_i108; assert_equal("E.02", worksheet.outputs_energy_flows_i108); end
+  def test_outputs_energy_flows_j108; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j108); end
+  def test_outputs_energy_flows_v108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v108||0), 0.002); end
+  def test_outputs_energy_flows_w108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w108||0), 0.002); end
+  def test_outputs_energy_flows_x108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x108||0), 0.002); end
+  def test_outputs_energy_flows_y108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y108||0), 0.002); end
+  def test_outputs_energy_flows_z108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z108||0), 0.002); end
+  def test_outputs_energy_flows_aa108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa108||0), 0.002); end
+  def test_outputs_energy_flows_ab108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab108||0), 0.002); end
+  def test_outputs_energy_flows_ac108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac108||0), 0.002); end
+  def test_outputs_energy_flows_ad108; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad108||0), 0.002); end
+  def test_outputs_energy_flows_c110; assert_equal("n/a", worksheet.outputs_energy_flows_c110); end
+  def test_outputs_energy_flows_d110; assert_equal("Storage", worksheet.outputs_energy_flows_d110); end
+  def test_outputs_energy_flows_e110; assert_equal("L.01", worksheet.outputs_energy_flows_e110); end
+  def test_outputs_energy_flows_f110; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f110); end
+  def test_outputs_energy_flows_g110; assert_equal("storage.elec", worksheet.outputs_energy_flows_g110); end
+  def test_outputs_energy_flows_h110; assert_equal("Global Storage unit", worksheet.outputs_energy_flows_h110); end
+  def test_outputs_energy_flows_v110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v110||0), 0.002); end
+  def test_outputs_energy_flows_w110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w110||0), 0.002); end
+  def test_outputs_energy_flows_x110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x110||0), 0.002); end
+  def test_outputs_energy_flows_y110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y110||0), 0.002); end
+  def test_outputs_energy_flows_z110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z110||0), 0.002); end
+  def test_outputs_energy_flows_aa110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa110||0), 0.002); end
+  def test_outputs_energy_flows_ab110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab110||0), 0.002); end
+  def test_outputs_energy_flows_ac110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac110||0), 0.002); end
+  def test_outputs_energy_flows_ad110; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad110||0), 0.002); end
+  def test_outputs_energy_flows_c112; assert_equal("n/a", worksheet.outputs_energy_flows_c112); end
+  def test_outputs_energy_flows_d112; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d112); end
+  def test_outputs_energy_flows_e112; assert_equal("L.02", worksheet.outputs_energy_flows_e112); end
+  def test_outputs_energy_flows_f112; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_f112); end
+  def test_outputs_energy_flows_g112; assert_equal("electricity.network", worksheet.outputs_energy_flows_g112); end
+  def test_outputs_energy_flows_h112; assert_equal("Global Electricity distribution network", worksheet.outputs_energy_flows_h112); end
+  def test_outputs_energy_flows_v112; assert_in_epsilon(5.813633087299332, worksheet.outputs_energy_flows_v112, 0.002); end
+  def test_outputs_energy_flows_w112; assert_in_epsilon(6.392648219454592, worksheet.outputs_energy_flows_w112, 0.002); end
+  def test_outputs_energy_flows_x112; assert_in_epsilon(7.163231521911023, worksheet.outputs_energy_flows_x112, 0.002); end
+  def test_outputs_energy_flows_y112; assert_in_epsilon(7.925116100718461, worksheet.outputs_energy_flows_y112, 0.002); end
+  def test_outputs_energy_flows_z112; assert_in_epsilon(8.753493464977764, worksheet.outputs_energy_flows_z112, 0.002); end
+  def test_outputs_energy_flows_aa112; assert_in_epsilon(9.591004258387715, worksheet.outputs_energy_flows_aa112, 0.002); end
+  def test_outputs_energy_flows_ab112; assert_in_epsilon(10.392675749660167, worksheet.outputs_energy_flows_ab112, 0.002); end
+  def test_outputs_energy_flows_ac112; assert_in_epsilon(11.243552770938162, worksheet.outputs_energy_flows_ac112, 0.002); end
+  def test_outputs_energy_flows_ad112; assert_in_epsilon(12.04447104978893, worksheet.outputs_energy_flows_ad112, 0.002); end
+  def test_outputs_energy_flows_c114; assert_equal("n/a", worksheet.outputs_energy_flows_c114); end
+  def test_outputs_energy_flows_d114; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d114); end
+  def test_outputs_energy_flows_e114; assert_equal("n/a", worksheet.outputs_energy_flows_e114); end
+  def test_outputs_energy_flows_f114; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f114); end
+  def test_outputs_energy_flows_i114; assert_equal("E.01", worksheet.outputs_energy_flows_i114); end
+  def test_outputs_energy_flows_j114; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j114); end
+  def test_outputs_energy_flows_k114; assert_equal("Global buildings", worksheet.outputs_energy_flows_k114); end
+  def test_outputs_energy_flows_v114; assert_in_epsilon(4.565082420333475, worksheet.outputs_energy_flows_v114, 0.002); end
+  def test_outputs_energy_flows_w114; assert_in_epsilon(5.408373830599736, worksheet.outputs_energy_flows_w114, 0.002); end
+  def test_outputs_energy_flows_x114; assert_in_epsilon(6.491387190828249, worksheet.outputs_energy_flows_x114, 0.002); end
+  def test_outputs_energy_flows_y114; assert_in_epsilon(7.556842652504315, worksheet.outputs_energy_flows_y114, 0.002); end
+  def test_outputs_energy_flows_z114; assert_in_epsilon(8.77935954056288, worksheet.outputs_energy_flows_z114, 0.002); end
+  def test_outputs_energy_flows_aa114; assert_in_epsilon(10.02732191881477, worksheet.outputs_energy_flows_aa114, 0.002); end
+  def test_outputs_energy_flows_ab114; assert_in_epsilon(11.190022961076153, worksheet.outputs_energy_flows_ab114, 0.002); end
+  def test_outputs_energy_flows_ac114; assert_in_epsilon(12.502905829217362, worksheet.outputs_energy_flows_ac114, 0.002); end
+  def test_outputs_energy_flows_ad114; assert_in_epsilon(13.555354260156832, worksheet.outputs_energy_flows_ad114, 0.002); end
+  def test_outputs_energy_flows_c116; assert_equal("n/a", worksheet.outputs_energy_flows_c116); end
+  def test_outputs_energy_flows_d116; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d116); end
+  def test_outputs_energy_flows_e116; assert_equal("n/a", worksheet.outputs_energy_flows_e116); end
+  def test_outputs_energy_flows_f116; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f116); end
+  def test_outputs_energy_flows_i116; assert_equal("E.01", worksheet.outputs_energy_flows_i116); end
+  def test_outputs_energy_flows_j116; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j116); end
+  def test_outputs_energy_flows_k116; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k116); end
+  def test_outputs_energy_flows_l116; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l116); end
+  def test_outputs_energy_flows_v116; assert_in_epsilon(2.696296869435333, worksheet.outputs_energy_flows_v116, 0.002); end
+  def test_outputs_energy_flows_w116; assert_in_epsilon(3.1971445633683806, worksheet.outputs_energy_flows_w116, 0.002); end
+  def test_outputs_energy_flows_x116; assert_in_epsilon(3.8511042175954886, worksheet.outputs_energy_flows_x116, 0.002); end
+  def test_outputs_energy_flows_y116; assert_in_epsilon(4.509871643341354, worksheet.outputs_energy_flows_y116, 0.002); end
+  def test_outputs_energy_flows_z116; assert_in_epsilon(5.281577833925848, worksheet.outputs_energy_flows_z116, 0.002); end
+  def test_outputs_energy_flows_aa116; assert_in_epsilon(6.091886328161163, worksheet.outputs_energy_flows_aa116, 0.002); end
+  def test_outputs_energy_flows_ab116; assert_in_epsilon(6.878158668656366, worksheet.outputs_energy_flows_ab116, 0.002); end
+  def test_outputs_energy_flows_ac116; assert_in_epsilon(7.786561298332795, worksheet.outputs_energy_flows_ac116, 0.002); end
+  def test_outputs_energy_flows_ad116; assert_in_epsilon(8.570214548045183, worksheet.outputs_energy_flows_ad116, 0.002); end
+  def test_outputs_energy_flows_c118; assert_equal("n/a", worksheet.outputs_energy_flows_c118); end
+  def test_outputs_energy_flows_d118; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d118); end
+  def test_outputs_energy_flows_e118; assert_equal("n/a", worksheet.outputs_energy_flows_e118); end
+  def test_outputs_energy_flows_f118; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f118); end
+  def test_outputs_energy_flows_i118; assert_equal("E.01", worksheet.outputs_energy_flows_i118); end
+  def test_outputs_energy_flows_j118; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j118); end
+  def test_outputs_energy_flows_k118; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k118); end
+  def test_outputs_energy_flows_l118; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l118); end
+  def test_outputs_energy_flows_v118; assert_in_epsilon(12.860587736407986, worksheet.outputs_energy_flows_v118, 0.002); end
+  def test_outputs_energy_flows_w118; assert_in_epsilon(14.220735830241354, worksheet.outputs_energy_flows_w118, 0.002); end
+  def test_outputs_energy_flows_x118; assert_in_epsilon(15.794098070189783, worksheet.outputs_energy_flows_x118, 0.002); end
+  def test_outputs_energy_flows_y118; assert_in_epsilon(17.18693997802466, worksheet.outputs_energy_flows_y118, 0.002); end
+  def test_outputs_energy_flows_z118; assert_in_epsilon(18.684389522161958, worksheet.outputs_energy_flows_z118, 0.002); end
+  def test_outputs_energy_flows_aa118; assert_in_epsilon(20.03841799108141, worksheet.outputs_energy_flows_aa118, 0.002); end
+  def test_outputs_energy_flows_ab118; assert_in_epsilon(21.150969327320006, worksheet.outputs_energy_flows_ab118, 0.002); end
+  def test_outputs_energy_flows_ac118; assert_in_epsilon(22.29415696576302, worksheet.outputs_energy_flows_ac118, 0.002); end
+  def test_outputs_energy_flows_ad118; assert_in_epsilon(22.97537101917237, worksheet.outputs_energy_flows_ad118, 0.002); end
+  def test_outputs_energy_flows_c120; assert_equal("n/a", worksheet.outputs_energy_flows_c120); end
+  def test_outputs_energy_flows_d120; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d120); end
+  def test_outputs_energy_flows_e120; assert_equal("n/a", worksheet.outputs_energy_flows_e120); end
+  def test_outputs_energy_flows_f120; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f120); end
+  def test_outputs_energy_flows_i120; assert_equal("E.01", worksheet.outputs_energy_flows_i120); end
+  def test_outputs_energy_flows_j120; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j120); end
+  def test_outputs_energy_flows_k120; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k120); end
+  def test_outputs_energy_flows_l120; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l120); end
+  def test_outputs_energy_flows_v120; assert_in_epsilon(1.808542414355401, worksheet.outputs_energy_flows_v120, 0.002); end
+  def test_outputs_energy_flows_w120; assert_in_epsilon(2.010772270460809, worksheet.outputs_energy_flows_w120, 0.002); end
+  def test_outputs_energy_flows_x120; assert_in_epsilon(2.251727139170066, worksheet.outputs_energy_flows_x120, 0.002); end
+  def test_outputs_energy_flows_y120; assert_in_epsilon(2.4640997921327426, worksheet.outputs_energy_flows_y120, 0.002); end
+  def test_outputs_energy_flows_z120; assert_in_epsilon(2.721831566235524, worksheet.outputs_energy_flows_z120, 0.002); end
+  def test_outputs_energy_flows_aa120; assert_in_epsilon(2.977376546759662, worksheet.outputs_energy_flows_aa120, 0.002); end
+  def test_outputs_energy_flows_ab120; assert_in_epsilon(3.194575486055124, worksheet.outputs_energy_flows_ab120, 0.002); end
+  def test_outputs_energy_flows_ac120; assert_in_epsilon(3.459438271334942, worksheet.outputs_energy_flows_ac120, 0.002); end
+  def test_outputs_energy_flows_ad120; assert_in_epsilon(3.6436724477857894, worksheet.outputs_energy_flows_ad120, 0.002); end
+  def test_outputs_energy_flows_c122; assert_equal("n/a", worksheet.outputs_energy_flows_c122); end
+  def test_outputs_energy_flows_d122; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d122); end
+  def test_outputs_energy_flows_e122; assert_equal("n/a", worksheet.outputs_energy_flows_e122); end
+  def test_outputs_energy_flows_f122; assert_equal("Non domestic", worksheet.outputs_energy_flows_f122); end
+  def test_outputs_energy_flows_i122; assert_equal("E.01", worksheet.outputs_energy_flows_i122); end
+  def test_outputs_energy_flows_j122; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j122); end
+  def test_outputs_energy_flows_k122; assert_equal("Non-residential", worksheet.outputs_energy_flows_k122); end
+  def test_outputs_energy_flows_v122; assert_in_epsilon(13.646668116774995, worksheet.outputs_energy_flows_v122, 0.002); end
+  def test_outputs_energy_flows_w122; assert_in_epsilon(15.259822627795598, worksheet.outputs_energy_flows_w122, 0.002); end
+  def test_outputs_energy_flows_x122; assert_in_epsilon(17.25730502081801, worksheet.outputs_energy_flows_x122, 0.002); end
+  def test_outputs_energy_flows_y122; assert_in_epsilon(19.285063302912736, worksheet.outputs_energy_flows_y122, 0.002); end
+  def test_outputs_energy_flows_z122; assert_in_epsilon(21.320271103929915, worksheet.outputs_energy_flows_z122, 0.002); end
+  def test_outputs_energy_flows_aa122; assert_in_epsilon(23.344756397912427, worksheet.outputs_energy_flows_aa122, 0.002); end
+  def test_outputs_energy_flows_ab122; assert_in_epsilon(25.33434844611405, worksheet.outputs_energy_flows_ab122, 0.002); end
+  def test_outputs_energy_flows_ac122; assert_in_epsilon(27.258684236066564, worksheet.outputs_energy_flows_ac122, 0.002); end
+  def test_outputs_energy_flows_ad122; assert_in_epsilon(29.087684486681244, worksheet.outputs_energy_flows_ad122, 0.002); end
+  def test_outputs_energy_flows_c124; assert_equal("n/a", worksheet.outputs_energy_flows_c124); end
+  def test_outputs_energy_flows_d124; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d124); end
+  def test_outputs_energy_flows_e124; assert_equal("n/a", worksheet.outputs_energy_flows_e124); end
+  def test_outputs_energy_flows_f124; assert_equal("Steel", worksheet.outputs_energy_flows_f124); end
+  def test_outputs_energy_flows_i124; assert_equal("E.01", worksheet.outputs_energy_flows_i124); end
+  def test_outputs_energy_flows_j124; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j124); end
+  def test_outputs_energy_flows_v124; assert_in_epsilon(3.944226186432, worksheet.outputs_energy_flows_v124, 0.002); end
+  def test_outputs_energy_flows_w124; assert_in_epsilon(4.1039954202384745, worksheet.outputs_energy_flows_w124, 0.002); end
+  def test_outputs_energy_flows_x124; assert_in_epsilon(4.425200697012075, worksheet.outputs_energy_flows_x124, 0.002); end
+  def test_outputs_energy_flows_y124; assert_in_epsilon(4.775437976083743, worksheet.outputs_energy_flows_y124, 0.002); end
+  def test_outputs_energy_flows_z124; assert_in_epsilon(5.17354346214832, worksheet.outputs_energy_flows_z124, 0.002); end
+  def test_outputs_energy_flows_aa124; assert_in_epsilon(5.597525405776015, worksheet.outputs_energy_flows_aa124, 0.002); end
+  def test_outputs_energy_flows_ab124; assert_in_epsilon(6.051074988637828, worksheet.outputs_energy_flows_ab124, 0.002); end
+  def test_outputs_energy_flows_ac124; assert_in_epsilon(6.645962100657496, worksheet.outputs_energy_flows_ac124, 0.002); end
+  def test_outputs_energy_flows_ad124; assert_in_epsilon(7.629042451369937, worksheet.outputs_energy_flows_ad124, 0.002); end
+  def test_outputs_energy_flows_c126; assert_equal("n/a", worksheet.outputs_energy_flows_c126); end
+  def test_outputs_energy_flows_d126; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d126); end
+  def test_outputs_energy_flows_e126; assert_equal("n/a", worksheet.outputs_energy_flows_e126); end
+  def test_outputs_energy_flows_f126; assert_equal("Aluminium", worksheet.outputs_energy_flows_f126); end
+  def test_outputs_energy_flows_i126; assert_equal("E.01", worksheet.outputs_energy_flows_i126); end
+  def test_outputs_energy_flows_j126; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j126); end
+  def test_outputs_energy_flows_v126; assert_in_epsilon(2.4366032392955352, worksheet.outputs_energy_flows_v126, 0.002); end
+  def test_outputs_energy_flows_w126; assert_in_epsilon(2.760499767067086, worksheet.outputs_energy_flows_w126, 0.002); end
+  def test_outputs_energy_flows_x126; assert_in_epsilon(3.3093549251368968, worksheet.outputs_energy_flows_x126, 0.002); end
+  def test_outputs_energy_flows_y126; assert_in_epsilon(3.922911153132523, worksheet.outputs_energy_flows_y126, 0.002); end
+  def test_outputs_energy_flows_z126; assert_in_epsilon(4.6263574229628235, worksheet.outputs_energy_flows_z126, 0.002); end
+  def test_outputs_energy_flows_aa126; assert_in_epsilon(5.406309124357828, worksheet.outputs_energy_flows_aa126, 0.002); end
+  def test_outputs_energy_flows_ab126; assert_in_epsilon(6.249786901412033, worksheet.outputs_energy_flows_ab126, 0.002); end
+  def test_outputs_energy_flows_ac126; assert_in_epsilon(7.2277468572941785, worksheet.outputs_energy_flows_ac126, 0.002); end
+  def test_outputs_energy_flows_ad126; assert_in_epsilon(8.302563940861893, worksheet.outputs_energy_flows_ad126, 0.002); end
+  def test_outputs_energy_flows_c128; assert_equal("n/a", worksheet.outputs_energy_flows_c128); end
+  def test_outputs_energy_flows_d128; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d128); end
+  def test_outputs_energy_flows_e128; assert_equal("n/a", worksheet.outputs_energy_flows_e128); end
+  def test_outputs_energy_flows_f128; assert_equal("Cement", worksheet.outputs_energy_flows_f128); end
+  def test_outputs_energy_flows_i128; assert_equal("E.01", worksheet.outputs_energy_flows_i128); end
+  def test_outputs_energy_flows_j128; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j128); end
+  def test_outputs_energy_flows_v128; assert_in_epsilon(1.2888723312000763, worksheet.outputs_energy_flows_v128, 0.002); end
+  def test_outputs_energy_flows_w128; assert_in_epsilon(1.3846071333947918, worksheet.outputs_energy_flows_w128, 0.002); end
+  def test_outputs_energy_flows_x128; assert_in_epsilon(1.4829172066151368, worksheet.outputs_energy_flows_x128, 0.002); end
+  def test_outputs_energy_flows_y128; assert_in_epsilon(1.5787874324150841, worksheet.outputs_energy_flows_y128, 0.002); end
+  def test_outputs_energy_flows_z128; assert_in_epsilon(1.8259964734237109, worksheet.outputs_energy_flows_z128, 0.002); end
+  def test_outputs_energy_flows_aa128; assert_in_epsilon(2.093818275035305, worksheet.outputs_energy_flows_aa128, 0.002); end
+  def test_outputs_energy_flows_ab128; assert_in_epsilon(2.3802825202008595, worksheet.outputs_energy_flows_ab128, 0.002); end
+  def test_outputs_energy_flows_ac128; assert_in_epsilon(2.6912242671095647, worksheet.outputs_energy_flows_ac128, 0.002); end
+  def test_outputs_energy_flows_ad128; assert_in_epsilon(3.0211452846367446, worksheet.outputs_energy_flows_ad128, 0.002); end
+  def test_outputs_energy_flows_c130; assert_equal("n/a", worksheet.outputs_energy_flows_c130); end
+  def test_outputs_energy_flows_d130; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d130); end
+  def test_outputs_energy_flows_e130; assert_equal("n/a", worksheet.outputs_energy_flows_e130); end
+  def test_outputs_energy_flows_f130; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f130); end
+  def test_outputs_energy_flows_i130; assert_equal("E.01", worksheet.outputs_energy_flows_i130); end
+  def test_outputs_energy_flows_j130; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j130); end
+  def test_outputs_energy_flows_v130; assert_in_epsilon(1.82013932102304, worksheet.outputs_energy_flows_v130, 0.002); end
+  def test_outputs_energy_flows_w130; assert_in_epsilon(1.870096311600729, worksheet.outputs_energy_flows_w130, 0.002); end
+  def test_outputs_energy_flows_x130; assert_in_epsilon(1.9129576978001386, worksheet.outputs_energy_flows_x130, 0.002); end
+  def test_outputs_energy_flows_y130; assert_in_epsilon(1.944281346884742, worksheet.outputs_energy_flows_y130, 0.002); end
+  def test_outputs_energy_flows_z130; assert_in_epsilon(1.987237561097818, worksheet.outputs_energy_flows_z130, 0.002); end
+  def test_outputs_energy_flows_aa130; assert_in_epsilon(2.0211108677900347, worksheet.outputs_energy_flows_aa130, 0.002); end
+  def test_outputs_energy_flows_ab130; assert_in_epsilon(2.0461132177621404, worksheet.outputs_energy_flows_ab130, 0.002); end
+  def test_outputs_energy_flows_ac130; assert_in_epsilon(2.0620370321125376, worksheet.outputs_energy_flows_ac130, 0.002); end
+  def test_outputs_energy_flows_ad130; assert_in_epsilon(2.0688291270362136, worksheet.outputs_energy_flows_ad130, 0.002); end
+  def test_outputs_energy_flows_c132; assert_equal("n/a", worksheet.outputs_energy_flows_c132); end
+  def test_outputs_energy_flows_d132; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d132); end
+  def test_outputs_energy_flows_e132; assert_equal("n/a", worksheet.outputs_energy_flows_e132); end
+  def test_outputs_energy_flows_f132; assert_equal("Chemicals", worksheet.outputs_energy_flows_f132); end
+  def test_outputs_energy_flows_i132; assert_equal("E.01", worksheet.outputs_energy_flows_i132); end
+  def test_outputs_energy_flows_j132; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j132); end
+  def test_outputs_energy_flows_v132; assert_in_epsilon(4.185756900815473, worksheet.outputs_energy_flows_v132, 0.002); end
+  def test_outputs_energy_flows_w132; assert_in_epsilon(4.091046384889203, worksheet.outputs_energy_flows_w132, 0.002); end
+  def test_outputs_energy_flows_x132; assert_in_epsilon(4.40040498577041, worksheet.outputs_energy_flows_x132, 0.002); end
+  def test_outputs_energy_flows_y132; assert_in_epsilon(4.715033160674547, worksheet.outputs_energy_flows_y132, 0.002); end
+  def test_outputs_energy_flows_z132; assert_in_epsilon(5.088141391193289, worksheet.outputs_energy_flows_z132, 0.002); end
+  def test_outputs_energy_flows_aa132; assert_in_epsilon(5.465268831282463, worksheet.outputs_energy_flows_aa132, 0.002); end
+  def test_outputs_energy_flows_ab132; assert_in_epsilon(5.841602186428505, worksheet.outputs_energy_flows_ab132, 0.002); end
+  def test_outputs_energy_flows_ac132; assert_in_epsilon(6.242020691716972, worksheet.outputs_energy_flows_ac132, 0.002); end
+  def test_outputs_energy_flows_ad132; assert_in_epsilon(6.621532900431212, worksheet.outputs_energy_flows_ad132, 0.002); end
+  def test_outputs_energy_flows_c134; assert_equal("n/a", worksheet.outputs_energy_flows_c134); end
+  def test_outputs_energy_flows_d134; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d134); end
+  def test_outputs_energy_flows_e134; assert_equal("n/a", worksheet.outputs_energy_flows_e134); end
+  def test_outputs_energy_flows_f134; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f134); end
+  def test_outputs_energy_flows_i134; assert_equal("E.01", worksheet.outputs_energy_flows_i134); end
+  def test_outputs_energy_flows_j134; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j134); end
+  def test_outputs_energy_flows_l134; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l134); end
+  def test_outputs_energy_flows_v134; assert_in_epsilon(12.67679058486839, worksheet.outputs_energy_flows_v134, 0.002); end
+  def test_outputs_energy_flows_w134; assert_in_epsilon(13.872938112498934, worksheet.outputs_energy_flows_w134, 0.002); end
+  def test_outputs_energy_flows_x134; assert_in_epsilon(15.273145010439574, worksheet.outputs_energy_flows_x134, 0.002); end
+  def test_outputs_energy_flows_y134; assert_in_epsilon(16.62087226244228, worksheet.outputs_energy_flows_y134, 0.002); end
+  def test_outputs_energy_flows_z134; assert_in_epsilon(17.90282955493113, worksheet.outputs_energy_flows_z134, 0.002); end
+  def test_outputs_energy_flows_aa134; assert_in_epsilon(19.111510752859274, worksheet.outputs_energy_flows_aa134, 0.002); end
+  def test_outputs_energy_flows_ab134; assert_in_epsilon(20.235932790995914, worksheet.outputs_energy_flows_ab134, 0.002); end
+  def test_outputs_energy_flows_ac134; assert_in_epsilon(21.26184931411551, worksheet.outputs_energy_flows_ac134, 0.002); end
+  def test_outputs_energy_flows_ad134; assert_in_epsilon(22.17699723024908, worksheet.outputs_energy_flows_ad134, 0.002); end
+  def test_outputs_energy_flows_c136; assert_equal("n/a", worksheet.outputs_energy_flows_c136); end
+  def test_outputs_energy_flows_d136; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d136); end
+  def test_outputs_energy_flows_e136; assert_equal("n/a", worksheet.outputs_energy_flows_e136); end
+  def test_outputs_energy_flows_f136; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f136); end
+  def test_outputs_energy_flows_i136; assert_equal("E.01", worksheet.outputs_energy_flows_i136); end
+  def test_outputs_energy_flows_j136; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j136); end
+  def test_outputs_energy_flows_l136; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l136); end
+  def test_outputs_energy_flows_m136; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m136); end
+  def test_outputs_energy_flows_v136; assert_in_delta(0.19890659712863298, worksheet.outputs_energy_flows_v136, 0.002); end
+  def test_outputs_energy_flows_w136; assert_in_delta(0.40535788516303334, worksheet.outputs_energy_flows_w136, 0.002); end
+  def test_outputs_energy_flows_x136; assert_in_delta(0.6957254469608317, worksheet.outputs_energy_flows_x136, 0.002); end
+  def test_outputs_energy_flows_y136; assert_in_epsilon(1.0250369215804276, worksheet.outputs_energy_flows_y136, 0.002); end
+  def test_outputs_energy_flows_z136; assert_in_epsilon(1.3923405542186469, worksheet.outputs_energy_flows_z136, 0.002); end
+  def test_outputs_energy_flows_aa136; assert_in_epsilon(1.7988501226331497, worksheet.outputs_energy_flows_aa136, 0.002); end
+  def test_outputs_energy_flows_ab136; assert_in_epsilon(2.241987116191904, worksheet.outputs_energy_flows_ab136, 0.002); end
+  def test_outputs_energy_flows_ac136; assert_in_epsilon(2.7247451913642617, worksheet.outputs_energy_flows_ac136, 0.002); end
+  def test_outputs_energy_flows_ad136; assert_in_epsilon(3.2393474207041555, worksheet.outputs_energy_flows_ad136, 0.002); end
+  def test_outputs_energy_flows_c138; assert_equal("n/a", worksheet.outputs_energy_flows_c138); end
+  def test_outputs_energy_flows_d138; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d138); end
+  def test_outputs_energy_flows_e138; assert_equal("n/a", worksheet.outputs_energy_flows_e138); end
+  def test_outputs_energy_flows_f138; assert_equal("International passenger", worksheet.outputs_energy_flows_f138); end
+  def test_outputs_energy_flows_i138; assert_equal("E.01", worksheet.outputs_energy_flows_i138); end
+  def test_outputs_energy_flows_j138; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j138); end
+  def test_outputs_energy_flows_l138; assert_equal("International", worksheet.outputs_energy_flows_l138); end
+  def test_outputs_energy_flows_v138; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v138||0), 0.002); end
+  def test_outputs_energy_flows_w138; assert_in_delta(0.003204206031493881, worksheet.outputs_energy_flows_w138, 0.002); end
+  def test_outputs_energy_flows_x138; assert_in_delta(0.008049037591251957, worksheet.outputs_energy_flows_x138, 0.002); end
+  def test_outputs_energy_flows_y138; assert_in_delta(0.013975092924225968, worksheet.outputs_energy_flows_y138, 0.002); end
+  def test_outputs_energy_flows_z138; assert_in_delta(0.0211844002213404, worksheet.outputs_energy_flows_z138, 0.002); end
+  def test_outputs_energy_flows_aa138; assert_in_delta(0.029940676239874786, worksheet.outputs_energy_flows_aa138, 0.002); end
+  def test_outputs_energy_flows_ab138; assert_in_delta(0.040572061582101936, worksheet.outputs_energy_flows_ab138, 0.002); end
+  def test_outputs_energy_flows_ac138; assert_in_delta(0.05347621094209685, worksheet.outputs_energy_flows_ac138, 0.002); end
+  def test_outputs_energy_flows_ad138; assert_in_delta(0.06913937321711161, worksheet.outputs_energy_flows_ad138, 0.002); end
+  def test_outputs_energy_flows_c140; assert_equal("n/a", worksheet.outputs_energy_flows_c140); end
+  def test_outputs_energy_flows_d140; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d140); end
+  def test_outputs_energy_flows_e140; assert_equal("n/a", worksheet.outputs_energy_flows_e140); end
+  def test_outputs_energy_flows_f140; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f140); end
+  def test_outputs_energy_flows_i140; assert_equal("E.01", worksheet.outputs_energy_flows_i140); end
+  def test_outputs_energy_flows_j140; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j140); end
+  def test_outputs_energy_flows_l140; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l140); end
+  def test_outputs_energy_flows_v140; assert_in_delta(0.13826458288412322, worksheet.outputs_energy_flows_v140, 0.002); end
+  def test_outputs_energy_flows_w140; assert_in_delta(0.19004219594257146, worksheet.outputs_energy_flows_w140, 0.002); end
+  def test_outputs_energy_flows_x140; assert_in_delta(0.25849129898071566, worksheet.outputs_energy_flows_x140, 0.002); end
+  def test_outputs_energy_flows_y140; assert_in_delta(0.33243917204966966, worksheet.outputs_energy_flows_y140, 0.002); end
+  def test_outputs_energy_flows_z140; assert_in_delta(0.4120354032782465, worksheet.outputs_energy_flows_z140, 0.002); end
+  def test_outputs_energy_flows_aa140; assert_in_delta(0.4974273914021824, worksheet.outputs_energy_flows_aa140, 0.002); end
+  def test_outputs_energy_flows_ab140; assert_in_delta(0.5887598490159364, worksheet.outputs_energy_flows_ab140, 0.002); end
+  def test_outputs_energy_flows_ac140; assert_in_delta(0.6861742701978992, worksheet.outputs_energy_flows_ac140, 0.002); end
+  def test_outputs_energy_flows_ad140; assert_in_delta(0.7898083605620982, worksheet.outputs_energy_flows_ad140, 0.002); end
+  def test_outputs_energy_flows_c142; assert_equal("n/a", worksheet.outputs_energy_flows_c142); end
+  def test_outputs_energy_flows_d142; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d142); end
+  def test_outputs_energy_flows_e142; assert_equal("n/a", worksheet.outputs_energy_flows_e142); end
+  def test_outputs_energy_flows_f142; assert_equal("International freight", worksheet.outputs_energy_flows_f142); end
+  def test_outputs_energy_flows_i142; assert_equal("E.01", worksheet.outputs_energy_flows_i142); end
+  def test_outputs_energy_flows_j142; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j142); end
+  def test_outputs_energy_flows_l142; assert_equal("International freight", worksheet.outputs_energy_flows_l142); end
+  def test_outputs_energy_flows_v142; assert_in_delta(0.27579627474268875, worksheet.outputs_energy_flows_v142, 0.002); end
+  def test_outputs_energy_flows_w142; assert_in_delta(0.39469535021934604, worksheet.outputs_energy_flows_w142, 0.002); end
+  def test_outputs_energy_flows_x142; assert_in_delta(0.571257221358368, worksheet.outputs_energy_flows_x142, 0.002); end
+  def test_outputs_energy_flows_y142; assert_in_delta(0.7848792988637536, worksheet.outputs_energy_flows_y142, 0.002); end
+  def test_outputs_energy_flows_z142; assert_in_epsilon(1.038834965832911, worksheet.outputs_energy_flows_z142, 0.002); end
+  def test_outputs_energy_flows_aa142; assert_in_epsilon(1.3366169537367862, worksheet.outputs_energy_flows_aa142, 0.002); end
+  def test_outputs_energy_flows_ab142; assert_in_epsilon(1.6819502345189528, worksheet.outputs_energy_flows_ab142, 0.002); end
+  def test_outputs_energy_flows_ac142; assert_in_epsilon(2.078805617470999, worksheet.outputs_energy_flows_ac142, 0.002); end
+  def test_outputs_energy_flows_ad142; assert_in_epsilon(2.5314140877723013, worksheet.outputs_energy_flows_ad142, 0.002); end
+  def test_outputs_energy_flows_c144; assert_equal("n/a", worksheet.outputs_energy_flows_c144); end
+  def test_outputs_energy_flows_d144; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d144); end
+  def test_outputs_energy_flows_e144; assert_equal("n/a", worksheet.outputs_energy_flows_e144); end
+  def test_outputs_energy_flows_f144; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f144); end
+  def test_outputs_energy_flows_i144; assert_equal("E.01", worksheet.outputs_energy_flows_i144); end
+  def test_outputs_energy_flows_j144; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j144); end
+  def test_outputs_energy_flows_v144; assert_in_delta(5.69986361910142e-09, worksheet.outputs_energy_flows_v144, 0.002); end
+  def test_outputs_energy_flows_w144; assert_in_delta(5.573200389548103e-09, worksheet.outputs_energy_flows_w144, 0.002); end
+  def test_outputs_energy_flows_x144; assert_in_delta(5.265882281156492e-09, worksheet.outputs_energy_flows_x144, 0.002); end
+  def test_outputs_energy_flows_y144; assert_in_delta(6.239478703641386e-09, worksheet.outputs_energy_flows_y144, 0.002); end
+  def test_outputs_energy_flows_z144; assert_in_delta(1.2515710154246595e-08, worksheet.outputs_energy_flows_z144, 0.002); end
+  def test_outputs_energy_flows_aa144; assert_in_delta(1.5987535706478306e-08, worksheet.outputs_energy_flows_aa144, 0.002); end
+  def test_outputs_energy_flows_ab144; assert_in_delta(1.545673404018984e-08, worksheet.outputs_energy_flows_ab144, 0.002); end
+  def test_outputs_energy_flows_ac144; assert_in_delta(1.0440486755312655e-08, worksheet.outputs_energy_flows_ac144, 0.002); end
+  def test_outputs_energy_flows_ad144; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad144||0), 0.002); end
+  def test_outputs_energy_flows_c146; assert_equal("n/a", worksheet.outputs_energy_flows_c146); end
+  def test_outputs_energy_flows_d146; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d146); end
+  def test_outputs_energy_flows_e146; assert_equal("G.01", worksheet.outputs_energy_flows_e146); end
+  def test_outputs_energy_flows_f146; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f146); end
+  def test_outputs_energy_flows_g146; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g146); end
+  def test_outputs_energy_flows_h146; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h146); end
+  def test_outputs_energy_flows_i146; assert_equal("E.01", worksheet.outputs_energy_flows_i146); end
+  def test_outputs_energy_flows_j146; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j146); end
+  def test_outputs_energy_flows_v146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v146||0), 0.002); end
+  def test_outputs_energy_flows_w146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w146||0), 0.002); end
+  def test_outputs_energy_flows_x146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x146||0), 0.002); end
+  def test_outputs_energy_flows_y146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y146||0), 0.002); end
+  def test_outputs_energy_flows_z146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z146||0), 0.002); end
+  def test_outputs_energy_flows_aa146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa146||0), 0.002); end
+  def test_outputs_energy_flows_ab146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab146||0), 0.002); end
+  def test_outputs_energy_flows_ac146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac146||0), 0.002); end
+  def test_outputs_energy_flows_ad146; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad146||0), 0.002); end
+  def test_outputs_energy_flows_c148; assert_equal("n/a", worksheet.outputs_energy_flows_c148); end
+  def test_outputs_energy_flows_d148; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d148); end
+  def test_outputs_energy_flows_e148; assert_equal("n/a", worksheet.outputs_energy_flows_e148); end
+  def test_outputs_energy_flows_f148; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f148); end
+  def test_outputs_energy_flows_g148; assert_equal("n/a", worksheet.outputs_energy_flows_g148); end
+  def test_outputs_energy_flows_h148; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h148); end
+  def test_outputs_energy_flows_i148; assert_equal("E.01", worksheet.outputs_energy_flows_i148); end
+  def test_outputs_energy_flows_j148; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j148); end
+  def test_outputs_energy_flows_v148; assert_in_epsilon(3.9999999999999996, worksheet.outputs_energy_flows_v148, 0.002); end
+  def test_outputs_energy_flows_w148; assert_in_epsilon(4.088955043780237, worksheet.outputs_energy_flows_w148, 0.002); end
+  def test_outputs_energy_flows_x148; assert_in_epsilon(4.246972465792244, worksheet.outputs_energy_flows_x148, 0.002); end
+  def test_outputs_energy_flows_y148; assert_in_epsilon(4.388818930974344, worksheet.outputs_energy_flows_y148, 0.002); end
+  def test_outputs_energy_flows_z148; assert_in_epsilon(4.516559556192925, worksheet.outputs_energy_flows_z148, 0.002); end
+  def test_outputs_energy_flows_aa148; assert_in_epsilon(4.718341318072903, worksheet.outputs_energy_flows_aa148, 0.002); end
+  def test_outputs_energy_flows_ab148; assert_in_epsilon(4.822216243466424, worksheet.outputs_energy_flows_ab148, 0.002); end
+  def test_outputs_energy_flows_ac148; assert_in_epsilon(4.913068492116926, worksheet.outputs_energy_flows_ac148, 0.002); end
+  def test_outputs_energy_flows_ad148; assert_in_epsilon(4.990372596096302, worksheet.outputs_energy_flows_ad148, 0.002); end
+  def test_outputs_energy_flows_c150; assert_equal("n/a", worksheet.outputs_energy_flows_c150); end
+  def test_outputs_energy_flows_d150; assert_equal("Solid", worksheet.outputs_energy_flows_d150); end
+  def test_outputs_energy_flows_e150; assert_equal("n/a", worksheet.outputs_energy_flows_e150); end
+  def test_outputs_energy_flows_f150; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f150); end
+  def test_outputs_energy_flows_i150; assert_equal("C.01", worksheet.outputs_energy_flows_i150); end
+  def test_outputs_energy_flows_j150; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j150); end
+  def test_outputs_energy_flows_k150; assert_equal("Global buildings", worksheet.outputs_energy_flows_k150); end
+  def test_outputs_energy_flows_v150; assert_in_epsilon(8.470045508651591, worksheet.outputs_energy_flows_v150, 0.002); end
+  def test_outputs_energy_flows_w150; assert_in_epsilon(8.698053883733106, worksheet.outputs_energy_flows_w150, 0.002); end
+  def test_outputs_energy_flows_x150; assert_in_epsilon(8.900313354544743, worksheet.outputs_energy_flows_x150, 0.002); end
+  def test_outputs_energy_flows_y150; assert_in_epsilon(9.137796315766142, worksheet.outputs_energy_flows_y150, 0.002); end
+  def test_outputs_energy_flows_z150; assert_in_epsilon(9.166618747137171, worksheet.outputs_energy_flows_z150, 0.002); end
+  def test_outputs_energy_flows_aa150; assert_in_epsilon(9.112107322279195, worksheet.outputs_energy_flows_aa150, 0.002); end
+  def test_outputs_energy_flows_ab150; assert_in_epsilon(9.12812895295708, worksheet.outputs_energy_flows_ab150, 0.002); end
+  def test_outputs_energy_flows_ac150; assert_in_epsilon(8.911415459954961, worksheet.outputs_energy_flows_ac150, 0.002); end
+  def test_outputs_energy_flows_ad150; assert_in_epsilon(8.872074718256297, worksheet.outputs_energy_flows_ad150, 0.002); end
+  def test_outputs_energy_flows_c152; assert_equal("n/a", worksheet.outputs_energy_flows_c152); end
+  def test_outputs_energy_flows_d152; assert_equal("Solid", worksheet.outputs_energy_flows_d152); end
+  def test_outputs_energy_flows_e152; assert_equal("n/a", worksheet.outputs_energy_flows_e152); end
+  def test_outputs_energy_flows_f152; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f152); end
+  def test_outputs_energy_flows_i152; assert_equal("C.01", worksheet.outputs_energy_flows_i152); end
+  def test_outputs_energy_flows_j152; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j152); end
+  def test_outputs_energy_flows_k152; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k152); end
+  def test_outputs_energy_flows_l152; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l152); end
+  def test_outputs_energy_flows_v152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v152||0), 0.002); end
+  def test_outputs_energy_flows_w152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w152||0), 0.002); end
+  def test_outputs_energy_flows_x152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x152||0), 0.002); end
+  def test_outputs_energy_flows_y152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y152||0), 0.002); end
+  def test_outputs_energy_flows_z152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z152||0), 0.002); end
+  def test_outputs_energy_flows_aa152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa152||0), 0.002); end
+  def test_outputs_energy_flows_ab152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab152||0), 0.002); end
+  def test_outputs_energy_flows_ac152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac152||0), 0.002); end
+  def test_outputs_energy_flows_ad152; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad152||0), 0.002); end
+  def test_outputs_energy_flows_c154; assert_equal("n/a", worksheet.outputs_energy_flows_c154); end
+  def test_outputs_energy_flows_d154; assert_equal("Solid", worksheet.outputs_energy_flows_d154); end
+  def test_outputs_energy_flows_e154; assert_equal("n/a", worksheet.outputs_energy_flows_e154); end
+  def test_outputs_energy_flows_f154; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f154); end
+  def test_outputs_energy_flows_i154; assert_equal("C.01", worksheet.outputs_energy_flows_i154); end
+  def test_outputs_energy_flows_j154; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j154); end
+  def test_outputs_energy_flows_k154; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k154); end
+  def test_outputs_energy_flows_l154; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l154); end
+  def test_outputs_energy_flows_v154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v154||0), 0.002); end
+  def test_outputs_energy_flows_w154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w154||0), 0.002); end
+  def test_outputs_energy_flows_x154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x154||0), 0.002); end
+  def test_outputs_energy_flows_y154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y154||0), 0.002); end
+  def test_outputs_energy_flows_z154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z154||0), 0.002); end
+  def test_outputs_energy_flows_aa154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa154||0), 0.002); end
+  def test_outputs_energy_flows_ab154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab154||0), 0.002); end
+  def test_outputs_energy_flows_ac154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac154||0), 0.002); end
+  def test_outputs_energy_flows_ad154; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad154||0), 0.002); end
+  def test_outputs_energy_flows_c156; assert_equal("n/a", worksheet.outputs_energy_flows_c156); end
+  def test_outputs_energy_flows_d156; assert_equal("Solid", worksheet.outputs_energy_flows_d156); end
+  def test_outputs_energy_flows_e156; assert_equal("n/a", worksheet.outputs_energy_flows_e156); end
+  def test_outputs_energy_flows_f156; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f156); end
+  def test_outputs_energy_flows_i156; assert_equal("C.01", worksheet.outputs_energy_flows_i156); end
+  def test_outputs_energy_flows_j156; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j156); end
+  def test_outputs_energy_flows_k156; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k156); end
+  def test_outputs_energy_flows_l156; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l156); end
+  def test_outputs_energy_flows_v156; assert_in_epsilon(2.1382507723101822, worksheet.outputs_energy_flows_v156, 0.002); end
+  def test_outputs_energy_flows_w156; assert_in_epsilon(2.277015105728907, worksheet.outputs_energy_flows_w156, 0.002); end
+  def test_outputs_energy_flows_x156; assert_in_epsilon(2.4276552352108602, worksheet.outputs_energy_flows_x156, 0.002); end
+  def test_outputs_energy_flows_y156; assert_in_epsilon(2.5533402260014086, worksheet.outputs_energy_flows_y156, 0.002); end
+  def test_outputs_energy_flows_z156; assert_in_epsilon(2.687743816064057, worksheet.outputs_energy_flows_z156, 0.002); end
+  def test_outputs_energy_flows_aa156; assert_in_epsilon(2.8032063888092185, worksheet.outputs_energy_flows_aa156, 0.002); end
+  def test_outputs_energy_flows_ab156; assert_in_epsilon(2.8912681182638837, worksheet.outputs_energy_flows_ab156, 0.002); end
+  def test_outputs_energy_flows_ac156; assert_in_epsilon(2.987541053432132, worksheet.outputs_energy_flows_ac156, 0.002); end
+  def test_outputs_energy_flows_ad156; assert_in_epsilon(3.029896641878182, worksheet.outputs_energy_flows_ad156, 0.002); end
+  def test_outputs_energy_flows_c158; assert_equal("n/a", worksheet.outputs_energy_flows_c158); end
+  def test_outputs_energy_flows_d158; assert_equal("Solid", worksheet.outputs_energy_flows_d158); end
+  def test_outputs_energy_flows_e158; assert_equal("n/a", worksheet.outputs_energy_flows_e158); end
+  def test_outputs_energy_flows_f158; assert_equal("Non domestic", worksheet.outputs_energy_flows_f158); end
+  def test_outputs_energy_flows_i158; assert_equal("C.01", worksheet.outputs_energy_flows_i158); end
+  def test_outputs_energy_flows_j158; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j158); end
+  def test_outputs_energy_flows_k158; assert_equal("Non-residential", worksheet.outputs_energy_flows_k158); end
+  def test_outputs_energy_flows_v158; assert_in_epsilon(1.6596305639567048, worksheet.outputs_energy_flows_v158, 0.002); end
+  def test_outputs_energy_flows_w158; assert_in_epsilon(1.690437325965139, worksheet.outputs_energy_flows_w158, 0.002); end
+  def test_outputs_energy_flows_x158; assert_in_epsilon(1.6950048251492187, worksheet.outputs_energy_flows_x158, 0.002); end
+  def test_outputs_energy_flows_y158; assert_in_epsilon(1.6713975827046799, worksheet.outputs_energy_flows_y158, 0.002); end
+  def test_outputs_energy_flows_z158; assert_in_epsilon(1.6211061493524228, worksheet.outputs_energy_flows_z158, 0.002); end
+  def test_outputs_energy_flows_aa158; assert_in_epsilon(1.5465735785626356, worksheet.outputs_energy_flows_aa158, 0.002); end
+  def test_outputs_energy_flows_ab158; assert_in_epsilon(1.450261071109459, worksheet.outputs_energy_flows_ab158, 0.002); end
+  def test_outputs_energy_flows_ac158; assert_in_epsilon(1.3348245635630462, worksheet.outputs_energy_flows_ac158, 0.002); end
+  def test_outputs_energy_flows_ad158; assert_in_epsilon(1.2035251410933747, worksheet.outputs_energy_flows_ad158, 0.002); end
+  def test_outputs_energy_flows_c160; assert_equal("n/a", worksheet.outputs_energy_flows_c160); end
+  def test_outputs_energy_flows_d160; assert_equal("Solid", worksheet.outputs_energy_flows_d160); end
+  def test_outputs_energy_flows_e160; assert_equal("n/a", worksheet.outputs_energy_flows_e160); end
+  def test_outputs_energy_flows_f160; assert_equal("Steel", worksheet.outputs_energy_flows_f160); end
+  def test_outputs_energy_flows_i160; assert_equal("C.01", worksheet.outputs_energy_flows_i160); end
+  def test_outputs_energy_flows_j160; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j160); end
+  def test_outputs_energy_flows_v160; assert_in_delta(0.5489501886, worksheet.outputs_energy_flows_v160, 0.002); end
+  def test_outputs_energy_flows_w160; assert_in_delta(0.7312387290551746, worksheet.outputs_energy_flows_w160, 0.002); end
+  def test_outputs_energy_flows_x160; assert_in_delta(0.9980469918687263, worksheet.outputs_energy_flows_x160, 0.002); end
+  def test_outputs_energy_flows_y160; assert_in_epsilon(1.2959418212520548, worksheet.outputs_energy_flows_y160, 0.002); end
+  def test_outputs_energy_flows_z160; assert_in_epsilon(1.6333883228853472, worksheet.outputs_energy_flows_z160, 0.002); end
+  def test_outputs_energy_flows_aa160; assert_in_epsilon(2.007211287723595, worksheet.outputs_energy_flows_aa160, 0.002); end
+  def test_outputs_energy_flows_ab160; assert_in_epsilon(2.42047697939301, worksheet.outputs_energy_flows_ab160, 0.002); end
+  def test_outputs_energy_flows_ac160; assert_in_epsilon(2.92420581721506, worksheet.outputs_energy_flows_ac160, 0.002); end
+  def test_outputs_energy_flows_ad160; assert_in_epsilon(3.396721967737, worksheet.outputs_energy_flows_ad160, 0.002); end
+  def test_outputs_energy_flows_c162; assert_equal("n/a", worksheet.outputs_energy_flows_c162); end
+  def test_outputs_energy_flows_d162; assert_equal("Solid", worksheet.outputs_energy_flows_d162); end
+  def test_outputs_energy_flows_e162; assert_equal("n/a", worksheet.outputs_energy_flows_e162); end
+  def test_outputs_energy_flows_f162; assert_equal("Aluminium", worksheet.outputs_energy_flows_f162); end
+  def test_outputs_energy_flows_i162; assert_equal("C.01", worksheet.outputs_energy_flows_i162); end
+  def test_outputs_energy_flows_j162; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j162); end
+  def test_outputs_energy_flows_v162; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v162||0), 0.002); end
+  def test_outputs_energy_flows_w162; assert_in_delta(0.00017026272727571702, worksheet.outputs_energy_flows_w162, 0.002); end
+  def test_outputs_energy_flows_x162; assert_in_delta(0.0004598198421809886, worksheet.outputs_energy_flows_x162, 0.002); end
+  def test_outputs_energy_flows_y162; assert_in_delta(0.0008487428840506834, worksheet.outputs_energy_flows_y162, 0.002); end
+  def test_outputs_energy_flows_z162; assert_in_delta(0.0013585334220363877, worksheet.outputs_energy_flows_z162, 0.002); end
+  def test_outputs_energy_flows_aa162; assert_in_delta(0.002008307213540394, worksheet.outputs_energy_flows_aa162, 0.002); end
+  def test_outputs_energy_flows_ab162; assert_in_delta(0.0028070374280311844, worksheet.outputs_energy_flows_ab162, 0.002); end
+  def test_outputs_energy_flows_ac162; assert_in_delta(0.00380800662574233, worksheet.outputs_energy_flows_ac162, 0.002); end
+  def test_outputs_energy_flows_ad162; assert_in_delta(0.00500322247524546, worksheet.outputs_energy_flows_ad162, 0.002); end
+  def test_outputs_energy_flows_c164; assert_equal("n/a", worksheet.outputs_energy_flows_c164); end
+  def test_outputs_energy_flows_d164; assert_equal("Solid", worksheet.outputs_energy_flows_d164); end
+  def test_outputs_energy_flows_e164; assert_equal("n/a", worksheet.outputs_energy_flows_e164); end
+  def test_outputs_energy_flows_f164; assert_equal("Cement", worksheet.outputs_energy_flows_f164); end
+  def test_outputs_energy_flows_i164; assert_equal("C.01", worksheet.outputs_energy_flows_i164); end
+  def test_outputs_energy_flows_j164; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j164); end
+  def test_outputs_energy_flows_v164; assert_in_delta(0.4925092998042991, worksheet.outputs_energy_flows_v164, 0.002); end
+  def test_outputs_energy_flows_w164; assert_in_delta(0.5585248483742106, worksheet.outputs_energy_flows_w164, 0.002); end
+  def test_outputs_energy_flows_x164; assert_in_delta(0.6375847694123521, worksheet.outputs_energy_flows_x164, 0.002); end
+  def test_outputs_energy_flows_y164; assert_in_delta(0.7207553488723307, worksheet.outputs_energy_flows_y164, 0.002); end
+  def test_outputs_energy_flows_z164; assert_in_delta(0.8097739581488761, worksheet.outputs_energy_flows_z164, 0.002); end
+  def test_outputs_energy_flows_aa164; assert_in_delta(0.9041356672942024, worksheet.outputs_energy_flows_aa164, 0.002); end
+  def test_outputs_energy_flows_ab164; assert_in_epsilon(1.0027621690965014, worksheet.outputs_energy_flows_ab164, 0.002); end
+  def test_outputs_energy_flows_ac164; assert_in_epsilon(1.107877816182336, worksheet.outputs_energy_flows_ac164, 0.002); end
+  def test_outputs_energy_flows_ad164; assert_in_epsilon(1.2169355442115624, worksheet.outputs_energy_flows_ad164, 0.002); end
+  def test_outputs_energy_flows_c166; assert_equal("n/a", worksheet.outputs_energy_flows_c166); end
+  def test_outputs_energy_flows_d166; assert_equal("Solid", worksheet.outputs_energy_flows_d166); end
+  def test_outputs_energy_flows_e166; assert_equal("n/a", worksheet.outputs_energy_flows_e166); end
+  def test_outputs_energy_flows_f166; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f166); end
+  def test_outputs_energy_flows_i166; assert_equal("C.01", worksheet.outputs_energy_flows_i166); end
+  def test_outputs_energy_flows_j166; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j166); end
+  def test_outputs_energy_flows_v166; assert_in_epsilon(1.7854467564492018, worksheet.outputs_energy_flows_v166, 0.002); end
+  def test_outputs_energy_flows_w166; assert_in_epsilon(1.8457842904757378, worksheet.outputs_energy_flows_w166, 0.002); end
+  def test_outputs_energy_flows_x166; assert_in_epsilon(1.9027372809669514, worksheet.outputs_energy_flows_x166, 0.002); end
+  def test_outputs_energy_flows_y166; assert_in_epsilon(1.9489640244623705, worksheet.outputs_energy_flows_y166, 0.002); end
+  def test_outputs_energy_flows_z166; assert_in_epsilon(1.9848803356179343, worksheet.outputs_energy_flows_z166, 0.002); end
+  def test_outputs_energy_flows_aa166; assert_in_epsilon(2.0113591145427914, worksheet.outputs_energy_flows_aa166, 0.002); end
+  def test_outputs_energy_flows_ab166; assert_in_epsilon(2.0286997313235857, worksheet.outputs_energy_flows_ab166, 0.002); end
+  def test_outputs_energy_flows_ac166; assert_in_epsilon(2.03678557132408, worksheet.outputs_energy_flows_ac166, 0.002); end
+  def test_outputs_energy_flows_ad166; assert_in_epsilon(2.035656734025988, worksheet.outputs_energy_flows_ad166, 0.002); end
+  def test_outputs_energy_flows_c168; assert_equal("n/a", worksheet.outputs_energy_flows_c168); end
+  def test_outputs_energy_flows_d168; assert_equal("Solid", worksheet.outputs_energy_flows_d168); end
+  def test_outputs_energy_flows_e168; assert_equal("n/a", worksheet.outputs_energy_flows_e168); end
+  def test_outputs_energy_flows_f168; assert_equal("Chemicals", worksheet.outputs_energy_flows_f168); end
+  def test_outputs_energy_flows_i168; assert_equal("C.01", worksheet.outputs_energy_flows_i168); end
+  def test_outputs_energy_flows_j168; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j168); end
+  def test_outputs_energy_flows_v168; assert_in_delta(0.16313870478909603, worksheet.outputs_energy_flows_v168, 0.002); end
+  def test_outputs_energy_flows_w168; assert_in_delta(0.15944738891379792, worksheet.outputs_energy_flows_w168, 0.002); end
+  def test_outputs_energy_flows_x168; assert_in_delta(0.17150455388037655, worksheet.outputs_energy_flows_x168, 0.002); end
+  def test_outputs_energy_flows_y168; assert_in_delta(0.183767099021022, worksheet.outputs_energy_flows_y168, 0.002); end
+  def test_outputs_energy_flows_z168; assert_in_delta(0.1966367881739866, worksheet.outputs_energy_flows_z168, 0.002); end
+  def test_outputs_energy_flows_aa168; assert_in_delta(0.20946185544384238, worksheet.outputs_energy_flows_aa168, 0.002); end
+  def test_outputs_energy_flows_ab168; assert_in_delta(0.22205191705681243, worksheet.outputs_energy_flows_ab168, 0.002); end
+  def test_outputs_energy_flows_ac168; assert_in_delta(0.23537771777380032, worksheet.outputs_energy_flows_ac168, 0.002); end
+  def test_outputs_energy_flows_ad168; assert_in_delta(0.24771311247970934, worksheet.outputs_energy_flows_ad168, 0.002); end
+  def test_outputs_energy_flows_c170; assert_equal("n/a", worksheet.outputs_energy_flows_c170); end
+  def test_outputs_energy_flows_d170; assert_equal("Solid", worksheet.outputs_energy_flows_d170); end
+  def test_outputs_energy_flows_e170; assert_equal("n/a", worksheet.outputs_energy_flows_e170); end
+  def test_outputs_energy_flows_f170; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f170); end
+  def test_outputs_energy_flows_i170; assert_equal("C.01", worksheet.outputs_energy_flows_i170); end
+  def test_outputs_energy_flows_j170; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j170); end
+  def test_outputs_energy_flows_l170; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l170); end
+  def test_outputs_energy_flows_v170; assert_in_epsilon(4.059168104018365, worksheet.outputs_energy_flows_v170, 0.002); end
+  def test_outputs_energy_flows_w170; assert_in_epsilon(4.4900335748438875, worksheet.outputs_energy_flows_w170, 0.002); end
+  def test_outputs_energy_flows_x170; assert_in_epsilon(5.0097982190972985, worksheet.outputs_energy_flows_x170, 0.002); end
+  def test_outputs_energy_flows_y170; assert_in_epsilon(5.525223473467528, worksheet.outputs_energy_flows_y170, 0.002); end
+  def test_outputs_energy_flows_z170; assert_in_epsilon(6.03137285690867, worksheet.outputs_energy_flows_z170, 0.002); end
+  def test_outputs_energy_flows_aa170; assert_in_epsilon(6.525032727412139, worksheet.outputs_energy_flows_aa170, 0.002); end
+  def test_outputs_energy_flows_ab170; assert_in_epsilon(7.001632494158044, worksheet.outputs_energy_flows_ab170, 0.002); end
+  def test_outputs_energy_flows_ac170; assert_in_epsilon(7.4552340047953285, worksheet.outputs_energy_flows_ac170, 0.002); end
+  def test_outputs_energy_flows_ad170; assert_in_epsilon(7.880312065083034, worksheet.outputs_energy_flows_ad170, 0.002); end
+  def test_outputs_energy_flows_c172; assert_equal("n/a", worksheet.outputs_energy_flows_c172); end
+  def test_outputs_energy_flows_d172; assert_equal("Solid", worksheet.outputs_energy_flows_d172); end
+  def test_outputs_energy_flows_e172; assert_equal("n/a", worksheet.outputs_energy_flows_e172); end
+  def test_outputs_energy_flows_f172; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f172); end
+  def test_outputs_energy_flows_i172; assert_equal("C.01", worksheet.outputs_energy_flows_i172); end
+  def test_outputs_energy_flows_j172; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j172); end
+  def test_outputs_energy_flows_l172; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l172); end
+  def test_outputs_energy_flows_m172; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m172); end
+  def test_outputs_energy_flows_v172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v172||0), 0.002); end
+  def test_outputs_energy_flows_w172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w172||0), 0.002); end
+  def test_outputs_energy_flows_x172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x172||0), 0.002); end
+  def test_outputs_energy_flows_y172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y172||0), 0.002); end
+  def test_outputs_energy_flows_z172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z172||0), 0.002); end
+  def test_outputs_energy_flows_aa172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa172||0), 0.002); end
+  def test_outputs_energy_flows_ab172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab172||0), 0.002); end
+  def test_outputs_energy_flows_ac172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac172||0), 0.002); end
+  def test_outputs_energy_flows_ad172; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad172||0), 0.002); end
+  def test_outputs_energy_flows_c174; assert_equal("n/a", worksheet.outputs_energy_flows_c174); end
+  def test_outputs_energy_flows_d174; assert_equal("Solid", worksheet.outputs_energy_flows_d174); end
+  def test_outputs_energy_flows_e174; assert_equal("n/a", worksheet.outputs_energy_flows_e174); end
+  def test_outputs_energy_flows_f174; assert_equal("International passenger", worksheet.outputs_energy_flows_f174); end
+  def test_outputs_energy_flows_i174; assert_equal("C.01", worksheet.outputs_energy_flows_i174); end
+  def test_outputs_energy_flows_j174; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j174); end
+  def test_outputs_energy_flows_l174; assert_equal("International", worksheet.outputs_energy_flows_l174); end
+  def test_outputs_energy_flows_v174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v174||0), 0.002); end
+  def test_outputs_energy_flows_w174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w174||0), 0.002); end
+  def test_outputs_energy_flows_x174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x174||0), 0.002); end
+  def test_outputs_energy_flows_y174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y174||0), 0.002); end
+  def test_outputs_energy_flows_z174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z174||0), 0.002); end
+  def test_outputs_energy_flows_aa174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa174||0), 0.002); end
+  def test_outputs_energy_flows_ab174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab174||0), 0.002); end
+  def test_outputs_energy_flows_ac174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac174||0), 0.002); end
+  def test_outputs_energy_flows_ad174; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad174||0), 0.002); end
+  def test_outputs_energy_flows_c176; assert_equal("n/a", worksheet.outputs_energy_flows_c176); end
+  def test_outputs_energy_flows_d176; assert_equal("Solid", worksheet.outputs_energy_flows_d176); end
+  def test_outputs_energy_flows_e176; assert_equal("n/a", worksheet.outputs_energy_flows_e176); end
+  def test_outputs_energy_flows_f176; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f176); end
+  def test_outputs_energy_flows_i176; assert_equal("C.01", worksheet.outputs_energy_flows_i176); end
+  def test_outputs_energy_flows_j176; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j176); end
+  def test_outputs_energy_flows_l176; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l176); end
+  def test_outputs_energy_flows_v176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v176||0), 0.002); end
+  def test_outputs_energy_flows_w176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w176||0), 0.002); end
+  def test_outputs_energy_flows_x176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x176||0), 0.002); end
+  def test_outputs_energy_flows_y176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y176||0), 0.002); end
+  def test_outputs_energy_flows_z176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z176||0), 0.002); end
+  def test_outputs_energy_flows_aa176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa176||0), 0.002); end
+  def test_outputs_energy_flows_ab176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab176||0), 0.002); end
+  def test_outputs_energy_flows_ac176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac176||0), 0.002); end
+  def test_outputs_energy_flows_ad176; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad176||0), 0.002); end
+  def test_outputs_energy_flows_c178; assert_equal("n/a", worksheet.outputs_energy_flows_c178); end
+  def test_outputs_energy_flows_d178; assert_equal("Solid", worksheet.outputs_energy_flows_d178); end
+  def test_outputs_energy_flows_e178; assert_equal("n/a", worksheet.outputs_energy_flows_e178); end
+  def test_outputs_energy_flows_f178; assert_equal("International freight", worksheet.outputs_energy_flows_f178); end
+  def test_outputs_energy_flows_i178; assert_equal("C.01", worksheet.outputs_energy_flows_i178); end
+  def test_outputs_energy_flows_j178; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j178); end
+  def test_outputs_energy_flows_l178; assert_equal("International freight", worksheet.outputs_energy_flows_l178); end
+  def test_outputs_energy_flows_v178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v178||0), 0.002); end
+  def test_outputs_energy_flows_w178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w178||0), 0.002); end
+  def test_outputs_energy_flows_x178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x178||0), 0.002); end
+  def test_outputs_energy_flows_y178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y178||0), 0.002); end
+  def test_outputs_energy_flows_z178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z178||0), 0.002); end
+  def test_outputs_energy_flows_aa178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa178||0), 0.002); end
+  def test_outputs_energy_flows_ab178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab178||0), 0.002); end
+  def test_outputs_energy_flows_ac178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac178||0), 0.002); end
+  def test_outputs_energy_flows_ad178; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad178||0), 0.002); end
+  def test_outputs_energy_flows_c180; assert_equal("n/a", worksheet.outputs_energy_flows_c180); end
+  def test_outputs_energy_flows_d180; assert_equal("Solid", worksheet.outputs_energy_flows_d180); end
+  def test_outputs_energy_flows_e180; assert_equal("n/a", worksheet.outputs_energy_flows_e180); end
+  def test_outputs_energy_flows_f180; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f180); end
+  def test_outputs_energy_flows_i180; assert_equal("C.01", worksheet.outputs_energy_flows_i180); end
+  def test_outputs_energy_flows_j180; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j180); end
+  def test_outputs_energy_flows_v180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v180||0), 0.002); end
+  def test_outputs_energy_flows_w180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w180||0), 0.002); end
+  def test_outputs_energy_flows_x180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x180||0), 0.002); end
+  def test_outputs_energy_flows_y180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y180||0), 0.002); end
+  def test_outputs_energy_flows_z180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z180||0), 0.002); end
+  def test_outputs_energy_flows_aa180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa180||0), 0.002); end
+  def test_outputs_energy_flows_ab180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab180||0), 0.002); end
+  def test_outputs_energy_flows_ac180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac180||0), 0.002); end
+  def test_outputs_energy_flows_ad180; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad180||0), 0.002); end
+  def test_outputs_energy_flows_c182; assert_equal("n/a", worksheet.outputs_energy_flows_c182); end
+  def test_outputs_energy_flows_d182; assert_equal("Solid", worksheet.outputs_energy_flows_d182); end
+  def test_outputs_energy_flows_e182; assert_equal("G.01", worksheet.outputs_energy_flows_e182); end
+  def test_outputs_energy_flows_f182; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f182); end
+  def test_outputs_energy_flows_g182; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g182); end
+  def test_outputs_energy_flows_h182; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h182); end
+  def test_outputs_energy_flows_i182; assert_equal("C.01", worksheet.outputs_energy_flows_i182); end
+  def test_outputs_energy_flows_j182; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j182); end
+  def test_outputs_energy_flows_v182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v182||0), 0.002); end
+  def test_outputs_energy_flows_w182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w182||0), 0.002); end
+  def test_outputs_energy_flows_x182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x182||0), 0.002); end
+  def test_outputs_energy_flows_y182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y182||0), 0.002); end
+  def test_outputs_energy_flows_z182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z182||0), 0.002); end
+  def test_outputs_energy_flows_aa182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa182||0), 0.002); end
+  def test_outputs_energy_flows_ab182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab182||0), 0.002); end
+  def test_outputs_energy_flows_ac182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac182||0), 0.002); end
+  def test_outputs_energy_flows_ad182; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad182||0), 0.002); end
+  def test_outputs_energy_flows_c184; assert_equal("n/a", worksheet.outputs_energy_flows_c184); end
+  def test_outputs_energy_flows_d184; assert_equal("Solid", worksheet.outputs_energy_flows_d184); end
+  def test_outputs_energy_flows_e184; assert_equal("n/a", worksheet.outputs_energy_flows_e184); end
+  def test_outputs_energy_flows_f184; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f184); end
+  def test_outputs_energy_flows_g184; assert_equal("n/a", worksheet.outputs_energy_flows_g184); end
+  def test_outputs_energy_flows_h184; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h184); end
+  def test_outputs_energy_flows_i184; assert_equal("C.01", worksheet.outputs_energy_flows_i184); end
+  def test_outputs_energy_flows_j184; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j184); end
+  def test_outputs_energy_flows_v184; assert_in_epsilon(29.830037655893374, worksheet.outputs_energy_flows_v184, 0.002); end
+  def test_outputs_energy_flows_w184; assert_in_epsilon(30.46541328590584, worksheet.outputs_energy_flows_w184, 0.002); end
+  def test_outputs_energy_flows_x184; assert_in_epsilon(30.71161712795825, worksheet.outputs_energy_flows_x184, 0.002); end
+  def test_outputs_energy_flows_y184; assert_in_epsilon(30.9697221190683, worksheet.outputs_energy_flows_y184, 0.002); end
+  def test_outputs_energy_flows_z184; assert_in_epsilon(31.335965549079084, worksheet.outputs_energy_flows_z184, 0.002); end
+  def test_outputs_energy_flows_aa184; assert_in_epsilon(31.63078435798736, worksheet.outputs_energy_flows_aa184, 0.002); end
+  def test_outputs_energy_flows_ab184; assert_in_epsilon(32.16919559515933, worksheet.outputs_energy_flows_ab184, 0.002); end
+  def test_outputs_energy_flows_ac184; assert_in_epsilon(32.78533454349106, worksheet.outputs_energy_flows_ac184, 0.002); end
+  def test_outputs_energy_flows_ad184; assert_in_epsilon(33.470516576789414, worksheet.outputs_energy_flows_ad184, 0.002); end
+  def test_outputs_energy_flows_c186; assert_equal("n/a", worksheet.outputs_energy_flows_c186); end
+  def test_outputs_energy_flows_d186; assert_equal("Liquid", worksheet.outputs_energy_flows_d186); end
+  def test_outputs_energy_flows_e186; assert_equal("n/a", worksheet.outputs_energy_flows_e186); end
+  def test_outputs_energy_flows_f186; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f186); end
+  def test_outputs_energy_flows_i186; assert_equal("C.02", worksheet.outputs_energy_flows_i186); end
+  def test_outputs_energy_flows_j186; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j186); end
+  def test_outputs_energy_flows_k186; assert_equal("Global buildings", worksheet.outputs_energy_flows_k186); end
+  def test_outputs_energy_flows_v186; assert_in_epsilon(5.364578134811718, worksheet.outputs_energy_flows_v186, 0.002); end
+  def test_outputs_energy_flows_w186; assert_in_epsilon(5.618216426519331, worksheet.outputs_energy_flows_w186, 0.002); end
+  def test_outputs_energy_flows_x186; assert_in_epsilon(5.828230269747275, worksheet.outputs_energy_flows_x186, 0.002); end
+  def test_outputs_energy_flows_y186; assert_in_epsilon(5.900934073125029, worksheet.outputs_energy_flows_y186, 0.002); end
+  def test_outputs_energy_flows_z186; assert_in_epsilon(5.989398282942185, worksheet.outputs_energy_flows_z186, 0.002); end
+  def test_outputs_energy_flows_aa186; assert_in_epsilon(5.991194330240045, worksheet.outputs_energy_flows_aa186, 0.002); end
+  def test_outputs_energy_flows_ab186; assert_in_epsilon(5.857217220114866, worksheet.outputs_energy_flows_ab186, 0.002); end
+  def test_outputs_energy_flows_ac186; assert_in_epsilon(5.7303985941046145, worksheet.outputs_energy_flows_ac186, 0.002); end
+  def test_outputs_energy_flows_ad186; assert_in_epsilon(5.422877936806172, worksheet.outputs_energy_flows_ad186, 0.002); end
+  def test_outputs_energy_flows_c188; assert_equal("n/a", worksheet.outputs_energy_flows_c188); end
+  def test_outputs_energy_flows_d188; assert_equal("Liquid", worksheet.outputs_energy_flows_d188); end
+  def test_outputs_energy_flows_e188; assert_equal("n/a", worksheet.outputs_energy_flows_e188); end
+  def test_outputs_energy_flows_f188; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f188); end
+  def test_outputs_energy_flows_i188; assert_equal("C.02", worksheet.outputs_energy_flows_i188); end
+  def test_outputs_energy_flows_j188; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j188); end
+  def test_outputs_energy_flows_k188; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k188); end
+  def test_outputs_energy_flows_l188; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l188); end
+  def test_outputs_energy_flows_v188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v188||0), 0.002); end
+  def test_outputs_energy_flows_w188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w188||0), 0.002); end
+  def test_outputs_energy_flows_x188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x188||0), 0.002); end
+  def test_outputs_energy_flows_y188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y188||0), 0.002); end
+  def test_outputs_energy_flows_z188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z188||0), 0.002); end
+  def test_outputs_energy_flows_aa188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa188||0), 0.002); end
+  def test_outputs_energy_flows_ab188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab188||0), 0.002); end
+  def test_outputs_energy_flows_ac188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac188||0), 0.002); end
+  def test_outputs_energy_flows_ad188; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad188||0), 0.002); end
+  def test_outputs_energy_flows_c190; assert_equal("n/a", worksheet.outputs_energy_flows_c190); end
+  def test_outputs_energy_flows_d190; assert_equal("Liquid", worksheet.outputs_energy_flows_d190); end
+  def test_outputs_energy_flows_e190; assert_equal("n/a", worksheet.outputs_energy_flows_e190); end
+  def test_outputs_energy_flows_f190; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f190); end
+  def test_outputs_energy_flows_i190; assert_equal("C.02", worksheet.outputs_energy_flows_i190); end
+  def test_outputs_energy_flows_j190; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j190); end
+  def test_outputs_energy_flows_k190; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k190); end
+  def test_outputs_energy_flows_l190; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l190); end
+  def test_outputs_energy_flows_v190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v190||0), 0.002); end
+  def test_outputs_energy_flows_w190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w190||0), 0.002); end
+  def test_outputs_energy_flows_x190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x190||0), 0.002); end
+  def test_outputs_energy_flows_y190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y190||0), 0.002); end
+  def test_outputs_energy_flows_z190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z190||0), 0.002); end
+  def test_outputs_energy_flows_aa190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa190||0), 0.002); end
+  def test_outputs_energy_flows_ab190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab190||0), 0.002); end
+  def test_outputs_energy_flows_ac190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac190||0), 0.002); end
+  def test_outputs_energy_flows_ad190; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad190||0), 0.002); end
+  def test_outputs_energy_flows_c192; assert_equal("n/a", worksheet.outputs_energy_flows_c192); end
+  def test_outputs_energy_flows_d192; assert_equal("Liquid", worksheet.outputs_energy_flows_d192); end
+  def test_outputs_energy_flows_e192; assert_equal("n/a", worksheet.outputs_energy_flows_e192); end
+  def test_outputs_energy_flows_f192; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f192); end
+  def test_outputs_energy_flows_i192; assert_equal("C.02", worksheet.outputs_energy_flows_i192); end
+  def test_outputs_energy_flows_j192; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j192); end
+  def test_outputs_energy_flows_k192; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k192); end
+  def test_outputs_energy_flows_l192; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l192); end
+  def test_outputs_energy_flows_v192; assert_in_epsilon(2.0556868496129796, worksheet.outputs_energy_flows_v192, 0.002); end
+  def test_outputs_energy_flows_w192; assert_in_epsilon(2.1904962442879765, worksheet.outputs_energy_flows_w192, 0.002); end
+  def test_outputs_energy_flows_x192; assert_in_epsilon(2.3314858882695235, worksheet.outputs_energy_flows_x192, 0.002); end
+  def test_outputs_energy_flows_y192; assert_in_epsilon(2.4382224451068786, worksheet.outputs_energy_flows_y192, 0.002); end
+  def test_outputs_energy_flows_z192; assert_in_epsilon(2.5573713329325485, worksheet.outputs_energy_flows_z192, 0.002); end
+  def test_outputs_energy_flows_aa192; assert_in_epsilon(2.654535287788324, worksheet.outputs_energy_flows_aa192, 0.002); end
+  def test_outputs_energy_flows_ab192; assert_in_epsilon(2.715917068166765, worksheet.outputs_energy_flows_ab192, 0.002); end
+  def test_outputs_energy_flows_ac192; assert_in_epsilon(2.7863167446590698, worksheet.outputs_energy_flows_ac192, 0.002); end
+  def test_outputs_energy_flows_ad192; assert_in_epsilon(2.796890485256591, worksheet.outputs_energy_flows_ad192, 0.002); end
+  def test_outputs_energy_flows_c194; assert_equal("n/a", worksheet.outputs_energy_flows_c194); end
+  def test_outputs_energy_flows_d194; assert_equal("Liquid", worksheet.outputs_energy_flows_d194); end
+  def test_outputs_energy_flows_e194; assert_equal("n/a", worksheet.outputs_energy_flows_e194); end
+  def test_outputs_energy_flows_f194; assert_equal("Non domestic", worksheet.outputs_energy_flows_f194); end
+  def test_outputs_energy_flows_i194; assert_equal("C.02", worksheet.outputs_energy_flows_i194); end
+  def test_outputs_energy_flows_j194; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j194); end
+  def test_outputs_energy_flows_k194; assert_equal("Non-residential", worksheet.outputs_energy_flows_k194); end
+  def test_outputs_energy_flows_v194; assert_in_epsilon(3.7325044031620873, worksheet.outputs_energy_flows_v194, 0.002); end
+  def test_outputs_energy_flows_w194; assert_in_epsilon(3.8185317428208934, worksheet.outputs_energy_flows_w194, 0.002); end
+  def test_outputs_energy_flows_x194; assert_in_epsilon(3.8526323291002997, worksheet.outputs_energy_flows_x194, 0.002); end
+  def test_outputs_energy_flows_y194; assert_in_epsilon(3.8261346977681674, worksheet.outputs_energy_flows_y194, 0.002); end
+  def test_outputs_energy_flows_z194; assert_in_epsilon(3.7418183765542476, worksheet.outputs_energy_flows_z194, 0.002); end
+  def test_outputs_energy_flows_aa194; assert_in_epsilon(3.6045555537242566, worksheet.outputs_energy_flows_aa194, 0.002); end
+  def test_outputs_energy_flows_ab194; assert_in_epsilon(3.4191755572086464, worksheet.outputs_energy_flows_ab194, 0.002); end
+  def test_outputs_energy_flows_ac194; assert_in_epsilon(3.1908462587886506, worksheet.outputs_energy_flows_ac194, 0.002); end
+  def test_outputs_energy_flows_ad194; assert_in_epsilon(2.9260384952008445, worksheet.outputs_energy_flows_ad194, 0.002); end
+  def test_outputs_energy_flows_c196; assert_equal("n/a", worksheet.outputs_energy_flows_c196); end
+  def test_outputs_energy_flows_d196; assert_equal("Liquid", worksheet.outputs_energy_flows_d196); end
+  def test_outputs_energy_flows_e196; assert_equal("n/a", worksheet.outputs_energy_flows_e196); end
+  def test_outputs_energy_flows_f196; assert_equal("Steel", worksheet.outputs_energy_flows_f196); end
+  def test_outputs_energy_flows_i196; assert_equal("C.02", worksheet.outputs_energy_flows_i196); end
+  def test_outputs_energy_flows_j196; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j196); end
+  def test_outputs_energy_flows_v196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v196||0), 0.002); end
+  def test_outputs_energy_flows_w196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w196||0), 0.002); end
+  def test_outputs_energy_flows_x196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x196||0), 0.002); end
+  def test_outputs_energy_flows_y196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y196||0), 0.002); end
+  def test_outputs_energy_flows_z196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z196||0), 0.002); end
+  def test_outputs_energy_flows_aa196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa196||0), 0.002); end
+  def test_outputs_energy_flows_ab196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab196||0), 0.002); end
+  def test_outputs_energy_flows_ac196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac196||0), 0.002); end
+  def test_outputs_energy_flows_ad196; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad196||0), 0.002); end
+  def test_outputs_energy_flows_c198; assert_equal("n/a", worksheet.outputs_energy_flows_c198); end
+  def test_outputs_energy_flows_d198; assert_equal("Liquid", worksheet.outputs_energy_flows_d198); end
+  def test_outputs_energy_flows_e198; assert_equal("n/a", worksheet.outputs_energy_flows_e198); end
+  def test_outputs_energy_flows_f198; assert_equal("Aluminium", worksheet.outputs_energy_flows_f198); end
+  def test_outputs_energy_flows_i198; assert_equal("C.02", worksheet.outputs_energy_flows_i198); end
+  def test_outputs_energy_flows_j198; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j198); end
+  def test_outputs_energy_flows_v198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v198||0), 0.002); end
+  def test_outputs_energy_flows_w198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w198||0), 0.002); end
+  def test_outputs_energy_flows_x198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x198||0), 0.002); end
+  def test_outputs_energy_flows_y198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y198||0), 0.002); end
+  def test_outputs_energy_flows_z198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z198||0), 0.002); end
+  def test_outputs_energy_flows_aa198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa198||0), 0.002); end
+  def test_outputs_energy_flows_ab198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab198||0), 0.002); end
+  def test_outputs_energy_flows_ac198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac198||0), 0.002); end
+  def test_outputs_energy_flows_ad198; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad198||0), 0.002); end
+  def test_outputs_energy_flows_c200; assert_equal("n/a", worksheet.outputs_energy_flows_c200); end
+  def test_outputs_energy_flows_d200; assert_equal("Liquid", worksheet.outputs_energy_flows_d200); end
+  def test_outputs_energy_flows_e200; assert_equal("n/a", worksheet.outputs_energy_flows_e200); end
+  def test_outputs_energy_flows_f200; assert_equal("Cement", worksheet.outputs_energy_flows_f200); end
+  def test_outputs_energy_flows_i200; assert_equal("C.02", worksheet.outputs_energy_flows_i200); end
+  def test_outputs_energy_flows_j200; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j200); end
+  def test_outputs_energy_flows_v200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v200||0), 0.002); end
+  def test_outputs_energy_flows_w200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w200||0), 0.002); end
+  def test_outputs_energy_flows_x200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x200||0), 0.002); end
+  def test_outputs_energy_flows_y200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y200||0), 0.002); end
+  def test_outputs_energy_flows_z200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z200||0), 0.002); end
+  def test_outputs_energy_flows_aa200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa200||0), 0.002); end
+  def test_outputs_energy_flows_ab200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab200||0), 0.002); end
+  def test_outputs_energy_flows_ac200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac200||0), 0.002); end
+  def test_outputs_energy_flows_ad200; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad200||0), 0.002); end
+  def test_outputs_energy_flows_c202; assert_equal("n/a", worksheet.outputs_energy_flows_c202); end
+  def test_outputs_energy_flows_d202; assert_equal("Liquid", worksheet.outputs_energy_flows_d202); end
+  def test_outputs_energy_flows_e202; assert_equal("n/a", worksheet.outputs_energy_flows_e202); end
+  def test_outputs_energy_flows_f202; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f202); end
+  def test_outputs_energy_flows_i202; assert_equal("C.02", worksheet.outputs_energy_flows_i202); end
+  def test_outputs_energy_flows_j202; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j202); end
+  def test_outputs_energy_flows_v202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v202||0), 0.002); end
+  def test_outputs_energy_flows_w202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w202||0), 0.002); end
+  def test_outputs_energy_flows_x202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x202||0), 0.002); end
+  def test_outputs_energy_flows_y202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y202||0), 0.002); end
+  def test_outputs_energy_flows_z202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z202||0), 0.002); end
+  def test_outputs_energy_flows_aa202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa202||0), 0.002); end
+  def test_outputs_energy_flows_ab202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab202||0), 0.002); end
+  def test_outputs_energy_flows_ac202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac202||0), 0.002); end
+  def test_outputs_energy_flows_ad202; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad202||0), 0.002); end
+  def test_outputs_energy_flows_c204; assert_equal("n/a", worksheet.outputs_energy_flows_c204); end
+  def test_outputs_energy_flows_d204; assert_equal("Liquid", worksheet.outputs_energy_flows_d204); end
+  def test_outputs_energy_flows_e204; assert_equal("n/a", worksheet.outputs_energy_flows_e204); end
+  def test_outputs_energy_flows_f204; assert_equal("Chemicals", worksheet.outputs_energy_flows_f204); end
+  def test_outputs_energy_flows_i204; assert_equal("C.02", worksheet.outputs_energy_flows_i204); end
+  def test_outputs_energy_flows_j204; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j204); end
+  def test_outputs_energy_flows_v204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v204||0), 0.002); end
+  def test_outputs_energy_flows_w204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w204||0), 0.002); end
+  def test_outputs_energy_flows_x204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x204||0), 0.002); end
+  def test_outputs_energy_flows_y204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y204||0), 0.002); end
+  def test_outputs_energy_flows_z204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z204||0), 0.002); end
+  def test_outputs_energy_flows_aa204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa204||0), 0.002); end
+  def test_outputs_energy_flows_ab204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab204||0), 0.002); end
+  def test_outputs_energy_flows_ac204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac204||0), 0.002); end
+  def test_outputs_energy_flows_ad204; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad204||0), 0.002); end
+  def test_outputs_energy_flows_c206; assert_equal("n/a", worksheet.outputs_energy_flows_c206); end
+  def test_outputs_energy_flows_d206; assert_equal("Liquid", worksheet.outputs_energy_flows_d206); end
+  def test_outputs_energy_flows_e206; assert_equal("n/a", worksheet.outputs_energy_flows_e206); end
+  def test_outputs_energy_flows_f206; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f206); end
+  def test_outputs_energy_flows_i206; assert_equal("C.02", worksheet.outputs_energy_flows_i206); end
+  def test_outputs_energy_flows_j206; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j206); end
+  def test_outputs_energy_flows_l206; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l206); end
+  def test_outputs_energy_flows_v206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v206||0), 0.002); end
+  def test_outputs_energy_flows_w206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w206||0), 0.002); end
+  def test_outputs_energy_flows_x206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x206||0), 0.002); end
+  def test_outputs_energy_flows_y206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y206||0), 0.002); end
+  def test_outputs_energy_flows_z206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z206||0), 0.002); end
+  def test_outputs_energy_flows_aa206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa206||0), 0.002); end
+  def test_outputs_energy_flows_ab206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab206||0), 0.002); end
+  def test_outputs_energy_flows_ac206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac206||0), 0.002); end
+  def test_outputs_energy_flows_ad206; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad206||0), 0.002); end
+  def test_outputs_energy_flows_c208; assert_equal("n/a", worksheet.outputs_energy_flows_c208); end
+  def test_outputs_energy_flows_d208; assert_equal("Liquid", worksheet.outputs_energy_flows_d208); end
+  def test_outputs_energy_flows_e208; assert_equal("n/a", worksheet.outputs_energy_flows_e208); end
+  def test_outputs_energy_flows_f208; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f208); end
+  def test_outputs_energy_flows_i208; assert_equal("C.02", worksheet.outputs_energy_flows_i208); end
+  def test_outputs_energy_flows_j208; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j208); end
+  def test_outputs_energy_flows_l208; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l208); end
+  def test_outputs_energy_flows_m208; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m208); end
+  def test_outputs_energy_flows_v208; assert_in_epsilon(46.55007264288778, worksheet.outputs_energy_flows_v208, 0.002); end
+  def test_outputs_energy_flows_w208; assert_in_epsilon(49.39123422579897, worksheet.outputs_energy_flows_w208, 0.002); end
+  def test_outputs_energy_flows_x208; assert_in_epsilon(52.09901172150406, worksheet.outputs_energy_flows_x208, 0.002); end
+  def test_outputs_energy_flows_y208; assert_in_epsilon(54.51428765506151, worksheet.outputs_energy_flows_y208, 0.002); end
+  def test_outputs_energy_flows_z208; assert_in_epsilon(56.923653386817364, worksheet.outputs_energy_flows_z208, 0.002); end
+  def test_outputs_energy_flows_aa208; assert_in_epsilon(59.19083092637051, worksheet.outputs_energy_flows_aa208, 0.002); end
+  def test_outputs_energy_flows_ab208; assert_in_epsilon(61.16664072872282, worksheet.outputs_energy_flows_ab208, 0.002); end
+  def test_outputs_energy_flows_ac208; assert_in_epsilon(63.110422558340474, worksheet.outputs_energy_flows_ac208, 0.002); end
+  def test_outputs_energy_flows_ad208; assert_in_epsilon(64.73199233241415, worksheet.outputs_energy_flows_ad208, 0.002); end
+  def test_outputs_energy_flows_c210; assert_equal("n/a", worksheet.outputs_energy_flows_c210); end
+  def test_outputs_energy_flows_d210; assert_equal("Liquid", worksheet.outputs_energy_flows_d210); end
+  def test_outputs_energy_flows_e210; assert_equal("n/a", worksheet.outputs_energy_flows_e210); end
+  def test_outputs_energy_flows_f210; assert_equal("International passenger", worksheet.outputs_energy_flows_f210); end
+  def test_outputs_energy_flows_i210; assert_equal("C.02", worksheet.outputs_energy_flows_i210); end
+  def test_outputs_energy_flows_j210; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j210); end
+  def test_outputs_energy_flows_l210; assert_equal("International", worksheet.outputs_energy_flows_l210); end
+  def test_outputs_energy_flows_v210; assert_in_epsilon(11.200783672219371, worksheet.outputs_energy_flows_v210, 0.002); end
+  def test_outputs_energy_flows_w210; assert_in_epsilon(12.146667367690121, worksheet.outputs_energy_flows_w210, 0.002); end
+  def test_outputs_energy_flows_x210; assert_in_epsilon(13.041576297999917, worksheet.outputs_energy_flows_x210, 0.002); end
+  def test_outputs_energy_flows_y210; assert_in_epsilon(13.994520262161275, worksheet.outputs_energy_flows_y210, 0.002); end
+  def test_outputs_energy_flows_z210; assert_in_epsilon(15.02373716356804, worksheet.outputs_energy_flows_z210, 0.002); end
+  def test_outputs_energy_flows_aa210; assert_in_epsilon(16.152770488215708, worksheet.outputs_energy_flows_aa210, 0.002); end
+  def test_outputs_energy_flows_ab210; assert_in_epsilon(17.403011123212302, worksheet.outputs_energy_flows_ab210, 0.002); end
+  def test_outputs_energy_flows_ac210; assert_in_epsilon(18.793876351906423, worksheet.outputs_energy_flows_ac210, 0.002); end
+  def test_outputs_energy_flows_ad210; assert_in_epsilon(20.346989927192123, worksheet.outputs_energy_flows_ad210, 0.002); end
+  def test_outputs_energy_flows_c212; assert_equal("n/a", worksheet.outputs_energy_flows_c212); end
+  def test_outputs_energy_flows_d212; assert_equal("Liquid", worksheet.outputs_energy_flows_d212); end
+  def test_outputs_energy_flows_e212; assert_equal("n/a", worksheet.outputs_energy_flows_e212); end
+  def test_outputs_energy_flows_f212; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f212); end
+  def test_outputs_energy_flows_i212; assert_equal("C.02", worksheet.outputs_energy_flows_i212); end
+  def test_outputs_energy_flows_j212; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j212); end
+  def test_outputs_energy_flows_l212; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l212); end
+  def test_outputs_energy_flows_v212; assert_in_epsilon(13.538303988230114, worksheet.outputs_energy_flows_v212, 0.002); end
+  def test_outputs_energy_flows_w212; assert_in_epsilon(14.487451845731506, worksheet.outputs_energy_flows_w212, 0.002); end
+  def test_outputs_energy_flows_x212; assert_in_epsilon(15.622052807587586, worksheet.outputs_energy_flows_x212, 0.002); end
+  def test_outputs_energy_flows_y212; assert_in_epsilon(16.78157525476413, worksheet.outputs_energy_flows_y212, 0.002); end
+  def test_outputs_energy_flows_z212; assert_in_epsilon(17.96629351239568, worksheet.outputs_energy_flows_z212, 0.002); end
+  def test_outputs_energy_flows_aa212; assert_in_epsilon(19.176480798492722, worksheet.outputs_energy_flows_aa212, 0.002); end
+  def test_outputs_energy_flows_ab212; assert_in_epsilon(20.412409212037648, worksheet.outputs_energy_flows_ab212, 0.002); end
+  def test_outputs_energy_flows_ac212; assert_in_epsilon(21.67434973243271, worksheet.outputs_energy_flows_ac212, 0.002); end
+  def test_outputs_energy_flows_ad212; assert_in_epsilon(22.96257223134874, worksheet.outputs_energy_flows_ad212, 0.002); end
+  def test_outputs_energy_flows_c214; assert_equal("n/a", worksheet.outputs_energy_flows_c214); end
+  def test_outputs_energy_flows_d214; assert_equal("Liquid", worksheet.outputs_energy_flows_d214); end
+  def test_outputs_energy_flows_e214; assert_equal("n/a", worksheet.outputs_energy_flows_e214); end
+  def test_outputs_energy_flows_f214; assert_equal("International freight", worksheet.outputs_energy_flows_f214); end
+  def test_outputs_energy_flows_i214; assert_equal("C.02", worksheet.outputs_energy_flows_i214); end
+  def test_outputs_energy_flows_j214; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j214); end
+  def test_outputs_energy_flows_l214; assert_equal("International freight", worksheet.outputs_energy_flows_l214); end
+  def test_outputs_energy_flows_v214; assert_in_epsilon(27.084375466003895, worksheet.outputs_energy_flows_v214, 0.002); end
+  def test_outputs_energy_flows_w214; assert_in_epsilon(29.933123698225636, worksheet.outputs_energy_flows_w214, 0.002); end
+  def test_outputs_energy_flows_x214; assert_in_epsilon(33.34882050413014, worksheet.outputs_energy_flows_x214, 0.002); end
+  def test_outputs_energy_flows_y214; assert_in_epsilon(36.88372053458789, worksheet.outputs_energy_flows_y214, 0.002); end
+  def test_outputs_energy_flows_z214; assert_in_epsilon(40.53956659274071, worksheet.outputs_energy_flows_z214, 0.002); end
+  def test_outputs_energy_flows_aa214; assert_in_epsilon(44.31800196650838, worksheet.outputs_energy_flows_aa214, 0.002); end
+  def test_outputs_energy_flows_ab214; assert_in_epsilon(48.22055870668986, worksheet.outputs_energy_flows_ab214, 0.002); end
+  def test_outputs_energy_flows_ac214; assert_in_epsilon(52.248645104039355, worksheet.outputs_energy_flows_ac214, 0.002); end
+  def test_outputs_energy_flows_ad214; assert_in_epsilon(56.40353231918637, worksheet.outputs_energy_flows_ad214, 0.002); end
+  def test_outputs_energy_flows_c216; assert_equal("n/a", worksheet.outputs_energy_flows_c216); end
+  def test_outputs_energy_flows_d216; assert_equal("Liquid", worksheet.outputs_energy_flows_d216); end
+  def test_outputs_energy_flows_e216; assert_equal("n/a", worksheet.outputs_energy_flows_e216); end
+  def test_outputs_energy_flows_f216; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f216); end
+  def test_outputs_energy_flows_i216; assert_equal("C.02", worksheet.outputs_energy_flows_i216); end
+  def test_outputs_energy_flows_j216; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j216); end
+  def test_outputs_energy_flows_v216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v216||0), 0.002); end
+  def test_outputs_energy_flows_w216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w216||0), 0.002); end
+  def test_outputs_energy_flows_x216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x216||0), 0.002); end
+  def test_outputs_energy_flows_y216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y216||0), 0.002); end
+  def test_outputs_energy_flows_z216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z216||0), 0.002); end
+  def test_outputs_energy_flows_aa216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa216||0), 0.002); end
+  def test_outputs_energy_flows_ab216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab216||0), 0.002); end
+  def test_outputs_energy_flows_ac216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac216||0), 0.002); end
+  def test_outputs_energy_flows_ad216; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad216||0), 0.002); end
+  def test_outputs_energy_flows_c218; assert_equal("n/a", worksheet.outputs_energy_flows_c218); end
+  def test_outputs_energy_flows_d218; assert_equal("Liquid", worksheet.outputs_energy_flows_d218); end
+  def test_outputs_energy_flows_e218; assert_equal("G.01", worksheet.outputs_energy_flows_e218); end
+  def test_outputs_energy_flows_f218; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f218); end
+  def test_outputs_energy_flows_g218; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g218); end
+  def test_outputs_energy_flows_h218; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h218); end
+  def test_outputs_energy_flows_i218; assert_equal("C.02", worksheet.outputs_energy_flows_i218); end
+  def test_outputs_energy_flows_j218; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j218); end
+  def test_outputs_energy_flows_v218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v218||0), 0.002); end
+  def test_outputs_energy_flows_w218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w218||0), 0.002); end
+  def test_outputs_energy_flows_x218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x218||0), 0.002); end
+  def test_outputs_energy_flows_y218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y218||0), 0.002); end
+  def test_outputs_energy_flows_z218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z218||0), 0.002); end
+  def test_outputs_energy_flows_aa218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa218||0), 0.002); end
+  def test_outputs_energy_flows_ab218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab218||0), 0.002); end
+  def test_outputs_energy_flows_ac218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac218||0), 0.002); end
+  def test_outputs_energy_flows_ad218; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad218||0), 0.002); end
+  def test_outputs_energy_flows_c220; assert_equal("n/a", worksheet.outputs_energy_flows_c220); end
+  def test_outputs_energy_flows_d220; assert_equal("Liquid", worksheet.outputs_energy_flows_d220); end
+  def test_outputs_energy_flows_e220; assert_equal("n/a", worksheet.outputs_energy_flows_e220); end
+  def test_outputs_energy_flows_f220; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f220); end
+  def test_outputs_energy_flows_g220; assert_equal("n/a", worksheet.outputs_energy_flows_g220); end
+  def test_outputs_energy_flows_h220; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h220); end
+  def test_outputs_energy_flows_i220; assert_equal("C.02", worksheet.outputs_energy_flows_i220); end
+  def test_outputs_energy_flows_j220; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j220); end
+  def test_outputs_energy_flows_v220; assert_in_delta(0.6921751371292655, worksheet.outputs_energy_flows_v220, 0.002); end
+  def test_outputs_energy_flows_w220; assert_in_delta(0.8025243264426388, worksheet.outputs_energy_flows_w220, 0.002); end
+  def test_outputs_energy_flows_x220; assert_in_delta(0.9455726992913466, worksheet.outputs_energy_flows_x220, 0.002); end
+  def test_outputs_energy_flows_y220; assert_in_epsilon(1.1043080116191915, worksheet.outputs_energy_flows_y220, 0.002); end
+  def test_outputs_energy_flows_z220; assert_in_epsilon(1.2827432860959211, worksheet.outputs_energy_flows_z220, 0.002); end
+  def test_outputs_energy_flows_aa220; assert_in_epsilon(1.4861503840622479, worksheet.outputs_energy_flows_aa220, 0.002); end
+  def test_outputs_energy_flows_ab220; assert_in_epsilon(1.7214170076876676, worksheet.outputs_energy_flows_ab220, 0.002); end
+  def test_outputs_energy_flows_ac220; assert_in_epsilon(1.9974757724013559, worksheet.outputs_energy_flows_ac220, 0.002); end
+  def test_outputs_energy_flows_ad220; assert_in_epsilon(2.3257997846469514, worksheet.outputs_energy_flows_ad220, 0.002); end
+  def test_outputs_energy_flows_c222; assert_equal("n/a", worksheet.outputs_energy_flows_c222); end
+  def test_outputs_energy_flows_d222; assert_equal("Gas", worksheet.outputs_energy_flows_d222); end
+  def test_outputs_energy_flows_e222; assert_equal("n/a", worksheet.outputs_energy_flows_e222); end
+  def test_outputs_energy_flows_f222; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f222); end
+  def test_outputs_energy_flows_i222; assert_equal("C.03", worksheet.outputs_energy_flows_i222); end
+  def test_outputs_energy_flows_j222; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j222); end
+  def test_outputs_energy_flows_k222; assert_equal("Global buildings", worksheet.outputs_energy_flows_k222); end
+  def test_outputs_energy_flows_v222; assert_in_epsilon(15.120430855718622, worksheet.outputs_energy_flows_v222, 0.002); end
+  def test_outputs_energy_flows_w222; assert_in_epsilon(16.15729364529046, worksheet.outputs_energy_flows_w222, 0.002); end
+  def test_outputs_energy_flows_x222; assert_in_epsilon(17.202211360922472, worksheet.outputs_energy_flows_x222, 0.002); end
+  def test_outputs_energy_flows_y222; assert_in_epsilon(17.873414202396887, worksheet.outputs_energy_flows_y222, 0.002); end
+  def test_outputs_energy_flows_z222; assert_in_epsilon(18.7261796674535, worksheet.outputs_energy_flows_z222, 0.002); end
+  def test_outputs_energy_flows_aa222; assert_in_epsilon(19.405271549662206, worksheet.outputs_energy_flows_aa222, 0.002); end
+  def test_outputs_energy_flows_ab222; assert_in_epsilon(19.68913446199095, worksheet.outputs_energy_flows_ab222, 0.002); end
+  def test_outputs_energy_flows_ac222; assert_in_epsilon(20.142440393828615, worksheet.outputs_energy_flows_ac222, 0.002); end
+  def test_outputs_energy_flows_ad222; assert_in_epsilon(19.998075446564666, worksheet.outputs_energy_flows_ad222, 0.002); end
+  def test_outputs_energy_flows_c224; assert_equal("n/a", worksheet.outputs_energy_flows_c224); end
+  def test_outputs_energy_flows_d224; assert_equal("Gas", worksheet.outputs_energy_flows_d224); end
+  def test_outputs_energy_flows_e224; assert_equal("n/a", worksheet.outputs_energy_flows_e224); end
+  def test_outputs_energy_flows_f224; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f224); end
+  def test_outputs_energy_flows_i224; assert_equal("C.03", worksheet.outputs_energy_flows_i224); end
+  def test_outputs_energy_flows_j224; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j224); end
+  def test_outputs_energy_flows_k224; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k224); end
+  def test_outputs_energy_flows_l224; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l224); end
+  def test_outputs_energy_flows_v224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v224||0), 0.002); end
+  def test_outputs_energy_flows_w224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w224||0), 0.002); end
+  def test_outputs_energy_flows_x224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x224||0), 0.002); end
+  def test_outputs_energy_flows_y224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y224||0), 0.002); end
+  def test_outputs_energy_flows_z224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z224||0), 0.002); end
+  def test_outputs_energy_flows_aa224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa224||0), 0.002); end
+  def test_outputs_energy_flows_ab224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab224||0), 0.002); end
+  def test_outputs_energy_flows_ac224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac224||0), 0.002); end
+  def test_outputs_energy_flows_ad224; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad224||0), 0.002); end
+  def test_outputs_energy_flows_c226; assert_equal("n/a", worksheet.outputs_energy_flows_c226); end
+  def test_outputs_energy_flows_d226; assert_equal("Gas", worksheet.outputs_energy_flows_d226); end
+  def test_outputs_energy_flows_e226; assert_equal("n/a", worksheet.outputs_energy_flows_e226); end
+  def test_outputs_energy_flows_f226; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f226); end
+  def test_outputs_energy_flows_i226; assert_equal("C.03", worksheet.outputs_energy_flows_i226); end
+  def test_outputs_energy_flows_j226; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j226); end
+  def test_outputs_energy_flows_k226; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k226); end
+  def test_outputs_energy_flows_l226; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l226); end
+  def test_outputs_energy_flows_v226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v226||0), 0.002); end
+  def test_outputs_energy_flows_w226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w226||0), 0.002); end
+  def test_outputs_energy_flows_x226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x226||0), 0.002); end
+  def test_outputs_energy_flows_y226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y226||0), 0.002); end
+  def test_outputs_energy_flows_z226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z226||0), 0.002); end
+  def test_outputs_energy_flows_aa226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa226||0), 0.002); end
+  def test_outputs_energy_flows_ab226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab226||0), 0.002); end
+  def test_outputs_energy_flows_ac226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac226||0), 0.002); end
+  def test_outputs_energy_flows_ad226; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad226||0), 0.002); end
+  def test_outputs_energy_flows_c228; assert_equal("n/a", worksheet.outputs_energy_flows_c228); end
+  def test_outputs_energy_flows_d228; assert_equal("Gas", worksheet.outputs_energy_flows_d228); end
+  def test_outputs_energy_flows_e228; assert_equal("n/a", worksheet.outputs_energy_flows_e228); end
+  def test_outputs_energy_flows_f228; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f228); end
+  def test_outputs_energy_flows_i228; assert_equal("C.03", worksheet.outputs_energy_flows_i228); end
+  def test_outputs_energy_flows_j228; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j228); end
+  def test_outputs_energy_flows_k228; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k228); end
+  def test_outputs_energy_flows_l228; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l228); end
+  def test_outputs_energy_flows_v228; assert_in_epsilon(3.380654782328101, worksheet.outputs_energy_flows_v228, 0.002); end
+  def test_outputs_energy_flows_w228; assert_in_epsilon(3.7670399665491243, worksheet.outputs_energy_flows_w228, 0.002); end
+  def test_outputs_energy_flows_x228; assert_in_epsilon(4.229362937155904, worksheet.outputs_energy_flows_x228, 0.002); end
+  def test_outputs_energy_flows_y228; assert_in_epsilon(4.637233120556413, worksheet.outputs_energy_flows_y228, 0.002); end
+  def test_outputs_energy_flows_z228; assert_in_epsilon(5.13596919684922, worksheet.outputs_energy_flows_z228, 0.002); end
+  def test_outputs_energy_flows_aa228; assert_in_epsilon(5.633554081550067, worksheet.outputs_energy_flows_aa228, 0.002); end
+  def test_outputs_energy_flows_ab228; assert_in_epsilon(6.056641390009421, worksheet.outputs_energy_flows_ab228, 0.002); end
+  def test_outputs_energy_flows_ac228; assert_in_epsilon(6.577231051664689, worksheet.outputs_energy_flows_ac228, 0.002); end
+  def test_outputs_energy_flows_ad228; assert_in_epsilon(6.9401949439842605, worksheet.outputs_energy_flows_ad228, 0.002); end
+  def test_outputs_energy_flows_c230; assert_equal("n/a", worksheet.outputs_energy_flows_c230); end
+  def test_outputs_energy_flows_d230; assert_equal("Gas", worksheet.outputs_energy_flows_d230); end
+  def test_outputs_energy_flows_e230; assert_equal("n/a", worksheet.outputs_energy_flows_e230); end
+  def test_outputs_energy_flows_f230; assert_equal("Non domestic", worksheet.outputs_energy_flows_f230); end
+  def test_outputs_energy_flows_i230; assert_equal("C.03", worksheet.outputs_energy_flows_i230); end
+  def test_outputs_energy_flows_j230; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j230); end
+  def test_outputs_energy_flows_k230; assert_equal("Non-residential", worksheet.outputs_energy_flows_k230); end
+  def test_outputs_energy_flows_v230; assert_in_epsilon(6.556587457639759, worksheet.outputs_energy_flows_v230, 0.002); end
+  def test_outputs_energy_flows_w230; assert_in_epsilon(7.074889970486443, worksheet.outputs_energy_flows_w230, 0.002); end
+  def test_outputs_energy_flows_x230; assert_in_epsilon(7.650723420882977, worksheet.outputs_energy_flows_x230, 0.002); end
+  def test_outputs_energy_flows_y230; assert_in_epsilon(8.171763975579749, worksheet.outputs_energy_flows_y230, 0.002); end
+  def test_outputs_energy_flows_z230; assert_in_epsilon(8.628773834739949, worksheet.outputs_energy_flows_z230, 0.002); end
+  def test_outputs_energy_flows_aa230; assert_in_epsilon(9.015351733414985, worksheet.outputs_energy_flows_aa230, 0.002); end
+  def test_outputs_energy_flows_ab230; assert_in_epsilon(9.323493945465337, worksheet.outputs_energy_flows_ab230, 0.002); end
+  def test_outputs_energy_flows_ac230; assert_in_epsilon(9.544003237741855, worksheet.outputs_energy_flows_ac230, 0.002); end
+  def test_outputs_energy_flows_ad230; assert_in_epsilon(9.669130595496522, worksheet.outputs_energy_flows_ad230, 0.002); end
+  def test_outputs_energy_flows_c232; assert_equal("n/a", worksheet.outputs_energy_flows_c232); end
+  def test_outputs_energy_flows_d232; assert_equal("Gas", worksheet.outputs_energy_flows_d232); end
+  def test_outputs_energy_flows_e232; assert_equal("n/a", worksheet.outputs_energy_flows_e232); end
+  def test_outputs_energy_flows_f232; assert_equal("Steel", worksheet.outputs_energy_flows_f232); end
+  def test_outputs_energy_flows_i232; assert_equal("C.03", worksheet.outputs_energy_flows_i232); end
+  def test_outputs_energy_flows_j232; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j232); end
+  def test_outputs_energy_flows_v232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v232||0), 0.002); end
+  def test_outputs_energy_flows_w232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w232||0), 0.002); end
+  def test_outputs_energy_flows_x232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x232||0), 0.002); end
+  def test_outputs_energy_flows_y232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y232||0), 0.002); end
+  def test_outputs_energy_flows_z232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z232||0), 0.002); end
+  def test_outputs_energy_flows_aa232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa232||0), 0.002); end
+  def test_outputs_energy_flows_ab232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab232||0), 0.002); end
+  def test_outputs_energy_flows_ac232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac232||0), 0.002); end
+  def test_outputs_energy_flows_ad232; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad232||0), 0.002); end
+  def test_outputs_energy_flows_c234; assert_equal("n/a", worksheet.outputs_energy_flows_c234); end
+  def test_outputs_energy_flows_d234; assert_equal("Gas", worksheet.outputs_energy_flows_d234); end
+  def test_outputs_energy_flows_e234; assert_equal("n/a", worksheet.outputs_energy_flows_e234); end
+  def test_outputs_energy_flows_f234; assert_equal("Aluminium", worksheet.outputs_energy_flows_f234); end
+  def test_outputs_energy_flows_i234; assert_equal("C.03", worksheet.outputs_energy_flows_i234); end
+  def test_outputs_energy_flows_j234; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j234); end
+  def test_outputs_energy_flows_v234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v234||0), 0.002); end
+  def test_outputs_energy_flows_w234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w234||0), 0.002); end
+  def test_outputs_energy_flows_x234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x234||0), 0.002); end
+  def test_outputs_energy_flows_y234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y234||0), 0.002); end
+  def test_outputs_energy_flows_z234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z234||0), 0.002); end
+  def test_outputs_energy_flows_aa234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa234||0), 0.002); end
+  def test_outputs_energy_flows_ab234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab234||0), 0.002); end
+  def test_outputs_energy_flows_ac234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac234||0), 0.002); end
+  def test_outputs_energy_flows_ad234; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad234||0), 0.002); end
+  def test_outputs_energy_flows_c236; assert_equal("n/a", worksheet.outputs_energy_flows_c236); end
+  def test_outputs_energy_flows_d236; assert_equal("Gas", worksheet.outputs_energy_flows_d236); end
+  def test_outputs_energy_flows_e236; assert_equal("n/a", worksheet.outputs_energy_flows_e236); end
+  def test_outputs_energy_flows_f236; assert_equal("Cement", worksheet.outputs_energy_flows_f236); end
+  def test_outputs_energy_flows_i236; assert_equal("C.03", worksheet.outputs_energy_flows_i236); end
+  def test_outputs_energy_flows_j236; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j236); end
+  def test_outputs_energy_flows_v236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v236||0), 0.002); end
+  def test_outputs_energy_flows_w236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w236||0), 0.002); end
+  def test_outputs_energy_flows_x236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x236||0), 0.002); end
+  def test_outputs_energy_flows_y236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y236||0), 0.002); end
+  def test_outputs_energy_flows_z236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z236||0), 0.002); end
+  def test_outputs_energy_flows_aa236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa236||0), 0.002); end
+  def test_outputs_energy_flows_ab236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab236||0), 0.002); end
+  def test_outputs_energy_flows_ac236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac236||0), 0.002); end
+  def test_outputs_energy_flows_ad236; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad236||0), 0.002); end
+  def test_outputs_energy_flows_c238; assert_equal("n/a", worksheet.outputs_energy_flows_c238); end
+  def test_outputs_energy_flows_d238; assert_equal("Gas", worksheet.outputs_energy_flows_d238); end
+  def test_outputs_energy_flows_e238; assert_equal("n/a", worksheet.outputs_energy_flows_e238); end
+  def test_outputs_energy_flows_f238; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f238); end
+  def test_outputs_energy_flows_i238; assert_equal("C.03", worksheet.outputs_energy_flows_i238); end
+  def test_outputs_energy_flows_j238; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j238); end
+  def test_outputs_energy_flows_v238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v238||0), 0.002); end
+  def test_outputs_energy_flows_w238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w238||0), 0.002); end
+  def test_outputs_energy_flows_x238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x238||0), 0.002); end
+  def test_outputs_energy_flows_y238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y238||0), 0.002); end
+  def test_outputs_energy_flows_z238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z238||0), 0.002); end
+  def test_outputs_energy_flows_aa238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa238||0), 0.002); end
+  def test_outputs_energy_flows_ab238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab238||0), 0.002); end
+  def test_outputs_energy_flows_ac238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac238||0), 0.002); end
+  def test_outputs_energy_flows_ad238; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad238||0), 0.002); end
+  def test_outputs_energy_flows_c240; assert_equal("n/a", worksheet.outputs_energy_flows_c240); end
+  def test_outputs_energy_flows_d240; assert_equal("Gas", worksheet.outputs_energy_flows_d240); end
+  def test_outputs_energy_flows_e240; assert_equal("n/a", worksheet.outputs_energy_flows_e240); end
+  def test_outputs_energy_flows_f240; assert_equal("Chemicals", worksheet.outputs_energy_flows_f240); end
+  def test_outputs_energy_flows_i240; assert_equal("C.03", worksheet.outputs_energy_flows_i240); end
+  def test_outputs_energy_flows_j240; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j240); end
+  def test_outputs_energy_flows_v240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v240||0), 0.002); end
+  def test_outputs_energy_flows_w240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w240||0), 0.002); end
+  def test_outputs_energy_flows_x240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x240||0), 0.002); end
+  def test_outputs_energy_flows_y240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y240||0), 0.002); end
+  def test_outputs_energy_flows_z240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z240||0), 0.002); end
+  def test_outputs_energy_flows_aa240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa240||0), 0.002); end
+  def test_outputs_energy_flows_ab240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab240||0), 0.002); end
+  def test_outputs_energy_flows_ac240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac240||0), 0.002); end
+  def test_outputs_energy_flows_ad240; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad240||0), 0.002); end
+  def test_outputs_energy_flows_c242; assert_equal("n/a", worksheet.outputs_energy_flows_c242); end
+  def test_outputs_energy_flows_d242; assert_equal("Gas", worksheet.outputs_energy_flows_d242); end
+  def test_outputs_energy_flows_e242; assert_equal("n/a", worksheet.outputs_energy_flows_e242); end
+  def test_outputs_energy_flows_f242; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f242); end
+  def test_outputs_energy_flows_i242; assert_equal("C.03", worksheet.outputs_energy_flows_i242); end
+  def test_outputs_energy_flows_j242; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j242); end
+  def test_outputs_energy_flows_l242; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l242); end
+  def test_outputs_energy_flows_v242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v242||0), 0.002); end
+  def test_outputs_energy_flows_w242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w242||0), 0.002); end
+  def test_outputs_energy_flows_x242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x242||0), 0.002); end
+  def test_outputs_energy_flows_y242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y242||0), 0.002); end
+  def test_outputs_energy_flows_z242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z242||0), 0.002); end
+  def test_outputs_energy_flows_aa242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa242||0), 0.002); end
+  def test_outputs_energy_flows_ab242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab242||0), 0.002); end
+  def test_outputs_energy_flows_ac242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac242||0), 0.002); end
+  def test_outputs_energy_flows_ad242; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad242||0), 0.002); end
+  def test_outputs_energy_flows_c244; assert_equal("n/a", worksheet.outputs_energy_flows_c244); end
+  def test_outputs_energy_flows_d244; assert_equal("Gas", worksheet.outputs_energy_flows_d244); end
+  def test_outputs_energy_flows_e244; assert_equal("n/a", worksheet.outputs_energy_flows_e244); end
+  def test_outputs_energy_flows_f244; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f244); end
+  def test_outputs_energy_flows_i244; assert_equal("C.03", worksheet.outputs_energy_flows_i244); end
+  def test_outputs_energy_flows_j244; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j244); end
+  def test_outputs_energy_flows_l244; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l244); end
+  def test_outputs_energy_flows_m244; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m244); end
+  def test_outputs_energy_flows_v244; assert_in_delta(0.32187500895089427, worksheet.outputs_energy_flows_v244, 0.002); end
+  def test_outputs_energy_flows_w244; assert_in_delta(0.39882826734994115, worksheet.outputs_energy_flows_w244, 0.002); end
+  def test_outputs_energy_flows_x244; assert_in_delta(0.49801074706062376, worksheet.outputs_energy_flows_x244, 0.002); end
+  def test_outputs_energy_flows_y244; assert_in_delta(0.6037479508266903, worksheet.outputs_energy_flows_y244, 0.002); end
+  def test_outputs_energy_flows_z244; assert_in_delta(0.7185661979302298, worksheet.outputs_energy_flows_z244, 0.002); end
+  def test_outputs_energy_flows_aa244; assert_in_delta(0.8408622009598699, worksheet.outputs_energy_flows_aa244, 0.002); end
+  def test_outputs_energy_flows_ab244; assert_in_delta(0.9675918500133168, worksheet.outputs_energy_flows_ab244, 0.002); end
+  def test_outputs_energy_flows_ac244; assert_in_epsilon(1.1026848112739787, worksheet.outputs_energy_flows_ac244, 0.002); end
+  def test_outputs_energy_flows_ad244; assert_in_epsilon(1.2401252703528785, worksheet.outputs_energy_flows_ad244, 0.002); end
+  def test_outputs_energy_flows_c246; assert_equal("n/a", worksheet.outputs_energy_flows_c246); end
+  def test_outputs_energy_flows_d246; assert_equal("Gas", worksheet.outputs_energy_flows_d246); end
+  def test_outputs_energy_flows_e246; assert_equal("n/a", worksheet.outputs_energy_flows_e246); end
+  def test_outputs_energy_flows_f246; assert_equal("International passenger", worksheet.outputs_energy_flows_f246); end
+  def test_outputs_energy_flows_i246; assert_equal("C.03", worksheet.outputs_energy_flows_i246); end
+  def test_outputs_energy_flows_j246; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j246); end
+  def test_outputs_energy_flows_l246; assert_equal("International", worksheet.outputs_energy_flows_l246); end
+  def test_outputs_energy_flows_v246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v246||0), 0.002); end
+  def test_outputs_energy_flows_w246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w246||0), 0.002); end
+  def test_outputs_energy_flows_x246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x246||0), 0.002); end
+  def test_outputs_energy_flows_y246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y246||0), 0.002); end
+  def test_outputs_energy_flows_z246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z246||0), 0.002); end
+  def test_outputs_energy_flows_aa246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa246||0), 0.002); end
+  def test_outputs_energy_flows_ab246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab246||0), 0.002); end
+  def test_outputs_energy_flows_ac246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac246||0), 0.002); end
+  def test_outputs_energy_flows_ad246; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad246||0), 0.002); end
+  def test_outputs_energy_flows_c248; assert_equal("n/a", worksheet.outputs_energy_flows_c248); end
+  def test_outputs_energy_flows_d248; assert_equal("Gas", worksheet.outputs_energy_flows_d248); end
+  def test_outputs_energy_flows_e248; assert_equal("n/a", worksheet.outputs_energy_flows_e248); end
+  def test_outputs_energy_flows_f248; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f248); end
+  def test_outputs_energy_flows_i248; assert_equal("C.03", worksheet.outputs_energy_flows_i248); end
+  def test_outputs_energy_flows_j248; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j248); end
+  def test_outputs_energy_flows_l248; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l248); end
+  def test_outputs_energy_flows_v248; assert_in_delta(0.011926822007994763, worksheet.outputs_energy_flows_v248, 0.002); end
+  def test_outputs_energy_flows_w248; assert_in_delta(0.08448662460339201, worksheet.outputs_energy_flows_w248, 0.002); end
+  def test_outputs_energy_flows_x248; assert_in_delta(0.1901859936584497, worksheet.outputs_energy_flows_x248, 0.002); end
+  def test_outputs_energy_flows_y248; assert_in_delta(0.3135202995611245, worksheet.outputs_energy_flows_y248, 0.002); end
+  def test_outputs_energy_flows_z248; assert_in_delta(0.45548895952288876, worksheet.outputs_energy_flows_z248, 0.002); end
+  def test_outputs_energy_flows_aa248; assert_in_delta(0.6171326170211417, worksheet.outputs_energy_flows_aa248, 0.002); end
+  def test_outputs_energy_flows_ab248; assert_in_delta(0.7995345939054108, worksheet.outputs_energy_flows_ab248, 0.002); end
+  def test_outputs_energy_flows_ac248; assert_in_epsilon(1.0038223890072617, worksheet.outputs_energy_flows_ac248, 0.002); end
+  def test_outputs_energy_flows_ad248; assert_in_epsilon(1.231169224651188, worksheet.outputs_energy_flows_ad248, 0.002); end
+  def test_outputs_energy_flows_c250; assert_equal("n/a", worksheet.outputs_energy_flows_c250); end
+  def test_outputs_energy_flows_d250; assert_equal("Gas", worksheet.outputs_energy_flows_d250); end
+  def test_outputs_energy_flows_e250; assert_equal("n/a", worksheet.outputs_energy_flows_e250); end
+  def test_outputs_energy_flows_f250; assert_equal("International freight", worksheet.outputs_energy_flows_f250); end
+  def test_outputs_energy_flows_i250; assert_equal("C.03", worksheet.outputs_energy_flows_i250); end
+  def test_outputs_energy_flows_j250; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j250); end
+  def test_outputs_energy_flows_l250; assert_equal("International freight", worksheet.outputs_energy_flows_l250); end
+  def test_outputs_energy_flows_v250; assert_in_delta(1.237111016955099e-08, worksheet.outputs_energy_flows_v250, 0.002); end
+  def test_outputs_energy_flows_w250; assert_in_delta(0.09620474391248193, worksheet.outputs_energy_flows_w250, 0.002); end
+  def test_outputs_energy_flows_x250; assert_in_delta(0.25413498225499376, worksheet.outputs_energy_flows_x250, 0.002); end
+  def test_outputs_energy_flows_y250; assert_in_delta(0.45726244040976444, worksheet.outputs_energy_flows_y250, 0.002); end
+  def test_outputs_energy_flows_z250; assert_in_delta(0.7093678152297073, worksheet.outputs_energy_flows_z250, 0.002); end
+  def test_outputs_energy_flows_aa250; assert_in_epsilon(1.0144587502537579, worksheet.outputs_energy_flows_aa250, 0.002); end
+  def test_outputs_energy_flows_ab250; assert_in_epsilon(1.3767814181528002, worksheet.outputs_energy_flows_ab250, 0.002); end
+  def test_outputs_energy_flows_ac250; assert_in_epsilon(1.800832639623204, worksheet.outputs_energy_flows_ac250, 0.002); end
+  def test_outputs_energy_flows_ad250; assert_in_epsilon(2.2913725620159378, worksheet.outputs_energy_flows_ad250, 0.002); end
+  def test_outputs_energy_flows_c252; assert_equal("n/a", worksheet.outputs_energy_flows_c252); end
+  def test_outputs_energy_flows_d252; assert_equal("Gas", worksheet.outputs_energy_flows_d252); end
+  def test_outputs_energy_flows_e252; assert_equal("n/a", worksheet.outputs_energy_flows_e252); end
+  def test_outputs_energy_flows_f252; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f252); end
+  def test_outputs_energy_flows_i252; assert_equal("C.03", worksheet.outputs_energy_flows_i252); end
+  def test_outputs_energy_flows_j252; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j252); end
+  def test_outputs_energy_flows_v252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v252||0), 0.002); end
+  def test_outputs_energy_flows_w252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w252||0), 0.002); end
+  def test_outputs_energy_flows_x252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x252||0), 0.002); end
+  def test_outputs_energy_flows_y252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y252||0), 0.002); end
+  def test_outputs_energy_flows_z252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z252||0), 0.002); end
+  def test_outputs_energy_flows_aa252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa252||0), 0.002); end
+  def test_outputs_energy_flows_ab252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab252||0), 0.002); end
+  def test_outputs_energy_flows_ac252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac252||0), 0.002); end
+  def test_outputs_energy_flows_ad252; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad252||0), 0.002); end
+  def test_outputs_energy_flows_c254; assert_equal("n/a", worksheet.outputs_energy_flows_c254); end
+  def test_outputs_energy_flows_d254; assert_equal("Gas", worksheet.outputs_energy_flows_d254); end
+  def test_outputs_energy_flows_e254; assert_equal("G.01", worksheet.outputs_energy_flows_e254); end
+  def test_outputs_energy_flows_f254; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f254); end
+  def test_outputs_energy_flows_g254; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g254); end
+  def test_outputs_energy_flows_h254; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h254); end
+  def test_outputs_energy_flows_i254; assert_equal("C.03", worksheet.outputs_energy_flows_i254); end
+  def test_outputs_energy_flows_j254; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j254); end
+  def test_outputs_energy_flows_v254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v254||0), 0.002); end
+  def test_outputs_energy_flows_w254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w254||0), 0.002); end
+  def test_outputs_energy_flows_x254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x254||0), 0.002); end
+  def test_outputs_energy_flows_y254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y254||0), 0.002); end
+  def test_outputs_energy_flows_z254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z254||0), 0.002); end
+  def test_outputs_energy_flows_aa254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa254||0), 0.002); end
+  def test_outputs_energy_flows_ab254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab254||0), 0.002); end
+  def test_outputs_energy_flows_ac254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac254||0), 0.002); end
+  def test_outputs_energy_flows_ad254; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad254||0), 0.002); end
+  def test_outputs_energy_flows_c256; assert_equal("n/a", worksheet.outputs_energy_flows_c256); end
+  def test_outputs_energy_flows_d256; assert_equal("Gas", worksheet.outputs_energy_flows_d256); end
+  def test_outputs_energy_flows_e256; assert_equal("n/a", worksheet.outputs_energy_flows_e256); end
+  def test_outputs_energy_flows_f256; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f256); end
+  def test_outputs_energy_flows_g256; assert_equal("n/a", worksheet.outputs_energy_flows_g256); end
+  def test_outputs_energy_flows_h256; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h256); end
+  def test_outputs_energy_flows_i256; assert_equal("C.03", worksheet.outputs_energy_flows_i256); end
+  def test_outputs_energy_flows_j256; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j256); end
+  def test_outputs_energy_flows_v256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v256||0), 0.002); end
+  def test_outputs_energy_flows_w256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w256||0), 0.002); end
+  def test_outputs_energy_flows_x256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x256||0), 0.002); end
+  def test_outputs_energy_flows_y256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y256||0), 0.002); end
+  def test_outputs_energy_flows_z256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z256||0), 0.002); end
+  def test_outputs_energy_flows_aa256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa256||0), 0.002); end
+  def test_outputs_energy_flows_ab256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab256||0), 0.002); end
+  def test_outputs_energy_flows_ac256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac256||0), 0.002); end
+  def test_outputs_energy_flows_ad256; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad256||0), 0.002); end
+  def test_outputs_energy_flows_c258; assert_equal("FF.01", worksheet.outputs_energy_flows_c258); end
+  def test_outputs_energy_flows_d258; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d258); end
+  def test_outputs_energy_flows_e258; assert_equal("n/a", worksheet.outputs_energy_flows_e258); end
+  def test_outputs_energy_flows_f258; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f258); end
+  def test_outputs_energy_flows_i258; assert_equal("FF.01", worksheet.outputs_energy_flows_i258); end
+  def test_outputs_energy_flows_j258; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j258); end
+  def test_outputs_energy_flows_k258; assert_equal("Global buildings", worksheet.outputs_energy_flows_k258); end
+  def test_outputs_energy_flows_v258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v258||0), 0.002); end
+  def test_outputs_energy_flows_w258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w258||0), 0.002); end
+  def test_outputs_energy_flows_x258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x258||0), 0.002); end
+  def test_outputs_energy_flows_y258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y258||0), 0.002); end
+  def test_outputs_energy_flows_z258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z258||0), 0.002); end
+  def test_outputs_energy_flows_aa258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa258||0), 0.002); end
+  def test_outputs_energy_flows_ab258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab258||0), 0.002); end
+  def test_outputs_energy_flows_ac258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac258||0), 0.002); end
+  def test_outputs_energy_flows_ad258; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad258||0), 0.002); end
+  def test_outputs_energy_flows_c260; assert_equal("FF.01", worksheet.outputs_energy_flows_c260); end
+  def test_outputs_energy_flows_d260; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d260); end
+  def test_outputs_energy_flows_e260; assert_equal("n/a", worksheet.outputs_energy_flows_e260); end
+  def test_outputs_energy_flows_f260; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f260); end
+  def test_outputs_energy_flows_i260; assert_equal("FF.01", worksheet.outputs_energy_flows_i260); end
+  def test_outputs_energy_flows_j260; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j260); end
+  def test_outputs_energy_flows_k260; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k260); end
+  def test_outputs_energy_flows_l260; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l260); end
+  def test_outputs_energy_flows_v260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v260||0), 0.002); end
+  def test_outputs_energy_flows_w260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w260||0), 0.002); end
+  def test_outputs_energy_flows_x260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x260||0), 0.002); end
+  def test_outputs_energy_flows_y260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y260||0), 0.002); end
+  def test_outputs_energy_flows_z260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z260||0), 0.002); end
+  def test_outputs_energy_flows_aa260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa260||0), 0.002); end
+  def test_outputs_energy_flows_ab260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab260||0), 0.002); end
+  def test_outputs_energy_flows_ac260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac260||0), 0.002); end
+  def test_outputs_energy_flows_ad260; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad260||0), 0.002); end
+  def test_outputs_energy_flows_c262; assert_equal("FF.01", worksheet.outputs_energy_flows_c262); end
+  def test_outputs_energy_flows_d262; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d262); end
+  def test_outputs_energy_flows_e262; assert_equal("n/a", worksheet.outputs_energy_flows_e262); end
+  def test_outputs_energy_flows_f262; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f262); end
+  def test_outputs_energy_flows_i262; assert_equal("FF.01", worksheet.outputs_energy_flows_i262); end
+  def test_outputs_energy_flows_j262; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j262); end
+  def test_outputs_energy_flows_k262; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k262); end
+  def test_outputs_energy_flows_l262; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l262); end
+  def test_outputs_energy_flows_v262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v262||0), 0.002); end
+  def test_outputs_energy_flows_w262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w262||0), 0.002); end
+  def test_outputs_energy_flows_x262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x262||0), 0.002); end
+  def test_outputs_energy_flows_y262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y262||0), 0.002); end
+  def test_outputs_energy_flows_z262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z262||0), 0.002); end
+  def test_outputs_energy_flows_aa262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa262||0), 0.002); end
+  def test_outputs_energy_flows_ab262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab262||0), 0.002); end
+  def test_outputs_energy_flows_ac262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac262||0), 0.002); end
+  def test_outputs_energy_flows_ad262; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad262||0), 0.002); end
+  def test_outputs_energy_flows_c264; assert_equal("FF.01", worksheet.outputs_energy_flows_c264); end
+  def test_outputs_energy_flows_d264; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d264); end
+  def test_outputs_energy_flows_e264; assert_equal("n/a", worksheet.outputs_energy_flows_e264); end
+  def test_outputs_energy_flows_f264; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f264); end
+  def test_outputs_energy_flows_i264; assert_equal("FF.01", worksheet.outputs_energy_flows_i264); end
+  def test_outputs_energy_flows_j264; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j264); end
+  def test_outputs_energy_flows_k264; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k264); end
+  def test_outputs_energy_flows_l264; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l264); end
+  def test_outputs_energy_flows_v264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v264||0), 0.002); end
+  def test_outputs_energy_flows_w264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w264||0), 0.002); end
+  def test_outputs_energy_flows_x264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x264||0), 0.002); end
+  def test_outputs_energy_flows_y264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y264||0), 0.002); end
+  def test_outputs_energy_flows_z264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z264||0), 0.002); end
+  def test_outputs_energy_flows_aa264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa264||0), 0.002); end
+  def test_outputs_energy_flows_ab264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab264||0), 0.002); end
+  def test_outputs_energy_flows_ac264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac264||0), 0.002); end
+  def test_outputs_energy_flows_ad264; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad264||0), 0.002); end
+  def test_outputs_energy_flows_c266; assert_equal("FF.01", worksheet.outputs_energy_flows_c266); end
+  def test_outputs_energy_flows_d266; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d266); end
+  def test_outputs_energy_flows_e266; assert_equal("n/a", worksheet.outputs_energy_flows_e266); end
+  def test_outputs_energy_flows_f266; assert_equal("Non domestic", worksheet.outputs_energy_flows_f266); end
+  def test_outputs_energy_flows_i266; assert_equal("FF.01", worksheet.outputs_energy_flows_i266); end
+  def test_outputs_energy_flows_j266; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j266); end
+  def test_outputs_energy_flows_k266; assert_equal("Non-residential", worksheet.outputs_energy_flows_k266); end
+  def test_outputs_energy_flows_v266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v266||0), 0.002); end
+  def test_outputs_energy_flows_w266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w266||0), 0.002); end
+  def test_outputs_energy_flows_x266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x266||0), 0.002); end
+  def test_outputs_energy_flows_y266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y266||0), 0.002); end
+  def test_outputs_energy_flows_z266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z266||0), 0.002); end
+  def test_outputs_energy_flows_aa266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa266||0), 0.002); end
+  def test_outputs_energy_flows_ab266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab266||0), 0.002); end
+  def test_outputs_energy_flows_ac266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac266||0), 0.002); end
+  def test_outputs_energy_flows_ad266; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad266||0), 0.002); end
+  def test_outputs_energy_flows_c268; assert_equal("FF.01", worksheet.outputs_energy_flows_c268); end
+  def test_outputs_energy_flows_d268; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d268); end
+  def test_outputs_energy_flows_e268; assert_equal("n/a", worksheet.outputs_energy_flows_e268); end
+  def test_outputs_energy_flows_f268; assert_equal("Steel", worksheet.outputs_energy_flows_f268); end
+  def test_outputs_energy_flows_i268; assert_equal("FF.01", worksheet.outputs_energy_flows_i268); end
+  def test_outputs_energy_flows_j268; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j268); end
+  def test_outputs_energy_flows_v268; assert_in_epsilon(16.56400742938839, worksheet.outputs_energy_flows_v268, 0.002); end
+  def test_outputs_energy_flows_w268; assert_in_epsilon(16.99319704728575, worksheet.outputs_energy_flows_w268, 0.002); end
+  def test_outputs_energy_flows_x268; assert_in_epsilon(18.002826948621276, worksheet.outputs_energy_flows_x268, 0.002); end
+  def test_outputs_energy_flows_y268; assert_in_epsilon(19.088404772597073, worksheet.outputs_energy_flows_y268, 0.002); end
+  def test_outputs_energy_flows_z268; assert_in_epsilon(20.31897550071664, worksheet.outputs_energy_flows_z268, 0.002); end
+  def test_outputs_energy_flows_aa268; assert_in_epsilon(21.601056703787542, worksheet.outputs_energy_flows_aa268, 0.002); end
+  def test_outputs_energy_flows_ab268; assert_in_epsilon(22.944781302564483, worksheet.outputs_energy_flows_ab268, 0.002); end
+  def test_outputs_energy_flows_ac268; assert_in_epsilon(24.762141841455527, worksheet.outputs_energy_flows_ac268, 0.002); end
+  def test_outputs_energy_flows_ad268; assert_in_epsilon(25.984923557379766, worksheet.outputs_energy_flows_ad268, 0.002); end
+  def test_outputs_energy_flows_c270; assert_equal("FF.01", worksheet.outputs_energy_flows_c270); end
+  def test_outputs_energy_flows_d270; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d270); end
+  def test_outputs_energy_flows_e270; assert_equal("n/a", worksheet.outputs_energy_flows_e270); end
+  def test_outputs_energy_flows_f270; assert_equal("Aluminium", worksheet.outputs_energy_flows_f270); end
+  def test_outputs_energy_flows_i270; assert_equal("FF.01", worksheet.outputs_energy_flows_i270); end
+  def test_outputs_energy_flows_j270; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j270); end
+  def test_outputs_energy_flows_v270; assert_in_delta(0.7339274805745354, worksheet.outputs_energy_flows_v270, 0.002); end
+  def test_outputs_energy_flows_w270; assert_in_delta(0.8344670677382416, worksheet.outputs_energy_flows_w270, 0.002); end
+  def test_outputs_energy_flows_x270; assert_in_epsilon(1.004625294051366, worksheet.outputs_energy_flows_x270, 0.002); end
+  def test_outputs_energy_flows_y270; assert_in_epsilon(1.19570305199631, worksheet.outputs_energy_flows_y270, 0.002); end
+  def test_outputs_energy_flows_z270; assert_in_epsilon(1.4145403442868507, worksheet.outputs_energy_flows_z270, 0.002); end
+  def test_outputs_energy_flows_aa270; assert_in_epsilon(1.660534962668942, worksheet.outputs_energy_flows_aa270, 0.002); end
+  def test_outputs_energy_flows_ab270; assert_in_epsilon(1.926712887968835, worksheet.outputs_energy_flows_ab270, 0.002); end
+  def test_outputs_energy_flows_ac270; assert_in_epsilon(2.236302156227227, worksheet.outputs_energy_flows_ac270, 0.002); end
+  def test_outputs_energy_flows_ad270; assert_in_epsilon(2.5695028401836844, worksheet.outputs_energy_flows_ad270, 0.002); end
+  def test_outputs_energy_flows_c272; assert_equal("FF.01", worksheet.outputs_energy_flows_c272); end
+  def test_outputs_energy_flows_d272; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d272); end
+  def test_outputs_energy_flows_e272; assert_equal("n/a", worksheet.outputs_energy_flows_e272); end
+  def test_outputs_energy_flows_f272; assert_equal("Cement", worksheet.outputs_energy_flows_f272); end
+  def test_outputs_energy_flows_i272; assert_equal("FF.01", worksheet.outputs_energy_flows_i272); end
+  def test_outputs_energy_flows_j272; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j272); end
+  def test_outputs_energy_flows_v272; assert_in_epsilon(6.851960921136625, worksheet.outputs_energy_flows_v272, 0.002); end
+  def test_outputs_energy_flows_w272; assert_in_epsilon(7.332879177582779, worksheet.outputs_energy_flows_w272, 0.002); end
+  def test_outputs_energy_flows_x272; assert_in_epsilon(7.8160022062647165, worksheet.outputs_energy_flows_x272, 0.002); end
+  def test_outputs_energy_flows_y272; assert_in_epsilon(8.281351567515637, worksheet.outputs_energy_flows_y272, 0.002); end
+  def test_outputs_energy_flows_z272; assert_in_epsilon(8.749987179385432, worksheet.outputs_energy_flows_z272, 0.002); end
+  def test_outputs_energy_flows_aa272; assert_in_epsilon(9.21537746287398, worksheet.outputs_energy_flows_aa272, 0.002); end
+  def test_outputs_energy_flows_ab272; assert_in_epsilon(9.666853271736832, worksheet.outputs_energy_flows_ab272, 0.002); end
+  def test_outputs_energy_flows_ac272; assert_in_epsilon(10.126140980129025, worksheet.outputs_energy_flows_ac272, 0.002); end
+  def test_outputs_energy_flows_ad272; assert_in_epsilon(10.569226597060892, worksheet.outputs_energy_flows_ad272, 0.002); end
+  def test_outputs_energy_flows_c274; assert_equal("FF.01", worksheet.outputs_energy_flows_c274); end
+  def test_outputs_energy_flows_d274; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d274); end
+  def test_outputs_energy_flows_e274; assert_equal("n/a", worksheet.outputs_energy_flows_e274); end
+  def test_outputs_energy_flows_f274; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f274); end
+  def test_outputs_energy_flows_i274; assert_equal("FF.01", worksheet.outputs_energy_flows_i274); end
+  def test_outputs_energy_flows_j274; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j274); end
+  def test_outputs_energy_flows_v274; assert_in_epsilon(1.518261087438881, worksheet.outputs_energy_flows_v274, 0.002); end
+  def test_outputs_energy_flows_w274; assert_in_epsilon(1.5645062238759753, worksheet.outputs_energy_flows_w274, 0.002); end
+  def test_outputs_energy_flows_x274; assert_in_epsilon(1.6062770692541974, worksheet.outputs_energy_flows_x274, 0.002); end
+  def test_outputs_energy_flows_y274; assert_in_epsilon(1.6386640852134349, worksheet.outputs_energy_flows_y274, 0.002); end
+  def test_outputs_energy_flows_z274; assert_in_epsilon(1.6621266203241438, worksheet.outputs_energy_flows_z274, 0.002); end
+  def test_outputs_energy_flows_aa274; assert_in_epsilon(1.677498821467504, worksheet.outputs_energy_flows_aa274, 0.002); end
+  def test_outputs_energy_flows_ab274; assert_in_epsilon(1.6851259170605475, worksheet.outputs_energy_flows_ab274, 0.002); end
+  def test_outputs_energy_flows_ac274; assert_in_epsilon(1.6850042909433123, worksheet.outputs_energy_flows_ac274, 0.002); end
+  def test_outputs_energy_flows_ad274; assert_in_epsilon(1.677260352277043, worksheet.outputs_energy_flows_ad274, 0.002); end
+  def test_outputs_energy_flows_c276; assert_equal("FF.01", worksheet.outputs_energy_flows_c276); end
+  def test_outputs_energy_flows_d276; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d276); end
+  def test_outputs_energy_flows_e276; assert_equal("n/a", worksheet.outputs_energy_flows_e276); end
+  def test_outputs_energy_flows_f276; assert_equal("Chemicals", worksheet.outputs_energy_flows_f276); end
+  def test_outputs_energy_flows_i276; assert_equal("FF.01", worksheet.outputs_energy_flows_i276); end
+  def test_outputs_energy_flows_j276; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j276); end
+  def test_outputs_energy_flows_v276; assert_in_epsilon(2.7901474530640202, worksheet.outputs_energy_flows_v276, 0.002); end
+  def test_outputs_energy_flows_w276; assert_in_epsilon(2.852626895928952, worksheet.outputs_energy_flows_w276, 0.002); end
+  def test_outputs_energy_flows_x276; assert_in_epsilon(3.075621609987599, worksheet.outputs_energy_flows_x276, 0.002); end
+  def test_outputs_energy_flows_y276; assert_in_epsilon(3.296424147913327, worksheet.outputs_energy_flows_y276, 0.002); end
+  def test_outputs_energy_flows_z276; assert_in_epsilon(3.5210668207100455, worksheet.outputs_energy_flows_z276, 0.002); end
+  def test_outputs_energy_flows_aa276; assert_in_epsilon(3.738181088620798, worksheet.outputs_energy_flows_aa276, 0.002); end
+  def test_outputs_energy_flows_ab276; assert_in_epsilon(3.9565364861141727, worksheet.outputs_energy_flows_ab276, 0.002); end
+  def test_outputs_energy_flows_ac276; assert_in_epsilon(4.180839060900631, worksheet.outputs_energy_flows_ac276, 0.002); end
+  def test_outputs_energy_flows_ad276; assert_in_epsilon(4.389461021121362, worksheet.outputs_energy_flows_ad276, 0.002); end
+  def test_outputs_energy_flows_c278; assert_equal("FF.01", worksheet.outputs_energy_flows_c278); end
+  def test_outputs_energy_flows_d278; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d278); end
+  def test_outputs_energy_flows_e278; assert_equal("n/a", worksheet.outputs_energy_flows_e278); end
+  def test_outputs_energy_flows_f278; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f278); end
+  def test_outputs_energy_flows_i278; assert_equal("FF.01", worksheet.outputs_energy_flows_i278); end
+  def test_outputs_energy_flows_j278; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j278); end
+  def test_outputs_energy_flows_l278; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l278); end
+  def test_outputs_energy_flows_v278; assert_in_epsilon(12.274837295623618, worksheet.outputs_energy_flows_v278, 0.002); end
+  def test_outputs_energy_flows_w278; assert_in_epsilon(13.473717467803212, worksheet.outputs_energy_flows_w278, 0.002); end
+  def test_outputs_energy_flows_x278; assert_in_epsilon(14.890203734799423, worksheet.outputs_energy_flows_x278, 0.002); end
+  def test_outputs_energy_flows_y278; assert_in_epsilon(16.26646544217217, worksheet.outputs_energy_flows_y278, 0.002); end
+  def test_outputs_energy_flows_z278; assert_in_epsilon(17.58905517292958, worksheet.outputs_energy_flows_z278, 0.002); end
+  def test_outputs_energy_flows_aa278; assert_in_epsilon(18.850016437027925, worksheet.outputs_energy_flows_aa278, 0.002); end
+  def test_outputs_energy_flows_ab278; assert_in_epsilon(20.03781906262696, worksheet.outputs_energy_flows_ab278, 0.002); end
+  def test_outputs_energy_flows_ac278; assert_in_epsilon(21.13749891972583, worksheet.outputs_energy_flows_ac278, 0.002); end
+  def test_outputs_energy_flows_ad278; assert_in_epsilon(22.135823550356385, worksheet.outputs_energy_flows_ad278, 0.002); end
+  def test_outputs_energy_flows_c280; assert_equal("FF.01", worksheet.outputs_energy_flows_c280); end
+  def test_outputs_energy_flows_d280; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d280); end
+  def test_outputs_energy_flows_e280; assert_equal("n/a", worksheet.outputs_energy_flows_e280); end
+  def test_outputs_energy_flows_f280; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f280); end
+  def test_outputs_energy_flows_i280; assert_equal("FF.01", worksheet.outputs_energy_flows_i280); end
+  def test_outputs_energy_flows_j280; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j280); end
+  def test_outputs_energy_flows_l280; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l280); end
+  def test_outputs_energy_flows_m280; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m280); end
+  def test_outputs_energy_flows_v280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v280||0), 0.002); end
+  def test_outputs_energy_flows_w280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w280||0), 0.002); end
+  def test_outputs_energy_flows_x280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x280||0), 0.002); end
+  def test_outputs_energy_flows_y280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y280||0), 0.002); end
+  def test_outputs_energy_flows_z280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z280||0), 0.002); end
+  def test_outputs_energy_flows_aa280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa280||0), 0.002); end
+  def test_outputs_energy_flows_ab280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab280||0), 0.002); end
+  def test_outputs_energy_flows_ac280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac280||0), 0.002); end
+  def test_outputs_energy_flows_ad280; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad280||0), 0.002); end
+  def test_outputs_energy_flows_c282; assert_equal("FF.01", worksheet.outputs_energy_flows_c282); end
+  def test_outputs_energy_flows_d282; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d282); end
+  def test_outputs_energy_flows_e282; assert_equal("n/a", worksheet.outputs_energy_flows_e282); end
+  def test_outputs_energy_flows_f282; assert_equal("International passenger", worksheet.outputs_energy_flows_f282); end
+  def test_outputs_energy_flows_i282; assert_equal("FF.01", worksheet.outputs_energy_flows_i282); end
+  def test_outputs_energy_flows_j282; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j282); end
+  def test_outputs_energy_flows_l282; assert_equal("International", worksheet.outputs_energy_flows_l282); end
+  def test_outputs_energy_flows_v282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v282||0), 0.002); end
+  def test_outputs_energy_flows_w282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w282||0), 0.002); end
+  def test_outputs_energy_flows_x282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x282||0), 0.002); end
+  def test_outputs_energy_flows_y282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y282||0), 0.002); end
+  def test_outputs_energy_flows_z282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z282||0), 0.002); end
+  def test_outputs_energy_flows_aa282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa282||0), 0.002); end
+  def test_outputs_energy_flows_ab282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab282||0), 0.002); end
+  def test_outputs_energy_flows_ac282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac282||0), 0.002); end
+  def test_outputs_energy_flows_ad282; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad282||0), 0.002); end
+  def test_outputs_energy_flows_c284; assert_equal("FF.01", worksheet.outputs_energy_flows_c284); end
+  def test_outputs_energy_flows_d284; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d284); end
+  def test_outputs_energy_flows_e284; assert_equal("n/a", worksheet.outputs_energy_flows_e284); end
+  def test_outputs_energy_flows_f284; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f284); end
+  def test_outputs_energy_flows_i284; assert_equal("FF.01", worksheet.outputs_energy_flows_i284); end
+  def test_outputs_energy_flows_j284; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j284); end
+  def test_outputs_energy_flows_l284; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l284); end
+  def test_outputs_energy_flows_v284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v284||0), 0.002); end
+  def test_outputs_energy_flows_w284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w284||0), 0.002); end
+  def test_outputs_energy_flows_x284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x284||0), 0.002); end
+  def test_outputs_energy_flows_y284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y284||0), 0.002); end
+  def test_outputs_energy_flows_z284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z284||0), 0.002); end
+  def test_outputs_energy_flows_aa284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa284||0), 0.002); end
+  def test_outputs_energy_flows_ab284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab284||0), 0.002); end
+  def test_outputs_energy_flows_ac284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac284||0), 0.002); end
+  def test_outputs_energy_flows_ad284; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad284||0), 0.002); end
+  def test_outputs_energy_flows_c286; assert_equal("FF.01", worksheet.outputs_energy_flows_c286); end
+  def test_outputs_energy_flows_d286; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d286); end
+  def test_outputs_energy_flows_e286; assert_equal("n/a", worksheet.outputs_energy_flows_e286); end
+  def test_outputs_energy_flows_f286; assert_equal("International freight", worksheet.outputs_energy_flows_f286); end
+  def test_outputs_energy_flows_i286; assert_equal("FF.01", worksheet.outputs_energy_flows_i286); end
+  def test_outputs_energy_flows_j286; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j286); end
+  def test_outputs_energy_flows_l286; assert_equal("International freight", worksheet.outputs_energy_flows_l286); end
+  def test_outputs_energy_flows_v286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v286||0), 0.002); end
+  def test_outputs_energy_flows_w286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w286||0), 0.002); end
+  def test_outputs_energy_flows_x286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x286||0), 0.002); end
+  def test_outputs_energy_flows_y286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y286||0), 0.002); end
+  def test_outputs_energy_flows_z286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z286||0), 0.002); end
+  def test_outputs_energy_flows_aa286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa286||0), 0.002); end
+  def test_outputs_energy_flows_ab286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab286||0), 0.002); end
+  def test_outputs_energy_flows_ac286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac286||0), 0.002); end
+  def test_outputs_energy_flows_ad286; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad286||0), 0.002); end
+  def test_outputs_energy_flows_c288; assert_equal("FF.01", worksheet.outputs_energy_flows_c288); end
+  def test_outputs_energy_flows_d288; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d288); end
+  def test_outputs_energy_flows_e288; assert_equal("n/a", worksheet.outputs_energy_flows_e288); end
+  def test_outputs_energy_flows_f288; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f288); end
+  def test_outputs_energy_flows_i288; assert_equal("FF.01", worksheet.outputs_energy_flows_i288); end
+  def test_outputs_energy_flows_j288; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j288); end
+  def test_outputs_energy_flows_v288; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v288||0), 0.002); end
+  def test_outputs_energy_flows_w288; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w288||0), 0.002); end
+  def test_outputs_energy_flows_x288; assert_in_delta(1.1522291058263352e-08, worksheet.outputs_energy_flows_x288, 0.002); end
+  def test_outputs_energy_flows_y288; assert_in_delta(1.734166016123591e-08, worksheet.outputs_energy_flows_y288, 0.002); end
+  def test_outputs_energy_flows_z288; assert_in_delta(2.5170947721584596e-08, worksheet.outputs_energy_flows_z288, 0.002); end
+  def test_outputs_energy_flows_aa288; assert_in_delta(2.4103045325899932e-08, worksheet.outputs_energy_flows_aa288, 0.002); end
+  def test_outputs_energy_flows_ab288; assert_in_delta(1.6398207403951226e-08, worksheet.outputs_energy_flows_ab288, 0.002); end
+  def test_outputs_energy_flows_ac288; assert_in_delta(8.35197216210722e-09, worksheet.outputs_energy_flows_ac288, 0.002); end
+  def test_outputs_energy_flows_ad288; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad288||0), 0.002); end
+  def test_outputs_energy_flows_c290; assert_equal("FF.01", worksheet.outputs_energy_flows_c290); end
+  def test_outputs_energy_flows_d290; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d290); end
+  def test_outputs_energy_flows_e290; assert_equal("G.01", worksheet.outputs_energy_flows_e290); end
+  def test_outputs_energy_flows_f290; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f290); end
+  def test_outputs_energy_flows_g290; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g290); end
+  def test_outputs_energy_flows_h290; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h290); end
+  def test_outputs_energy_flows_i290; assert_equal("FF.01", worksheet.outputs_energy_flows_i290); end
+  def test_outputs_energy_flows_j290; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j290); end
+  def test_outputs_energy_flows_v290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v290||0), 0.002); end
+  def test_outputs_energy_flows_w290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w290||0), 0.002); end
+  def test_outputs_energy_flows_x290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x290||0), 0.002); end
+  def test_outputs_energy_flows_y290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y290||0), 0.002); end
+  def test_outputs_energy_flows_z290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z290||0), 0.002); end
+  def test_outputs_energy_flows_aa290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa290||0), 0.002); end
+  def test_outputs_energy_flows_ab290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab290||0), 0.002); end
+  def test_outputs_energy_flows_ac290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac290||0), 0.002); end
+  def test_outputs_energy_flows_ad290; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad290||0), 0.002); end
+  def test_outputs_energy_flows_c292; assert_equal("FF.01", worksheet.outputs_energy_flows_c292); end
+  def test_outputs_energy_flows_d292; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_d292); end
+  def test_outputs_energy_flows_e292; assert_equal("n/a", worksheet.outputs_energy_flows_e292); end
+  def test_outputs_energy_flows_f292; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f292); end
+  def test_outputs_energy_flows_g292; assert_equal("n/a", worksheet.outputs_energy_flows_g292); end
+  def test_outputs_energy_flows_h292; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h292); end
+  def test_outputs_energy_flows_i292; assert_equal("FF.01", worksheet.outputs_energy_flows_i292); end
+  def test_outputs_energy_flows_j292; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j292); end
+  def test_outputs_energy_flows_v292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v292||0), 0.002); end
+  def test_outputs_energy_flows_w292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w292||0), 0.002); end
+  def test_outputs_energy_flows_x292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x292||0), 0.002); end
+  def test_outputs_energy_flows_y292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y292||0), 0.002); end
+  def test_outputs_energy_flows_z292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z292||0), 0.002); end
+  def test_outputs_energy_flows_aa292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa292||0), 0.002); end
+  def test_outputs_energy_flows_ab292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab292||0), 0.002); end
+  def test_outputs_energy_flows_ac292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac292||0), 0.002); end
+  def test_outputs_energy_flows_ad292; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad292||0), 0.002); end
+  def test_outputs_energy_flows_c294; assert_equal("FF.02", worksheet.outputs_energy_flows_c294); end
+  def test_outputs_energy_flows_d294; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d294); end
+  def test_outputs_energy_flows_e294; assert_equal("n/a", worksheet.outputs_energy_flows_e294); end
+  def test_outputs_energy_flows_f294; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f294); end
+  def test_outputs_energy_flows_i294; assert_equal("FF.02", worksheet.outputs_energy_flows_i294); end
+  def test_outputs_energy_flows_j294; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j294); end
+  def test_outputs_energy_flows_k294; assert_equal("Global buildings", worksheet.outputs_energy_flows_k294); end
+  def test_outputs_energy_flows_v294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v294||0), 0.002); end
+  def test_outputs_energy_flows_w294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w294||0), 0.002); end
+  def test_outputs_energy_flows_x294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x294||0), 0.002); end
+  def test_outputs_energy_flows_y294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y294||0), 0.002); end
+  def test_outputs_energy_flows_z294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z294||0), 0.002); end
+  def test_outputs_energy_flows_aa294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa294||0), 0.002); end
+  def test_outputs_energy_flows_ab294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab294||0), 0.002); end
+  def test_outputs_energy_flows_ac294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac294||0), 0.002); end
+  def test_outputs_energy_flows_ad294; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad294||0), 0.002); end
+  def test_outputs_energy_flows_c296; assert_equal("FF.02", worksheet.outputs_energy_flows_c296); end
+  def test_outputs_energy_flows_d296; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d296); end
+  def test_outputs_energy_flows_e296; assert_equal("n/a", worksheet.outputs_energy_flows_e296); end
+  def test_outputs_energy_flows_f296; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f296); end
+  def test_outputs_energy_flows_i296; assert_equal("FF.02", worksheet.outputs_energy_flows_i296); end
+  def test_outputs_energy_flows_j296; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j296); end
+  def test_outputs_energy_flows_k296; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k296); end
+  def test_outputs_energy_flows_l296; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l296); end
+  def test_outputs_energy_flows_v296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v296||0), 0.002); end
+  def test_outputs_energy_flows_w296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w296||0), 0.002); end
+  def test_outputs_energy_flows_x296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x296||0), 0.002); end
+  def test_outputs_energy_flows_y296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y296||0), 0.002); end
+  def test_outputs_energy_flows_z296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z296||0), 0.002); end
+  def test_outputs_energy_flows_aa296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa296||0), 0.002); end
+  def test_outputs_energy_flows_ab296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab296||0), 0.002); end
+  def test_outputs_energy_flows_ac296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac296||0), 0.002); end
+  def test_outputs_energy_flows_ad296; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad296||0), 0.002); end
+  def test_outputs_energy_flows_c298; assert_equal("FF.02", worksheet.outputs_energy_flows_c298); end
+  def test_outputs_energy_flows_d298; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d298); end
+  def test_outputs_energy_flows_e298; assert_equal("n/a", worksheet.outputs_energy_flows_e298); end
+  def test_outputs_energy_flows_f298; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f298); end
+  def test_outputs_energy_flows_i298; assert_equal("FF.02", worksheet.outputs_energy_flows_i298); end
+  def test_outputs_energy_flows_j298; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j298); end
+  def test_outputs_energy_flows_k298; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k298); end
+  def test_outputs_energy_flows_l298; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l298); end
+  def test_outputs_energy_flows_v298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v298||0), 0.002); end
+  def test_outputs_energy_flows_w298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w298||0), 0.002); end
+  def test_outputs_energy_flows_x298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x298||0), 0.002); end
+  def test_outputs_energy_flows_y298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y298||0), 0.002); end
+  def test_outputs_energy_flows_z298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z298||0), 0.002); end
+  def test_outputs_energy_flows_aa298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa298||0), 0.002); end
+  def test_outputs_energy_flows_ab298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab298||0), 0.002); end
+  def test_outputs_energy_flows_ac298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac298||0), 0.002); end
+  def test_outputs_energy_flows_ad298; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad298||0), 0.002); end
+  def test_outputs_energy_flows_c300; assert_equal("FF.02", worksheet.outputs_energy_flows_c300); end
+  def test_outputs_energy_flows_d300; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d300); end
+  def test_outputs_energy_flows_e300; assert_equal("n/a", worksheet.outputs_energy_flows_e300); end
+  def test_outputs_energy_flows_f300; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f300); end
+  def test_outputs_energy_flows_i300; assert_equal("FF.02", worksheet.outputs_energy_flows_i300); end
+  def test_outputs_energy_flows_j300; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j300); end
+  def test_outputs_energy_flows_k300; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k300); end
+  def test_outputs_energy_flows_l300; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l300); end
+  def test_outputs_energy_flows_v300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v300||0), 0.002); end
+  def test_outputs_energy_flows_w300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w300||0), 0.002); end
+  def test_outputs_energy_flows_x300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x300||0), 0.002); end
+  def test_outputs_energy_flows_y300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y300||0), 0.002); end
+  def test_outputs_energy_flows_z300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z300||0), 0.002); end
+  def test_outputs_energy_flows_aa300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa300||0), 0.002); end
+  def test_outputs_energy_flows_ab300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab300||0), 0.002); end
+  def test_outputs_energy_flows_ac300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac300||0), 0.002); end
+  def test_outputs_energy_flows_ad300; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad300||0), 0.002); end
+  def test_outputs_energy_flows_c302; assert_equal("FF.02", worksheet.outputs_energy_flows_c302); end
+  def test_outputs_energy_flows_d302; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d302); end
+  def test_outputs_energy_flows_e302; assert_equal("n/a", worksheet.outputs_energy_flows_e302); end
+  def test_outputs_energy_flows_f302; assert_equal("Non domestic", worksheet.outputs_energy_flows_f302); end
+  def test_outputs_energy_flows_i302; assert_equal("FF.02", worksheet.outputs_energy_flows_i302); end
+  def test_outputs_energy_flows_j302; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j302); end
+  def test_outputs_energy_flows_k302; assert_equal("Non-residential", worksheet.outputs_energy_flows_k302); end
+  def test_outputs_energy_flows_v302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v302||0), 0.002); end
+  def test_outputs_energy_flows_w302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w302||0), 0.002); end
+  def test_outputs_energy_flows_x302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x302||0), 0.002); end
+  def test_outputs_energy_flows_y302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y302||0), 0.002); end
+  def test_outputs_energy_flows_z302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z302||0), 0.002); end
+  def test_outputs_energy_flows_aa302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa302||0), 0.002); end
+  def test_outputs_energy_flows_ab302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab302||0), 0.002); end
+  def test_outputs_energy_flows_ac302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac302||0), 0.002); end
+  def test_outputs_energy_flows_ad302; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad302||0), 0.002); end
+  def test_outputs_energy_flows_c304; assert_equal("FF.02", worksheet.outputs_energy_flows_c304); end
+  def test_outputs_energy_flows_d304; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d304); end
+  def test_outputs_energy_flows_e304; assert_equal("n/a", worksheet.outputs_energy_flows_e304); end
+  def test_outputs_energy_flows_f304; assert_equal("Steel", worksheet.outputs_energy_flows_f304); end
+  def test_outputs_energy_flows_i304; assert_equal("FF.02", worksheet.outputs_energy_flows_i304); end
+  def test_outputs_energy_flows_j304; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j304); end
+  def test_outputs_energy_flows_v304; assert_in_delta(0.6053795859240001, worksheet.outputs_energy_flows_v304, 0.002); end
+  def test_outputs_energy_flows_w304; assert_in_delta(0.6273542392556587, worksheet.outputs_energy_flows_w304, 0.002); end
+  def test_outputs_energy_flows_x304; assert_in_delta(0.6729823299555331, worksheet.outputs_energy_flows_x304, 0.002); end
+  def test_outputs_energy_flows_y304; assert_in_delta(0.7224507187043592, worksheet.outputs_energy_flows_y304, 0.002); end
+  def test_outputs_energy_flows_z304; assert_in_delta(0.7785127741270507, worksheet.outputs_energy_flows_z304, 0.002); end
+  def test_outputs_energy_flows_aa304; assert_in_delta(0.8377477132813957, worksheet.outputs_energy_flows_aa304, 0.002); end
+  def test_outputs_energy_flows_ab304; assert_in_delta(0.9006264927755551, worksheet.outputs_energy_flows_ab304, 0.002); end
+  def test_outputs_energy_flows_ac304; assert_in_delta(0.9836010918030875, worksheet.outputs_energy_flows_ac304, 0.002); end
+  def test_outputs_energy_flows_ad304; assert_in_epsilon(1.044404937032579, worksheet.outputs_energy_flows_ad304, 0.002); end
+  def test_outputs_energy_flows_c306; assert_equal("FF.02", worksheet.outputs_energy_flows_c306); end
+  def test_outputs_energy_flows_d306; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d306); end
+  def test_outputs_energy_flows_e306; assert_equal("n/a", worksheet.outputs_energy_flows_e306); end
+  def test_outputs_energy_flows_f306; assert_equal("Aluminium", worksheet.outputs_energy_flows_f306); end
+  def test_outputs_energy_flows_i306; assert_equal("FF.02", worksheet.outputs_energy_flows_i306); end
+  def test_outputs_energy_flows_j306; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j306); end
+  def test_outputs_energy_flows_v306; assert_in_delta(0.5405428608660057, worksheet.outputs_energy_flows_v306, 0.002); end
+  def test_outputs_energy_flows_w306; assert_in_delta(0.6143457948797171, worksheet.outputs_energy_flows_w306, 0.002); end
+  def test_outputs_energy_flows_x306; assert_in_delta(0.7392561225264793, worksheet.outputs_energy_flows_x306, 0.002); end
+  def test_outputs_energy_flows_y306; assert_in_delta(0.8794358946737981, worksheet.outputs_energy_flows_y306, 0.002); end
+  def test_outputs_energy_flows_z306; assert_in_epsilon(1.0398917811036377, worksheet.outputs_energy_flows_z306, 0.002); end
+  def test_outputs_energy_flows_aa306; assert_in_epsilon(1.2201522652077028, worksheet.outputs_energy_flows_aa306, 0.002); end
+  def test_outputs_energy_flows_ab306; assert_in_epsilon(1.4150668176656027, worksheet.outputs_energy_flows_ab306, 0.002); end
+  def test_outputs_energy_flows_ac306; assert_in_epsilon(1.6416657147615135, worksheet.outputs_energy_flows_ac306, 0.002); end
+  def test_outputs_energy_flows_ad306; assert_in_epsilon(1.885374911371554, worksheet.outputs_energy_flows_ad306, 0.002); end
+  def test_outputs_energy_flows_c308; assert_equal("FF.02", worksheet.outputs_energy_flows_c308); end
+  def test_outputs_energy_flows_d308; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d308); end
+  def test_outputs_energy_flows_e308; assert_equal("n/a", worksheet.outputs_energy_flows_e308); end
+  def test_outputs_energy_flows_f308; assert_equal("Cement", worksheet.outputs_energy_flows_f308); end
+  def test_outputs_energy_flows_i308; assert_equal("FF.02", worksheet.outputs_energy_flows_i308); end
+  def test_outputs_energy_flows_j308; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j308); end
+  def test_outputs_energy_flows_v308; assert_in_epsilon(1.1385974140784139, worksheet.outputs_energy_flows_v308, 0.002); end
+  def test_outputs_energy_flows_w308; assert_in_epsilon(1.223170102604296, worksheet.outputs_energy_flows_w308, 0.002); end
+  def test_outputs_energy_flows_x308; assert_in_epsilon(1.310017800733032, worksheet.outputs_energy_flows_x308, 0.002); end
+  def test_outputs_energy_flows_y308; assert_in_epsilon(1.3947101232699712, worksheet.outputs_energy_flows_y308, 0.002); end
+  def test_outputs_energy_flows_z308; assert_in_epsilon(1.4807797399245577, worksheet.outputs_energy_flows_z308, 0.002); end
+  def test_outputs_energy_flows_aa308; assert_in_epsilon(1.5671360407855743, worksheet.outputs_energy_flows_aa308, 0.002); end
+  def test_outputs_energy_flows_ab308; assert_in_epsilon(1.651959995143544, worksheet.outputs_energy_flows_ab308, 0.002); end
+  def test_outputs_energy_flows_ac308; assert_in_epsilon(1.738960053900707, worksheet.outputs_energy_flows_ac308, 0.002); end
+  def test_outputs_energy_flows_ad308; assert_in_epsilon(1.824024186147758, worksheet.outputs_energy_flows_ad308, 0.002); end
+  def test_outputs_energy_flows_c310; assert_equal("FF.02", worksheet.outputs_energy_flows_c310); end
+  def test_outputs_energy_flows_d310; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d310); end
+  def test_outputs_energy_flows_e310; assert_equal("n/a", worksheet.outputs_energy_flows_e310); end
+  def test_outputs_energy_flows_f310; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f310); end
+  def test_outputs_energy_flows_i310; assert_equal("FF.02", worksheet.outputs_energy_flows_i310); end
+  def test_outputs_energy_flows_j310; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j310); end
+  def test_outputs_energy_flows_v310; assert_in_delta(0.40529936521738275, worksheet.outputs_energy_flows_v310, 0.002); end
+  def test_outputs_energy_flows_w310; assert_in_delta(0.4184158777467711, worksheet.outputs_energy_flows_w310, 0.002); end
+  def test_outputs_energy_flows_x310; assert_in_delta(0.4305812928767621, worksheet.outputs_energy_flows_x310, 0.002); end
+  def test_outputs_energy_flows_y310; assert_in_delta(0.4402818672585882, worksheet.outputs_energy_flows_y310, 0.002); end
+  def test_outputs_energy_flows_z310; assert_in_delta(0.44762411621476944, worksheet.outputs_energy_flows_z310, 0.002); end
+  def test_outputs_energy_flows_aa310; assert_in_delta(0.4528167191989318, worksheet.outputs_energy_flows_aa310, 0.002); end
+  def test_outputs_energy_flows_ab310; assert_in_delta(0.4559380204389863, worksheet.outputs_energy_flows_ab310, 0.002); end
+  def test_outputs_energy_flows_ac310; assert_in_delta(0.4569724912154991, worksheet.outputs_energy_flows_ac310, 0.002); end
+  def test_outputs_energy_flows_ad310; assert_in_delta(0.4559398024886942, worksheet.outputs_energy_flows_ad310, 0.002); end
+  def test_outputs_energy_flows_c312; assert_equal("FF.02", worksheet.outputs_energy_flows_c312); end
+  def test_outputs_energy_flows_d312; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d312); end
+  def test_outputs_energy_flows_e312; assert_equal("n/a", worksheet.outputs_energy_flows_e312); end
+  def test_outputs_energy_flows_f312; assert_equal("Chemicals", worksheet.outputs_energy_flows_f312); end
+  def test_outputs_energy_flows_i312; assert_equal("FF.02", worksheet.outputs_energy_flows_i312); end
+  def test_outputs_energy_flows_j312; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j312); end
+  def test_outputs_energy_flows_v312; assert_in_epsilon(19.21087929417574, worksheet.outputs_energy_flows_v312, 0.002); end
+  def test_outputs_energy_flows_w312; assert_in_epsilon(18.898011083683905, worksheet.outputs_energy_flows_w312, 0.002); end
+  def test_outputs_energy_flows_x312; assert_in_epsilon(20.461207053084625, worksheet.outputs_energy_flows_x312, 0.002); end
+  def test_outputs_energy_flows_y312; assert_in_epsilon(21.927778761057233, worksheet.outputs_energy_flows_y312, 0.002); end
+  def test_outputs_energy_flows_z312; assert_in_epsilon(23.55155500365839, worksheet.outputs_energy_flows_z312, 0.002); end
+  def test_outputs_energy_flows_aa312; assert_in_epsilon(25.230354385601327, worksheet.outputs_energy_flows_aa312, 0.002); end
+  def test_outputs_energy_flows_ab312; assert_in_epsilon(26.916534033725824, worksheet.outputs_energy_flows_ab312, 0.002); end
+  def test_outputs_energy_flows_ac312; assert_in_epsilon(28.964473922638113, worksheet.outputs_energy_flows_ac312, 0.002); end
+  def test_outputs_energy_flows_ad312; assert_in_epsilon(30.66436778633991, worksheet.outputs_energy_flows_ad312, 0.002); end
+  def test_outputs_energy_flows_c314; assert_equal("FF.02", worksheet.outputs_energy_flows_c314); end
+  def test_outputs_energy_flows_d314; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d314); end
+  def test_outputs_energy_flows_e314; assert_equal("n/a", worksheet.outputs_energy_flows_e314); end
+  def test_outputs_energy_flows_f314; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f314); end
+  def test_outputs_energy_flows_i314; assert_equal("FF.02", worksheet.outputs_energy_flows_i314); end
+  def test_outputs_energy_flows_j314; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j314); end
+  def test_outputs_energy_flows_l314; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l314); end
+  def test_outputs_energy_flows_v314; assert_in_epsilon(8.548078329803383, worksheet.outputs_energy_flows_v314, 0.002); end
+  def test_outputs_energy_flows_w314; assert_in_epsilon(9.400321360673662, worksheet.outputs_energy_flows_w314, 0.002); end
+  def test_outputs_energy_flows_x314; assert_in_epsilon(10.412646831782085, worksheet.outputs_energy_flows_x314, 0.002); end
+  def test_outputs_energy_flows_y314; assert_in_epsilon(11.401480787518071, worksheet.outputs_energy_flows_y314, 0.002); end
+  def test_outputs_energy_flows_z314; assert_in_epsilon(12.35721165670455, worksheet.outputs_energy_flows_z314, 0.002); end
+  def test_outputs_energy_flows_aa314; assert_in_epsilon(13.274004811458479, worksheet.outputs_energy_flows_aa314, 0.002); end
+  def test_outputs_energy_flows_ab314; assert_in_epsilon(14.143448595719239, worksheet.outputs_energy_flows_ab314, 0.002); end
+  def test_outputs_energy_flows_ac314; assert_in_epsilon(14.954622969690535, worksheet.outputs_energy_flows_ac314, 0.002); end
+  def test_outputs_energy_flows_ad314; assert_in_epsilon(15.6977332696842, worksheet.outputs_energy_flows_ad314, 0.002); end
+  def test_outputs_energy_flows_c316; assert_equal("FF.02", worksheet.outputs_energy_flows_c316); end
+  def test_outputs_energy_flows_d316; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d316); end
+  def test_outputs_energy_flows_e316; assert_equal("n/a", worksheet.outputs_energy_flows_e316); end
+  def test_outputs_energy_flows_f316; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f316); end
+  def test_outputs_energy_flows_i316; assert_equal("FF.02", worksheet.outputs_energy_flows_i316); end
+  def test_outputs_energy_flows_j316; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j316); end
+  def test_outputs_energy_flows_l316; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l316); end
+  def test_outputs_energy_flows_m316; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m316); end
+  def test_outputs_energy_flows_v316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v316||0), 0.002); end
+  def test_outputs_energy_flows_w316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w316||0), 0.002); end
+  def test_outputs_energy_flows_x316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x316||0), 0.002); end
+  def test_outputs_energy_flows_y316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y316||0), 0.002); end
+  def test_outputs_energy_flows_z316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z316||0), 0.002); end
+  def test_outputs_energy_flows_aa316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa316||0), 0.002); end
+  def test_outputs_energy_flows_ab316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab316||0), 0.002); end
+  def test_outputs_energy_flows_ac316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac316||0), 0.002); end
+  def test_outputs_energy_flows_ad316; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad316||0), 0.002); end
+  def test_outputs_energy_flows_c318; assert_equal("FF.02", worksheet.outputs_energy_flows_c318); end
+  def test_outputs_energy_flows_d318; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d318); end
+  def test_outputs_energy_flows_e318; assert_equal("n/a", worksheet.outputs_energy_flows_e318); end
+  def test_outputs_energy_flows_f318; assert_equal("International passenger", worksheet.outputs_energy_flows_f318); end
+  def test_outputs_energy_flows_i318; assert_equal("FF.02", worksheet.outputs_energy_flows_i318); end
+  def test_outputs_energy_flows_j318; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j318); end
+  def test_outputs_energy_flows_l318; assert_equal("International", worksheet.outputs_energy_flows_l318); end
+  def test_outputs_energy_flows_v318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v318||0), 0.002); end
+  def test_outputs_energy_flows_w318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w318||0), 0.002); end
+  def test_outputs_energy_flows_x318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x318||0), 0.002); end
+  def test_outputs_energy_flows_y318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y318||0), 0.002); end
+  def test_outputs_energy_flows_z318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z318||0), 0.002); end
+  def test_outputs_energy_flows_aa318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa318||0), 0.002); end
+  def test_outputs_energy_flows_ab318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab318||0), 0.002); end
+  def test_outputs_energy_flows_ac318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac318||0), 0.002); end
+  def test_outputs_energy_flows_ad318; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad318||0), 0.002); end
+  def test_outputs_energy_flows_c320; assert_equal("FF.02", worksheet.outputs_energy_flows_c320); end
+  def test_outputs_energy_flows_d320; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d320); end
+  def test_outputs_energy_flows_e320; assert_equal("n/a", worksheet.outputs_energy_flows_e320); end
+  def test_outputs_energy_flows_f320; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f320); end
+  def test_outputs_energy_flows_i320; assert_equal("FF.02", worksheet.outputs_energy_flows_i320); end
+  def test_outputs_energy_flows_j320; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j320); end
+  def test_outputs_energy_flows_l320; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l320); end
+  def test_outputs_energy_flows_v320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v320||0), 0.002); end
+  def test_outputs_energy_flows_w320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w320||0), 0.002); end
+  def test_outputs_energy_flows_x320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x320||0), 0.002); end
+  def test_outputs_energy_flows_y320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y320||0), 0.002); end
+  def test_outputs_energy_flows_z320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z320||0), 0.002); end
+  def test_outputs_energy_flows_aa320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa320||0), 0.002); end
+  def test_outputs_energy_flows_ab320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab320||0), 0.002); end
+  def test_outputs_energy_flows_ac320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac320||0), 0.002); end
+  def test_outputs_energy_flows_ad320; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad320||0), 0.002); end
+  def test_outputs_energy_flows_c322; assert_equal("FF.02", worksheet.outputs_energy_flows_c322); end
+  def test_outputs_energy_flows_d322; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d322); end
+  def test_outputs_energy_flows_e322; assert_equal("n/a", worksheet.outputs_energy_flows_e322); end
+  def test_outputs_energy_flows_f322; assert_equal("International freight", worksheet.outputs_energy_flows_f322); end
+  def test_outputs_energy_flows_i322; assert_equal("FF.02", worksheet.outputs_energy_flows_i322); end
+  def test_outputs_energy_flows_j322; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j322); end
+  def test_outputs_energy_flows_l322; assert_equal("International freight", worksheet.outputs_energy_flows_l322); end
+  def test_outputs_energy_flows_v322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v322||0), 0.002); end
+  def test_outputs_energy_flows_w322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w322||0), 0.002); end
+  def test_outputs_energy_flows_x322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x322||0), 0.002); end
+  def test_outputs_energy_flows_y322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y322||0), 0.002); end
+  def test_outputs_energy_flows_z322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z322||0), 0.002); end
+  def test_outputs_energy_flows_aa322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa322||0), 0.002); end
+  def test_outputs_energy_flows_ab322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab322||0), 0.002); end
+  def test_outputs_energy_flows_ac322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac322||0), 0.002); end
+  def test_outputs_energy_flows_ad322; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad322||0), 0.002); end
+  def test_outputs_energy_flows_c324; assert_equal("FF.02", worksheet.outputs_energy_flows_c324); end
+  def test_outputs_energy_flows_d324; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d324); end
+  def test_outputs_energy_flows_e324; assert_equal("n/a", worksheet.outputs_energy_flows_e324); end
+  def test_outputs_energy_flows_f324; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f324); end
+  def test_outputs_energy_flows_i324; assert_equal("FF.02", worksheet.outputs_energy_flows_i324); end
+  def test_outputs_energy_flows_j324; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j324); end
+  def test_outputs_energy_flows_v324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v324||0), 0.002); end
+  def test_outputs_energy_flows_w324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w324||0), 0.002); end
+  def test_outputs_energy_flows_x324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x324||0), 0.002); end
+  def test_outputs_energy_flows_y324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y324||0), 0.002); end
+  def test_outputs_energy_flows_z324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z324||0), 0.002); end
+  def test_outputs_energy_flows_aa324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa324||0), 0.002); end
+  def test_outputs_energy_flows_ab324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab324||0), 0.002); end
+  def test_outputs_energy_flows_ac324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac324||0), 0.002); end
+  def test_outputs_energy_flows_ad324; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad324||0), 0.002); end
+  def test_outputs_energy_flows_c326; assert_equal("FF.02", worksheet.outputs_energy_flows_c326); end
+  def test_outputs_energy_flows_d326; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d326); end
+  def test_outputs_energy_flows_e326; assert_equal("G.01", worksheet.outputs_energy_flows_e326); end
+  def test_outputs_energy_flows_f326; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f326); end
+  def test_outputs_energy_flows_g326; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g326); end
+  def test_outputs_energy_flows_h326; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h326); end
+  def test_outputs_energy_flows_i326; assert_equal("FF.02", worksheet.outputs_energy_flows_i326); end
+  def test_outputs_energy_flows_j326; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j326); end
+  def test_outputs_energy_flows_v326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v326||0), 0.002); end
+  def test_outputs_energy_flows_w326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w326||0), 0.002); end
+  def test_outputs_energy_flows_x326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x326||0), 0.002); end
+  def test_outputs_energy_flows_y326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y326||0), 0.002); end
+  def test_outputs_energy_flows_z326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z326||0), 0.002); end
+  def test_outputs_energy_flows_aa326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa326||0), 0.002); end
+  def test_outputs_energy_flows_ab326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab326||0), 0.002); end
+  def test_outputs_energy_flows_ac326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac326||0), 0.002); end
+  def test_outputs_energy_flows_ad326; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad326||0), 0.002); end
+  def test_outputs_energy_flows_c328; assert_equal("FF.02", worksheet.outputs_energy_flows_c328); end
+  def test_outputs_energy_flows_d328; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_d328); end
+  def test_outputs_energy_flows_e328; assert_equal("n/a", worksheet.outputs_energy_flows_e328); end
+  def test_outputs_energy_flows_f328; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f328); end
+  def test_outputs_energy_flows_g328; assert_equal("n/a", worksheet.outputs_energy_flows_g328); end
+  def test_outputs_energy_flows_h328; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h328); end
+  def test_outputs_energy_flows_i328; assert_equal("FF.02", worksheet.outputs_energy_flows_i328); end
+  def test_outputs_energy_flows_j328; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_j328); end
+  def test_outputs_energy_flows_v328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v328||0), 0.002); end
+  def test_outputs_energy_flows_w328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w328||0), 0.002); end
+  def test_outputs_energy_flows_x328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x328||0), 0.002); end
+  def test_outputs_energy_flows_y328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y328||0), 0.002); end
+  def test_outputs_energy_flows_z328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z328||0), 0.002); end
+  def test_outputs_energy_flows_aa328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa328||0), 0.002); end
+  def test_outputs_energy_flows_ab328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab328||0), 0.002); end
+  def test_outputs_energy_flows_ac328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac328||0), 0.002); end
+  def test_outputs_energy_flows_ad328; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad328||0), 0.002); end
+  def test_outputs_energy_flows_c330; assert_equal("FF.03", worksheet.outputs_energy_flows_c330); end
+  def test_outputs_energy_flows_d330; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d330); end
+  def test_outputs_energy_flows_e330; assert_equal("n/a", worksheet.outputs_energy_flows_e330); end
+  def test_outputs_energy_flows_f330; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f330); end
+  def test_outputs_energy_flows_i330; assert_equal("FF.03", worksheet.outputs_energy_flows_i330); end
+  def test_outputs_energy_flows_j330; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j330); end
+  def test_outputs_energy_flows_k330; assert_equal("Global buildings", worksheet.outputs_energy_flows_k330); end
+  def test_outputs_energy_flows_v330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v330||0), 0.002); end
+  def test_outputs_energy_flows_w330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w330||0), 0.002); end
+  def test_outputs_energy_flows_x330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x330||0), 0.002); end
+  def test_outputs_energy_flows_y330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y330||0), 0.002); end
+  def test_outputs_energy_flows_z330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z330||0), 0.002); end
+  def test_outputs_energy_flows_aa330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa330||0), 0.002); end
+  def test_outputs_energy_flows_ab330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab330||0), 0.002); end
+  def test_outputs_energy_flows_ac330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac330||0), 0.002); end
+  def test_outputs_energy_flows_ad330; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad330||0), 0.002); end
+  def test_outputs_energy_flows_c332; assert_equal("FF.03", worksheet.outputs_energy_flows_c332); end
+  def test_outputs_energy_flows_d332; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d332); end
+  def test_outputs_energy_flows_e332; assert_equal("n/a", worksheet.outputs_energy_flows_e332); end
+  def test_outputs_energy_flows_f332; assert_equal("Domestic lighting", worksheet.outputs_energy_flows_f332); end
+  def test_outputs_energy_flows_i332; assert_equal("FF.03", worksheet.outputs_energy_flows_i332); end
+  def test_outputs_energy_flows_j332; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j332); end
+  def test_outputs_energy_flows_k332; assert_equal("Urban lighting", worksheet.outputs_energy_flows_k332); end
+  def test_outputs_energy_flows_l332; assert_equal("Rural lighting", worksheet.outputs_energy_flows_l332); end
+  def test_outputs_energy_flows_v332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v332||0), 0.002); end
+  def test_outputs_energy_flows_w332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w332||0), 0.002); end
+  def test_outputs_energy_flows_x332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x332||0), 0.002); end
+  def test_outputs_energy_flows_y332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y332||0), 0.002); end
+  def test_outputs_energy_flows_z332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z332||0), 0.002); end
+  def test_outputs_energy_flows_aa332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa332||0), 0.002); end
+  def test_outputs_energy_flows_ab332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab332||0), 0.002); end
+  def test_outputs_energy_flows_ac332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac332||0), 0.002); end
+  def test_outputs_energy_flows_ad332; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad332||0), 0.002); end
+  def test_outputs_energy_flows_c334; assert_equal("FF.03", worksheet.outputs_energy_flows_c334); end
+  def test_outputs_energy_flows_d334; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d334); end
+  def test_outputs_energy_flows_e334; assert_equal("n/a", worksheet.outputs_energy_flows_e334); end
+  def test_outputs_energy_flows_f334; assert_equal("Domestic appliances", worksheet.outputs_energy_flows_f334); end
+  def test_outputs_energy_flows_i334; assert_equal("FF.03", worksheet.outputs_energy_flows_i334); end
+  def test_outputs_energy_flows_j334; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j334); end
+  def test_outputs_energy_flows_k334; assert_equal("Urban appliances", worksheet.outputs_energy_flows_k334); end
+  def test_outputs_energy_flows_l334; assert_equal("Rural appliances", worksheet.outputs_energy_flows_l334); end
+  def test_outputs_energy_flows_v334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v334||0), 0.002); end
+  def test_outputs_energy_flows_w334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w334||0), 0.002); end
+  def test_outputs_energy_flows_x334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x334||0), 0.002); end
+  def test_outputs_energy_flows_y334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y334||0), 0.002); end
+  def test_outputs_energy_flows_z334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z334||0), 0.002); end
+  def test_outputs_energy_flows_aa334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa334||0), 0.002); end
+  def test_outputs_energy_flows_ab334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab334||0), 0.002); end
+  def test_outputs_energy_flows_ac334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac334||0), 0.002); end
+  def test_outputs_energy_flows_ad334; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad334||0), 0.002); end
+  def test_outputs_energy_flows_c336; assert_equal("FF.03", worksheet.outputs_energy_flows_c336); end
+  def test_outputs_energy_flows_d336; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d336); end
+  def test_outputs_energy_flows_e336; assert_equal("n/a", worksheet.outputs_energy_flows_e336); end
+  def test_outputs_energy_flows_f336; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f336); end
+  def test_outputs_energy_flows_i336; assert_equal("FF.03", worksheet.outputs_energy_flows_i336); end
+  def test_outputs_energy_flows_j336; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j336); end
+  def test_outputs_energy_flows_k336; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k336); end
+  def test_outputs_energy_flows_l336; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l336); end
+  def test_outputs_energy_flows_v336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v336||0), 0.002); end
+  def test_outputs_energy_flows_w336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w336||0), 0.002); end
+  def test_outputs_energy_flows_x336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x336||0), 0.002); end
+  def test_outputs_energy_flows_y336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y336||0), 0.002); end
+  def test_outputs_energy_flows_z336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z336||0), 0.002); end
+  def test_outputs_energy_flows_aa336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa336||0), 0.002); end
+  def test_outputs_energy_flows_ab336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab336||0), 0.002); end
+  def test_outputs_energy_flows_ac336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac336||0), 0.002); end
+  def test_outputs_energy_flows_ad336; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad336||0), 0.002); end
+  def test_outputs_energy_flows_c338; assert_equal("FF.03", worksheet.outputs_energy_flows_c338); end
+  def test_outputs_energy_flows_d338; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d338); end
+  def test_outputs_energy_flows_e338; assert_equal("n/a", worksheet.outputs_energy_flows_e338); end
+  def test_outputs_energy_flows_f338; assert_equal("Non domestic", worksheet.outputs_energy_flows_f338); end
+  def test_outputs_energy_flows_i338; assert_equal("FF.03", worksheet.outputs_energy_flows_i338); end
+  def test_outputs_energy_flows_j338; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j338); end
+  def test_outputs_energy_flows_k338; assert_equal("Non-residential", worksheet.outputs_energy_flows_k338); end
+  def test_outputs_energy_flows_v338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v338||0), 0.002); end
+  def test_outputs_energy_flows_w338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w338||0), 0.002); end
+  def test_outputs_energy_flows_x338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x338||0), 0.002); end
+  def test_outputs_energy_flows_y338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y338||0), 0.002); end
+  def test_outputs_energy_flows_z338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z338||0), 0.002); end
+  def test_outputs_energy_flows_aa338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa338||0), 0.002); end
+  def test_outputs_energy_flows_ab338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab338||0), 0.002); end
+  def test_outputs_energy_flows_ac338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac338||0), 0.002); end
+  def test_outputs_energy_flows_ad338; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad338||0), 0.002); end
+  def test_outputs_energy_flows_c340; assert_equal("FF.03", worksheet.outputs_energy_flows_c340); end
+  def test_outputs_energy_flows_d340; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d340); end
+  def test_outputs_energy_flows_e340; assert_equal("n/a", worksheet.outputs_energy_flows_e340); end
+  def test_outputs_energy_flows_f340; assert_equal("Steel", worksheet.outputs_energy_flows_f340); end
+  def test_outputs_energy_flows_i340; assert_equal("FF.03", worksheet.outputs_energy_flows_i340); end
+  def test_outputs_energy_flows_j340; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j340); end
+  def test_outputs_energy_flows_v340; assert_in_epsilon(2.304566114688002, worksheet.outputs_energy_flows_v340, 0.002); end
+  def test_outputs_energy_flows_w340; assert_in_epsilon(2.4215782316590158, worksheet.outputs_energy_flows_w340, 0.002); end
+  def test_outputs_energy_flows_x340; assert_in_epsilon(2.6423427772744006, worksheet.outputs_energy_flows_x340, 0.002); end
+  def test_outputs_energy_flows_y340; assert_in_epsilon(2.88440903050252, worksheet.outputs_energy_flows_y340, 0.002); end
+  def test_outputs_energy_flows_z340; assert_in_epsilon(3.1597250083474844, worksheet.outputs_energy_flows_z340, 0.002); end
+  def test_outputs_energy_flows_aa340; assert_in_epsilon(3.455505971742453, worksheet.outputs_energy_flows_aa340, 0.002); end
+  def test_outputs_energy_flows_ab340; assert_in_epsilon(3.7743805133220536, worksheet.outputs_energy_flows_ab340, 0.002); end
+  def test_outputs_energy_flows_ac340; assert_in_epsilon(4.187142378950333, worksheet.outputs_energy_flows_ac340, 0.002); end
+  def test_outputs_energy_flows_ad340; assert_in_epsilon(4.515104566110777, worksheet.outputs_energy_flows_ad340, 0.002); end
+  def test_outputs_energy_flows_c342; assert_equal("FF.03", worksheet.outputs_energy_flows_c342); end
+  def test_outputs_energy_flows_d342; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d342); end
+  def test_outputs_energy_flows_e342; assert_equal("n/a", worksheet.outputs_energy_flows_e342); end
+  def test_outputs_energy_flows_f342; assert_equal("Aluminium", worksheet.outputs_energy_flows_f342); end
+  def test_outputs_energy_flows_i342; assert_equal("FF.03", worksheet.outputs_energy_flows_i342); end
+  def test_outputs_energy_flows_j342; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j342); end
+  def test_outputs_energy_flows_v342; assert_in_delta(0.6799566079776811, worksheet.outputs_energy_flows_v342, 0.002); end
+  def test_outputs_energy_flows_w342; assert_in_delta(0.7291758288457159, worksheet.outputs_energy_flows_w342, 0.002); end
+  def test_outputs_energy_flows_x342; assert_in_delta(0.8229296205412224, worksheet.outputs_energy_flows_x342, 0.002); end
+  def test_outputs_energy_flows_y342; assert_in_delta(0.9253406156930564, worksheet.outputs_energy_flows_y342, 0.002); end
+  def test_outputs_energy_flows_z342; assert_in_epsilon(1.0409014026751473, worksheet.outputs_energy_flows_z342, 0.002); end
+  def test_outputs_energy_flows_aa342; assert_in_epsilon(1.1681588636274987, worksheet.outputs_energy_flows_aa342, 0.002); end
+  def test_outputs_energy_flows_ab342; assert_in_epsilon(1.3017235128153537, worksheet.outputs_energy_flows_ab342, 0.002); end
+  def test_outputs_energy_flows_ac342; assert_in_epsilon(1.45674807204665, worksheet.outputs_energy_flows_ac342, 0.002); end
+  def test_outputs_energy_flows_ad342; assert_in_epsilon(1.6193085190052283, worksheet.outputs_energy_flows_ad342, 0.002); end
+  def test_outputs_energy_flows_c344; assert_equal("FF.03", worksheet.outputs_energy_flows_c344); end
+  def test_outputs_energy_flows_d344; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d344); end
+  def test_outputs_energy_flows_e344; assert_equal("n/a", worksheet.outputs_energy_flows_e344); end
+  def test_outputs_energy_flows_f344; assert_equal("Cement", worksheet.outputs_energy_flows_f344); end
+  def test_outputs_energy_flows_i344; assert_equal("FF.03", worksheet.outputs_energy_flows_i344); end
+  def test_outputs_energy_flows_j344; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j344); end
+  def test_outputs_energy_flows_v344; assert_in_delta(0.8284396320493046, worksheet.outputs_energy_flows_v344, 0.002); end
+  def test_outputs_energy_flows_w344; assert_in_delta(0.8899744345154703, worksheet.outputs_energy_flows_w344, 0.002); end
+  def test_outputs_energy_flows_x344; assert_in_delta(0.9531645262831866, worksheet.outputs_energy_flows_x344, 0.002); end
+  def test_outputs_energy_flows_y344; assert_in_epsilon(1.0147863740516463, worksheet.outputs_energy_flows_y344, 0.002); end
+  def test_outputs_energy_flows_z344; assert_in_epsilon(1.0774103363673044, worksheet.outputs_energy_flows_z344, 0.002); end
+  def test_outputs_energy_flows_aa344; assert_in_epsilon(1.1402428891430754, worksheet.outputs_energy_flows_aa344, 0.002); end
+  def test_outputs_energy_flows_ab344; assert_in_epsilon(1.201960511779837, worksheet.outputs_energy_flows_ab344, 0.002); end
+  def test_outputs_energy_flows_ac344; assert_in_epsilon(1.265261460626088, worksheet.outputs_energy_flows_ac344, 0.002); end
+  def test_outputs_energy_flows_ad344; assert_in_epsilon(1.3271538358835708, worksheet.outputs_energy_flows_ad344, 0.002); end
+  def test_outputs_energy_flows_c346; assert_equal("FF.03", worksheet.outputs_energy_flows_c346); end
+  def test_outputs_energy_flows_d346; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d346); end
+  def test_outputs_energy_flows_e346; assert_equal("n/a", worksheet.outputs_energy_flows_e346); end
+  def test_outputs_energy_flows_f346; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f346); end
+  def test_outputs_energy_flows_i346; assert_equal("FF.03", worksheet.outputs_energy_flows_i346); end
+  def test_outputs_energy_flows_j346; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j346); end
+  def test_outputs_energy_flows_v346; assert_in_epsilon(1.0822193748413809, worksheet.outputs_energy_flows_v346, 0.002); end
+  def test_outputs_energy_flows_w346; assert_in_epsilon(1.1263842134283533, worksheet.outputs_energy_flows_w346, 0.002); end
+  def test_outputs_energy_flows_x346; assert_in_epsilon(1.1708954442146826, worksheet.outputs_energy_flows_x346, 0.002); end
+  def test_outputs_energy_flows_y346; assert_in_epsilon(1.2093041838796004, worksheet.outputs_energy_flows_y346, 0.002); end
+  def test_outputs_energy_flows_z346; assert_in_epsilon(1.2417040704087587, worksheet.outputs_energy_flows_z346, 0.002); end
+  def test_outputs_energy_flows_aa346; assert_in_epsilon(1.2684864846192008, worksheet.outputs_energy_flows_aa346, 0.002); end
+  def test_outputs_energy_flows_ab346; assert_in_epsilon(1.2896968609098671, worksheet.outputs_energy_flows_ab346, 0.002); end
+  def test_outputs_energy_flows_ac346; assert_in_epsilon(1.305121014838671, worksheet.outputs_energy_flows_ac346, 0.002); end
+  def test_outputs_energy_flows_ad346; assert_in_epsilon(1.3146444725020374, worksheet.outputs_energy_flows_ad346, 0.002); end
+  def test_outputs_energy_flows_c348; assert_equal("FF.03", worksheet.outputs_energy_flows_c348); end
+  def test_outputs_energy_flows_d348; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d348); end
+  def test_outputs_energy_flows_e348; assert_equal("n/a", worksheet.outputs_energy_flows_e348); end
+  def test_outputs_energy_flows_f348; assert_equal("Chemicals", worksheet.outputs_energy_flows_f348); end
+  def test_outputs_energy_flows_i348; assert_equal("FF.03", worksheet.outputs_energy_flows_i348); end
+  def test_outputs_energy_flows_j348; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j348); end
+  def test_outputs_energy_flows_v348; assert_in_epsilon(11.488845061925616, worksheet.outputs_energy_flows_v348, 0.002); end
+  def test_outputs_energy_flows_w348; assert_in_epsilon(11.616808817517285, worksheet.outputs_energy_flows_w348, 0.002); end
+  def test_outputs_energy_flows_x348; assert_in_epsilon(12.512670978422449, worksheet.outputs_energy_flows_x348, 0.002); end
+  def test_outputs_energy_flows_y348; assert_in_epsilon(13.409983195210518, worksheet.outputs_energy_flows_y348, 0.002); end
+  def test_outputs_energy_flows_z348; assert_in_epsilon(14.326167258199018, worksheet.outputs_energy_flows_z348, 0.002); end
+  def test_outputs_energy_flows_aa348; assert_in_epsilon(15.215646605006746, worksheet.outputs_energy_flows_aa348, 0.002); end
+  def test_outputs_energy_flows_ab348; assert_in_epsilon(16.10362511085644, worksheet.outputs_energy_flows_ab348, 0.002); end
+  def test_outputs_energy_flows_ac348; assert_in_epsilon(17.01167782108314, worksheet.outputs_energy_flows_ac348, 0.002); end
+  def test_outputs_energy_flows_ad348; assert_in_epsilon(17.86315964633551, worksheet.outputs_energy_flows_ad348, 0.002); end
+  def test_outputs_energy_flows_c350; assert_equal("FF.03", worksheet.outputs_energy_flows_c350); end
+  def test_outputs_energy_flows_d350; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d350); end
+  def test_outputs_energy_flows_e350; assert_equal("n/a", worksheet.outputs_energy_flows_e350); end
+  def test_outputs_energy_flows_f350; assert_equal("Other manufacturing", worksheet.outputs_energy_flows_f350); end
+  def test_outputs_energy_flows_i350; assert_equal("FF.03", worksheet.outputs_energy_flows_i350); end
+  def test_outputs_energy_flows_j350; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j350); end
+  def test_outputs_energy_flows_l350; assert_equal("Global Other industries technology", worksheet.outputs_energy_flows_l350); end
+  def test_outputs_energy_flows_v350; assert_in_epsilon(10.927323455067915, worksheet.outputs_energy_flows_v350, 0.002); end
+  def test_outputs_energy_flows_w350; assert_in_epsilon(12.084505051746616, worksheet.outputs_energy_flows_w350, 0.002); end
+  def test_outputs_energy_flows_x350; assert_in_epsilon(13.479668638686068, worksheet.outputs_energy_flows_x350, 0.002); end
+  def test_outputs_energy_flows_y350; assert_in_epsilon(14.862443911019772, worksheet.outputs_energy_flows_y350, 0.002); end
+  def test_outputs_energy_flows_z350; assert_in_epsilon(16.2195804074953, worksheet.outputs_energy_flows_z350, 0.002); end
+  def test_outputs_energy_flows_aa350; assert_in_epsilon(17.542472896765982, worksheet.outputs_energy_flows_aa350, 0.002); end
+  def test_outputs_energy_flows_ab350; assert_in_epsilon(18.818877037707754, worksheet.outputs_energy_flows_ab350, 0.002); end
+  def test_outputs_energy_flows_ac350; assert_in_epsilon(20.032885289579394, worksheet.outputs_energy_flows_ac350, 0.002); end
+  def test_outputs_energy_flows_ad350; assert_in_epsilon(21.16971438963038, worksheet.outputs_energy_flows_ad350, 0.002); end
+  def test_outputs_energy_flows_c352; assert_equal("FF.03", worksheet.outputs_energy_flows_c352); end
+  def test_outputs_energy_flows_d352; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d352); end
+  def test_outputs_energy_flows_e352; assert_equal("n/a", worksheet.outputs_energy_flows_e352); end
+  def test_outputs_energy_flows_f352; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f352); end
+  def test_outputs_energy_flows_i352; assert_equal("FF.03", worksheet.outputs_energy_flows_i352); end
+  def test_outputs_energy_flows_j352; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j352); end
+  def test_outputs_energy_flows_l352; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l352); end
+  def test_outputs_energy_flows_m352; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m352); end
+  def test_outputs_energy_flows_v352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v352||0), 0.002); end
+  def test_outputs_energy_flows_w352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w352||0), 0.002); end
+  def test_outputs_energy_flows_x352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x352||0), 0.002); end
+  def test_outputs_energy_flows_y352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y352||0), 0.002); end
+  def test_outputs_energy_flows_z352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z352||0), 0.002); end
+  def test_outputs_energy_flows_aa352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa352||0), 0.002); end
+  def test_outputs_energy_flows_ab352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab352||0), 0.002); end
+  def test_outputs_energy_flows_ac352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac352||0), 0.002); end
+  def test_outputs_energy_flows_ad352; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad352||0), 0.002); end
+  def test_outputs_energy_flows_c354; assert_equal("FF.03", worksheet.outputs_energy_flows_c354); end
+  def test_outputs_energy_flows_d354; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d354); end
+  def test_outputs_energy_flows_e354; assert_equal("n/a", worksheet.outputs_energy_flows_e354); end
+  def test_outputs_energy_flows_f354; assert_equal("International passenger", worksheet.outputs_energy_flows_f354); end
+  def test_outputs_energy_flows_i354; assert_equal("FF.03", worksheet.outputs_energy_flows_i354); end
+  def test_outputs_energy_flows_j354; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j354); end
+  def test_outputs_energy_flows_l354; assert_equal("International", worksheet.outputs_energy_flows_l354); end
+  def test_outputs_energy_flows_v354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v354||0), 0.002); end
+  def test_outputs_energy_flows_w354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w354||0), 0.002); end
+  def test_outputs_energy_flows_x354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x354||0), 0.002); end
+  def test_outputs_energy_flows_y354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y354||0), 0.002); end
+  def test_outputs_energy_flows_z354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z354||0), 0.002); end
+  def test_outputs_energy_flows_aa354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa354||0), 0.002); end
+  def test_outputs_energy_flows_ab354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab354||0), 0.002); end
+  def test_outputs_energy_flows_ac354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac354||0), 0.002); end
+  def test_outputs_energy_flows_ad354; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad354||0), 0.002); end
+  def test_outputs_energy_flows_c356; assert_equal("FF.03", worksheet.outputs_energy_flows_c356); end
+  def test_outputs_energy_flows_d356; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d356); end
+  def test_outputs_energy_flows_e356; assert_equal("n/a", worksheet.outputs_energy_flows_e356); end
+  def test_outputs_energy_flows_f356; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f356); end
+  def test_outputs_energy_flows_i356; assert_equal("FF.03", worksheet.outputs_energy_flows_i356); end
+  def test_outputs_energy_flows_j356; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j356); end
+  def test_outputs_energy_flows_l356; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l356); end
+  def test_outputs_energy_flows_v356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v356||0), 0.002); end
+  def test_outputs_energy_flows_w356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w356||0), 0.002); end
+  def test_outputs_energy_flows_x356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x356||0), 0.002); end
+  def test_outputs_energy_flows_y356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y356||0), 0.002); end
+  def test_outputs_energy_flows_z356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z356||0), 0.002); end
+  def test_outputs_energy_flows_aa356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa356||0), 0.002); end
+  def test_outputs_energy_flows_ab356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab356||0), 0.002); end
+  def test_outputs_energy_flows_ac356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac356||0), 0.002); end
+  def test_outputs_energy_flows_ad356; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad356||0), 0.002); end
+  def test_outputs_energy_flows_c358; assert_equal("FF.03", worksheet.outputs_energy_flows_c358); end
+  def test_outputs_energy_flows_d358; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d358); end
+  def test_outputs_energy_flows_e358; assert_equal("n/a", worksheet.outputs_energy_flows_e358); end
+  def test_outputs_energy_flows_f358; assert_equal("International freight", worksheet.outputs_energy_flows_f358); end
+  def test_outputs_energy_flows_i358; assert_equal("FF.03", worksheet.outputs_energy_flows_i358); end
+  def test_outputs_energy_flows_j358; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j358); end
+  def test_outputs_energy_flows_l358; assert_equal("International freight", worksheet.outputs_energy_flows_l358); end
+  def test_outputs_energy_flows_v358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v358||0), 0.002); end
+  def test_outputs_energy_flows_w358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w358||0), 0.002); end
+  def test_outputs_energy_flows_x358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x358||0), 0.002); end
+  def test_outputs_energy_flows_y358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y358||0), 0.002); end
+  def test_outputs_energy_flows_z358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z358||0), 0.002); end
+  def test_outputs_energy_flows_aa358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa358||0), 0.002); end
+  def test_outputs_energy_flows_ab358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab358||0), 0.002); end
+  def test_outputs_energy_flows_ac358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac358||0), 0.002); end
+  def test_outputs_energy_flows_ad358; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad358||0), 0.002); end
+  def test_outputs_energy_flows_c360; assert_equal("FF.03", worksheet.outputs_energy_flows_c360); end
+  def test_outputs_energy_flows_d360; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d360); end
+  def test_outputs_energy_flows_e360; assert_equal("n/a", worksheet.outputs_energy_flows_e360); end
+  def test_outputs_energy_flows_f360; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_f360); end
+  def test_outputs_energy_flows_i360; assert_equal("FF.03", worksheet.outputs_energy_flows_i360); end
+  def test_outputs_energy_flows_j360; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j360); end
+  def test_outputs_energy_flows_v360; assert_in_delta(8.663792701034158e-08, worksheet.outputs_energy_flows_v360, 0.002); end
+  def test_outputs_energy_flows_w360; assert_in_delta(8.606804825586925e-08, worksheet.outputs_energy_flows_w360, 0.002); end
+  def test_outputs_energy_flows_x360; assert_in_delta(7.388669141111375e-08, worksheet.outputs_energy_flows_x360, 0.002); end
+  def test_outputs_energy_flows_y360; assert_in_delta(6.443093736828417e-08, worksheet.outputs_energy_flows_y360, 0.002); end
+  def test_outputs_energy_flows_z360; assert_in_delta(4.46052608461569e-08, worksheet.outputs_energy_flows_z360, 0.002); end
+  def test_outputs_energy_flows_aa360; assert_in_delta(2.979136402281232e-08, worksheet.outputs_energy_flows_aa360, 0.002); end
+  def test_outputs_energy_flows_ab360; assert_in_delta(1.8840493613050346e-08, worksheet.outputs_energy_flows_ab360, 0.002); end
+  def test_outputs_energy_flows_ac360; assert_in_delta(8.769570770212583e-09, worksheet.outputs_energy_flows_ac360, 0.002); end
+  def test_outputs_energy_flows_ad360; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad360||0), 0.002); end
+  def test_outputs_energy_flows_c362; assert_equal("FF.03", worksheet.outputs_energy_flows_c362); end
+  def test_outputs_energy_flows_d362; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d362); end
+  def test_outputs_energy_flows_e362; assert_equal("G.01", worksheet.outputs_energy_flows_e362); end
+  def test_outputs_energy_flows_f362; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_f362); end
+  def test_outputs_energy_flows_g362; assert_equal("GGR.tech", worksheet.outputs_energy_flows_g362); end
+  def test_outputs_energy_flows_h362; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_h362); end
+  def test_outputs_energy_flows_i362; assert_equal("FF.03", worksheet.outputs_energy_flows_i362); end
+  def test_outputs_energy_flows_j362; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j362); end
+  def test_outputs_energy_flows_v362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v362||0), 0.002); end
+  def test_outputs_energy_flows_w362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w362||0), 0.002); end
+  def test_outputs_energy_flows_x362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x362||0), 0.002); end
+  def test_outputs_energy_flows_y362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y362||0), 0.002); end
+  def test_outputs_energy_flows_z362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z362||0), 0.002); end
+  def test_outputs_energy_flows_aa362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa362||0), 0.002); end
+  def test_outputs_energy_flows_ab362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab362||0), 0.002); end
+  def test_outputs_energy_flows_ac362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac362||0), 0.002); end
+  def test_outputs_energy_flows_ad362; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad362||0), 0.002); end
+  def test_outputs_energy_flows_c364; assert_equal("FF.03", worksheet.outputs_energy_flows_c364); end
+  def test_outputs_energy_flows_d364; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_d364); end
+  def test_outputs_energy_flows_e364; assert_equal("n/a", worksheet.outputs_energy_flows_e364); end
+  def test_outputs_energy_flows_f364; assert_equal("Agriculture including bioenergy production", worksheet.outputs_energy_flows_f364); end
+  def test_outputs_energy_flows_g364; assert_equal("n/a", worksheet.outputs_energy_flows_g364); end
+  def test_outputs_energy_flows_h364; assert_equal("Global Land / Food / Bioenergy / Sequestration", worksheet.outputs_energy_flows_h364); end
+  def test_outputs_energy_flows_i364; assert_equal("FF.03", worksheet.outputs_energy_flows_i364); end
+  def test_outputs_energy_flows_j364; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j364); end
+  def test_outputs_energy_flows_v364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v364||0), 0.002); end
+  def test_outputs_energy_flows_w364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w364||0), 0.002); end
+  def test_outputs_energy_flows_x364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x364||0), 0.002); end
+  def test_outputs_energy_flows_y364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y364||0), 0.002); end
+  def test_outputs_energy_flows_z364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z364||0), 0.002); end
+  def test_outputs_energy_flows_aa364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa364||0), 0.002); end
+  def test_outputs_energy_flows_ab364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab364||0), 0.002); end
+  def test_outputs_energy_flows_ac364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac364||0), 0.002); end
+  def test_outputs_energy_flows_ad364; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad364||0), 0.002); end
+  def test_outputs_energy_flows_c366; assert_equal("n/a", worksheet.outputs_energy_flows_c366); end
+  def test_outputs_energy_flows_d366; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_d366); end
+  def test_outputs_energy_flows_e366; assert_equal("L.01", worksheet.outputs_energy_flows_e366); end
+  def test_outputs_energy_flows_f366; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_f366); end
+  def test_outputs_energy_flows_v366; assert_in_epsilon(-3.9999999760605722, worksheet.outputs_energy_flows_v366, 0.002); end
+  def test_outputs_energy_flows_w366; assert_in_epsilon(-4.088955020087448, worksheet.outputs_energy_flows_w366, 0.002); end
+  def test_outputs_energy_flows_x366; assert_in_epsilon(-4.246972439373038, worksheet.outputs_energy_flows_x366, 0.002); end
+  def test_outputs_energy_flows_y366; assert_in_epsilon(-4.388818903381279, worksheet.outputs_energy_flows_y366, 0.002); end
+  def test_outputs_energy_flows_z366; assert_in_epsilon(-4.516559527271771, worksheet.outputs_energy_flows_z366, 0.002); end
+  def test_outputs_energy_flows_aa366; assert_in_epsilon(-4.718341292142512, worksheet.outputs_energy_flows_aa366, 0.002); end
+  def test_outputs_energy_flows_ab366; assert_in_epsilon(-4.8222162247886144, worksheet.outputs_energy_flows_ab366, 0.002); end
+  def test_outputs_energy_flows_ac366; assert_in_epsilon(-4.913068481974046, worksheet.outputs_energy_flows_ac366, 0.002); end
+  def test_outputs_energy_flows_ad366; assert_in_epsilon(-4.990372596096302, worksheet.outputs_energy_flows_ad366, 0.002); end
+  def test_outputs_energy_flows_c368; assert_equal("HY.01", worksheet.outputs_energy_flows_c368); end
+  def test_outputs_energy_flows_d368; assert_equal("Global H2", worksheet.outputs_energy_flows_d368); end
+  def test_outputs_energy_flows_e368; assert_equal("n/a", worksheet.outputs_energy_flows_e368); end
+  def test_outputs_energy_flows_f368; assert_equal("Domestic passenger", worksheet.outputs_energy_flows_f368); end
+  def test_outputs_energy_flows_i368; assert_equal("HY.01", worksheet.outputs_energy_flows_i368); end
+  def test_outputs_energy_flows_j368; assert_equal("Global H2", worksheet.outputs_energy_flows_j368); end
+  def test_outputs_energy_flows_l368; assert_equal("Urban passenger", worksheet.outputs_energy_flows_l368); end
+  def test_outputs_energy_flows_m368; assert_equal("Rural passenger", worksheet.outputs_energy_flows_m368); end
+  def test_outputs_energy_flows_v368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v368||0), 0.002); end
+  def test_outputs_energy_flows_w368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w368||0), 0.002); end
+  def test_outputs_energy_flows_x368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x368||0), 0.002); end
+  def test_outputs_energy_flows_y368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y368||0), 0.002); end
+  def test_outputs_energy_flows_z368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z368||0), 0.002); end
+  def test_outputs_energy_flows_aa368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa368||0), 0.002); end
+  def test_outputs_energy_flows_ab368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab368||0), 0.002); end
+  def test_outputs_energy_flows_ac368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac368||0), 0.002); end
+  def test_outputs_energy_flows_ad368; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad368||0), 0.002); end
+  def test_outputs_energy_flows_c370; assert_equal("HY.01", worksheet.outputs_energy_flows_c370); end
+  def test_outputs_energy_flows_d370; assert_equal("Global H2", worksheet.outputs_energy_flows_d370); end
+  def test_outputs_energy_flows_e370; assert_equal("n/a", worksheet.outputs_energy_flows_e370); end
+  def test_outputs_energy_flows_f370; assert_equal("International passenger", worksheet.outputs_energy_flows_f370); end
+  def test_outputs_energy_flows_i370; assert_equal("HY.01", worksheet.outputs_energy_flows_i370); end
+  def test_outputs_energy_flows_j370; assert_equal("Global H2", worksheet.outputs_energy_flows_j370); end
+  def test_outputs_energy_flows_l370; assert_equal("International", worksheet.outputs_energy_flows_l370); end
+  def test_outputs_energy_flows_v370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v370||0), 0.002); end
+  def test_outputs_energy_flows_w370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w370||0), 0.002); end
+  def test_outputs_energy_flows_x370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x370||0), 0.002); end
+  def test_outputs_energy_flows_y370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y370||0), 0.002); end
+  def test_outputs_energy_flows_z370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z370||0), 0.002); end
+  def test_outputs_energy_flows_aa370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa370||0), 0.002); end
+  def test_outputs_energy_flows_ab370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab370||0), 0.002); end
+  def test_outputs_energy_flows_ac370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac370||0), 0.002); end
+  def test_outputs_energy_flows_ad370; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad370||0), 0.002); end
+  def test_outputs_energy_flows_c372; assert_equal("HY.01", worksheet.outputs_energy_flows_c372); end
+  def test_outputs_energy_flows_d372; assert_equal("Global H2", worksheet.outputs_energy_flows_d372); end
+  def test_outputs_energy_flows_e372; assert_equal("n/a", worksheet.outputs_energy_flows_e372); end
+  def test_outputs_energy_flows_f372; assert_equal("Domestic freight", worksheet.outputs_energy_flows_f372); end
+  def test_outputs_energy_flows_i372; assert_equal("HY.01", worksheet.outputs_energy_flows_i372); end
+  def test_outputs_energy_flows_j372; assert_equal("Global H2", worksheet.outputs_energy_flows_j372); end
+  def test_outputs_energy_flows_l372; assert_equal("Domestic freight", worksheet.outputs_energy_flows_l372); end
+  def test_outputs_energy_flows_v372; assert_in_delta(6.839836342921704e-08, worksheet.outputs_energy_flows_v372, 0.002); end
+  def test_outputs_energy_flows_w372; assert_in_delta(6.794845914937047e-08, worksheet.outputs_energy_flows_w372, 0.002); end
+  def test_outputs_energy_flows_x372; assert_in_delta(6.523417096954911e-08, worksheet.outputs_energy_flows_x372, 0.002); end
+  def test_outputs_energy_flows_y372; assert_in_delta(6.041901098867518e-08, worksheet.outputs_energy_flows_y372, 0.002); end
+  def test_outputs_energy_flows_z372; assert_in_delta(5.337076533903203e-08, worksheet.outputs_energy_flows_z372, 0.002); end
+  def test_outputs_energy_flows_aa372; assert_in_delta(4.3951553657621294e-08, worksheet.outputs_energy_flows_aa372, 0.002); end
+  def test_outputs_energy_flows_ab372; assert_in_delta(3.201762551589326e-08, worksheet.outputs_energy_flows_ab372, 0.002); end
+  def test_outputs_energy_flows_ac372; assert_in_delta(1.7419150251185364e-08, worksheet.outputs_energy_flows_ac372, 0.002); end
+  def test_outputs_energy_flows_ad372; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad372||0), 0.002); end
+  def test_outputs_energy_flows_c374; assert_equal("HY.01", worksheet.outputs_energy_flows_c374); end
+  def test_outputs_energy_flows_d374; assert_equal("Global H2", worksheet.outputs_energy_flows_d374); end
+  def test_outputs_energy_flows_e374; assert_equal("n/a", worksheet.outputs_energy_flows_e374); end
+  def test_outputs_energy_flows_f374; assert_equal("International freight", worksheet.outputs_energy_flows_f374); end
+  def test_outputs_energy_flows_i374; assert_equal("HY.01", worksheet.outputs_energy_flows_i374); end
+  def test_outputs_energy_flows_j374; assert_equal("Global H2", worksheet.outputs_energy_flows_j374); end
+  def test_outputs_energy_flows_l374; assert_equal("International freight", worksheet.outputs_energy_flows_l374); end
+  def test_outputs_energy_flows_v374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v374||0), 0.002); end
+  def test_outputs_energy_flows_w374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w374||0), 0.002); end
+  def test_outputs_energy_flows_x374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x374||0), 0.002); end
+  def test_outputs_energy_flows_y374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y374||0), 0.002); end
+  def test_outputs_energy_flows_z374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z374||0), 0.002); end
+  def test_outputs_energy_flows_aa374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa374||0), 0.002); end
+  def test_outputs_energy_flows_ab374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab374||0), 0.002); end
+  def test_outputs_energy_flows_ac374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac374||0), 0.002); end
+  def test_outputs_energy_flows_ad374; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad374||0), 0.002); end
+  def test_outputs_energy_flows_c376; assert_equal("H.01", worksheet.outputs_energy_flows_c376); end
+  def test_outputs_energy_flows_d376; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d376); end
+  def test_outputs_energy_flows_e376; assert_equal("n/a", worksheet.outputs_energy_flows_e376); end
+  def test_outputs_energy_flows_f376; assert_equal("Domestic heating, cooling and hot water", worksheet.outputs_energy_flows_f376); end
+  def test_outputs_energy_flows_i376; assert_equal("H.01", worksheet.outputs_energy_flows_i376); end
+  def test_outputs_energy_flows_j376; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j376); end
+  def test_outputs_energy_flows_k376; assert_equal("Global buildings", worksheet.outputs_energy_flows_k376); end
+  def test_outputs_energy_flows_v376; assert_in_epsilon(4.077381210291773, worksheet.outputs_energy_flows_v376, 0.002); end
+  def test_outputs_energy_flows_w376; assert_in_epsilon(4.736692064813091, worksheet.outputs_energy_flows_w376, 0.002); end
+  def test_outputs_energy_flows_x376; assert_in_epsilon(5.55667580020587, worksheet.outputs_energy_flows_x376, 0.002); end
+  def test_outputs_energy_flows_y376; assert_in_epsilon(6.310574252224414, worksheet.outputs_energy_flows_y376, 0.002); end
+  def test_outputs_energy_flows_z376; assert_in_epsilon(7.194047922912921, worksheet.outputs_energy_flows_z376, 0.002); end
+  def test_outputs_energy_flows_aa376; assert_in_epsilon(8.067028457756336, worksheet.outputs_energy_flows_aa376, 0.002); end
+  def test_outputs_energy_flows_ab376; assert_in_epsilon(8.800737912192004, worksheet.outputs_energy_flows_ab376, 0.002); end
+  def test_outputs_energy_flows_ac376; assert_in_epsilon(9.643771666628634, worksheet.outputs_energy_flows_ac376, 0.002); end
+  def test_outputs_energy_flows_ad376; assert_in_epsilon(10.190954480292927, worksheet.outputs_energy_flows_ad376, 0.002); end
+  def test_outputs_energy_flows_c378; assert_equal("H.01", worksheet.outputs_energy_flows_c378); end
+  def test_outputs_energy_flows_d378; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d378); end
+  def test_outputs_energy_flows_e378; assert_equal("n/a", worksheet.outputs_energy_flows_e378); end
+  def test_outputs_energy_flows_f378; assert_equal("Domestic cooking", worksheet.outputs_energy_flows_f378); end
+  def test_outputs_energy_flows_i378; assert_equal("H.01", worksheet.outputs_energy_flows_i378); end
+  def test_outputs_energy_flows_j378; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j378); end
+  def test_outputs_energy_flows_k378; assert_equal("Urban cooking", worksheet.outputs_energy_flows_k378); end
+  def test_outputs_energy_flows_l378; assert_equal("Rural cooking", worksheet.outputs_energy_flows_l378); end
+  def test_outputs_energy_flows_v378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v378||0), 0.002); end
+  def test_outputs_energy_flows_w378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w378||0), 0.002); end
+  def test_outputs_energy_flows_x378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x378||0), 0.002); end
+  def test_outputs_energy_flows_y378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y378||0), 0.002); end
+  def test_outputs_energy_flows_z378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z378||0), 0.002); end
+  def test_outputs_energy_flows_aa378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa378||0), 0.002); end
+  def test_outputs_energy_flows_ab378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab378||0), 0.002); end
+  def test_outputs_energy_flows_ac378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac378||0), 0.002); end
+  def test_outputs_energy_flows_ad378; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad378||0), 0.002); end
+  def test_outputs_energy_flows_c380; assert_equal("H.01", worksheet.outputs_energy_flows_c380); end
+  def test_outputs_energy_flows_d380; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d380); end
+  def test_outputs_energy_flows_e380; assert_equal("n/a", worksheet.outputs_energy_flows_e380); end
+  def test_outputs_energy_flows_f380; assert_equal("Non domestic", worksheet.outputs_energy_flows_f380); end
+  def test_outputs_energy_flows_i380; assert_equal("H.01", worksheet.outputs_energy_flows_i380); end
+  def test_outputs_energy_flows_j380; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j380); end
+  def test_outputs_energy_flows_k380; assert_equal("Non-residential", worksheet.outputs_energy_flows_k380); end
+  def test_outputs_energy_flows_v380; assert_in_delta(0.24832549720152441, worksheet.outputs_energy_flows_v380, 0.002); end
+  def test_outputs_energy_flows_w380; assert_in_delta(0.26108088555671477, worksheet.outputs_energy_flows_w380, 0.002); end
+  def test_outputs_energy_flows_x380; assert_in_delta(0.2732721664194328, worksheet.outputs_energy_flows_x380, 0.002); end
+  def test_outputs_energy_flows_y380; assert_in_delta(0.2824651838565835, worksheet.outputs_energy_flows_y380, 0.002); end
+  def test_outputs_energy_flows_z380; assert_in_delta(0.2885649921387108, worksheet.outputs_energy_flows_z380, 0.002); end
+  def test_outputs_energy_flows_aa380; assert_in_delta(0.2915922175730178, worksheet.outputs_energy_flows_aa380, 0.002); end
+  def test_outputs_energy_flows_ab380; assert_in_delta(0.29152731316507413, worksheet.outputs_energy_flows_ab380, 0.002); end
+  def test_outputs_energy_flows_ac380; assert_in_delta(0.2883305886615848, worksheet.outputs_energy_flows_ac380, 0.002); end
+  def test_outputs_energy_flows_ad380; assert_in_delta(0.28202466333176723, worksheet.outputs_energy_flows_ad380, 0.002); end
+  def test_outputs_energy_flows_c382; assert_equal("H.01", worksheet.outputs_energy_flows_c382); end
+  def test_outputs_energy_flows_d382; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d382); end
+  def test_outputs_energy_flows_e382; assert_equal("n/a", worksheet.outputs_energy_flows_e382); end
+  def test_outputs_energy_flows_f382; assert_equal("Steel", worksheet.outputs_energy_flows_f382); end
+  def test_outputs_energy_flows_i382; assert_equal("H.01", worksheet.outputs_energy_flows_i382); end
+  def test_outputs_energy_flows_j382; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j382); end
+  def test_outputs_energy_flows_v382; assert_in_delta(0.803408652648, worksheet.outputs_energy_flows_v382, 0.002); end
+  def test_outputs_energy_flows_w382; assert_in_delta(0.832571556446033, worksheet.outputs_energy_flows_w382, 0.002); end
+  def test_outputs_energy_flows_x382; assert_in_delta(0.8931253044158052, worksheet.outputs_energy_flows_x382, 0.002); end
+  def test_outputs_energy_flows_y382; assert_in_delta(0.9587755715828108, worksheet.outputs_energy_flows_y382, 0.002); end
+  def test_outputs_energy_flows_z382; assert_in_epsilon(1.033176396220919, worksheet.outputs_energy_flows_z382, 0.002); end
+  def test_outputs_energy_flows_aa382; assert_in_epsilon(1.111788004147938, worksheet.outputs_energy_flows_aa382, 0.002); end
+  def test_outputs_energy_flows_ab382; assert_in_epsilon(1.195235409194555, worksheet.outputs_energy_flows_ab382, 0.002); end
+  def test_outputs_energy_flows_ac382; assert_in_epsilon(1.3053522885190698, worksheet.outputs_energy_flows_ac382, 0.002); end
+  def test_outputs_energy_flows_ad382; assert_in_epsilon(1.3860460160703256, worksheet.outputs_energy_flows_ad382, 0.002); end
+  def test_outputs_energy_flows_c384; assert_equal("H.01", worksheet.outputs_energy_flows_c384); end
+  def test_outputs_energy_flows_d384; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d384); end
+  def test_outputs_energy_flows_e384; assert_equal("n/a", worksheet.outputs_energy_flows_e384); end
+  def test_outputs_energy_flows_f384; assert_equal("Aluminium", worksheet.outputs_energy_flows_f384); end
+  def test_outputs_energy_flows_i384; assert_equal("H.01", worksheet.outputs_energy_flows_i384); end
+  def test_outputs_energy_flows_j384; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j384); end
+  def test_outputs_energy_flows_v384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v384||0), 0.002); end
+  def test_outputs_energy_flows_w384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w384||0), 0.002); end
+  def test_outputs_energy_flows_x384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x384||0), 0.002); end
+  def test_outputs_energy_flows_y384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y384||0), 0.002); end
+  def test_outputs_energy_flows_z384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z384||0), 0.002); end
+  def test_outputs_energy_flows_aa384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa384||0), 0.002); end
+  def test_outputs_energy_flows_ab384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab384||0), 0.002); end
+  def test_outputs_energy_flows_ac384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac384||0), 0.002); end
+  def test_outputs_energy_flows_ad384; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad384||0), 0.002); end
+  def test_outputs_energy_flows_c386; assert_equal("H.01", worksheet.outputs_energy_flows_c386); end
+  def test_outputs_energy_flows_d386; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d386); end
+  def test_outputs_energy_flows_e386; assert_equal("n/a", worksheet.outputs_energy_flows_e386); end
+  def test_outputs_energy_flows_f386; assert_equal("Cement", worksheet.outputs_energy_flows_f386); end
+  def test_outputs_energy_flows_i386; assert_equal("H.01", worksheet.outputs_energy_flows_i386); end
+  def test_outputs_energy_flows_j386; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j386); end
+  def test_outputs_energy_flows_v386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v386||0), 0.002); end
+  def test_outputs_energy_flows_w386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w386||0), 0.002); end
+  def test_outputs_energy_flows_x386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x386||0), 0.002); end
+  def test_outputs_energy_flows_y386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y386||0), 0.002); end
+  def test_outputs_energy_flows_z386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z386||0), 0.002); end
+  def test_outputs_energy_flows_aa386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa386||0), 0.002); end
+  def test_outputs_energy_flows_ab386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab386||0), 0.002); end
+  def test_outputs_energy_flows_ac386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac386||0), 0.002); end
+  def test_outputs_energy_flows_ad386; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad386||0), 0.002); end
+  def test_outputs_energy_flows_c388; assert_equal("H.01", worksheet.outputs_energy_flows_c388); end
+  def test_outputs_energy_flows_d388; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d388); end
+  def test_outputs_energy_flows_e388; assert_equal("n/a", worksheet.outputs_energy_flows_e388); end
+  def test_outputs_energy_flows_f388; assert_equal("Pulp and paper", worksheet.outputs_energy_flows_f388); end
+  def test_outputs_energy_flows_i388; assert_equal("H.01", worksheet.outputs_energy_flows_i388); end
+  def test_outputs_energy_flows_j388; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j388); end
+  def test_outputs_energy_flows_v388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v388||0), 0.002); end
+  def test_outputs_energy_flows_w388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w388||0), 0.002); end
+  def test_outputs_energy_flows_x388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x388||0), 0.002); end
+  def test_outputs_energy_flows_y388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y388||0), 0.002); end
+  def test_outputs_energy_flows_z388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z388||0), 0.002); end
+  def test_outputs_energy_flows_aa388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa388||0), 0.002); end
+  def test_outputs_energy_flows_ab388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab388||0), 0.002); end
+  def test_outputs_energy_flows_ac388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac388||0), 0.002); end
+  def test_outputs_energy_flows_ad388; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad388||0), 0.002); end
+  def test_outputs_energy_flows_c390; assert_equal("H.01", worksheet.outputs_energy_flows_c390); end
+  def test_outputs_energy_flows_d390; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_d390); end
+  def test_outputs_energy_flows_e390; assert_equal("n/a", worksheet.outputs_energy_flows_e390); end
+  def test_outputs_energy_flows_f390; assert_equal("Chemicals", worksheet.outputs_energy_flows_f390); end
+  def test_outputs_energy_flows_i390; assert_equal("H.01", worksheet.outputs_energy_flows_i390); end
+  def test_outputs_energy_flows_j390; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j390); end
+  def test_outputs_energy_flows_v390; assert_in_epsilon(1.970138431785092, worksheet.outputs_energy_flows_v390, 0.002); end
+  def test_outputs_energy_flows_w390; assert_in_epsilon(1.9255603944690247, worksheet.outputs_energy_flows_w390, 0.002); end
+  def test_outputs_energy_flows_x390; assert_in_epsilon(2.0711682936474487, worksheet.outputs_energy_flows_x390, 0.002); end
+  def test_outputs_energy_flows_y390; assert_in_epsilon(2.219256458772442, worksheet.outputs_energy_flows_y390, 0.002); end
+  def test_outputs_energy_flows_z390; assert_in_epsilon(2.3746767757239713, worksheet.outputs_energy_flows_z390, 0.002); end
+  def test_outputs_energy_flows_aa390; assert_in_epsilon(2.529558218182627, worksheet.outputs_energy_flows_aa390, 0.002); end
+  def test_outputs_energy_flows_ab390; assert_in_epsilon(2.6816016236658387, worksheet.outputs_energy_flows_ab390, 0.002); end
+  def test_outputs_energy_flows_ac390; assert_in_epsilon(2.842530154763273, worksheet.outputs_energy_flows_ac390, 0.002); end
+  def test_outputs_energy_flows_ad390; assert_in_epsilon(2.991498084922873, worksheet.outputs_energy_flows_ad390, 0.002); end
+  def test_outputs_energy_flows_c398; assert_equal("Vector code energy is taken from", worksheet.outputs_energy_flows_c398); end
+  def test_outputs_energy_flows_d398; assert_equal("TAKEN FROM", worksheet.outputs_energy_flows_d398); end
+  def test_outputs_energy_flows_e398; assert_equal("Vector code energy is taken to", worksheet.outputs_energy_flows_e398); end
+  def test_outputs_energy_flows_f398; assert_equal("TAKEN TO", worksheet.outputs_energy_flows_f398); end
+  def test_outputs_energy_flows_g398; assert_equal("Technology code", worksheet.outputs_energy_flows_g398); end
+  def test_outputs_energy_flows_h398; assert_equal("Technology description", worksheet.outputs_energy_flows_h398); end
+  def test_outputs_energy_flows_i398; assert_equal("Energy code", worksheet.outputs_energy_flows_i398); end
+  def test_outputs_energy_flows_j398; assert_equal("Description", worksheet.outputs_energy_flows_j398); end
+  def test_outputs_energy_flows_k398; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_k398); end
+  def test_outputs_energy_flows_l398; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_l398); end
+  def test_outputs_energy_flows_m398; assert_equal("Other name of other lookup", worksheet.outputs_energy_flows_m398); end
+  def test_outputs_energy_flows_v398; assert_in_epsilon(2011.0, worksheet.outputs_energy_flows_v398, 0.002); end
+  def test_outputs_energy_flows_w398; assert_in_epsilon(2015.0, worksheet.outputs_energy_flows_w398, 0.002); end
+  def test_outputs_energy_flows_x398; assert_in_epsilon(2020.0, worksheet.outputs_energy_flows_x398, 0.002); end
+  def test_outputs_energy_flows_y398; assert_in_epsilon(2025.0, worksheet.outputs_energy_flows_y398, 0.002); end
+  def test_outputs_energy_flows_z398; assert_in_epsilon(2030.0, worksheet.outputs_energy_flows_z398, 0.002); end
+  def test_outputs_energy_flows_aa398; assert_in_epsilon(2035.0, worksheet.outputs_energy_flows_aa398, 0.002); end
+  def test_outputs_energy_flows_ab398; assert_in_epsilon(2040.0, worksheet.outputs_energy_flows_ab398, 0.002); end
+  def test_outputs_energy_flows_ac398; assert_in_epsilon(2045.0, worksheet.outputs_energy_flows_ac398, 0.002); end
+  def test_outputs_energy_flows_ad398; assert_in_epsilon(2050.0, worksheet.outputs_energy_flows_ad398, 0.002); end
+  def test_outputs_energy_flows_d400; assert_equal("Coal reserves", worksheet.outputs_energy_flows_d400); end
+  def test_outputs_energy_flows_f400; assert_equal("Solid", worksheet.outputs_energy_flows_f400); end
+  def test_outputs_energy_flows_i400; assert_equal("G.Q.01", worksheet.outputs_energy_flows_i400); end
+  def test_outputs_energy_flows_j400; assert_equal("Global Coal reserves ", worksheet.outputs_energy_flows_j400); end
+  def test_outputs_energy_flows_v400; assert_in_epsilon(120.08870818706782, worksheet.outputs_energy_flows_v400, 0.002); end
+  def test_outputs_energy_flows_w400; assert_in_epsilon(123.60828452562527, worksheet.outputs_energy_flows_w400, 0.002); end
+  def test_outputs_energy_flows_x400; assert_in_epsilon(139.18682130642011, worksheet.outputs_energy_flows_x400, 0.002); end
+  def test_outputs_energy_flows_y400; assert_in_epsilon(154.52804197035613, worksheet.outputs_energy_flows_y400, 0.002); end
+  def test_outputs_energy_flows_z400; assert_in_epsilon(167.8432833674411, worksheet.outputs_energy_flows_z400, 0.002); end
+  def test_outputs_energy_flows_aa400; assert_in_epsilon(178.81695862174476, worksheet.outputs_energy_flows_aa400, 0.002); end
+  def test_outputs_energy_flows_ab400; assert_in_epsilon(185.28589194511204, worksheet.outputs_energy_flows_ab400, 0.002); end
+  def test_outputs_energy_flows_ac400; assert_in_epsilon(185.33701587600103, worksheet.outputs_energy_flows_ac400, 0.002); end
+  def test_outputs_energy_flows_ad400; assert_in_epsilon(186.47956055470976, worksheet.outputs_energy_flows_ad400, 0.002); end
+  def test_outputs_energy_flows_d402; assert_equal("Biomass and waste", worksheet.outputs_energy_flows_d402); end
+  def test_outputs_energy_flows_f402; assert_equal("Solid", worksheet.outputs_energy_flows_f402); end
+  def test_outputs_energy_flows_i402; assert_equal("G.C.01", worksheet.outputs_energy_flows_i402); end
+  def test_outputs_energy_flows_j402; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j402); end
+  def test_outputs_energy_flows_k402; assert_equal("G.BM.13", worksheet.outputs_energy_flows_k402); end
+  def test_outputs_energy_flows_l402; assert_equal("Global Traditional biomass", worksheet.outputs_energy_flows_l402); end
+  def test_outputs_energy_flows_n402; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_n402); end
+  def test_outputs_energy_flows_o402; assert_equal("Forest", worksheet.outputs_energy_flows_o402); end
+  def test_outputs_energy_flows_p402; assert_equal("Global Native forest", worksheet.outputs_energy_flows_p402); end
+  def test_outputs_energy_flows_q402; assert_equal("Arable.bio", worksheet.outputs_energy_flows_q402); end
+  def test_outputs_energy_flows_r402; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_r402); end
+  def test_outputs_energy_flows_s402; assert_equal("industrial.municipal.non.renewable.waste", worksheet.outputs_energy_flows_s402); end
+  def test_outputs_energy_flows_t402; assert_equal("Global ", worksheet.outputs_energy_flows_t402); end
+  def test_outputs_energy_flows_v402; assert_in_epsilon(51.107742862870744, worksheet.outputs_energy_flows_v402, 0.002); end
+  def test_outputs_energy_flows_w402; assert_in_epsilon(51.73584669218706, worksheet.outputs_energy_flows_w402, 0.002); end
+  def test_outputs_energy_flows_x402; assert_in_epsilon(51.6889814200066, worksheet.outputs_energy_flows_x402, 0.002); end
+  def test_outputs_energy_flows_y402; assert_in_epsilon(51.60466632265771, worksheet.outputs_energy_flows_y402, 0.002); end
+  def test_outputs_energy_flows_z402; assert_in_epsilon(51.19414938487555, worksheet.outputs_energy_flows_z402, 0.002); end
+  def test_outputs_energy_flows_aa402; assert_in_epsilon(50.906395665163984, worksheet.outputs_energy_flows_aa402, 0.002); end
+  def test_outputs_energy_flows_ab402; assert_in_epsilon(50.95184501634886, worksheet.outputs_energy_flows_ab402, 0.002); end
+  def test_outputs_energy_flows_ac402; assert_in_epsilon(50.67479921240937, worksheet.outputs_energy_flows_ac402, 0.002); end
+  def test_outputs_energy_flows_ad402; assert_in_epsilon(51.68811120901062, worksheet.outputs_energy_flows_ad402, 0.002); end
+  def test_outputs_energy_flows_d404; assert_equal("Oil reserves", worksheet.outputs_energy_flows_d404); end
+  def test_outputs_energy_flows_f404; assert_equal("Liquid", worksheet.outputs_energy_flows_f404); end
+  def test_outputs_energy_flows_i404; assert_equal("G.Q.02", worksheet.outputs_energy_flows_i404); end
+  def test_outputs_energy_flows_j404; assert_equal("Global Oil reserves ", worksheet.outputs_energy_flows_j404); end
+  def test_outputs_energy_flows_v404; assert_in_epsilon(153.0104275275249, worksheet.outputs_energy_flows_v404, 0.002); end
+  def test_outputs_energy_flows_w404; assert_in_epsilon(169.5292958892217, worksheet.outputs_energy_flows_w404, 0.002); end
+  def test_outputs_energy_flows_x404; assert_in_epsilon(184.04656818198535, worksheet.outputs_energy_flows_x404, 0.002); end
+  def test_outputs_energy_flows_y404; assert_in_epsilon(198.4163005118578, worksheet.outputs_energy_flows_y404, 0.002); end
+  def test_outputs_energy_flows_z404; assert_in_epsilon(214.7558924247071, worksheet.outputs_energy_flows_z404, 0.002); end
+  def test_outputs_energy_flows_aa404; assert_in_epsilon(231.53464337866276, worksheet.outputs_energy_flows_aa404, 0.002); end
+  def test_outputs_energy_flows_ab404; assert_in_epsilon(248.94115473324527, worksheet.outputs_energy_flows_ab404, 0.002); end
+  def test_outputs_energy_flows_ac404; assert_in_epsilon(268.6616646596314, worksheet.outputs_energy_flows_ac404, 0.002); end
+  def test_outputs_energy_flows_ad404; assert_in_epsilon(285.15579277349735, worksheet.outputs_energy_flows_ad404, 0.002); end
+  def test_outputs_energy_flows_d406; assert_equal("Biomass and waste", worksheet.outputs_energy_flows_d406); end
+  def test_outputs_energy_flows_f406; assert_equal("Liquid", worksheet.outputs_energy_flows_f406); end
+  def test_outputs_energy_flows_i406; assert_equal("G.C.02", worksheet.outputs_energy_flows_i406); end
+  def test_outputs_energy_flows_j406; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j406); end
+  def test_outputs_energy_flows_n406; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_n406); end
+  def test_outputs_energy_flows_o406; assert_equal("Forest", worksheet.outputs_energy_flows_o406); end
+  def test_outputs_energy_flows_p406; assert_equal("Global Native forest", worksheet.outputs_energy_flows_p406); end
+  def test_outputs_energy_flows_q406; assert_equal("Arable.bio", worksheet.outputs_energy_flows_q406); end
+  def test_outputs_energy_flows_r406; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_r406); end
+  def test_outputs_energy_flows_v406; assert_in_delta(0.6921751371292655, worksheet.outputs_energy_flows_v406, 0.002); end
+  def test_outputs_energy_flows_w406; assert_in_delta(0.8025243264426388, worksheet.outputs_energy_flows_w406, 0.002); end
+  def test_outputs_energy_flows_x406; assert_in_delta(0.9455726992913466, worksheet.outputs_energy_flows_x406, 0.002); end
+  def test_outputs_energy_flows_y406; assert_in_epsilon(1.1043080116191915, worksheet.outputs_energy_flows_y406, 0.002); end
+  def test_outputs_energy_flows_z406; assert_in_epsilon(1.2827432860959211, worksheet.outputs_energy_flows_z406, 0.002); end
+  def test_outputs_energy_flows_aa406; assert_in_epsilon(1.4861503840622479, worksheet.outputs_energy_flows_aa406, 0.002); end
+  def test_outputs_energy_flows_ab406; assert_in_epsilon(1.7214170076876676, worksheet.outputs_energy_flows_ab406, 0.002); end
+  def test_outputs_energy_flows_ac406; assert_in_epsilon(1.9974757724013559, worksheet.outputs_energy_flows_ac406, 0.002); end
+  def test_outputs_energy_flows_ad406; assert_in_epsilon(2.3257997846469514, worksheet.outputs_energy_flows_ad406, 0.002); end
+  def test_outputs_energy_flows_d408; assert_equal("Gas reserves", worksheet.outputs_energy_flows_d408); end
+  def test_outputs_energy_flows_f408; assert_equal("Gas", worksheet.outputs_energy_flows_f408); end
+  def test_outputs_energy_flows_i408; assert_equal("G.Q.03", worksheet.outputs_energy_flows_i408); end
+  def test_outputs_energy_flows_j408; assert_equal("Global Gas reserves ", worksheet.outputs_energy_flows_j408); end
+  def test_outputs_energy_flows_v408; assert_in_epsilon(85.74387898879357, worksheet.outputs_energy_flows_v408, 0.002); end
+  def test_outputs_energy_flows_w408; assert_in_epsilon(91.1744694082175, worksheet.outputs_energy_flows_w408, 0.002); end
+  def test_outputs_energy_flows_x408; assert_in_epsilon(97.30138157525211, worksheet.outputs_energy_flows_x408, 0.002); end
+  def test_outputs_energy_flows_y408; assert_in_epsilon(104.68437219959175, worksheet.outputs_energy_flows_y408, 0.002); end
+  def test_outputs_energy_flows_z408; assert_in_epsilon(113.72311023619108, worksheet.outputs_energy_flows_z408, 0.002); end
+  def test_outputs_energy_flows_aa408; assert_in_epsilon(122.9203561506092, worksheet.outputs_energy_flows_aa408, 0.002); end
+  def test_outputs_energy_flows_ab408; assert_in_epsilon(130.582334004664, worksheet.outputs_energy_flows_ab408, 0.002); end
+  def test_outputs_energy_flows_ac408; assert_in_epsilon(141.2737264644609, worksheet.outputs_energy_flows_ac408, 0.002); end
+  def test_outputs_energy_flows_ad408; assert_in_epsilon(150.1611065283338, worksheet.outputs_energy_flows_ad408, 0.002); end
+  def test_outputs_energy_flows_d410; assert_equal("Biomass and waste", worksheet.outputs_energy_flows_d410); end
+  def test_outputs_energy_flows_f410; assert_equal("Gas", worksheet.outputs_energy_flows_f410); end
+  def test_outputs_energy_flows_i410; assert_equal("G.C.03", worksheet.outputs_energy_flows_i410); end
+  def test_outputs_energy_flows_j410; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j410); end
+  def test_outputs_energy_flows_n410; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_n410); end
+  def test_outputs_energy_flows_o410; assert_equal("Forest", worksheet.outputs_energy_flows_o410); end
+  def test_outputs_energy_flows_p410; assert_equal("Global Native forest", worksheet.outputs_energy_flows_p410); end
+  def test_outputs_energy_flows_q410; assert_equal("Arable.bio", worksheet.outputs_energy_flows_q410); end
+  def test_outputs_energy_flows_r410; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_r410); end
+  def test_outputs_energy_flows_v410; assert_in_epsilon(3.711553030654428, worksheet.outputs_energy_flows_v410, 0.002); end
+  def test_outputs_energy_flows_w410; assert_in_epsilon(3.9473900731062677, worksheet.outputs_energy_flows_w410, 0.002); end
+  def test_outputs_energy_flows_x410; assert_in_epsilon(4.259157569033665, worksheet.outputs_energy_flows_x410, 0.002); end
+  def test_outputs_energy_flows_y410; assert_in_epsilon(4.565949739070457, worksheet.outputs_energy_flows_y410, 0.002); end
+  def test_outputs_energy_flows_z410; assert_in_epsilon(4.971264438016344, worksheet.outputs_energy_flows_z410, 0.002); end
+  def test_outputs_energy_flows_aa410; assert_in_epsilon(5.275551166167685, worksheet.outputs_energy_flows_aa410, 0.002); end
+  def test_outputs_energy_flows_ab410; assert_in_epsilon(5.574462401152331, worksheet.outputs_energy_flows_ab410, 0.002); end
+  def test_outputs_energy_flows_ac410; assert_in_epsilon(5.865699927891578, worksheet.outputs_energy_flows_ac410, 0.002); end
+  def test_outputs_energy_flows_ad410; assert_in_epsilon(6.147135738350207, worksheet.outputs_energy_flows_ad410, 0.002); end
+  def test_outputs_energy_flows_d412; assert_equal("Biomass and waste", worksheet.outputs_energy_flows_d412); end
+  def test_outputs_energy_flows_f412; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f412); end
+  def test_outputs_energy_flows_i412; assert_equal("G.L.01", worksheet.outputs_energy_flows_i412); end
+  def test_outputs_energy_flows_j412; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j412); end
+  def test_outputs_energy_flows_n412; assert_equal("Biomatter conversion", worksheet.outputs_energy_flows_n412); end
+  def test_outputs_energy_flows_o412; assert_equal("Forest", worksheet.outputs_energy_flows_o412); end
+  def test_outputs_energy_flows_p412; assert_equal("Global Native forest", worksheet.outputs_energy_flows_p412); end
+  def test_outputs_energy_flows_q412; assert_equal("Arable.bio", worksheet.outputs_energy_flows_q412); end
+  def test_outputs_energy_flows_r412; assert_equal("Global Arable land for bioenergy", worksheet.outputs_energy_flows_r412); end
+  def test_outputs_energy_flows_v412; assert_in_epsilon(3.0299799465860757, worksheet.outputs_energy_flows_v412, 0.002); end
+  def test_outputs_energy_flows_w412; assert_in_epsilon(3.179116910967051, worksheet.outputs_energy_flows_w412, 0.002); end
+  def test_outputs_energy_flows_x412; assert_in_epsilon(3.326177508164988, worksheet.outputs_energy_flows_x412, 0.002); end
+  def test_outputs_energy_flows_y412; assert_in_epsilon(3.4273194669499363, worksheet.outputs_energy_flows_y412, 0.002); end
+  def test_outputs_energy_flows_z412; assert_in_epsilon(3.3815650110153, worksheet.outputs_energy_flows_z412, 0.002); end
+  def test_outputs_energy_flows_aa412; assert_in_epsilon(3.390761768977642, worksheet.outputs_energy_flows_aa412, 0.002); end
+  def test_outputs_energy_flows_ab412; assert_in_epsilon(3.359868187867117, worksheet.outputs_energy_flows_ab412, 0.002); end
+  def test_outputs_energy_flows_ac412; assert_in_epsilon(3.2902373505104414, worksheet.outputs_energy_flows_ac412, 0.002); end
+  def test_outputs_energy_flows_ad412; assert_in_epsilon(3.1831512105939614, worksheet.outputs_energy_flows_ad412, 0.002); end
+  def test_outputs_energy_flows_d414; assert_equal("Coal reserves", worksheet.outputs_energy_flows_d414); end
+  def test_outputs_energy_flows_f414; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f414); end
+  def test_outputs_energy_flows_i414; assert_equal("G.L.02", worksheet.outputs_energy_flows_i414); end
+  def test_outputs_energy_flows_j414; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_j414); end
+  def test_outputs_energy_flows_o414; assert_equal("Coal.extract", worksheet.outputs_energy_flows_o414); end
+  def test_outputs_energy_flows_p414; assert_equal("Global Coal Extraction", worksheet.outputs_energy_flows_p414); end
+  def test_outputs_energy_flows_q414; assert_equal("Coal.wash", worksheet.outputs_energy_flows_q414); end
+  def test_outputs_energy_flows_r414; assert_equal("Global Coal washeries", worksheet.outputs_energy_flows_r414); end
+  def test_outputs_energy_flows_s414; assert_equal("coal.network", worksheet.outputs_energy_flows_s414); end
+  def test_outputs_energy_flows_t414; assert_equal("Global Coal distribution network", worksheet.outputs_energy_flows_t414); end
+  def test_outputs_energy_flows_v414; assert_in_epsilon(38.25798770353469, worksheet.outputs_energy_flows_v414, 0.002); end
+  def test_outputs_energy_flows_w414; assert_in_epsilon(37.56709539725975, worksheet.outputs_energy_flows_w414, 0.002); end
+  def test_outputs_energy_flows_x414; assert_in_epsilon(44.24694749844318, worksheet.outputs_energy_flows_x414, 0.002); end
+  def test_outputs_energy_flows_y414; assert_in_epsilon(50.66334693133943, worksheet.outputs_energy_flows_y414, 0.002); end
+  def test_outputs_energy_flows_z414; assert_in_epsilon(44.43854054324876, worksheet.outputs_energy_flows_z414, 0.002); end
+  def test_outputs_energy_flows_aa414; assert_in_epsilon(49.08556705987895, worksheet.outputs_energy_flows_aa414, 0.002); end
+  def test_outputs_energy_flows_ab414; assert_in_epsilon(53.48807687584949, worksheet.outputs_energy_flows_ab414, 0.002); end
+  def test_outputs_energy_flows_ac414; assert_in_epsilon(55.377139026557685, worksheet.outputs_energy_flows_ac414, 0.002); end
+  def test_outputs_energy_flows_ad414; assert_in_epsilon(56.77720161279396, worksheet.outputs_energy_flows_ad414, 0.002); end
+  def test_outputs_energy_flows_d416; assert_equal("Oil reserves", worksheet.outputs_energy_flows_d416); end
+  def test_outputs_energy_flows_f416; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f416); end
+  def test_outputs_energy_flows_i416; assert_equal("G.L.02", worksheet.outputs_energy_flows_i416); end
+  def test_outputs_energy_flows_j416; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_j416); end
+  def test_outputs_energy_flows_o416; assert_equal("Oil.extract", worksheet.outputs_energy_flows_o416); end
+  def test_outputs_energy_flows_p416; assert_equal("Global Oil Extraction", worksheet.outputs_energy_flows_p416); end
+  def test_outputs_energy_flows_q416; assert_equal("Oil.refine", worksheet.outputs_energy_flows_q416); end
+  def test_outputs_energy_flows_r416; assert_equal("Global Oil refineries", worksheet.outputs_energy_flows_r416); end
+  def test_outputs_energy_flows_s416; assert_equal("oil.network", worksheet.outputs_energy_flows_s416); end
+  def test_outputs_energy_flows_t416; assert_equal("Global Oil distribution network", worksheet.outputs_energy_flows_t416); end
+  def test_outputs_energy_flows_v416; assert_in_epsilon(24.638992039478712, worksheet.outputs_energy_flows_v416, 0.002); end
+  def test_outputs_energy_flows_w416; assert_in_epsilon(26.666558966899146, worksheet.outputs_energy_flows_w416, 0.002); end
+  def test_outputs_energy_flows_x416; assert_in_epsilon(28.95009170737887, worksheet.outputs_energy_flows_x416, 0.002); end
+  def test_outputs_energy_flows_y416; assert_in_epsilon(31.210416759182866, worksheet.outputs_energy_flows_y416, 0.002); end
+  def test_outputs_energy_flows_z416; assert_in_epsilon(33.780596083963296, worksheet.outputs_energy_flows_z416, 0.002); end
+  def test_outputs_energy_flows_aa416; assert_in_epsilon(29.91460738511743, worksheet.outputs_energy_flows_aa416, 0.002); end
+  def test_outputs_energy_flows_ab416; assert_in_epsilon(32.163553570960254, worksheet.outputs_energy_flows_ab416, 0.002); end
+  def test_outputs_energy_flows_ac416; assert_in_epsilon(34.71147168495653, worksheet.outputs_energy_flows_ac416, 0.002); end
+  def test_outputs_energy_flows_ad416; assert_in_epsilon(36.84253664994824, worksheet.outputs_energy_flows_ad416, 0.002); end
+  def test_outputs_energy_flows_d418; assert_equal("Gas reserves", worksheet.outputs_energy_flows_d418); end
+  def test_outputs_energy_flows_f418; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f418); end
+  def test_outputs_energy_flows_i418; assert_equal("G.L.02", worksheet.outputs_energy_flows_i418); end
+  def test_outputs_energy_flows_j418; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_j418); end
+  def test_outputs_energy_flows_o418; assert_equal("Naturalgas.extract", worksheet.outputs_energy_flows_o418); end
+  def test_outputs_energy_flows_p418; assert_equal("Global Natural Gas Extraction", worksheet.outputs_energy_flows_p418); end
+  def test_outputs_energy_flows_q418; assert_equal("Natural.gas.process", worksheet.outputs_energy_flows_q418); end
+  def test_outputs_energy_flows_r418; assert_equal("Global Natural gas processing plants", worksheet.outputs_energy_flows_r418); end
+  def test_outputs_energy_flows_s418; assert_equal("gas.nework", worksheet.outputs_energy_flows_s418); end
+  def test_outputs_energy_flows_t418; assert_equal("Global Gas distribution network", worksheet.outputs_energy_flows_t418); end
+  def test_outputs_energy_flows_v418; assert_in_epsilon(42.78239265201319, worksheet.outputs_energy_flows_v418, 0.002); end
+  def test_outputs_energy_flows_w418; assert_in_epsilon(45.49201641053736, worksheet.outputs_energy_flows_w418, 0.002); end
+  def test_outputs_energy_flows_x418; assert_in_epsilon(48.54907383744397, worksheet.outputs_energy_flows_x418, 0.002); end
+  def test_outputs_energy_flows_y418; assert_in_epsilon(52.232858704208766, worksheet.outputs_energy_flows_y418, 0.002); end
+  def test_outputs_energy_flows_z418; assert_in_epsilon(42.25875751600949, worksheet.outputs_energy_flows_z418, 0.002); end
+  def test_outputs_energy_flows_aa418; assert_in_epsilon(45.67639342224954, worksheet.outputs_energy_flows_aa418, 0.002); end
+  def test_outputs_energy_flows_ab418; assert_in_epsilon(48.52353384564339, worksheet.outputs_energy_flows_ab418, 0.002); end
+  def test_outputs_energy_flows_ac418; assert_in_epsilon(52.49638475104601, worksheet.outputs_energy_flows_ac418, 0.002); end
+  def test_outputs_energy_flows_ad418; assert_in_epsilon(55.79887655145315, worksheet.outputs_energy_flows_ad418, 0.002); end
+  def test_outputs_energy_flows_d420; assert_equal("Solid", worksheet.outputs_energy_flows_d420); end
+  def test_outputs_energy_flows_f420; assert_equal("Power plants", worksheet.outputs_energy_flows_f420); end
+  def test_outputs_energy_flows_i420; assert_equal("G.C.01", worksheet.outputs_energy_flows_i420); end
+  def test_outputs_energy_flows_j420; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j420); end
+  def test_outputs_energy_flows_n420; assert_equal("Global Electricity Generation", worksheet.outputs_energy_flows_n420); end
+  def test_outputs_energy_flows_v420; assert_in_epsilon(86.94146718841361, worksheet.outputs_energy_flows_v420, 0.002); end
+  def test_outputs_energy_flows_w420; assert_in_epsilon(87.48399041048222, worksheet.outputs_energy_flows_w420, 0.002); end
+  def test_outputs_energy_flows_x420; assert_in_epsilon(98.49694684060279, worksheet.outputs_energy_flows_x420, 0.002); end
+  def test_outputs_energy_flows_y420; assert_in_epsilon(109.26811266218962, worksheet.outputs_energy_flows_y420, 0.002); end
+  def test_outputs_energy_flows_z420; assert_in_epsilon(118.21801346454676, worksheet.outputs_energy_flows_z420, 0.002); end
+  def test_outputs_energy_flows_aa420; assert_in_epsilon(124.87672342113856, worksheet.outputs_energy_flows_aa420, 0.002); end
+  def test_outputs_energy_flows_ab420; assert_in_epsilon(127.26114478351867, worksheet.outputs_energy_flows_ab420, 0.002); end
+  def test_outputs_energy_flows_ac420; assert_in_epsilon(123.06311651388268, worksheet.outputs_energy_flows_ac420, 0.002); end
+  def test_outputs_energy_flows_ad420; assert_in_epsilon(120.7122656041492, worksheet.outputs_energy_flows_ad420, 0.002); end
+  def test_outputs_energy_flows_d422; assert_equal("Liquid", worksheet.outputs_energy_flows_d422); end
+  def test_outputs_energy_flows_f422; assert_equal("Power plants", worksheet.outputs_energy_flows_f422); end
+  def test_outputs_energy_flows_i422; assert_equal("G.C.02", worksheet.outputs_energy_flows_i422); end
+  def test_outputs_energy_flows_j422; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j422); end
+  def test_outputs_energy_flows_n422; assert_equal("Global Electricity Generation", worksheet.outputs_energy_flows_n422); end
+  def test_outputs_energy_flows_v422; assert_in_epsilon(13.366790608402482, worksheet.outputs_energy_flows_v422, 0.002); end
+  def test_outputs_energy_flows_w422; assert_in_epsilon(21.183974722149724, worksheet.outputs_energy_flows_w422, 0.002); end
+  def test_outputs_energy_flows_x422; assert_in_epsilon(24.439565117480907, worksheet.outputs_energy_flows_x422, 0.002); end
+  def test_outputs_energy_flows_y422; assert_in_epsilon(27.993091565164942, worksheet.outputs_energy_flows_y422, 0.002); end
+  def test_outputs_energy_flows_z422; assert_in_epsilon(33.20102825737788, worksheet.outputs_energy_flows_z422, 0.002); end
+  def test_outputs_energy_flows_aa422; assert_in_epsilon(38.893455559908006, worksheet.outputs_energy_flows_aa422, 0.002); end
+  def test_outputs_energy_flows_ab422; assert_in_epsilon(45.51246083488472, worksheet.outputs_energy_flows_ab422, 0.002); end
+  def test_outputs_energy_flows_ac422; assert_in_epsilon(53.899326107720576, worksheet.outputs_energy_flows_ac422, 0.002); end
+  def test_outputs_energy_flows_ad422; assert_in_epsilon(59.82319129543151, worksheet.outputs_energy_flows_ad422, 0.002); end
+  def test_outputs_energy_flows_d424; assert_equal("Gas", worksheet.outputs_energy_flows_d424); end
+  def test_outputs_energy_flows_f424; assert_equal("Power plants", worksheet.outputs_energy_flows_f424); end
+  def test_outputs_energy_flows_i424; assert_equal("G.C.03", worksheet.outputs_energy_flows_i424); end
+  def test_outputs_energy_flows_j424; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j424); end
+  def test_outputs_energy_flows_n424; assert_equal("Global Electricity Generation", worksheet.outputs_energy_flows_n424); end
+  def test_outputs_energy_flows_v424; assert_in_epsilon(35.74892547965594, worksheet.outputs_energy_flows_v424, 0.002); end
+  def test_outputs_energy_flows_w424; assert_in_epsilon(37.606499006064425, worksheet.outputs_energy_flows_w424, 0.002); end
+  def test_outputs_energy_flows_x424; assert_in_epsilon(38.812965580488836, worksheet.outputs_energy_flows_x424, 0.002); end
+  def test_outputs_energy_flows_y424; assert_in_epsilon(41.676177229280896, worksheet.outputs_energy_flows_y424, 0.002); end
+  def test_outputs_energy_flows_z424; assert_in_epsilon(45.9776308200029, worksheet.outputs_energy_flows_z424, 0.002); end
+  def test_outputs_energy_flows_aa424; assert_in_epsilon(50.53957159868566, worksheet.outputs_energy_flows_aa424, 0.002); end
+  def test_outputs_energy_flows_ab424; assert_in_epsilon(54.05592547101497, worksheet.outputs_energy_flows_ab424, 0.002); end
+  def test_outputs_energy_flows_ac424; assert_in_epsilon(60.25835660258358, worksheet.outputs_energy_flows_ac424, 0.002); end
+  def test_outputs_energy_flows_ad424; assert_in_epsilon(65.62948510782317, worksheet.outputs_energy_flows_ad424, 0.002); end
+  def test_outputs_energy_flows_d426; assert_equal("Nuclear", worksheet.outputs_energy_flows_d426); end
+  def test_outputs_energy_flows_f426; assert_equal("Power plants", worksheet.outputs_energy_flows_f426); end
+  def test_outputs_energy_flows_i426; assert_equal("G.N.01", worksheet.outputs_energy_flows_i426); end
+  def test_outputs_energy_flows_j426; assert_equal("Global Nuclear fission", worksheet.outputs_energy_flows_j426); end
+  def test_outputs_energy_flows_n426; assert_equal("Global Electricity Generation", worksheet.outputs_energy_flows_n426); end
+  def test_outputs_energy_flows_v426; assert_in_epsilon(29.05342456550469, worksheet.outputs_energy_flows_v426, 0.002); end
+  def test_outputs_energy_flows_w426; assert_in_epsilon(30.810010146552408, worksheet.outputs_energy_flows_w426, 0.002); end
+  def test_outputs_energy_flows_x426; assert_in_epsilon(31.225696864304222, worksheet.outputs_energy_flows_x426, 0.002); end
+  def test_outputs_energy_flows_y426; assert_in_epsilon(32.18595686107117, worksheet.outputs_energy_flows_y426, 0.002); end
+  def test_outputs_energy_flows_z426; assert_in_epsilon(32.43266849176103, worksheet.outputs_energy_flows_z426, 0.002); end
+  def test_outputs_energy_flows_aa426; assert_in_epsilon(33.479333152855254, worksheet.outputs_energy_flows_aa426, 0.002); end
+  def test_outputs_energy_flows_ab426; assert_in_epsilon(33.89666579819007, worksheet.outputs_energy_flows_ab426, 0.002); end
+  def test_outputs_energy_flows_ac426; assert_in_epsilon(34.72611971550832, worksheet.outputs_energy_flows_ac426, 0.002); end
+  def test_outputs_energy_flows_ad426; assert_in_epsilon(35.59554910606688, worksheet.outputs_energy_flows_ad426, 0.002); end
+  def test_outputs_energy_flows_d428; assert_equal("Power plants", worksheet.outputs_energy_flows_d428); end
+  def test_outputs_energy_flows_f428; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f428); end
+  def test_outputs_energy_flows_i428; assert_equal("G.E.02", worksheet.outputs_energy_flows_i428); end
+  def test_outputs_energy_flows_j428; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j428); end
+  def test_outputs_energy_flows_p428; assert_equal("Unabated power", worksheet.outputs_energy_flows_p428); end
+  def test_outputs_energy_flows_r428; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_r428); end
+  def test_outputs_energy_flows_t428; assert_equal("Nuclear", worksheet.outputs_energy_flows_t428); end
+  def test_outputs_energy_flows_v428; assert_in_epsilon(58.64944014387076, worksheet.outputs_energy_flows_v428, 0.002); end
+  def test_outputs_energy_flows_w428; assert_in_epsilon(63.778848803611815, worksheet.outputs_energy_flows_w428, 0.002); end
+  def test_outputs_energy_flows_x428; assert_in_epsilon(70.81870490295437, worksheet.outputs_energy_flows_x428, 0.002); end
+  def test_outputs_energy_flows_y428; assert_in_epsilon(78.98150206709649, worksheet.outputs_energy_flows_y428, 0.002); end
+  def test_outputs_energy_flows_z428; assert_in_epsilon(87.4202340527809, worksheet.outputs_energy_flows_z428, 0.002); end
+  def test_outputs_energy_flows_aa428; assert_in_epsilon(95.9625593420769, worksheet.outputs_energy_flows_aa428, 0.002); end
+  def test_outputs_energy_flows_ab428; assert_in_epsilon(102.77303590799978, worksheet.outputs_energy_flows_ab428, 0.002); end
+  def test_outputs_energy_flows_ac428; assert_in_epsilon(108.76626739520572, worksheet.outputs_energy_flows_ac428, 0.002); end
+  def test_outputs_energy_flows_ad428; assert_in_epsilon(114.19751612817821, worksheet.outputs_energy_flows_ad428, 0.002); end
+  def test_outputs_energy_flows_d430; assert_equal("Power plants", worksheet.outputs_energy_flows_d430); end
+  def test_outputs_energy_flows_f430; assert_equal("Heat network", worksheet.outputs_energy_flows_f430); end
+  def test_outputs_energy_flows_i430; assert_equal("G.H.01", worksheet.outputs_energy_flows_i430); end
+  def test_outputs_energy_flows_j430; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j430); end
+  def test_outputs_energy_flows_p430; assert_equal("Unabated power", worksheet.outputs_energy_flows_p430); end
+  def test_outputs_energy_flows_r430; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_r430); end
+  def test_outputs_energy_flows_t430; assert_equal("Nuclear", worksheet.outputs_energy_flows_t430); end
+  def test_outputs_energy_flows_v430; assert_in_epsilon(9.635809154838396, worksheet.outputs_energy_flows_v430, 0.002); end
+  def test_outputs_energy_flows_w430; assert_in_epsilon(10.545354721530195, worksheet.outputs_energy_flows_w430, 0.002); end
+  def test_outputs_energy_flows_x430; assert_in_epsilon(11.884088679352642, worksheet.outputs_energy_flows_x430, 0.002); end
+  def test_outputs_energy_flows_y430; assert_in_epsilon(13.154345007096746, worksheet.outputs_energy_flows_y430, 0.002); end
+  def test_outputs_energy_flows_z430; assert_in_epsilon(14.557343049174946, worksheet.outputs_energy_flows_z430, 0.002); end
+  def test_outputs_energy_flows_aa430; assert_in_epsilon(15.938892910355834, worksheet.outputs_energy_flows_aa430, 0.002); end
+  def test_outputs_energy_flows_ab430; assert_in_epsilon(17.166026876989314, worksheet.outputs_energy_flows_ab430, 0.002); end
+  def test_outputs_energy_flows_ac430; assert_in_epsilon(18.51761706815896, worksheet.outputs_energy_flows_ac430, 0.002); end
+  def test_outputs_energy_flows_ad430; assert_in_epsilon(19.5086660428596, worksheet.outputs_energy_flows_ad430, 0.002); end
+  def test_outputs_energy_flows_d432; assert_equal("Solar", worksheet.outputs_energy_flows_d432); end
+  def test_outputs_energy_flows_f432; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f432); end
+  def test_outputs_energy_flows_i432; assert_equal("G.E.02", worksheet.outputs_energy_flows_i432); end
+  def test_outputs_energy_flows_j432; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j432); end
+  def test_outputs_energy_flows_p432; assert_equal("Solar", worksheet.outputs_energy_flows_p432); end
+  def test_outputs_energy_flows_v432; assert_in_delta(0.19187020800000004, worksheet.outputs_energy_flows_v432, 0.002); end
+  def test_outputs_energy_flows_w432; assert_in_delta(0.513757728, worksheet.outputs_energy_flows_w432, 0.002); end
+  def test_outputs_energy_flows_x432; assert_in_epsilon(1.5387485759999997, worksheet.outputs_energy_flows_x432, 0.002); end
+  def test_outputs_energy_flows_y432; assert_in_epsilon(1.6599297599999998, worksheet.outputs_energy_flows_y432, 0.002); end
+  def test_outputs_energy_flows_z432; assert_in_epsilon(1.84296384, worksheet.outputs_energy_flows_z432, 0.002); end
+  def test_outputs_energy_flows_aa432; assert_in_epsilon(2.12698224, worksheet.outputs_energy_flows_aa432, 0.002); end
+  def test_outputs_energy_flows_ab432; assert_in_epsilon(2.187572832, worksheet.outputs_energy_flows_ab432, 0.002); end
+  def test_outputs_energy_flows_ac432; assert_in_epsilon(2.6988059519999994, worksheet.outputs_energy_flows_ac432, 0.002); end
+  def test_outputs_energy_flows_ad432; assert_in_epsilon(3.516778943999999, worksheet.outputs_energy_flows_ad432, 0.002); end
+  def test_outputs_energy_flows_d434; assert_equal("Wind", worksheet.outputs_energy_flows_d434); end
+  def test_outputs_energy_flows_f434; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f434); end
+  def test_outputs_energy_flows_i434; assert_equal("G.E.02", worksheet.outputs_energy_flows_i434); end
+  def test_outputs_energy_flows_j434; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j434); end
+  def test_outputs_energy_flows_p434; assert_equal("Wind", worksheet.outputs_energy_flows_p434); end
+  def test_outputs_energy_flows_v434; assert_in_epsilon(1.5996452767199998, worksheet.outputs_energy_flows_v434, 0.002); end
+  def test_outputs_energy_flows_w434; assert_in_epsilon(2.9582094239999996, worksheet.outputs_energy_flows_w434, 0.002); end
+  def test_outputs_energy_flows_x434; assert_in_epsilon(3.5750973887999997, worksheet.outputs_energy_flows_x434, 0.002); end
+  def test_outputs_energy_flows_y434; assert_in_epsilon(3.7459502352, worksheet.outputs_energy_flows_y434, 0.002); end
+  def test_outputs_energy_flows_z434; assert_in_epsilon(4.1983599888, worksheet.outputs_energy_flows_z434, 0.002); end
+  def test_outputs_energy_flows_aa434; assert_in_epsilon(4.604506300800001, worksheet.outputs_energy_flows_aa434, 0.002); end
+  def test_outputs_energy_flows_ab434; assert_in_epsilon(5.912884396800001, worksheet.outputs_energy_flows_ab434, 0.002); end
+  def test_outputs_energy_flows_ac434; assert_in_epsilon(8.808167966400001, worksheet.outputs_energy_flows_ac434, 0.002); end
+  def test_outputs_energy_flows_ad434; assert_in_epsilon(10.849881571200003, worksheet.outputs_energy_flows_ad434, 0.002); end
+  def test_outputs_energy_flows_d436; assert_equal("Marine", worksheet.outputs_energy_flows_d436); end
+  def test_outputs_energy_flows_f436; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f436); end
+  def test_outputs_energy_flows_i436; assert_equal("G.E.02", worksheet.outputs_energy_flows_i436); end
+  def test_outputs_energy_flows_j436; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j436); end
+  def test_outputs_energy_flows_p436; assert_equal("Marine", worksheet.outputs_energy_flows_p436); end
+  def test_outputs_energy_flows_v436; assert_in_delta(0.0041577138, worksheet.outputs_energy_flows_v436, 0.002); end
+  def test_outputs_energy_flows_w436; assert_in_delta(0.011297620799999998, worksheet.outputs_energy_flows_w436, 0.002); end
+  def test_outputs_energy_flows_x436; assert_in_delta(0.0154001088, worksheet.outputs_energy_flows_x436, 0.002); end
+  def test_outputs_energy_flows_y436; assert_in_delta(0.0406461888, worksheet.outputs_energy_flows_y436, 0.002); end
+  def test_outputs_energy_flows_z436; assert_in_delta(0.09625067999999998, worksheet.outputs_energy_flows_z436, 0.002); end
+  def test_outputs_energy_flows_aa436; assert_in_delta(0.15936587999999993, worksheet.outputs_energy_flows_aa436, 0.002); end
+  def test_outputs_energy_flows_ab436; assert_in_delta(0.23762872799999996, worksheet.outputs_energy_flows_ab436, 0.002); end
+  def test_outputs_energy_flows_ac436; assert_in_delta(0.3212563679999999, worksheet.outputs_energy_flows_ac436, 0.002); end
+  def test_outputs_energy_flows_ad436; assert_in_delta(0.3906830879999999, worksheet.outputs_energy_flows_ad436, 0.002); end
+  def test_outputs_energy_flows_d438; assert_equal("Geothermal", worksheet.outputs_energy_flows_d438); end
+  def test_outputs_energy_flows_f438; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f438); end
+  def test_outputs_energy_flows_i438; assert_equal("G.E.02", worksheet.outputs_energy_flows_i438); end
+  def test_outputs_energy_flows_j438; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j438); end
+  def test_outputs_energy_flows_p438; assert_equal("Geothermal", worksheet.outputs_energy_flows_p438); end
+  def test_outputs_energy_flows_v438; assert_in_delta(0.2885626944, worksheet.outputs_energy_flows_v438, 0.002); end
+  def test_outputs_energy_flows_w438; assert_in_delta(0.36354355200000005, worksheet.outputs_energy_flows_w438, 0.002); end
+  def test_outputs_energy_flows_x438; assert_in_delta(0.44938022399999994, worksheet.outputs_energy_flows_x438, 0.002); end
+  def test_outputs_energy_flows_y438; assert_in_delta(0.509970816, worksheet.outputs_energy_flows_y438, 0.002); end
+  def test_outputs_energy_flows_z438; assert_in_delta(0.5453153279999999, worksheet.outputs_energy_flows_z438, 0.002); end
+  def test_outputs_energy_flows_aa438; assert_in_delta(0.8432190719999999, worksheet.outputs_energy_flows_aa438, 0.002); end
+  def test_outputs_energy_flows_ab438; assert_in_epsilon(1.0502369279999997, worksheet.outputs_energy_flows_ab438, 0.002); end
+  def test_outputs_energy_flows_ac438; assert_in_epsilon(1.383485184, worksheet.outputs_energy_flows_ac438, 0.002); end
+  def test_outputs_energy_flows_ad438; assert_in_epsilon(1.7369303039999997, worksheet.outputs_energy_flows_ad438, 0.002); end
+  def test_outputs_energy_flows_d440; assert_equal("Hydro", worksheet.outputs_energy_flows_d440); end
+  def test_outputs_energy_flows_f440; assert_equal("Electricity grid", worksheet.outputs_energy_flows_f440); end
+  def test_outputs_energy_flows_i440; assert_equal("G.E.02", worksheet.outputs_energy_flows_i440); end
+  def test_outputs_energy_flows_j440; assert_equal("Global Electricity (supplied to grid)", worksheet.outputs_energy_flows_j440); end
+  def test_outputs_energy_flows_p440; assert_equal("Hydro", worksheet.outputs_energy_flows_p440); end
+  def test_outputs_energy_flows_v440; assert_in_epsilon(13.46878368, worksheet.outputs_energy_flows_v440, 0.002); end
+  def test_outputs_energy_flows_w440; assert_in_epsilon(13.9769872704, worksheet.outputs_energy_flows_w440, 0.002); end
+  def test_outputs_energy_flows_x440; assert_in_epsilon(15.035050483199997, worksheet.outputs_energy_flows_x440, 0.002); end
+  def test_outputs_energy_flows_y440; assert_in_epsilon(16.17642576, worksheet.outputs_energy_flows_y440, 0.002); end
+  def test_outputs_energy_flows_z440; assert_in_epsilon(17.4080557728, worksheet.outputs_energy_flows_z440, 0.002); end
+  def test_outputs_energy_flows_aa440; assert_in_epsilon(18.7216093152, worksheet.outputs_energy_flows_aa440, 0.002); end
+  def test_outputs_energy_flows_ab440; assert_in_epsilon(20.121251990399998, worksheet.outputs_energy_flows_ab440, 0.002); end
+  def test_outputs_energy_flows_ac440; assert_in_epsilon(21.5333914752, worksheet.outputs_energy_flows_ac440, 0.002); end
+  def test_outputs_energy_flows_ad440; assert_in_epsilon(23.045505436800003, worksheet.outputs_energy_flows_ad440, 0.002); end
+  def test_outputs_energy_flows_d442; assert_equal("Solar", worksheet.outputs_energy_flows_d442); end
+  def test_outputs_energy_flows_f442; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f442); end
+  def test_outputs_energy_flows_i442; assert_equal("G.L.01", worksheet.outputs_energy_flows_i442); end
+  def test_outputs_energy_flows_j442; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j442); end
+  def test_outputs_energy_flows_p442; assert_equal("Solar", worksheet.outputs_energy_flows_p442); end
+  def test_outputs_energy_flows_v442; assert_in_delta(0.040954752, worksheet.outputs_energy_flows_v442, 0.002); end
+  def test_outputs_energy_flows_w442; assert_in_delta(0.26542214246730117, worksheet.outputs_energy_flows_w442, 0.002); end
+  def test_outputs_energy_flows_x442; assert_in_epsilon(1.6375383400125538, worksheet.outputs_energy_flows_x442, 0.002); end
+  def test_outputs_energy_flows_y442; assert_in_epsilon(1.9355457997544665, worksheet.outputs_energy_flows_y442, 0.002); end
+  def test_outputs_energy_flows_z442; assert_in_epsilon(2.4130989906537725, worksheet.outputs_energy_flows_z442, 0.002); end
+  def test_outputs_energy_flows_aa442; assert_in_epsilon(2.7563705591445915, worksheet.outputs_energy_flows_aa442, 0.002); end
+  def test_outputs_energy_flows_ab442; assert_in_epsilon(2.676151755713701, worksheet.outputs_energy_flows_ab442, 0.002); end
+  def test_outputs_energy_flows_ac442; assert_in_epsilon(3.1157967661676977, worksheet.outputs_energy_flows_ac442, 0.002); end
+  def test_outputs_energy_flows_ad442; assert_in_epsilon(3.860680886409402, worksheet.outputs_energy_flows_ad442, 0.002); end
+  def test_outputs_energy_flows_d444; assert_equal("Power plants", worksheet.outputs_energy_flows_d444); end
+  def test_outputs_energy_flows_f444; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f444); end
+  def test_outputs_energy_flows_i444; assert_equal("G.L.01", worksheet.outputs_energy_flows_i444); end
+  def test_outputs_energy_flows_j444; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j444); end
+  def test_outputs_energy_flows_k444; assert_equal("G.L.02", worksheet.outputs_energy_flows_k444); end
+  def test_outputs_energy_flows_l444; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_l444); end
+  def test_outputs_energy_flows_p444; assert_equal("Unabated power", worksheet.outputs_energy_flows_p444); end
+  def test_outputs_energy_flows_r444; assert_equal("Carbon Capture and Storage", worksheet.outputs_energy_flows_r444); end
+  def test_outputs_energy_flows_t444; assert_equal("Nuclear", worksheet.outputs_energy_flows_t444); end
+  def test_outputs_energy_flows_v444; assert_in_epsilon(94.30343261708111, worksheet.outputs_energy_flows_v444, 0.002); end
+  def test_outputs_energy_flows_w444; assert_in_epsilon(100.01213441324113, worksheet.outputs_energy_flows_w444, 0.002); end
+  def test_outputs_energy_flows_x444; assert_in_epsilon(107.21060897945354, worksheet.outputs_energy_flows_x444, 0.002); end
+  def test_outputs_energy_flows_y444; assert_in_epsilon(115.56607920844436, worksheet.outputs_energy_flows_y444, 0.002); end
+  def test_outputs_energy_flows_z444; assert_in_epsilon(124.0298756078408, worksheet.outputs_energy_flows_z444, 0.002); end
+  def test_outputs_energy_flows_aa444; assert_in_epsilon(131.67631146693626, worksheet.outputs_energy_flows_aa444, 0.002); end
+  def test_outputs_energy_flows_ab444; assert_in_epsilon(136.252926141146, worksheet.outputs_energy_flows_ab444, 0.002); end
+  def test_outputs_energy_flows_ac444; assert_in_epsilon(139.82882410810478, worksheet.outputs_energy_flows_ac444, 0.002); end
+  def test_outputs_energy_flows_ad444; assert_in_epsilon(142.9025960891962, worksheet.outputs_energy_flows_ad444, 0.002); end
+  def test_outputs_energy_flows_d446; assert_equal("Geothermal", worksheet.outputs_energy_flows_d446); end
+  def test_outputs_energy_flows_f446; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f446); end
+  def test_outputs_energy_flows_i446; assert_equal("G.L.01", worksheet.outputs_energy_flows_i446); end
+  def test_outputs_energy_flows_j446; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j446); end
+  def test_outputs_energy_flows_p446; assert_equal("Geothermal", worksheet.outputs_energy_flows_p446); end
+  def test_outputs_energy_flows_v446; assert_in_epsilon(2.5970642496, worksheet.outputs_energy_flows_v446, 0.002); end
+  def test_outputs_energy_flows_w446; assert_in_epsilon(3.2640786279201723, worksheet.outputs_energy_flows_w446, 0.002); end
+  def test_outputs_energy_flows_x446; assert_in_epsilon(4.022749387880884, worksheet.outputs_energy_flows_x446, 0.002); end
+  def test_outputs_energy_flows_y446; assert_in_epsilon(4.551581030083372, worksheet.outputs_energy_flows_y446, 0.002); end
+  def test_outputs_energy_flows_z446; assert_in_epsilon(4.852612993023374, worksheet.outputs_energy_flows_z446, 0.002); end
+  def test_outputs_energy_flows_aa446; assert_in_epsilon(7.481392058012148, worksheet.outputs_energy_flows_aa446, 0.002); end
+  def test_outputs_energy_flows_ab446; assert_in_epsilon(9.290655341938646, worksheet.outputs_energy_flows_ab446, 0.002); end
+  def test_outputs_energy_flows_ac446; assert_in_epsilon(12.20263612737634, worksheet.outputs_energy_flows_ac446, 0.002); end
+  def test_outputs_energy_flows_ad446; assert_in_epsilon(15.275119686205679, worksheet.outputs_energy_flows_ad446, 0.002); end
+  def test_outputs_energy_flows_d448; assert_equal("Solid", worksheet.outputs_energy_flows_d448); end
+  def test_outputs_energy_flows_f448; assert_equal("Hydrogen", worksheet.outputs_energy_flows_f448); end
+  def test_outputs_energy_flows_i448; assert_equal("G.FF.01", worksheet.outputs_energy_flows_i448); end
+  def test_outputs_energy_flows_j448; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_j448); end
+  def test_outputs_energy_flows_p448; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_p448); end
+  def test_outputs_energy_flows_v448; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v448||0), 0.002); end
+  def test_outputs_energy_flows_w448; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w448||0), 0.002); end
+  def test_outputs_energy_flows_x448; assert_in_delta(1.1522291058263352e-08, worksheet.outputs_energy_flows_x448, 0.002); end
+  def test_outputs_energy_flows_y448; assert_in_delta(1.734166016123591e-08, worksheet.outputs_energy_flows_y448, 0.002); end
+  def test_outputs_energy_flows_z448; assert_in_delta(2.5170947721584596e-08, worksheet.outputs_energy_flows_z448, 0.002); end
+  def test_outputs_energy_flows_aa448; assert_in_delta(2.4103045325899932e-08, worksheet.outputs_energy_flows_aa448, 0.002); end
+  def test_outputs_energy_flows_ab448; assert_in_delta(1.6398207403951226e-08, worksheet.outputs_energy_flows_ab448, 0.002); end
+  def test_outputs_energy_flows_ac448; assert_in_delta(8.35197216210722e-09, worksheet.outputs_energy_flows_ac448, 0.002); end
+  def test_outputs_energy_flows_ad448; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad448||0), 0.002); end
+  def test_outputs_energy_flows_d450; assert_equal("Gas", worksheet.outputs_energy_flows_d450); end
+  def test_outputs_energy_flows_f450; assert_equal("Hydrogen", worksheet.outputs_energy_flows_f450); end
+  def test_outputs_energy_flows_i450; assert_equal("G.FF.03", worksheet.outputs_energy_flows_i450); end
+  def test_outputs_energy_flows_j450; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_j450); end
+  def test_outputs_energy_flows_p450; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_p450); end
+  def test_outputs_energy_flows_v450; assert_in_delta(8.663792701034158e-08, worksheet.outputs_energy_flows_v450, 0.002); end
+  def test_outputs_energy_flows_w450; assert_in_delta(8.606804825586925e-08, worksheet.outputs_energy_flows_w450, 0.002); end
+  def test_outputs_energy_flows_x450; assert_in_delta(7.388669141111375e-08, worksheet.outputs_energy_flows_x450, 0.002); end
+  def test_outputs_energy_flows_y450; assert_in_delta(6.443093736828417e-08, worksheet.outputs_energy_flows_y450, 0.002); end
+  def test_outputs_energy_flows_z450; assert_in_delta(4.46052608461569e-08, worksheet.outputs_energy_flows_z450, 0.002); end
+  def test_outputs_energy_flows_aa450; assert_in_delta(2.979136402281232e-08, worksheet.outputs_energy_flows_aa450, 0.002); end
+  def test_outputs_energy_flows_ab450; assert_in_delta(1.8840493613050346e-08, worksheet.outputs_energy_flows_ab450, 0.002); end
+  def test_outputs_energy_flows_ac450; assert_in_delta(8.769570770212583e-09, worksheet.outputs_energy_flows_ac450, 0.002); end
+  def test_outputs_energy_flows_ad450; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad450||0), 0.002); end
+  def test_outputs_energy_flows_d452; assert_equal("Electricity", worksheet.outputs_energy_flows_d452); end
+  def test_outputs_energy_flows_f452; assert_equal("Hydrogen", worksheet.outputs_energy_flows_f452); end
+  def test_outputs_energy_flows_i452; assert_equal("G.E.01", worksheet.outputs_energy_flows_i452); end
+  def test_outputs_energy_flows_j452; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j452); end
+  def test_outputs_energy_flows_p452; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_p452); end
+  def test_outputs_energy_flows_v452; assert_in_delta(5.69986361910142e-09, worksheet.outputs_energy_flows_v452, 0.002); end
+  def test_outputs_energy_flows_w452; assert_in_delta(5.573200389548103e-09, worksheet.outputs_energy_flows_w452, 0.002); end
+  def test_outputs_energy_flows_x452; assert_in_delta(5.265882281156492e-09, worksheet.outputs_energy_flows_x452, 0.002); end
+  def test_outputs_energy_flows_y452; assert_in_delta(6.239478703641386e-09, worksheet.outputs_energy_flows_y452, 0.002); end
+  def test_outputs_energy_flows_z452; assert_in_delta(1.2515710154246595e-08, worksheet.outputs_energy_flows_z452, 0.002); end
+  def test_outputs_energy_flows_aa452; assert_in_delta(1.5987535706478306e-08, worksheet.outputs_energy_flows_aa452, 0.002); end
+  def test_outputs_energy_flows_ab452; assert_in_delta(1.545673404018984e-08, worksheet.outputs_energy_flows_ab452, 0.002); end
+  def test_outputs_energy_flows_ac452; assert_in_delta(1.0440486755312655e-08, worksheet.outputs_energy_flows_ac452, 0.002); end
+  def test_outputs_energy_flows_ad452; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad452||0), 0.002); end
+  def test_outputs_energy_flows_d454; assert_equal("Hydrogen", worksheet.outputs_energy_flows_d454); end
+  def test_outputs_energy_flows_f454; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f454); end
+  def test_outputs_energy_flows_i454; assert_equal("G.L.01", worksheet.outputs_energy_flows_i454); end
+  def test_outputs_energy_flows_j454; assert_equal("Global Conversion losses", worksheet.outputs_energy_flows_j454); end
+  def test_outputs_energy_flows_p454; assert_equal("Hydrogen production", worksheet.outputs_energy_flows_p454); end
+  def test_outputs_energy_flows_v454; assert_in_delta(2.393942720022596e-08, worksheet.outputs_energy_flows_v454, 0.002); end
+  def test_outputs_energy_flows_w454; assert_in_delta(2.3692789496046897e-08, worksheet.outputs_energy_flows_w454, 0.002); end
+  def test_outputs_energy_flows_x454; assert_in_delta(2.6419206345527718e-08, worksheet.outputs_energy_flows_x454, 0.002); end
+  def test_outputs_energy_flows_y454; assert_in_delta(2.7593065244486288e-08, worksheet.outputs_energy_flows_y454, 0.002); end
+  def test_outputs_energy_flows_z454; assert_in_delta(2.892115338295606e-08, worksheet.outputs_energy_flows_z454, 0.002); end
+  def test_outputs_energy_flows_aa454; assert_in_delta(2.5930391397569264e-08, worksheet.outputs_energy_flows_aa454, 0.002); end
+  def test_outputs_energy_flows_ab454; assert_in_delta(1.8677809541298154e-08, worksheet.outputs_energy_flows_ab454, 0.002); end
+  def test_outputs_energy_flows_ac454; assert_in_delta(1.0142879436447095e-08, worksheet.outputs_energy_flows_ac454, 0.002); end
+  def test_outputs_energy_flows_ad454; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad454||0), 0.002); end
+  def test_outputs_energy_flows_d456; assert_equal("Hydrogen", worksheet.outputs_energy_flows_d456); end
+  def test_outputs_energy_flows_f456; assert_equal("Transport", worksheet.outputs_energy_flows_f456); end
+  def test_outputs_energy_flows_i456; assert_equal("G.HY.01", worksheet.outputs_energy_flows_i456); end
+  def test_outputs_energy_flows_j456; assert_equal("Global H2", worksheet.outputs_energy_flows_j456); end
+  def test_outputs_energy_flows_p456; assert_equal("Global transport", worksheet.outputs_energy_flows_p456); end
+  def test_outputs_energy_flows_v456; assert_in_delta(6.839836342921704e-08, worksheet.outputs_energy_flows_v456, 0.002); end
+  def test_outputs_energy_flows_w456; assert_in_delta(6.794845914937047e-08, worksheet.outputs_energy_flows_w456, 0.002); end
+  def test_outputs_energy_flows_x456; assert_in_delta(6.523417096954911e-08, worksheet.outputs_energy_flows_x456, 0.002); end
+  def test_outputs_energy_flows_y456; assert_in_delta(6.041901098867518e-08, worksheet.outputs_energy_flows_y456, 0.002); end
+  def test_outputs_energy_flows_z456; assert_in_delta(5.337076533903203e-08, worksheet.outputs_energy_flows_z456, 0.002); end
+  def test_outputs_energy_flows_aa456; assert_in_delta(4.3951553657621294e-08, worksheet.outputs_energy_flows_aa456, 0.002); end
+  def test_outputs_energy_flows_ab456; assert_in_delta(3.201762551589326e-08, worksheet.outputs_energy_flows_ab456, 0.002); end
+  def test_outputs_energy_flows_ac456; assert_in_delta(1.7419150251185364e-08, worksheet.outputs_energy_flows_ac456, 0.002); end
+  def test_outputs_energy_flows_ad456; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad456||0), 0.002); end
+  def test_outputs_energy_flows_d458; assert_equal("Solid", worksheet.outputs_energy_flows_d458); end
+  def test_outputs_energy_flows_f458; assert_equal("Transport", worksheet.outputs_energy_flows_f458); end
+  def test_outputs_energy_flows_i458; assert_equal("G.C.01", worksheet.outputs_energy_flows_i458); end
+  def test_outputs_energy_flows_j458; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j458); end
+  def test_outputs_energy_flows_p458; assert_equal("Global transport", worksheet.outputs_energy_flows_p458); end
+  def test_outputs_energy_flows_v458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v458||0), 0.002); end
+  def test_outputs_energy_flows_w458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w458||0), 0.002); end
+  def test_outputs_energy_flows_x458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x458||0), 0.002); end
+  def test_outputs_energy_flows_y458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y458||0), 0.002); end
+  def test_outputs_energy_flows_z458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z458||0), 0.002); end
+  def test_outputs_energy_flows_aa458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa458||0), 0.002); end
+  def test_outputs_energy_flows_ab458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab458||0), 0.002); end
+  def test_outputs_energy_flows_ac458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac458||0), 0.002); end
+  def test_outputs_energy_flows_ad458; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad458||0), 0.002); end
+  def test_outputs_energy_flows_d460; assert_equal("Liquid", worksheet.outputs_energy_flows_d460); end
+  def test_outputs_energy_flows_f460; assert_equal("Transport", worksheet.outputs_energy_flows_f460); end
+  def test_outputs_energy_flows_i460; assert_equal("G.C.02", worksheet.outputs_energy_flows_i460); end
+  def test_outputs_energy_flows_j460; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j460); end
+  def test_outputs_energy_flows_p460; assert_equal("Global transport", worksheet.outputs_energy_flows_p460); end
+  def test_outputs_energy_flows_v460; assert_in_epsilon(98.37353576934116, worksheet.outputs_energy_flows_v460, 0.002); end
+  def test_outputs_energy_flows_w460; assert_in_epsilon(105.95847713744624, worksheet.outputs_energy_flows_w460, 0.002); end
+  def test_outputs_energy_flows_x460; assert_in_epsilon(114.1114613312217, worksheet.outputs_energy_flows_x460, 0.002); end
+  def test_outputs_energy_flows_y460; assert_in_epsilon(122.17410370657481, worksheet.outputs_energy_flows_y460, 0.002); end
+  def test_outputs_energy_flows_z460; assert_in_epsilon(130.4532506555218, worksheet.outputs_energy_flows_z460, 0.002); end
+  def test_outputs_energy_flows_aa460; assert_in_epsilon(138.83808417958733, worksheet.outputs_energy_flows_aa460, 0.002); end
+  def test_outputs_energy_flows_ab460; assert_in_epsilon(147.20261977066264, worksheet.outputs_energy_flows_ab460, 0.002); end
+  def test_outputs_energy_flows_ac460; assert_in_epsilon(155.82729374671896, worksheet.outputs_energy_flows_ac460, 0.002); end
+  def test_outputs_energy_flows_ad460; assert_in_epsilon(164.4450868101414, worksheet.outputs_energy_flows_ad460, 0.002); end
+  def test_outputs_energy_flows_d462; assert_equal("Gas", worksheet.outputs_energy_flows_d462); end
+  def test_outputs_energy_flows_f462; assert_equal("Transport", worksheet.outputs_energy_flows_f462); end
+  def test_outputs_energy_flows_i462; assert_equal("G.C.03", worksheet.outputs_energy_flows_i462); end
+  def test_outputs_energy_flows_j462; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j462); end
+  def test_outputs_energy_flows_p462; assert_equal("Global transport", worksheet.outputs_energy_flows_p462); end
+  def test_outputs_energy_flows_v462; assert_in_delta(0.33380184332999924, worksheet.outputs_energy_flows_v462, 0.002); end
+  def test_outputs_energy_flows_w462; assert_in_delta(0.5795196358658151, worksheet.outputs_energy_flows_w462, 0.002); end
+  def test_outputs_energy_flows_x462; assert_in_delta(0.9423317229740672, worksheet.outputs_energy_flows_x462, 0.002); end
+  def test_outputs_energy_flows_y462; assert_in_epsilon(1.3745306907975792, worksheet.outputs_energy_flows_y462, 0.002); end
+  def test_outputs_energy_flows_z462; assert_in_epsilon(1.8834229726828258, worksheet.outputs_energy_flows_z462, 0.002); end
+  def test_outputs_energy_flows_aa462; assert_in_epsilon(2.4724535682347693, worksheet.outputs_energy_flows_aa462, 0.002); end
+  def test_outputs_energy_flows_ab462; assert_in_epsilon(3.143907862071528, worksheet.outputs_energy_flows_ab462, 0.002); end
+  def test_outputs_energy_flows_ac462; assert_in_epsilon(3.907339839904444, worksheet.outputs_energy_flows_ac462, 0.002); end
+  def test_outputs_energy_flows_ad462; assert_in_epsilon(4.762667057020004, worksheet.outputs_energy_flows_ad462, 0.002); end
+  def test_outputs_energy_flows_d464; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d464); end
+  def test_outputs_energy_flows_f464; assert_equal("Transport", worksheet.outputs_energy_flows_f464); end
+  def test_outputs_energy_flows_i464; assert_equal("G.E.01", worksheet.outputs_energy_flows_i464); end
+  def test_outputs_energy_flows_j464; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j464); end
+  def test_outputs_energy_flows_p464; assert_equal("Global transport", worksheet.outputs_energy_flows_p464); end
+  def test_outputs_energy_flows_v464; assert_in_delta(0.6129674547554449, worksheet.outputs_energy_flows_v464, 0.002); end
+  def test_outputs_energy_flows_w464; assert_in_delta(0.9932996373564447, worksheet.outputs_energy_flows_w464, 0.002); end
+  def test_outputs_energy_flows_x464; assert_in_epsilon(1.5335230048911672, worksheet.outputs_energy_flows_x464, 0.002); end
+  def test_outputs_energy_flows_y464; assert_in_epsilon(2.156330485418077, worksheet.outputs_energy_flows_y464, 0.002); end
+  def test_outputs_energy_flows_z464; assert_in_epsilon(2.864395323551145, worksheet.outputs_energy_flows_z464, 0.002); end
+  def test_outputs_energy_flows_aa464; assert_in_epsilon(3.6628351440119933, worksheet.outputs_energy_flows_aa464, 0.002); end
+  def test_outputs_energy_flows_ab464; assert_in_epsilon(4.553269261308895, worksheet.outputs_energy_flows_ab464, 0.002); end
+  def test_outputs_energy_flows_ac464; assert_in_epsilon(5.543201289975257, worksheet.outputs_energy_flows_ac464, 0.002); end
+  def test_outputs_energy_flows_ad464; assert_in_epsilon(6.629709242255666, worksheet.outputs_energy_flows_ad464, 0.002); end
+  def test_outputs_energy_flows_d466; assert_equal("Solid", worksheet.outputs_energy_flows_d466); end
+  def test_outputs_energy_flows_f466; assert_equal("Manufacturing", worksheet.outputs_energy_flows_f466); end
+  def test_outputs_energy_flows_i466; assert_equal("G.C.01", worksheet.outputs_energy_flows_i466); end
+  def test_outputs_energy_flows_j466; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j466); end
+  def test_outputs_energy_flows_k466; assert_equal("G.FF.01", worksheet.outputs_energy_flows_k466); end
+  def test_outputs_energy_flows_l466; assert_equal("Global Coal and fossil waste", worksheet.outputs_energy_flows_l466); end
+  def test_outputs_energy_flows_p466; assert_equal("Global manufacturing", worksheet.outputs_energy_flows_p466); end
+  def test_outputs_energy_flows_v466; assert_in_epsilon(50.70935180962913, worksheet.outputs_energy_flows_v466, 0.002); end
+  def test_outputs_energy_flows_w466; assert_in_epsilon(53.92420108562173, worksheet.outputs_energy_flows_w466, 0.002); end
+  def test_outputs_energy_flows_x466; assert_in_epsilon(58.37851816734846, worksheet.outputs_energy_flows_x466, 0.002); end
+  def test_outputs_energy_flows_y466; assert_in_epsilon(62.8671172854209, worksheet.outputs_energy_flows_y466, 0.002); end
+  def test_outputs_energy_flows_z466; assert_in_epsilon(67.48576671424883, worksheet.outputs_energy_flows_z466, 0.002); end
+  def test_outputs_energy_flows_aa466; assert_in_epsilon(72.10913224483946, worksheet.outputs_energy_flows_aa466, 0.002); end
+  def test_outputs_energy_flows_ab466; assert_in_epsilon(76.72428459802406, worksheet.outputs_energy_flows_ab466, 0.002); end
+  def test_outputs_energy_flows_ac466; assert_in_epsilon(81.82545282030729, worksheet.outputs_energy_flows_ac466, 0.002); end
+  def test_outputs_energy_flows_ad466; assert_in_epsilon(86.13231502612213, worksheet.outputs_energy_flows_ad466, 0.002); end
+  def test_outputs_energy_flows_d468; assert_equal("Liquid", worksheet.outputs_energy_flows_d468); end
+  def test_outputs_energy_flows_f468; assert_equal("Manufacturing", worksheet.outputs_energy_flows_f468); end
+  def test_outputs_energy_flows_i468; assert_equal("G.C.02", worksheet.outputs_energy_flows_i468); end
+  def test_outputs_energy_flows_j468; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j468); end
+  def test_outputs_energy_flows_k468; assert_equal("G.FF.02", worksheet.outputs_energy_flows_k468); end
+  def test_outputs_energy_flows_l468; assert_equal("Global Oil and petroleum products", worksheet.outputs_energy_flows_l468); end
+  def test_outputs_energy_flows_p468; assert_equal("Global manufacturing", worksheet.outputs_energy_flows_p468); end
+  def test_outputs_energy_flows_v468; assert_in_epsilon(30.809506899323743, worksheet.outputs_energy_flows_v468, 0.002); end
+  def test_outputs_energy_flows_w468; assert_in_epsilon(31.562123942440167, worksheet.outputs_energy_flows_w468, 0.002); end
+  def test_outputs_energy_flows_x468; assert_in_epsilon(34.428765945457, worksheet.outputs_energy_flows_x468, 0.002); end
+  def test_outputs_energy_flows_y468; assert_in_epsilon(37.18812203573718, worksheet.outputs_energy_flows_y468, 0.002); end
+  def test_outputs_energy_flows_z468; assert_in_epsilon(40.09576880547438, worksheet.outputs_energy_flows_z468, 0.002); end
+  def test_outputs_energy_flows_aa468; assert_in_epsilon(43.03896885147704, worksheet.outputs_energy_flows_aa468, 0.002); end
+  def test_outputs_energy_flows_ab468; assert_in_epsilon(45.95518128989533, worksheet.outputs_energy_flows_ab468, 0.002); end
+  def test_outputs_energy_flows_ac468; assert_in_epsilon(49.22495898004088, worksheet.outputs_energy_flows_ac468, 0.002); end
+  def test_outputs_energy_flows_ad468; assert_in_epsilon(52.06750753530781, worksheet.outputs_energy_flows_ad468, 0.002); end
+  def test_outputs_energy_flows_d470; assert_equal("Gas", worksheet.outputs_energy_flows_d470); end
+  def test_outputs_energy_flows_f470; assert_equal("Manufacturing", worksheet.outputs_energy_flows_f470); end
+  def test_outputs_energy_flows_i470; assert_equal("G.C.03", worksheet.outputs_energy_flows_i470); end
+  def test_outputs_energy_flows_j470; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j470); end
+  def test_outputs_energy_flows_k470; assert_equal("G.FF.03", worksheet.outputs_energy_flows_k470); end
+  def test_outputs_energy_flows_l470; assert_equal("Global Natural gas", worksheet.outputs_energy_flows_l470); end
+  def test_outputs_energy_flows_p470; assert_equal("Global manufacturing", worksheet.outputs_energy_flows_p470); end
+  def test_outputs_energy_flows_v470; assert_in_epsilon(28.315031514137644, worksheet.outputs_energy_flows_v470, 0.002); end
+  def test_outputs_energy_flows_w470; assert_in_epsilon(29.936617170999455, worksheet.outputs_energy_flows_w470, 0.002); end
+  def test_outputs_energy_flows_x470; assert_in_epsilon(32.72294404797483, worksheet.outputs_energy_flows_x470, 0.002); end
+  def test_outputs_energy_flows_y470; assert_in_epsilon(35.517202655619755, worksheet.outputs_energy_flows_y470, 0.002); end
+  def test_outputs_energy_flows_z470; assert_in_epsilon(38.342398137873786, worksheet.outputs_energy_flows_z470, 0.002); end
+  def test_outputs_energy_flows_aa470; assert_in_epsilon(41.12970475543783, worksheet.outputs_energy_flows_aa470, 0.002); end
+  def test_outputs_energy_flows_ab470; assert_in_epsilon(43.8876932564236, worksheet.outputs_energy_flows_ab470, 0.002); end
+  def test_outputs_energy_flows_ac470; assert_in_epsilon(46.71005525785973, worksheet.outputs_energy_flows_ac470, 0.002); end
+  def test_outputs_energy_flows_ad470; assert_in_epsilon(49.308689115795374, worksheet.outputs_energy_flows_ad470, 0.002); end
+  def test_outputs_energy_flows_d472; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d472); end
+  def test_outputs_energy_flows_f472; assert_equal("Manufacturing", worksheet.outputs_energy_flows_f472); end
+  def test_outputs_energy_flows_i472; assert_equal("G.E.01", worksheet.outputs_energy_flows_i472); end
+  def test_outputs_energy_flows_j472; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j472); end
+  def test_outputs_energy_flows_p472; assert_equal("Global manufacturing", worksheet.outputs_energy_flows_p472); end
+  def test_outputs_energy_flows_v472; assert_in_epsilon(28.20362809307946, worksheet.outputs_energy_flows_v472, 0.002); end
+  def test_outputs_energy_flows_w472; assert_in_epsilon(30.026421777563737, worksheet.outputs_energy_flows_w472, 0.002); end
+  def test_outputs_energy_flows_x472; assert_in_epsilon(32.84484118178725, worksheet.outputs_energy_flows_x472, 0.002); end
+  def test_outputs_energy_flows_y472; assert_in_epsilon(35.686089147371746, worksheet.outputs_energy_flows_y472, 0.002); end
+  def test_outputs_energy_flows_z472; assert_in_epsilon(38.8110153380723, worksheet.outputs_energy_flows_z472, 0.002); end
+  def test_outputs_energy_flows_aa472; assert_in_epsilon(41.97125710112742, worksheet.outputs_energy_flows_aa472, 0.002); end
+  def test_outputs_energy_flows_ab472; assert_in_epsilon(45.13979824481583, worksheet.outputs_energy_flows_ab472, 0.002); end
+  def test_outputs_energy_flows_ac472; assert_in_epsilon(48.515380573493374, worksheet.outputs_energy_flows_ac472, 0.002); end
+  def test_outputs_energy_flows_ad472; assert_in_epsilon(52.24332318377344, worksheet.outputs_energy_flows_ad472, 0.002); end
+  def test_outputs_energy_flows_d474; assert_equal("Heat network", worksheet.outputs_energy_flows_d474); end
+  def test_outputs_energy_flows_f474; assert_equal("Manufacturing", worksheet.outputs_energy_flows_f474); end
+  def test_outputs_energy_flows_i474; assert_equal("G.H.01", worksheet.outputs_energy_flows_i474); end
+  def test_outputs_energy_flows_j474; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j474); end
+  def test_outputs_energy_flows_p474; assert_equal("Global manufacturing", worksheet.outputs_energy_flows_p474); end
+  def test_outputs_energy_flows_v474; assert_in_epsilon(5.310102447345097, worksheet.outputs_energy_flows_v474, 0.002); end
+  def test_outputs_energy_flows_w474; assert_in_epsilon(5.547581771160388, worksheet.outputs_energy_flows_w474, 0.002); end
+  def test_outputs_energy_flows_x474; assert_in_epsilon(6.054140712727335, worksheet.outputs_energy_flows_x474, 0.002); end
+  def test_outputs_energy_flows_y474; assert_in_epsilon(6.5613055710157475, worksheet.outputs_energy_flows_y474, 0.002); end
+  def test_outputs_energy_flows_z474; assert_in_epsilon(7.074730134123316, worksheet.outputs_energy_flows_z474, 0.002); end
+  def test_outputs_energy_flows_aa474; assert_in_epsilon(7.580272235026475, worksheet.outputs_energy_flows_aa474, 0.002); end
+  def test_outputs_energy_flows_ab474; assert_in_epsilon(8.073761651632234, worksheet.outputs_energy_flows_ab474, 0.002); end
+  def test_outputs_energy_flows_ac474; assert_in_epsilon(8.585514812868745, worksheet.outputs_energy_flows_ac474, 0.002); end
+  def test_outputs_energy_flows_ad474; assert_in_epsilon(9.035686899234909, worksheet.outputs_energy_flows_ad474, 0.002); end
+  def test_outputs_energy_flows_d476; assert_equal("Solid", worksheet.outputs_energy_flows_d476); end
+  def test_outputs_energy_flows_f476; assert_equal("Buildings", worksheet.outputs_energy_flows_f476); end
+  def test_outputs_energy_flows_i476; assert_equal("G.C.01", worksheet.outputs_energy_flows_i476); end
+  def test_outputs_energy_flows_j476; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j476); end
+  def test_outputs_energy_flows_k476; assert_equal("G.BM.13", worksheet.outputs_energy_flows_k476); end
+  def test_outputs_energy_flows_l476; assert_equal("Global Traditional biomass", worksheet.outputs_energy_flows_l476); end
+  def test_outputs_energy_flows_p476; assert_equal("Global buildings", worksheet.outputs_energy_flows_p476); end
+  def test_outputs_energy_flows_v476; assert_in_epsilon(33.54563205189584, worksheet.outputs_energy_flows_v476, 0.002); end
+  def test_outputs_energy_flows_w476; assert_in_epsilon(33.93593972170837, worksheet.outputs_energy_flows_w476, 0.002); end
+  def test_outputs_energy_flows_x476; assert_in_epsilon(34.000337706953175, worksheet.outputs_energy_flows_x476, 0.002); end
+  def test_outputs_energy_flows_y476; assert_in_epsilon(33.997478328061646, worksheet.outputs_energy_flows_y476, 0.002); end
+  def test_outputs_energy_flows_z476; assert_in_epsilon(33.333652548350116, worksheet.outputs_energy_flows_z476, 0.002); end
+  def test_outputs_energy_flows_aa476; assert_in_epsilon(32.73749859682767, worksheet.outputs_energy_flows_aa476, 0.002); end
+  def test_outputs_energy_flows_ab476; assert_in_epsilon(32.252307563519956, worksheet.outputs_energy_flows_ab476, 0.002); end
+  def test_outputs_energy_flows_ac476; assert_in_epsilon(31.123245745868452, worksheet.outputs_energy_flows_ac476, 0.002); end
+  def test_outputs_energy_flows_ad476; assert_in_epsilon(31.323091133449054, worksheet.outputs_energy_flows_ad476, 0.002); end
+  def test_outputs_energy_flows_d478; assert_equal("Liquid", worksheet.outputs_energy_flows_d478); end
+  def test_outputs_energy_flows_f478; assert_equal("Buildings", worksheet.outputs_energy_flows_f478); end
+  def test_outputs_energy_flows_i478; assert_equal("G.C.02", worksheet.outputs_energy_flows_i478); end
+  def test_outputs_energy_flows_j478; assert_equal("Global Liquid hydrocarbons", worksheet.outputs_energy_flows_j478); end
+  def test_outputs_energy_flows_p478; assert_equal("Global buildings", worksheet.outputs_energy_flows_p478); end
+  def test_outputs_energy_flows_v478; assert_in_epsilon(11.152769387586785, worksheet.outputs_energy_flows_v478, 0.002); end
+  def test_outputs_energy_flows_w478; assert_in_epsilon(11.627244413628201, worksheet.outputs_energy_flows_w478, 0.002); end
+  def test_outputs_energy_flows_x478; assert_in_epsilon(12.012348487117098, worksheet.outputs_energy_flows_x478, 0.002); end
+  def test_outputs_energy_flows_y478; assert_in_epsilon(12.165291216000075, worksheet.outputs_energy_flows_y478, 0.002); end
+  def test_outputs_energy_flows_z478; assert_in_epsilon(12.288587992428981, worksheet.outputs_energy_flows_z478, 0.002); end
+  def test_outputs_energy_flows_aa478; assert_in_epsilon(12.250285171752626, worksheet.outputs_energy_flows_aa478, 0.002); end
+  def test_outputs_energy_flows_ab478; assert_in_epsilon(11.992309845490277, worksheet.outputs_energy_flows_ab478, 0.002); end
+  def test_outputs_energy_flows_ac478; assert_in_epsilon(11.707561597552335, worksheet.outputs_energy_flows_ac478, 0.002); end
+  def test_outputs_energy_flows_ad478; assert_in_epsilon(11.145806917263608, worksheet.outputs_energy_flows_ad478, 0.002); end
+  def test_outputs_energy_flows_d480; assert_equal("Gas", worksheet.outputs_energy_flows_d480); end
+  def test_outputs_energy_flows_f480; assert_equal("Buildings", worksheet.outputs_energy_flows_f480); end
+  def test_outputs_energy_flows_i480; assert_equal("G.C.03", worksheet.outputs_energy_flows_i480); end
+  def test_outputs_energy_flows_j480; assert_equal("Global Gaseous hydrocarbons", worksheet.outputs_energy_flows_j480); end
+  def test_outputs_energy_flows_p480; assert_equal("Global buildings", worksheet.outputs_energy_flows_p480); end
+  def test_outputs_energy_flows_v480; assert_in_epsilon(25.057673095686482, worksheet.outputs_energy_flows_v480, 0.002); end
+  def test_outputs_energy_flows_w480; assert_in_epsilon(26.999223582326028, worksheet.outputs_energy_flows_w480, 0.002); end
+  def test_outputs_energy_flows_x480; assert_in_epsilon(29.082297718961353, worksheet.outputs_energy_flows_x480, 0.002); end
+  def test_outputs_energy_flows_y480; assert_in_epsilon(30.682411298533047, worksheet.outputs_energy_flows_y480, 0.002); end
+  def test_outputs_energy_flows_z480; assert_in_epsilon(32.49092269904267, worksheet.outputs_energy_flows_z480, 0.002); end
+  def test_outputs_energy_flows_aa480; assert_in_epsilon(34.05417736462726, worksheet.outputs_energy_flows_aa480, 0.002); end
+  def test_outputs_energy_flows_ab480; assert_in_epsilon(35.06926979746571, worksheet.outputs_energy_flows_ab480, 0.002); end
+  def test_outputs_energy_flows_ac480; assert_in_epsilon(36.26367468323516, worksheet.outputs_energy_flows_ac480, 0.002); end
+  def test_outputs_energy_flows_ad480; assert_in_epsilon(36.60740098604545, worksheet.outputs_energy_flows_ad480, 0.002); end
+  def test_outputs_energy_flows_d482; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d482); end
+  def test_outputs_energy_flows_f482; assert_equal("Buildings", worksheet.outputs_energy_flows_f482); end
+  def test_outputs_energy_flows_i482; assert_equal("G.E.01", worksheet.outputs_energy_flows_i482); end
+  def test_outputs_energy_flows_j482; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j482); end
+  def test_outputs_energy_flows_n482; assert_equal("heater.microchp.non residential.space", worksheet.outputs_energy_flows_n482); end
+  def test_outputs_energy_flows_o482; assert_equal("Global non residential chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_o482); end
+  def test_outputs_energy_flows_p482; assert_equal("Global buildings", worksheet.outputs_energy_flows_p482); end
+  def test_outputs_energy_flows_q482; assert_equal("heater.microchp.urban.space", worksheet.outputs_energy_flows_q482); end
+  def test_outputs_energy_flows_r482; assert_equal("Global urban chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_r482); end
+  def test_outputs_energy_flows_s482; assert_equal("heater.microchp.rural.space", worksheet.outputs_energy_flows_s482); end
+  def test_outputs_energy_flows_t482; assert_equal("Global rural chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_t482); end
+  def test_outputs_energy_flows_v482; assert_in_epsilon(35.65765875351628, worksheet.outputs_energy_flows_v482, 0.002); end
+  def test_outputs_energy_flows_w482; assert_in_epsilon(40.19099195715869, worksheet.outputs_energy_flows_w482, 0.002); end
+  def test_outputs_energy_flows_x482; assert_in_epsilon(45.75694403676585, worksheet.outputs_energy_flows_x482, 0.002); end
+  def test_outputs_energy_flows_y482; assert_in_epsilon(51.13014879210733, worksheet.outputs_energy_flows_y482, 0.002); end
+  def test_outputs_energy_flows_z482; assert_in_epsilon(56.933610438419926, worksheet.outputs_energy_flows_z482, 0.002); end
+  def test_outputs_energy_flows_aa482; assert_in_epsilon(62.64480645057477, worksheet.outputs_energy_flows_aa482, 0.002); end
+  def test_outputs_energy_flows_ab482; assert_in_epsilon(67.92928050322709, worksheet.outputs_energy_flows_ab482, 0.002); end
+  def test_outputs_energy_flows_ac482; assert_in_epsilon(73.50167437976354, worksheet.outputs_energy_flows_ac482, 0.002); end
+  def test_outputs_energy_flows_ad482; assert_in_epsilon(78.04492422394262, worksheet.outputs_energy_flows_ad482, 0.002); end
+  def test_outputs_energy_flows_d484; assert_equal("Heat network", worksheet.outputs_energy_flows_d484); end
+  def test_outputs_energy_flows_f484; assert_equal("Buildings", worksheet.outputs_energy_flows_f484); end
+  def test_outputs_energy_flows_i484; assert_equal("G.H.01", worksheet.outputs_energy_flows_i484); end
+  def test_outputs_energy_flows_j484; assert_equal("Global Heat transport", worksheet.outputs_energy_flows_j484); end
+  def test_outputs_energy_flows_n484; assert_equal("heater.microchp.non residential.space", worksheet.outputs_energy_flows_n484); end
+  def test_outputs_energy_flows_o484; assert_equal("Global non residential chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_o484); end
+  def test_outputs_energy_flows_p484; assert_equal("Global buildings", worksheet.outputs_energy_flows_p484); end
+  def test_outputs_energy_flows_q484; assert_equal("heater.microchp.urban.space", worksheet.outputs_energy_flows_q484); end
+  def test_outputs_energy_flows_r484; assert_equal("Global urban chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_r484); end
+  def test_outputs_energy_flows_s484; assert_equal("heater.microchp.rural.space", worksheet.outputs_energy_flows_s484); end
+  def test_outputs_energy_flows_t484; assert_equal("Global rural chp used by people with access to electricity for space heating", worksheet.outputs_energy_flows_t484); end
+  def test_outputs_energy_flows_v484; assert_in_epsilon(4.325706707493298, worksheet.outputs_energy_flows_v484, 0.002); end
+  def test_outputs_energy_flows_w484; assert_in_epsilon(4.997772950369805, worksheet.outputs_energy_flows_w484, 0.002); end
+  def test_outputs_energy_flows_x484; assert_in_epsilon(5.829947966625302, worksheet.outputs_energy_flows_x484, 0.002); end
+  def test_outputs_energy_flows_y484; assert_in_epsilon(6.593039436080997, worksheet.outputs_energy_flows_y484, 0.002); end
+  def test_outputs_energy_flows_z484; assert_in_epsilon(7.482612915051631, worksheet.outputs_energy_flows_z484, 0.002); end
+  def test_outputs_energy_flows_aa484; assert_in_epsilon(8.358620675329353, worksheet.outputs_energy_flows_aa484, 0.002); end
+  def test_outputs_energy_flows_ab484; assert_in_epsilon(9.092265225357078, worksheet.outputs_energy_flows_ab484, 0.002); end
+  def test_outputs_energy_flows_ac484; assert_in_epsilon(9.93210225529022, worksheet.outputs_energy_flows_ac484, 0.002); end
+  def test_outputs_energy_flows_ad484; assert_in_epsilon(10.472979143624695, worksheet.outputs_energy_flows_ad484, 0.002); end
+  def test_outputs_energy_flows_d486; assert_equal("Solar", worksheet.outputs_energy_flows_d486); end
+  def test_outputs_energy_flows_f486; assert_equal("Buildings", worksheet.outputs_energy_flows_f486); end
+  def test_outputs_energy_flows_i486; assert_equal("G.R.01", worksheet.outputs_energy_flows_i486); end
+  def test_outputs_energy_flows_j486; assert_equal("Global Solar", worksheet.outputs_energy_flows_j486); end
+  def test_outputs_energy_flows_k486; assert_equal("G.R.07", worksheet.outputs_energy_flows_k486); end
+  def test_outputs_energy_flows_l486; assert_equal("Global Environmental heat", worksheet.outputs_energy_flows_l486); end
+  def test_outputs_energy_flows_p486; assert_equal("Global buildings", worksheet.outputs_energy_flows_p486); end
+  def test_outputs_energy_flows_v486; assert_in_epsilon(6.90690180245268, worksheet.outputs_energy_flows_v486, 0.002); end
+  def test_outputs_energy_flows_w486; assert_in_epsilon(7.746642136269049, worksheet.outputs_energy_flows_w486, 0.002); end
+  def test_outputs_energy_flows_x486; assert_in_epsilon(8.767265808181381, worksheet.outputs_energy_flows_x486, 0.002); end
+  def test_outputs_energy_flows_y486; assert_in_epsilon(9.735785410038948, worksheet.outputs_energy_flows_y486, 0.002); end
+  def test_outputs_energy_flows_z486; assert_in_epsilon(10.770293125305878, worksheet.outputs_energy_flows_z486, 0.002); end
+  def test_outputs_energy_flows_aa486; assert_in_epsilon(11.771302489597623, worksheet.outputs_energy_flows_aa486, 0.002); end
+  def test_outputs_energy_flows_ab486; assert_in_epsilon(12.658946470790449, worksheet.outputs_energy_flows_ab486, 0.002); end
+  def test_outputs_energy_flows_ac486; assert_in_epsilon(13.57754483652487, worksheet.outputs_energy_flows_ac486, 0.002); end
+  def test_outputs_energy_flows_ad486; assert_in_epsilon(14.255267942109777, worksheet.outputs_energy_flows_ad486, 0.002); end
+  def test_outputs_energy_flows_d488; assert_equal("Solid", worksheet.outputs_energy_flows_d488); end
+  def test_outputs_energy_flows_f488; assert_equal("Other", worksheet.outputs_energy_flows_f488); end
+  def test_outputs_energy_flows_i488; assert_equal("G.C.01", worksheet.outputs_energy_flows_i488); end
+  def test_outputs_energy_flows_j488; assert_equal("Global Solid hydrocarbons", worksheet.outputs_energy_flows_j488); end
+  def test_outputs_energy_flows_k488; assert_equal("G.BM.09", worksheet.outputs_energy_flows_k488); end
+  def test_outputs_energy_flows_l488; assert_equal("Global Dry biomass and waste", worksheet.outputs_energy_flows_l488); end
+  def test_outputs_energy_flows_q488; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_q488); end
+  def test_outputs_energy_flows_v488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_v488||0), 0.002); end
+  def test_outputs_energy_flows_w488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_w488||0), 0.002); end
+  def test_outputs_energy_flows_x488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_x488||0), 0.002); end
+  def test_outputs_energy_flows_y488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_y488||0), 0.002); end
+  def test_outputs_energy_flows_z488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_z488||0), 0.002); end
+  def test_outputs_energy_flows_aa488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_aa488||0), 0.002); end
+  def test_outputs_energy_flows_ab488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ab488||0), 0.002); end
+  def test_outputs_energy_flows_ac488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ac488||0), 0.002); end
+  def test_outputs_energy_flows_ad488; assert_in_delta(0.0, (worksheet.outputs_energy_flows_ad488||0), 0.002); end
+  def test_outputs_energy_flows_d490; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d490); end
+  def test_outputs_energy_flows_f490; assert_equal("Other", worksheet.outputs_energy_flows_f490); end
+  def test_outputs_energy_flows_i490; assert_equal("G.E.01", worksheet.outputs_energy_flows_i490); end
+  def test_outputs_energy_flows_j490; assert_equal("Global Electricity (delivered to end user)", worksheet.outputs_energy_flows_j490); end
+  def test_outputs_energy_flows_n490; assert_equal("Arable.food", worksheet.outputs_energy_flows_n490); end
+  def test_outputs_energy_flows_o490; assert_equal("Global Arable land for food crops", worksheet.outputs_energy_flows_o490); end
+  def test_outputs_energy_flows_q490; assert_equal("Greenhouse gas removal", worksheet.outputs_energy_flows_q490); end
+  def test_outputs_energy_flows_v490; assert_in_epsilon(3.9999999999999996, worksheet.outputs_energy_flows_v490, 0.002); end
+  def test_outputs_energy_flows_w490; assert_in_epsilon(4.088955043780237, worksheet.outputs_energy_flows_w490, 0.002); end
+  def test_outputs_energy_flows_x490; assert_in_epsilon(4.246972465792244, worksheet.outputs_energy_flows_x490, 0.002); end
+  def test_outputs_energy_flows_y490; assert_in_epsilon(4.388818930974344, worksheet.outputs_energy_flows_y490, 0.002); end
+  def test_outputs_energy_flows_z490; assert_in_epsilon(4.516559556192925, worksheet.outputs_energy_flows_z490, 0.002); end
+  def test_outputs_energy_flows_aa490; assert_in_epsilon(4.718341318072903, worksheet.outputs_energy_flows_aa490, 0.002); end
+  def test_outputs_energy_flows_ab490; assert_in_epsilon(4.822216243466424, worksheet.outputs_energy_flows_ab490, 0.002); end
+  def test_outputs_energy_flows_ac490; assert_in_epsilon(4.913068492116926, worksheet.outputs_energy_flows_ac490, 0.002); end
+  def test_outputs_energy_flows_ad490; assert_in_epsilon(4.990372596096302, worksheet.outputs_energy_flows_ad490, 0.002); end
+  def test_outputs_energy_flows_d492; assert_equal("Electricity grid", worksheet.outputs_energy_flows_d492); end
+  def test_outputs_energy_flows_f492; assert_equal("Losses / own use", worksheet.outputs_energy_flows_f492); end
+  def test_outputs_energy_flows_i492; assert_equal("G.L.02", worksheet.outputs_energy_flows_i492); end
+  def test_outputs_energy_flows_j492; assert_equal("Global Distribution losses and own use", worksheet.outputs_energy_flows_j492); end
+  def test_outputs_energy_flows_o492; assert_equal("electricity.network", worksheet.outputs_energy_flows_o492); end
+  def test_outputs_energy_flows_p492; assert_equal("Global Electricity distribution network", worksheet.outputs_energy_flows_p492); end
+  def test_outputs_energy_flows_v492; assert_in_epsilon(5.813633087299332, worksheet.outputs_energy_flows_v492, 0.002); end
+  def test_outputs_energy_flows_w492; assert_in_epsilon(6.392648219454592, worksheet.outputs_energy_flows_w492, 0.002); end
+  def test_outputs_energy_flows_x492; assert_in_epsilon(7.163231521911023, worksheet.outputs_energy_flows_x492, 0.002); end
+  def test_outputs_energy_flows_y492; assert_in_epsilon(7.925116100718461, worksheet.outputs_energy_flows_y492, 0.002); end
+  def test_outputs_energy_flows_z492; assert_in_epsilon(8.753493464977764, worksheet.outputs_energy_flows_z492, 0.002); end
+  def test_outputs_energy_flows_aa492; assert_in_epsilon(9.591004258387715, worksheet.outputs_energy_flows_aa492, 0.002); end
+  def test_outputs_energy_flows_ab492; assert_in_epsilon(10.392675749660167, worksheet.outputs_energy_flows_ab492, 0.002); end
+  def test_outputs_energy_flows_ac492; assert_in_epsilon(11.243552770938162, worksheet.outputs_energy_flows_ac492, 0.002); end
+  def test_outputs_energy_flows_ad492; assert_in_epsilon(12.04447104978893, worksheet.outputs_energy_flows_ad492, 0.002); end
   def test_user_inputs_g7; assert_in_delta(0.0, (worksheet.user_inputs_g7||0), 0.002); end
   def test_user_inputs_g8; assert_in_delta(0.0, (worksheet.user_inputs_g8||0), 0.002); end
   def test_user_inputs_g9; assert_equal("Urban and non-urban travel will grow in cities with established development patterns. Without planning initiatives to shift existing trends, cities that are still growing rapidly will see more growth in personal travel.", worksheet.user_inputs_g9); end
