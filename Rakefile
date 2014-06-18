@@ -45,7 +45,10 @@ file 'ext/global_2050_model.c' do
   require 'excel_to_code'
   command = ExcelToC.new
   setup(command)
-  command.go!
+  require 'stackprof'
+  StackProf.run(mode: :cpu, out: './stackprof-cpu-profile.dump') do
+    command.go!
+  end
 end
 
 desc "Creates just a set of tests against the current spreadsheet/model.xlsx, but doesn't actually generate the code"

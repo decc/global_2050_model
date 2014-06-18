@@ -49,6 +49,7 @@ GEM
       rubyscriptwriter
     rubyscriptwriter (0.0.2)
     slop (3.5.0)
+    stackprof (0.2.6)
 
 PLATFORMS
   java
@@ -62,3 +63,4 @@ DEPENDENCIES
   pry-rescue
   pry-stack_explorer
   rake
+  stackprof
