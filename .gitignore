@@ -1,4 +1,6 @@
 *.o
+*.so
+*.dump
 *.dylib
 *.gem
 spreadsheet/2050Model
