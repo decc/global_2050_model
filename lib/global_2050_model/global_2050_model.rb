@@ -884,6 +884,13 @@ module Global2050Model
   attach_function 'user_inputs_r6', [], ExcelValue.by_value
   attach_function 'user_inputs_s6', [], ExcelValue.by_value
   attach_function 'user_inputs_t6', [], ExcelValue.by_value
+  attach_function 'user_inputs_u6', [], ExcelValue.by_value
+  attach_function 'user_inputs_v6', [], ExcelValue.by_value
+  attach_function 'user_inputs_w6', [], ExcelValue.by_value
+  attach_function 'user_inputs_x6', [], ExcelValue.by_value
+  attach_function 'user_inputs_y6', [], ExcelValue.by_value
+  attach_function 'user_inputs_z6', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa6', [], ExcelValue.by_value
   attach_function 'user_inputs_h7', [], ExcelValue.by_value
   attach_function 'user_inputs_i7', [], ExcelValue.by_value
   attach_function 'user_inputs_j7', [], ExcelValue.by_value
@@ -897,6 +904,13 @@ module Global2050Model
   attach_function 'user_inputs_r7', [], ExcelValue.by_value
   attach_function 'user_inputs_s7', [], ExcelValue.by_value
   attach_function 'user_inputs_t7', [], ExcelValue.by_value
+  attach_function 'user_inputs_u7', [], ExcelValue.by_value
+  attach_function 'user_inputs_v7', [], ExcelValue.by_value
+  attach_function 'user_inputs_w7', [], ExcelValue.by_value
+  attach_function 'user_inputs_x7', [], ExcelValue.by_value
+  attach_function 'user_inputs_y7', [], ExcelValue.by_value
+  attach_function 'user_inputs_z7', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa7', [], ExcelValue.by_value
   attach_function 'user_inputs_h8', [], ExcelValue.by_value
   attach_function 'user_inputs_i8', [], ExcelValue.by_value
   attach_function 'user_inputs_j8', [], ExcelValue.by_value
@@ -910,6 +924,13 @@ module Global2050Model
   attach_function 'user_inputs_r8', [], ExcelValue.by_value
   attach_function 'user_inputs_s8', [], ExcelValue.by_value
   attach_function 'user_inputs_t8', [], ExcelValue.by_value
+  attach_function 'user_inputs_u8', [], ExcelValue.by_value
+  attach_function 'user_inputs_v8', [], ExcelValue.by_value
+  attach_function 'user_inputs_w8', [], ExcelValue.by_value
+  attach_function 'user_inputs_x8', [], ExcelValue.by_value
+  attach_function 'user_inputs_y8', [], ExcelValue.by_value
+  attach_function 'user_inputs_z8', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa8', [], ExcelValue.by_value
   attach_function 'user_inputs_h9', [], ExcelValue.by_value
   attach_function 'user_inputs_i9', [], ExcelValue.by_value
   attach_function 'user_inputs_j9', [], ExcelValue.by_value
@@ -923,6 +944,13 @@ module Global2050Model
   attach_function 'user_inputs_r9', [], ExcelValue.by_value
   attach_function 'user_inputs_s9', [], ExcelValue.by_value
   attach_function 'user_inputs_t9', [], ExcelValue.by_value
+  attach_function 'user_inputs_u9', [], ExcelValue.by_value
+  attach_function 'user_inputs_v9', [], ExcelValue.by_value
+  attach_function 'user_inputs_w9', [], ExcelValue.by_value
+  attach_function 'user_inputs_x9', [], ExcelValue.by_value
+  attach_function 'user_inputs_y9', [], ExcelValue.by_value
+  attach_function 'user_inputs_z9', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa9', [], ExcelValue.by_value
   attach_function 'user_inputs_h10', [], ExcelValue.by_value
   attach_function 'user_inputs_i10', [], ExcelValue.by_value
   attach_function 'user_inputs_j10', [], ExcelValue.by_value
@@ -936,6 +964,13 @@ module Global2050Model
   attach_function 'user_inputs_r10', [], ExcelValue.by_value
   attach_function 'user_inputs_s10', [], ExcelValue.by_value
   attach_function 'user_inputs_t10', [], ExcelValue.by_value
+  attach_function 'user_inputs_u10', [], ExcelValue.by_value
+  attach_function 'user_inputs_v10', [], ExcelValue.by_value
+  attach_function 'user_inputs_w10', [], ExcelValue.by_value
+  attach_function 'user_inputs_x10', [], ExcelValue.by_value
+  attach_function 'user_inputs_y10', [], ExcelValue.by_value
+  attach_function 'user_inputs_z10', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa10', [], ExcelValue.by_value
   attach_function 'user_inputs_h11', [], ExcelValue.by_value
   attach_function 'user_inputs_i11', [], ExcelValue.by_value
   attach_function 'user_inputs_j11', [], ExcelValue.by_value
@@ -949,6 +984,13 @@ module Global2050Model
   attach_function 'user_inputs_r11', [], ExcelValue.by_value
   attach_function 'user_inputs_s11', [], ExcelValue.by_value
   attach_function 'user_inputs_t11', [], ExcelValue.by_value
+  attach_function 'user_inputs_u11', [], ExcelValue.by_value
+  attach_function 'user_inputs_v11', [], ExcelValue.by_value
+  attach_function 'user_inputs_w11', [], ExcelValue.by_value
+  attach_function 'user_inputs_x11', [], ExcelValue.by_value
+  attach_function 'user_inputs_y11', [], ExcelValue.by_value
+  attach_function 'user_inputs_z11', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa11', [], ExcelValue.by_value
   attach_function 'user_inputs_h12', [], ExcelValue.by_value
   attach_function 'user_inputs_i12', [], ExcelValue.by_value
   attach_function 'user_inputs_j12', [], ExcelValue.by_value
@@ -962,6 +1004,13 @@ module Global2050Model
   attach_function 'user_inputs_r12', [], ExcelValue.by_value
   attach_function 'user_inputs_s12', [], ExcelValue.by_value
   attach_function 'user_inputs_t12', [], ExcelValue.by_value
+  attach_function 'user_inputs_u12', [], ExcelValue.by_value
+  attach_function 'user_inputs_v12', [], ExcelValue.by_value
+  attach_function 'user_inputs_w12', [], ExcelValue.by_value
+  attach_function 'user_inputs_x12', [], ExcelValue.by_value
+  attach_function 'user_inputs_y12', [], ExcelValue.by_value
+  attach_function 'user_inputs_z12', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa12', [], ExcelValue.by_value
   attach_function 'user_inputs_h13', [], ExcelValue.by_value
   attach_function 'user_inputs_i13', [], ExcelValue.by_value
   attach_function 'user_inputs_j13', [], ExcelValue.by_value
@@ -975,6 +1024,13 @@ module Global2050Model
   attach_function 'user_inputs_r13', [], ExcelValue.by_value
   attach_function 'user_inputs_s13', [], ExcelValue.by_value
   attach_function 'user_inputs_t13', [], ExcelValue.by_value
+  attach_function 'user_inputs_u13', [], ExcelValue.by_value
+  attach_function 'user_inputs_v13', [], ExcelValue.by_value
+  attach_function 'user_inputs_w13', [], ExcelValue.by_value
+  attach_function 'user_inputs_x13', [], ExcelValue.by_value
+  attach_function 'user_inputs_y13', [], ExcelValue.by_value
+  attach_function 'user_inputs_z13', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa13', [], ExcelValue.by_value
   attach_function 'user_inputs_h14', [], ExcelValue.by_value
   attach_function 'user_inputs_i14', [], ExcelValue.by_value
   attach_function 'user_inputs_j14', [], ExcelValue.by_value
@@ -988,6 +1044,13 @@ module Global2050Model
   attach_function 'user_inputs_r14', [], ExcelValue.by_value
   attach_function 'user_inputs_s14', [], ExcelValue.by_value
   attach_function 'user_inputs_t14', [], ExcelValue.by_value
+  attach_function 'user_inputs_u14', [], ExcelValue.by_value
+  attach_function 'user_inputs_v14', [], ExcelValue.by_value
+  attach_function 'user_inputs_w14', [], ExcelValue.by_value
+  attach_function 'user_inputs_x14', [], ExcelValue.by_value
+  attach_function 'user_inputs_y14', [], ExcelValue.by_value
+  attach_function 'user_inputs_z14', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa14', [], ExcelValue.by_value
   attach_function 'user_inputs_h15', [], ExcelValue.by_value
   attach_function 'user_inputs_i15', [], ExcelValue.by_value
   attach_function 'user_inputs_j15', [], ExcelValue.by_value
@@ -1001,6 +1064,13 @@ module Global2050Model
   attach_function 'user_inputs_r15', [], ExcelValue.by_value
   attach_function 'user_inputs_s15', [], ExcelValue.by_value
   attach_function 'user_inputs_t15', [], ExcelValue.by_value
+  attach_function 'user_inputs_u15', [], ExcelValue.by_value
+  attach_function 'user_inputs_v15', [], ExcelValue.by_value
+  attach_function 'user_inputs_w15', [], ExcelValue.by_value
+  attach_function 'user_inputs_x15', [], ExcelValue.by_value
+  attach_function 'user_inputs_y15', [], ExcelValue.by_value
+  attach_function 'user_inputs_z15', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa15', [], ExcelValue.by_value
   attach_function 'user_inputs_h16', [], ExcelValue.by_value
   attach_function 'user_inputs_i16', [], ExcelValue.by_value
   attach_function 'user_inputs_j16', [], ExcelValue.by_value
@@ -1014,6 +1084,13 @@ module Global2050Model
   attach_function 'user_inputs_r16', [], ExcelValue.by_value
   attach_function 'user_inputs_s16', [], ExcelValue.by_value
   attach_function 'user_inputs_t16', [], ExcelValue.by_value
+  attach_function 'user_inputs_u16', [], ExcelValue.by_value
+  attach_function 'user_inputs_v16', [], ExcelValue.by_value
+  attach_function 'user_inputs_w16', [], ExcelValue.by_value
+  attach_function 'user_inputs_x16', [], ExcelValue.by_value
+  attach_function 'user_inputs_y16', [], ExcelValue.by_value
+  attach_function 'user_inputs_z16', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa16', [], ExcelValue.by_value
   attach_function 'user_inputs_h17', [], ExcelValue.by_value
   attach_function 'user_inputs_i17', [], ExcelValue.by_value
   attach_function 'user_inputs_j17', [], ExcelValue.by_value
@@ -1027,6 +1104,13 @@ module Global2050Model
   attach_function 'user_inputs_r17', [], ExcelValue.by_value
   attach_function 'user_inputs_s17', [], ExcelValue.by_value
   attach_function 'user_inputs_t17', [], ExcelValue.by_value
+  attach_function 'user_inputs_u17', [], ExcelValue.by_value
+  attach_function 'user_inputs_v17', [], ExcelValue.by_value
+  attach_function 'user_inputs_w17', [], ExcelValue.by_value
+  attach_function 'user_inputs_x17', [], ExcelValue.by_value
+  attach_function 'user_inputs_y17', [], ExcelValue.by_value
+  attach_function 'user_inputs_z17', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa17', [], ExcelValue.by_value
   attach_function 'user_inputs_h18', [], ExcelValue.by_value
   attach_function 'user_inputs_i18', [], ExcelValue.by_value
   attach_function 'user_inputs_j18', [], ExcelValue.by_value
@@ -1040,6 +1124,13 @@ module Global2050Model
   attach_function 'user_inputs_r18', [], ExcelValue.by_value
   attach_function 'user_inputs_s18', [], ExcelValue.by_value
   attach_function 'user_inputs_t18', [], ExcelValue.by_value
+  attach_function 'user_inputs_u18', [], ExcelValue.by_value
+  attach_function 'user_inputs_v18', [], ExcelValue.by_value
+  attach_function 'user_inputs_w18', [], ExcelValue.by_value
+  attach_function 'user_inputs_x18', [], ExcelValue.by_value
+  attach_function 'user_inputs_y18', [], ExcelValue.by_value
+  attach_function 'user_inputs_z18', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa18', [], ExcelValue.by_value
   attach_function 'user_inputs_h19', [], ExcelValue.by_value
   attach_function 'user_inputs_i19', [], ExcelValue.by_value
   attach_function 'user_inputs_j19', [], ExcelValue.by_value
@@ -1053,6 +1144,13 @@ module Global2050Model
   attach_function 'user_inputs_r19', [], ExcelValue.by_value
   attach_function 'user_inputs_s19', [], ExcelValue.by_value
   attach_function 'user_inputs_t19', [], ExcelValue.by_value
+  attach_function 'user_inputs_u19', [], ExcelValue.by_value
+  attach_function 'user_inputs_v19', [], ExcelValue.by_value
+  attach_function 'user_inputs_w19', [], ExcelValue.by_value
+  attach_function 'user_inputs_x19', [], ExcelValue.by_value
+  attach_function 'user_inputs_y19', [], ExcelValue.by_value
+  attach_function 'user_inputs_z19', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa19', [], ExcelValue.by_value
   attach_function 'user_inputs_h20', [], ExcelValue.by_value
   attach_function 'user_inputs_i20', [], ExcelValue.by_value
   attach_function 'user_inputs_j20', [], ExcelValue.by_value
@@ -1066,6 +1164,13 @@ module Global2050Model
   attach_function 'user_inputs_r20', [], ExcelValue.by_value
   attach_function 'user_inputs_s20', [], ExcelValue.by_value
   attach_function 'user_inputs_t20', [], ExcelValue.by_value
+  attach_function 'user_inputs_u20', [], ExcelValue.by_value
+  attach_function 'user_inputs_v20', [], ExcelValue.by_value
+  attach_function 'user_inputs_w20', [], ExcelValue.by_value
+  attach_function 'user_inputs_x20', [], ExcelValue.by_value
+  attach_function 'user_inputs_y20', [], ExcelValue.by_value
+  attach_function 'user_inputs_z20', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa20', [], ExcelValue.by_value
   attach_function 'user_inputs_h21', [], ExcelValue.by_value
   attach_function 'user_inputs_i21', [], ExcelValue.by_value
   attach_function 'user_inputs_j21', [], ExcelValue.by_value
@@ -1079,6 +1184,13 @@ module Global2050Model
   attach_function 'user_inputs_r21', [], ExcelValue.by_value
   attach_function 'user_inputs_s21', [], ExcelValue.by_value
   attach_function 'user_inputs_t21', [], ExcelValue.by_value
+  attach_function 'user_inputs_u21', [], ExcelValue.by_value
+  attach_function 'user_inputs_v21', [], ExcelValue.by_value
+  attach_function 'user_inputs_w21', [], ExcelValue.by_value
+  attach_function 'user_inputs_x21', [], ExcelValue.by_value
+  attach_function 'user_inputs_y21', [], ExcelValue.by_value
+  attach_function 'user_inputs_z21', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa21', [], ExcelValue.by_value
   attach_function 'user_inputs_h22', [], ExcelValue.by_value
   attach_function 'user_inputs_i22', [], ExcelValue.by_value
   attach_function 'user_inputs_j22', [], ExcelValue.by_value
@@ -1092,6 +1204,13 @@ module Global2050Model
   attach_function 'user_inputs_r22', [], ExcelValue.by_value
   attach_function 'user_inputs_s22', [], ExcelValue.by_value
   attach_function 'user_inputs_t22', [], ExcelValue.by_value
+  attach_function 'user_inputs_u22', [], ExcelValue.by_value
+  attach_function 'user_inputs_v22', [], ExcelValue.by_value
+  attach_function 'user_inputs_w22', [], ExcelValue.by_value
+  attach_function 'user_inputs_x22', [], ExcelValue.by_value
+  attach_function 'user_inputs_y22', [], ExcelValue.by_value
+  attach_function 'user_inputs_z22', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa22', [], ExcelValue.by_value
   attach_function 'user_inputs_h23', [], ExcelValue.by_value
   attach_function 'user_inputs_i23', [], ExcelValue.by_value
   attach_function 'user_inputs_j23', [], ExcelValue.by_value
@@ -1105,6 +1224,13 @@ module Global2050Model
   attach_function 'user_inputs_r23', [], ExcelValue.by_value
   attach_function 'user_inputs_s23', [], ExcelValue.by_value
   attach_function 'user_inputs_t23', [], ExcelValue.by_value
+  attach_function 'user_inputs_u23', [], ExcelValue.by_value
+  attach_function 'user_inputs_v23', [], ExcelValue.by_value
+  attach_function 'user_inputs_w23', [], ExcelValue.by_value
+  attach_function 'user_inputs_x23', [], ExcelValue.by_value
+  attach_function 'user_inputs_y23', [], ExcelValue.by_value
+  attach_function 'user_inputs_z23', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa23', [], ExcelValue.by_value
   attach_function 'user_inputs_h24', [], ExcelValue.by_value
   attach_function 'user_inputs_i24', [], ExcelValue.by_value
   attach_function 'user_inputs_j24', [], ExcelValue.by_value
@@ -1118,6 +1244,13 @@ module Global2050Model
   attach_function 'user_inputs_r24', [], ExcelValue.by_value
   attach_function 'user_inputs_s24', [], ExcelValue.by_value
   attach_function 'user_inputs_t24', [], ExcelValue.by_value
+  attach_function 'user_inputs_u24', [], ExcelValue.by_value
+  attach_function 'user_inputs_v24', [], ExcelValue.by_value
+  attach_function 'user_inputs_w24', [], ExcelValue.by_value
+  attach_function 'user_inputs_x24', [], ExcelValue.by_value
+  attach_function 'user_inputs_y24', [], ExcelValue.by_value
+  attach_function 'user_inputs_z24', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa24', [], ExcelValue.by_value
   attach_function 'user_inputs_h25', [], ExcelValue.by_value
   attach_function 'user_inputs_i25', [], ExcelValue.by_value
   attach_function 'user_inputs_j25', [], ExcelValue.by_value
@@ -1131,6 +1264,13 @@ module Global2050Model
   attach_function 'user_inputs_r25', [], ExcelValue.by_value
   attach_function 'user_inputs_s25', [], ExcelValue.by_value
   attach_function 'user_inputs_t25', [], ExcelValue.by_value
+  attach_function 'user_inputs_u25', [], ExcelValue.by_value
+  attach_function 'user_inputs_v25', [], ExcelValue.by_value
+  attach_function 'user_inputs_w25', [], ExcelValue.by_value
+  attach_function 'user_inputs_x25', [], ExcelValue.by_value
+  attach_function 'user_inputs_y25', [], ExcelValue.by_value
+  attach_function 'user_inputs_z25', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa25', [], ExcelValue.by_value
   attach_function 'user_inputs_h26', [], ExcelValue.by_value
   attach_function 'user_inputs_i26', [], ExcelValue.by_value
   attach_function 'user_inputs_j26', [], ExcelValue.by_value
@@ -1144,6 +1284,13 @@ module Global2050Model
   attach_function 'user_inputs_r26', [], ExcelValue.by_value
   attach_function 'user_inputs_s26', [], ExcelValue.by_value
   attach_function 'user_inputs_t26', [], ExcelValue.by_value
+  attach_function 'user_inputs_u26', [], ExcelValue.by_value
+  attach_function 'user_inputs_v26', [], ExcelValue.by_value
+  attach_function 'user_inputs_w26', [], ExcelValue.by_value
+  attach_function 'user_inputs_x26', [], ExcelValue.by_value
+  attach_function 'user_inputs_y26', [], ExcelValue.by_value
+  attach_function 'user_inputs_z26', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa26', [], ExcelValue.by_value
   attach_function 'user_inputs_h27', [], ExcelValue.by_value
   attach_function 'user_inputs_i27', [], ExcelValue.by_value
   attach_function 'user_inputs_j27', [], ExcelValue.by_value
@@ -1157,6 +1304,13 @@ module Global2050Model
   attach_function 'user_inputs_r27', [], ExcelValue.by_value
   attach_function 'user_inputs_s27', [], ExcelValue.by_value
   attach_function 'user_inputs_t27', [], ExcelValue.by_value
+  attach_function 'user_inputs_u27', [], ExcelValue.by_value
+  attach_function 'user_inputs_v27', [], ExcelValue.by_value
+  attach_function 'user_inputs_w27', [], ExcelValue.by_value
+  attach_function 'user_inputs_x27', [], ExcelValue.by_value
+  attach_function 'user_inputs_y27', [], ExcelValue.by_value
+  attach_function 'user_inputs_z27', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa27', [], ExcelValue.by_value
   attach_function 'user_inputs_h28', [], ExcelValue.by_value
   attach_function 'user_inputs_i28', [], ExcelValue.by_value
   attach_function 'user_inputs_j28', [], ExcelValue.by_value
@@ -1170,6 +1324,13 @@ module Global2050Model
   attach_function 'user_inputs_r28', [], ExcelValue.by_value
   attach_function 'user_inputs_s28', [], ExcelValue.by_value
   attach_function 'user_inputs_t28', [], ExcelValue.by_value
+  attach_function 'user_inputs_u28', [], ExcelValue.by_value
+  attach_function 'user_inputs_v28', [], ExcelValue.by_value
+  attach_function 'user_inputs_w28', [], ExcelValue.by_value
+  attach_function 'user_inputs_x28', [], ExcelValue.by_value
+  attach_function 'user_inputs_y28', [], ExcelValue.by_value
+  attach_function 'user_inputs_z28', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa28', [], ExcelValue.by_value
   attach_function 'user_inputs_h29', [], ExcelValue.by_value
   attach_function 'user_inputs_i29', [], ExcelValue.by_value
   attach_function 'user_inputs_j29', [], ExcelValue.by_value
@@ -1183,6 +1344,13 @@ module Global2050Model
   attach_function 'user_inputs_r29', [], ExcelValue.by_value
   attach_function 'user_inputs_s29', [], ExcelValue.by_value
   attach_function 'user_inputs_t29', [], ExcelValue.by_value
+  attach_function 'user_inputs_u29', [], ExcelValue.by_value
+  attach_function 'user_inputs_v29', [], ExcelValue.by_value
+  attach_function 'user_inputs_w29', [], ExcelValue.by_value
+  attach_function 'user_inputs_x29', [], ExcelValue.by_value
+  attach_function 'user_inputs_y29', [], ExcelValue.by_value
+  attach_function 'user_inputs_z29', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa29', [], ExcelValue.by_value
   attach_function 'user_inputs_h30', [], ExcelValue.by_value
   attach_function 'user_inputs_i30', [], ExcelValue.by_value
   attach_function 'user_inputs_j30', [], ExcelValue.by_value
@@ -1196,6 +1364,13 @@ module Global2050Model
   attach_function 'user_inputs_r30', [], ExcelValue.by_value
   attach_function 'user_inputs_s30', [], ExcelValue.by_value
   attach_function 'user_inputs_t30', [], ExcelValue.by_value
+  attach_function 'user_inputs_u30', [], ExcelValue.by_value
+  attach_function 'user_inputs_v30', [], ExcelValue.by_value
+  attach_function 'user_inputs_w30', [], ExcelValue.by_value
+  attach_function 'user_inputs_x30', [], ExcelValue.by_value
+  attach_function 'user_inputs_y30', [], ExcelValue.by_value
+  attach_function 'user_inputs_z30', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa30', [], ExcelValue.by_value
   attach_function 'user_inputs_h31', [], ExcelValue.by_value
   attach_function 'user_inputs_i31', [], ExcelValue.by_value
   attach_function 'user_inputs_j31', [], ExcelValue.by_value
@@ -1209,6 +1384,13 @@ module Global2050Model
   attach_function 'user_inputs_r31', [], ExcelValue.by_value
   attach_function 'user_inputs_s31', [], ExcelValue.by_value
   attach_function 'user_inputs_t31', [], ExcelValue.by_value
+  attach_function 'user_inputs_u31', [], ExcelValue.by_value
+  attach_function 'user_inputs_v31', [], ExcelValue.by_value
+  attach_function 'user_inputs_w31', [], ExcelValue.by_value
+  attach_function 'user_inputs_x31', [], ExcelValue.by_value
+  attach_function 'user_inputs_y31', [], ExcelValue.by_value
+  attach_function 'user_inputs_z31', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa31', [], ExcelValue.by_value
   attach_function 'user_inputs_h32', [], ExcelValue.by_value
   attach_function 'user_inputs_i32', [], ExcelValue.by_value
   attach_function 'user_inputs_j32', [], ExcelValue.by_value
@@ -1222,6 +1404,13 @@ module Global2050Model
   attach_function 'user_inputs_r32', [], ExcelValue.by_value
   attach_function 'user_inputs_s32', [], ExcelValue.by_value
   attach_function 'user_inputs_t32', [], ExcelValue.by_value
+  attach_function 'user_inputs_u32', [], ExcelValue.by_value
+  attach_function 'user_inputs_v32', [], ExcelValue.by_value
+  attach_function 'user_inputs_w32', [], ExcelValue.by_value
+  attach_function 'user_inputs_x32', [], ExcelValue.by_value
+  attach_function 'user_inputs_y32', [], ExcelValue.by_value
+  attach_function 'user_inputs_z32', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa32', [], ExcelValue.by_value
   attach_function 'user_inputs_h33', [], ExcelValue.by_value
   attach_function 'user_inputs_i33', [], ExcelValue.by_value
   attach_function 'user_inputs_j33', [], ExcelValue.by_value
@@ -1235,6 +1424,13 @@ module Global2050Model
   attach_function 'user_inputs_r33', [], ExcelValue.by_value
   attach_function 'user_inputs_s33', [], ExcelValue.by_value
   attach_function 'user_inputs_t33', [], ExcelValue.by_value
+  attach_function 'user_inputs_u33', [], ExcelValue.by_value
+  attach_function 'user_inputs_v33', [], ExcelValue.by_value
+  attach_function 'user_inputs_w33', [], ExcelValue.by_value
+  attach_function 'user_inputs_x33', [], ExcelValue.by_value
+  attach_function 'user_inputs_y33', [], ExcelValue.by_value
+  attach_function 'user_inputs_z33', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa33', [], ExcelValue.by_value
   attach_function 'user_inputs_h34', [], ExcelValue.by_value
   attach_function 'user_inputs_i34', [], ExcelValue.by_value
   attach_function 'user_inputs_j34', [], ExcelValue.by_value
@@ -1248,6 +1444,13 @@ module Global2050Model
   attach_function 'user_inputs_r34', [], ExcelValue.by_value
   attach_function 'user_inputs_s34', [], ExcelValue.by_value
   attach_function 'user_inputs_t34', [], ExcelValue.by_value
+  attach_function 'user_inputs_u34', [], ExcelValue.by_value
+  attach_function 'user_inputs_v34', [], ExcelValue.by_value
+  attach_function 'user_inputs_w34', [], ExcelValue.by_value
+  attach_function 'user_inputs_x34', [], ExcelValue.by_value
+  attach_function 'user_inputs_y34', [], ExcelValue.by_value
+  attach_function 'user_inputs_z34', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa34', [], ExcelValue.by_value
   attach_function 'user_inputs_h35', [], ExcelValue.by_value
   attach_function 'user_inputs_i35', [], ExcelValue.by_value
   attach_function 'user_inputs_j35', [], ExcelValue.by_value
@@ -1261,6 +1464,13 @@ module Global2050Model
   attach_function 'user_inputs_r35', [], ExcelValue.by_value
   attach_function 'user_inputs_s35', [], ExcelValue.by_value
   attach_function 'user_inputs_t35', [], ExcelValue.by_value
+  attach_function 'user_inputs_u35', [], ExcelValue.by_value
+  attach_function 'user_inputs_v35', [], ExcelValue.by_value
+  attach_function 'user_inputs_w35', [], ExcelValue.by_value
+  attach_function 'user_inputs_x35', [], ExcelValue.by_value
+  attach_function 'user_inputs_y35', [], ExcelValue.by_value
+  attach_function 'user_inputs_z35', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa35', [], ExcelValue.by_value
   attach_function 'user_inputs_h36', [], ExcelValue.by_value
   attach_function 'user_inputs_i36', [], ExcelValue.by_value
   attach_function 'user_inputs_j36', [], ExcelValue.by_value
@@ -1274,6 +1484,13 @@ module Global2050Model
   attach_function 'user_inputs_r36', [], ExcelValue.by_value
   attach_function 'user_inputs_s36', [], ExcelValue.by_value
   attach_function 'user_inputs_t36', [], ExcelValue.by_value
+  attach_function 'user_inputs_u36', [], ExcelValue.by_value
+  attach_function 'user_inputs_v36', [], ExcelValue.by_value
+  attach_function 'user_inputs_w36', [], ExcelValue.by_value
+  attach_function 'user_inputs_x36', [], ExcelValue.by_value
+  attach_function 'user_inputs_y36', [], ExcelValue.by_value
+  attach_function 'user_inputs_z36', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa36', [], ExcelValue.by_value
   attach_function 'user_inputs_h37', [], ExcelValue.by_value
   attach_function 'user_inputs_i37', [], ExcelValue.by_value
   attach_function 'user_inputs_j37', [], ExcelValue.by_value
@@ -1287,6 +1504,13 @@ module Global2050Model
   attach_function 'user_inputs_r37', [], ExcelValue.by_value
   attach_function 'user_inputs_s37', [], ExcelValue.by_value
   attach_function 'user_inputs_t37', [], ExcelValue.by_value
+  attach_function 'user_inputs_u37', [], ExcelValue.by_value
+  attach_function 'user_inputs_v37', [], ExcelValue.by_value
+  attach_function 'user_inputs_w37', [], ExcelValue.by_value
+  attach_function 'user_inputs_x37', [], ExcelValue.by_value
+  attach_function 'user_inputs_y37', [], ExcelValue.by_value
+  attach_function 'user_inputs_z37', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa37', [], ExcelValue.by_value
   attach_function 'user_inputs_h38', [], ExcelValue.by_value
   attach_function 'user_inputs_i38', [], ExcelValue.by_value
   attach_function 'user_inputs_j38', [], ExcelValue.by_value
@@ -1300,6 +1524,13 @@ module Global2050Model
   attach_function 'user_inputs_r38', [], ExcelValue.by_value
   attach_function 'user_inputs_s38', [], ExcelValue.by_value
   attach_function 'user_inputs_t38', [], ExcelValue.by_value
+  attach_function 'user_inputs_u38', [], ExcelValue.by_value
+  attach_function 'user_inputs_v38', [], ExcelValue.by_value
+  attach_function 'user_inputs_w38', [], ExcelValue.by_value
+  attach_function 'user_inputs_x38', [], ExcelValue.by_value
+  attach_function 'user_inputs_y38', [], ExcelValue.by_value
+  attach_function 'user_inputs_z38', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa38', [], ExcelValue.by_value
   attach_function 'user_inputs_h39', [], ExcelValue.by_value
   attach_function 'user_inputs_i39', [], ExcelValue.by_value
   attach_function 'user_inputs_j39', [], ExcelValue.by_value
@@ -1313,6 +1544,13 @@ module Global2050Model
   attach_function 'user_inputs_r39', [], ExcelValue.by_value
   attach_function 'user_inputs_s39', [], ExcelValue.by_value
   attach_function 'user_inputs_t39', [], ExcelValue.by_value
+  attach_function 'user_inputs_u39', [], ExcelValue.by_value
+  attach_function 'user_inputs_v39', [], ExcelValue.by_value
+  attach_function 'user_inputs_w39', [], ExcelValue.by_value
+  attach_function 'user_inputs_x39', [], ExcelValue.by_value
+  attach_function 'user_inputs_y39', [], ExcelValue.by_value
+  attach_function 'user_inputs_z39', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa39', [], ExcelValue.by_value
   attach_function 'user_inputs_h40', [], ExcelValue.by_value
   attach_function 'user_inputs_i40', [], ExcelValue.by_value
   attach_function 'user_inputs_j40', [], ExcelValue.by_value
@@ -1326,6 +1564,13 @@ module Global2050Model
   attach_function 'user_inputs_r40', [], ExcelValue.by_value
   attach_function 'user_inputs_s40', [], ExcelValue.by_value
   attach_function 'user_inputs_t40', [], ExcelValue.by_value
+  attach_function 'user_inputs_u40', [], ExcelValue.by_value
+  attach_function 'user_inputs_v40', [], ExcelValue.by_value
+  attach_function 'user_inputs_w40', [], ExcelValue.by_value
+  attach_function 'user_inputs_x40', [], ExcelValue.by_value
+  attach_function 'user_inputs_y40', [], ExcelValue.by_value
+  attach_function 'user_inputs_z40', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa40', [], ExcelValue.by_value
   attach_function 'user_inputs_h41', [], ExcelValue.by_value
   attach_function 'user_inputs_i41', [], ExcelValue.by_value
   attach_function 'user_inputs_j41', [], ExcelValue.by_value
@@ -1339,6 +1584,13 @@ module Global2050Model
   attach_function 'user_inputs_r41', [], ExcelValue.by_value
   attach_function 'user_inputs_s41', [], ExcelValue.by_value
   attach_function 'user_inputs_t41', [], ExcelValue.by_value
+  attach_function 'user_inputs_u41', [], ExcelValue.by_value
+  attach_function 'user_inputs_v41', [], ExcelValue.by_value
+  attach_function 'user_inputs_w41', [], ExcelValue.by_value
+  attach_function 'user_inputs_x41', [], ExcelValue.by_value
+  attach_function 'user_inputs_y41', [], ExcelValue.by_value
+  attach_function 'user_inputs_z41', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa41', [], ExcelValue.by_value
   attach_function 'user_inputs_h42', [], ExcelValue.by_value
   attach_function 'user_inputs_i42', [], ExcelValue.by_value
   attach_function 'user_inputs_j42', [], ExcelValue.by_value
@@ -1352,6 +1604,13 @@ module Global2050Model
   attach_function 'user_inputs_r42', [], ExcelValue.by_value
   attach_function 'user_inputs_s42', [], ExcelValue.by_value
   attach_function 'user_inputs_t42', [], ExcelValue.by_value
+  attach_function 'user_inputs_u42', [], ExcelValue.by_value
+  attach_function 'user_inputs_v42', [], ExcelValue.by_value
+  attach_function 'user_inputs_w42', [], ExcelValue.by_value
+  attach_function 'user_inputs_x42', [], ExcelValue.by_value
+  attach_function 'user_inputs_y42', [], ExcelValue.by_value
+  attach_function 'user_inputs_z42', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa42', [], ExcelValue.by_value
   attach_function 'user_inputs_h43', [], ExcelValue.by_value
   attach_function 'user_inputs_i43', [], ExcelValue.by_value
   attach_function 'user_inputs_j43', [], ExcelValue.by_value
@@ -1365,6 +1624,13 @@ module Global2050Model
   attach_function 'user_inputs_r43', [], ExcelValue.by_value
   attach_function 'user_inputs_s43', [], ExcelValue.by_value
   attach_function 'user_inputs_t43', [], ExcelValue.by_value
+  attach_function 'user_inputs_u43', [], ExcelValue.by_value
+  attach_function 'user_inputs_v43', [], ExcelValue.by_value
+  attach_function 'user_inputs_w43', [], ExcelValue.by_value
+  attach_function 'user_inputs_x43', [], ExcelValue.by_value
+  attach_function 'user_inputs_y43', [], ExcelValue.by_value
+  attach_function 'user_inputs_z43', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa43', [], ExcelValue.by_value
   attach_function 'user_inputs_h44', [], ExcelValue.by_value
   attach_function 'user_inputs_i44', [], ExcelValue.by_value
   attach_function 'user_inputs_j44', [], ExcelValue.by_value
@@ -1378,6 +1644,13 @@ module Global2050Model
   attach_function 'user_inputs_r44', [], ExcelValue.by_value
   attach_function 'user_inputs_s44', [], ExcelValue.by_value
   attach_function 'user_inputs_t44', [], ExcelValue.by_value
+  attach_function 'user_inputs_u44', [], ExcelValue.by_value
+  attach_function 'user_inputs_v44', [], ExcelValue.by_value
+  attach_function 'user_inputs_w44', [], ExcelValue.by_value
+  attach_function 'user_inputs_x44', [], ExcelValue.by_value
+  attach_function 'user_inputs_y44', [], ExcelValue.by_value
+  attach_function 'user_inputs_z44', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa44', [], ExcelValue.by_value
   attach_function 'user_inputs_h45', [], ExcelValue.by_value
   attach_function 'user_inputs_i45', [], ExcelValue.by_value
   attach_function 'user_inputs_j45', [], ExcelValue.by_value
@@ -1391,6 +1664,13 @@ module Global2050Model
   attach_function 'user_inputs_r45', [], ExcelValue.by_value
   attach_function 'user_inputs_s45', [], ExcelValue.by_value
   attach_function 'user_inputs_t45', [], ExcelValue.by_value
+  attach_function 'user_inputs_u45', [], ExcelValue.by_value
+  attach_function 'user_inputs_v45', [], ExcelValue.by_value
+  attach_function 'user_inputs_w45', [], ExcelValue.by_value
+  attach_function 'user_inputs_x45', [], ExcelValue.by_value
+  attach_function 'user_inputs_y45', [], ExcelValue.by_value
+  attach_function 'user_inputs_z45', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa45', [], ExcelValue.by_value
   attach_function 'user_inputs_h46', [], ExcelValue.by_value
   attach_function 'user_inputs_i46', [], ExcelValue.by_value
   attach_function 'user_inputs_j46', [], ExcelValue.by_value
@@ -1404,6 +1684,13 @@ module Global2050Model
   attach_function 'user_inputs_r46', [], ExcelValue.by_value
   attach_function 'user_inputs_s46', [], ExcelValue.by_value
   attach_function 'user_inputs_t46', [], ExcelValue.by_value
+  attach_function 'user_inputs_u46', [], ExcelValue.by_value
+  attach_function 'user_inputs_v46', [], ExcelValue.by_value
+  attach_function 'user_inputs_w46', [], ExcelValue.by_value
+  attach_function 'user_inputs_x46', [], ExcelValue.by_value
+  attach_function 'user_inputs_y46', [], ExcelValue.by_value
+  attach_function 'user_inputs_z46', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa46', [], ExcelValue.by_value
   attach_function 'user_inputs_h47', [], ExcelValue.by_value
   attach_function 'user_inputs_i47', [], ExcelValue.by_value
   attach_function 'user_inputs_j47', [], ExcelValue.by_value
@@ -1417,6 +1704,13 @@ module Global2050Model
   attach_function 'user_inputs_r47', [], ExcelValue.by_value
   attach_function 'user_inputs_s47', [], ExcelValue.by_value
   attach_function 'user_inputs_t47', [], ExcelValue.by_value
+  attach_function 'user_inputs_u47', [], ExcelValue.by_value
+  attach_function 'user_inputs_v47', [], ExcelValue.by_value
+  attach_function 'user_inputs_w47', [], ExcelValue.by_value
+  attach_function 'user_inputs_x47', [], ExcelValue.by_value
+  attach_function 'user_inputs_y47', [], ExcelValue.by_value
+  attach_function 'user_inputs_z47', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa47', [], ExcelValue.by_value
   attach_function 'user_inputs_h48', [], ExcelValue.by_value
   attach_function 'user_inputs_i48', [], ExcelValue.by_value
   attach_function 'user_inputs_j48', [], ExcelValue.by_value
@@ -1430,6 +1724,13 @@ module Global2050Model
   attach_function 'user_inputs_r48', [], ExcelValue.by_value
   attach_function 'user_inputs_s48', [], ExcelValue.by_value
   attach_function 'user_inputs_t48', [], ExcelValue.by_value
+  attach_function 'user_inputs_u48', [], ExcelValue.by_value
+  attach_function 'user_inputs_v48', [], ExcelValue.by_value
+  attach_function 'user_inputs_w48', [], ExcelValue.by_value
+  attach_function 'user_inputs_x48', [], ExcelValue.by_value
+  attach_function 'user_inputs_y48', [], ExcelValue.by_value
+  attach_function 'user_inputs_z48', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa48', [], ExcelValue.by_value
   attach_function 'user_inputs_h49', [], ExcelValue.by_value
   attach_function 'user_inputs_i49', [], ExcelValue.by_value
   attach_function 'user_inputs_j49', [], ExcelValue.by_value
@@ -1443,6 +1744,13 @@ module Global2050Model
   attach_function 'user_inputs_r49', [], ExcelValue.by_value
   attach_function 'user_inputs_s49', [], ExcelValue.by_value
   attach_function 'user_inputs_t49', [], ExcelValue.by_value
+  attach_function 'user_inputs_u49', [], ExcelValue.by_value
+  attach_function 'user_inputs_v49', [], ExcelValue.by_value
+  attach_function 'user_inputs_w49', [], ExcelValue.by_value
+  attach_function 'user_inputs_x49', [], ExcelValue.by_value
+  attach_function 'user_inputs_y49', [], ExcelValue.by_value
+  attach_function 'user_inputs_z49', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa49', [], ExcelValue.by_value
   attach_function 'user_inputs_h50', [], ExcelValue.by_value
   attach_function 'user_inputs_i50', [], ExcelValue.by_value
   attach_function 'user_inputs_j50', [], ExcelValue.by_value
@@ -1456,6 +1764,13 @@ module Global2050Model
   attach_function 'user_inputs_r50', [], ExcelValue.by_value
   attach_function 'user_inputs_s50', [], ExcelValue.by_value
   attach_function 'user_inputs_t50', [], ExcelValue.by_value
+  attach_function 'user_inputs_u50', [], ExcelValue.by_value
+  attach_function 'user_inputs_v50', [], ExcelValue.by_value
+  attach_function 'user_inputs_w50', [], ExcelValue.by_value
+  attach_function 'user_inputs_x50', [], ExcelValue.by_value
+  attach_function 'user_inputs_y50', [], ExcelValue.by_value
+  attach_function 'user_inputs_z50', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa50', [], ExcelValue.by_value
   attach_function 'user_inputs_h51', [], ExcelValue.by_value
   attach_function 'user_inputs_i51', [], ExcelValue.by_value
   attach_function 'user_inputs_j51', [], ExcelValue.by_value
@@ -1469,6 +1784,13 @@ module Global2050Model
   attach_function 'user_inputs_r51', [], ExcelValue.by_value
   attach_function 'user_inputs_s51', [], ExcelValue.by_value
   attach_function 'user_inputs_t51', [], ExcelValue.by_value
+  attach_function 'user_inputs_u51', [], ExcelValue.by_value
+  attach_function 'user_inputs_v51', [], ExcelValue.by_value
+  attach_function 'user_inputs_w51', [], ExcelValue.by_value
+  attach_function 'user_inputs_x51', [], ExcelValue.by_value
+  attach_function 'user_inputs_y51', [], ExcelValue.by_value
+  attach_function 'user_inputs_z51', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa51', [], ExcelValue.by_value
   attach_function 'user_inputs_h52', [], ExcelValue.by_value
   attach_function 'user_inputs_i52', [], ExcelValue.by_value
   attach_function 'user_inputs_j52', [], ExcelValue.by_value
@@ -1482,6 +1804,13 @@ module Global2050Model
   attach_function 'user_inputs_r52', [], ExcelValue.by_value
   attach_function 'user_inputs_s52', [], ExcelValue.by_value
   attach_function 'user_inputs_t52', [], ExcelValue.by_value
+  attach_function 'user_inputs_u52', [], ExcelValue.by_value
+  attach_function 'user_inputs_v52', [], ExcelValue.by_value
+  attach_function 'user_inputs_w52', [], ExcelValue.by_value
+  attach_function 'user_inputs_x52', [], ExcelValue.by_value
+  attach_function 'user_inputs_y52', [], ExcelValue.by_value
+  attach_function 'user_inputs_z52', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa52', [], ExcelValue.by_value
   attach_function 'user_inputs_h53', [], ExcelValue.by_value
   attach_function 'user_inputs_i53', [], ExcelValue.by_value
   attach_function 'user_inputs_j53', [], ExcelValue.by_value
@@ -1495,6 +1824,13 @@ module Global2050Model
   attach_function 'user_inputs_r53', [], ExcelValue.by_value
   attach_function 'user_inputs_s53', [], ExcelValue.by_value
   attach_function 'user_inputs_t53', [], ExcelValue.by_value
+  attach_function 'user_inputs_u53', [], ExcelValue.by_value
+  attach_function 'user_inputs_v53', [], ExcelValue.by_value
+  attach_function 'user_inputs_w53', [], ExcelValue.by_value
+  attach_function 'user_inputs_x53', [], ExcelValue.by_value
+  attach_function 'user_inputs_y53', [], ExcelValue.by_value
+  attach_function 'user_inputs_z53', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa53', [], ExcelValue.by_value
   attach_function 'user_inputs_h54', [], ExcelValue.by_value
   attach_function 'user_inputs_i54', [], ExcelValue.by_value
   attach_function 'user_inputs_j54', [], ExcelValue.by_value
@@ -1508,6 +1844,13 @@ module Global2050Model
   attach_function 'user_inputs_r54', [], ExcelValue.by_value
   attach_function 'user_inputs_s54', [], ExcelValue.by_value
   attach_function 'user_inputs_t54', [], ExcelValue.by_value
+  attach_function 'user_inputs_u54', [], ExcelValue.by_value
+  attach_function 'user_inputs_v54', [], ExcelValue.by_value
+  attach_function 'user_inputs_w54', [], ExcelValue.by_value
+  attach_function 'user_inputs_x54', [], ExcelValue.by_value
+  attach_function 'user_inputs_y54', [], ExcelValue.by_value
+  attach_function 'user_inputs_z54', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa54', [], ExcelValue.by_value
   attach_function 'user_inputs_h55', [], ExcelValue.by_value
   attach_function 'user_inputs_i55', [], ExcelValue.by_value
   attach_function 'user_inputs_j55', [], ExcelValue.by_value
@@ -1521,6 +1864,13 @@ module Global2050Model
   attach_function 'user_inputs_r55', [], ExcelValue.by_value
   attach_function 'user_inputs_s55', [], ExcelValue.by_value
   attach_function 'user_inputs_t55', [], ExcelValue.by_value
+  attach_function 'user_inputs_u55', [], ExcelValue.by_value
+  attach_function 'user_inputs_v55', [], ExcelValue.by_value
+  attach_function 'user_inputs_w55', [], ExcelValue.by_value
+  attach_function 'user_inputs_x55', [], ExcelValue.by_value
+  attach_function 'user_inputs_y55', [], ExcelValue.by_value
+  attach_function 'user_inputs_z55', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa55', [], ExcelValue.by_value
   attach_function 'user_inputs_h56', [], ExcelValue.by_value
   attach_function 'user_inputs_i56', [], ExcelValue.by_value
   attach_function 'user_inputs_j56', [], ExcelValue.by_value
@@ -1534,6 +1884,13 @@ module Global2050Model
   attach_function 'user_inputs_r56', [], ExcelValue.by_value
   attach_function 'user_inputs_s56', [], ExcelValue.by_value
   attach_function 'user_inputs_t56', [], ExcelValue.by_value
+  attach_function 'user_inputs_u56', [], ExcelValue.by_value
+  attach_function 'user_inputs_v56', [], ExcelValue.by_value
+  attach_function 'user_inputs_w56', [], ExcelValue.by_value
+  attach_function 'user_inputs_x56', [], ExcelValue.by_value
+  attach_function 'user_inputs_y56', [], ExcelValue.by_value
+  attach_function 'user_inputs_z56', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa56', [], ExcelValue.by_value
   attach_function 'user_inputs_h57', [], ExcelValue.by_value
   attach_function 'user_inputs_i57', [], ExcelValue.by_value
   attach_function 'user_inputs_j57', [], ExcelValue.by_value
@@ -1547,6 +1904,13 @@ module Global2050Model
   attach_function 'user_inputs_r57', [], ExcelValue.by_value
   attach_function 'user_inputs_s57', [], ExcelValue.by_value
   attach_function 'user_inputs_t57', [], ExcelValue.by_value
+  attach_function 'user_inputs_u57', [], ExcelValue.by_value
+  attach_function 'user_inputs_v57', [], ExcelValue.by_value
+  attach_function 'user_inputs_w57', [], ExcelValue.by_value
+  attach_function 'user_inputs_x57', [], ExcelValue.by_value
+  attach_function 'user_inputs_y57', [], ExcelValue.by_value
+  attach_function 'user_inputs_z57', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa57', [], ExcelValue.by_value
   attach_function 'user_inputs_h58', [], ExcelValue.by_value
   attach_function 'user_inputs_i58', [], ExcelValue.by_value
   attach_function 'user_inputs_j58', [], ExcelValue.by_value
@@ -1560,6 +1924,13 @@ module Global2050Model
   attach_function 'user_inputs_r58', [], ExcelValue.by_value
   attach_function 'user_inputs_s58', [], ExcelValue.by_value
   attach_function 'user_inputs_t58', [], ExcelValue.by_value
+  attach_function 'user_inputs_u58', [], ExcelValue.by_value
+  attach_function 'user_inputs_v58', [], ExcelValue.by_value
+  attach_function 'user_inputs_w58', [], ExcelValue.by_value
+  attach_function 'user_inputs_x58', [], ExcelValue.by_value
+  attach_function 'user_inputs_y58', [], ExcelValue.by_value
+  attach_function 'user_inputs_z58', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa58', [], ExcelValue.by_value
   attach_function 'user_inputs_h59', [], ExcelValue.by_value
   attach_function 'user_inputs_i59', [], ExcelValue.by_value
   attach_function 'user_inputs_j59', [], ExcelValue.by_value
@@ -1573,6 +1944,13 @@ module Global2050Model
   attach_function 'user_inputs_r59', [], ExcelValue.by_value
   attach_function 'user_inputs_s59', [], ExcelValue.by_value
   attach_function 'user_inputs_t59', [], ExcelValue.by_value
+  attach_function 'user_inputs_u59', [], ExcelValue.by_value
+  attach_function 'user_inputs_v59', [], ExcelValue.by_value
+  attach_function 'user_inputs_w59', [], ExcelValue.by_value
+  attach_function 'user_inputs_x59', [], ExcelValue.by_value
+  attach_function 'user_inputs_y59', [], ExcelValue.by_value
+  attach_function 'user_inputs_z59', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa59', [], ExcelValue.by_value
   attach_function 'user_inputs_h60', [], ExcelValue.by_value
   attach_function 'user_inputs_i60', [], ExcelValue.by_value
   attach_function 'user_inputs_j60', [], ExcelValue.by_value
@@ -1586,6 +1964,13 @@ module Global2050Model
   attach_function 'user_inputs_r60', [], ExcelValue.by_value
   attach_function 'user_inputs_s60', [], ExcelValue.by_value
   attach_function 'user_inputs_t60', [], ExcelValue.by_value
+  attach_function 'user_inputs_u60', [], ExcelValue.by_value
+  attach_function 'user_inputs_v60', [], ExcelValue.by_value
+  attach_function 'user_inputs_w60', [], ExcelValue.by_value
+  attach_function 'user_inputs_x60', [], ExcelValue.by_value
+  attach_function 'user_inputs_y60', [], ExcelValue.by_value
+  attach_function 'user_inputs_z60', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa60', [], ExcelValue.by_value
   attach_function 'user_inputs_h61', [], ExcelValue.by_value
   attach_function 'user_inputs_i61', [], ExcelValue.by_value
   attach_function 'user_inputs_j61', [], ExcelValue.by_value
@@ -1599,6 +1984,13 @@ module Global2050Model
   attach_function 'user_inputs_r61', [], ExcelValue.by_value
   attach_function 'user_inputs_s61', [], ExcelValue.by_value
   attach_function 'user_inputs_t61', [], ExcelValue.by_value
+  attach_function 'user_inputs_u61', [], ExcelValue.by_value
+  attach_function 'user_inputs_v61', [], ExcelValue.by_value
+  attach_function 'user_inputs_w61', [], ExcelValue.by_value
+  attach_function 'user_inputs_x61', [], ExcelValue.by_value
+  attach_function 'user_inputs_y61', [], ExcelValue.by_value
+  attach_function 'user_inputs_z61', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa61', [], ExcelValue.by_value
   attach_function 'user_inputs_h62', [], ExcelValue.by_value
   attach_function 'user_inputs_i62', [], ExcelValue.by_value
   attach_function 'user_inputs_j62', [], ExcelValue.by_value
@@ -1612,6 +2004,33 @@ module Global2050Model
   attach_function 'user_inputs_r62', [], ExcelValue.by_value
   attach_function 'user_inputs_s62', [], ExcelValue.by_value
   attach_function 'user_inputs_t62', [], ExcelValue.by_value
+  attach_function 'user_inputs_u62', [], ExcelValue.by_value
+  attach_function 'user_inputs_v62', [], ExcelValue.by_value
+  attach_function 'user_inputs_w62', [], ExcelValue.by_value
+  attach_function 'user_inputs_x62', [], ExcelValue.by_value
+  attach_function 'user_inputs_y62', [], ExcelValue.by_value
+  attach_function 'user_inputs_z62', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa62', [], ExcelValue.by_value
+  attach_function 'user_inputs_h63', [], ExcelValue.by_value
+  attach_function 'user_inputs_i63', [], ExcelValue.by_value
+  attach_function 'user_inputs_j63', [], ExcelValue.by_value
+  attach_function 'user_inputs_k63', [], ExcelValue.by_value
+  attach_function 'user_inputs_l63', [], ExcelValue.by_value
+  attach_function 'user_inputs_m63', [], ExcelValue.by_value
+  attach_function 'user_inputs_n63', [], ExcelValue.by_value
+  attach_function 'user_inputs_o63', [], ExcelValue.by_value
+  attach_function 'user_inputs_p63', [], ExcelValue.by_value
+  attach_function 'user_inputs_q63', [], ExcelValue.by_value
+  attach_function 'user_inputs_r63', [], ExcelValue.by_value
+  attach_function 'user_inputs_s63', [], ExcelValue.by_value
+  attach_function 'user_inputs_t63', [], ExcelValue.by_value
+  attach_function 'user_inputs_u63', [], ExcelValue.by_value
+  attach_function 'user_inputs_v63', [], ExcelValue.by_value
+  attach_function 'user_inputs_w63', [], ExcelValue.by_value
+  attach_function 'user_inputs_x63', [], ExcelValue.by_value
+  attach_function 'user_inputs_y63', [], ExcelValue.by_value
+  attach_function 'user_inputs_z63', [], ExcelValue.by_value
+  attach_function 'user_inputs_aa63', [], ExcelValue.by_value
   attach_function 'user_inputs_e7', [], ExcelValue.by_value
   attach_function 'user_inputs_e8', [], ExcelValue.by_value
   attach_function 'user_inputs_e9', [], ExcelValue.by_value
