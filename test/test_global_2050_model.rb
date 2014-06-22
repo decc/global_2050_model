@@ -5100,6 +5100,114 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_detailed_lever_guides_h53; assert_equal("US costs", worksheet.detailed_lever_guides_h53); end
   def test_detailed_lever_guides_b54; assert_equal("Low cost", worksheet.detailed_lever_guides_b54); end
   def test_detailed_lever_guides_h54; assert_equal("US costs", worksheet.detailed_lever_guides_h54); end
+  def test_outputs_lifestyle_e8; assert_equal("2011", worksheet.outputs_lifestyle_e8); end
+  def test_outputs_lifestyle_f8; assert_equal("2011", worksheet.outputs_lifestyle_f8); end
+  def test_outputs_lifestyle_g8; assert_in_epsilon(2011.0, worksheet.outputs_lifestyle_g8, 0.002); end
+  def test_outputs_lifestyle_h8; assert_equal("2050", worksheet.outputs_lifestyle_h8); end
+  def test_outputs_lifestyle_i8; assert_equal("2050", worksheet.outputs_lifestyle_i8); end
+  def test_outputs_lifestyle_j8; assert_in_epsilon(2050.0, worksheet.outputs_lifestyle_j8, 0.002); end
+  def test_outputs_lifestyle_e9; assert_equal("Urban", worksheet.outputs_lifestyle_e9); end
+  def test_outputs_lifestyle_f9; assert_equal("Rural", worksheet.outputs_lifestyle_f9); end
+  def test_outputs_lifestyle_g9; assert_equal("2011 weighted average", worksheet.outputs_lifestyle_g9); end
+  def test_outputs_lifestyle_h9; assert_equal("Urban", worksheet.outputs_lifestyle_h9); end
+  def test_outputs_lifestyle_i9; assert_equal("Rural", worksheet.outputs_lifestyle_i9); end
+  def test_outputs_lifestyle_j9; assert_equal("2050 weighted average", worksheet.outputs_lifestyle_j9); end
+  def test_outputs_lifestyle_d10; assert_equal("Passenger km/head", worksheet.outputs_lifestyle_d10); end
+  def test_outputs_lifestyle_e10; assert_in_epsilon(9017.828921263635, worksheet.outputs_lifestyle_e10, 0.002); end
+  def test_outputs_lifestyle_f10; assert_in_epsilon(5727.584871891532, worksheet.outputs_lifestyle_f10, 0.002); end
+  def test_outputs_lifestyle_g10; assert_in_epsilon(7441.143972804524, worksheet.outputs_lifestyle_g10, 0.002); end
+  def test_outputs_lifestyle_h10; assert_in_epsilon(11822.531591784606, worksheet.outputs_lifestyle_h10, 0.002); end
+  def test_outputs_lifestyle_i10; assert_in_epsilon(8652.994682469407, worksheet.outputs_lifestyle_i10, 0.002); end
+  def test_outputs_lifestyle_j10; assert_in_epsilon(10713.193673524287, worksheet.outputs_lifestyle_j10, 0.002); end
+  def test_outputs_lifestyle_d11; assert_equal("% of total passenger km using private transport", worksheet.outputs_lifestyle_d11); end
+  def test_outputs_lifestyle_e11; assert_in_delta(0.6481179537105122, worksheet.outputs_lifestyle_e11, 0.002); end
+  def test_outputs_lifestyle_f11; assert_in_delta(0.792611125960081, worksheet.outputs_lifestyle_f11, 0.002); end
+  def test_outputs_lifestyle_g11; assert_in_delta(0.7173590818525055, worksheet.outputs_lifestyle_g11, 0.002); end
+  def test_outputs_lifestyle_h11; assert_in_delta(0.7387528660058, worksheet.outputs_lifestyle_h11, 0.002); end
+  def test_outputs_lifestyle_i11; assert_in_delta(0.8293352567448097, worksheet.outputs_lifestyle_i11, 0.002); end
+  def test_outputs_lifestyle_j11; assert_in_delta(0.7704567027644533, worksheet.outputs_lifestyle_j11, 0.002); end
+  def test_outputs_lifestyle_d13; assert_equal("Number of appliances per household", worksheet.outputs_lifestyle_d13); end
+  def test_outputs_lifestyle_e13; assert_in_epsilon(5.958364024436915, worksheet.outputs_lifestyle_e13, 0.002); end
+  def test_outputs_lifestyle_f13; assert_in_epsilon(3.4791820122184576, worksheet.outputs_lifestyle_f13, 0.002); end
+  def test_outputs_lifestyle_g13; assert_in_epsilon(5.05318907300521, worksheet.outputs_lifestyle_g13, 0.002); end
+  def test_outputs_lifestyle_h13; assert_in_epsilon(7.150036829324298, worksheet.outputs_lifestyle_h13, 0.002); end
+  def test_outputs_lifestyle_i13; assert_in_epsilon(7.150036829324298, worksheet.outputs_lifestyle_i13, 0.002); end
+  def test_outputs_lifestyle_j13; assert_in_epsilon(7.150036829324298, worksheet.outputs_lifestyle_j13, 0.002); end
+  def test_outputs_lifestyle_d14; assert_equal("Building temperature in warm months", worksheet.outputs_lifestyle_d14); end
+  def test_outputs_lifestyle_e14; assert_in_epsilon(26.5, worksheet.outputs_lifestyle_e14, 0.002); end
+  def test_outputs_lifestyle_f14; assert_in_epsilon(29.0, worksheet.outputs_lifestyle_f14, 0.002); end
+  def test_outputs_lifestyle_g14; assert_in_epsilon(27.412775813726682, worksheet.outputs_lifestyle_g14, 0.002); end
+  def test_outputs_lifestyle_h14; assert_in_epsilon(25.0, worksheet.outputs_lifestyle_h14, 0.002); end
+  def test_outputs_lifestyle_i14; assert_in_epsilon(25.0, worksheet.outputs_lifestyle_i14, 0.002); end
+  def test_outputs_lifestyle_j14; assert_in_epsilon(25.0, worksheet.outputs_lifestyle_j14, 0.002); end
+  def test_outputs_lifestyle_d15; assert_equal("Building temp in cold months", worksheet.outputs_lifestyle_d15); end
+  def test_outputs_lifestyle_e15; assert_in_epsilon(17.5, worksheet.outputs_lifestyle_e15, 0.002); end
+  def test_outputs_lifestyle_f15; assert_in_epsilon(13.0, worksheet.outputs_lifestyle_f15, 0.002); end
+  def test_outputs_lifestyle_g15; assert_in_epsilon(15.857003535291966, worksheet.outputs_lifestyle_g15, 0.002); end
+  def test_outputs_lifestyle_h15; assert_in_epsilon(19.0, worksheet.outputs_lifestyle_h15, 0.002); end
+  def test_outputs_lifestyle_i15; assert_in_epsilon(16.0, worksheet.outputs_lifestyle_i15, 0.002); end
+  def test_outputs_lifestyle_j15; assert_in_epsilon(18.241379310344826, worksheet.outputs_lifestyle_j15, 0.002); end
+  def test_outputs_lifestyle_d17; assert_equal("Building insulation (GW / M ha*℃)", worksheet.outputs_lifestyle_d17); end
+  def test_outputs_lifestyle_e17; assert_in_epsilon(15.0, worksheet.outputs_lifestyle_e17, 0.002); end
+  def test_outputs_lifestyle_f17; assert_in_epsilon(18.0, worksheet.outputs_lifestyle_f17, 0.002); end
+  def test_outputs_lifestyle_g17; assert_in_epsilon(16.09533097647202, worksheet.outputs_lifestyle_g17, 0.002); end
+  def test_outputs_lifestyle_h17; assert_in_epsilon(10.2, worksheet.outputs_lifestyle_h17, 0.002); end
+  def test_outputs_lifestyle_i17; assert_in_epsilon(10.2, worksheet.outputs_lifestyle_i17, 0.002); end
+  def test_outputs_lifestyle_j17; assert_in_epsilon(10.2, worksheet.outputs_lifestyle_j17, 0.002); end
+  def test_outputs_lifestyle_d18; assert_equal("Building size (in metres squared)", worksheet.outputs_lifestyle_d18); end
+  def test_outputs_lifestyle_e18; assert_in_epsilon(92.0, worksheet.outputs_lifestyle_e18, 0.002); end
+  def test_outputs_lifestyle_f18; assert_in_epsilon(78.0, worksheet.outputs_lifestyle_f18, 0.002); end
+  def test_outputs_lifestyle_g18; assert_in_epsilon(86.88845544313057, worksheet.outputs_lifestyle_g18, 0.002); end
+  def test_outputs_lifestyle_h18; assert_in_epsilon(105.0, worksheet.outputs_lifestyle_h18, 0.002); end
+  def test_outputs_lifestyle_i18; assert_in_epsilon(95.0, worksheet.outputs_lifestyle_i18, 0.002); end
+  def test_outputs_lifestyle_j18; assert_in_epsilon(102.4712643678161, worksheet.outputs_lifestyle_j18, 0.002); end
+  def test_outputs_lifestyle_e23; assert_equal("webtool.lifestyle", worksheet.outputs_lifestyle_e23); end
+  def test_outputs_lifestyle_h23; assert_equal("User’s pathway", worksheet.outputs_lifestyle_h23); end
+  def test_outputs_lifestyle_e25; assert_equal("2011", worksheet.outputs_lifestyle_e25); end
+  def test_outputs_lifestyle_f25; assert_equal("2011", worksheet.outputs_lifestyle_f25); end
+  def test_outputs_lifestyle_g25; assert_equal("Total urban & rural", worksheet.outputs_lifestyle_g25); end
+  def test_outputs_lifestyle_h25; assert_equal("2050", worksheet.outputs_lifestyle_h25); end
+  def test_outputs_lifestyle_i25; assert_equal("2050", worksheet.outputs_lifestyle_i25); end
+  def test_outputs_lifestyle_e26; assert_equal("Urban", worksheet.outputs_lifestyle_e26); end
+  def test_outputs_lifestyle_f26; assert_equal("Rural", worksheet.outputs_lifestyle_f26); end
+  def test_outputs_lifestyle_h26; assert_equal("Urban", worksheet.outputs_lifestyle_h26); end
+  def test_outputs_lifestyle_i26; assert_equal("Rural", worksheet.outputs_lifestyle_i26); end
+  def test_outputs_lifestyle_j26; assert_equal("Total urban & rural", worksheet.outputs_lifestyle_j26); end
+  def test_outputs_lifestyle_d27; assert_equal("Passenger km (millions)", worksheet.outputs_lifestyle_d27); end
+  def test_outputs_lifestyle_e27; assert_in_epsilon(32717781.716029312, worksheet.outputs_lifestyle_e27, 0.002); end
+  def test_outputs_lifestyle_f27; assert_in_epsilon(19120499.15882557, worksheet.outputs_lifestyle_f27, 0.002); end
+  def test_outputs_lifestyle_g27; assert_in_epsilon(51838280.87485488, worksheet.outputs_lifestyle_g27, 0.002); end
+  def test_outputs_lifestyle_h27; assert_in_epsilon(73395626.84603319, worksheet.outputs_lifestyle_h27, 0.002); end
+  def test_outputs_lifestyle_i27; assert_in_epsilon(28925496.704145223, worksheet.outputs_lifestyle_i27, 0.002); end
+  def test_outputs_lifestyle_j27; assert_in_epsilon(102321123.55017841, worksheet.outputs_lifestyle_j27, 0.002); end
+  def test_outputs_lifestyle_d28; assert_equal("Total households", worksheet.outputs_lifestyle_d28); end
+  def test_outputs_lifestyle_e28; assert_in_epsilon(1451248720.8038402, worksheet.outputs_lifestyle_e28, 0.002); end
+  def test_outputs_lifestyle_f28; assert_in_epsilon(834579477.4976, worksheet.outputs_lifestyle_f28, 0.002); end
+  def test_outputs_lifestyle_g28; assert_in_epsilon(2285828198.3014402, worksheet.outputs_lifestyle_g28, 0.002); end
+  def test_outputs_lifestyle_h28; assert_in_epsilon(2821870113.6363635, worksheet.outputs_lifestyle_h28, 0.002); end
+  def test_outputs_lifestyle_i28; assert_in_epsilon(955094500.0, worksheet.outputs_lifestyle_i28, 0.002); end
+  def test_outputs_lifestyle_j28; assert_in_epsilon(3776964613.6363635, worksheet.outputs_lifestyle_j28, 0.002); end
+  def test_outputs_lifestyle_d29; assert_equal("% of households in urban/rural areas", worksheet.outputs_lifestyle_d29); end
+  def test_outputs_lifestyle_e29; assert_in_delta(0.6348896745093259, worksheet.outputs_lifestyle_e29, 0.002); end
+  def test_outputs_lifestyle_f29; assert_in_delta(0.36511032549067407, worksheet.outputs_lifestyle_f29, 0.002); end
+  def test_outputs_lifestyle_g29; assert_in_delta(1.0, worksheet.outputs_lifestyle_g29, 0.002); end
+  def test_outputs_lifestyle_h29; assert_in_delta(0.7471264367816092, worksheet.outputs_lifestyle_h29, 0.002); end
+  def test_outputs_lifestyle_i29; assert_in_delta(0.25287356321839083, worksheet.outputs_lifestyle_i29, 0.002); end
+  def test_outputs_lifestyle_j29; assert_in_delta(1.0, worksheet.outputs_lifestyle_j29, 0.002); end
+  def test_outputs_lifestyle_d30; assert_equal("Total population", worksheet.outputs_lifestyle_d30); end
+  def test_outputs_lifestyle_e30; assert_in_epsilon(3628121802.0096, worksheet.outputs_lifestyle_e30, 0.002); end
+  def test_outputs_lifestyle_f30; assert_in_epsilon(3338317909.9904, worksheet.outputs_lifestyle_f30, 0.002); end
+  def test_outputs_lifestyle_g30; assert_in_epsilon(6966439712.0, worksheet.outputs_lifestyle_g30, 0.002); end
+  def test_outputs_lifestyle_h30; assert_in_epsilon(6208114250.0, worksheet.outputs_lifestyle_h30, 0.002); end
+  def test_outputs_lifestyle_i30; assert_in_epsilon(3342830750.0, worksheet.outputs_lifestyle_i30, 0.002); end
+  def test_outputs_lifestyle_j30; assert_in_epsilon(9550945000.0, worksheet.outputs_lifestyle_j30, 0.002); end
+  def test_outputs_lifestyle_d31; assert_equal("% of population in urban/rural areas", worksheet.outputs_lifestyle_d31); end
+  def test_outputs_lifestyle_e31; assert_in_delta(0.5208, worksheet.outputs_lifestyle_e31, 0.002); end
+  def test_outputs_lifestyle_f31; assert_in_delta(0.47919999999999996, worksheet.outputs_lifestyle_f31, 0.002); end
+  def test_outputs_lifestyle_g31; assert_in_delta(1.0, worksheet.outputs_lifestyle_g31, 0.002); end
+  def test_outputs_lifestyle_h31; assert_in_delta(0.65, worksheet.outputs_lifestyle_h31, 0.002); end
+  def test_outputs_lifestyle_i31; assert_in_delta(0.35, worksheet.outputs_lifestyle_i31, 0.002); end
+  def test_outputs_lifestyle_j31; assert_in_delta(1.0, worksheet.outputs_lifestyle_j31, 0.002); end
   def test_outputs_energy_flows_c8; assert_equal("Vector code energy is taken from", worksheet.outputs_energy_flows_c8); end
   def test_outputs_energy_flows_d8; assert_equal("TAKEN FROM", worksheet.outputs_energy_flows_d8); end
   def test_outputs_energy_flows_e8; assert_equal("Vector code energy is taken to", worksheet.outputs_energy_flows_e8); end
@@ -8921,6 +9029,489 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_energy_flows_ab492; assert_in_epsilon(10.316242419624416, worksheet.outputs_energy_flows_ab492, 0.002); end
   def test_outputs_energy_flows_ac492; assert_in_epsilon(11.138992209125202, worksheet.outputs_energy_flows_ac492, 0.002); end
   def test_outputs_energy_flows_ad492; assert_in_epsilon(11.862090945618855, worksheet.outputs_energy_flows_ad492, 0.002); end
+  def test_outputs_summary_table_c5; assert_equal("Supertable", worksheet.outputs_summary_table_c5); end
+  def test_outputs_summary_table_d5; assert_equal("webtool.supertable", worksheet.outputs_summary_table_d5); end
+  def test_outputs_summary_table_h5; assert_equal("For lookups", worksheet.outputs_summary_table_h5); end
+  def test_outputs_summary_table_f6; assert_equal("User’s pathway", worksheet.outputs_summary_table_f6); end
+  def test_outputs_summary_table_g6; assert_equal("% increase 2011 to 2050", worksheet.outputs_summary_table_g6); end
+  def test_outputs_summary_table_d7; assert_equal("Unit", worksheet.outputs_summary_table_d7); end
+  def test_outputs_summary_table_e7; assert_equal("2011", worksheet.outputs_summary_table_e7); end
+  def test_outputs_summary_table_f7; assert_equal("2050", worksheet.outputs_summary_table_f7); end
+  def test_outputs_summary_table_g7; assert_equal("% increase", worksheet.outputs_summary_table_g7); end
+  def test_outputs_summary_table_h7; assert_equal("Field to use", worksheet.outputs_summary_table_h7); end
+  def test_outputs_summary_table_i7; assert_equal("Variable value", worksheet.outputs_summary_table_i7); end
+  def test_outputs_summary_table_b8; assert_equal("Emissions and temperature", worksheet.outputs_summary_table_b8); end
+  def test_outputs_summary_table_c8; assert_equal("GHG emissions per capita", worksheet.outputs_summary_table_c8); end
+  def test_outputs_summary_table_d8; assert_equal("t CO2e / capita", worksheet.outputs_summary_table_d8); end
+  def test_outputs_summary_table_e8; assert_in_epsilon(6.631305251446851, worksheet.outputs_summary_table_e8, 0.002); end
+  def test_outputs_summary_table_f8; assert_in_epsilon(6.254011288243597, worksheet.outputs_summary_table_f8, 0.002); end
+  def test_outputs_summary_table_g8; assert_in_delta(-0.05689588231833154, worksheet.outputs_summary_table_g8, 0.002); end
+  def test_outputs_summary_table_c9; assert_equal("Cumulative emissions by each year", worksheet.outputs_summary_table_c9); end
+  def test_outputs_summary_table_d9; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d9); end
+  def test_outputs_summary_table_e9; assert_in_epsilon(1890.0, worksheet.outputs_summary_table_e9, 0.002); end
+  def test_outputs_summary_table_f9; assert_in_epsilon(3591.546137101374, worksheet.outputs_summary_table_f9, 0.002); end
+  def test_outputs_summary_table_c10; assert_equal("Cumulative emissions by 2100", worksheet.outputs_summary_table_c10); end
+  def test_outputs_summary_table_d10; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d10); end
+  def test_outputs_summary_table_e10; assert_in_epsilon(6333.811402160767, worksheet.outputs_summary_table_e10, 0.002); end
+  def test_outputs_summary_table_h10; assert_equal("IPCC Sector", worksheet.outputs_summary_table_h10); end
+  def test_outputs_summary_table_i10; assert_equal("Cumulative emissions", worksheet.outputs_summary_table_i10); end
+  def test_outputs_summary_table_c11; assert_equal("Temperature change in 2100", worksheet.outputs_summary_table_c11); end
+  def test_outputs_summary_table_d11; assert_equal("⁰C", worksheet.outputs_summary_table_d11); end
+  def test_outputs_summary_table_e11; assert_equal("1.8⁰C to 5.6⁰C higher", worksheet.outputs_summary_table_e11); end
+  def test_outputs_summary_table_h11; assert_equal("IPCC Sector", worksheet.outputs_summary_table_h11); end
+  def test_outputs_summary_table_i11; assert_equal("Cumulative emissions", worksheet.outputs_summary_table_i11); end
+  def test_outputs_summary_table_c12; assert_equal("Post-2050 emissions trajectory", worksheet.outputs_summary_table_c12); end
+  def test_outputs_summary_table_d12; assert_equal("% emissions increase every year: a proportion of average yearly change for the previous 15 year period", worksheet.outputs_summary_table_d12); end
+  def test_outputs_summary_table_e12; assert_in_delta(1.0, worksheet.outputs_summary_table_e12, 0.002); end
+  def test_outputs_summary_table_b14; assert_equal("Demographics and long term", worksheet.outputs_summary_table_b14); end
+  def test_outputs_summary_table_c14; assert_equal("Population", worksheet.outputs_summary_table_c14); end
+  def test_outputs_summary_table_d14; assert_equal("people", worksheet.outputs_summary_table_d14); end
+  def test_outputs_summary_table_e14; assert_in_epsilon(6966439712.0, worksheet.outputs_summary_table_e14, 0.002); end
+  def test_outputs_summary_table_f14; assert_in_epsilon(9550945000.0, worksheet.outputs_summary_table_f14, 0.002); end
+  def test_outputs_summary_table_g14; assert_in_delta(0.3709937062324784, worksheet.outputs_summary_table_g14, 0.002); end
+  def test_outputs_summary_table_h14; assert_equal("Description", worksheet.outputs_summary_table_h14); end
+  def test_outputs_summary_table_i14; assert_equal("Global population", worksheet.outputs_summary_table_i14); end
+  def test_outputs_summary_table_c15; assert_equal("% population in urban areas", worksheet.outputs_summary_table_c15); end
+  def test_outputs_summary_table_d15; assert_equal("%", worksheet.outputs_summary_table_d15); end
+  def test_outputs_summary_table_e15; assert_in_delta(0.5208, worksheet.outputs_summary_table_e15, 0.002); end
+  def test_outputs_summary_table_f15; assert_in_delta(0.65, worksheet.outputs_summary_table_f15, 0.002); end
+  def test_outputs_summary_table_g15; assert_in_delta(0.24807987711213508, worksheet.outputs_summary_table_g15, 0.002); end
+  def test_outputs_summary_table_h15; assert_equal("Calculated", worksheet.outputs_summary_table_h15); end
+  def test_outputs_summary_table_b17; assert_equal("Energy", worksheet.outputs_summary_table_b17); end
+  def test_outputs_summary_table_c17; assert_equal("Total energy supply", worksheet.outputs_summary_table_c17); end
+  def test_outputs_summary_table_d17; assert_equal("EJ / year", worksheet.outputs_summary_table_d17); end
+  def test_outputs_summary_table_e17; assert_in_epsilon(576.8499351857333, worksheet.outputs_summary_table_e17, 0.002); end
+  def test_outputs_summary_table_f17; assert_in_epsilon(924.9248699296155, worksheet.outputs_summary_table_f17, 0.002); end
+  def test_outputs_summary_table_g17; assert_in_delta(0.6034063861545023, worksheet.outputs_summary_table_g17, 0.002); end
+  def test_outputs_summary_table_c18; assert_equal("Total energy demand", worksheet.outputs_summary_table_c18); end
+  def test_outputs_summary_table_d18; assert_equal("EJ / year", worksheet.outputs_summary_table_d18); end
+  def test_outputs_summary_table_e18; assert_in_epsilon(363.2337865017623, worksheet.outputs_summary_table_e18, 0.002); end
+  def test_outputs_summary_table_f18; assert_in_epsilon(608.6298048641273, worksheet.outputs_summary_table_f18, 0.002); end
+  def test_outputs_summary_table_g18; assert_in_delta(0.6755869841451942, worksheet.outputs_summary_table_g18, 0.002); end
+  def test_outputs_summary_table_c19; assert_equal("Energy demand per capita", worksheet.outputs_summary_table_c19); end
+  def test_outputs_summary_table_d19; assert_equal("kWh / capita", worksheet.outputs_summary_table_d19); end
+  def test_outputs_summary_table_e19; assert_in_epsilon(14483.477672887282, worksheet.outputs_summary_table_e19, 0.002); end
+  def test_outputs_summary_table_f19; assert_in_epsilon(17701.267747273156, worksheet.outputs_summary_table_f19, 0.002); end
+  def test_outputs_summary_table_g19; assert_in_delta(0.22216971276239117, worksheet.outputs_summary_table_g19, 0.002); end
+  def test_outputs_summary_table_c20; assert_equal("Proportion of primary energy from fossil fuels ", worksheet.outputs_summary_table_c20); end
+  def test_outputs_summary_table_d20; assert_equal("%", worksheet.outputs_summary_table_d20); end
+  def test_outputs_summary_table_e20; assert_in_delta(0.8052742295079683, worksheet.outputs_summary_table_e20, 0.002); end
+  def test_outputs_summary_table_f20; assert_in_delta(0.7673512257439705, worksheet.outputs_summary_table_f20, 0.002); end
+  def test_outputs_summary_table_g20; assert_in_delta(-0.047093278754455126, worksheet.outputs_summary_table_g20, 0.002); end
+  def test_outputs_summary_table_c21; assert_equal("Bioenergy supply ", worksheet.outputs_summary_table_c21); end
+  def test_outputs_summary_table_d21; assert_equal("EJ", worksheet.outputs_summary_table_d21); end
+  def test_outputs_summary_table_e21; assert_in_epsilon(57.04153297724051, worksheet.outputs_summary_table_e21, 0.002); end
+  def test_outputs_summary_table_f21; assert_in_epsilon(106.88158853390539, worksheet.outputs_summary_table_f21, 0.002); end
+  def test_outputs_summary_table_g21; assert_in_delta(0.8737502825625496, worksheet.outputs_summary_table_g21, 0.002); end
+  def test_outputs_summary_table_c22; assert_equal("% of oil reserves (as of 2011) left in the ground ", worksheet.outputs_summary_table_c22); end
+  def test_outputs_summary_table_d22; assert_equal("% of 2011 reserves", worksheet.outputs_summary_table_d22); end
+  def test_outputs_summary_table_e22; assert_in_delta(1.0, worksheet.outputs_summary_table_e22, 0.002); end
+  def test_outputs_summary_table_f22; assert_equal("Range: 78% to 88%", worksheet.outputs_summary_table_f22); end
+  def test_outputs_summary_table_c23; assert_equal("% of gas reserves (as of 2011) left in the ground ", worksheet.outputs_summary_table_c23); end
+  def test_outputs_summary_table_d23; assert_equal("% of 2011 reserves", worksheet.outputs_summary_table_d23); end
+  def test_outputs_summary_table_e23; assert_in_delta(1.0, worksheet.outputs_summary_table_e23, 0.002); end
+  def test_outputs_summary_table_f23; assert_equal("Range: 68% to 70%", worksheet.outputs_summary_table_f23); end
+  def test_outputs_summary_table_c24; assert_equal("% of coal reserves (as of 2011) left in the ground ", worksheet.outputs_summary_table_c24); end
+  def test_outputs_summary_table_d24; assert_equal("% of 2011 reserves", worksheet.outputs_summary_table_d24); end
+  def test_outputs_summary_table_e24; assert_in_delta(1.0, worksheet.outputs_summary_table_e24, 0.002); end
+  def test_outputs_summary_table_f24; assert_equal("Range: 24% to 29%", worksheet.outputs_summary_table_f24); end
+  def test_outputs_summary_table_b26; assert_equal("Electricity", worksheet.outputs_summary_table_b26); end
+  def test_outputs_summary_table_c26; assert_equal("Electricity demand per capita", worksheet.outputs_summary_table_c26); end
+  def test_outputs_summary_table_d26; assert_equal("kWh / capita", worksheet.outputs_summary_table_d26); end
+  def test_outputs_summary_table_e26; assert_in_epsilon(2727.1132879886763, worksheet.outputs_summary_table_e26, 0.002); end
+  def test_outputs_summary_table_f26; assert_in_epsilon(4058.6476412912953, worksheet.outputs_summary_table_f26, 0.002); end
+  def test_outputs_summary_table_g26; assert_in_delta(0.48825780695185683, worksheet.outputs_summary_table_g26, 0.002); end
+  def test_outputs_summary_table_h26; assert_equal("Calculated", worksheet.outputs_summary_table_h26); end
+  def test_outputs_summary_table_c27; assert_equal("Wind capacity", worksheet.outputs_summary_table_c27); end
+  def test_outputs_summary_table_d27; assert_equal("GW", worksheet.outputs_summary_table_d27); end
+  def test_outputs_summary_table_e27; assert_in_epsilon(237.67, worksheet.outputs_summary_table_e27, 0.002); end
+  def test_outputs_summary_table_f27; assert_in_epsilon(1390.2000000000003, worksheet.outputs_summary_table_f27, 0.002); end
+  def test_outputs_summary_table_g27; assert_in_epsilon(4.849286826271722, worksheet.outputs_summary_table_g27, 0.002); end
+  def test_outputs_summary_table_h27; assert_equal("Technology code", worksheet.outputs_summary_table_h27); end
+  def test_outputs_summary_table_i27; assert_equal("Calculated from total of onshore & offshore below", worksheet.outputs_summary_table_i27); end
+  def test_outputs_summary_table_c28; assert_equal("Solar capacity", worksheet.outputs_summary_table_c28); end
+  def test_outputs_summary_table_d28; assert_equal("GW", worksheet.outputs_summary_table_d28); end
+  def test_outputs_summary_table_e28; assert_in_epsilon(2363.0370255024745, worksheet.outputs_summary_table_e28, 0.002); end
+  def test_outputs_summary_table_f28; assert_in_epsilon(5163.905766456224, worksheet.outputs_summary_table_f28, 0.002); end
+  def test_outputs_summary_table_g28; assert_in_epsilon(1.1852834766133955, worksheet.outputs_summary_table_g28, 0.002); end
+  def test_outputs_summary_table_h28; assert_equal("Technology code", worksheet.outputs_summary_table_h28); end
+  def test_outputs_summary_table_i28; assert_equal("Calculated from total of solar PV and CSP below", worksheet.outputs_summary_table_i28); end
+  def test_outputs_summary_table_c29; assert_equal("Nuclear capacity", worksheet.outputs_summary_table_c29); end
+  def test_outputs_summary_table_d29; assert_equal("GW", worksheet.outputs_summary_table_d29); end
+  def test_outputs_summary_table_e29; assert_in_epsilon(364.0, worksheet.outputs_summary_table_e29, 0.002); end
+  def test_outputs_summary_table_f29; assert_in_epsilon(502.19999999999993, worksheet.outputs_summary_table_f29, 0.002); end
+  def test_outputs_summary_table_g29; assert_in_delta(0.37967032967032943, worksheet.outputs_summary_table_g29, 0.002); end
+  def test_outputs_summary_table_h29; assert_equal("Technology code", worksheet.outputs_summary_table_h29); end
+  def test_outputs_summary_table_i29; assert_equal("nuclear.elec", worksheet.outputs_summary_table_i29); end
+  def test_outputs_summary_table_c30; assert_equal("Hydro-electric capacity", worksheet.outputs_summary_table_c30); end
+  def test_outputs_summary_table_d30; assert_equal("GW", worksheet.outputs_summary_table_d30); end
+  def test_outputs_summary_table_e30; assert_in_epsilon(970.0, worksheet.outputs_summary_table_e30, 0.002); end
+  def test_outputs_summary_table_f30; assert_in_epsilon(1659.7, worksheet.outputs_summary_table_f30, 0.002); end
+  def test_outputs_summary_table_g30; assert_in_delta(0.7110309278350515, worksheet.outputs_summary_table_g30, 0.002); end
+  def test_outputs_summary_table_h30; assert_equal("Technology code", worksheet.outputs_summary_table_h30); end
+  def test_outputs_summary_table_i30; assert_equal("hydro.elec", worksheet.outputs_summary_table_i30); end
+  def test_outputs_summary_table_c31; assert_equal("CCS for power", worksheet.outputs_summary_table_c31); end
+  def test_outputs_summary_table_d31; assert_equal("GW", worksheet.outputs_summary_table_d31); end
+  def test_outputs_summary_table_e31; assert_in_delta(0.0, (worksheet.outputs_summary_table_e31||0), 0.002); end
+  def test_outputs_summary_table_f31; assert_in_epsilon(110.79999999999997, worksheet.outputs_summary_table_f31, 0.002); end
+  def test_outputs_summary_table_g31; assert_equal("", worksheet.outputs_summary_table_g31); end
+  def test_outputs_summary_table_h31; assert_equal("Description", worksheet.outputs_summary_table_h31); end
+  def test_outputs_summary_table_i31; assert_equal("Global CCS plant", worksheet.outputs_summary_table_i31); end
+  def test_outputs_summary_table_c32; assert_equal("Unabated fossil fuel capacity", worksheet.outputs_summary_table_c32); end
+  def test_outputs_summary_table_d32; assert_equal("GW", worksheet.outputs_summary_table_d32); end
+  def test_outputs_summary_table_e32; assert_in_epsilon(2333.4370255024746, worksheet.outputs_summary_table_e32, 0.002); end
+  def test_outputs_summary_table_f32; assert_in_epsilon(4684.305766456224, worksheet.outputs_summary_table_f32, 0.002); end
+  def test_outputs_summary_table_g32; assert_in_epsilon(1.007470403212412, worksheet.outputs_summary_table_g32, 0.002); end
+  def test_outputs_summary_table_h32; assert_equal("Calculated", worksheet.outputs_summary_table_h32); end
+  def test_outputs_summary_table_b34; assert_equal("Transport", worksheet.outputs_summary_table_b34); end
+  def test_outputs_summary_table_c34; assert_equal("Number of passenger vehicles on the road", worksheet.outputs_summary_table_c34); end
+  def test_outputs_summary_table_d34; assert_equal("000's", worksheet.outputs_summary_table_d34); end
+  def test_outputs_summary_table_e34; assert_in_epsilon(1989387.7934952916, worksheet.outputs_summary_table_e34, 0.002); end
+  def test_outputs_summary_table_f34; assert_in_epsilon(5155152.9671401335, worksheet.outputs_summary_table_f34, 0.002); end
+  def test_outputs_summary_table_g34; assert_in_epsilon(1.591326328630323, worksheet.outputs_summary_table_g34, 0.002); end
+  def test_outputs_summary_table_h34; assert_equal("Type of technology", worksheet.outputs_summary_table_h34); end
+  def test_outputs_summary_table_c35; assert_equal("% vehicles that are zero emission (electric/hydrogen)", worksheet.outputs_summary_table_c35); end
+  def test_outputs_summary_table_d35; assert_equal("% of urban cars", worksheet.outputs_summary_table_d35); end
+  def test_outputs_summary_table_e35; assert_in_delta(0.00217233262617009, worksheet.outputs_summary_table_e35, 0.002); end
+  def test_outputs_summary_table_f35; assert_in_delta(0.02, worksheet.outputs_summary_table_f35, 0.002); end
+  def test_outputs_summary_table_g35; assert_in_epsilon(8.206693191944922, worksheet.outputs_summary_table_g35, 0.002); end
+  def test_outputs_summary_table_h35; assert_equal("Calculated", worksheet.outputs_summary_table_h35); end
+  def test_outputs_summary_table_c36; assert_equal("Efficiency of ICE vehicle", worksheet.outputs_summary_table_c36); end
+  def test_outputs_summary_table_d36; assert_equal("lge per 100km", worksheet.outputs_summary_table_d36); end
+  def test_outputs_summary_table_e36; assert_in_epsilon(8.64061339746493, worksheet.outputs_summary_table_e36, 0.002); end
+  def test_outputs_summary_table_f36; assert_in_epsilon(5.780326339622852, worksheet.outputs_summary_table_f36, 0.002); end
+  def test_outputs_summary_table_g36; assert_in_delta(-0.33102824143031995, worksheet.outputs_summary_table_g36, 0.002); end
+  def test_outputs_summary_table_h36; assert_equal("Technology code", worksheet.outputs_summary_table_h36); end
+  def test_outputs_summary_table_i36; assert_equal("car.passenger.urban.ICE.liquid", worksheet.outputs_summary_table_i36); end
+  def test_outputs_summary_table_c37; assert_equal("Total vehicle km travelled", worksheet.outputs_summary_table_c37); end
+  def test_outputs_summary_table_d37; assert_equal("Passenger km / capita", worksheet.outputs_summary_table_d37); end
+  def test_outputs_summary_table_e37; assert_in_epsilon(7441.143972804524, worksheet.outputs_summary_table_e37, 0.002); end
+  def test_outputs_summary_table_f37; assert_in_epsilon(10713.193673524287, worksheet.outputs_summary_table_f37, 0.002); end
+  def test_outputs_summary_table_g37; assert_in_delta(0.4397240145706449, worksheet.outputs_summary_table_g37, 0.002); end
+  def test_outputs_summary_table_h37; assert_equal("Named cell", worksheet.outputs_summary_table_h37); end
+  def test_outputs_summary_table_c38; assert_equal("% of total passenger km travelled using private transport", worksheet.outputs_summary_table_c38); end
+  def test_outputs_summary_table_d38; assert_equal("% of total passenger km", worksheet.outputs_summary_table_d38); end
+  def test_outputs_summary_table_e38; assert_in_delta(0.7173590818525055, worksheet.outputs_summary_table_e38, 0.002); end
+  def test_outputs_summary_table_f38; assert_in_delta(0.7704567027644533, worksheet.outputs_summary_table_f38, 0.002); end
+  def test_outputs_summary_table_g38; assert_in_delta(0.07401819012987021, worksheet.outputs_summary_table_g38, 0.002); end
+  def test_outputs_summary_table_h38; assert_equal("Named cell", worksheet.outputs_summary_table_h38); end
+  def test_outputs_summary_table_c39; assert_equal("Freight tonne km/head (domestic)", worksheet.outputs_summary_table_c39); end
+  def test_outputs_summary_table_d39; assert_equal("Tonne km / capita", worksheet.outputs_summary_table_d39); end
+  def test_outputs_summary_table_e39; assert_in_epsilon(818.5733695160834, worksheet.outputs_summary_table_e39, 0.002); end
+  def test_outputs_summary_table_f39; assert_in_epsilon(1148.9932294908801, worksheet.outputs_summary_table_f39, 0.002); end
+  def test_outputs_summary_table_g39; assert_in_delta(0.40365332208416604, worksheet.outputs_summary_table_g39, 0.002); end
+  def test_outputs_summary_table_h39; assert_equal("Description", worksheet.outputs_summary_table_h39); end
+  def test_outputs_summary_table_i39; assert_equal("Domestic", worksheet.outputs_summary_table_i39); end
+  def test_outputs_summary_table_c40; assert_equal("Freight tonne km/head (international)", worksheet.outputs_summary_table_c40); end
+  def test_outputs_summary_table_d40; assert_equal("Tonne km / capita", worksheet.outputs_summary_table_d40); end
+  def test_outputs_summary_table_e40; assert_in_epsilon(15348.250678426562, worksheet.outputs_summary_table_e40, 0.002); end
+  def test_outputs_summary_table_f40; assert_in_epsilon(23214.484731671007, worksheet.outputs_summary_table_f40, 0.002); end
+  def test_outputs_summary_table_g40; assert_in_delta(0.5125166520964628, worksheet.outputs_summary_table_g40, 0.002); end
+  def test_outputs_summary_table_h40; assert_equal("Description", worksheet.outputs_summary_table_h40); end
+  def test_outputs_summary_table_i40; assert_equal("International", worksheet.outputs_summary_table_i40); end
+  def test_outputs_summary_table_c41; assert_equal("Air freight (as % of international freight)", worksheet.outputs_summary_table_c41); end
+  def test_outputs_summary_table_d41; assert_equal("% of international freight tonne-km", worksheet.outputs_summary_table_d41); end
+  def test_outputs_summary_table_e41; assert_in_delta(0.002, worksheet.outputs_summary_table_e41, 0.002); end
+  def test_outputs_summary_table_f41; assert_in_delta(0.00255, worksheet.outputs_summary_table_f41, 0.002); end
+  def test_outputs_summary_table_g41; assert_in_delta(0.27500000000000013, worksheet.outputs_summary_table_g41, 0.002); end
+  def test_outputs_summary_table_h41; assert_equal("Description", worksheet.outputs_summary_table_h41); end
+  def test_outputs_summary_table_i41; assert_equal("International plane", worksheet.outputs_summary_table_i41); end
+  def test_outputs_summary_table_b43; assert_equal("Buildings", worksheet.outputs_summary_table_b43); end
+  def test_outputs_summary_table_c43; assert_equal("No. appliances per household", worksheet.outputs_summary_table_c43); end
+  def test_outputs_summary_table_d43; assert_equal("No. of appliances", worksheet.outputs_summary_table_d43); end
+  def test_outputs_summary_table_e43; assert_in_epsilon(5.05318907300521, worksheet.outputs_summary_table_e43, 0.002); end
+  def test_outputs_summary_table_f43; assert_in_epsilon(7.150036829324298, worksheet.outputs_summary_table_f43, 0.002); end
+  def test_outputs_summary_table_g43; assert_in_delta(0.4149553333598224, worksheet.outputs_summary_table_g43, 0.002); end
+  def test_outputs_summary_table_h43; assert_equal("Named cell", worksheet.outputs_summary_table_h43); end
+  def test_outputs_summary_table_c44; assert_equal("% improvement in appliance efficiency", worksheet.outputs_summary_table_c44); end
+  def test_outputs_summary_table_d44; assert_equal("Refrigerator efficiency (W)", worksheet.outputs_summary_table_d44); end
+  def test_outputs_summary_table_e44; assert_in_epsilon(99.99999999999999, worksheet.outputs_summary_table_e44, 0.002); end
+  def test_outputs_summary_table_f44; assert_in_epsilon(71.0, worksheet.outputs_summary_table_f44, 0.002); end
+  def test_outputs_summary_table_g44; assert_in_delta(-0.2899999999999999, worksheet.outputs_summary_table_g44, 0.002); end
+  def test_outputs_summary_table_h44; assert_equal("Technology code", worksheet.outputs_summary_table_h44); end
+  def test_outputs_summary_table_i44; assert_equal("appliances.refrigerator.urban", worksheet.outputs_summary_table_i44); end
+  def test_outputs_summary_table_c45; assert_equal("Building temp in warm months", worksheet.outputs_summary_table_c45); end
+  def test_outputs_summary_table_d45; assert_equal("⁰C", worksheet.outputs_summary_table_d45); end
+  def test_outputs_summary_table_e45; assert_in_epsilon(27.412775813726682, worksheet.outputs_summary_table_e45, 0.002); end
+  def test_outputs_summary_table_f45; assert_in_epsilon(25.0, worksheet.outputs_summary_table_f45, 0.002); end
+  def test_outputs_summary_table_g45; assert_in_delta(-0.0880164719589801, worksheet.outputs_summary_table_g45, 0.002); end
+  def test_outputs_summary_table_h45; assert_equal("Named cell", worksheet.outputs_summary_table_h45); end
+  def test_outputs_summary_table_c46; assert_equal("Building temp in cold months", worksheet.outputs_summary_table_c46); end
+  def test_outputs_summary_table_d46; assert_equal("⁰C", worksheet.outputs_summary_table_d46); end
+  def test_outputs_summary_table_e46; assert_in_epsilon(15.857003535291966, worksheet.outputs_summary_table_e46, 0.002); end
+  def test_outputs_summary_table_f46; assert_in_epsilon(18.241379310344826, worksheet.outputs_summary_table_f46, 0.002); end
+  def test_outputs_summary_table_g46; assert_in_delta(0.15036736100525538, worksheet.outputs_summary_table_g46, 0.002); end
+  def test_outputs_summary_table_h46; assert_equal("Named cell", worksheet.outputs_summary_table_h46); end
+  def test_outputs_summary_table_c47; assert_equal("Home/building insulation  (rate of heat loss)", worksheet.outputs_summary_table_c47); end
+  def test_outputs_summary_table_d47; assert_equal("GW / M ha*℃", worksheet.outputs_summary_table_d47); end
+  def test_outputs_summary_table_e47; assert_in_epsilon(16.09533097647202, worksheet.outputs_summary_table_e47, 0.002); end
+  def test_outputs_summary_table_f47; assert_in_epsilon(10.2, worksheet.outputs_summary_table_f47, 0.002); end
+  def test_outputs_summary_table_g47; assert_in_delta(-0.3662758463985457, worksheet.outputs_summary_table_g47, 0.002); end
+  def test_outputs_summary_table_h47; assert_equal("Named cell", worksheet.outputs_summary_table_h47); end
+  def test_outputs_summary_table_b49; assert_equal("Manufacturing", worksheet.outputs_summary_table_b49); end
+  def test_outputs_summary_table_c49; assert_equal("% increase in iron, steel and aluminium output", worksheet.outputs_summary_table_c49); end
+  def test_outputs_summary_table_d49; assert_equal("Gt", worksheet.outputs_summary_table_d49); end
+  def test_outputs_summary_table_e49; assert_in_epsilon(1.5183, worksheet.outputs_summary_table_e49, 0.002); end
+  def test_outputs_summary_table_f49; assert_in_epsilon(2.8319580955762547, worksheet.outputs_summary_table_f49, 0.002); end
+  def test_outputs_summary_table_g49; assert_in_delta(0.8652164233526014, worksheet.outputs_summary_table_g49, 0.002); end
+  def test_outputs_summary_table_h49; assert_equal("Material", worksheet.outputs_summary_table_h49); end
+  def test_outputs_summary_table_i49; assert_equal("Iron & steel", worksheet.outputs_summary_table_i49); end
+  def test_outputs_summary_table_c50; assert_equal("% increase in paper and other output", worksheet.outputs_summary_table_c50); end
+  def test_outputs_summary_table_d50; assert_equal("Gt", worksheet.outputs_summary_table_d50); end
+  def test_outputs_summary_table_e50; assert_in_delta(0.6111514610000001, worksheet.outputs_summary_table_e50, 0.002); end
+  def test_outputs_summary_table_f50; assert_in_delta(0.8837171055060263, worksheet.outputs_summary_table_f50, 0.002); end
+  def test_outputs_summary_table_g50; assert_in_delta(0.44598706196339477, worksheet.outputs_summary_table_g50, 0.002); end
+  def test_outputs_summary_table_h50; assert_equal("Material", worksheet.outputs_summary_table_h50); end
+  def test_outputs_summary_table_i50; assert_equal("Paper", worksheet.outputs_summary_table_i50); end
+  def test_outputs_summary_table_c51; assert_equal("% increase in chemicals output", worksheet.outputs_summary_table_c51); end
+  def test_outputs_summary_table_d51; assert_equal("Gt", worksheet.outputs_summary_table_d51); end
+  def test_outputs_summary_table_e51; assert_in_delta(0.7504088224854853, worksheet.outputs_summary_table_e51, 0.002); end
+  def test_outputs_summary_table_f51; assert_in_epsilon(1.1663487292368973, worksheet.outputs_summary_table_f51, 0.002); end
+  def test_outputs_summary_table_g51; assert_in_delta(0.5542844037650652, worksheet.outputs_summary_table_g51, 0.002); end
+  def test_outputs_summary_table_h51; assert_equal("Material", worksheet.outputs_summary_table_h51); end
+  def test_outputs_summary_table_i51; assert_equal("Chemicals & petrochemicals", worksheet.outputs_summary_table_i51); end
+  def test_outputs_summary_table_c52; assert_equal("% increase in cement output", worksheet.outputs_summary_table_c52); end
+  def test_outputs_summary_table_d52; assert_equal("Gt", worksheet.outputs_summary_table_d52); end
+  def test_outputs_summary_table_e52; assert_in_epsilon(3.6351730407050002, worksheet.outputs_summary_table_e52, 0.002); end
+  def test_outputs_summary_table_f52; assert_in_epsilon(6.450151064208037, worksheet.outputs_summary_table_f52, 0.002); end
+  def test_outputs_summary_table_g52; assert_in_delta(0.7743724967098413, worksheet.outputs_summary_table_g52, 0.002); end
+  def test_outputs_summary_table_h52; assert_equal("Material", worksheet.outputs_summary_table_h52); end
+  def test_outputs_summary_table_i52; assert_equal("Cement", worksheet.outputs_summary_table_i52); end
+  def test_outputs_summary_table_c53; assert_equal("% increase in timber output", worksheet.outputs_summary_table_c53); end
+  def test_outputs_summary_table_d53; assert_equal("Gt", worksheet.outputs_summary_table_d53); end
+  def test_outputs_summary_table_e53; assert_in_delta(0.8091999999999999, worksheet.outputs_summary_table_e53, 0.002); end
+  def test_outputs_summary_table_f53; assert_in_epsilon(1.3559569089678145, worksheet.outputs_summary_table_f53, 0.002); end
+  def test_outputs_summary_table_g53; assert_in_delta(0.6756758637763405, worksheet.outputs_summary_table_g53, 0.002); end
+  def test_outputs_summary_table_h53; assert_equal("Material", worksheet.outputs_summary_table_h53); end
+  def test_outputs_summary_table_i53; assert_equal("Timber", worksheet.outputs_summary_table_i53); end
+  def test_outputs_summary_table_c54; assert_equal("% of manufacturing emissions captured by CCS", worksheet.outputs_summary_table_c54); end
+  def test_outputs_summary_table_d54; assert_equal("%", worksheet.outputs_summary_table_d54); end
+  def test_outputs_summary_table_e54; assert_in_delta(0.0, (worksheet.outputs_summary_table_e54||0), 0.002); end
+  def test_outputs_summary_table_f54; assert_in_delta(0.0, (worksheet.outputs_summary_table_f54||0), 0.002); end
+  def test_outputs_summary_table_g54; assert_equal("", worksheet.outputs_summary_table_g54); end
+  def test_outputs_summary_table_h54; assert_equal("Calculated", worksheet.outputs_summary_table_h54); end
+  def test_outputs_summary_table_c55; assert_equal("Demand for consumer packaging", worksheet.outputs_summary_table_c55); end
+  def test_outputs_summary_table_d55; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d55); end
+  def test_outputs_summary_table_e55; assert_in_delta(1.0, worksheet.outputs_summary_table_e55, 0.002); end
+  def test_outputs_summary_table_f55; assert_in_epsilon(1.453253328606427, worksheet.outputs_summary_table_f55, 0.002); end
+  def test_outputs_summary_table_g55; assert_in_delta(0.4532533286064271, worksheet.outputs_summary_table_g55, 0.002); end
+  def test_outputs_summary_table_h55; assert_equal("Products", worksheet.outputs_summary_table_h55); end
+  def test_outputs_summary_table_i55; assert_equal("Consumer packaging", worksheet.outputs_summary_table_i55); end
+  def test_outputs_summary_table_c56; assert_equal("Demand for electrical equipment", worksheet.outputs_summary_table_c56); end
+  def test_outputs_summary_table_d56; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d56); end
+  def test_outputs_summary_table_e56; assert_in_delta(1.0, worksheet.outputs_summary_table_e56, 0.002); end
+  def test_outputs_summary_table_f56; assert_in_epsilon(2.2621396152835898, worksheet.outputs_summary_table_f56, 0.002); end
+  def test_outputs_summary_table_g56; assert_in_epsilon(1.2621396152835898, worksheet.outputs_summary_table_g56, 0.002); end
+  def test_outputs_summary_table_h56; assert_equal("Products", worksheet.outputs_summary_table_h56); end
+  def test_outputs_summary_table_i56; assert_equal("Electrical equipment", worksheet.outputs_summary_table_i56); end
+  def test_outputs_summary_table_c57; assert_equal("% increase in lifespan of products", worksheet.outputs_summary_table_c57); end
+  def test_outputs_summary_table_d57; assert_equal("Refrigerator lifetime (years)", worksheet.outputs_summary_table_d57); end
+  def test_outputs_summary_table_e57; assert_in_epsilon(15.0, worksheet.outputs_summary_table_e57, 0.002); end
+  def test_outputs_summary_table_f57; assert_in_epsilon(12.0, worksheet.outputs_summary_table_f57, 0.002); end
+  def test_outputs_summary_table_g57; assert_in_delta(-0.19999999999999996, worksheet.outputs_summary_table_g57, 0.002); end
+  def test_outputs_summary_table_h57; assert_equal("Technology code", worksheet.outputs_summary_table_h57); end
+  def test_outputs_summary_table_i57; assert_equal("appliances.refrigerator.urban", worksheet.outputs_summary_table_i57); end
+  def test_outputs_summary_table_b59; assert_equal("Land", worksheet.outputs_summary_table_b59); end
+  def test_outputs_summary_table_c59; assert_equal("Crop yields", worksheet.outputs_summary_table_c59); end
+  def test_outputs_summary_table_d59; assert_equal("EJ per M ha", worksheet.outputs_summary_table_d59); end
+  def test_outputs_summary_table_e59; assert_in_delta(0.03015610243776599, worksheet.outputs_summary_table_e59, 0.002); end
+  def test_outputs_summary_table_f59; assert_in_delta(0.03920293316909579, worksheet.outputs_summary_table_f59, 0.002); end
+  def test_outputs_summary_table_g59; assert_in_delta(0.30000000000000004, worksheet.outputs_summary_table_g59, 0.002); end
+  def test_outputs_summary_table_h59; assert_equal("Lever code", worksheet.outputs_summary_table_h59); end
+  def test_outputs_summary_table_i59; assert_equal("Crop yields", worksheet.outputs_summary_table_i59); end
+  def test_outputs_summary_table_c60; assert_equal("Livestock yields - Increase in non-intensive animal yields (animals per area), and carrying capacity of pasture", worksheet.outputs_summary_table_c60); end
+  def test_outputs_summary_table_d60; assert_equal("% increase from 2011", worksheet.outputs_summary_table_d60); end
+  def test_outputs_summary_table_e60; assert_in_delta(0.0, (worksheet.outputs_summary_table_e60||0), 0.002); end
+  def test_outputs_summary_table_f60; assert_in_delta(0.34, worksheet.outputs_summary_table_f60, 0.002); end
+  def test_outputs_summary_table_g60; assert_equal("", worksheet.outputs_summary_table_g60); end
+  def test_outputs_summary_table_h60; assert_equal("Description", worksheet.outputs_summary_table_h60); end
+  def test_outputs_summary_table_i60; assert_equal("Cows and other bovines ", worksheet.outputs_summary_table_i60); end
+  def test_outputs_summary_table_c61; assert_equal("Bioenergy yields", worksheet.outputs_summary_table_c61); end
+  def test_outputs_summary_table_d61; assert_equal("Increase in energy crop yields (NPP) and change in crop mix from base year", worksheet.outputs_summary_table_d61); end
+  def test_outputs_summary_table_e61; assert_in_delta(0.21111111111111114, worksheet.outputs_summary_table_e61, 0.002); end
+  def test_outputs_summary_table_f61; assert_in_delta(0.548888888888889, worksheet.outputs_summary_table_f61, 0.002); end
+  def test_outputs_summary_table_g61; assert_in_epsilon(1.6, worksheet.outputs_summary_table_g61, 0.002); end
+  def test_outputs_summary_table_h61; assert_equal("Lever code", worksheet.outputs_summary_table_h61); end
+  def test_outputs_summary_table_i61; assert_equal("Bioenergy yield", worksheet.outputs_summary_table_i61); end
+  def test_outputs_summary_table_c62; assert_equal("Productive land for forest", worksheet.outputs_summary_table_c62); end
+  def test_outputs_summary_table_d62; assert_equal("% of unallocated land", worksheet.outputs_summary_table_d62); end
+  def test_outputs_summary_table_e62; assert_in_delta(0.0, (worksheet.outputs_summary_table_e62||0), 0.002); end
+  def test_outputs_summary_table_f62; assert_in_delta(0.0, (worksheet.outputs_summary_table_f62||0), 0.002); end
+  def test_outputs_summary_table_g62; assert_equal("", worksheet.outputs_summary_table_g62); end
+  def test_outputs_summary_table_h62; assert_equal("Land type", worksheet.outputs_summary_table_h62); end
+  def test_outputs_summary_table_i62; assert_equal("Forest", worksheet.outputs_summary_table_i62); end
+  def test_outputs_summary_table_c63; assert_equal("Productive land for bioenergy", worksheet.outputs_summary_table_c63); end
+  def test_outputs_summary_table_d63; assert_equal("% of unallocated land", worksheet.outputs_summary_table_d63); end
+  def test_outputs_summary_table_e63; assert_in_delta(1.0, worksheet.outputs_summary_table_e63, 0.002); end
+  def test_outputs_summary_table_f63; assert_in_delta(1.0, worksheet.outputs_summary_table_f63, 0.002); end
+  def test_outputs_summary_table_g63; assert_in_delta(0.0, (worksheet.outputs_summary_table_g63||0), 0.002); end
+  def test_outputs_summary_table_h63; assert_equal("Land type", worksheet.outputs_summary_table_h63); end
+  def test_outputs_summary_table_i63; assert_equal("Arable.bio", worksheet.outputs_summary_table_i63); end
+  def test_outputs_summary_table_b65; assert_equal("Food", worksheet.outputs_summary_table_b65); end
+  def test_outputs_summary_table_c66; assert_equal("Calories consumed per head", worksheet.outputs_summary_table_c66); end
+  def test_outputs_summary_table_d66; assert_equal("kCal", worksheet.outputs_summary_table_d66); end
+  def test_outputs_summary_table_e66; assert_in_epsilon(2140.0, worksheet.outputs_summary_table_e66, 0.002); end
+  def test_outputs_summary_table_f66; assert_in_epsilon(2350.0, worksheet.outputs_summary_table_f66, 0.002); end
+  def test_outputs_summary_table_g66; assert_in_delta(0.0981308411214954, worksheet.outputs_summary_table_g66, 0.002); end
+  def test_outputs_summary_table_h66; assert_equal("Description", worksheet.outputs_summary_table_h66); end
+  def test_outputs_summary_table_i66; assert_equal("Calories consumed", worksheet.outputs_summary_table_i66); end
+  def test_outputs_summary_table_c67; assert_equal("Calories from meat", worksheet.outputs_summary_table_c67); end
+  def test_outputs_summary_table_d67; assert_equal("kCal", worksheet.outputs_summary_table_d67); end
+  def test_outputs_summary_table_e67; assert_in_epsilon(212.0, worksheet.outputs_summary_table_e67, 0.002); end
+  def test_outputs_summary_table_f67; assert_in_epsilon(221.70000000000002, worksheet.outputs_summary_table_f67, 0.002); end
+  def test_outputs_summary_table_g67; assert_in_delta(0.04575471698113209, worksheet.outputs_summary_table_g67, 0.002); end
+  def test_outputs_summary_table_h67; assert_equal("Description", worksheet.outputs_summary_table_h67); end
+  def test_outputs_summary_table_i67; assert_equal("Calories consumed", worksheet.outputs_summary_table_i67); end
+  def test_outputs_summary_table_b69; assert_equal("Cost", worksheet.outputs_summary_table_b69); end
+  def test_outputs_summary_table_c69; assert_equal("Cost in 2050", worksheet.outputs_summary_table_c69); end
+  def test_outputs_summary_table_d69; assert_equal("$tn", worksheet.outputs_summary_table_d69); end
+  def test_outputs_summary_table_e69; assert_equal("Not available", worksheet.outputs_summary_table_e69); end
+  def test_outputs_summary_table_f69; assert_in_epsilon(16.118720240117707, worksheet.outputs_summary_table_f69, 0.002); end
+  def test_outputs_summary_table_h69; assert_equal("Named cell", worksheet.outputs_summary_table_h69); end
+  def test_outputs_summary_table_b71; assert_equal("Emissions saved", worksheet.outputs_summary_table_b71); end
+  def test_outputs_summary_table_c71; assert_equal("Emissions saved by speculative GHG removal technologies", worksheet.outputs_summary_table_c71); end
+  def test_outputs_summary_table_d71; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d71); end
+  def test_outputs_summary_table_e71; assert_in_delta(0.0, (worksheet.outputs_summary_table_e71||0), 0.002); end
+  def test_outputs_summary_table_f71; assert_in_delta(0.0, (worksheet.outputs_summary_table_f71||0), 0.002); end
+  def test_outputs_summary_table_g71; assert_equal("", worksheet.outputs_summary_table_g71); end
+  def test_outputs_summary_table_h71; assert_equal("Calculated", worksheet.outputs_summary_table_h71); end
+  def test_outputs_summary_table_d76; assert_equal("Unit", worksheet.outputs_summary_table_d76); end
+  def test_outputs_summary_table_e76; assert_equal("2011", worksheet.outputs_summary_table_e76); end
+  def test_outputs_summary_table_f76; assert_equal("2050", worksheet.outputs_summary_table_f76); end
+  def test_outputs_summary_table_g76; assert_equal("% increase", worksheet.outputs_summary_table_g76); end
+  def test_outputs_summary_table_c77; assert_equal("Urban population", worksheet.outputs_summary_table_c77); end
+  def test_outputs_summary_table_d77; assert_equal("people", worksheet.outputs_summary_table_d77); end
+  def test_outputs_summary_table_e77; assert_in_epsilon(3628121802.0096, worksheet.outputs_summary_table_e77, 0.002); end
+  def test_outputs_summary_table_f77; assert_in_epsilon(6208114250.0, worksheet.outputs_summary_table_f77, 0.002); end
+  def test_outputs_summary_table_g77; assert_in_delta(0.7111096563961423, worksheet.outputs_summary_table_g77, 0.002); end
+  def test_outputs_summary_table_c78; assert_equal("Rural population", worksheet.outputs_summary_table_c78); end
+  def test_outputs_summary_table_d78; assert_equal("people", worksheet.outputs_summary_table_d78); end
+  def test_outputs_summary_table_e78; assert_in_epsilon(3338317909.9904, worksheet.outputs_summary_table_e78, 0.002); end
+  def test_outputs_summary_table_f78; assert_in_epsilon(3342830750.0, worksheet.outputs_summary_table_f78, 0.002); end
+  def test_outputs_summary_table_g78; assert_in_delta(0.00135183051203569, worksheet.outputs_summary_table_g78, 0.002); end
+  def test_outputs_summary_table_c79; assert_equal("Passenger km (total)", worksheet.outputs_summary_table_c79); end
+  def test_outputs_summary_table_c81; assert_equal("Offshore wind capacity", worksheet.outputs_summary_table_c81); end
+  def test_outputs_summary_table_d81; assert_equal("GW", worksheet.outputs_summary_table_d81); end
+  def test_outputs_summary_table_e81; assert_in_epsilon(4.1, worksheet.outputs_summary_table_e81, 0.002); end
+  def test_outputs_summary_table_f81; assert_in_epsilon(273.00000000000006, worksheet.outputs_summary_table_f81, 0.002); end
+  def test_outputs_summary_table_g81; assert_in_epsilon(65.58536585365856, worksheet.outputs_summary_table_g81, 0.002); end
+  def test_outputs_summary_table_c82; assert_equal("Onshore wind capacity", worksheet.outputs_summary_table_c82); end
+  def test_outputs_summary_table_d82; assert_equal("GW", worksheet.outputs_summary_table_d82); end
+  def test_outputs_summary_table_e82; assert_in_epsilon(233.57, worksheet.outputs_summary_table_e82, 0.002); end
+  def test_outputs_summary_table_f82; assert_in_epsilon(1117.2000000000003, worksheet.outputs_summary_table_f82, 0.002); end
+  def test_outputs_summary_table_g82; assert_in_epsilon(3.783148520786061, worksheet.outputs_summary_table_g82, 0.002); end
+  def test_outputs_summary_table_c83; assert_equal("Solar PV capacity", worksheet.outputs_summary_table_c83); end
+  def test_outputs_summary_table_d83; assert_equal("GW", worksheet.outputs_summary_table_d83); end
+  def test_outputs_summary_table_e83; assert_in_epsilon(28.0, worksheet.outputs_summary_table_e83, 0.002); end
+  def test_outputs_summary_table_f83; assert_in_epsilon(324.3999999999999, worksheet.outputs_summary_table_f83, 0.002); end
+  def test_outputs_summary_table_g83; assert_in_epsilon(10.585714285714284, worksheet.outputs_summary_table_g83, 0.002); end
+  def test_outputs_summary_table_c84; assert_equal("CSP capacity", worksheet.outputs_summary_table_c84); end
+  def test_outputs_summary_table_d84; assert_equal("GW", worksheet.outputs_summary_table_d84); end
+  def test_outputs_summary_table_e84; assert_in_epsilon(1.6, worksheet.outputs_summary_table_e84, 0.002); end
+  def test_outputs_summary_table_f84; assert_in_epsilon(155.19999999999996, worksheet.outputs_summary_table_f84, 0.002); end
+  def test_outputs_summary_table_g84; assert_in_epsilon(95.99999999999997, worksheet.outputs_summary_table_g84, 0.002); end
+  def test_outputs_summary_table_c85; assert_equal("Unabated", worksheet.outputs_summary_table_c85); end
+  def test_outputs_summary_table_d85; assert_equal("GW", worksheet.outputs_summary_table_d85); end
+  def test_outputs_summary_table_e85; assert_in_epsilon(2333.4370255024746, worksheet.outputs_summary_table_e85, 0.002); end
+  def test_outputs_summary_table_f85; assert_in_epsilon(4684.305766456224, worksheet.outputs_summary_table_f85, 0.002); end
+  def test_outputs_summary_table_g85; assert_in_epsilon(1.007470403212412, worksheet.outputs_summary_table_g85, 0.002); end
+  def test_outputs_summary_table_c87; assert_equal("Light road", worksheet.outputs_summary_table_c87); end
+  def test_outputs_summary_table_d87; assert_equal("Vehicles", worksheet.outputs_summary_table_d87); end
+  def test_outputs_summary_table_e87; assert_in_epsilon(1982207975.8321536, worksheet.outputs_summary_table_e87, 0.002); end
+  def test_outputs_summary_table_f87; assert_in_epsilon(5143064534.961609, worksheet.outputs_summary_table_f87, 0.002); end
+  def test_outputs_summary_table_g87; assert_in_epsilon(1.5946139848430847, worksheet.outputs_summary_table_g87, 0.002); end
+  def test_outputs_summary_table_c88; assert_equal("Heavy road", worksheet.outputs_summary_table_c88); end
+  def test_outputs_summary_table_d88; assert_equal("Vehicles", worksheet.outputs_summary_table_d88); end
+  def test_outputs_summary_table_e88; assert_in_epsilon(7179817.66313811, worksheet.outputs_summary_table_e88, 0.002); end
+  def test_outputs_summary_table_f88; assert_in_epsilon(12088432.178524988, worksheet.outputs_summary_table_f88, 0.002); end
+  def test_outputs_summary_table_g88; assert_in_delta(0.6836684085430451, worksheet.outputs_summary_table_g88, 0.002); end
+  def test_outputs_summary_table_c89; assert_equal("Rail", worksheet.outputs_summary_table_c89); end
+  def test_outputs_summary_table_d89; assert_equal("Vehicles", worksheet.outputs_summary_table_d89); end
+  def test_outputs_summary_table_e89; assert_in_epsilon(78389.16193628244, worksheet.outputs_summary_table_e89, 0.002); end
+  def test_outputs_summary_table_f89; assert_in_epsilon(163504.90803168545, worksheet.outputs_summary_table_f89, 0.002); end
+  def test_outputs_summary_table_g89; assert_in_epsilon(1.08581012978029, worksheet.outputs_summary_table_g89, 0.002); end
+  def test_outputs_summary_table_c90; assert_equal("Plane", worksheet.outputs_summary_table_c90); end
+  def test_outputs_summary_table_d90; assert_equal("Vehicles", worksheet.outputs_summary_table_d90); end
+  def test_outputs_summary_table_e90; assert_in_epsilon(44993.77904477885, worksheet.outputs_summary_table_e90, 0.002); end
+  def test_outputs_summary_table_f90; assert_in_epsilon(123910.95191496264, worksheet.outputs_summary_table_f90, 0.002); end
+  def test_outputs_summary_table_g90; assert_in_epsilon(1.7539574257953214, worksheet.outputs_summary_table_g90, 0.002); end
+  def test_outputs_summary_table_c92; assert_equal("Emissions saved by speculative GHG removal technologies", worksheet.outputs_summary_table_c92); end
+  def test_outputs_summary_table_d92; assert_equal("Gt CO2", worksheet.outputs_summary_table_d92); end
+  def test_outputs_summary_table_e92; assert_in_delta(0.0, (worksheet.outputs_summary_table_e92||0), 0.002); end
+  def test_outputs_summary_table_f92; assert_in_delta(0.0, (worksheet.outputs_summary_table_f92||0), 0.002); end
+  def test_outputs_summary_table_g92; assert_equal("", worksheet.outputs_summary_table_g92); end
+  def test_outputs_summary_table_b94; assert_equal("CCS", worksheet.outputs_summary_table_b94); end
+  def test_outputs_summary_table_c94; assert_equal("IPCC emissions sector G.X2.A", worksheet.outputs_summary_table_c94); end
+  def test_outputs_summary_table_d94; assert_equal("Gt CO2", worksheet.outputs_summary_table_d94); end
+  def test_outputs_summary_table_e94; assert_in_delta(0.0, (worksheet.outputs_summary_table_e94||0), 0.002); end
+  def test_outputs_summary_table_f94; assert_in_delta(0.0, (worksheet.outputs_summary_table_f94||0), 0.002); end
+  def test_outputs_summary_table_g94; assert_equal("", worksheet.outputs_summary_table_g94); end
+  def test_outputs_summary_table_c95; assert_equal("IPCC emissions sector G.X2.B", worksheet.outputs_summary_table_c95); end
+  def test_outputs_summary_table_d95; assert_equal("Gt CO2", worksheet.outputs_summary_table_d95); end
+  def test_outputs_summary_table_e95; assert_in_delta(0.0, (worksheet.outputs_summary_table_e95||0), 0.002); end
+  def test_outputs_summary_table_f95; assert_in_delta(0.0, (worksheet.outputs_summary_table_f95||0), 0.002); end
+  def test_outputs_summary_table_g95; assert_equal("", worksheet.outputs_summary_table_g95); end
+  def test_outputs_summary_table_c96; assert_equal("IPCC emissions sector G.1A", worksheet.outputs_summary_table_c96); end
+  def test_outputs_summary_table_d96; assert_equal("Gt CO2", worksheet.outputs_summary_table_d96); end
+  def test_outputs_summary_table_e96; assert_in_epsilon(6.437087873818246, worksheet.outputs_summary_table_e96, 0.002); end
+  def test_outputs_summary_table_f96; assert_in_epsilon(11.13377960116813, worksheet.outputs_summary_table_f96, 0.002); end
+  def test_outputs_summary_table_g96; assert_in_delta(0.729629891562126, worksheet.outputs_summary_table_g96, 0.002); end
+  def test_outputs_summary_table_c97; assert_equal("IPCC emissions sector G.2", worksheet.outputs_summary_table_c97); end
+  def test_outputs_summary_table_d97; assert_equal("Gt CO2", worksheet.outputs_summary_table_d97); end
+  def test_outputs_summary_table_e97; assert_in_epsilon(3.2522479026220728, worksheet.outputs_summary_table_e97, 0.002); end
+  def test_outputs_summary_table_f97; assert_in_epsilon(5.680477863316848, worksheet.outputs_summary_table_f97, 0.002); end
+  def test_outputs_summary_table_g97; assert_in_delta(0.746631263483037, worksheet.outputs_summary_table_g97, 0.002); end
+  def test_outputs_summary_table_c100; assert_equal("Electrical equipment", worksheet.outputs_summary_table_c100); end
+  def test_outputs_summary_table_d100; assert_equal("%", worksheet.outputs_summary_table_d100); end
+  def test_outputs_summary_table_e100; assert_in_delta(1.0, worksheet.outputs_summary_table_e100, 0.002); end
+  def test_outputs_summary_table_f100; assert_in_epsilon(2.2621396152835898, worksheet.outputs_summary_table_f100, 0.002); end
+  def test_outputs_summary_table_g100; assert_in_epsilon(1.2621396152835898, worksheet.outputs_summary_table_g100, 0.002); end
+  def test_outputs_summary_table_c101; assert_equal("Consumer packaging", worksheet.outputs_summary_table_c101); end
+  def test_outputs_summary_table_d101; assert_equal("%", worksheet.outputs_summary_table_d101); end
+  def test_outputs_summary_table_e101; assert_in_delta(1.0, worksheet.outputs_summary_table_e101, 0.002); end
+  def test_outputs_summary_table_f101; assert_in_epsilon(1.453253328606427, worksheet.outputs_summary_table_f101, 0.002); end
+  def test_outputs_summary_table_g101; assert_in_delta(0.4532533286064271, worksheet.outputs_summary_table_g101, 0.002); end
+  def test_outputs_summary_table_c102; assert_equal("Metal goods", worksheet.outputs_summary_table_c102); end
+  def test_outputs_summary_table_d102; assert_equal("%", worksheet.outputs_summary_table_d102); end
+  def test_outputs_summary_table_e102; assert_in_delta(1.0, worksheet.outputs_summary_table_e102, 0.002); end
+  def test_outputs_summary_table_f102; assert_in_epsilon(1.590352699229675, worksheet.outputs_summary_table_f102, 0.002); end
+  def test_outputs_summary_table_g102; assert_in_delta(0.590352699229675, worksheet.outputs_summary_table_g102, 0.002); end
+  def test_outputs_summary_table_c104; assert_equal("Air freight (as % of international freight tonne-km)", worksheet.outputs_summary_table_c104); end
+  def test_outputs_summary_table_d104; assert_equal("% of international freight tonne-km", worksheet.outputs_summary_table_d104); end
+  def test_outputs_summary_table_e104; assert_in_delta(0.002, worksheet.outputs_summary_table_e104, 0.002); end
+  def test_outputs_summary_table_f104; assert_in_delta(0.00255, worksheet.outputs_summary_table_f104, 0.002); end
+  def test_outputs_summary_table_g104; assert_in_delta(0.27500000000000013, worksheet.outputs_summary_table_g104, 0.002); end
+  def test_outputs_summary_table_c105; assert_equal("Total internatinal freight (as % of international freight tonne-km)", worksheet.outputs_summary_table_c105); end
+  def test_outputs_summary_table_d105; assert_equal("% of international freight tonne-km", worksheet.outputs_summary_table_d105); end
+  def test_outputs_summary_table_e105; assert_in_delta(1.0, worksheet.outputs_summary_table_e105, 0.002); end
+  def test_outputs_summary_table_f105; assert_in_delta(1.0, worksheet.outputs_summary_table_f105, 0.002); end
+  def test_outputs_summary_table_g105; assert_in_delta(0.0, (worksheet.outputs_summary_table_g105||0), 0.002); end
+  def test_outputs_summary_table_b108; assert_equal("Electricity", worksheet.outputs_summary_table_b108); end
+  def test_outputs_summary_table_c108; assert_equal("Electricity demand per capita", worksheet.outputs_summary_table_c108); end
+  def test_outputs_summary_table_d108; assert_equal("kWh", worksheet.outputs_summary_table_d108); end
+  def test_outputs_summary_table_e108; assert_in_epsilon(2727.1132879886763, worksheet.outputs_summary_table_e108, 0.002); end
+  def test_outputs_summary_table_f108; assert_in_epsilon(4058.6476412912953, worksheet.outputs_summary_table_f108, 0.002); end
+  def test_outputs_summary_table_g108; assert_in_delta(0.48825780695185683, worksheet.outputs_summary_table_g108, 0.002); end
+  def test_outputs_summary_table_c110; assert_equal("car.passenger.urban.ICE.liquid", worksheet.outputs_summary_table_c110); end
+  def test_outputs_summary_table_d110; assert_equal("% of cars", worksheet.outputs_summary_table_d110); end
+  def test_outputs_summary_table_e110; assert_in_delta(0.988235872414889, worksheet.outputs_summary_table_e110, 0.002); end
+  def test_outputs_summary_table_f110; assert_in_delta(0.9099999999999999, worksheet.outputs_summary_table_f110, 0.002); end
+  def test_outputs_summary_table_c111; assert_equal("car.passenger.urban.ICE.gas", worksheet.outputs_summary_table_c111); end
+  def test_outputs_summary_table_d111; assert_equal("% of cars", worksheet.outputs_summary_table_d111); end
+  def test_outputs_summary_table_e111; assert_in_delta(0.00959176661788106, worksheet.outputs_summary_table_e111, 0.002); end
+  def test_outputs_summary_table_f111; assert_in_delta(0.02, worksheet.outputs_summary_table_f111, 0.002); end
+  def test_outputs_summary_table_c112; assert_equal("car.passenger.urban.PH", worksheet.outputs_summary_table_c112); end
+  def test_outputs_summary_table_d112; assert_equal("% of cars", worksheet.outputs_summary_table_d112); end
+  def test_outputs_summary_table_e112; assert_in_delta(2.834105983229307e-08, worksheet.outputs_summary_table_e112, 0.002); end
+  def test_outputs_summary_table_f112; assert_in_delta(0.05, worksheet.outputs_summary_table_f112, 0.002); end
+  def test_outputs_summary_table_c113; assert_equal("car.passenger.urban.EV", worksheet.outputs_summary_table_c113); end
+  def test_outputs_summary_table_d113; assert_equal("% of cars", worksheet.outputs_summary_table_d113); end
+  def test_outputs_summary_table_e113; assert_in_delta(0.00217233262617009, worksheet.outputs_summary_table_e113, 0.002); end
+  def test_outputs_summary_table_f113; assert_in_delta(0.02, worksheet.outputs_summary_table_f113, 0.002); end
+  def test_outputs_summary_table_c114; assert_equal("car.passenger.urban.H2", worksheet.outputs_summary_table_c114); end
+  def test_outputs_summary_table_d114; assert_equal("% of cars", worksheet.outputs_summary_table_d114); end
+  def test_outputs_summary_table_e114; assert_in_delta(0.0, (worksheet.outputs_summary_table_e114||0), 0.002); end
+  def test_outputs_summary_table_f114; assert_in_delta(0.0, (worksheet.outputs_summary_table_f114||0), 0.002); end
   def test_outputs_climate_impacts_d11; assert_in_epsilon(3.5352109085035774, worksheet.outputs_climate_impacts_d11, 0.002); end
   def test_outputs_climate_impacts_d12; assert_in_delta(0.7692860044872958, worksheet.outputs_climate_impacts_d12, 0.002); end
   def test_outputs_climate_impacts_e11; assert_in_epsilon(5.57832565670102, worksheet.outputs_climate_impacts_e11, 0.002); end
