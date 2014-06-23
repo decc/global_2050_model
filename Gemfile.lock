@@ -1,6 +1,6 @@
 GIT
   remote: ../excel_to_code
-  revision: a4bfc41eb0f1a89341ef4989c8dac0600bb0aaee
+  revision: a6a6ff13c261aa4c6852bb13b72dded03eddf3a6
   branch: master
   specs:
     excel_to_code (0.2.28)
@@ -19,24 +19,17 @@ GEM
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     ffi (1.9.3)
-    ffi (1.9.3-java)
     interception (0.5)
     method_source (0.8.2)
     mini_portile (0.6.0)
     minitest (5.3.5)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
-    nokogiri (1.6.2.1-java)
     ox (2.1.1)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry (0.10.0-java)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-      spoon (~> 0.0)
     pry-rescue (1.4.1)
       interception (>= 0.5)
       pry
@@ -56,8 +49,6 @@ GEM
       rubyscriptwriter
     rubyscriptwriter (0.0.2)
     slop (3.5.0)
-    spoon (0.0.4)
-      ffi
     stackprof (0.2.7)
 
 PLATFORMS
