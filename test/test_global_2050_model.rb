@@ -59,6 +59,1306 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_user_inputs_e53; assert_equal("US", worksheet.user_inputs_e53); end
   def test_user_inputs_e54; assert_equal("US", worksheet.user_inputs_e54); end
   def test_user_inputs_e55; assert_equal("US", worksheet.user_inputs_e55); end
+  def test_user_inputs_h6; assert_equal("IEA \"2DS\" (approximation)", worksheet.user_inputs_h6); end
+  def test_user_inputs_i6; assert_equal("IEA \"4DS\" (approximation)", worksheet.user_inputs_i6); end
+  def test_user_inputs_j6; assert_equal("IEA \"6DS\" (approximation)", worksheet.user_inputs_j6); end
+  def test_user_inputs_k6; assert_equal("IEA 6DS with full effort in transport", worksheet.user_inputs_k6); end
+  def test_user_inputs_l6; assert_equal("IEA 6DS with full effort in buildings", worksheet.user_inputs_l6); end
+  def test_user_inputs_m6; assert_equal("IEA 6DS with full effort in manufacturing", worksheet.user_inputs_m6); end
+  def test_user_inputs_n6; assert_equal("IEA 6DS with full effort in electricity / fuels", worksheet.user_inputs_n6); end
+  def test_user_inputs_o6; assert_equal("IEA 6DS with full effort in land / food / bio", worksheet.user_inputs_o6); end
+  def test_user_inputs_p6; assert_equal("All level 4", worksheet.user_inputs_p6); end
+  def test_user_inputs_q6; assert_equal("All level 3", worksheet.user_inputs_q6); end
+  def test_user_inputs_r6; assert_equal("All level 2", worksheet.user_inputs_r6); end
+  def test_user_inputs_s6; assert_equal("All level 1", worksheet.user_inputs_s6); end
+  def test_user_inputs_t6; assert_equal("2 degrees with higher \"lifestyle\"", worksheet.user_inputs_t6); end
+  def test_user_inputs_u6; assert_equal("New IEA 2DS", worksheet.user_inputs_u6); end
+  def test_user_inputs_v6; assert_equal("Incumbent technology", worksheet.user_inputs_v6); end
+  def test_user_inputs_w6; assert_equal("No CCS", worksheet.user_inputs_w6); end
+  def test_user_inputs_x6; assert_equal("No nuclear", worksheet.user_inputs_x6); end
+  def test_user_inputs_y6; assert_equal("Farming failure", worksheet.user_inputs_y6); end
+  def test_user_inputs_z6; assert_equal("Healthy eating", worksheet.user_inputs_z6); end
+  def test_user_inputs_aa6; assert_equal("New IEA 6DS", worksheet.user_inputs_aa6); end
+  def test_user_inputs_h7; assert_in_epsilon(2.0, worksheet.user_inputs_h7, 0.002); end
+  def test_user_inputs_i7; assert_in_epsilon(2.0, worksheet.user_inputs_i7, 0.002); end
+  def test_user_inputs_j7; assert_in_epsilon(2.0, worksheet.user_inputs_j7, 0.002); end
+  def test_user_inputs_k7; assert_in_epsilon(2.0, worksheet.user_inputs_k7, 0.002); end
+  def test_user_inputs_l7; assert_in_epsilon(2.0, worksheet.user_inputs_l7, 0.002); end
+  def test_user_inputs_m7; assert_in_epsilon(2.0, worksheet.user_inputs_m7, 0.002); end
+  def test_user_inputs_n7; assert_in_epsilon(2.0, worksheet.user_inputs_n7, 0.002); end
+  def test_user_inputs_o7; assert_in_epsilon(2.0, worksheet.user_inputs_o7, 0.002); end
+  def test_user_inputs_p7; assert_in_epsilon(2.0, worksheet.user_inputs_p7, 0.002); end
+  def test_user_inputs_q7; assert_in_epsilon(2.0, worksheet.user_inputs_q7, 0.002); end
+  def test_user_inputs_r7; assert_in_epsilon(2.0, worksheet.user_inputs_r7, 0.002); end
+  def test_user_inputs_s7; assert_in_epsilon(2.0, worksheet.user_inputs_s7, 0.002); end
+  def test_user_inputs_t7; assert_in_epsilon(2.0, worksheet.user_inputs_t7, 0.002); end
+  def test_user_inputs_u7; assert_in_epsilon(2.0, worksheet.user_inputs_u7, 0.002); end
+  def test_user_inputs_v7; assert_in_epsilon(2.0, worksheet.user_inputs_v7, 0.002); end
+  def test_user_inputs_w7; assert_in_epsilon(2.0, worksheet.user_inputs_w7, 0.002); end
+  def test_user_inputs_x7; assert_in_epsilon(2.0, worksheet.user_inputs_x7, 0.002); end
+  def test_user_inputs_y7; assert_in_epsilon(2.0, worksheet.user_inputs_y7, 0.002); end
+  def test_user_inputs_z7; assert_in_epsilon(2.0, worksheet.user_inputs_z7, 0.002); end
+  def test_user_inputs_aa7; assert_in_epsilon(2.0, worksheet.user_inputs_aa7, 0.002); end
+  def test_user_inputs_h8; assert_in_epsilon(2.0, worksheet.user_inputs_h8, 0.002); end
+  def test_user_inputs_i8; assert_in_epsilon(2.0, worksheet.user_inputs_i8, 0.002); end
+  def test_user_inputs_j8; assert_in_epsilon(2.0, worksheet.user_inputs_j8, 0.002); end
+  def test_user_inputs_k8; assert_in_epsilon(2.0, worksheet.user_inputs_k8, 0.002); end
+  def test_user_inputs_l8; assert_in_epsilon(2.0, worksheet.user_inputs_l8, 0.002); end
+  def test_user_inputs_m8; assert_in_epsilon(2.0, worksheet.user_inputs_m8, 0.002); end
+  def test_user_inputs_n8; assert_in_epsilon(2.0, worksheet.user_inputs_n8, 0.002); end
+  def test_user_inputs_o8; assert_in_epsilon(2.0, worksheet.user_inputs_o8, 0.002); end
+  def test_user_inputs_p8; assert_in_epsilon(2.0, worksheet.user_inputs_p8, 0.002); end
+  def test_user_inputs_q8; assert_in_epsilon(2.0, worksheet.user_inputs_q8, 0.002); end
+  def test_user_inputs_r8; assert_in_epsilon(2.0, worksheet.user_inputs_r8, 0.002); end
+  def test_user_inputs_s8; assert_in_epsilon(2.0, worksheet.user_inputs_s8, 0.002); end
+  def test_user_inputs_t8; assert_in_epsilon(2.0, worksheet.user_inputs_t8, 0.002); end
+  def test_user_inputs_u8; assert_in_epsilon(2.0, worksheet.user_inputs_u8, 0.002); end
+  def test_user_inputs_v8; assert_in_epsilon(2.0, worksheet.user_inputs_v8, 0.002); end
+  def test_user_inputs_w8; assert_in_epsilon(2.0, worksheet.user_inputs_w8, 0.002); end
+  def test_user_inputs_x8; assert_in_epsilon(2.0, worksheet.user_inputs_x8, 0.002); end
+  def test_user_inputs_y8; assert_in_epsilon(2.0, worksheet.user_inputs_y8, 0.002); end
+  def test_user_inputs_z8; assert_in_epsilon(2.0, worksheet.user_inputs_z8, 0.002); end
+  def test_user_inputs_aa8; assert_in_epsilon(2.0, worksheet.user_inputs_aa8, 0.002); end
+  def test_user_inputs_h9; assert_in_epsilon(2.0, worksheet.user_inputs_h9, 0.002); end
+  def test_user_inputs_i9; assert_in_epsilon(2.0, worksheet.user_inputs_i9, 0.002); end
+  def test_user_inputs_j9; assert_in_epsilon(2.0, worksheet.user_inputs_j9, 0.002); end
+  def test_user_inputs_k9; assert_in_epsilon(4.0, worksheet.user_inputs_k9, 0.002); end
+  def test_user_inputs_l9; assert_in_epsilon(2.0, worksheet.user_inputs_l9, 0.002); end
+  def test_user_inputs_m9; assert_in_epsilon(2.0, worksheet.user_inputs_m9, 0.002); end
+  def test_user_inputs_n9; assert_in_epsilon(2.0, worksheet.user_inputs_n9, 0.002); end
+  def test_user_inputs_o9; assert_in_epsilon(2.0, worksheet.user_inputs_o9, 0.002); end
+  def test_user_inputs_p9; assert_in_epsilon(4.0, worksheet.user_inputs_p9, 0.002); end
+  def test_user_inputs_q9; assert_in_epsilon(3.0, worksheet.user_inputs_q9, 0.002); end
+  def test_user_inputs_r9; assert_in_epsilon(2.0, worksheet.user_inputs_r9, 0.002); end
+  def test_user_inputs_s9; assert_in_delta(1.0, worksheet.user_inputs_s9, 0.002); end
+  def test_user_inputs_t9; assert_in_epsilon(1.5, worksheet.user_inputs_t9, 0.002); end
+  def test_user_inputs_u9; assert_in_epsilon(2.0, worksheet.user_inputs_u9, 0.002); end
+  def test_user_inputs_v9; assert_in_epsilon(2.0, worksheet.user_inputs_v9, 0.002); end
+  def test_user_inputs_w9; assert_in_epsilon(2.0, worksheet.user_inputs_w9, 0.002); end
+  def test_user_inputs_x9; assert_in_epsilon(2.0, worksheet.user_inputs_x9, 0.002); end
+  def test_user_inputs_y9; assert_in_epsilon(2.0, worksheet.user_inputs_y9, 0.002); end
+  def test_user_inputs_z9; assert_in_epsilon(2.0, worksheet.user_inputs_z9, 0.002); end
+  def test_user_inputs_aa9; assert_in_epsilon(2.0, worksheet.user_inputs_aa9, 0.002); end
+  def test_user_inputs_h10; assert_in_epsilon(2.0, worksheet.user_inputs_h10, 0.002); end
+  def test_user_inputs_i10; assert_in_epsilon(2.0, worksheet.user_inputs_i10, 0.002); end
+  def test_user_inputs_j10; assert_in_epsilon(2.0, worksheet.user_inputs_j10, 0.002); end
+  def test_user_inputs_k10; assert_in_epsilon(4.0, worksheet.user_inputs_k10, 0.002); end
+  def test_user_inputs_l10; assert_in_epsilon(2.0, worksheet.user_inputs_l10, 0.002); end
+  def test_user_inputs_m10; assert_in_epsilon(2.0, worksheet.user_inputs_m10, 0.002); end
+  def test_user_inputs_n10; assert_in_epsilon(2.0, worksheet.user_inputs_n10, 0.002); end
+  def test_user_inputs_o10; assert_in_epsilon(2.0, worksheet.user_inputs_o10, 0.002); end
+  def test_user_inputs_p10; assert_in_epsilon(4.0, worksheet.user_inputs_p10, 0.002); end
+  def test_user_inputs_q10; assert_in_epsilon(3.0, worksheet.user_inputs_q10, 0.002); end
+  def test_user_inputs_r10; assert_in_epsilon(2.0, worksheet.user_inputs_r10, 0.002); end
+  def test_user_inputs_s10; assert_in_delta(1.0, worksheet.user_inputs_s10, 0.002); end
+  def test_user_inputs_t10; assert_in_epsilon(1.5, worksheet.user_inputs_t10, 0.002); end
+  def test_user_inputs_u10; assert_in_epsilon(2.0, worksheet.user_inputs_u10, 0.002); end
+  def test_user_inputs_v10; assert_in_epsilon(2.0, worksheet.user_inputs_v10, 0.002); end
+  def test_user_inputs_w10; assert_in_epsilon(2.0, worksheet.user_inputs_w10, 0.002); end
+  def test_user_inputs_x10; assert_in_epsilon(2.0, worksheet.user_inputs_x10, 0.002); end
+  def test_user_inputs_y10; assert_in_epsilon(2.0, worksheet.user_inputs_y10, 0.002); end
+  def test_user_inputs_z10; assert_in_epsilon(2.0, worksheet.user_inputs_z10, 0.002); end
+  def test_user_inputs_aa10; assert_in_epsilon(2.0, worksheet.user_inputs_aa10, 0.002); end
+  def test_user_inputs_h11; assert_in_epsilon(2.8, worksheet.user_inputs_h11, 0.002); end
+  def test_user_inputs_i11; assert_in_epsilon(2.0, worksheet.user_inputs_i11, 0.002); end
+  def test_user_inputs_j11; assert_in_epsilon(1.9, worksheet.user_inputs_j11, 0.002); end
+  def test_user_inputs_k11; assert_in_epsilon(4.0, worksheet.user_inputs_k11, 0.002); end
+  def test_user_inputs_l11; assert_in_epsilon(1.9, worksheet.user_inputs_l11, 0.002); end
+  def test_user_inputs_m11; assert_in_epsilon(1.9, worksheet.user_inputs_m11, 0.002); end
+  def test_user_inputs_n11; assert_in_epsilon(1.9, worksheet.user_inputs_n11, 0.002); end
+  def test_user_inputs_o11; assert_in_epsilon(1.9, worksheet.user_inputs_o11, 0.002); end
+  def test_user_inputs_p11; assert_in_epsilon(4.0, worksheet.user_inputs_p11, 0.002); end
+  def test_user_inputs_q11; assert_in_epsilon(3.0, worksheet.user_inputs_q11, 0.002); end
+  def test_user_inputs_r11; assert_in_epsilon(2.0, worksheet.user_inputs_r11, 0.002); end
+  def test_user_inputs_s11; assert_in_delta(1.0, worksheet.user_inputs_s11, 0.002); end
+  def test_user_inputs_t11; assert_in_epsilon(3.0, worksheet.user_inputs_t11, 0.002); end
+  def test_user_inputs_u11; assert_in_epsilon(2.8, worksheet.user_inputs_u11, 0.002); end
+  def test_user_inputs_v11; assert_in_epsilon(2.8, worksheet.user_inputs_v11, 0.002); end
+  def test_user_inputs_w11; assert_in_epsilon(2.8, worksheet.user_inputs_w11, 0.002); end
+  def test_user_inputs_x11; assert_in_epsilon(2.8, worksheet.user_inputs_x11, 0.002); end
+  def test_user_inputs_y11; assert_in_epsilon(2.8, worksheet.user_inputs_y11, 0.002); end
+  def test_user_inputs_z11; assert_in_epsilon(2.8, worksheet.user_inputs_z11, 0.002); end
+  def test_user_inputs_aa11; assert_in_epsilon(1.9, worksheet.user_inputs_aa11, 0.002); end
+  def test_user_inputs_h12; assert_in_epsilon(2.8, worksheet.user_inputs_h12, 0.002); end
+  def test_user_inputs_i12; assert_in_epsilon(2.2, worksheet.user_inputs_i12, 0.002); end
+  def test_user_inputs_j12; assert_in_epsilon(2.0, worksheet.user_inputs_j12, 0.002); end
+  def test_user_inputs_k12; assert_in_epsilon(4.0, worksheet.user_inputs_k12, 0.002); end
+  def test_user_inputs_l12; assert_in_epsilon(2.0, worksheet.user_inputs_l12, 0.002); end
+  def test_user_inputs_m12; assert_in_epsilon(2.0, worksheet.user_inputs_m12, 0.002); end
+  def test_user_inputs_n12; assert_in_epsilon(2.0, worksheet.user_inputs_n12, 0.002); end
+  def test_user_inputs_o12; assert_in_epsilon(2.0, worksheet.user_inputs_o12, 0.002); end
+  def test_user_inputs_p12; assert_in_epsilon(4.0, worksheet.user_inputs_p12, 0.002); end
+  def test_user_inputs_q12; assert_in_epsilon(3.0, worksheet.user_inputs_q12, 0.002); end
+  def test_user_inputs_r12; assert_in_epsilon(2.0, worksheet.user_inputs_r12, 0.002); end
+  def test_user_inputs_s12; assert_in_delta(1.0, worksheet.user_inputs_s12, 0.002); end
+  def test_user_inputs_t12; assert_in_epsilon(3.3, worksheet.user_inputs_t12, 0.002); end
+  def test_user_inputs_u12; assert_in_epsilon(2.8, worksheet.user_inputs_u12, 0.002); end
+  def test_user_inputs_v12; assert_in_epsilon(2.8, worksheet.user_inputs_v12, 0.002); end
+  def test_user_inputs_w12; assert_in_epsilon(3.0, worksheet.user_inputs_w12, 0.002); end
+  def test_user_inputs_x12; assert_in_epsilon(3.0, worksheet.user_inputs_x12, 0.002); end
+  def test_user_inputs_y12; assert_in_epsilon(3.0, worksheet.user_inputs_y12, 0.002); end
+  def test_user_inputs_z12; assert_in_epsilon(2.8, worksheet.user_inputs_z12, 0.002); end
+  def test_user_inputs_aa12; assert_in_epsilon(2.0, worksheet.user_inputs_aa12, 0.002); end
+  def test_user_inputs_h13; assert_in_epsilon(2.5, worksheet.user_inputs_h13, 0.002); end
+  def test_user_inputs_i13; assert_in_epsilon(1.2, worksheet.user_inputs_i13, 0.002); end
+  def test_user_inputs_j13; assert_in_delta(1.0, worksheet.user_inputs_j13, 0.002); end
+  def test_user_inputs_k13; assert_in_epsilon(4.0, worksheet.user_inputs_k13, 0.002); end
+  def test_user_inputs_l13; assert_in_delta(1.0, worksheet.user_inputs_l13, 0.002); end
+  def test_user_inputs_m13; assert_in_delta(1.0, worksheet.user_inputs_m13, 0.002); end
+  def test_user_inputs_n13; assert_in_delta(1.0, worksheet.user_inputs_n13, 0.002); end
+  def test_user_inputs_o13; assert_in_delta(1.0, worksheet.user_inputs_o13, 0.002); end
+  def test_user_inputs_p13; assert_in_epsilon(4.0, worksheet.user_inputs_p13, 0.002); end
+  def test_user_inputs_q13; assert_in_epsilon(3.0, worksheet.user_inputs_q13, 0.002); end
+  def test_user_inputs_r13; assert_in_epsilon(2.0, worksheet.user_inputs_r13, 0.002); end
+  def test_user_inputs_s13; assert_in_delta(1.0, worksheet.user_inputs_s13, 0.002); end
+  def test_user_inputs_t13; assert_in_epsilon(3.3, worksheet.user_inputs_t13, 0.002); end
+  def test_user_inputs_u13; assert_in_epsilon(2.5, worksheet.user_inputs_u13, 0.002); end
+  def test_user_inputs_v13; assert_in_delta(1.0, worksheet.user_inputs_v13, 0.002); end
+  def test_user_inputs_w13; assert_in_epsilon(3.0, worksheet.user_inputs_w13, 0.002); end
+  def test_user_inputs_x13; assert_in_epsilon(3.0, worksheet.user_inputs_x13, 0.002); end
+  def test_user_inputs_y13; assert_in_epsilon(3.0, worksheet.user_inputs_y13, 0.002); end
+  def test_user_inputs_z13; assert_in_epsilon(2.5, worksheet.user_inputs_z13, 0.002); end
+  def test_user_inputs_aa13; assert_in_delta(1.0, worksheet.user_inputs_aa13, 0.002); end
+  def test_user_inputs_h14; assert_in_epsilon(2.0, worksheet.user_inputs_h14, 0.002); end
+  def test_user_inputs_i14; assert_in_epsilon(2.0, worksheet.user_inputs_i14, 0.002); end
+  def test_user_inputs_j14; assert_in_epsilon(2.0, worksheet.user_inputs_j14, 0.002); end
+  def test_user_inputs_k14; assert_in_epsilon(2.0, worksheet.user_inputs_k14, 0.002); end
+  def test_user_inputs_l14; assert_in_epsilon(4.0, worksheet.user_inputs_l14, 0.002); end
+  def test_user_inputs_m14; assert_in_epsilon(2.0, worksheet.user_inputs_m14, 0.002); end
+  def test_user_inputs_n14; assert_in_epsilon(2.0, worksheet.user_inputs_n14, 0.002); end
+  def test_user_inputs_o14; assert_in_epsilon(2.0, worksheet.user_inputs_o14, 0.002); end
+  def test_user_inputs_p14; assert_in_epsilon(4.0, worksheet.user_inputs_p14, 0.002); end
+  def test_user_inputs_q14; assert_in_epsilon(3.0, worksheet.user_inputs_q14, 0.002); end
+  def test_user_inputs_r14; assert_in_epsilon(2.0, worksheet.user_inputs_r14, 0.002); end
+  def test_user_inputs_s14; assert_in_delta(1.0, worksheet.user_inputs_s14, 0.002); end
+  def test_user_inputs_t14; assert_in_epsilon(1.5, worksheet.user_inputs_t14, 0.002); end
+  def test_user_inputs_u14; assert_in_epsilon(2.0, worksheet.user_inputs_u14, 0.002); end
+  def test_user_inputs_v14; assert_in_epsilon(2.0, worksheet.user_inputs_v14, 0.002); end
+  def test_user_inputs_w14; assert_in_epsilon(2.0, worksheet.user_inputs_w14, 0.002); end
+  def test_user_inputs_x14; assert_in_epsilon(2.0, worksheet.user_inputs_x14, 0.002); end
+  def test_user_inputs_y14; assert_in_epsilon(2.8, worksheet.user_inputs_y14, 0.002); end
+  def test_user_inputs_z14; assert_in_epsilon(2.0, worksheet.user_inputs_z14, 0.002); end
+  def test_user_inputs_aa14; assert_in_epsilon(2.0, worksheet.user_inputs_aa14, 0.002); end
+  def test_user_inputs_h15; assert_in_epsilon(2.0, worksheet.user_inputs_h15, 0.002); end
+  def test_user_inputs_i15; assert_in_epsilon(2.0, worksheet.user_inputs_i15, 0.002); end
+  def test_user_inputs_j15; assert_in_epsilon(2.0, worksheet.user_inputs_j15, 0.002); end
+  def test_user_inputs_k15; assert_in_epsilon(2.0, worksheet.user_inputs_k15, 0.002); end
+  def test_user_inputs_l15; assert_in_epsilon(4.0, worksheet.user_inputs_l15, 0.002); end
+  def test_user_inputs_m15; assert_in_epsilon(2.0, worksheet.user_inputs_m15, 0.002); end
+  def test_user_inputs_n15; assert_in_epsilon(2.0, worksheet.user_inputs_n15, 0.002); end
+  def test_user_inputs_o15; assert_in_epsilon(2.0, worksheet.user_inputs_o15, 0.002); end
+  def test_user_inputs_p15; assert_in_epsilon(4.0, worksheet.user_inputs_p15, 0.002); end
+  def test_user_inputs_q15; assert_in_epsilon(3.0, worksheet.user_inputs_q15, 0.002); end
+  def test_user_inputs_r15; assert_in_epsilon(2.0, worksheet.user_inputs_r15, 0.002); end
+  def test_user_inputs_s15; assert_in_delta(1.0, worksheet.user_inputs_s15, 0.002); end
+  def test_user_inputs_t15; assert_in_epsilon(1.5, worksheet.user_inputs_t15, 0.002); end
+  def test_user_inputs_u15; assert_in_epsilon(2.0, worksheet.user_inputs_u15, 0.002); end
+  def test_user_inputs_v15; assert_in_epsilon(2.0, worksheet.user_inputs_v15, 0.002); end
+  def test_user_inputs_w15; assert_in_epsilon(2.0, worksheet.user_inputs_w15, 0.002); end
+  def test_user_inputs_x15; assert_in_epsilon(2.0, worksheet.user_inputs_x15, 0.002); end
+  def test_user_inputs_y15; assert_in_epsilon(2.0, worksheet.user_inputs_y15, 0.002); end
+  def test_user_inputs_z15; assert_in_epsilon(2.0, worksheet.user_inputs_z15, 0.002); end
+  def test_user_inputs_aa15; assert_in_epsilon(2.0, worksheet.user_inputs_aa15, 0.002); end
+  def test_user_inputs_h16; assert_in_epsilon(2.0, worksheet.user_inputs_h16, 0.002); end
+  def test_user_inputs_i16; assert_in_epsilon(2.0, worksheet.user_inputs_i16, 0.002); end
+  def test_user_inputs_j16; assert_in_epsilon(2.0, worksheet.user_inputs_j16, 0.002); end
+  def test_user_inputs_k16; assert_in_epsilon(2.0, worksheet.user_inputs_k16, 0.002); end
+  def test_user_inputs_l16; assert_in_epsilon(4.0, worksheet.user_inputs_l16, 0.002); end
+  def test_user_inputs_m16; assert_in_epsilon(2.0, worksheet.user_inputs_m16, 0.002); end
+  def test_user_inputs_n16; assert_in_epsilon(2.0, worksheet.user_inputs_n16, 0.002); end
+  def test_user_inputs_o16; assert_in_epsilon(2.0, worksheet.user_inputs_o16, 0.002); end
+  def test_user_inputs_p16; assert_in_epsilon(4.0, worksheet.user_inputs_p16, 0.002); end
+  def test_user_inputs_q16; assert_in_epsilon(3.0, worksheet.user_inputs_q16, 0.002); end
+  def test_user_inputs_r16; assert_in_epsilon(2.0, worksheet.user_inputs_r16, 0.002); end
+  def test_user_inputs_s16; assert_in_delta(1.0, worksheet.user_inputs_s16, 0.002); end
+  def test_user_inputs_t16; assert_in_epsilon(1.5, worksheet.user_inputs_t16, 0.002); end
+  def test_user_inputs_u16; assert_in_epsilon(2.0, worksheet.user_inputs_u16, 0.002); end
+  def test_user_inputs_v16; assert_in_epsilon(2.0, worksheet.user_inputs_v16, 0.002); end
+  def test_user_inputs_w16; assert_in_epsilon(2.0, worksheet.user_inputs_w16, 0.002); end
+  def test_user_inputs_x16; assert_in_epsilon(2.0, worksheet.user_inputs_x16, 0.002); end
+  def test_user_inputs_y16; assert_in_epsilon(2.0, worksheet.user_inputs_y16, 0.002); end
+  def test_user_inputs_z16; assert_in_epsilon(2.0, worksheet.user_inputs_z16, 0.002); end
+  def test_user_inputs_aa16; assert_in_epsilon(2.0, worksheet.user_inputs_aa16, 0.002); end
+  def test_user_inputs_h17; assert_in_epsilon(2.8, worksheet.user_inputs_h17, 0.002); end
+  def test_user_inputs_i17; assert_in_epsilon(1.9, worksheet.user_inputs_i17, 0.002); end
+  def test_user_inputs_j17; assert_in_epsilon(1.6, worksheet.user_inputs_j17, 0.002); end
+  def test_user_inputs_k17; assert_in_epsilon(1.6, worksheet.user_inputs_k17, 0.002); end
+  def test_user_inputs_l17; assert_in_epsilon(4.0, worksheet.user_inputs_l17, 0.002); end
+  def test_user_inputs_m17; assert_in_epsilon(1.6, worksheet.user_inputs_m17, 0.002); end
+  def test_user_inputs_n17; assert_in_epsilon(1.6, worksheet.user_inputs_n17, 0.002); end
+  def test_user_inputs_o17; assert_in_epsilon(1.6, worksheet.user_inputs_o17, 0.002); end
+  def test_user_inputs_p17; assert_in_epsilon(4.0, worksheet.user_inputs_p17, 0.002); end
+  def test_user_inputs_q17; assert_in_epsilon(3.0, worksheet.user_inputs_q17, 0.002); end
+  def test_user_inputs_r17; assert_in_epsilon(2.0, worksheet.user_inputs_r17, 0.002); end
+  def test_user_inputs_s17; assert_in_delta(1.0, worksheet.user_inputs_s17, 0.002); end
+  def test_user_inputs_t17; assert_in_epsilon(3.3, worksheet.user_inputs_t17, 0.002); end
+  def test_user_inputs_u17; assert_in_epsilon(2.8, worksheet.user_inputs_u17, 0.002); end
+  def test_user_inputs_v17; assert_in_epsilon(2.8, worksheet.user_inputs_v17, 0.002); end
+  def test_user_inputs_w17; assert_in_epsilon(3.0, worksheet.user_inputs_w17, 0.002); end
+  def test_user_inputs_x17; assert_in_epsilon(2.9, worksheet.user_inputs_x17, 0.002); end
+  def test_user_inputs_y17; assert_in_epsilon(3.0, worksheet.user_inputs_y17, 0.002); end
+  def test_user_inputs_z17; assert_in_epsilon(2.8, worksheet.user_inputs_z17, 0.002); end
+  def test_user_inputs_aa17; assert_in_epsilon(1.6, worksheet.user_inputs_aa17, 0.002); end
+  def test_user_inputs_h18; assert_in_epsilon(3.0, worksheet.user_inputs_h18, 0.002); end
+  def test_user_inputs_i18; assert_in_epsilon(1.8, worksheet.user_inputs_i18, 0.002); end
+  def test_user_inputs_j18; assert_in_epsilon(1.5, worksheet.user_inputs_j18, 0.002); end
+  def test_user_inputs_k18; assert_in_epsilon(1.5, worksheet.user_inputs_k18, 0.002); end
+  def test_user_inputs_l18; assert_in_epsilon(4.0, worksheet.user_inputs_l18, 0.002); end
+  def test_user_inputs_m18; assert_in_epsilon(1.5, worksheet.user_inputs_m18, 0.002); end
+  def test_user_inputs_n18; assert_in_epsilon(1.5, worksheet.user_inputs_n18, 0.002); end
+  def test_user_inputs_o18; assert_in_epsilon(1.5, worksheet.user_inputs_o18, 0.002); end
+  def test_user_inputs_p18; assert_in_epsilon(4.0, worksheet.user_inputs_p18, 0.002); end
+  def test_user_inputs_q18; assert_in_epsilon(3.0, worksheet.user_inputs_q18, 0.002); end
+  def test_user_inputs_r18; assert_in_epsilon(2.0, worksheet.user_inputs_r18, 0.002); end
+  def test_user_inputs_s18; assert_in_delta(1.0, worksheet.user_inputs_s18, 0.002); end
+  def test_user_inputs_t18; assert_in_epsilon(3.3, worksheet.user_inputs_t18, 0.002); end
+  def test_user_inputs_u18; assert_in_epsilon(3.0, worksheet.user_inputs_u18, 0.002); end
+  def test_user_inputs_v18; assert_in_epsilon(1.5, worksheet.user_inputs_v18, 0.002); end
+  def test_user_inputs_w18; assert_in_epsilon(3.0, worksheet.user_inputs_w18, 0.002); end
+  def test_user_inputs_x18; assert_in_epsilon(3.0, worksheet.user_inputs_x18, 0.002); end
+  def test_user_inputs_y18; assert_in_epsilon(3.0, worksheet.user_inputs_y18, 0.002); end
+  def test_user_inputs_z18; assert_in_epsilon(3.0, worksheet.user_inputs_z18, 0.002); end
+  def test_user_inputs_aa18; assert_in_epsilon(1.5, worksheet.user_inputs_aa18, 0.002); end
+  def test_user_inputs_h19; assert_in_epsilon(3.0, worksheet.user_inputs_h19, 0.002); end
+  def test_user_inputs_i19; assert_in_epsilon(2.5, worksheet.user_inputs_i19, 0.002); end
+  def test_user_inputs_j19; assert_in_epsilon(1.6, worksheet.user_inputs_j19, 0.002); end
+  def test_user_inputs_k19; assert_in_epsilon(1.6, worksheet.user_inputs_k19, 0.002); end
+  def test_user_inputs_l19; assert_in_epsilon(4.0, worksheet.user_inputs_l19, 0.002); end
+  def test_user_inputs_m19; assert_in_epsilon(1.6, worksheet.user_inputs_m19, 0.002); end
+  def test_user_inputs_n19; assert_in_epsilon(1.6, worksheet.user_inputs_n19, 0.002); end
+  def test_user_inputs_o19; assert_in_epsilon(1.6, worksheet.user_inputs_o19, 0.002); end
+  def test_user_inputs_p19; assert_in_epsilon(4.0, worksheet.user_inputs_p19, 0.002); end
+  def test_user_inputs_q19; assert_in_epsilon(3.0, worksheet.user_inputs_q19, 0.002); end
+  def test_user_inputs_r19; assert_in_epsilon(2.0, worksheet.user_inputs_r19, 0.002); end
+  def test_user_inputs_s19; assert_in_delta(1.0, worksheet.user_inputs_s19, 0.002); end
+  def test_user_inputs_t19; assert_in_epsilon(3.3, worksheet.user_inputs_t19, 0.002); end
+  def test_user_inputs_u19; assert_in_epsilon(3.0, worksheet.user_inputs_u19, 0.002); end
+  def test_user_inputs_v19; assert_in_epsilon(3.0, worksheet.user_inputs_v19, 0.002); end
+  def test_user_inputs_w19; assert_in_epsilon(3.0, worksheet.user_inputs_w19, 0.002); end
+  def test_user_inputs_x19; assert_in_epsilon(3.0, worksheet.user_inputs_x19, 0.002); end
+  def test_user_inputs_y19; assert_in_epsilon(3.0, worksheet.user_inputs_y19, 0.002); end
+  def test_user_inputs_z19; assert_in_epsilon(3.0, worksheet.user_inputs_z19, 0.002); end
+  def test_user_inputs_aa19; assert_in_epsilon(1.6, worksheet.user_inputs_aa19, 0.002); end
+  def test_user_inputs_h20; assert_in_epsilon(1.7, worksheet.user_inputs_h20, 0.002); end
+  def test_user_inputs_i20; assert_in_epsilon(1.5, worksheet.user_inputs_i20, 0.002); end
+  def test_user_inputs_j20; assert_in_epsilon(1.4, worksheet.user_inputs_j20, 0.002); end
+  def test_user_inputs_k20; assert_in_epsilon(1.4, worksheet.user_inputs_k20, 0.002); end
+  def test_user_inputs_l20; assert_in_epsilon(1.4, worksheet.user_inputs_l20, 0.002); end
+  def test_user_inputs_m20; assert_in_epsilon(4.0, worksheet.user_inputs_m20, 0.002); end
+  def test_user_inputs_n20; assert_in_epsilon(1.4, worksheet.user_inputs_n20, 0.002); end
+  def test_user_inputs_o20; assert_in_epsilon(1.4, worksheet.user_inputs_o20, 0.002); end
+  def test_user_inputs_p20; assert_in_epsilon(4.0, worksheet.user_inputs_p20, 0.002); end
+  def test_user_inputs_q20; assert_in_epsilon(3.0, worksheet.user_inputs_q20, 0.002); end
+  def test_user_inputs_r20; assert_in_epsilon(2.0, worksheet.user_inputs_r20, 0.002); end
+  def test_user_inputs_s20; assert_in_delta(1.0, worksheet.user_inputs_s20, 0.002); end
+  def test_user_inputs_t20; assert_in_epsilon(1.5, worksheet.user_inputs_t20, 0.002); end
+  def test_user_inputs_u20; assert_in_epsilon(1.7, worksheet.user_inputs_u20, 0.002); end
+  def test_user_inputs_v20; assert_in_epsilon(1.7, worksheet.user_inputs_v20, 0.002); end
+  def test_user_inputs_w20; assert_in_epsilon(1.7, worksheet.user_inputs_w20, 0.002); end
+  def test_user_inputs_x20; assert_in_epsilon(1.7, worksheet.user_inputs_x20, 0.002); end
+  def test_user_inputs_y20; assert_in_epsilon(1.7, worksheet.user_inputs_y20, 0.002); end
+  def test_user_inputs_z20; assert_in_epsilon(1.7, worksheet.user_inputs_z20, 0.002); end
+  def test_user_inputs_aa20; assert_in_epsilon(1.4, worksheet.user_inputs_aa20, 0.002); end
+  def test_user_inputs_h21; assert_in_epsilon(1.7, worksheet.user_inputs_h21, 0.002); end
+  def test_user_inputs_i21; assert_in_epsilon(1.4, worksheet.user_inputs_i21, 0.002); end
+  def test_user_inputs_j21; assert_in_epsilon(1.1, worksheet.user_inputs_j21, 0.002); end
+  def test_user_inputs_k21; assert_in_epsilon(1.1, worksheet.user_inputs_k21, 0.002); end
+  def test_user_inputs_l21; assert_in_epsilon(1.1, worksheet.user_inputs_l21, 0.002); end
+  def test_user_inputs_m21; assert_in_epsilon(4.0, worksheet.user_inputs_m21, 0.002); end
+  def test_user_inputs_n21; assert_in_epsilon(1.1, worksheet.user_inputs_n21, 0.002); end
+  def test_user_inputs_o21; assert_in_epsilon(1.1, worksheet.user_inputs_o21, 0.002); end
+  def test_user_inputs_p21; assert_in_epsilon(4.0, worksheet.user_inputs_p21, 0.002); end
+  def test_user_inputs_q21; assert_in_epsilon(3.0, worksheet.user_inputs_q21, 0.002); end
+  def test_user_inputs_r21; assert_in_epsilon(2.0, worksheet.user_inputs_r21, 0.002); end
+  def test_user_inputs_s21; assert_in_delta(1.0, worksheet.user_inputs_s21, 0.002); end
+  def test_user_inputs_t21; assert_in_epsilon(1.5, worksheet.user_inputs_t21, 0.002); end
+  def test_user_inputs_u21; assert_in_epsilon(1.7, worksheet.user_inputs_u21, 0.002); end
+  def test_user_inputs_v21; assert_in_epsilon(2.6, worksheet.user_inputs_v21, 0.002); end
+  def test_user_inputs_w21; assert_in_epsilon(2.3, worksheet.user_inputs_w21, 0.002); end
+  def test_user_inputs_x21; assert_in_epsilon(1.8, worksheet.user_inputs_x21, 0.002); end
+  def test_user_inputs_y21; assert_in_epsilon(3.0, worksheet.user_inputs_y21, 0.002); end
+  def test_user_inputs_z21; assert_in_epsilon(1.7, worksheet.user_inputs_z21, 0.002); end
+  def test_user_inputs_aa21; assert_in_epsilon(1.1, worksheet.user_inputs_aa21, 0.002); end
+  def test_user_inputs_h22; assert_in_epsilon(2.9, worksheet.user_inputs_h22, 0.002); end
+  def test_user_inputs_i22; assert_in_epsilon(1.6, worksheet.user_inputs_i22, 0.002); end
+  def test_user_inputs_j22; assert_in_epsilon(1.6, worksheet.user_inputs_j22, 0.002); end
+  def test_user_inputs_k22; assert_in_epsilon(1.6, worksheet.user_inputs_k22, 0.002); end
+  def test_user_inputs_l22; assert_in_epsilon(1.6, worksheet.user_inputs_l22, 0.002); end
+  def test_user_inputs_m22; assert_in_epsilon(4.0, worksheet.user_inputs_m22, 0.002); end
+  def test_user_inputs_n22; assert_in_epsilon(1.6, worksheet.user_inputs_n22, 0.002); end
+  def test_user_inputs_o22; assert_in_epsilon(1.6, worksheet.user_inputs_o22, 0.002); end
+  def test_user_inputs_p22; assert_in_epsilon(4.0, worksheet.user_inputs_p22, 0.002); end
+  def test_user_inputs_q22; assert_in_epsilon(3.0, worksheet.user_inputs_q22, 0.002); end
+  def test_user_inputs_r22; assert_in_epsilon(2.0, worksheet.user_inputs_r22, 0.002); end
+  def test_user_inputs_s22; assert_in_delta(1.0, worksheet.user_inputs_s22, 0.002); end
+  def test_user_inputs_t22; assert_in_epsilon(3.0, worksheet.user_inputs_t22, 0.002); end
+  def test_user_inputs_u22; assert_in_epsilon(2.9, worksheet.user_inputs_u22, 0.002); end
+  def test_user_inputs_v22; assert_in_epsilon(2.0, worksheet.user_inputs_v22, 0.002); end
+  def test_user_inputs_w22; assert_in_epsilon(2.3, worksheet.user_inputs_w22, 0.002); end
+  def test_user_inputs_x22; assert_in_epsilon(2.9, worksheet.user_inputs_x22, 0.002); end
+  def test_user_inputs_y22; assert_in_epsilon(3.0, worksheet.user_inputs_y22, 0.002); end
+  def test_user_inputs_z22; assert_in_epsilon(2.9, worksheet.user_inputs_z22, 0.002); end
+  def test_user_inputs_aa22; assert_in_epsilon(1.6, worksheet.user_inputs_aa22, 0.002); end
+  def test_user_inputs_h23; assert_in_epsilon(2.4, worksheet.user_inputs_h23, 0.002); end
+  def test_user_inputs_i23; assert_in_delta(1.0, worksheet.user_inputs_i23, 0.002); end
+  def test_user_inputs_j23; assert_in_delta(1.0, worksheet.user_inputs_j23, 0.002); end
+  def test_user_inputs_k23; assert_in_delta(1.0, worksheet.user_inputs_k23, 0.002); end
+  def test_user_inputs_l23; assert_in_delta(1.0, worksheet.user_inputs_l23, 0.002); end
+  def test_user_inputs_m23; assert_in_epsilon(4.0, worksheet.user_inputs_m23, 0.002); end
+  def test_user_inputs_n23; assert_in_delta(1.0, worksheet.user_inputs_n23, 0.002); end
+  def test_user_inputs_o23; assert_in_delta(1.0, worksheet.user_inputs_o23, 0.002); end
+  def test_user_inputs_p23; assert_in_epsilon(4.0, worksheet.user_inputs_p23, 0.002); end
+  def test_user_inputs_q23; assert_in_epsilon(3.0, worksheet.user_inputs_q23, 0.002); end
+  def test_user_inputs_r23; assert_in_epsilon(2.0, worksheet.user_inputs_r23, 0.002); end
+  def test_user_inputs_s23; assert_in_delta(1.0, worksheet.user_inputs_s23, 0.002); end
+  def test_user_inputs_t23; assert_in_epsilon(3.0, worksheet.user_inputs_t23, 0.002); end
+  def test_user_inputs_u23; assert_in_epsilon(2.4, worksheet.user_inputs_u23, 0.002); end
+  def test_user_inputs_v23; assert_in_epsilon(2.0, worksheet.user_inputs_v23, 0.002); end
+  def test_user_inputs_w23; assert_in_epsilon(2.3, worksheet.user_inputs_w23, 0.002); end
+  def test_user_inputs_x23; assert_in_epsilon(3.0, worksheet.user_inputs_x23, 0.002); end
+  def test_user_inputs_y23; assert_in_epsilon(3.0, worksheet.user_inputs_y23, 0.002); end
+  def test_user_inputs_z23; assert_in_epsilon(2.4, worksheet.user_inputs_z23, 0.002); end
+  def test_user_inputs_aa23; assert_in_delta(1.0, worksheet.user_inputs_aa23, 0.002); end
+  def test_user_inputs_h24; assert_in_epsilon(2.9, worksheet.user_inputs_h24, 0.002); end
+  def test_user_inputs_i24; assert_in_epsilon(2.6, worksheet.user_inputs_i24, 0.002); end
+  def test_user_inputs_j24; assert_in_epsilon(1.9, worksheet.user_inputs_j24, 0.002); end
+  def test_user_inputs_k24; assert_in_epsilon(1.9, worksheet.user_inputs_k24, 0.002); end
+  def test_user_inputs_l24; assert_in_epsilon(1.9, worksheet.user_inputs_l24, 0.002); end
+  def test_user_inputs_m24; assert_in_epsilon(4.0, worksheet.user_inputs_m24, 0.002); end
+  def test_user_inputs_n24; assert_in_epsilon(1.9, worksheet.user_inputs_n24, 0.002); end
+  def test_user_inputs_o24; assert_in_epsilon(1.9, worksheet.user_inputs_o24, 0.002); end
+  def test_user_inputs_p24; assert_in_epsilon(4.0, worksheet.user_inputs_p24, 0.002); end
+  def test_user_inputs_q24; assert_in_epsilon(3.0, worksheet.user_inputs_q24, 0.002); end
+  def test_user_inputs_r24; assert_in_epsilon(2.0, worksheet.user_inputs_r24, 0.002); end
+  def test_user_inputs_s24; assert_in_delta(1.0, worksheet.user_inputs_s24, 0.002); end
+  def test_user_inputs_t24; assert_in_epsilon(3.0, worksheet.user_inputs_t24, 0.002); end
+  def test_user_inputs_u24; assert_in_epsilon(2.9, worksheet.user_inputs_u24, 0.002); end
+  def test_user_inputs_v24; assert_in_epsilon(2.0, worksheet.user_inputs_v24, 0.002); end
+  def test_user_inputs_w24; assert_in_epsilon(2.3, worksheet.user_inputs_w24, 0.002); end
+  def test_user_inputs_x24; assert_in_epsilon(2.9, worksheet.user_inputs_x24, 0.002); end
+  def test_user_inputs_y24; assert_in_epsilon(3.0, worksheet.user_inputs_y24, 0.002); end
+  def test_user_inputs_z24; assert_in_epsilon(2.9, worksheet.user_inputs_z24, 0.002); end
+  def test_user_inputs_aa24; assert_in_epsilon(1.9, worksheet.user_inputs_aa24, 0.002); end
+  def test_user_inputs_h25; assert_in_epsilon(3.0, worksheet.user_inputs_h25, 0.002); end
+  def test_user_inputs_i25; assert_in_epsilon(2.7, worksheet.user_inputs_i25, 0.002); end
+  def test_user_inputs_j25; assert_in_epsilon(1.6, worksheet.user_inputs_j25, 0.002); end
+  def test_user_inputs_k25; assert_in_epsilon(1.6, worksheet.user_inputs_k25, 0.002); end
+  def test_user_inputs_l25; assert_in_epsilon(1.6, worksheet.user_inputs_l25, 0.002); end
+  def test_user_inputs_m25; assert_in_epsilon(4.0, worksheet.user_inputs_m25, 0.002); end
+  def test_user_inputs_n25; assert_in_epsilon(1.6, worksheet.user_inputs_n25, 0.002); end
+  def test_user_inputs_o25; assert_in_epsilon(1.6, worksheet.user_inputs_o25, 0.002); end
+  def test_user_inputs_p25; assert_in_epsilon(4.0, worksheet.user_inputs_p25, 0.002); end
+  def test_user_inputs_q25; assert_in_epsilon(3.0, worksheet.user_inputs_q25, 0.002); end
+  def test_user_inputs_r25; assert_in_epsilon(2.0, worksheet.user_inputs_r25, 0.002); end
+  def test_user_inputs_s25; assert_in_delta(1.0, worksheet.user_inputs_s25, 0.002); end
+  def test_user_inputs_t25; assert_in_epsilon(3.0, worksheet.user_inputs_t25, 0.002); end
+  def test_user_inputs_u25; assert_in_epsilon(3.0, worksheet.user_inputs_u25, 0.002); end
+  def test_user_inputs_v25; assert_in_epsilon(2.0, worksheet.user_inputs_v25, 0.002); end
+  def test_user_inputs_w25; assert_in_epsilon(2.3, worksheet.user_inputs_w25, 0.002); end
+  def test_user_inputs_x25; assert_in_epsilon(3.0, worksheet.user_inputs_x25, 0.002); end
+  def test_user_inputs_y25; assert_in_epsilon(3.0, worksheet.user_inputs_y25, 0.002); end
+  def test_user_inputs_z25; assert_in_epsilon(3.0, worksheet.user_inputs_z25, 0.002); end
+  def test_user_inputs_aa25; assert_in_epsilon(1.6, worksheet.user_inputs_aa25, 0.002); end
+  def test_user_inputs_h26; assert_in_epsilon(2.7, worksheet.user_inputs_h26, 0.002); end
+  def test_user_inputs_i26; assert_in_epsilon(2.0, worksheet.user_inputs_i26, 0.002); end
+  def test_user_inputs_j26; assert_in_epsilon(1.5, worksheet.user_inputs_j26, 0.002); end
+  def test_user_inputs_k26; assert_in_epsilon(1.5, worksheet.user_inputs_k26, 0.002); end
+  def test_user_inputs_l26; assert_in_epsilon(1.5, worksheet.user_inputs_l26, 0.002); end
+  def test_user_inputs_m26; assert_in_epsilon(4.0, worksheet.user_inputs_m26, 0.002); end
+  def test_user_inputs_n26; assert_in_epsilon(1.5, worksheet.user_inputs_n26, 0.002); end
+  def test_user_inputs_o26; assert_in_epsilon(1.5, worksheet.user_inputs_o26, 0.002); end
+  def test_user_inputs_p26; assert_in_epsilon(4.0, worksheet.user_inputs_p26, 0.002); end
+  def test_user_inputs_q26; assert_in_epsilon(3.0, worksheet.user_inputs_q26, 0.002); end
+  def test_user_inputs_r26; assert_in_epsilon(2.0, worksheet.user_inputs_r26, 0.002); end
+  def test_user_inputs_s26; assert_in_delta(1.0, worksheet.user_inputs_s26, 0.002); end
+  def test_user_inputs_t26; assert_in_epsilon(2.7, worksheet.user_inputs_t26, 0.002); end
+  def test_user_inputs_u26; assert_in_epsilon(2.7, worksheet.user_inputs_u26, 0.002); end
+  def test_user_inputs_v26; assert_in_epsilon(3.0, worksheet.user_inputs_v26, 0.002); end
+  def test_user_inputs_w26; assert_in_delta(1.0, worksheet.user_inputs_w26, 0.002); end
+  def test_user_inputs_x26; assert_in_epsilon(3.0, worksheet.user_inputs_x26, 0.002); end
+  def test_user_inputs_y26; assert_in_epsilon(3.0, worksheet.user_inputs_y26, 0.002); end
+  def test_user_inputs_z26; assert_in_epsilon(2.7, worksheet.user_inputs_z26, 0.002); end
+  def test_user_inputs_aa26; assert_in_delta(1.0, worksheet.user_inputs_aa26, 0.002); end
+  def test_user_inputs_h27; assert_in_epsilon(2.1, worksheet.user_inputs_h27, 0.002); end
+  def test_user_inputs_i27; assert_in_epsilon(2.0, worksheet.user_inputs_i27, 0.002); end
+  def test_user_inputs_j27; assert_in_epsilon(1.7, worksheet.user_inputs_j27, 0.002); end
+  def test_user_inputs_k27; assert_in_epsilon(1.7, worksheet.user_inputs_k27, 0.002); end
+  def test_user_inputs_l27; assert_in_epsilon(1.7, worksheet.user_inputs_l27, 0.002); end
+  def test_user_inputs_m27; assert_in_epsilon(1.7, worksheet.user_inputs_m27, 0.002); end
+  def test_user_inputs_n27; assert_in_epsilon(4.0, worksheet.user_inputs_n27, 0.002); end
+  def test_user_inputs_o27; assert_in_epsilon(1.7, worksheet.user_inputs_o27, 0.002); end
+  def test_user_inputs_p27; assert_in_epsilon(4.0, worksheet.user_inputs_p27, 0.002); end
+  def test_user_inputs_q27; assert_in_epsilon(3.0, worksheet.user_inputs_q27, 0.002); end
+  def test_user_inputs_r27; assert_in_epsilon(2.0, worksheet.user_inputs_r27, 0.002); end
+  def test_user_inputs_s27; assert_in_delta(1.0, worksheet.user_inputs_s27, 0.002); end
+  def test_user_inputs_t27; assert_in_epsilon(3.3, worksheet.user_inputs_t27, 0.002); end
+  def test_user_inputs_u27; assert_in_epsilon(2.1, worksheet.user_inputs_u27, 0.002); end
+  def test_user_inputs_v27; assert_in_epsilon(2.1, worksheet.user_inputs_v27, 0.002); end
+  def test_user_inputs_w27; assert_in_epsilon(3.0, worksheet.user_inputs_w27, 0.002); end
+  def test_user_inputs_x27; assert_in_epsilon(3.0, worksheet.user_inputs_x27, 0.002); end
+  def test_user_inputs_y27; assert_in_epsilon(3.0, worksheet.user_inputs_y27, 0.002); end
+  def test_user_inputs_z27; assert_in_epsilon(2.1, worksheet.user_inputs_z27, 0.002); end
+  def test_user_inputs_aa27; assert_in_epsilon(1.7, worksheet.user_inputs_aa27, 0.002); end
+  def test_user_inputs_h28; assert_in_epsilon(3.3, worksheet.user_inputs_h28, 0.002); end
+  def test_user_inputs_i28; assert_in_epsilon(2.4, worksheet.user_inputs_i28, 0.002); end
+  def test_user_inputs_j28; assert_in_epsilon(2.3, worksheet.user_inputs_j28, 0.002); end
+  def test_user_inputs_k28; assert_in_epsilon(2.3, worksheet.user_inputs_k28, 0.002); end
+  def test_user_inputs_l28; assert_in_epsilon(2.3, worksheet.user_inputs_l28, 0.002); end
+  def test_user_inputs_m28; assert_in_epsilon(2.3, worksheet.user_inputs_m28, 0.002); end
+  def test_user_inputs_n28; assert_in_epsilon(4.0, worksheet.user_inputs_n28, 0.002); end
+  def test_user_inputs_o28; assert_in_epsilon(2.3, worksheet.user_inputs_o28, 0.002); end
+  def test_user_inputs_p28; assert_in_epsilon(4.0, worksheet.user_inputs_p28, 0.002); end
+  def test_user_inputs_q28; assert_in_epsilon(3.0, worksheet.user_inputs_q28, 0.002); end
+  def test_user_inputs_r28; assert_in_epsilon(2.0, worksheet.user_inputs_r28, 0.002); end
+  def test_user_inputs_s28; assert_in_delta(1.0, worksheet.user_inputs_s28, 0.002); end
+  def test_user_inputs_t28; assert_in_epsilon(3.0, worksheet.user_inputs_t28, 0.002); end
+  def test_user_inputs_u28; assert_in_epsilon(3.3, worksheet.user_inputs_u28, 0.002); end
+  def test_user_inputs_v28; assert_in_epsilon(3.3, worksheet.user_inputs_v28, 0.002); end
+  def test_user_inputs_w28; assert_in_epsilon(3.0, worksheet.user_inputs_w28, 0.002); end
+  def test_user_inputs_x28; assert_in_epsilon(3.3, worksheet.user_inputs_x28, 0.002); end
+  def test_user_inputs_y28; assert_in_epsilon(3.0, worksheet.user_inputs_y28, 0.002); end
+  def test_user_inputs_z28; assert_in_epsilon(3.3, worksheet.user_inputs_z28, 0.002); end
+  def test_user_inputs_aa28; assert_in_epsilon(2.3, worksheet.user_inputs_aa28, 0.002); end
+  def test_user_inputs_h29; assert_in_epsilon(2.7, worksheet.user_inputs_h29, 0.002); end
+  def test_user_inputs_i29; assert_in_epsilon(2.0, worksheet.user_inputs_i29, 0.002); end
+  def test_user_inputs_j29; assert_in_epsilon(1.5, worksheet.user_inputs_j29, 0.002); end
+  def test_user_inputs_k29; assert_in_epsilon(1.5, worksheet.user_inputs_k29, 0.002); end
+  def test_user_inputs_l29; assert_in_epsilon(1.5, worksheet.user_inputs_l29, 0.002); end
+  def test_user_inputs_m29; assert_in_epsilon(1.5, worksheet.user_inputs_m29, 0.002); end
+  def test_user_inputs_n29; assert_in_epsilon(4.0, worksheet.user_inputs_n29, 0.002); end
+  def test_user_inputs_o29; assert_in_epsilon(1.5, worksheet.user_inputs_o29, 0.002); end
+  def test_user_inputs_p29; assert_in_epsilon(4.0, worksheet.user_inputs_p29, 0.002); end
+  def test_user_inputs_q29; assert_in_epsilon(3.0, worksheet.user_inputs_q29, 0.002); end
+  def test_user_inputs_r29; assert_in_epsilon(2.0, worksheet.user_inputs_r29, 0.002); end
+  def test_user_inputs_s29; assert_in_delta(1.0, worksheet.user_inputs_s29, 0.002); end
+  def test_user_inputs_t29; assert_in_epsilon(2.7, worksheet.user_inputs_t29, 0.002); end
+  def test_user_inputs_u29; assert_in_epsilon(2.7, worksheet.user_inputs_u29, 0.002); end
+  def test_user_inputs_v29; assert_in_epsilon(3.0, worksheet.user_inputs_v29, 0.002); end
+  def test_user_inputs_w29; assert_in_delta(1.0, worksheet.user_inputs_w29, 0.002); end
+  def test_user_inputs_x29; assert_in_epsilon(3.0, worksheet.user_inputs_x29, 0.002); end
+  def test_user_inputs_y29; assert_in_epsilon(3.0, worksheet.user_inputs_y29, 0.002); end
+  def test_user_inputs_z29; assert_in_epsilon(2.7, worksheet.user_inputs_z29, 0.002); end
+  def test_user_inputs_aa29; assert_in_epsilon(1.2, worksheet.user_inputs_aa29, 0.002); end
+  def test_user_inputs_h30; assert_in_epsilon(3.1, worksheet.user_inputs_h30, 0.002); end
+  def test_user_inputs_i30; assert_in_epsilon(2.3, worksheet.user_inputs_i30, 0.002); end
+  def test_user_inputs_j30; assert_in_epsilon(1.9, worksheet.user_inputs_j30, 0.002); end
+  def test_user_inputs_k30; assert_in_epsilon(1.9, worksheet.user_inputs_k30, 0.002); end
+  def test_user_inputs_l30; assert_in_epsilon(1.9, worksheet.user_inputs_l30, 0.002); end
+  def test_user_inputs_m30; assert_in_epsilon(1.9, worksheet.user_inputs_m30, 0.002); end
+  def test_user_inputs_n30; assert_in_epsilon(4.0, worksheet.user_inputs_n30, 0.002); end
+  def test_user_inputs_o30; assert_in_epsilon(1.9, worksheet.user_inputs_o30, 0.002); end
+  def test_user_inputs_p30; assert_in_epsilon(4.0, worksheet.user_inputs_p30, 0.002); end
+  def test_user_inputs_q30; assert_in_epsilon(3.0, worksheet.user_inputs_q30, 0.002); end
+  def test_user_inputs_r30; assert_in_epsilon(2.0, worksheet.user_inputs_r30, 0.002); end
+  def test_user_inputs_s30; assert_in_delta(1.0, worksheet.user_inputs_s30, 0.002); end
+  def test_user_inputs_t30; assert_in_epsilon(3.1, worksheet.user_inputs_t30, 0.002); end
+  def test_user_inputs_u30; assert_in_epsilon(3.1, worksheet.user_inputs_u30, 0.002); end
+  def test_user_inputs_v30; assert_in_epsilon(2.0, worksheet.user_inputs_v30, 0.002); end
+  def test_user_inputs_w30; assert_in_epsilon(3.0, worksheet.user_inputs_w30, 0.002); end
+  def test_user_inputs_x30; assert_in_delta(1.0, worksheet.user_inputs_x30, 0.002); end
+  def test_user_inputs_y30; assert_in_epsilon(3.0, worksheet.user_inputs_y30, 0.002); end
+  def test_user_inputs_z30; assert_in_epsilon(3.1, worksheet.user_inputs_z30, 0.002); end
+  def test_user_inputs_aa30; assert_in_epsilon(1.9, worksheet.user_inputs_aa30, 0.002); end
+  def test_user_inputs_h31; assert_in_epsilon(2.4, worksheet.user_inputs_h31, 0.002); end
+  def test_user_inputs_i31; assert_in_epsilon(2.0, worksheet.user_inputs_i31, 0.002); end
+  def test_user_inputs_j31; assert_in_epsilon(1.6, worksheet.user_inputs_j31, 0.002); end
+  def test_user_inputs_k31; assert_in_epsilon(1.6, worksheet.user_inputs_k31, 0.002); end
+  def test_user_inputs_l31; assert_in_epsilon(1.6, worksheet.user_inputs_l31, 0.002); end
+  def test_user_inputs_m31; assert_in_epsilon(1.6, worksheet.user_inputs_m31, 0.002); end
+  def test_user_inputs_n31; assert_in_epsilon(4.0, worksheet.user_inputs_n31, 0.002); end
+  def test_user_inputs_o31; assert_in_epsilon(1.6, worksheet.user_inputs_o31, 0.002); end
+  def test_user_inputs_p31; assert_in_epsilon(4.0, worksheet.user_inputs_p31, 0.002); end
+  def test_user_inputs_q31; assert_in_epsilon(3.0, worksheet.user_inputs_q31, 0.002); end
+  def test_user_inputs_r31; assert_in_epsilon(2.0, worksheet.user_inputs_r31, 0.002); end
+  def test_user_inputs_s31; assert_in_delta(1.0, worksheet.user_inputs_s31, 0.002); end
+  def test_user_inputs_t31; assert_in_epsilon(3.0, worksheet.user_inputs_t31, 0.002); end
+  def test_user_inputs_u31; assert_in_epsilon(2.4, worksheet.user_inputs_u31, 0.002); end
+  def test_user_inputs_v31; assert_in_epsilon(2.0, worksheet.user_inputs_v31, 0.002); end
+  def test_user_inputs_w31; assert_in_epsilon(2.0, worksheet.user_inputs_w31, 0.002); end
+  def test_user_inputs_x31; assert_in_epsilon(3.0, worksheet.user_inputs_x31, 0.002); end
+  def test_user_inputs_y31; assert_in_epsilon(3.0, worksheet.user_inputs_y31, 0.002); end
+  def test_user_inputs_z31; assert_in_epsilon(2.4, worksheet.user_inputs_z31, 0.002); end
+  def test_user_inputs_aa31; assert_in_epsilon(1.6, worksheet.user_inputs_aa31, 0.002); end
+  def test_user_inputs_h32; assert_in_epsilon(2.8, worksheet.user_inputs_h32, 0.002); end
+  def test_user_inputs_i32; assert_in_epsilon(2.2, worksheet.user_inputs_i32, 0.002); end
+  def test_user_inputs_j32; assert_in_epsilon(1.9, worksheet.user_inputs_j32, 0.002); end
+  def test_user_inputs_k32; assert_in_epsilon(1.9, worksheet.user_inputs_k32, 0.002); end
+  def test_user_inputs_l32; assert_in_epsilon(1.9, worksheet.user_inputs_l32, 0.002); end
+  def test_user_inputs_m32; assert_in_epsilon(1.9, worksheet.user_inputs_m32, 0.002); end
+  def test_user_inputs_n32; assert_in_epsilon(4.0, worksheet.user_inputs_n32, 0.002); end
+  def test_user_inputs_o32; assert_in_epsilon(1.9, worksheet.user_inputs_o32, 0.002); end
+  def test_user_inputs_p32; assert_in_epsilon(4.0, worksheet.user_inputs_p32, 0.002); end
+  def test_user_inputs_q32; assert_in_epsilon(3.0, worksheet.user_inputs_q32, 0.002); end
+  def test_user_inputs_r32; assert_in_epsilon(2.0, worksheet.user_inputs_r32, 0.002); end
+  def test_user_inputs_s32; assert_in_delta(1.0, worksheet.user_inputs_s32, 0.002); end
+  def test_user_inputs_t32; assert_in_epsilon(2.8, worksheet.user_inputs_t32, 0.002); end
+  def test_user_inputs_u32; assert_in_epsilon(2.8, worksheet.user_inputs_u32, 0.002); end
+  def test_user_inputs_v32; assert_in_delta(1.0, worksheet.user_inputs_v32, 0.002); end
+  def test_user_inputs_w32; assert_in_epsilon(2.6, worksheet.user_inputs_w32, 0.002); end
+  def test_user_inputs_x32; assert_in_epsilon(3.0, worksheet.user_inputs_x32, 0.002); end
+  def test_user_inputs_y32; assert_in_epsilon(2.4, worksheet.user_inputs_y32, 0.002); end
+  def test_user_inputs_z32; assert_in_epsilon(2.8, worksheet.user_inputs_z32, 0.002); end
+  def test_user_inputs_aa32; assert_in_epsilon(1.9, worksheet.user_inputs_aa32, 0.002); end
+  def test_user_inputs_h33; assert_in_epsilon(2.6, worksheet.user_inputs_h33, 0.002); end
+  def test_user_inputs_i33; assert_in_epsilon(1.9, worksheet.user_inputs_i33, 0.002); end
+  def test_user_inputs_j33; assert_in_epsilon(1.4, worksheet.user_inputs_j33, 0.002); end
+  def test_user_inputs_k33; assert_in_epsilon(1.4, worksheet.user_inputs_k33, 0.002); end
+  def test_user_inputs_l33; assert_in_epsilon(1.4, worksheet.user_inputs_l33, 0.002); end
+  def test_user_inputs_m33; assert_in_epsilon(1.4, worksheet.user_inputs_m33, 0.002); end
+  def test_user_inputs_n33; assert_in_epsilon(4.0, worksheet.user_inputs_n33, 0.002); end
+  def test_user_inputs_o33; assert_in_epsilon(1.4, worksheet.user_inputs_o33, 0.002); end
+  def test_user_inputs_p33; assert_in_epsilon(4.0, worksheet.user_inputs_p33, 0.002); end
+  def test_user_inputs_q33; assert_in_epsilon(3.0, worksheet.user_inputs_q33, 0.002); end
+  def test_user_inputs_r33; assert_in_epsilon(2.0, worksheet.user_inputs_r33, 0.002); end
+  def test_user_inputs_s33; assert_in_delta(1.0, worksheet.user_inputs_s33, 0.002); end
+  def test_user_inputs_t33; assert_in_epsilon(2.6, worksheet.user_inputs_t33, 0.002); end
+  def test_user_inputs_u33; assert_in_epsilon(2.6, worksheet.user_inputs_u33, 0.002); end
+  def test_user_inputs_v33; assert_in_delta(1.0, worksheet.user_inputs_v33, 0.002); end
+  def test_user_inputs_w33; assert_in_epsilon(2.5, worksheet.user_inputs_w33, 0.002); end
+  def test_user_inputs_x33; assert_in_epsilon(3.0, worksheet.user_inputs_x33, 0.002); end
+  def test_user_inputs_y33; assert_in_epsilon(3.0, worksheet.user_inputs_y33, 0.002); end
+  def test_user_inputs_z33; assert_in_epsilon(2.6, worksheet.user_inputs_z33, 0.002); end
+  def test_user_inputs_aa33; assert_in_epsilon(1.4, worksheet.user_inputs_aa33, 0.002); end
+  def test_user_inputs_h34; assert_in_epsilon(2.7, worksheet.user_inputs_h34, 0.002); end
+  def test_user_inputs_i34; assert_in_epsilon(1.9, worksheet.user_inputs_i34, 0.002); end
+  def test_user_inputs_j34; assert_in_epsilon(1.4, worksheet.user_inputs_j34, 0.002); end
+  def test_user_inputs_k34; assert_in_epsilon(1.4, worksheet.user_inputs_k34, 0.002); end
+  def test_user_inputs_l34; assert_in_epsilon(1.4, worksheet.user_inputs_l34, 0.002); end
+  def test_user_inputs_m34; assert_in_epsilon(1.4, worksheet.user_inputs_m34, 0.002); end
+  def test_user_inputs_n34; assert_in_epsilon(4.0, worksheet.user_inputs_n34, 0.002); end
+  def test_user_inputs_o34; assert_in_epsilon(1.4, worksheet.user_inputs_o34, 0.002); end
+  def test_user_inputs_p34; assert_in_epsilon(4.0, worksheet.user_inputs_p34, 0.002); end
+  def test_user_inputs_q34; assert_in_epsilon(3.0, worksheet.user_inputs_q34, 0.002); end
+  def test_user_inputs_r34; assert_in_epsilon(2.0, worksheet.user_inputs_r34, 0.002); end
+  def test_user_inputs_s34; assert_in_delta(1.0, worksheet.user_inputs_s34, 0.002); end
+  def test_user_inputs_t34; assert_in_epsilon(3.0, worksheet.user_inputs_t34, 0.002); end
+  def test_user_inputs_u34; assert_in_epsilon(2.7, worksheet.user_inputs_u34, 0.002); end
+  def test_user_inputs_v34; assert_in_delta(1.0, worksheet.user_inputs_v34, 0.002); end
+  def test_user_inputs_w34; assert_in_epsilon(3.0, worksheet.user_inputs_w34, 0.002); end
+  def test_user_inputs_x34; assert_in_epsilon(3.0, worksheet.user_inputs_x34, 0.002); end
+  def test_user_inputs_y34; assert_in_epsilon(3.0, worksheet.user_inputs_y34, 0.002); end
+  def test_user_inputs_z34; assert_in_epsilon(2.7, worksheet.user_inputs_z34, 0.002); end
+  def test_user_inputs_aa34; assert_in_epsilon(1.4, worksheet.user_inputs_aa34, 0.002); end
+  def test_user_inputs_h35; assert_in_epsilon(2.0, worksheet.user_inputs_h35, 0.002); end
+  def test_user_inputs_i35; assert_in_epsilon(1.6, worksheet.user_inputs_i35, 0.002); end
+  def test_user_inputs_j35; assert_in_epsilon(1.4, worksheet.user_inputs_j35, 0.002); end
+  def test_user_inputs_k35; assert_in_epsilon(1.4, worksheet.user_inputs_k35, 0.002); end
+  def test_user_inputs_l35; assert_in_epsilon(1.4, worksheet.user_inputs_l35, 0.002); end
+  def test_user_inputs_m35; assert_in_epsilon(1.4, worksheet.user_inputs_m35, 0.002); end
+  def test_user_inputs_n35; assert_in_epsilon(4.0, worksheet.user_inputs_n35, 0.002); end
+  def test_user_inputs_o35; assert_in_epsilon(1.4, worksheet.user_inputs_o35, 0.002); end
+  def test_user_inputs_p35; assert_in_epsilon(4.0, worksheet.user_inputs_p35, 0.002); end
+  def test_user_inputs_q35; assert_in_epsilon(3.0, worksheet.user_inputs_q35, 0.002); end
+  def test_user_inputs_r35; assert_in_epsilon(2.0, worksheet.user_inputs_r35, 0.002); end
+  def test_user_inputs_s35; assert_in_delta(1.0, worksheet.user_inputs_s35, 0.002); end
+  def test_user_inputs_t35; assert_in_epsilon(2.0, worksheet.user_inputs_t35, 0.002); end
+  def test_user_inputs_u35; assert_in_epsilon(2.0, worksheet.user_inputs_u35, 0.002); end
+  def test_user_inputs_v35; assert_in_delta(1.0, worksheet.user_inputs_v35, 0.002); end
+  def test_user_inputs_w35; assert_in_epsilon(2.8, worksheet.user_inputs_w35, 0.002); end
+  def test_user_inputs_x35; assert_in_epsilon(3.0, worksheet.user_inputs_x35, 0.002); end
+  def test_user_inputs_y35; assert_in_epsilon(3.0, worksheet.user_inputs_y35, 0.002); end
+  def test_user_inputs_z35; assert_in_epsilon(2.0, worksheet.user_inputs_z35, 0.002); end
+  def test_user_inputs_aa35; assert_in_epsilon(1.4, worksheet.user_inputs_aa35, 0.002); end
+  def test_user_inputs_h36; assert_in_epsilon(2.5, worksheet.user_inputs_h36, 0.002); end
+  def test_user_inputs_i36; assert_in_epsilon(1.8, worksheet.user_inputs_i36, 0.002); end
+  def test_user_inputs_j36; assert_in_epsilon(1.5, worksheet.user_inputs_j36, 0.002); end
+  def test_user_inputs_k36; assert_in_epsilon(1.5, worksheet.user_inputs_k36, 0.002); end
+  def test_user_inputs_l36; assert_in_epsilon(1.5, worksheet.user_inputs_l36, 0.002); end
+  def test_user_inputs_m36; assert_in_epsilon(1.5, worksheet.user_inputs_m36, 0.002); end
+  def test_user_inputs_n36; assert_in_epsilon(4.0, worksheet.user_inputs_n36, 0.002); end
+  def test_user_inputs_o36; assert_in_epsilon(1.5, worksheet.user_inputs_o36, 0.002); end
+  def test_user_inputs_p36; assert_in_epsilon(4.0, worksheet.user_inputs_p36, 0.002); end
+  def test_user_inputs_q36; assert_in_epsilon(3.0, worksheet.user_inputs_q36, 0.002); end
+  def test_user_inputs_r36; assert_in_epsilon(2.0, worksheet.user_inputs_r36, 0.002); end
+  def test_user_inputs_s36; assert_in_delta(1.0, worksheet.user_inputs_s36, 0.002); end
+  def test_user_inputs_t36; assert_in_epsilon(2.5, worksheet.user_inputs_t36, 0.002); end
+  def test_user_inputs_u36; assert_in_epsilon(2.5, worksheet.user_inputs_u36, 0.002); end
+  def test_user_inputs_v36; assert_in_delta(1.0, worksheet.user_inputs_v36, 0.002); end
+  def test_user_inputs_w36; assert_in_epsilon(2.9, worksheet.user_inputs_w36, 0.002); end
+  def test_user_inputs_x36; assert_in_epsilon(3.0, worksheet.user_inputs_x36, 0.002); end
+  def test_user_inputs_y36; assert_in_epsilon(3.0, worksheet.user_inputs_y36, 0.002); end
+  def test_user_inputs_z36; assert_in_epsilon(2.5, worksheet.user_inputs_z36, 0.002); end
+  def test_user_inputs_aa36; assert_in_epsilon(1.5, worksheet.user_inputs_aa36, 0.002); end
+  def test_user_inputs_h37; assert_in_epsilon(2.0, worksheet.user_inputs_h37, 0.002); end
+  def test_user_inputs_i37; assert_in_epsilon(1.9, worksheet.user_inputs_i37, 0.002); end
+  def test_user_inputs_j37; assert_in_epsilon(1.8, worksheet.user_inputs_j37, 0.002); end
+  def test_user_inputs_k37; assert_in_epsilon(1.8, worksheet.user_inputs_k37, 0.002); end
+  def test_user_inputs_l37; assert_in_epsilon(1.8, worksheet.user_inputs_l37, 0.002); end
+  def test_user_inputs_m37; assert_in_epsilon(1.8, worksheet.user_inputs_m37, 0.002); end
+  def test_user_inputs_n37; assert_in_epsilon(1.8, worksheet.user_inputs_n37, 0.002); end
+  def test_user_inputs_o37; assert_in_epsilon(4.0, worksheet.user_inputs_o37, 0.002); end
+  def test_user_inputs_p37; assert_in_epsilon(4.0, worksheet.user_inputs_p37, 0.002); end
+  def test_user_inputs_q37; assert_in_epsilon(3.0, worksheet.user_inputs_q37, 0.002); end
+  def test_user_inputs_r37; assert_in_epsilon(2.0, worksheet.user_inputs_r37, 0.002); end
+  def test_user_inputs_s37; assert_in_delta(1.0, worksheet.user_inputs_s37, 0.002); end
+  def test_user_inputs_t37; assert_in_epsilon(1.9, worksheet.user_inputs_t37, 0.002); end
+  def test_user_inputs_u37; assert_in_epsilon(2.5, worksheet.user_inputs_u37, 0.002); end
+  def test_user_inputs_v37; assert_in_epsilon(2.5, worksheet.user_inputs_v37, 0.002); end
+  def test_user_inputs_w37; assert_in_epsilon(2.5, worksheet.user_inputs_w37, 0.002); end
+  def test_user_inputs_x37; assert_in_epsilon(2.5, worksheet.user_inputs_x37, 0.002); end
+  def test_user_inputs_y37; assert_in_epsilon(2.5, worksheet.user_inputs_y37, 0.002); end
+  def test_user_inputs_z37; assert_in_epsilon(4.0, worksheet.user_inputs_z37, 0.002); end
+  def test_user_inputs_aa37; assert_in_epsilon(2.5, worksheet.user_inputs_aa37, 0.002); end
+  def test_user_inputs_h38; assert_in_epsilon(2.0, worksheet.user_inputs_h38, 0.002); end
+  def test_user_inputs_i38; assert_in_epsilon(1.9, worksheet.user_inputs_i38, 0.002); end
+  def test_user_inputs_j38; assert_in_epsilon(1.8, worksheet.user_inputs_j38, 0.002); end
+  def test_user_inputs_k38; assert_in_epsilon(1.8, worksheet.user_inputs_k38, 0.002); end
+  def test_user_inputs_l38; assert_in_epsilon(1.8, worksheet.user_inputs_l38, 0.002); end
+  def test_user_inputs_m38; assert_in_epsilon(1.8, worksheet.user_inputs_m38, 0.002); end
+  def test_user_inputs_n38; assert_in_epsilon(1.8, worksheet.user_inputs_n38, 0.002); end
+  def test_user_inputs_o38; assert_in_epsilon(4.0, worksheet.user_inputs_o38, 0.002); end
+  def test_user_inputs_p38; assert_in_epsilon(4.0, worksheet.user_inputs_p38, 0.002); end
+  def test_user_inputs_q38; assert_in_epsilon(3.0, worksheet.user_inputs_q38, 0.002); end
+  def test_user_inputs_r38; assert_in_epsilon(2.0, worksheet.user_inputs_r38, 0.002); end
+  def test_user_inputs_s38; assert_in_delta(1.0, worksheet.user_inputs_s38, 0.002); end
+  def test_user_inputs_t38; assert_in_epsilon(1.9, worksheet.user_inputs_t38, 0.002); end
+  def test_user_inputs_u38; assert_in_epsilon(1.9, worksheet.user_inputs_u38, 0.002); end
+  def test_user_inputs_v38; assert_in_epsilon(1.9, worksheet.user_inputs_v38, 0.002); end
+  def test_user_inputs_w38; assert_in_epsilon(1.9, worksheet.user_inputs_w38, 0.002); end
+  def test_user_inputs_x38; assert_in_epsilon(1.9, worksheet.user_inputs_x38, 0.002); end
+  def test_user_inputs_y38; assert_in_epsilon(1.9, worksheet.user_inputs_y38, 0.002); end
+  def test_user_inputs_z38; assert_in_epsilon(3.0, worksheet.user_inputs_z38, 0.002); end
+  def test_user_inputs_aa38; assert_in_epsilon(1.9, worksheet.user_inputs_aa38, 0.002); end
+  def test_user_inputs_h39; assert_in_epsilon(2.5, worksheet.user_inputs_h39, 0.002); end
+  def test_user_inputs_i39; assert_in_epsilon(2.3, worksheet.user_inputs_i39, 0.002); end
+  def test_user_inputs_j39; assert_in_epsilon(2.0, worksheet.user_inputs_j39, 0.002); end
+  def test_user_inputs_k39; assert_in_epsilon(2.0, worksheet.user_inputs_k39, 0.002); end
+  def test_user_inputs_l39; assert_in_epsilon(2.0, worksheet.user_inputs_l39, 0.002); end
+  def test_user_inputs_m39; assert_in_epsilon(2.0, worksheet.user_inputs_m39, 0.002); end
+  def test_user_inputs_n39; assert_in_epsilon(2.0, worksheet.user_inputs_n39, 0.002); end
+  def test_user_inputs_o39; assert_in_epsilon(4.0, worksheet.user_inputs_o39, 0.002); end
+  def test_user_inputs_p39; assert_in_epsilon(4.0, worksheet.user_inputs_p39, 0.002); end
+  def test_user_inputs_q39; assert_in_epsilon(3.0, worksheet.user_inputs_q39, 0.002); end
+  def test_user_inputs_r39; assert_in_epsilon(2.0, worksheet.user_inputs_r39, 0.002); end
+  def test_user_inputs_s39; assert_in_delta(1.0, worksheet.user_inputs_s39, 0.002); end
+  def test_user_inputs_t39; assert_in_epsilon(2.5, worksheet.user_inputs_t39, 0.002); end
+  def test_user_inputs_u39; assert_in_epsilon(2.5, worksheet.user_inputs_u39, 0.002); end
+  def test_user_inputs_v39; assert_in_epsilon(3.0, worksheet.user_inputs_v39, 0.002); end
+  def test_user_inputs_w39; assert_in_epsilon(3.0, worksheet.user_inputs_w39, 0.002); end
+  def test_user_inputs_x39; assert_in_epsilon(2.5, worksheet.user_inputs_x39, 0.002); end
+  def test_user_inputs_y39; assert_in_epsilon(1.5, worksheet.user_inputs_y39, 0.002); end
+  def test_user_inputs_z39; assert_in_epsilon(2.5, worksheet.user_inputs_z39, 0.002); end
+  def test_user_inputs_aa39; assert_in_epsilon(2.0, worksheet.user_inputs_aa39, 0.002); end
+  def test_user_inputs_h40; assert_in_epsilon(2.5, worksheet.user_inputs_h40, 0.002); end
+  def test_user_inputs_i40; assert_in_epsilon(2.4, worksheet.user_inputs_i40, 0.002); end
+  def test_user_inputs_j40; assert_in_epsilon(2.0, worksheet.user_inputs_j40, 0.002); end
+  def test_user_inputs_k40; assert_in_epsilon(2.0, worksheet.user_inputs_k40, 0.002); end
+  def test_user_inputs_l40; assert_in_epsilon(2.0, worksheet.user_inputs_l40, 0.002); end
+  def test_user_inputs_m40; assert_in_epsilon(2.0, worksheet.user_inputs_m40, 0.002); end
+  def test_user_inputs_n40; assert_in_epsilon(2.0, worksheet.user_inputs_n40, 0.002); end
+  def test_user_inputs_o40; assert_in_epsilon(4.0, worksheet.user_inputs_o40, 0.002); end
+  def test_user_inputs_p40; assert_in_epsilon(4.0, worksheet.user_inputs_p40, 0.002); end
+  def test_user_inputs_q40; assert_in_epsilon(3.0, worksheet.user_inputs_q40, 0.002); end
+  def test_user_inputs_r40; assert_in_epsilon(2.0, worksheet.user_inputs_r40, 0.002); end
+  def test_user_inputs_s40; assert_in_delta(1.0, worksheet.user_inputs_s40, 0.002); end
+  def test_user_inputs_t40; assert_in_epsilon(2.8, worksheet.user_inputs_t40, 0.002); end
+  def test_user_inputs_u40; assert_in_epsilon(2.5, worksheet.user_inputs_u40, 0.002); end
+  def test_user_inputs_v40; assert_in_epsilon(3.0, worksheet.user_inputs_v40, 0.002); end
+  def test_user_inputs_w40; assert_in_epsilon(3.0, worksheet.user_inputs_w40, 0.002); end
+  def test_user_inputs_x40; assert_in_epsilon(2.5, worksheet.user_inputs_x40, 0.002); end
+  def test_user_inputs_y40; assert_in_epsilon(1.5, worksheet.user_inputs_y40, 0.002); end
+  def test_user_inputs_z40; assert_in_epsilon(2.5, worksheet.user_inputs_z40, 0.002); end
+  def test_user_inputs_aa40; assert_in_epsilon(2.0, worksheet.user_inputs_aa40, 0.002); end
+  def test_user_inputs_h41; assert_in_epsilon(2.3, worksheet.user_inputs_h41, 0.002); end
+  def test_user_inputs_i41; assert_in_epsilon(1.9, worksheet.user_inputs_i41, 0.002); end
+  def test_user_inputs_j41; assert_in_delta(1.0, worksheet.user_inputs_j41, 0.002); end
+  def test_user_inputs_k41; assert_in_delta(1.0, worksheet.user_inputs_k41, 0.002); end
+  def test_user_inputs_l41; assert_in_delta(1.0, worksheet.user_inputs_l41, 0.002); end
+  def test_user_inputs_m41; assert_in_delta(1.0, worksheet.user_inputs_m41, 0.002); end
+  def test_user_inputs_n41; assert_in_delta(1.0, worksheet.user_inputs_n41, 0.002); end
+  def test_user_inputs_o41; assert_in_epsilon(4.0, worksheet.user_inputs_o41, 0.002); end
+  def test_user_inputs_p41; assert_in_epsilon(4.0, worksheet.user_inputs_p41, 0.002); end
+  def test_user_inputs_q41; assert_in_epsilon(3.0, worksheet.user_inputs_q41, 0.002); end
+  def test_user_inputs_r41; assert_in_epsilon(2.0, worksheet.user_inputs_r41, 0.002); end
+  def test_user_inputs_s41; assert_in_delta(1.0, worksheet.user_inputs_s41, 0.002); end
+  def test_user_inputs_t41; assert_in_epsilon(2.4, worksheet.user_inputs_t41, 0.002); end
+  def test_user_inputs_u41; assert_in_epsilon(2.3, worksheet.user_inputs_u41, 0.002); end
+  def test_user_inputs_v41; assert_in_epsilon(3.0, worksheet.user_inputs_v41, 0.002); end
+  def test_user_inputs_w41; assert_in_epsilon(3.0, worksheet.user_inputs_w41, 0.002); end
+  def test_user_inputs_x41; assert_in_epsilon(2.3, worksheet.user_inputs_x41, 0.002); end
+  def test_user_inputs_y41; assert_in_epsilon(1.5, worksheet.user_inputs_y41, 0.002); end
+  def test_user_inputs_z41; assert_in_epsilon(2.3, worksheet.user_inputs_z41, 0.002); end
+  def test_user_inputs_aa41; assert_in_epsilon(2.2, worksheet.user_inputs_aa41, 0.002); end
+  def test_user_inputs_h42; assert_in_epsilon(2.9, worksheet.user_inputs_h42, 0.002); end
+  def test_user_inputs_i42; assert_in_epsilon(2.9, worksheet.user_inputs_i42, 0.002); end
+  def test_user_inputs_j42; assert_in_epsilon(2.9, worksheet.user_inputs_j42, 0.002); end
+  def test_user_inputs_k42; assert_in_epsilon(2.9, worksheet.user_inputs_k42, 0.002); end
+  def test_user_inputs_l42; assert_in_epsilon(2.9, worksheet.user_inputs_l42, 0.002); end
+  def test_user_inputs_m42; assert_in_epsilon(2.9, worksheet.user_inputs_m42, 0.002); end
+  def test_user_inputs_n42; assert_in_epsilon(2.9, worksheet.user_inputs_n42, 0.002); end
+  def test_user_inputs_o42; assert_in_epsilon(4.0, worksheet.user_inputs_o42, 0.002); end
+  def test_user_inputs_p42; assert_in_epsilon(4.0, worksheet.user_inputs_p42, 0.002); end
+  def test_user_inputs_q42; assert_in_epsilon(3.0, worksheet.user_inputs_q42, 0.002); end
+  def test_user_inputs_r42; assert_in_epsilon(2.0, worksheet.user_inputs_r42, 0.002); end
+  def test_user_inputs_s42; assert_in_delta(1.0, worksheet.user_inputs_s42, 0.002); end
+  def test_user_inputs_t42; assert_in_epsilon(2.9, worksheet.user_inputs_t42, 0.002); end
+  def test_user_inputs_u42; assert_in_epsilon(3.0, worksheet.user_inputs_u42, 0.002); end
+  def test_user_inputs_v42; assert_in_epsilon(3.0, worksheet.user_inputs_v42, 0.002); end
+  def test_user_inputs_w42; assert_in_epsilon(3.0, worksheet.user_inputs_w42, 0.002); end
+  def test_user_inputs_x42; assert_in_epsilon(3.0, worksheet.user_inputs_x42, 0.002); end
+  def test_user_inputs_y42; assert_in_delta(1.0, worksheet.user_inputs_y42, 0.002); end
+  def test_user_inputs_z42; assert_in_epsilon(3.0, worksheet.user_inputs_z42, 0.002); end
+  def test_user_inputs_aa42; assert_in_epsilon(3.4, worksheet.user_inputs_aa42, 0.002); end
+  def test_user_inputs_h43; assert_in_epsilon(3.5, worksheet.user_inputs_h43, 0.002); end
+  def test_user_inputs_i43; assert_in_epsilon(4.0, worksheet.user_inputs_i43, 0.002); end
+  def test_user_inputs_j43; assert_in_epsilon(4.0, worksheet.user_inputs_j43, 0.002); end
+  def test_user_inputs_k43; assert_in_epsilon(4.0, worksheet.user_inputs_k43, 0.002); end
+  def test_user_inputs_l43; assert_in_epsilon(4.0, worksheet.user_inputs_l43, 0.002); end
+  def test_user_inputs_m43; assert_in_epsilon(4.0, worksheet.user_inputs_m43, 0.002); end
+  def test_user_inputs_n43; assert_in_epsilon(4.0, worksheet.user_inputs_n43, 0.002); end
+  def test_user_inputs_o43; assert_in_epsilon(4.0, worksheet.user_inputs_o43, 0.002); end
+  def test_user_inputs_p43; assert_in_epsilon(4.0, worksheet.user_inputs_p43, 0.002); end
+  def test_user_inputs_q43; assert_in_epsilon(3.0, worksheet.user_inputs_q43, 0.002); end
+  def test_user_inputs_r43; assert_in_epsilon(2.0, worksheet.user_inputs_r43, 0.002); end
+  def test_user_inputs_s43; assert_in_delta(1.0, worksheet.user_inputs_s43, 0.002); end
+  def test_user_inputs_t43; assert_in_epsilon(3.5, worksheet.user_inputs_t43, 0.002); end
+  def test_user_inputs_u43; assert_in_epsilon(3.5, worksheet.user_inputs_u43, 0.002); end
+  def test_user_inputs_v43; assert_in_epsilon(3.6, worksheet.user_inputs_v43, 0.002); end
+  def test_user_inputs_w43; assert_in_epsilon(1.4, worksheet.user_inputs_w43, 0.002); end
+  def test_user_inputs_x43; assert_in_epsilon(3.6, worksheet.user_inputs_x43, 0.002); end
+  def test_user_inputs_y43; assert_in_epsilon(3.6, worksheet.user_inputs_y43, 0.002); end
+  def test_user_inputs_z43; assert_in_epsilon(3.5, worksheet.user_inputs_z43, 0.002); end
+  def test_user_inputs_aa43; assert_in_epsilon(4.0, worksheet.user_inputs_aa43, 0.002); end
+  def test_user_inputs_h44; assert_in_delta(1.0, worksheet.user_inputs_h44, 0.002); end
+  def test_user_inputs_i44; assert_in_delta(1.0, worksheet.user_inputs_i44, 0.002); end
+  def test_user_inputs_j44; assert_in_delta(1.0, worksheet.user_inputs_j44, 0.002); end
+  def test_user_inputs_k44; assert_in_delta(1.0, worksheet.user_inputs_k44, 0.002); end
+  def test_user_inputs_l44; assert_in_delta(1.0, worksheet.user_inputs_l44, 0.002); end
+  def test_user_inputs_m44; assert_in_delta(1.0, worksheet.user_inputs_m44, 0.002); end
+  def test_user_inputs_n44; assert_in_delta(1.0, worksheet.user_inputs_n44, 0.002); end
+  def test_user_inputs_o44; assert_in_delta(1.0, worksheet.user_inputs_o44, 0.002); end
+  def test_user_inputs_p44; assert_in_delta(1.0, worksheet.user_inputs_p44, 0.002); end
+  def test_user_inputs_q44; assert_in_delta(1.0, worksheet.user_inputs_q44, 0.002); end
+  def test_user_inputs_r44; assert_in_delta(1.0, worksheet.user_inputs_r44, 0.002); end
+  def test_user_inputs_s44; assert_in_delta(1.0, worksheet.user_inputs_s44, 0.002); end
+  def test_user_inputs_t44; assert_in_delta(1.0, worksheet.user_inputs_t44, 0.002); end
+  def test_user_inputs_u44; assert_in_delta(1.0, worksheet.user_inputs_u44, 0.002); end
+  def test_user_inputs_v44; assert_in_delta(1.0, worksheet.user_inputs_v44, 0.002); end
+  def test_user_inputs_w44; assert_in_delta(1.0, worksheet.user_inputs_w44, 0.002); end
+  def test_user_inputs_x44; assert_in_delta(1.0, worksheet.user_inputs_x44, 0.002); end
+  def test_user_inputs_y44; assert_in_delta(1.0, worksheet.user_inputs_y44, 0.002); end
+  def test_user_inputs_z44; assert_in_delta(1.0, worksheet.user_inputs_z44, 0.002); end
+  def test_user_inputs_aa44; assert_in_delta(1.0, worksheet.user_inputs_aa44, 0.002); end
+  def test_user_inputs_h45; assert_in_delta(1.0, worksheet.user_inputs_h45, 0.002); end
+  def test_user_inputs_i45; assert_in_delta(1.0, worksheet.user_inputs_i45, 0.002); end
+  def test_user_inputs_j45; assert_in_delta(1.0, worksheet.user_inputs_j45, 0.002); end
+  def test_user_inputs_k45; assert_in_delta(1.0, worksheet.user_inputs_k45, 0.002); end
+  def test_user_inputs_l45; assert_in_delta(1.0, worksheet.user_inputs_l45, 0.002); end
+  def test_user_inputs_m45; assert_in_delta(1.0, worksheet.user_inputs_m45, 0.002); end
+  def test_user_inputs_n45; assert_in_delta(1.0, worksheet.user_inputs_n45, 0.002); end
+  def test_user_inputs_o45; assert_in_delta(1.0, worksheet.user_inputs_o45, 0.002); end
+  def test_user_inputs_p45; assert_in_delta(1.0, worksheet.user_inputs_p45, 0.002); end
+  def test_user_inputs_q45; assert_in_delta(1.0, worksheet.user_inputs_q45, 0.002); end
+  def test_user_inputs_r45; assert_in_delta(1.0, worksheet.user_inputs_r45, 0.002); end
+  def test_user_inputs_s45; assert_in_delta(1.0, worksheet.user_inputs_s45, 0.002); end
+  def test_user_inputs_t45; assert_in_delta(1.0, worksheet.user_inputs_t45, 0.002); end
+  def test_user_inputs_u45; assert_in_delta(1.0, worksheet.user_inputs_u45, 0.002); end
+  def test_user_inputs_v45; assert_in_delta(1.0, worksheet.user_inputs_v45, 0.002); end
+  def test_user_inputs_w45; assert_in_delta(1.0, worksheet.user_inputs_w45, 0.002); end
+  def test_user_inputs_x45; assert_in_delta(1.0, worksheet.user_inputs_x45, 0.002); end
+  def test_user_inputs_y45; assert_in_epsilon(4.0, worksheet.user_inputs_y45, 0.002); end
+  def test_user_inputs_z45; assert_in_delta(1.0, worksheet.user_inputs_z45, 0.002); end
+  def test_user_inputs_aa45; assert_in_delta(1.0, worksheet.user_inputs_aa45, 0.002); end
+  def test_user_inputs_h46; assert_in_delta(1.0, worksheet.user_inputs_h46, 0.002); end
+  def test_user_inputs_i46; assert_in_delta(1.0, worksheet.user_inputs_i46, 0.002); end
+  def test_user_inputs_j46; assert_in_delta(1.0, worksheet.user_inputs_j46, 0.002); end
+  def test_user_inputs_k46; assert_in_delta(1.0, worksheet.user_inputs_k46, 0.002); end
+  def test_user_inputs_l46; assert_in_delta(1.0, worksheet.user_inputs_l46, 0.002); end
+  def test_user_inputs_m46; assert_in_delta(1.0, worksheet.user_inputs_m46, 0.002); end
+  def test_user_inputs_n46; assert_in_delta(1.0, worksheet.user_inputs_n46, 0.002); end
+  def test_user_inputs_o46; assert_in_delta(1.0, worksheet.user_inputs_o46, 0.002); end
+  def test_user_inputs_p46; assert_in_delta(1.0, worksheet.user_inputs_p46, 0.002); end
+  def test_user_inputs_q46; assert_in_delta(1.0, worksheet.user_inputs_q46, 0.002); end
+  def test_user_inputs_r46; assert_in_delta(1.0, worksheet.user_inputs_r46, 0.002); end
+  def test_user_inputs_s46; assert_in_delta(1.0, worksheet.user_inputs_s46, 0.002); end
+  def test_user_inputs_t46; assert_in_delta(1.0, worksheet.user_inputs_t46, 0.002); end
+  def test_user_inputs_u46; assert_in_delta(1.0, worksheet.user_inputs_u46, 0.002); end
+  def test_user_inputs_v46; assert_in_delta(1.0, worksheet.user_inputs_v46, 0.002); end
+  def test_user_inputs_w46; assert_in_delta(1.0, worksheet.user_inputs_w46, 0.002); end
+  def test_user_inputs_x46; assert_in_delta(1.0, worksheet.user_inputs_x46, 0.002); end
+  def test_user_inputs_y46; assert_in_delta(1.0, worksheet.user_inputs_y46, 0.002); end
+  def test_user_inputs_z46; assert_in_delta(1.0, worksheet.user_inputs_z46, 0.002); end
+  def test_user_inputs_aa46; assert_in_delta(1.0, worksheet.user_inputs_aa46, 0.002); end
+  def test_user_inputs_h47; assert_in_delta(1.0, worksheet.user_inputs_h47, 0.002); end
+  def test_user_inputs_i47; assert_in_delta(1.0, worksheet.user_inputs_i47, 0.002); end
+  def test_user_inputs_j47; assert_in_delta(1.0, worksheet.user_inputs_j47, 0.002); end
+  def test_user_inputs_k47; assert_in_delta(1.0, worksheet.user_inputs_k47, 0.002); end
+  def test_user_inputs_l47; assert_in_delta(1.0, worksheet.user_inputs_l47, 0.002); end
+  def test_user_inputs_m47; assert_in_delta(1.0, worksheet.user_inputs_m47, 0.002); end
+  def test_user_inputs_n47; assert_in_delta(1.0, worksheet.user_inputs_n47, 0.002); end
+  def test_user_inputs_o47; assert_in_delta(1.0, worksheet.user_inputs_o47, 0.002); end
+  def test_user_inputs_p47; assert_in_delta(1.0, worksheet.user_inputs_p47, 0.002); end
+  def test_user_inputs_q47; assert_in_delta(1.0, worksheet.user_inputs_q47, 0.002); end
+  def test_user_inputs_r47; assert_in_delta(1.0, worksheet.user_inputs_r47, 0.002); end
+  def test_user_inputs_s47; assert_in_delta(1.0, worksheet.user_inputs_s47, 0.002); end
+  def test_user_inputs_t47; assert_in_delta(1.0, worksheet.user_inputs_t47, 0.002); end
+  def test_user_inputs_u47; assert_in_delta(1.0, worksheet.user_inputs_u47, 0.002); end
+  def test_user_inputs_v47; assert_in_delta(1.0, worksheet.user_inputs_v47, 0.002); end
+  def test_user_inputs_w47; assert_in_delta(1.0, worksheet.user_inputs_w47, 0.002); end
+  def test_user_inputs_x47; assert_in_delta(1.0, worksheet.user_inputs_x47, 0.002); end
+  def test_user_inputs_y47; assert_in_delta(1.0, worksheet.user_inputs_y47, 0.002); end
+  def test_user_inputs_z47; assert_in_delta(1.0, worksheet.user_inputs_z47, 0.002); end
+  def test_user_inputs_aa47; assert_in_delta(1.0, worksheet.user_inputs_aa47, 0.002); end
+  def test_user_inputs_h48; assert_in_delta(1.0, worksheet.user_inputs_h48, 0.002); end
+  def test_user_inputs_i48; assert_in_delta(1.0, worksheet.user_inputs_i48, 0.002); end
+  def test_user_inputs_j48; assert_in_delta(1.0, worksheet.user_inputs_j48, 0.002); end
+  def test_user_inputs_k48; assert_in_delta(1.0, worksheet.user_inputs_k48, 0.002); end
+  def test_user_inputs_l48; assert_in_delta(1.0, worksheet.user_inputs_l48, 0.002); end
+  def test_user_inputs_m48; assert_in_delta(1.0, worksheet.user_inputs_m48, 0.002); end
+  def test_user_inputs_n48; assert_in_delta(1.0, worksheet.user_inputs_n48, 0.002); end
+  def test_user_inputs_o48; assert_in_delta(1.0, worksheet.user_inputs_o48, 0.002); end
+  def test_user_inputs_p48; assert_in_delta(1.0, worksheet.user_inputs_p48, 0.002); end
+  def test_user_inputs_q48; assert_in_delta(1.0, worksheet.user_inputs_q48, 0.002); end
+  def test_user_inputs_r48; assert_in_delta(1.0, worksheet.user_inputs_r48, 0.002); end
+  def test_user_inputs_s48; assert_in_delta(1.0, worksheet.user_inputs_s48, 0.002); end
+  def test_user_inputs_t48; assert_in_delta(1.0, worksheet.user_inputs_t48, 0.002); end
+  def test_user_inputs_u48; assert_in_delta(1.0, worksheet.user_inputs_u48, 0.002); end
+  def test_user_inputs_v48; assert_in_delta(1.0, worksheet.user_inputs_v48, 0.002); end
+  def test_user_inputs_w48; assert_in_delta(1.0, worksheet.user_inputs_w48, 0.002); end
+  def test_user_inputs_x48; assert_in_delta(1.0, worksheet.user_inputs_x48, 0.002); end
+  def test_user_inputs_y48; assert_in_delta(1.0, worksheet.user_inputs_y48, 0.002); end
+  def test_user_inputs_z48; assert_in_delta(1.0, worksheet.user_inputs_z48, 0.002); end
+  def test_user_inputs_aa48; assert_in_delta(1.0, worksheet.user_inputs_aa48, 0.002); end
+  def test_user_inputs_h49; assert_in_epsilon(2.5, worksheet.user_inputs_h49, 0.002); end
+  def test_user_inputs_i49; assert_in_epsilon(2.2, worksheet.user_inputs_i49, 0.002); end
+  def test_user_inputs_j49; assert_in_delta(1.0, worksheet.user_inputs_j49, 0.002); end
+  def test_user_inputs_k49; assert_in_delta(1.0, worksheet.user_inputs_k49, 0.002); end
+  def test_user_inputs_l49; assert_in_delta(1.0, worksheet.user_inputs_l49, 0.002); end
+  def test_user_inputs_m49; assert_in_delta(1.0, worksheet.user_inputs_m49, 0.002); end
+  def test_user_inputs_n49; assert_in_delta(1.0, worksheet.user_inputs_n49, 0.002); end
+  def test_user_inputs_o49; assert_in_delta(1.0, worksheet.user_inputs_o49, 0.002); end
+  def test_user_inputs_p49; assert_in_epsilon(4.0, worksheet.user_inputs_p49, 0.002); end
+  def test_user_inputs_q49; assert_in_epsilon(3.0, worksheet.user_inputs_q49, 0.002); end
+  def test_user_inputs_r49; assert_in_epsilon(2.0, worksheet.user_inputs_r49, 0.002); end
+  def test_user_inputs_s49; assert_in_delta(1.0, worksheet.user_inputs_s49, 0.002); end
+  def test_user_inputs_t49; assert_in_epsilon(2.6, worksheet.user_inputs_t49, 0.002); end
+  def test_user_inputs_u49; assert_in_epsilon(2.5, worksheet.user_inputs_u49, 0.002); end
+  def test_user_inputs_v49; assert_in_epsilon(2.5, worksheet.user_inputs_v49, 0.002); end
+  def test_user_inputs_w49; assert_in_epsilon(3.0, worksheet.user_inputs_w49, 0.002); end
+  def test_user_inputs_x49; assert_in_epsilon(2.5, worksheet.user_inputs_x49, 0.002); end
+  def test_user_inputs_y49; assert_in_epsilon(2.5, worksheet.user_inputs_y49, 0.002); end
+  def test_user_inputs_z49; assert_in_epsilon(2.5, worksheet.user_inputs_z49, 0.002); end
+  def test_user_inputs_aa49; assert_in_delta(1.0, worksheet.user_inputs_aa49, 0.002); end
+  def test_user_inputs_h50; assert_in_epsilon(2.4, worksheet.user_inputs_h50, 0.002); end
+  def test_user_inputs_i50; assert_in_epsilon(1.3, worksheet.user_inputs_i50, 0.002); end
+  def test_user_inputs_j50; assert_in_delta(1.0, worksheet.user_inputs_j50, 0.002); end
+  def test_user_inputs_k50; assert_in_epsilon(2.5, worksheet.user_inputs_k50, 0.002); end
+  def test_user_inputs_l50; assert_in_epsilon(2.5, worksheet.user_inputs_l50, 0.002); end
+  def test_user_inputs_m50; assert_in_epsilon(2.5, worksheet.user_inputs_m50, 0.002); end
+  def test_user_inputs_n50; assert_in_epsilon(2.5, worksheet.user_inputs_n50, 0.002); end
+  def test_user_inputs_o50; assert_in_epsilon(2.5, worksheet.user_inputs_o50, 0.002); end
+  def test_user_inputs_p50; assert_in_epsilon(2.5, worksheet.user_inputs_p50, 0.002); end
+  def test_user_inputs_q50; assert_in_epsilon(2.5, worksheet.user_inputs_q50, 0.002); end
+  def test_user_inputs_r50; assert_in_epsilon(2.5, worksheet.user_inputs_r50, 0.002); end
+  def test_user_inputs_s50; assert_in_epsilon(2.5, worksheet.user_inputs_s50, 0.002); end
+  def test_user_inputs_t50; assert_in_epsilon(2.4, worksheet.user_inputs_t50, 0.002); end
+  def test_user_inputs_u50; assert_in_epsilon(2.4, worksheet.user_inputs_u50, 0.002); end
+  def test_user_inputs_v50; assert_in_epsilon(2.5, worksheet.user_inputs_v50, 0.002); end
+  def test_user_inputs_w50; assert_in_epsilon(2.4, worksheet.user_inputs_w50, 0.002); end
+  def test_user_inputs_x50; assert_in_epsilon(2.4, worksheet.user_inputs_x50, 0.002); end
+  def test_user_inputs_y50; assert_in_epsilon(2.4, worksheet.user_inputs_y50, 0.002); end
+  def test_user_inputs_z50; assert_in_epsilon(2.4, worksheet.user_inputs_z50, 0.002); end
+  def test_user_inputs_aa50; assert_in_epsilon(4.0, worksheet.user_inputs_aa50, 0.002); end
+  def test_user_inputs_h51; assert_in_epsilon(2.0, worksheet.user_inputs_h51, 0.002); end
+  def test_user_inputs_i51; assert_in_epsilon(2.0, worksheet.user_inputs_i51, 0.002); end
+  def test_user_inputs_j51; assert_in_epsilon(2.0, worksheet.user_inputs_j51, 0.002); end
+  def test_user_inputs_k51; assert_in_epsilon(2.0, worksheet.user_inputs_k51, 0.002); end
+  def test_user_inputs_l51; assert_in_epsilon(2.0, worksheet.user_inputs_l51, 0.002); end
+  def test_user_inputs_m51; assert_in_epsilon(2.0, worksheet.user_inputs_m51, 0.002); end
+  def test_user_inputs_n51; assert_in_epsilon(2.0, worksheet.user_inputs_n51, 0.002); end
+  def test_user_inputs_o51; assert_in_epsilon(4.0, worksheet.user_inputs_o51, 0.002); end
+  def test_user_inputs_p51; assert_in_epsilon(4.0, worksheet.user_inputs_p51, 0.002); end
+  def test_user_inputs_q51; assert_in_epsilon(3.0, worksheet.user_inputs_q51, 0.002); end
+  def test_user_inputs_r51; assert_in_epsilon(2.0, worksheet.user_inputs_r51, 0.002); end
+  def test_user_inputs_s51; assert_in_delta(1.0, worksheet.user_inputs_s51, 0.002); end
+  def test_user_inputs_t51; assert_in_epsilon(2.0, worksheet.user_inputs_t51, 0.002); end
+  def test_user_inputs_u51; assert_in_epsilon(2.0, worksheet.user_inputs_u51, 0.002); end
+  def test_user_inputs_v51; assert_in_epsilon(2.0, worksheet.user_inputs_v51, 0.002); end
+  def test_user_inputs_w51; assert_in_epsilon(2.0, worksheet.user_inputs_w51, 0.002); end
+  def test_user_inputs_x51; assert_in_epsilon(2.0, worksheet.user_inputs_x51, 0.002); end
+  def test_user_inputs_y51; assert_in_epsilon(2.0, worksheet.user_inputs_y51, 0.002); end
+  def test_user_inputs_z51; assert_in_epsilon(2.0, worksheet.user_inputs_z51, 0.002); end
+  def test_user_inputs_aa51; assert_in_epsilon(2.0, worksheet.user_inputs_aa51, 0.002); end
+  def test_user_inputs_h52; assert_equal("B", worksheet.user_inputs_h52); end
+  def test_user_inputs_i52; assert_equal("B", worksheet.user_inputs_i52); end
+  def test_user_inputs_j52; assert_equal("B", worksheet.user_inputs_j52); end
+  def test_user_inputs_k52; assert_equal("B", worksheet.user_inputs_k52); end
+  def test_user_inputs_l52; assert_equal("B", worksheet.user_inputs_l52); end
+  def test_user_inputs_m52; assert_equal("B", worksheet.user_inputs_m52); end
+  def test_user_inputs_n52; assert_equal("B", worksheet.user_inputs_n52); end
+  def test_user_inputs_o52; assert_equal("B", worksheet.user_inputs_o52); end
+  def test_user_inputs_p52; assert_equal("B", worksheet.user_inputs_p52); end
+  def test_user_inputs_q52; assert_equal("B", worksheet.user_inputs_q52); end
+  def test_user_inputs_r52; assert_equal("B", worksheet.user_inputs_r52); end
+  def test_user_inputs_s52; assert_equal("B", worksheet.user_inputs_s52); end
+  def test_user_inputs_t52; assert_equal("B", worksheet.user_inputs_t52); end
+  def test_user_inputs_u52; assert_equal("B", worksheet.user_inputs_u52); end
+  def test_user_inputs_v52; assert_equal("B", worksheet.user_inputs_v52); end
+  def test_user_inputs_w52; assert_equal("B", worksheet.user_inputs_w52); end
+  def test_user_inputs_x52; assert_equal("B", worksheet.user_inputs_x52); end
+  def test_user_inputs_y52; assert_equal("B", worksheet.user_inputs_y52); end
+  def test_user_inputs_z52; assert_equal("B", worksheet.user_inputs_z52); end
+  def test_user_inputs_aa52; assert_equal("B", worksheet.user_inputs_aa52); end
+  def test_user_inputs_h53; assert_equal("US", worksheet.user_inputs_h53); end
+  def test_user_inputs_i53; assert_equal("US", worksheet.user_inputs_i53); end
+  def test_user_inputs_j53; assert_equal("US", worksheet.user_inputs_j53); end
+  def test_user_inputs_k53; assert_equal("US", worksheet.user_inputs_k53); end
+  def test_user_inputs_l53; assert_equal("US", worksheet.user_inputs_l53); end
+  def test_user_inputs_m53; assert_equal("US", worksheet.user_inputs_m53); end
+  def test_user_inputs_n53; assert_equal("US", worksheet.user_inputs_n53); end
+  def test_user_inputs_o53; assert_equal("US", worksheet.user_inputs_o53); end
+  def test_user_inputs_p53; assert_equal("US", worksheet.user_inputs_p53); end
+  def test_user_inputs_q53; assert_equal("US", worksheet.user_inputs_q53); end
+  def test_user_inputs_r53; assert_equal("US", worksheet.user_inputs_r53); end
+  def test_user_inputs_s53; assert_equal("US", worksheet.user_inputs_s53); end
+  def test_user_inputs_t53; assert_equal("US", worksheet.user_inputs_t53); end
+  def test_user_inputs_u53; assert_equal("US", worksheet.user_inputs_u53); end
+  def test_user_inputs_v53; assert_equal("US", worksheet.user_inputs_v53); end
+  def test_user_inputs_w53; assert_equal("US", worksheet.user_inputs_w53); end
+  def test_user_inputs_x53; assert_equal("US", worksheet.user_inputs_x53); end
+  def test_user_inputs_y53; assert_equal("US", worksheet.user_inputs_y53); end
+  def test_user_inputs_z53; assert_equal("US", worksheet.user_inputs_z53); end
+  def test_user_inputs_aa53; assert_equal("US", worksheet.user_inputs_aa53); end
+  def test_user_inputs_h54; assert_equal("US", worksheet.user_inputs_h54); end
+  def test_user_inputs_i54; assert_equal("US", worksheet.user_inputs_i54); end
+  def test_user_inputs_j54; assert_equal("US", worksheet.user_inputs_j54); end
+  def test_user_inputs_k54; assert_equal("US", worksheet.user_inputs_k54); end
+  def test_user_inputs_l54; assert_equal("US", worksheet.user_inputs_l54); end
+  def test_user_inputs_m54; assert_equal("US", worksheet.user_inputs_m54); end
+  def test_user_inputs_n54; assert_equal("US", worksheet.user_inputs_n54); end
+  def test_user_inputs_o54; assert_equal("US", worksheet.user_inputs_o54); end
+  def test_user_inputs_p54; assert_equal("US", worksheet.user_inputs_p54); end
+  def test_user_inputs_q54; assert_equal("US", worksheet.user_inputs_q54); end
+  def test_user_inputs_r54; assert_equal("US", worksheet.user_inputs_r54); end
+  def test_user_inputs_s54; assert_equal("US", worksheet.user_inputs_s54); end
+  def test_user_inputs_t54; assert_equal("US", worksheet.user_inputs_t54); end
+  def test_user_inputs_u54; assert_equal("US", worksheet.user_inputs_u54); end
+  def test_user_inputs_v54; assert_equal("US", worksheet.user_inputs_v54); end
+  def test_user_inputs_w54; assert_equal("US", worksheet.user_inputs_w54); end
+  def test_user_inputs_x54; assert_equal("US", worksheet.user_inputs_x54); end
+  def test_user_inputs_y54; assert_equal("US", worksheet.user_inputs_y54); end
+  def test_user_inputs_z54; assert_equal("US", worksheet.user_inputs_z54); end
+  def test_user_inputs_aa54; assert_equal("US", worksheet.user_inputs_aa54); end
+  def test_user_inputs_h55; assert_equal("US", worksheet.user_inputs_h55); end
+  def test_user_inputs_i55; assert_equal("US", worksheet.user_inputs_i55); end
+  def test_user_inputs_j55; assert_equal("US", worksheet.user_inputs_j55); end
+  def test_user_inputs_k55; assert_equal("US", worksheet.user_inputs_k55); end
+  def test_user_inputs_l55; assert_equal("US", worksheet.user_inputs_l55); end
+  def test_user_inputs_m55; assert_equal("US", worksheet.user_inputs_m55); end
+  def test_user_inputs_n55; assert_equal("US", worksheet.user_inputs_n55); end
+  def test_user_inputs_o55; assert_equal("US", worksheet.user_inputs_o55); end
+  def test_user_inputs_p55; assert_equal("US", worksheet.user_inputs_p55); end
+  def test_user_inputs_q55; assert_equal("US", worksheet.user_inputs_q55); end
+  def test_user_inputs_r55; assert_equal("US", worksheet.user_inputs_r55); end
+  def test_user_inputs_s55; assert_equal("US", worksheet.user_inputs_s55); end
+  def test_user_inputs_t55; assert_equal("US", worksheet.user_inputs_t55); end
+  def test_user_inputs_u55; assert_equal("US", worksheet.user_inputs_u55); end
+  def test_user_inputs_v55; assert_equal("US", worksheet.user_inputs_v55); end
+  def test_user_inputs_w55; assert_equal("US", worksheet.user_inputs_w55); end
+  def test_user_inputs_x55; assert_equal("US", worksheet.user_inputs_x55); end
+  def test_user_inputs_y55; assert_equal("US", worksheet.user_inputs_y55); end
+  def test_user_inputs_z55; assert_equal("US", worksheet.user_inputs_z55); end
+  def test_user_inputs_aa55; assert_equal("US", worksheet.user_inputs_aa55); end
+  def test_user_inputs_h56; assert_equal("Point", worksheet.user_inputs_h56); end
+  def test_user_inputs_i56; assert_equal("Point", worksheet.user_inputs_i56); end
+  def test_user_inputs_j56; assert_equal("Point", worksheet.user_inputs_j56); end
+  def test_user_inputs_k56; assert_equal("Point", worksheet.user_inputs_k56); end
+  def test_user_inputs_l56; assert_equal("Point", worksheet.user_inputs_l56); end
+  def test_user_inputs_m56; assert_equal("Point", worksheet.user_inputs_m56); end
+  def test_user_inputs_n56; assert_equal("Point", worksheet.user_inputs_n56); end
+  def test_user_inputs_o56; assert_equal("Point", worksheet.user_inputs_o56); end
+  def test_user_inputs_p56; assert_equal("Point", worksheet.user_inputs_p56); end
+  def test_user_inputs_q56; assert_equal("Point", worksheet.user_inputs_q56); end
+  def test_user_inputs_r56; assert_equal("Point", worksheet.user_inputs_r56); end
+  def test_user_inputs_s56; assert_equal("Point", worksheet.user_inputs_s56); end
+  def test_user_inputs_t56; assert_equal("Point", worksheet.user_inputs_t56); end
+  def test_user_inputs_u56; assert_equal("Point", worksheet.user_inputs_u56); end
+  def test_user_inputs_v56; assert_equal("Point", worksheet.user_inputs_v56); end
+  def test_user_inputs_w56; assert_equal("Point", worksheet.user_inputs_w56); end
+  def test_user_inputs_x56; assert_equal("Point", worksheet.user_inputs_x56); end
+  def test_user_inputs_y56; assert_equal("Point", worksheet.user_inputs_y56); end
+  def test_user_inputs_z56; assert_equal("Point", worksheet.user_inputs_z56); end
+  def test_user_inputs_aa56; assert_equal("Point", worksheet.user_inputs_aa56); end
+  def test_user_inputs_h57; assert_equal("Point", worksheet.user_inputs_h57); end
+  def test_user_inputs_i57; assert_equal("Point", worksheet.user_inputs_i57); end
+  def test_user_inputs_j57; assert_equal("Point", worksheet.user_inputs_j57); end
+  def test_user_inputs_k57; assert_equal("Point", worksheet.user_inputs_k57); end
+  def test_user_inputs_l57; assert_equal("Point", worksheet.user_inputs_l57); end
+  def test_user_inputs_m57; assert_equal("Point", worksheet.user_inputs_m57); end
+  def test_user_inputs_n57; assert_equal("Point", worksheet.user_inputs_n57); end
+  def test_user_inputs_o57; assert_equal("Point", worksheet.user_inputs_o57); end
+  def test_user_inputs_p57; assert_equal("Point", worksheet.user_inputs_p57); end
+  def test_user_inputs_q57; assert_equal("Point", worksheet.user_inputs_q57); end
+  def test_user_inputs_r57; assert_equal("Point", worksheet.user_inputs_r57); end
+  def test_user_inputs_s57; assert_equal("Point", worksheet.user_inputs_s57); end
+  def test_user_inputs_t57; assert_equal("Point", worksheet.user_inputs_t57); end
+  def test_user_inputs_u57; assert_equal("Point", worksheet.user_inputs_u57); end
+  def test_user_inputs_v57; assert_equal("Point", worksheet.user_inputs_v57); end
+  def test_user_inputs_w57; assert_equal("Point", worksheet.user_inputs_w57); end
+  def test_user_inputs_x57; assert_equal("Point", worksheet.user_inputs_x57); end
+  def test_user_inputs_y57; assert_equal("Point", worksheet.user_inputs_y57); end
+  def test_user_inputs_z57; assert_equal("Point", worksheet.user_inputs_z57); end
+  def test_user_inputs_aa57; assert_equal("Point", worksheet.user_inputs_aa57); end
+  def test_user_inputs_h58; assert_equal("Point", worksheet.user_inputs_h58); end
+  def test_user_inputs_i58; assert_equal("Point", worksheet.user_inputs_i58); end
+  def test_user_inputs_j58; assert_equal("Point", worksheet.user_inputs_j58); end
+  def test_user_inputs_k58; assert_equal("Point", worksheet.user_inputs_k58); end
+  def test_user_inputs_l58; assert_equal("Point", worksheet.user_inputs_l58); end
+  def test_user_inputs_m58; assert_equal("Point", worksheet.user_inputs_m58); end
+  def test_user_inputs_n58; assert_equal("Point", worksheet.user_inputs_n58); end
+  def test_user_inputs_o58; assert_equal("Point", worksheet.user_inputs_o58); end
+  def test_user_inputs_p58; assert_equal("Point", worksheet.user_inputs_p58); end
+  def test_user_inputs_q58; assert_equal("Point", worksheet.user_inputs_q58); end
+  def test_user_inputs_r58; assert_equal("Point", worksheet.user_inputs_r58); end
+  def test_user_inputs_s58; assert_equal("Point", worksheet.user_inputs_s58); end
+  def test_user_inputs_t58; assert_equal("Point", worksheet.user_inputs_t58); end
+  def test_user_inputs_u58; assert_equal("Point", worksheet.user_inputs_u58); end
+  def test_user_inputs_v58; assert_equal("Point", worksheet.user_inputs_v58); end
+  def test_user_inputs_w58; assert_equal("Point", worksheet.user_inputs_w58); end
+  def test_user_inputs_x58; assert_equal("Point", worksheet.user_inputs_x58); end
+  def test_user_inputs_y58; assert_equal("Point", worksheet.user_inputs_y58); end
+  def test_user_inputs_z58; assert_equal("Point", worksheet.user_inputs_z58); end
+  def test_user_inputs_aa58; assert_equal("Point", worksheet.user_inputs_aa58); end
+  def test_user_inputs_h59; assert_equal("Point", worksheet.user_inputs_h59); end
+  def test_user_inputs_i59; assert_equal("Point", worksheet.user_inputs_i59); end
+  def test_user_inputs_j59; assert_equal("Point", worksheet.user_inputs_j59); end
+  def test_user_inputs_k59; assert_equal("Point", worksheet.user_inputs_k59); end
+  def test_user_inputs_l59; assert_equal("Point", worksheet.user_inputs_l59); end
+  def test_user_inputs_m59; assert_equal("Point", worksheet.user_inputs_m59); end
+  def test_user_inputs_n59; assert_equal("Point", worksheet.user_inputs_n59); end
+  def test_user_inputs_o59; assert_equal("Point", worksheet.user_inputs_o59); end
+  def test_user_inputs_p59; assert_equal("Point", worksheet.user_inputs_p59); end
+  def test_user_inputs_q59; assert_equal("Point", worksheet.user_inputs_q59); end
+  def test_user_inputs_r59; assert_equal("Point", worksheet.user_inputs_r59); end
+  def test_user_inputs_s59; assert_equal("Point", worksheet.user_inputs_s59); end
+  def test_user_inputs_t59; assert_equal("Point", worksheet.user_inputs_t59); end
+  def test_user_inputs_u59; assert_equal("Point", worksheet.user_inputs_u59); end
+  def test_user_inputs_v59; assert_equal("Point", worksheet.user_inputs_v59); end
+  def test_user_inputs_w59; assert_equal("Point", worksheet.user_inputs_w59); end
+  def test_user_inputs_x59; assert_equal("Point", worksheet.user_inputs_x59); end
+  def test_user_inputs_y59; assert_equal("Point", worksheet.user_inputs_y59); end
+  def test_user_inputs_z59; assert_equal("Point", worksheet.user_inputs_z59); end
+  def test_user_inputs_aa59; assert_equal("Point", worksheet.user_inputs_aa59); end
+  def test_user_inputs_h60; assert_equal("Point", worksheet.user_inputs_h60); end
+  def test_user_inputs_i60; assert_equal("Point", worksheet.user_inputs_i60); end
+  def test_user_inputs_j60; assert_equal("Point", worksheet.user_inputs_j60); end
+  def test_user_inputs_k60; assert_equal("Point", worksheet.user_inputs_k60); end
+  def test_user_inputs_l60; assert_equal("Point", worksheet.user_inputs_l60); end
+  def test_user_inputs_m60; assert_equal("Point", worksheet.user_inputs_m60); end
+  def test_user_inputs_n60; assert_equal("Point", worksheet.user_inputs_n60); end
+  def test_user_inputs_o60; assert_equal("Point", worksheet.user_inputs_o60); end
+  def test_user_inputs_p60; assert_equal("Point", worksheet.user_inputs_p60); end
+  def test_user_inputs_q60; assert_equal("Point", worksheet.user_inputs_q60); end
+  def test_user_inputs_r60; assert_equal("Point", worksheet.user_inputs_r60); end
+  def test_user_inputs_s60; assert_equal("Point", worksheet.user_inputs_s60); end
+  def test_user_inputs_t60; assert_equal("Point", worksheet.user_inputs_t60); end
+  def test_user_inputs_u60; assert_equal("Point", worksheet.user_inputs_u60); end
+  def test_user_inputs_v60; assert_equal("Point", worksheet.user_inputs_v60); end
+  def test_user_inputs_w60; assert_equal("Point", worksheet.user_inputs_w60); end
+  def test_user_inputs_x60; assert_equal("Point", worksheet.user_inputs_x60); end
+  def test_user_inputs_y60; assert_equal("Point", worksheet.user_inputs_y60); end
+  def test_user_inputs_z60; assert_equal("Point", worksheet.user_inputs_z60); end
+  def test_user_inputs_aa60; assert_equal("Point", worksheet.user_inputs_aa60); end
+  def test_user_inputs_h61; assert_equal("Point", worksheet.user_inputs_h61); end
+  def test_user_inputs_i61; assert_equal("Point", worksheet.user_inputs_i61); end
+  def test_user_inputs_j61; assert_equal("Point", worksheet.user_inputs_j61); end
+  def test_user_inputs_k61; assert_equal("Point", worksheet.user_inputs_k61); end
+  def test_user_inputs_l61; assert_equal("Point", worksheet.user_inputs_l61); end
+  def test_user_inputs_m61; assert_equal("Point", worksheet.user_inputs_m61); end
+  def test_user_inputs_n61; assert_equal("Point", worksheet.user_inputs_n61); end
+  def test_user_inputs_o61; assert_equal("Point", worksheet.user_inputs_o61); end
+  def test_user_inputs_p61; assert_equal("Point", worksheet.user_inputs_p61); end
+  def test_user_inputs_q61; assert_equal("Point", worksheet.user_inputs_q61); end
+  def test_user_inputs_r61; assert_equal("Point", worksheet.user_inputs_r61); end
+  def test_user_inputs_s61; assert_equal("Point", worksheet.user_inputs_s61); end
+  def test_user_inputs_t61; assert_equal("Point", worksheet.user_inputs_t61); end
+  def test_user_inputs_u61; assert_equal("Point", worksheet.user_inputs_u61); end
+  def test_user_inputs_v61; assert_equal("Point", worksheet.user_inputs_v61); end
+  def test_user_inputs_w61; assert_equal("Point", worksheet.user_inputs_w61); end
+  def test_user_inputs_x61; assert_equal("Point", worksheet.user_inputs_x61); end
+  def test_user_inputs_y61; assert_equal("Point", worksheet.user_inputs_y61); end
+  def test_user_inputs_z61; assert_equal("Point", worksheet.user_inputs_z61); end
+  def test_user_inputs_aa61; assert_equal("Point", worksheet.user_inputs_aa61); end
+  def test_user_inputs_h62; assert_equal("Point", worksheet.user_inputs_h62); end
+  def test_user_inputs_i62; assert_equal("Point", worksheet.user_inputs_i62); end
+  def test_user_inputs_j62; assert_equal("Point", worksheet.user_inputs_j62); end
+  def test_user_inputs_k62; assert_equal("Point", worksheet.user_inputs_k62); end
+  def test_user_inputs_l62; assert_equal("Point", worksheet.user_inputs_l62); end
+  def test_user_inputs_m62; assert_equal("Point", worksheet.user_inputs_m62); end
+  def test_user_inputs_n62; assert_equal("Point", worksheet.user_inputs_n62); end
+  def test_user_inputs_o62; assert_equal("Point", worksheet.user_inputs_o62); end
+  def test_user_inputs_p62; assert_equal("Point", worksheet.user_inputs_p62); end
+  def test_user_inputs_q62; assert_equal("Point", worksheet.user_inputs_q62); end
+  def test_user_inputs_r62; assert_equal("Point", worksheet.user_inputs_r62); end
+  def test_user_inputs_s62; assert_equal("Point", worksheet.user_inputs_s62); end
+  def test_user_inputs_t62; assert_equal("Point", worksheet.user_inputs_t62); end
+  def test_user_inputs_u62; assert_equal("Point", worksheet.user_inputs_u62); end
+  def test_user_inputs_v62; assert_equal("Point", worksheet.user_inputs_v62); end
+  def test_user_inputs_w62; assert_equal("Point", worksheet.user_inputs_w62); end
+  def test_user_inputs_x62; assert_equal("Point", worksheet.user_inputs_x62); end
+  def test_user_inputs_y62; assert_equal("Point", worksheet.user_inputs_y62); end
+  def test_user_inputs_z62; assert_equal("Point", worksheet.user_inputs_z62); end
+  def test_user_inputs_aa62; assert_equal("Point", worksheet.user_inputs_aa62); end
+  def test_user_inputs_h63; assert_in_epsilon(2.8, worksheet.user_inputs_h63, 0.002); end
+  def test_user_inputs_i63; assert_in_epsilon(2.0, worksheet.user_inputs_i63, 0.002); end
+  def test_user_inputs_j63; assert_in_epsilon(1.9, worksheet.user_inputs_j63, 0.002); end
+  def test_user_inputs_k63; assert_in_epsilon(4.0, worksheet.user_inputs_k63, 0.002); end
+  def test_user_inputs_l63; assert_in_epsilon(1.9, worksheet.user_inputs_l63, 0.002); end
+  def test_user_inputs_m63; assert_in_epsilon(1.9, worksheet.user_inputs_m63, 0.002); end
+  def test_user_inputs_n63; assert_in_epsilon(1.9, worksheet.user_inputs_n63, 0.002); end
+  def test_user_inputs_o63; assert_in_epsilon(1.9, worksheet.user_inputs_o63, 0.002); end
+  def test_user_inputs_p63; assert_in_epsilon(4.0, worksheet.user_inputs_p63, 0.002); end
+  def test_user_inputs_q63; assert_in_epsilon(3.0, worksheet.user_inputs_q63, 0.002); end
+  def test_user_inputs_r63; assert_in_epsilon(2.0, worksheet.user_inputs_r63, 0.002); end
+  def test_user_inputs_s63; assert_in_delta(1.0, worksheet.user_inputs_s63, 0.002); end
+  def test_user_inputs_t63; assert_in_epsilon(3.0, worksheet.user_inputs_t63, 0.002); end
+  def test_user_inputs_u63; assert_in_epsilon(2.8, worksheet.user_inputs_u63, 0.002); end
+  def test_user_inputs_v63; assert_in_epsilon(2.8, worksheet.user_inputs_v63, 0.002); end
+  def test_user_inputs_w63; assert_in_epsilon(2.8, worksheet.user_inputs_w63, 0.002); end
+  def test_user_inputs_x63; assert_in_epsilon(2.8, worksheet.user_inputs_x63, 0.002); end
+  def test_user_inputs_y63; assert_in_epsilon(2.8, worksheet.user_inputs_y63, 0.002); end
+  def test_user_inputs_z63; assert_in_epsilon(2.8, worksheet.user_inputs_z63, 0.002); end
+  def test_user_inputs_aa63; assert_in_epsilon(1.9, worksheet.user_inputs_aa63, 0.002); end
+  def test_user_inputs_g7; assert_in_delta(0.0, (worksheet.user_inputs_g7||0), 0.002); end
+  def test_user_inputs_g8; assert_in_delta(0.0, (worksheet.user_inputs_g8||0), 0.002); end
+  def test_user_inputs_g9; assert_equal("Growth in travel demand continues in cities around the world, with global vehicle-kilometres travelled increasing at a rate of 2.65% annually and personal travel increasing by 180%. The global average travel per person will be similar to present day UK.", worksheet.user_inputs_g9); end
+  def test_user_inputs_g10; assert_equal("Freight tonne-kms remains closely tied to GDP and increase by roughly 140% in road, rail, and shipping, or 2.4% annually. ", worksheet.user_inputs_g10); end
+  def test_user_inputs_g11; assert_equal("Cities continue to grow in a sprawled pattern of development. Similar to the UK in 2011, 80% of pkm globally are by private vehicles. There is not a significant effort to add rail transport for freight or to improve logistics, and 65% of ground freight is by road, similar to Latin America in 2011. ", worksheet.user_inputs_g11); end
+  def test_user_inputs_g12; assert_equal("Many developed countries implement existing policies to improve efficiency while developing countries, even those with policies in place, see far less improvement in efficiency.  Most transport modes decreasing their energy intensity by 0.5% annually to roughly 8 lge/100km for LDVs and 26 lge/100km for HDVs.", worksheet.user_inputs_g12); end
+  def test_user_inputs_g13; assert_equal("With little support from policies or initiatives, the percentage of hybrid and electric vehicles remains low (5% and 2%)  for passenger cars, and  heavy duty vehicles (5% hybrid), and decreases for 2-3 wheelers (40% electric). Few new technologies are adopted for ships or airplanes.", worksheet.user_inputs_g13); end
+  def test_user_inputs_g14; assert_equal("In 2050 the average house floor area will be 0.0000000105 M ha per householdthe average services building floor area will be 0 M ha pre capita", worksheet.user_inputs_g14); end
+  def test_user_inputs_g15; assert_equal("In 2050 the average house inner temperature will be 19 ℃ and the services will be 21 ℃ in winter and 25 ℃, 24 ℃ in summer. The hot water demand will be 20088.75 l per y per capita", worksheet.user_inputs_g15); end
+  def test_user_inputs_g16; assert_equal("In 2050 the average household will own 1.1 refrigerator, 0.4 dishwasher, 0.9 clothes washers, 0.3 clothes dryers, 2 TV, 2.4 miscellaneous. And will own 35 bulbs.", worksheet.user_inputs_g16); end
+  def test_user_inputs_g17; assert_equal("In 2050 the average heat loss coefficient of buildings will be 10.2 GW/(M ha*℃), the thermal performance of building will improved by 32%", worksheet.user_inputs_g17); end
+  def test_user_inputs_g18; assert_equal("In 2050 the heating techology structure will be 2% solid boiler, 10% liquid boiler, 38% gas boiler, 3% heatpump, 8% electricity heater, 0% solar heater, 4% microchp, 36% districtheating. The cooling structure will be 89% aircondition, 4% chiller, 8% solar cooling. The cooking technology structure will be7% solid stoves, 12% liquid stoves, 45% gas stoves, 28% electricity stoves, 9% traditional biomass stoves. The lighting techonlogy structure will be 60% incandescents, 3% halogens, 35% CFLs, 3% LEDs. ", worksheet.user_inputs_g18); end
+  def test_user_inputs_g19; assert_equal("In 2050 the appliances efficiency will be refrigerator 0.00000008 GW improved by 20%, dishwasher 0.0000012 GW improved by 20%, clothwasher 0.00000056 GW improved by 20%, clothdryer 0.0000012 GW improved by 20%, TV 0.0000002 GW improved by 20%, miscellaneous 0.00000008 GW improved by 20%.", worksheet.user_inputs_g19); end
+  def test_user_inputs_g20; assert_equal("Demand for products leads to the production of 15.3Gt of materials, that is: 2.9Gt of crude steel, 0.2Gt of aluminium, 1.3Gt of chemicals, 0.9Gt of paper, 1.3Gt of timber, 2.3Gt of other materials, & 1.3Gt of cement", worksheet.user_inputs_g20); end
+  def test_user_inputs_g21; assert_equal("Products design leads to the reduction of -1% of materials in 2050", worksheet.user_inputs_g21); end
+  def test_user_inputs_g22; assert_equal("Specific emissions for Steel reduce/increase by -2%& for Aluminium  by of -2%", worksheet.user_inputs_g22); end
+  def test_user_inputs_g23; assert_equal("Specific emissions for chemicals reduce/increase by 1%", worksheet.user_inputs_g23); end
+  def test_user_inputs_g24; assert_equal("Specific emissions for Pulp & paper reduce/increase by -18%& for other materials by -18%", worksheet.user_inputs_g24); end
+  def test_user_inputs_g25; assert_equal("Specific emissions for Steel reduce/increase by -2%& for Aluminium  by of -2%", worksheet.user_inputs_g25); end
+  def test_user_inputs_g26; assert_equal("CCS enables a 0% CO2 reduction (excluding electricity emissions & counting biomass as fossil fuel) and an 0EJ electricity consumption increase", worksheet.user_inputs_g26); end
+  def test_user_inputs_g27; assert_equal("In 2050 out of total fossil energy supplied it is 45.454% of solid, 22.027% of liquid and 32.516% of gas power", worksheet.user_inputs_g27); end
+  def test_user_inputs_g28; assert_equal("In 2050 out of fossil energy supplied it is 18.72% by solid USC, 27.69% by solid SC, 53.59% by solid Sub-C, 52.4% by eff. liquid, 47.6% by ineff. liquid, 38.5% by OCGT and 61.5% by CCGT plant", worksheet.user_inputs_g28); end
+  def test_user_inputs_g29; assert_equal("In 2050 there is 110.8 GW of CCS installed power capacity", worksheet.user_inputs_g29); end
+  def test_user_inputs_g30; assert_equal("In 2050 there is 502.2 GW of installed nuclear power capacity", worksheet.user_inputs_g30); end
+  def test_user_inputs_g31; assert_equal("In 2050 there is 1390.2 GW of installed wind power capacity", worksheet.user_inputs_g31); end
+  def test_user_inputs_g32; assert_equal("In 2050 there is 1659.7 GW of installed hydro power capacity", worksheet.user_inputs_g32); end
+  def test_user_inputs_g33; assert_equal("In 2050 there is 43.6 GW of installed marine power capacity", worksheet.user_inputs_g33); end
+  def test_user_inputs_g34; assert_equal("In 2050 there is 479.6 GW of installed solar power capacity", worksheet.user_inputs_g34); end
+  def test_user_inputs_g35; assert_equal("In 2050 there is 68.8 GW of installed geothermal power capacity", worksheet.user_inputs_g35); end
+  def test_user_inputs_g36; assert_equal("In 2050 there is 277.5 GW of electricity storage capacity", worksheet.user_inputs_g36); end
+  def test_user_inputs_g37; assert_in_delta(0.0, (worksheet.user_inputs_g37||0), 0.002); end
+  def test_user_inputs_g38; assert_in_delta(0.0, (worksheet.user_inputs_g38||0), 0.002); end
+  def test_user_inputs_g39; assert_in_delta(0.0, (worksheet.user_inputs_g39||0), 0.002); end
+  def test_user_inputs_g41; assert_in_delta(0.0, (worksheet.user_inputs_g41||0), 0.002); end
+  def test_user_inputs_g42; assert_in_delta(0.0, (worksheet.user_inputs_g42||0), 0.002); end
+  def test_user_inputs_g43; assert_in_delta(0.0, (worksheet.user_inputs_g43||0), 0.002); end
+  def test_user_inputs_g44; assert_in_delta(0.0, (worksheet.user_inputs_g44||0), 0.002); end
+  def test_user_inputs_g45; assert_in_delta(0.0, (worksheet.user_inputs_g45||0), 0.002); end
+  def test_user_inputs_g46; assert_in_delta(0.0, (worksheet.user_inputs_g46||0), 0.002); end
+  def test_user_inputs_g47; assert_in_delta(0.0, (worksheet.user_inputs_g47||0), 0.002); end
+  def test_user_inputs_g48; assert_in_delta(0.0, (worksheet.user_inputs_g48||0), 0.002); end
+  def test_user_inputs_g49; assert_in_delta(0.0, (worksheet.user_inputs_g49||0), 0.002); end
+  def test_user_inputs_g50; assert_in_delta(0.0, (worksheet.user_inputs_g50||0), 0.002); end
+  def test_user_inputs_g51; assert_in_delta(0.0, (worksheet.user_inputs_g51||0), 0.002); end
+  def test_user_inputs_g52; assert_in_delta(0.0, (worksheet.user_inputs_g52||0), 0.002); end
+  def test_user_inputs_f7; assert_in_epsilon(3.0, worksheet.user_inputs_f7, 0.002); end
+  def test_user_inputs_f8; assert_in_epsilon(3.0, worksheet.user_inputs_f8, 0.002); end
+  def test_user_inputs_f9; assert_in_epsilon(4.0, worksheet.user_inputs_f9, 0.002); end
+  def test_user_inputs_f10; assert_in_epsilon(4.0, worksheet.user_inputs_f10, 0.002); end
+  def test_user_inputs_f11; assert_in_epsilon(4.0, worksheet.user_inputs_f11, 0.002); end
+  def test_user_inputs_f12; assert_in_epsilon(4.0, worksheet.user_inputs_f12, 0.002); end
+  def test_user_inputs_f13; assert_in_epsilon(4.0, worksheet.user_inputs_f13, 0.002); end
+  def test_user_inputs_f14; assert_in_epsilon(4.0, worksheet.user_inputs_f14, 0.002); end
+  def test_user_inputs_f15; assert_in_epsilon(4.0, worksheet.user_inputs_f15, 0.002); end
+  def test_user_inputs_f16; assert_in_epsilon(4.0, worksheet.user_inputs_f16, 0.002); end
+  def test_user_inputs_f17; assert_in_epsilon(4.0, worksheet.user_inputs_f17, 0.002); end
+  def test_user_inputs_f18; assert_in_epsilon(4.0, worksheet.user_inputs_f18, 0.002); end
+  def test_user_inputs_f19; assert_in_epsilon(4.0, worksheet.user_inputs_f19, 0.002); end
+  def test_user_inputs_f20; assert_in_epsilon(4.0, worksheet.user_inputs_f20, 0.002); end
+  def test_user_inputs_f21; assert_in_epsilon(4.0, worksheet.user_inputs_f21, 0.002); end
+  def test_user_inputs_f22; assert_in_epsilon(4.0, worksheet.user_inputs_f22, 0.002); end
+  def test_user_inputs_f23; assert_in_epsilon(4.0, worksheet.user_inputs_f23, 0.002); end
+  def test_user_inputs_f24; assert_in_epsilon(4.0, worksheet.user_inputs_f24, 0.002); end
+  def test_user_inputs_f25; assert_in_epsilon(4.0, worksheet.user_inputs_f25, 0.002); end
+  def test_user_inputs_f26; assert_in_epsilon(4.0, worksheet.user_inputs_f26, 0.002); end
+  def test_user_inputs_f27; assert_in_epsilon(4.0, worksheet.user_inputs_f27, 0.002); end
+  def test_user_inputs_f28; assert_in_epsilon(4.0, worksheet.user_inputs_f28, 0.002); end
+  def test_user_inputs_f29; assert_in_epsilon(4.0, worksheet.user_inputs_f29, 0.002); end
+  def test_user_inputs_f30; assert_in_epsilon(4.0, worksheet.user_inputs_f30, 0.002); end
+  def test_user_inputs_f31; assert_in_epsilon(4.0, worksheet.user_inputs_f31, 0.002); end
+  def test_user_inputs_f32; assert_in_epsilon(4.0, worksheet.user_inputs_f32, 0.002); end
+  def test_user_inputs_f33; assert_in_epsilon(4.0, worksheet.user_inputs_f33, 0.002); end
+  def test_user_inputs_f34; assert_in_epsilon(4.0, worksheet.user_inputs_f34, 0.002); end
+  def test_user_inputs_f35; assert_in_epsilon(4.0, worksheet.user_inputs_f35, 0.002); end
+  def test_user_inputs_f36; assert_in_epsilon(4.0, worksheet.user_inputs_f36, 0.002); end
+  def test_user_inputs_f37; assert_in_epsilon(4.0, worksheet.user_inputs_f37, 0.002); end
+  def test_user_inputs_f38; assert_in_epsilon(4.0, worksheet.user_inputs_f38, 0.002); end
+  def test_user_inputs_f39; assert_in_epsilon(4.0, worksheet.user_inputs_f39, 0.002); end
+  def test_user_inputs_f40; assert_in_epsilon(4.0, worksheet.user_inputs_f40, 0.002); end
+  def test_user_inputs_f41; assert_in_epsilon(4.0, worksheet.user_inputs_f41, 0.002); end
+  def test_user_inputs_f42; assert_in_epsilon(4.0, worksheet.user_inputs_f42, 0.002); end
+  def test_user_inputs_f43; assert_in_epsilon(4.0, worksheet.user_inputs_f43, 0.002); end
+  def test_user_inputs_f44; assert_in_epsilon(4.0, worksheet.user_inputs_f44, 0.002); end
+  def test_user_inputs_f45; assert_in_epsilon(4.0, worksheet.user_inputs_f45, 0.002); end
+  def test_user_inputs_f46; assert_in_epsilon(4.0, worksheet.user_inputs_f46, 0.002); end
+  def test_user_inputs_f47; assert_in_epsilon(4.0, worksheet.user_inputs_f47, 0.002); end
+  def test_user_inputs_f48; assert_in_epsilon(4.0, worksheet.user_inputs_f48, 0.002); end
+  def test_user_inputs_f49; assert_in_epsilon(4.0, worksheet.user_inputs_f49, 0.002); end
+  def test_user_inputs_f50; assert_in_epsilon(4.0, worksheet.user_inputs_f50, 0.002); end
+  def test_user_inputs_f51; assert_in_epsilon(4.0, worksheet.user_inputs_f51, 0.002); end
+  def test_user_inputs_f52; assert_equal("B", worksheet.user_inputs_f52); end
+  def test_user_inputs_d7; assert_equal("Global population", worksheet.user_inputs_d7); end
+  def test_user_inputs_d8; assert_equal("Urbanisation", worksheet.user_inputs_d8); end
+  def test_user_inputs_d9; assert_equal("Passenger distance", worksheet.user_inputs_d9); end
+  def test_user_inputs_d10; assert_equal("Freight distance", worksheet.user_inputs_d10); end
+  def test_user_inputs_d11; assert_equal("Mode", worksheet.user_inputs_d11); end
+  def test_user_inputs_d12; assert_equal("Efficiency", worksheet.user_inputs_d12); end
+  def test_user_inputs_d13; assert_equal("Electric and hydrogen", worksheet.user_inputs_d13); end
+  def test_user_inputs_d14; assert_equal("Building size", worksheet.user_inputs_d14); end
+  def test_user_inputs_d15; assert_equal("Temperature & hot water use", worksheet.user_inputs_d15); end
+  def test_user_inputs_d16; assert_equal("Lighting, cooking & appliance use", worksheet.user_inputs_d16); end
+  def test_user_inputs_d17; assert_equal("Building insulation", worksheet.user_inputs_d17); end
+  def test_user_inputs_d18; assert_equal("Temperature, cooking & lighting technology", worksheet.user_inputs_d18); end
+  def test_user_inputs_d19; assert_equal("Appliance efficiency", worksheet.user_inputs_d19); end
+  def test_user_inputs_d20; assert_equal("Product lifespan & demand", worksheet.user_inputs_d20); end
+  def test_user_inputs_d21; assert_equal("Design, material switch & recycling", worksheet.user_inputs_d21); end
+  def test_user_inputs_d22; assert_equal("Iron, steel & aluminium", worksheet.user_inputs_d22); end
+  def test_user_inputs_d23; assert_equal("Chemicals", worksheet.user_inputs_d23); end
+  def test_user_inputs_d24; assert_equal("Paper and other", worksheet.user_inputs_d24); end
+  def test_user_inputs_d25; assert_equal("Cement", worksheet.user_inputs_d25); end
+  def test_user_inputs_d26; assert_equal("Carbon capture and storage (ind.)", worksheet.user_inputs_d26); end
+  def test_user_inputs_d27; assert_equal("Coal (incl. biomass) / oil / gas", worksheet.user_inputs_d27); end
+  def test_user_inputs_d28; assert_equal("Fossil fuel efficiency", worksheet.user_inputs_d28); end
+  def test_user_inputs_d29; assert_equal("Carbon capture and storage (power)", worksheet.user_inputs_d29); end
+  def test_user_inputs_d30; assert_equal("Nuclear", worksheet.user_inputs_d30); end
+  def test_user_inputs_d31; assert_equal("Wind", worksheet.user_inputs_d31); end
+  def test_user_inputs_d32; assert_equal("Hydroelectric", worksheet.user_inputs_d32); end
+  def test_user_inputs_d33; assert_equal("Marine", worksheet.user_inputs_d33); end
+  def test_user_inputs_d34; assert_equal("Solar", worksheet.user_inputs_d34); end
+  def test_user_inputs_d35; assert_equal("Geothermal", worksheet.user_inputs_d35); end
+  def test_user_inputs_d36; assert_equal("Storage and demand shifting", worksheet.user_inputs_d36); end
+  def test_user_inputs_d37; assert_equal("Calories consumed", worksheet.user_inputs_d37); end
+  def test_user_inputs_d38; assert_equal("Meat consumed", worksheet.user_inputs_d38); end
+  def test_user_inputs_d39; assert_equal("Crop yields", worksheet.user_inputs_d39); end
+  def test_user_inputs_d40; assert_equal("Land-use efficiency ", worksheet.user_inputs_d40); end
+  def test_user_inputs_d41; assert_equal("Livestock yields", worksheet.user_inputs_d41); end
+  def test_user_inputs_d42; assert_equal("Bioenergy yields", worksheet.user_inputs_d42); end
+  def test_user_inputs_d43; assert_equal("Surplus land (forest & bioenergy) ", worksheet.user_inputs_d43); end
+  def test_user_inputs_d44; assert_equal("Biochar", worksheet.user_inputs_d44); end
+  def test_user_inputs_d45; assert_equal("Direct air capture", worksheet.user_inputs_d45); end
+  def test_user_inputs_d46; assert_equal("Ocean fertilisation", worksheet.user_inputs_d46); end
+  def test_user_inputs_d47; assert_equal("Enhanced weathering (ocean)", worksheet.user_inputs_d47); end
+  def test_user_inputs_d48; assert_equal("Enhanced weathering (terrestial)", worksheet.user_inputs_d48); end
+  def test_user_inputs_d49; assert_equal("Wastes and residues", worksheet.user_inputs_d49); end
+  def test_user_inputs_d50; assert_equal("Emissions trajectory", worksheet.user_inputs_d50); end
+  def test_user_inputs_d51; assert_equal("Atmospheric CO2 fraction", worksheet.user_inputs_d51); end
+  def test_user_inputs_d52; assert_equal("Confidence in climate models", worksheet.user_inputs_d52); end
+  def test_user_inputs_d53; assert_equal("High cost", worksheet.user_inputs_d53); end
+  def test_user_inputs_d54; assert_equal("Point cost", worksheet.user_inputs_d54); end
+  def test_user_inputs_d55; assert_equal("Low cost", worksheet.user_inputs_d55); end
   def test_outputs_energy_d63; assert_equal("Transport", worksheet.outputs_energy_d63); end
   def test_outputs_energy_f63; assert_equal("Excludes pipeline transport", worksheet.outputs_energy_f63); end
   def test_outputs_energy_h63; assert_in_epsilon(45.51369989, worksheet.outputs_energy_h63, 0.002); end
@@ -2206,7 +3506,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_emissions_i190; assert_in_delta(0.21394604776644002, worksheet.outputs_emissions_i190, 0.002); end
   def test_outputs_emissions_j190; assert_in_delta(0.21806406453805793, worksheet.outputs_emissions_j190, 0.002); end
   def test_outputs_emissions_k190; assert_in_delta(0.2350098363903014, worksheet.outputs_emissions_k190, 0.002); end
-  def test_outputs_emissions_l190; assert_in_delta(0.2481055378570945, worksheet.outputs_emissions_l190, 0.002); end
+  def test_outputs_emissions_l190; assert_in_delta(0.24810553785709447, worksheet.outputs_emissions_l190, 0.002); end
   def test_outputs_emissions_p190; assert_in_delta(0.2147475190718488, worksheet.outputs_emissions_p190, 0.002); end
   def test_outputs_emissions_q190; assert_in_delta(0.2232116039291474, worksheet.outputs_emissions_q190, 0.002); end
   def test_outputs_emissions_r190; assert_in_delta(0.23740538140519576, worksheet.outputs_emissions_r190, 0.002); end
@@ -2498,7 +3798,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_emissions_i77; assert_in_epsilon(6.204435385226761, worksheet.outputs_emissions_i77, 0.002); end
   def test_outputs_emissions_j77; assert_in_epsilon(6.32385787160368, worksheet.outputs_emissions_j77, 0.002); end
   def test_outputs_emissions_k77; assert_in_epsilon(6.815285255318741, worksheet.outputs_emissions_k77, 0.002); end
-  def test_outputs_emissions_l77; assert_in_epsilon(7.195060597855741, worksheet.outputs_emissions_l77, 0.002); end
+  def test_outputs_emissions_l77; assert_in_epsilon(7.19506059785574, worksheet.outputs_emissions_l77, 0.002); end
   def test_outputs_emissions_p77; assert_in_epsilon(6.227678053083615, worksheet.outputs_emissions_p77, 0.002); end
   def test_outputs_emissions_q77; assert_in_epsilon(6.473136513945275, worksheet.outputs_emissions_q77, 0.002); end
   def test_outputs_emissions_r77; assert_in_epsilon(6.884756060750677, worksheet.outputs_emissions_r77, 0.002); end
@@ -3276,1306 +4576,6 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_emissions_v268; assert_in_delta(0.09843407992825423, worksheet.outputs_emissions_v268, 0.002); end
   def test_outputs_emissions_w268; assert_in_delta(0.11563204835477599, worksheet.outputs_emissions_w268, 0.002); end
   def test_outputs_emissions_x268; assert_in_delta(0.13348708987313038, worksheet.outputs_emissions_x268, 0.002); end
-  def test_user_inputs_h6; assert_equal("IEA \"2DS\" (approximation)", worksheet.user_inputs_h6); end
-  def test_user_inputs_i6; assert_equal("IEA \"4DS\" (approximation)", worksheet.user_inputs_i6); end
-  def test_user_inputs_j6; assert_equal("IEA \"6DS\" (approximation)", worksheet.user_inputs_j6); end
-  def test_user_inputs_k6; assert_equal("IEA 6DS with full effort in transport", worksheet.user_inputs_k6); end
-  def test_user_inputs_l6; assert_equal("IEA 6DS with full effort in buildings", worksheet.user_inputs_l6); end
-  def test_user_inputs_m6; assert_equal("IEA 6DS with full effort in manufacturing", worksheet.user_inputs_m6); end
-  def test_user_inputs_n6; assert_equal("IEA 6DS with full effort in electricity / fuels", worksheet.user_inputs_n6); end
-  def test_user_inputs_o6; assert_equal("IEA 6DS with full effort in land / food / bio", worksheet.user_inputs_o6); end
-  def test_user_inputs_p6; assert_equal("All level 4", worksheet.user_inputs_p6); end
-  def test_user_inputs_q6; assert_equal("All level 3", worksheet.user_inputs_q6); end
-  def test_user_inputs_r6; assert_equal("All level 2", worksheet.user_inputs_r6); end
-  def test_user_inputs_s6; assert_equal("All level 1", worksheet.user_inputs_s6); end
-  def test_user_inputs_t6; assert_equal("2 degrees with higher \"lifestyle\"", worksheet.user_inputs_t6); end
-  def test_user_inputs_u6; assert_equal("New IEA 2DS", worksheet.user_inputs_u6); end
-  def test_user_inputs_v6; assert_equal("Incumbent technology", worksheet.user_inputs_v6); end
-  def test_user_inputs_w6; assert_equal("No CCS", worksheet.user_inputs_w6); end
-  def test_user_inputs_x6; assert_equal("No nuclear", worksheet.user_inputs_x6); end
-  def test_user_inputs_y6; assert_equal("Farming failure", worksheet.user_inputs_y6); end
-  def test_user_inputs_z6; assert_equal("Healthy eating", worksheet.user_inputs_z6); end
-  def test_user_inputs_aa6; assert_equal("New IEA 6DS", worksheet.user_inputs_aa6); end
-  def test_user_inputs_h7; assert_in_epsilon(2.0, worksheet.user_inputs_h7, 0.002); end
-  def test_user_inputs_i7; assert_in_epsilon(2.0, worksheet.user_inputs_i7, 0.002); end
-  def test_user_inputs_j7; assert_in_epsilon(2.0, worksheet.user_inputs_j7, 0.002); end
-  def test_user_inputs_k7; assert_in_epsilon(2.0, worksheet.user_inputs_k7, 0.002); end
-  def test_user_inputs_l7; assert_in_epsilon(2.0, worksheet.user_inputs_l7, 0.002); end
-  def test_user_inputs_m7; assert_in_epsilon(2.0, worksheet.user_inputs_m7, 0.002); end
-  def test_user_inputs_n7; assert_in_epsilon(2.0, worksheet.user_inputs_n7, 0.002); end
-  def test_user_inputs_o7; assert_in_epsilon(2.0, worksheet.user_inputs_o7, 0.002); end
-  def test_user_inputs_p7; assert_in_epsilon(2.0, worksheet.user_inputs_p7, 0.002); end
-  def test_user_inputs_q7; assert_in_epsilon(2.0, worksheet.user_inputs_q7, 0.002); end
-  def test_user_inputs_r7; assert_in_epsilon(2.0, worksheet.user_inputs_r7, 0.002); end
-  def test_user_inputs_s7; assert_in_epsilon(2.0, worksheet.user_inputs_s7, 0.002); end
-  def test_user_inputs_t7; assert_in_epsilon(2.0, worksheet.user_inputs_t7, 0.002); end
-  def test_user_inputs_u7; assert_in_epsilon(2.0, worksheet.user_inputs_u7, 0.002); end
-  def test_user_inputs_v7; assert_in_epsilon(2.0, worksheet.user_inputs_v7, 0.002); end
-  def test_user_inputs_w7; assert_in_epsilon(2.0, worksheet.user_inputs_w7, 0.002); end
-  def test_user_inputs_x7; assert_in_epsilon(2.0, worksheet.user_inputs_x7, 0.002); end
-  def test_user_inputs_y7; assert_in_epsilon(2.0, worksheet.user_inputs_y7, 0.002); end
-  def test_user_inputs_z7; assert_in_epsilon(2.0, worksheet.user_inputs_z7, 0.002); end
-  def test_user_inputs_aa7; assert_in_epsilon(2.0, worksheet.user_inputs_aa7, 0.002); end
-  def test_user_inputs_h8; assert_in_epsilon(2.0, worksheet.user_inputs_h8, 0.002); end
-  def test_user_inputs_i8; assert_in_epsilon(2.0, worksheet.user_inputs_i8, 0.002); end
-  def test_user_inputs_j8; assert_in_epsilon(2.0, worksheet.user_inputs_j8, 0.002); end
-  def test_user_inputs_k8; assert_in_epsilon(2.0, worksheet.user_inputs_k8, 0.002); end
-  def test_user_inputs_l8; assert_in_epsilon(2.0, worksheet.user_inputs_l8, 0.002); end
-  def test_user_inputs_m8; assert_in_epsilon(2.0, worksheet.user_inputs_m8, 0.002); end
-  def test_user_inputs_n8; assert_in_epsilon(2.0, worksheet.user_inputs_n8, 0.002); end
-  def test_user_inputs_o8; assert_in_epsilon(2.0, worksheet.user_inputs_o8, 0.002); end
-  def test_user_inputs_p8; assert_in_epsilon(2.0, worksheet.user_inputs_p8, 0.002); end
-  def test_user_inputs_q8; assert_in_epsilon(2.0, worksheet.user_inputs_q8, 0.002); end
-  def test_user_inputs_r8; assert_in_epsilon(2.0, worksheet.user_inputs_r8, 0.002); end
-  def test_user_inputs_s8; assert_in_epsilon(2.0, worksheet.user_inputs_s8, 0.002); end
-  def test_user_inputs_t8; assert_in_epsilon(2.0, worksheet.user_inputs_t8, 0.002); end
-  def test_user_inputs_u8; assert_in_epsilon(2.0, worksheet.user_inputs_u8, 0.002); end
-  def test_user_inputs_v8; assert_in_epsilon(2.0, worksheet.user_inputs_v8, 0.002); end
-  def test_user_inputs_w8; assert_in_epsilon(2.0, worksheet.user_inputs_w8, 0.002); end
-  def test_user_inputs_x8; assert_in_epsilon(2.0, worksheet.user_inputs_x8, 0.002); end
-  def test_user_inputs_y8; assert_in_epsilon(2.0, worksheet.user_inputs_y8, 0.002); end
-  def test_user_inputs_z8; assert_in_epsilon(2.0, worksheet.user_inputs_z8, 0.002); end
-  def test_user_inputs_aa8; assert_in_epsilon(2.0, worksheet.user_inputs_aa8, 0.002); end
-  def test_user_inputs_h9; assert_in_epsilon(2.0, worksheet.user_inputs_h9, 0.002); end
-  def test_user_inputs_i9; assert_in_epsilon(2.0, worksheet.user_inputs_i9, 0.002); end
-  def test_user_inputs_j9; assert_in_epsilon(2.0, worksheet.user_inputs_j9, 0.002); end
-  def test_user_inputs_k9; assert_in_epsilon(4.0, worksheet.user_inputs_k9, 0.002); end
-  def test_user_inputs_l9; assert_in_epsilon(2.0, worksheet.user_inputs_l9, 0.002); end
-  def test_user_inputs_m9; assert_in_epsilon(2.0, worksheet.user_inputs_m9, 0.002); end
-  def test_user_inputs_n9; assert_in_epsilon(2.0, worksheet.user_inputs_n9, 0.002); end
-  def test_user_inputs_o9; assert_in_epsilon(2.0, worksheet.user_inputs_o9, 0.002); end
-  def test_user_inputs_p9; assert_in_epsilon(4.0, worksheet.user_inputs_p9, 0.002); end
-  def test_user_inputs_q9; assert_in_epsilon(3.0, worksheet.user_inputs_q9, 0.002); end
-  def test_user_inputs_r9; assert_in_epsilon(2.0, worksheet.user_inputs_r9, 0.002); end
-  def test_user_inputs_s9; assert_in_delta(1.0, worksheet.user_inputs_s9, 0.002); end
-  def test_user_inputs_t9; assert_in_epsilon(1.5, worksheet.user_inputs_t9, 0.002); end
-  def test_user_inputs_u9; assert_in_epsilon(2.0, worksheet.user_inputs_u9, 0.002); end
-  def test_user_inputs_v9; assert_in_epsilon(2.0, worksheet.user_inputs_v9, 0.002); end
-  def test_user_inputs_w9; assert_in_epsilon(2.0, worksheet.user_inputs_w9, 0.002); end
-  def test_user_inputs_x9; assert_in_epsilon(2.0, worksheet.user_inputs_x9, 0.002); end
-  def test_user_inputs_y9; assert_in_epsilon(2.0, worksheet.user_inputs_y9, 0.002); end
-  def test_user_inputs_z9; assert_in_epsilon(2.0, worksheet.user_inputs_z9, 0.002); end
-  def test_user_inputs_aa9; assert_in_epsilon(2.0, worksheet.user_inputs_aa9, 0.002); end
-  def test_user_inputs_h10; assert_in_epsilon(2.0, worksheet.user_inputs_h10, 0.002); end
-  def test_user_inputs_i10; assert_in_epsilon(2.0, worksheet.user_inputs_i10, 0.002); end
-  def test_user_inputs_j10; assert_in_epsilon(2.0, worksheet.user_inputs_j10, 0.002); end
-  def test_user_inputs_k10; assert_in_epsilon(4.0, worksheet.user_inputs_k10, 0.002); end
-  def test_user_inputs_l10; assert_in_epsilon(2.0, worksheet.user_inputs_l10, 0.002); end
-  def test_user_inputs_m10; assert_in_epsilon(2.0, worksheet.user_inputs_m10, 0.002); end
-  def test_user_inputs_n10; assert_in_epsilon(2.0, worksheet.user_inputs_n10, 0.002); end
-  def test_user_inputs_o10; assert_in_epsilon(2.0, worksheet.user_inputs_o10, 0.002); end
-  def test_user_inputs_p10; assert_in_epsilon(4.0, worksheet.user_inputs_p10, 0.002); end
-  def test_user_inputs_q10; assert_in_epsilon(3.0, worksheet.user_inputs_q10, 0.002); end
-  def test_user_inputs_r10; assert_in_epsilon(2.0, worksheet.user_inputs_r10, 0.002); end
-  def test_user_inputs_s10; assert_in_delta(1.0, worksheet.user_inputs_s10, 0.002); end
-  def test_user_inputs_t10; assert_in_epsilon(1.5, worksheet.user_inputs_t10, 0.002); end
-  def test_user_inputs_u10; assert_in_epsilon(2.0, worksheet.user_inputs_u10, 0.002); end
-  def test_user_inputs_v10; assert_in_epsilon(2.0, worksheet.user_inputs_v10, 0.002); end
-  def test_user_inputs_w10; assert_in_epsilon(2.0, worksheet.user_inputs_w10, 0.002); end
-  def test_user_inputs_x10; assert_in_epsilon(2.0, worksheet.user_inputs_x10, 0.002); end
-  def test_user_inputs_y10; assert_in_epsilon(2.0, worksheet.user_inputs_y10, 0.002); end
-  def test_user_inputs_z10; assert_in_epsilon(2.0, worksheet.user_inputs_z10, 0.002); end
-  def test_user_inputs_aa10; assert_in_epsilon(2.0, worksheet.user_inputs_aa10, 0.002); end
-  def test_user_inputs_h11; assert_in_epsilon(2.8, worksheet.user_inputs_h11, 0.002); end
-  def test_user_inputs_i11; assert_in_epsilon(2.0, worksheet.user_inputs_i11, 0.002); end
-  def test_user_inputs_j11; assert_in_epsilon(1.9, worksheet.user_inputs_j11, 0.002); end
-  def test_user_inputs_k11; assert_in_epsilon(4.0, worksheet.user_inputs_k11, 0.002); end
-  def test_user_inputs_l11; assert_in_epsilon(1.9, worksheet.user_inputs_l11, 0.002); end
-  def test_user_inputs_m11; assert_in_epsilon(1.9, worksheet.user_inputs_m11, 0.002); end
-  def test_user_inputs_n11; assert_in_epsilon(1.9, worksheet.user_inputs_n11, 0.002); end
-  def test_user_inputs_o11; assert_in_epsilon(1.9, worksheet.user_inputs_o11, 0.002); end
-  def test_user_inputs_p11; assert_in_epsilon(4.0, worksheet.user_inputs_p11, 0.002); end
-  def test_user_inputs_q11; assert_in_epsilon(3.0, worksheet.user_inputs_q11, 0.002); end
-  def test_user_inputs_r11; assert_in_epsilon(2.0, worksheet.user_inputs_r11, 0.002); end
-  def test_user_inputs_s11; assert_in_delta(1.0, worksheet.user_inputs_s11, 0.002); end
-  def test_user_inputs_t11; assert_in_epsilon(3.0, worksheet.user_inputs_t11, 0.002); end
-  def test_user_inputs_u11; assert_in_epsilon(2.8, worksheet.user_inputs_u11, 0.002); end
-  def test_user_inputs_v11; assert_in_epsilon(2.8, worksheet.user_inputs_v11, 0.002); end
-  def test_user_inputs_w11; assert_in_epsilon(2.8, worksheet.user_inputs_w11, 0.002); end
-  def test_user_inputs_x11; assert_in_epsilon(2.8, worksheet.user_inputs_x11, 0.002); end
-  def test_user_inputs_y11; assert_in_epsilon(2.8, worksheet.user_inputs_y11, 0.002); end
-  def test_user_inputs_z11; assert_in_epsilon(2.8, worksheet.user_inputs_z11, 0.002); end
-  def test_user_inputs_aa11; assert_in_epsilon(1.9, worksheet.user_inputs_aa11, 0.002); end
-  def test_user_inputs_h12; assert_in_epsilon(2.8, worksheet.user_inputs_h12, 0.002); end
-  def test_user_inputs_i12; assert_in_epsilon(2.2, worksheet.user_inputs_i12, 0.002); end
-  def test_user_inputs_j12; assert_in_epsilon(2.0, worksheet.user_inputs_j12, 0.002); end
-  def test_user_inputs_k12; assert_in_epsilon(4.0, worksheet.user_inputs_k12, 0.002); end
-  def test_user_inputs_l12; assert_in_epsilon(2.0, worksheet.user_inputs_l12, 0.002); end
-  def test_user_inputs_m12; assert_in_epsilon(2.0, worksheet.user_inputs_m12, 0.002); end
-  def test_user_inputs_n12; assert_in_epsilon(2.0, worksheet.user_inputs_n12, 0.002); end
-  def test_user_inputs_o12; assert_in_epsilon(2.0, worksheet.user_inputs_o12, 0.002); end
-  def test_user_inputs_p12; assert_in_epsilon(4.0, worksheet.user_inputs_p12, 0.002); end
-  def test_user_inputs_q12; assert_in_epsilon(3.0, worksheet.user_inputs_q12, 0.002); end
-  def test_user_inputs_r12; assert_in_epsilon(2.0, worksheet.user_inputs_r12, 0.002); end
-  def test_user_inputs_s12; assert_in_delta(1.0, worksheet.user_inputs_s12, 0.002); end
-  def test_user_inputs_t12; assert_in_epsilon(3.3, worksheet.user_inputs_t12, 0.002); end
-  def test_user_inputs_u12; assert_in_epsilon(2.8, worksheet.user_inputs_u12, 0.002); end
-  def test_user_inputs_v12; assert_in_epsilon(2.8, worksheet.user_inputs_v12, 0.002); end
-  def test_user_inputs_w12; assert_in_epsilon(3.0, worksheet.user_inputs_w12, 0.002); end
-  def test_user_inputs_x12; assert_in_epsilon(3.0, worksheet.user_inputs_x12, 0.002); end
-  def test_user_inputs_y12; assert_in_epsilon(3.0, worksheet.user_inputs_y12, 0.002); end
-  def test_user_inputs_z12; assert_in_epsilon(2.8, worksheet.user_inputs_z12, 0.002); end
-  def test_user_inputs_aa12; assert_in_epsilon(2.0, worksheet.user_inputs_aa12, 0.002); end
-  def test_user_inputs_h13; assert_in_epsilon(2.5, worksheet.user_inputs_h13, 0.002); end
-  def test_user_inputs_i13; assert_in_epsilon(1.2, worksheet.user_inputs_i13, 0.002); end
-  def test_user_inputs_j13; assert_in_delta(1.0, worksheet.user_inputs_j13, 0.002); end
-  def test_user_inputs_k13; assert_in_epsilon(4.0, worksheet.user_inputs_k13, 0.002); end
-  def test_user_inputs_l13; assert_in_delta(1.0, worksheet.user_inputs_l13, 0.002); end
-  def test_user_inputs_m13; assert_in_delta(1.0, worksheet.user_inputs_m13, 0.002); end
-  def test_user_inputs_n13; assert_in_delta(1.0, worksheet.user_inputs_n13, 0.002); end
-  def test_user_inputs_o13; assert_in_delta(1.0, worksheet.user_inputs_o13, 0.002); end
-  def test_user_inputs_p13; assert_in_epsilon(4.0, worksheet.user_inputs_p13, 0.002); end
-  def test_user_inputs_q13; assert_in_epsilon(3.0, worksheet.user_inputs_q13, 0.002); end
-  def test_user_inputs_r13; assert_in_epsilon(2.0, worksheet.user_inputs_r13, 0.002); end
-  def test_user_inputs_s13; assert_in_delta(1.0, worksheet.user_inputs_s13, 0.002); end
-  def test_user_inputs_t13; assert_in_epsilon(3.3, worksheet.user_inputs_t13, 0.002); end
-  def test_user_inputs_u13; assert_in_epsilon(2.5, worksheet.user_inputs_u13, 0.002); end
-  def test_user_inputs_v13; assert_in_delta(1.0, worksheet.user_inputs_v13, 0.002); end
-  def test_user_inputs_w13; assert_in_epsilon(3.0, worksheet.user_inputs_w13, 0.002); end
-  def test_user_inputs_x13; assert_in_epsilon(3.0, worksheet.user_inputs_x13, 0.002); end
-  def test_user_inputs_y13; assert_in_epsilon(3.0, worksheet.user_inputs_y13, 0.002); end
-  def test_user_inputs_z13; assert_in_epsilon(2.5, worksheet.user_inputs_z13, 0.002); end
-  def test_user_inputs_aa13; assert_in_delta(1.0, worksheet.user_inputs_aa13, 0.002); end
-  def test_user_inputs_h14; assert_in_epsilon(2.0, worksheet.user_inputs_h14, 0.002); end
-  def test_user_inputs_i14; assert_in_epsilon(2.0, worksheet.user_inputs_i14, 0.002); end
-  def test_user_inputs_j14; assert_in_epsilon(2.0, worksheet.user_inputs_j14, 0.002); end
-  def test_user_inputs_k14; assert_in_epsilon(2.0, worksheet.user_inputs_k14, 0.002); end
-  def test_user_inputs_l14; assert_in_epsilon(4.0, worksheet.user_inputs_l14, 0.002); end
-  def test_user_inputs_m14; assert_in_epsilon(2.0, worksheet.user_inputs_m14, 0.002); end
-  def test_user_inputs_n14; assert_in_epsilon(2.0, worksheet.user_inputs_n14, 0.002); end
-  def test_user_inputs_o14; assert_in_epsilon(2.0, worksheet.user_inputs_o14, 0.002); end
-  def test_user_inputs_p14; assert_in_epsilon(4.0, worksheet.user_inputs_p14, 0.002); end
-  def test_user_inputs_q14; assert_in_epsilon(3.0, worksheet.user_inputs_q14, 0.002); end
-  def test_user_inputs_r14; assert_in_epsilon(2.0, worksheet.user_inputs_r14, 0.002); end
-  def test_user_inputs_s14; assert_in_delta(1.0, worksheet.user_inputs_s14, 0.002); end
-  def test_user_inputs_t14; assert_in_epsilon(1.5, worksheet.user_inputs_t14, 0.002); end
-  def test_user_inputs_u14; assert_in_epsilon(2.0, worksheet.user_inputs_u14, 0.002); end
-  def test_user_inputs_v14; assert_in_epsilon(2.0, worksheet.user_inputs_v14, 0.002); end
-  def test_user_inputs_w14; assert_in_epsilon(2.0, worksheet.user_inputs_w14, 0.002); end
-  def test_user_inputs_x14; assert_in_epsilon(2.0, worksheet.user_inputs_x14, 0.002); end
-  def test_user_inputs_y14; assert_in_epsilon(2.8, worksheet.user_inputs_y14, 0.002); end
-  def test_user_inputs_z14; assert_in_epsilon(2.0, worksheet.user_inputs_z14, 0.002); end
-  def test_user_inputs_aa14; assert_in_epsilon(2.0, worksheet.user_inputs_aa14, 0.002); end
-  def test_user_inputs_h15; assert_in_epsilon(2.0, worksheet.user_inputs_h15, 0.002); end
-  def test_user_inputs_i15; assert_in_epsilon(2.0, worksheet.user_inputs_i15, 0.002); end
-  def test_user_inputs_j15; assert_in_epsilon(2.0, worksheet.user_inputs_j15, 0.002); end
-  def test_user_inputs_k15; assert_in_epsilon(2.0, worksheet.user_inputs_k15, 0.002); end
-  def test_user_inputs_l15; assert_in_epsilon(4.0, worksheet.user_inputs_l15, 0.002); end
-  def test_user_inputs_m15; assert_in_epsilon(2.0, worksheet.user_inputs_m15, 0.002); end
-  def test_user_inputs_n15; assert_in_epsilon(2.0, worksheet.user_inputs_n15, 0.002); end
-  def test_user_inputs_o15; assert_in_epsilon(2.0, worksheet.user_inputs_o15, 0.002); end
-  def test_user_inputs_p15; assert_in_epsilon(4.0, worksheet.user_inputs_p15, 0.002); end
-  def test_user_inputs_q15; assert_in_epsilon(3.0, worksheet.user_inputs_q15, 0.002); end
-  def test_user_inputs_r15; assert_in_epsilon(2.0, worksheet.user_inputs_r15, 0.002); end
-  def test_user_inputs_s15; assert_in_delta(1.0, worksheet.user_inputs_s15, 0.002); end
-  def test_user_inputs_t15; assert_in_epsilon(1.5, worksheet.user_inputs_t15, 0.002); end
-  def test_user_inputs_u15; assert_in_epsilon(2.0, worksheet.user_inputs_u15, 0.002); end
-  def test_user_inputs_v15; assert_in_epsilon(2.0, worksheet.user_inputs_v15, 0.002); end
-  def test_user_inputs_w15; assert_in_epsilon(2.0, worksheet.user_inputs_w15, 0.002); end
-  def test_user_inputs_x15; assert_in_epsilon(2.0, worksheet.user_inputs_x15, 0.002); end
-  def test_user_inputs_y15; assert_in_epsilon(2.0, worksheet.user_inputs_y15, 0.002); end
-  def test_user_inputs_z15; assert_in_epsilon(2.0, worksheet.user_inputs_z15, 0.002); end
-  def test_user_inputs_aa15; assert_in_epsilon(2.0, worksheet.user_inputs_aa15, 0.002); end
-  def test_user_inputs_h16; assert_in_epsilon(2.0, worksheet.user_inputs_h16, 0.002); end
-  def test_user_inputs_i16; assert_in_epsilon(2.0, worksheet.user_inputs_i16, 0.002); end
-  def test_user_inputs_j16; assert_in_epsilon(2.0, worksheet.user_inputs_j16, 0.002); end
-  def test_user_inputs_k16; assert_in_epsilon(2.0, worksheet.user_inputs_k16, 0.002); end
-  def test_user_inputs_l16; assert_in_epsilon(4.0, worksheet.user_inputs_l16, 0.002); end
-  def test_user_inputs_m16; assert_in_epsilon(2.0, worksheet.user_inputs_m16, 0.002); end
-  def test_user_inputs_n16; assert_in_epsilon(2.0, worksheet.user_inputs_n16, 0.002); end
-  def test_user_inputs_o16; assert_in_epsilon(2.0, worksheet.user_inputs_o16, 0.002); end
-  def test_user_inputs_p16; assert_in_epsilon(4.0, worksheet.user_inputs_p16, 0.002); end
-  def test_user_inputs_q16; assert_in_epsilon(3.0, worksheet.user_inputs_q16, 0.002); end
-  def test_user_inputs_r16; assert_in_epsilon(2.0, worksheet.user_inputs_r16, 0.002); end
-  def test_user_inputs_s16; assert_in_delta(1.0, worksheet.user_inputs_s16, 0.002); end
-  def test_user_inputs_t16; assert_in_epsilon(1.5, worksheet.user_inputs_t16, 0.002); end
-  def test_user_inputs_u16; assert_in_epsilon(2.0, worksheet.user_inputs_u16, 0.002); end
-  def test_user_inputs_v16; assert_in_epsilon(2.0, worksheet.user_inputs_v16, 0.002); end
-  def test_user_inputs_w16; assert_in_epsilon(2.0, worksheet.user_inputs_w16, 0.002); end
-  def test_user_inputs_x16; assert_in_epsilon(2.0, worksheet.user_inputs_x16, 0.002); end
-  def test_user_inputs_y16; assert_in_epsilon(2.0, worksheet.user_inputs_y16, 0.002); end
-  def test_user_inputs_z16; assert_in_epsilon(2.0, worksheet.user_inputs_z16, 0.002); end
-  def test_user_inputs_aa16; assert_in_epsilon(2.0, worksheet.user_inputs_aa16, 0.002); end
-  def test_user_inputs_h17; assert_in_epsilon(2.8, worksheet.user_inputs_h17, 0.002); end
-  def test_user_inputs_i17; assert_in_epsilon(1.9, worksheet.user_inputs_i17, 0.002); end
-  def test_user_inputs_j17; assert_in_epsilon(1.6, worksheet.user_inputs_j17, 0.002); end
-  def test_user_inputs_k17; assert_in_epsilon(1.6, worksheet.user_inputs_k17, 0.002); end
-  def test_user_inputs_l17; assert_in_epsilon(4.0, worksheet.user_inputs_l17, 0.002); end
-  def test_user_inputs_m17; assert_in_epsilon(1.6, worksheet.user_inputs_m17, 0.002); end
-  def test_user_inputs_n17; assert_in_epsilon(1.6, worksheet.user_inputs_n17, 0.002); end
-  def test_user_inputs_o17; assert_in_epsilon(1.6, worksheet.user_inputs_o17, 0.002); end
-  def test_user_inputs_p17; assert_in_epsilon(4.0, worksheet.user_inputs_p17, 0.002); end
-  def test_user_inputs_q17; assert_in_epsilon(3.0, worksheet.user_inputs_q17, 0.002); end
-  def test_user_inputs_r17; assert_in_epsilon(2.0, worksheet.user_inputs_r17, 0.002); end
-  def test_user_inputs_s17; assert_in_delta(1.0, worksheet.user_inputs_s17, 0.002); end
-  def test_user_inputs_t17; assert_in_epsilon(3.3, worksheet.user_inputs_t17, 0.002); end
-  def test_user_inputs_u17; assert_in_epsilon(2.8, worksheet.user_inputs_u17, 0.002); end
-  def test_user_inputs_v17; assert_in_epsilon(2.8, worksheet.user_inputs_v17, 0.002); end
-  def test_user_inputs_w17; assert_in_epsilon(3.0, worksheet.user_inputs_w17, 0.002); end
-  def test_user_inputs_x17; assert_in_epsilon(2.9, worksheet.user_inputs_x17, 0.002); end
-  def test_user_inputs_y17; assert_in_epsilon(3.0, worksheet.user_inputs_y17, 0.002); end
-  def test_user_inputs_z17; assert_in_epsilon(2.8, worksheet.user_inputs_z17, 0.002); end
-  def test_user_inputs_aa17; assert_in_epsilon(1.6, worksheet.user_inputs_aa17, 0.002); end
-  def test_user_inputs_h18; assert_in_epsilon(3.0, worksheet.user_inputs_h18, 0.002); end
-  def test_user_inputs_i18; assert_in_epsilon(1.8, worksheet.user_inputs_i18, 0.002); end
-  def test_user_inputs_j18; assert_in_epsilon(1.5, worksheet.user_inputs_j18, 0.002); end
-  def test_user_inputs_k18; assert_in_epsilon(1.5, worksheet.user_inputs_k18, 0.002); end
-  def test_user_inputs_l18; assert_in_epsilon(4.0, worksheet.user_inputs_l18, 0.002); end
-  def test_user_inputs_m18; assert_in_epsilon(1.5, worksheet.user_inputs_m18, 0.002); end
-  def test_user_inputs_n18; assert_in_epsilon(1.5, worksheet.user_inputs_n18, 0.002); end
-  def test_user_inputs_o18; assert_in_epsilon(1.5, worksheet.user_inputs_o18, 0.002); end
-  def test_user_inputs_p18; assert_in_epsilon(4.0, worksheet.user_inputs_p18, 0.002); end
-  def test_user_inputs_q18; assert_in_epsilon(3.0, worksheet.user_inputs_q18, 0.002); end
-  def test_user_inputs_r18; assert_in_epsilon(2.0, worksheet.user_inputs_r18, 0.002); end
-  def test_user_inputs_s18; assert_in_delta(1.0, worksheet.user_inputs_s18, 0.002); end
-  def test_user_inputs_t18; assert_in_epsilon(3.3, worksheet.user_inputs_t18, 0.002); end
-  def test_user_inputs_u18; assert_in_epsilon(3.0, worksheet.user_inputs_u18, 0.002); end
-  def test_user_inputs_v18; assert_in_epsilon(1.5, worksheet.user_inputs_v18, 0.002); end
-  def test_user_inputs_w18; assert_in_epsilon(3.0, worksheet.user_inputs_w18, 0.002); end
-  def test_user_inputs_x18; assert_in_epsilon(3.0, worksheet.user_inputs_x18, 0.002); end
-  def test_user_inputs_y18; assert_in_epsilon(3.0, worksheet.user_inputs_y18, 0.002); end
-  def test_user_inputs_z18; assert_in_epsilon(3.0, worksheet.user_inputs_z18, 0.002); end
-  def test_user_inputs_aa18; assert_in_epsilon(1.5, worksheet.user_inputs_aa18, 0.002); end
-  def test_user_inputs_h19; assert_in_epsilon(3.0, worksheet.user_inputs_h19, 0.002); end
-  def test_user_inputs_i19; assert_in_epsilon(2.5, worksheet.user_inputs_i19, 0.002); end
-  def test_user_inputs_j19; assert_in_epsilon(1.6, worksheet.user_inputs_j19, 0.002); end
-  def test_user_inputs_k19; assert_in_epsilon(1.6, worksheet.user_inputs_k19, 0.002); end
-  def test_user_inputs_l19; assert_in_epsilon(4.0, worksheet.user_inputs_l19, 0.002); end
-  def test_user_inputs_m19; assert_in_epsilon(1.6, worksheet.user_inputs_m19, 0.002); end
-  def test_user_inputs_n19; assert_in_epsilon(1.6, worksheet.user_inputs_n19, 0.002); end
-  def test_user_inputs_o19; assert_in_epsilon(1.6, worksheet.user_inputs_o19, 0.002); end
-  def test_user_inputs_p19; assert_in_epsilon(4.0, worksheet.user_inputs_p19, 0.002); end
-  def test_user_inputs_q19; assert_in_epsilon(3.0, worksheet.user_inputs_q19, 0.002); end
-  def test_user_inputs_r19; assert_in_epsilon(2.0, worksheet.user_inputs_r19, 0.002); end
-  def test_user_inputs_s19; assert_in_delta(1.0, worksheet.user_inputs_s19, 0.002); end
-  def test_user_inputs_t19; assert_in_epsilon(3.3, worksheet.user_inputs_t19, 0.002); end
-  def test_user_inputs_u19; assert_in_epsilon(3.0, worksheet.user_inputs_u19, 0.002); end
-  def test_user_inputs_v19; assert_in_epsilon(3.0, worksheet.user_inputs_v19, 0.002); end
-  def test_user_inputs_w19; assert_in_epsilon(3.0, worksheet.user_inputs_w19, 0.002); end
-  def test_user_inputs_x19; assert_in_epsilon(3.0, worksheet.user_inputs_x19, 0.002); end
-  def test_user_inputs_y19; assert_in_epsilon(3.0, worksheet.user_inputs_y19, 0.002); end
-  def test_user_inputs_z19; assert_in_epsilon(3.0, worksheet.user_inputs_z19, 0.002); end
-  def test_user_inputs_aa19; assert_in_epsilon(1.6, worksheet.user_inputs_aa19, 0.002); end
-  def test_user_inputs_h20; assert_in_epsilon(1.7, worksheet.user_inputs_h20, 0.002); end
-  def test_user_inputs_i20; assert_in_epsilon(1.5, worksheet.user_inputs_i20, 0.002); end
-  def test_user_inputs_j20; assert_in_epsilon(1.4, worksheet.user_inputs_j20, 0.002); end
-  def test_user_inputs_k20; assert_in_epsilon(1.4, worksheet.user_inputs_k20, 0.002); end
-  def test_user_inputs_l20; assert_in_epsilon(1.4, worksheet.user_inputs_l20, 0.002); end
-  def test_user_inputs_m20; assert_in_epsilon(4.0, worksheet.user_inputs_m20, 0.002); end
-  def test_user_inputs_n20; assert_in_epsilon(1.4, worksheet.user_inputs_n20, 0.002); end
-  def test_user_inputs_o20; assert_in_epsilon(1.4, worksheet.user_inputs_o20, 0.002); end
-  def test_user_inputs_p20; assert_in_epsilon(4.0, worksheet.user_inputs_p20, 0.002); end
-  def test_user_inputs_q20; assert_in_epsilon(3.0, worksheet.user_inputs_q20, 0.002); end
-  def test_user_inputs_r20; assert_in_epsilon(2.0, worksheet.user_inputs_r20, 0.002); end
-  def test_user_inputs_s20; assert_in_delta(1.0, worksheet.user_inputs_s20, 0.002); end
-  def test_user_inputs_t20; assert_in_epsilon(1.5, worksheet.user_inputs_t20, 0.002); end
-  def test_user_inputs_u20; assert_in_epsilon(1.7, worksheet.user_inputs_u20, 0.002); end
-  def test_user_inputs_v20; assert_in_epsilon(1.7, worksheet.user_inputs_v20, 0.002); end
-  def test_user_inputs_w20; assert_in_epsilon(1.7, worksheet.user_inputs_w20, 0.002); end
-  def test_user_inputs_x20; assert_in_epsilon(1.7, worksheet.user_inputs_x20, 0.002); end
-  def test_user_inputs_y20; assert_in_epsilon(1.7, worksheet.user_inputs_y20, 0.002); end
-  def test_user_inputs_z20; assert_in_epsilon(1.7, worksheet.user_inputs_z20, 0.002); end
-  def test_user_inputs_aa20; assert_in_epsilon(1.4, worksheet.user_inputs_aa20, 0.002); end
-  def test_user_inputs_h21; assert_in_epsilon(1.7, worksheet.user_inputs_h21, 0.002); end
-  def test_user_inputs_i21; assert_in_epsilon(1.4, worksheet.user_inputs_i21, 0.002); end
-  def test_user_inputs_j21; assert_in_epsilon(1.1, worksheet.user_inputs_j21, 0.002); end
-  def test_user_inputs_k21; assert_in_epsilon(1.1, worksheet.user_inputs_k21, 0.002); end
-  def test_user_inputs_l21; assert_in_epsilon(1.1, worksheet.user_inputs_l21, 0.002); end
-  def test_user_inputs_m21; assert_in_epsilon(4.0, worksheet.user_inputs_m21, 0.002); end
-  def test_user_inputs_n21; assert_in_epsilon(1.1, worksheet.user_inputs_n21, 0.002); end
-  def test_user_inputs_o21; assert_in_epsilon(1.1, worksheet.user_inputs_o21, 0.002); end
-  def test_user_inputs_p21; assert_in_epsilon(4.0, worksheet.user_inputs_p21, 0.002); end
-  def test_user_inputs_q21; assert_in_epsilon(3.0, worksheet.user_inputs_q21, 0.002); end
-  def test_user_inputs_r21; assert_in_epsilon(2.0, worksheet.user_inputs_r21, 0.002); end
-  def test_user_inputs_s21; assert_in_delta(1.0, worksheet.user_inputs_s21, 0.002); end
-  def test_user_inputs_t21; assert_in_epsilon(1.5, worksheet.user_inputs_t21, 0.002); end
-  def test_user_inputs_u21; assert_in_epsilon(1.7, worksheet.user_inputs_u21, 0.002); end
-  def test_user_inputs_v21; assert_in_epsilon(2.6, worksheet.user_inputs_v21, 0.002); end
-  def test_user_inputs_w21; assert_in_epsilon(2.3, worksheet.user_inputs_w21, 0.002); end
-  def test_user_inputs_x21; assert_in_epsilon(1.8, worksheet.user_inputs_x21, 0.002); end
-  def test_user_inputs_y21; assert_in_epsilon(3.0, worksheet.user_inputs_y21, 0.002); end
-  def test_user_inputs_z21; assert_in_epsilon(1.7, worksheet.user_inputs_z21, 0.002); end
-  def test_user_inputs_aa21; assert_in_epsilon(1.1, worksheet.user_inputs_aa21, 0.002); end
-  def test_user_inputs_h22; assert_in_epsilon(2.9, worksheet.user_inputs_h22, 0.002); end
-  def test_user_inputs_i22; assert_in_epsilon(1.6, worksheet.user_inputs_i22, 0.002); end
-  def test_user_inputs_j22; assert_in_epsilon(1.6, worksheet.user_inputs_j22, 0.002); end
-  def test_user_inputs_k22; assert_in_epsilon(1.6, worksheet.user_inputs_k22, 0.002); end
-  def test_user_inputs_l22; assert_in_epsilon(1.6, worksheet.user_inputs_l22, 0.002); end
-  def test_user_inputs_m22; assert_in_epsilon(4.0, worksheet.user_inputs_m22, 0.002); end
-  def test_user_inputs_n22; assert_in_epsilon(1.6, worksheet.user_inputs_n22, 0.002); end
-  def test_user_inputs_o22; assert_in_epsilon(1.6, worksheet.user_inputs_o22, 0.002); end
-  def test_user_inputs_p22; assert_in_epsilon(4.0, worksheet.user_inputs_p22, 0.002); end
-  def test_user_inputs_q22; assert_in_epsilon(3.0, worksheet.user_inputs_q22, 0.002); end
-  def test_user_inputs_r22; assert_in_epsilon(2.0, worksheet.user_inputs_r22, 0.002); end
-  def test_user_inputs_s22; assert_in_delta(1.0, worksheet.user_inputs_s22, 0.002); end
-  def test_user_inputs_t22; assert_in_epsilon(3.0, worksheet.user_inputs_t22, 0.002); end
-  def test_user_inputs_u22; assert_in_epsilon(2.9, worksheet.user_inputs_u22, 0.002); end
-  def test_user_inputs_v22; assert_in_epsilon(2.0, worksheet.user_inputs_v22, 0.002); end
-  def test_user_inputs_w22; assert_in_epsilon(2.3, worksheet.user_inputs_w22, 0.002); end
-  def test_user_inputs_x22; assert_in_epsilon(2.9, worksheet.user_inputs_x22, 0.002); end
-  def test_user_inputs_y22; assert_in_epsilon(3.0, worksheet.user_inputs_y22, 0.002); end
-  def test_user_inputs_z22; assert_in_epsilon(2.9, worksheet.user_inputs_z22, 0.002); end
-  def test_user_inputs_aa22; assert_in_epsilon(1.6, worksheet.user_inputs_aa22, 0.002); end
-  def test_user_inputs_h23; assert_in_epsilon(2.4, worksheet.user_inputs_h23, 0.002); end
-  def test_user_inputs_i23; assert_in_delta(1.0, worksheet.user_inputs_i23, 0.002); end
-  def test_user_inputs_j23; assert_in_delta(1.0, worksheet.user_inputs_j23, 0.002); end
-  def test_user_inputs_k23; assert_in_delta(1.0, worksheet.user_inputs_k23, 0.002); end
-  def test_user_inputs_l23; assert_in_delta(1.0, worksheet.user_inputs_l23, 0.002); end
-  def test_user_inputs_m23; assert_in_epsilon(4.0, worksheet.user_inputs_m23, 0.002); end
-  def test_user_inputs_n23; assert_in_delta(1.0, worksheet.user_inputs_n23, 0.002); end
-  def test_user_inputs_o23; assert_in_delta(1.0, worksheet.user_inputs_o23, 0.002); end
-  def test_user_inputs_p23; assert_in_epsilon(4.0, worksheet.user_inputs_p23, 0.002); end
-  def test_user_inputs_q23; assert_in_epsilon(3.0, worksheet.user_inputs_q23, 0.002); end
-  def test_user_inputs_r23; assert_in_epsilon(2.0, worksheet.user_inputs_r23, 0.002); end
-  def test_user_inputs_s23; assert_in_delta(1.0, worksheet.user_inputs_s23, 0.002); end
-  def test_user_inputs_t23; assert_in_epsilon(3.0, worksheet.user_inputs_t23, 0.002); end
-  def test_user_inputs_u23; assert_in_epsilon(2.4, worksheet.user_inputs_u23, 0.002); end
-  def test_user_inputs_v23; assert_in_epsilon(2.0, worksheet.user_inputs_v23, 0.002); end
-  def test_user_inputs_w23; assert_in_epsilon(2.3, worksheet.user_inputs_w23, 0.002); end
-  def test_user_inputs_x23; assert_in_epsilon(3.0, worksheet.user_inputs_x23, 0.002); end
-  def test_user_inputs_y23; assert_in_epsilon(3.0, worksheet.user_inputs_y23, 0.002); end
-  def test_user_inputs_z23; assert_in_epsilon(2.4, worksheet.user_inputs_z23, 0.002); end
-  def test_user_inputs_aa23; assert_in_delta(1.0, worksheet.user_inputs_aa23, 0.002); end
-  def test_user_inputs_h24; assert_in_epsilon(2.9, worksheet.user_inputs_h24, 0.002); end
-  def test_user_inputs_i24; assert_in_epsilon(2.6, worksheet.user_inputs_i24, 0.002); end
-  def test_user_inputs_j24; assert_in_epsilon(1.9, worksheet.user_inputs_j24, 0.002); end
-  def test_user_inputs_k24; assert_in_epsilon(1.9, worksheet.user_inputs_k24, 0.002); end
-  def test_user_inputs_l24; assert_in_epsilon(1.9, worksheet.user_inputs_l24, 0.002); end
-  def test_user_inputs_m24; assert_in_epsilon(4.0, worksheet.user_inputs_m24, 0.002); end
-  def test_user_inputs_n24; assert_in_epsilon(1.9, worksheet.user_inputs_n24, 0.002); end
-  def test_user_inputs_o24; assert_in_epsilon(1.9, worksheet.user_inputs_o24, 0.002); end
-  def test_user_inputs_p24; assert_in_epsilon(4.0, worksheet.user_inputs_p24, 0.002); end
-  def test_user_inputs_q24; assert_in_epsilon(3.0, worksheet.user_inputs_q24, 0.002); end
-  def test_user_inputs_r24; assert_in_epsilon(2.0, worksheet.user_inputs_r24, 0.002); end
-  def test_user_inputs_s24; assert_in_delta(1.0, worksheet.user_inputs_s24, 0.002); end
-  def test_user_inputs_t24; assert_in_epsilon(3.0, worksheet.user_inputs_t24, 0.002); end
-  def test_user_inputs_u24; assert_in_epsilon(2.9, worksheet.user_inputs_u24, 0.002); end
-  def test_user_inputs_v24; assert_in_epsilon(2.0, worksheet.user_inputs_v24, 0.002); end
-  def test_user_inputs_w24; assert_in_epsilon(2.3, worksheet.user_inputs_w24, 0.002); end
-  def test_user_inputs_x24; assert_in_epsilon(2.9, worksheet.user_inputs_x24, 0.002); end
-  def test_user_inputs_y24; assert_in_epsilon(3.0, worksheet.user_inputs_y24, 0.002); end
-  def test_user_inputs_z24; assert_in_epsilon(2.9, worksheet.user_inputs_z24, 0.002); end
-  def test_user_inputs_aa24; assert_in_epsilon(1.9, worksheet.user_inputs_aa24, 0.002); end
-  def test_user_inputs_h25; assert_in_epsilon(3.0, worksheet.user_inputs_h25, 0.002); end
-  def test_user_inputs_i25; assert_in_epsilon(2.7, worksheet.user_inputs_i25, 0.002); end
-  def test_user_inputs_j25; assert_in_epsilon(1.6, worksheet.user_inputs_j25, 0.002); end
-  def test_user_inputs_k25; assert_in_epsilon(1.6, worksheet.user_inputs_k25, 0.002); end
-  def test_user_inputs_l25; assert_in_epsilon(1.6, worksheet.user_inputs_l25, 0.002); end
-  def test_user_inputs_m25; assert_in_epsilon(4.0, worksheet.user_inputs_m25, 0.002); end
-  def test_user_inputs_n25; assert_in_epsilon(1.6, worksheet.user_inputs_n25, 0.002); end
-  def test_user_inputs_o25; assert_in_epsilon(1.6, worksheet.user_inputs_o25, 0.002); end
-  def test_user_inputs_p25; assert_in_epsilon(4.0, worksheet.user_inputs_p25, 0.002); end
-  def test_user_inputs_q25; assert_in_epsilon(3.0, worksheet.user_inputs_q25, 0.002); end
-  def test_user_inputs_r25; assert_in_epsilon(2.0, worksheet.user_inputs_r25, 0.002); end
-  def test_user_inputs_s25; assert_in_delta(1.0, worksheet.user_inputs_s25, 0.002); end
-  def test_user_inputs_t25; assert_in_epsilon(3.0, worksheet.user_inputs_t25, 0.002); end
-  def test_user_inputs_u25; assert_in_epsilon(3.0, worksheet.user_inputs_u25, 0.002); end
-  def test_user_inputs_v25; assert_in_epsilon(2.0, worksheet.user_inputs_v25, 0.002); end
-  def test_user_inputs_w25; assert_in_epsilon(2.3, worksheet.user_inputs_w25, 0.002); end
-  def test_user_inputs_x25; assert_in_epsilon(3.0, worksheet.user_inputs_x25, 0.002); end
-  def test_user_inputs_y25; assert_in_epsilon(3.0, worksheet.user_inputs_y25, 0.002); end
-  def test_user_inputs_z25; assert_in_epsilon(3.0, worksheet.user_inputs_z25, 0.002); end
-  def test_user_inputs_aa25; assert_in_epsilon(1.6, worksheet.user_inputs_aa25, 0.002); end
-  def test_user_inputs_h26; assert_in_epsilon(2.7, worksheet.user_inputs_h26, 0.002); end
-  def test_user_inputs_i26; assert_in_epsilon(2.0, worksheet.user_inputs_i26, 0.002); end
-  def test_user_inputs_j26; assert_in_epsilon(1.5, worksheet.user_inputs_j26, 0.002); end
-  def test_user_inputs_k26; assert_in_epsilon(1.5, worksheet.user_inputs_k26, 0.002); end
-  def test_user_inputs_l26; assert_in_epsilon(1.5, worksheet.user_inputs_l26, 0.002); end
-  def test_user_inputs_m26; assert_in_epsilon(4.0, worksheet.user_inputs_m26, 0.002); end
-  def test_user_inputs_n26; assert_in_epsilon(1.5, worksheet.user_inputs_n26, 0.002); end
-  def test_user_inputs_o26; assert_in_epsilon(1.5, worksheet.user_inputs_o26, 0.002); end
-  def test_user_inputs_p26; assert_in_epsilon(4.0, worksheet.user_inputs_p26, 0.002); end
-  def test_user_inputs_q26; assert_in_epsilon(3.0, worksheet.user_inputs_q26, 0.002); end
-  def test_user_inputs_r26; assert_in_epsilon(2.0, worksheet.user_inputs_r26, 0.002); end
-  def test_user_inputs_s26; assert_in_delta(1.0, worksheet.user_inputs_s26, 0.002); end
-  def test_user_inputs_t26; assert_in_epsilon(2.7, worksheet.user_inputs_t26, 0.002); end
-  def test_user_inputs_u26; assert_in_epsilon(2.7, worksheet.user_inputs_u26, 0.002); end
-  def test_user_inputs_v26; assert_in_epsilon(3.0, worksheet.user_inputs_v26, 0.002); end
-  def test_user_inputs_w26; assert_in_delta(1.0, worksheet.user_inputs_w26, 0.002); end
-  def test_user_inputs_x26; assert_in_epsilon(3.0, worksheet.user_inputs_x26, 0.002); end
-  def test_user_inputs_y26; assert_in_epsilon(3.0, worksheet.user_inputs_y26, 0.002); end
-  def test_user_inputs_z26; assert_in_epsilon(2.7, worksheet.user_inputs_z26, 0.002); end
-  def test_user_inputs_aa26; assert_in_delta(1.0, worksheet.user_inputs_aa26, 0.002); end
-  def test_user_inputs_h27; assert_in_epsilon(2.1, worksheet.user_inputs_h27, 0.002); end
-  def test_user_inputs_i27; assert_in_epsilon(2.0, worksheet.user_inputs_i27, 0.002); end
-  def test_user_inputs_j27; assert_in_epsilon(1.7, worksheet.user_inputs_j27, 0.002); end
-  def test_user_inputs_k27; assert_in_epsilon(1.7, worksheet.user_inputs_k27, 0.002); end
-  def test_user_inputs_l27; assert_in_epsilon(1.7, worksheet.user_inputs_l27, 0.002); end
-  def test_user_inputs_m27; assert_in_epsilon(1.7, worksheet.user_inputs_m27, 0.002); end
-  def test_user_inputs_n27; assert_in_epsilon(4.0, worksheet.user_inputs_n27, 0.002); end
-  def test_user_inputs_o27; assert_in_epsilon(1.7, worksheet.user_inputs_o27, 0.002); end
-  def test_user_inputs_p27; assert_in_epsilon(4.0, worksheet.user_inputs_p27, 0.002); end
-  def test_user_inputs_q27; assert_in_epsilon(3.0, worksheet.user_inputs_q27, 0.002); end
-  def test_user_inputs_r27; assert_in_epsilon(2.0, worksheet.user_inputs_r27, 0.002); end
-  def test_user_inputs_s27; assert_in_delta(1.0, worksheet.user_inputs_s27, 0.002); end
-  def test_user_inputs_t27; assert_in_epsilon(3.3, worksheet.user_inputs_t27, 0.002); end
-  def test_user_inputs_u27; assert_in_epsilon(2.1, worksheet.user_inputs_u27, 0.002); end
-  def test_user_inputs_v27; assert_in_epsilon(2.1, worksheet.user_inputs_v27, 0.002); end
-  def test_user_inputs_w27; assert_in_epsilon(3.0, worksheet.user_inputs_w27, 0.002); end
-  def test_user_inputs_x27; assert_in_epsilon(3.0, worksheet.user_inputs_x27, 0.002); end
-  def test_user_inputs_y27; assert_in_epsilon(3.0, worksheet.user_inputs_y27, 0.002); end
-  def test_user_inputs_z27; assert_in_epsilon(2.1, worksheet.user_inputs_z27, 0.002); end
-  def test_user_inputs_aa27; assert_in_epsilon(1.7, worksheet.user_inputs_aa27, 0.002); end
-  def test_user_inputs_h28; assert_in_epsilon(3.3, worksheet.user_inputs_h28, 0.002); end
-  def test_user_inputs_i28; assert_in_epsilon(2.4, worksheet.user_inputs_i28, 0.002); end
-  def test_user_inputs_j28; assert_in_epsilon(2.3, worksheet.user_inputs_j28, 0.002); end
-  def test_user_inputs_k28; assert_in_epsilon(2.3, worksheet.user_inputs_k28, 0.002); end
-  def test_user_inputs_l28; assert_in_epsilon(2.3, worksheet.user_inputs_l28, 0.002); end
-  def test_user_inputs_m28; assert_in_epsilon(2.3, worksheet.user_inputs_m28, 0.002); end
-  def test_user_inputs_n28; assert_in_epsilon(4.0, worksheet.user_inputs_n28, 0.002); end
-  def test_user_inputs_o28; assert_in_epsilon(2.3, worksheet.user_inputs_o28, 0.002); end
-  def test_user_inputs_p28; assert_in_epsilon(4.0, worksheet.user_inputs_p28, 0.002); end
-  def test_user_inputs_q28; assert_in_epsilon(3.0, worksheet.user_inputs_q28, 0.002); end
-  def test_user_inputs_r28; assert_in_epsilon(2.0, worksheet.user_inputs_r28, 0.002); end
-  def test_user_inputs_s28; assert_in_delta(1.0, worksheet.user_inputs_s28, 0.002); end
-  def test_user_inputs_t28; assert_in_epsilon(3.0, worksheet.user_inputs_t28, 0.002); end
-  def test_user_inputs_u28; assert_in_epsilon(3.3, worksheet.user_inputs_u28, 0.002); end
-  def test_user_inputs_v28; assert_in_epsilon(3.3, worksheet.user_inputs_v28, 0.002); end
-  def test_user_inputs_w28; assert_in_epsilon(3.0, worksheet.user_inputs_w28, 0.002); end
-  def test_user_inputs_x28; assert_in_epsilon(3.3, worksheet.user_inputs_x28, 0.002); end
-  def test_user_inputs_y28; assert_in_epsilon(3.0, worksheet.user_inputs_y28, 0.002); end
-  def test_user_inputs_z28; assert_in_epsilon(3.3, worksheet.user_inputs_z28, 0.002); end
-  def test_user_inputs_aa28; assert_in_epsilon(2.3, worksheet.user_inputs_aa28, 0.002); end
-  def test_user_inputs_h29; assert_in_epsilon(2.7, worksheet.user_inputs_h29, 0.002); end
-  def test_user_inputs_i29; assert_in_epsilon(2.0, worksheet.user_inputs_i29, 0.002); end
-  def test_user_inputs_j29; assert_in_epsilon(1.5, worksheet.user_inputs_j29, 0.002); end
-  def test_user_inputs_k29; assert_in_epsilon(1.5, worksheet.user_inputs_k29, 0.002); end
-  def test_user_inputs_l29; assert_in_epsilon(1.5, worksheet.user_inputs_l29, 0.002); end
-  def test_user_inputs_m29; assert_in_epsilon(1.5, worksheet.user_inputs_m29, 0.002); end
-  def test_user_inputs_n29; assert_in_epsilon(4.0, worksheet.user_inputs_n29, 0.002); end
-  def test_user_inputs_o29; assert_in_epsilon(1.5, worksheet.user_inputs_o29, 0.002); end
-  def test_user_inputs_p29; assert_in_epsilon(4.0, worksheet.user_inputs_p29, 0.002); end
-  def test_user_inputs_q29; assert_in_epsilon(3.0, worksheet.user_inputs_q29, 0.002); end
-  def test_user_inputs_r29; assert_in_epsilon(2.0, worksheet.user_inputs_r29, 0.002); end
-  def test_user_inputs_s29; assert_in_delta(1.0, worksheet.user_inputs_s29, 0.002); end
-  def test_user_inputs_t29; assert_in_epsilon(2.7, worksheet.user_inputs_t29, 0.002); end
-  def test_user_inputs_u29; assert_in_epsilon(2.7, worksheet.user_inputs_u29, 0.002); end
-  def test_user_inputs_v29; assert_in_epsilon(3.0, worksheet.user_inputs_v29, 0.002); end
-  def test_user_inputs_w29; assert_in_delta(1.0, worksheet.user_inputs_w29, 0.002); end
-  def test_user_inputs_x29; assert_in_epsilon(3.0, worksheet.user_inputs_x29, 0.002); end
-  def test_user_inputs_y29; assert_in_epsilon(3.0, worksheet.user_inputs_y29, 0.002); end
-  def test_user_inputs_z29; assert_in_epsilon(2.7, worksheet.user_inputs_z29, 0.002); end
-  def test_user_inputs_aa29; assert_in_epsilon(1.2, worksheet.user_inputs_aa29, 0.002); end
-  def test_user_inputs_h30; assert_in_epsilon(3.1, worksheet.user_inputs_h30, 0.002); end
-  def test_user_inputs_i30; assert_in_epsilon(2.3, worksheet.user_inputs_i30, 0.002); end
-  def test_user_inputs_j30; assert_in_epsilon(1.9, worksheet.user_inputs_j30, 0.002); end
-  def test_user_inputs_k30; assert_in_epsilon(1.9, worksheet.user_inputs_k30, 0.002); end
-  def test_user_inputs_l30; assert_in_epsilon(1.9, worksheet.user_inputs_l30, 0.002); end
-  def test_user_inputs_m30; assert_in_epsilon(1.9, worksheet.user_inputs_m30, 0.002); end
-  def test_user_inputs_n30; assert_in_epsilon(4.0, worksheet.user_inputs_n30, 0.002); end
-  def test_user_inputs_o30; assert_in_epsilon(1.9, worksheet.user_inputs_o30, 0.002); end
-  def test_user_inputs_p30; assert_in_epsilon(4.0, worksheet.user_inputs_p30, 0.002); end
-  def test_user_inputs_q30; assert_in_epsilon(3.0, worksheet.user_inputs_q30, 0.002); end
-  def test_user_inputs_r30; assert_in_epsilon(2.0, worksheet.user_inputs_r30, 0.002); end
-  def test_user_inputs_s30; assert_in_delta(1.0, worksheet.user_inputs_s30, 0.002); end
-  def test_user_inputs_t30; assert_in_epsilon(3.1, worksheet.user_inputs_t30, 0.002); end
-  def test_user_inputs_u30; assert_in_epsilon(3.1, worksheet.user_inputs_u30, 0.002); end
-  def test_user_inputs_v30; assert_in_epsilon(2.0, worksheet.user_inputs_v30, 0.002); end
-  def test_user_inputs_w30; assert_in_epsilon(3.0, worksheet.user_inputs_w30, 0.002); end
-  def test_user_inputs_x30; assert_in_delta(1.0, worksheet.user_inputs_x30, 0.002); end
-  def test_user_inputs_y30; assert_in_epsilon(3.0, worksheet.user_inputs_y30, 0.002); end
-  def test_user_inputs_z30; assert_in_epsilon(3.1, worksheet.user_inputs_z30, 0.002); end
-  def test_user_inputs_aa30; assert_in_epsilon(1.9, worksheet.user_inputs_aa30, 0.002); end
-  def test_user_inputs_h31; assert_in_epsilon(2.4, worksheet.user_inputs_h31, 0.002); end
-  def test_user_inputs_i31; assert_in_epsilon(2.0, worksheet.user_inputs_i31, 0.002); end
-  def test_user_inputs_j31; assert_in_epsilon(1.6, worksheet.user_inputs_j31, 0.002); end
-  def test_user_inputs_k31; assert_in_epsilon(1.6, worksheet.user_inputs_k31, 0.002); end
-  def test_user_inputs_l31; assert_in_epsilon(1.6, worksheet.user_inputs_l31, 0.002); end
-  def test_user_inputs_m31; assert_in_epsilon(1.6, worksheet.user_inputs_m31, 0.002); end
-  def test_user_inputs_n31; assert_in_epsilon(4.0, worksheet.user_inputs_n31, 0.002); end
-  def test_user_inputs_o31; assert_in_epsilon(1.6, worksheet.user_inputs_o31, 0.002); end
-  def test_user_inputs_p31; assert_in_epsilon(4.0, worksheet.user_inputs_p31, 0.002); end
-  def test_user_inputs_q31; assert_in_epsilon(3.0, worksheet.user_inputs_q31, 0.002); end
-  def test_user_inputs_r31; assert_in_epsilon(2.0, worksheet.user_inputs_r31, 0.002); end
-  def test_user_inputs_s31; assert_in_delta(1.0, worksheet.user_inputs_s31, 0.002); end
-  def test_user_inputs_t31; assert_in_epsilon(3.0, worksheet.user_inputs_t31, 0.002); end
-  def test_user_inputs_u31; assert_in_epsilon(2.4, worksheet.user_inputs_u31, 0.002); end
-  def test_user_inputs_v31; assert_in_epsilon(2.0, worksheet.user_inputs_v31, 0.002); end
-  def test_user_inputs_w31; assert_in_epsilon(2.0, worksheet.user_inputs_w31, 0.002); end
-  def test_user_inputs_x31; assert_in_epsilon(3.0, worksheet.user_inputs_x31, 0.002); end
-  def test_user_inputs_y31; assert_in_epsilon(3.0, worksheet.user_inputs_y31, 0.002); end
-  def test_user_inputs_z31; assert_in_epsilon(2.4, worksheet.user_inputs_z31, 0.002); end
-  def test_user_inputs_aa31; assert_in_epsilon(1.6, worksheet.user_inputs_aa31, 0.002); end
-  def test_user_inputs_h32; assert_in_epsilon(2.8, worksheet.user_inputs_h32, 0.002); end
-  def test_user_inputs_i32; assert_in_epsilon(2.2, worksheet.user_inputs_i32, 0.002); end
-  def test_user_inputs_j32; assert_in_epsilon(1.9, worksheet.user_inputs_j32, 0.002); end
-  def test_user_inputs_k32; assert_in_epsilon(1.9, worksheet.user_inputs_k32, 0.002); end
-  def test_user_inputs_l32; assert_in_epsilon(1.9, worksheet.user_inputs_l32, 0.002); end
-  def test_user_inputs_m32; assert_in_epsilon(1.9, worksheet.user_inputs_m32, 0.002); end
-  def test_user_inputs_n32; assert_in_epsilon(4.0, worksheet.user_inputs_n32, 0.002); end
-  def test_user_inputs_o32; assert_in_epsilon(1.9, worksheet.user_inputs_o32, 0.002); end
-  def test_user_inputs_p32; assert_in_epsilon(4.0, worksheet.user_inputs_p32, 0.002); end
-  def test_user_inputs_q32; assert_in_epsilon(3.0, worksheet.user_inputs_q32, 0.002); end
-  def test_user_inputs_r32; assert_in_epsilon(2.0, worksheet.user_inputs_r32, 0.002); end
-  def test_user_inputs_s32; assert_in_delta(1.0, worksheet.user_inputs_s32, 0.002); end
-  def test_user_inputs_t32; assert_in_epsilon(2.8, worksheet.user_inputs_t32, 0.002); end
-  def test_user_inputs_u32; assert_in_epsilon(2.8, worksheet.user_inputs_u32, 0.002); end
-  def test_user_inputs_v32; assert_in_delta(1.0, worksheet.user_inputs_v32, 0.002); end
-  def test_user_inputs_w32; assert_in_epsilon(2.6, worksheet.user_inputs_w32, 0.002); end
-  def test_user_inputs_x32; assert_in_epsilon(3.0, worksheet.user_inputs_x32, 0.002); end
-  def test_user_inputs_y32; assert_in_epsilon(2.4, worksheet.user_inputs_y32, 0.002); end
-  def test_user_inputs_z32; assert_in_epsilon(2.8, worksheet.user_inputs_z32, 0.002); end
-  def test_user_inputs_aa32; assert_in_epsilon(1.9, worksheet.user_inputs_aa32, 0.002); end
-  def test_user_inputs_h33; assert_in_epsilon(2.6, worksheet.user_inputs_h33, 0.002); end
-  def test_user_inputs_i33; assert_in_epsilon(1.9, worksheet.user_inputs_i33, 0.002); end
-  def test_user_inputs_j33; assert_in_epsilon(1.4, worksheet.user_inputs_j33, 0.002); end
-  def test_user_inputs_k33; assert_in_epsilon(1.4, worksheet.user_inputs_k33, 0.002); end
-  def test_user_inputs_l33; assert_in_epsilon(1.4, worksheet.user_inputs_l33, 0.002); end
-  def test_user_inputs_m33; assert_in_epsilon(1.4, worksheet.user_inputs_m33, 0.002); end
-  def test_user_inputs_n33; assert_in_epsilon(4.0, worksheet.user_inputs_n33, 0.002); end
-  def test_user_inputs_o33; assert_in_epsilon(1.4, worksheet.user_inputs_o33, 0.002); end
-  def test_user_inputs_p33; assert_in_epsilon(4.0, worksheet.user_inputs_p33, 0.002); end
-  def test_user_inputs_q33; assert_in_epsilon(3.0, worksheet.user_inputs_q33, 0.002); end
-  def test_user_inputs_r33; assert_in_epsilon(2.0, worksheet.user_inputs_r33, 0.002); end
-  def test_user_inputs_s33; assert_in_delta(1.0, worksheet.user_inputs_s33, 0.002); end
-  def test_user_inputs_t33; assert_in_epsilon(2.6, worksheet.user_inputs_t33, 0.002); end
-  def test_user_inputs_u33; assert_in_epsilon(2.6, worksheet.user_inputs_u33, 0.002); end
-  def test_user_inputs_v33; assert_in_delta(1.0, worksheet.user_inputs_v33, 0.002); end
-  def test_user_inputs_w33; assert_in_epsilon(2.5, worksheet.user_inputs_w33, 0.002); end
-  def test_user_inputs_x33; assert_in_epsilon(3.0, worksheet.user_inputs_x33, 0.002); end
-  def test_user_inputs_y33; assert_in_epsilon(3.0, worksheet.user_inputs_y33, 0.002); end
-  def test_user_inputs_z33; assert_in_epsilon(2.6, worksheet.user_inputs_z33, 0.002); end
-  def test_user_inputs_aa33; assert_in_epsilon(1.4, worksheet.user_inputs_aa33, 0.002); end
-  def test_user_inputs_h34; assert_in_epsilon(2.7, worksheet.user_inputs_h34, 0.002); end
-  def test_user_inputs_i34; assert_in_epsilon(1.9, worksheet.user_inputs_i34, 0.002); end
-  def test_user_inputs_j34; assert_in_epsilon(1.4, worksheet.user_inputs_j34, 0.002); end
-  def test_user_inputs_k34; assert_in_epsilon(1.4, worksheet.user_inputs_k34, 0.002); end
-  def test_user_inputs_l34; assert_in_epsilon(1.4, worksheet.user_inputs_l34, 0.002); end
-  def test_user_inputs_m34; assert_in_epsilon(1.4, worksheet.user_inputs_m34, 0.002); end
-  def test_user_inputs_n34; assert_in_epsilon(4.0, worksheet.user_inputs_n34, 0.002); end
-  def test_user_inputs_o34; assert_in_epsilon(1.4, worksheet.user_inputs_o34, 0.002); end
-  def test_user_inputs_p34; assert_in_epsilon(4.0, worksheet.user_inputs_p34, 0.002); end
-  def test_user_inputs_q34; assert_in_epsilon(3.0, worksheet.user_inputs_q34, 0.002); end
-  def test_user_inputs_r34; assert_in_epsilon(2.0, worksheet.user_inputs_r34, 0.002); end
-  def test_user_inputs_s34; assert_in_delta(1.0, worksheet.user_inputs_s34, 0.002); end
-  def test_user_inputs_t34; assert_in_epsilon(3.0, worksheet.user_inputs_t34, 0.002); end
-  def test_user_inputs_u34; assert_in_epsilon(2.7, worksheet.user_inputs_u34, 0.002); end
-  def test_user_inputs_v34; assert_in_delta(1.0, worksheet.user_inputs_v34, 0.002); end
-  def test_user_inputs_w34; assert_in_epsilon(3.0, worksheet.user_inputs_w34, 0.002); end
-  def test_user_inputs_x34; assert_in_epsilon(3.0, worksheet.user_inputs_x34, 0.002); end
-  def test_user_inputs_y34; assert_in_epsilon(3.0, worksheet.user_inputs_y34, 0.002); end
-  def test_user_inputs_z34; assert_in_epsilon(2.7, worksheet.user_inputs_z34, 0.002); end
-  def test_user_inputs_aa34; assert_in_epsilon(1.4, worksheet.user_inputs_aa34, 0.002); end
-  def test_user_inputs_h35; assert_in_epsilon(2.0, worksheet.user_inputs_h35, 0.002); end
-  def test_user_inputs_i35; assert_in_epsilon(1.6, worksheet.user_inputs_i35, 0.002); end
-  def test_user_inputs_j35; assert_in_epsilon(1.4, worksheet.user_inputs_j35, 0.002); end
-  def test_user_inputs_k35; assert_in_epsilon(1.4, worksheet.user_inputs_k35, 0.002); end
-  def test_user_inputs_l35; assert_in_epsilon(1.4, worksheet.user_inputs_l35, 0.002); end
-  def test_user_inputs_m35; assert_in_epsilon(1.4, worksheet.user_inputs_m35, 0.002); end
-  def test_user_inputs_n35; assert_in_epsilon(4.0, worksheet.user_inputs_n35, 0.002); end
-  def test_user_inputs_o35; assert_in_epsilon(1.4, worksheet.user_inputs_o35, 0.002); end
-  def test_user_inputs_p35; assert_in_epsilon(4.0, worksheet.user_inputs_p35, 0.002); end
-  def test_user_inputs_q35; assert_in_epsilon(3.0, worksheet.user_inputs_q35, 0.002); end
-  def test_user_inputs_r35; assert_in_epsilon(2.0, worksheet.user_inputs_r35, 0.002); end
-  def test_user_inputs_s35; assert_in_delta(1.0, worksheet.user_inputs_s35, 0.002); end
-  def test_user_inputs_t35; assert_in_epsilon(2.0, worksheet.user_inputs_t35, 0.002); end
-  def test_user_inputs_u35; assert_in_epsilon(2.0, worksheet.user_inputs_u35, 0.002); end
-  def test_user_inputs_v35; assert_in_delta(1.0, worksheet.user_inputs_v35, 0.002); end
-  def test_user_inputs_w35; assert_in_epsilon(2.8, worksheet.user_inputs_w35, 0.002); end
-  def test_user_inputs_x35; assert_in_epsilon(3.0, worksheet.user_inputs_x35, 0.002); end
-  def test_user_inputs_y35; assert_in_epsilon(3.0, worksheet.user_inputs_y35, 0.002); end
-  def test_user_inputs_z35; assert_in_epsilon(2.0, worksheet.user_inputs_z35, 0.002); end
-  def test_user_inputs_aa35; assert_in_epsilon(1.4, worksheet.user_inputs_aa35, 0.002); end
-  def test_user_inputs_h36; assert_in_epsilon(2.5, worksheet.user_inputs_h36, 0.002); end
-  def test_user_inputs_i36; assert_in_epsilon(1.8, worksheet.user_inputs_i36, 0.002); end
-  def test_user_inputs_j36; assert_in_epsilon(1.5, worksheet.user_inputs_j36, 0.002); end
-  def test_user_inputs_k36; assert_in_epsilon(1.5, worksheet.user_inputs_k36, 0.002); end
-  def test_user_inputs_l36; assert_in_epsilon(1.5, worksheet.user_inputs_l36, 0.002); end
-  def test_user_inputs_m36; assert_in_epsilon(1.5, worksheet.user_inputs_m36, 0.002); end
-  def test_user_inputs_n36; assert_in_epsilon(4.0, worksheet.user_inputs_n36, 0.002); end
-  def test_user_inputs_o36; assert_in_epsilon(1.5, worksheet.user_inputs_o36, 0.002); end
-  def test_user_inputs_p36; assert_in_epsilon(4.0, worksheet.user_inputs_p36, 0.002); end
-  def test_user_inputs_q36; assert_in_epsilon(3.0, worksheet.user_inputs_q36, 0.002); end
-  def test_user_inputs_r36; assert_in_epsilon(2.0, worksheet.user_inputs_r36, 0.002); end
-  def test_user_inputs_s36; assert_in_delta(1.0, worksheet.user_inputs_s36, 0.002); end
-  def test_user_inputs_t36; assert_in_epsilon(2.5, worksheet.user_inputs_t36, 0.002); end
-  def test_user_inputs_u36; assert_in_epsilon(2.5, worksheet.user_inputs_u36, 0.002); end
-  def test_user_inputs_v36; assert_in_delta(1.0, worksheet.user_inputs_v36, 0.002); end
-  def test_user_inputs_w36; assert_in_epsilon(2.9, worksheet.user_inputs_w36, 0.002); end
-  def test_user_inputs_x36; assert_in_epsilon(3.0, worksheet.user_inputs_x36, 0.002); end
-  def test_user_inputs_y36; assert_in_epsilon(3.0, worksheet.user_inputs_y36, 0.002); end
-  def test_user_inputs_z36; assert_in_epsilon(2.5, worksheet.user_inputs_z36, 0.002); end
-  def test_user_inputs_aa36; assert_in_epsilon(1.5, worksheet.user_inputs_aa36, 0.002); end
-  def test_user_inputs_h37; assert_in_epsilon(2.0, worksheet.user_inputs_h37, 0.002); end
-  def test_user_inputs_i37; assert_in_epsilon(1.9, worksheet.user_inputs_i37, 0.002); end
-  def test_user_inputs_j37; assert_in_epsilon(1.8, worksheet.user_inputs_j37, 0.002); end
-  def test_user_inputs_k37; assert_in_epsilon(1.8, worksheet.user_inputs_k37, 0.002); end
-  def test_user_inputs_l37; assert_in_epsilon(1.8, worksheet.user_inputs_l37, 0.002); end
-  def test_user_inputs_m37; assert_in_epsilon(1.8, worksheet.user_inputs_m37, 0.002); end
-  def test_user_inputs_n37; assert_in_epsilon(1.8, worksheet.user_inputs_n37, 0.002); end
-  def test_user_inputs_o37; assert_in_epsilon(4.0, worksheet.user_inputs_o37, 0.002); end
-  def test_user_inputs_p37; assert_in_epsilon(4.0, worksheet.user_inputs_p37, 0.002); end
-  def test_user_inputs_q37; assert_in_epsilon(3.0, worksheet.user_inputs_q37, 0.002); end
-  def test_user_inputs_r37; assert_in_epsilon(2.0, worksheet.user_inputs_r37, 0.002); end
-  def test_user_inputs_s37; assert_in_delta(1.0, worksheet.user_inputs_s37, 0.002); end
-  def test_user_inputs_t37; assert_in_epsilon(1.9, worksheet.user_inputs_t37, 0.002); end
-  def test_user_inputs_u37; assert_in_epsilon(2.5, worksheet.user_inputs_u37, 0.002); end
-  def test_user_inputs_v37; assert_in_epsilon(2.5, worksheet.user_inputs_v37, 0.002); end
-  def test_user_inputs_w37; assert_in_epsilon(2.5, worksheet.user_inputs_w37, 0.002); end
-  def test_user_inputs_x37; assert_in_epsilon(2.5, worksheet.user_inputs_x37, 0.002); end
-  def test_user_inputs_y37; assert_in_epsilon(2.5, worksheet.user_inputs_y37, 0.002); end
-  def test_user_inputs_z37; assert_in_epsilon(4.0, worksheet.user_inputs_z37, 0.002); end
-  def test_user_inputs_aa37; assert_in_epsilon(2.5, worksheet.user_inputs_aa37, 0.002); end
-  def test_user_inputs_h38; assert_in_epsilon(2.0, worksheet.user_inputs_h38, 0.002); end
-  def test_user_inputs_i38; assert_in_epsilon(1.9, worksheet.user_inputs_i38, 0.002); end
-  def test_user_inputs_j38; assert_in_epsilon(1.8, worksheet.user_inputs_j38, 0.002); end
-  def test_user_inputs_k38; assert_in_epsilon(1.8, worksheet.user_inputs_k38, 0.002); end
-  def test_user_inputs_l38; assert_in_epsilon(1.8, worksheet.user_inputs_l38, 0.002); end
-  def test_user_inputs_m38; assert_in_epsilon(1.8, worksheet.user_inputs_m38, 0.002); end
-  def test_user_inputs_n38; assert_in_epsilon(1.8, worksheet.user_inputs_n38, 0.002); end
-  def test_user_inputs_o38; assert_in_epsilon(4.0, worksheet.user_inputs_o38, 0.002); end
-  def test_user_inputs_p38; assert_in_epsilon(4.0, worksheet.user_inputs_p38, 0.002); end
-  def test_user_inputs_q38; assert_in_epsilon(3.0, worksheet.user_inputs_q38, 0.002); end
-  def test_user_inputs_r38; assert_in_epsilon(2.0, worksheet.user_inputs_r38, 0.002); end
-  def test_user_inputs_s38; assert_in_delta(1.0, worksheet.user_inputs_s38, 0.002); end
-  def test_user_inputs_t38; assert_in_epsilon(1.9, worksheet.user_inputs_t38, 0.002); end
-  def test_user_inputs_u38; assert_in_epsilon(1.9, worksheet.user_inputs_u38, 0.002); end
-  def test_user_inputs_v38; assert_in_epsilon(1.9, worksheet.user_inputs_v38, 0.002); end
-  def test_user_inputs_w38; assert_in_epsilon(1.9, worksheet.user_inputs_w38, 0.002); end
-  def test_user_inputs_x38; assert_in_epsilon(1.9, worksheet.user_inputs_x38, 0.002); end
-  def test_user_inputs_y38; assert_in_epsilon(1.9, worksheet.user_inputs_y38, 0.002); end
-  def test_user_inputs_z38; assert_in_epsilon(3.0, worksheet.user_inputs_z38, 0.002); end
-  def test_user_inputs_aa38; assert_in_epsilon(1.9, worksheet.user_inputs_aa38, 0.002); end
-  def test_user_inputs_h39; assert_in_epsilon(2.5, worksheet.user_inputs_h39, 0.002); end
-  def test_user_inputs_i39; assert_in_epsilon(2.3, worksheet.user_inputs_i39, 0.002); end
-  def test_user_inputs_j39; assert_in_epsilon(2.0, worksheet.user_inputs_j39, 0.002); end
-  def test_user_inputs_k39; assert_in_epsilon(2.0, worksheet.user_inputs_k39, 0.002); end
-  def test_user_inputs_l39; assert_in_epsilon(2.0, worksheet.user_inputs_l39, 0.002); end
-  def test_user_inputs_m39; assert_in_epsilon(2.0, worksheet.user_inputs_m39, 0.002); end
-  def test_user_inputs_n39; assert_in_epsilon(2.0, worksheet.user_inputs_n39, 0.002); end
-  def test_user_inputs_o39; assert_in_epsilon(4.0, worksheet.user_inputs_o39, 0.002); end
-  def test_user_inputs_p39; assert_in_epsilon(4.0, worksheet.user_inputs_p39, 0.002); end
-  def test_user_inputs_q39; assert_in_epsilon(3.0, worksheet.user_inputs_q39, 0.002); end
-  def test_user_inputs_r39; assert_in_epsilon(2.0, worksheet.user_inputs_r39, 0.002); end
-  def test_user_inputs_s39; assert_in_delta(1.0, worksheet.user_inputs_s39, 0.002); end
-  def test_user_inputs_t39; assert_in_epsilon(2.5, worksheet.user_inputs_t39, 0.002); end
-  def test_user_inputs_u39; assert_in_epsilon(2.5, worksheet.user_inputs_u39, 0.002); end
-  def test_user_inputs_v39; assert_in_epsilon(3.0, worksheet.user_inputs_v39, 0.002); end
-  def test_user_inputs_w39; assert_in_epsilon(3.0, worksheet.user_inputs_w39, 0.002); end
-  def test_user_inputs_x39; assert_in_epsilon(2.5, worksheet.user_inputs_x39, 0.002); end
-  def test_user_inputs_y39; assert_in_epsilon(1.5, worksheet.user_inputs_y39, 0.002); end
-  def test_user_inputs_z39; assert_in_epsilon(2.5, worksheet.user_inputs_z39, 0.002); end
-  def test_user_inputs_aa39; assert_in_epsilon(2.0, worksheet.user_inputs_aa39, 0.002); end
-  def test_user_inputs_h40; assert_in_epsilon(2.5, worksheet.user_inputs_h40, 0.002); end
-  def test_user_inputs_i40; assert_in_epsilon(2.4, worksheet.user_inputs_i40, 0.002); end
-  def test_user_inputs_j40; assert_in_epsilon(2.0, worksheet.user_inputs_j40, 0.002); end
-  def test_user_inputs_k40; assert_in_epsilon(2.0, worksheet.user_inputs_k40, 0.002); end
-  def test_user_inputs_l40; assert_in_epsilon(2.0, worksheet.user_inputs_l40, 0.002); end
-  def test_user_inputs_m40; assert_in_epsilon(2.0, worksheet.user_inputs_m40, 0.002); end
-  def test_user_inputs_n40; assert_in_epsilon(2.0, worksheet.user_inputs_n40, 0.002); end
-  def test_user_inputs_o40; assert_in_epsilon(4.0, worksheet.user_inputs_o40, 0.002); end
-  def test_user_inputs_p40; assert_in_epsilon(4.0, worksheet.user_inputs_p40, 0.002); end
-  def test_user_inputs_q40; assert_in_epsilon(3.0, worksheet.user_inputs_q40, 0.002); end
-  def test_user_inputs_r40; assert_in_epsilon(2.0, worksheet.user_inputs_r40, 0.002); end
-  def test_user_inputs_s40; assert_in_delta(1.0, worksheet.user_inputs_s40, 0.002); end
-  def test_user_inputs_t40; assert_in_epsilon(2.8, worksheet.user_inputs_t40, 0.002); end
-  def test_user_inputs_u40; assert_in_epsilon(2.5, worksheet.user_inputs_u40, 0.002); end
-  def test_user_inputs_v40; assert_in_epsilon(3.0, worksheet.user_inputs_v40, 0.002); end
-  def test_user_inputs_w40; assert_in_epsilon(3.0, worksheet.user_inputs_w40, 0.002); end
-  def test_user_inputs_x40; assert_in_epsilon(2.5, worksheet.user_inputs_x40, 0.002); end
-  def test_user_inputs_y40; assert_in_epsilon(1.5, worksheet.user_inputs_y40, 0.002); end
-  def test_user_inputs_z40; assert_in_epsilon(2.5, worksheet.user_inputs_z40, 0.002); end
-  def test_user_inputs_aa40; assert_in_epsilon(2.0, worksheet.user_inputs_aa40, 0.002); end
-  def test_user_inputs_h41; assert_in_epsilon(2.3, worksheet.user_inputs_h41, 0.002); end
-  def test_user_inputs_i41; assert_in_epsilon(1.9, worksheet.user_inputs_i41, 0.002); end
-  def test_user_inputs_j41; assert_in_delta(1.0, worksheet.user_inputs_j41, 0.002); end
-  def test_user_inputs_k41; assert_in_delta(1.0, worksheet.user_inputs_k41, 0.002); end
-  def test_user_inputs_l41; assert_in_delta(1.0, worksheet.user_inputs_l41, 0.002); end
-  def test_user_inputs_m41; assert_in_delta(1.0, worksheet.user_inputs_m41, 0.002); end
-  def test_user_inputs_n41; assert_in_delta(1.0, worksheet.user_inputs_n41, 0.002); end
-  def test_user_inputs_o41; assert_in_epsilon(4.0, worksheet.user_inputs_o41, 0.002); end
-  def test_user_inputs_p41; assert_in_epsilon(4.0, worksheet.user_inputs_p41, 0.002); end
-  def test_user_inputs_q41; assert_in_epsilon(3.0, worksheet.user_inputs_q41, 0.002); end
-  def test_user_inputs_r41; assert_in_epsilon(2.0, worksheet.user_inputs_r41, 0.002); end
-  def test_user_inputs_s41; assert_in_delta(1.0, worksheet.user_inputs_s41, 0.002); end
-  def test_user_inputs_t41; assert_in_epsilon(2.4, worksheet.user_inputs_t41, 0.002); end
-  def test_user_inputs_u41; assert_in_epsilon(2.3, worksheet.user_inputs_u41, 0.002); end
-  def test_user_inputs_v41; assert_in_epsilon(3.0, worksheet.user_inputs_v41, 0.002); end
-  def test_user_inputs_w41; assert_in_epsilon(3.0, worksheet.user_inputs_w41, 0.002); end
-  def test_user_inputs_x41; assert_in_epsilon(2.3, worksheet.user_inputs_x41, 0.002); end
-  def test_user_inputs_y41; assert_in_epsilon(1.5, worksheet.user_inputs_y41, 0.002); end
-  def test_user_inputs_z41; assert_in_epsilon(2.3, worksheet.user_inputs_z41, 0.002); end
-  def test_user_inputs_aa41; assert_in_epsilon(2.2, worksheet.user_inputs_aa41, 0.002); end
-  def test_user_inputs_h42; assert_in_epsilon(2.9, worksheet.user_inputs_h42, 0.002); end
-  def test_user_inputs_i42; assert_in_epsilon(2.9, worksheet.user_inputs_i42, 0.002); end
-  def test_user_inputs_j42; assert_in_epsilon(2.9, worksheet.user_inputs_j42, 0.002); end
-  def test_user_inputs_k42; assert_in_epsilon(2.9, worksheet.user_inputs_k42, 0.002); end
-  def test_user_inputs_l42; assert_in_epsilon(2.9, worksheet.user_inputs_l42, 0.002); end
-  def test_user_inputs_m42; assert_in_epsilon(2.9, worksheet.user_inputs_m42, 0.002); end
-  def test_user_inputs_n42; assert_in_epsilon(2.9, worksheet.user_inputs_n42, 0.002); end
-  def test_user_inputs_o42; assert_in_epsilon(4.0, worksheet.user_inputs_o42, 0.002); end
-  def test_user_inputs_p42; assert_in_epsilon(4.0, worksheet.user_inputs_p42, 0.002); end
-  def test_user_inputs_q42; assert_in_epsilon(3.0, worksheet.user_inputs_q42, 0.002); end
-  def test_user_inputs_r42; assert_in_epsilon(2.0, worksheet.user_inputs_r42, 0.002); end
-  def test_user_inputs_s42; assert_in_delta(1.0, worksheet.user_inputs_s42, 0.002); end
-  def test_user_inputs_t42; assert_in_epsilon(2.9, worksheet.user_inputs_t42, 0.002); end
-  def test_user_inputs_u42; assert_in_epsilon(3.0, worksheet.user_inputs_u42, 0.002); end
-  def test_user_inputs_v42; assert_in_epsilon(3.0, worksheet.user_inputs_v42, 0.002); end
-  def test_user_inputs_w42; assert_in_epsilon(3.0, worksheet.user_inputs_w42, 0.002); end
-  def test_user_inputs_x42; assert_in_epsilon(3.0, worksheet.user_inputs_x42, 0.002); end
-  def test_user_inputs_y42; assert_in_delta(1.0, worksheet.user_inputs_y42, 0.002); end
-  def test_user_inputs_z42; assert_in_epsilon(3.0, worksheet.user_inputs_z42, 0.002); end
-  def test_user_inputs_aa42; assert_in_epsilon(3.4, worksheet.user_inputs_aa42, 0.002); end
-  def test_user_inputs_h43; assert_in_epsilon(3.5, worksheet.user_inputs_h43, 0.002); end
-  def test_user_inputs_i43; assert_in_epsilon(4.0, worksheet.user_inputs_i43, 0.002); end
-  def test_user_inputs_j43; assert_in_epsilon(4.0, worksheet.user_inputs_j43, 0.002); end
-  def test_user_inputs_k43; assert_in_epsilon(4.0, worksheet.user_inputs_k43, 0.002); end
-  def test_user_inputs_l43; assert_in_epsilon(4.0, worksheet.user_inputs_l43, 0.002); end
-  def test_user_inputs_m43; assert_in_epsilon(4.0, worksheet.user_inputs_m43, 0.002); end
-  def test_user_inputs_n43; assert_in_epsilon(4.0, worksheet.user_inputs_n43, 0.002); end
-  def test_user_inputs_o43; assert_in_epsilon(4.0, worksheet.user_inputs_o43, 0.002); end
-  def test_user_inputs_p43; assert_in_epsilon(4.0, worksheet.user_inputs_p43, 0.002); end
-  def test_user_inputs_q43; assert_in_epsilon(3.0, worksheet.user_inputs_q43, 0.002); end
-  def test_user_inputs_r43; assert_in_epsilon(2.0, worksheet.user_inputs_r43, 0.002); end
-  def test_user_inputs_s43; assert_in_delta(1.0, worksheet.user_inputs_s43, 0.002); end
-  def test_user_inputs_t43; assert_in_epsilon(3.5, worksheet.user_inputs_t43, 0.002); end
-  def test_user_inputs_u43; assert_in_epsilon(3.5, worksheet.user_inputs_u43, 0.002); end
-  def test_user_inputs_v43; assert_in_epsilon(3.6, worksheet.user_inputs_v43, 0.002); end
-  def test_user_inputs_w43; assert_in_epsilon(1.4, worksheet.user_inputs_w43, 0.002); end
-  def test_user_inputs_x43; assert_in_epsilon(3.6, worksheet.user_inputs_x43, 0.002); end
-  def test_user_inputs_y43; assert_in_epsilon(3.6, worksheet.user_inputs_y43, 0.002); end
-  def test_user_inputs_z43; assert_in_epsilon(3.5, worksheet.user_inputs_z43, 0.002); end
-  def test_user_inputs_aa43; assert_in_epsilon(4.0, worksheet.user_inputs_aa43, 0.002); end
-  def test_user_inputs_h44; assert_in_delta(1.0, worksheet.user_inputs_h44, 0.002); end
-  def test_user_inputs_i44; assert_in_delta(1.0, worksheet.user_inputs_i44, 0.002); end
-  def test_user_inputs_j44; assert_in_delta(1.0, worksheet.user_inputs_j44, 0.002); end
-  def test_user_inputs_k44; assert_in_delta(1.0, worksheet.user_inputs_k44, 0.002); end
-  def test_user_inputs_l44; assert_in_delta(1.0, worksheet.user_inputs_l44, 0.002); end
-  def test_user_inputs_m44; assert_in_delta(1.0, worksheet.user_inputs_m44, 0.002); end
-  def test_user_inputs_n44; assert_in_delta(1.0, worksheet.user_inputs_n44, 0.002); end
-  def test_user_inputs_o44; assert_in_delta(1.0, worksheet.user_inputs_o44, 0.002); end
-  def test_user_inputs_p44; assert_in_delta(1.0, worksheet.user_inputs_p44, 0.002); end
-  def test_user_inputs_q44; assert_in_delta(1.0, worksheet.user_inputs_q44, 0.002); end
-  def test_user_inputs_r44; assert_in_delta(1.0, worksheet.user_inputs_r44, 0.002); end
-  def test_user_inputs_s44; assert_in_delta(1.0, worksheet.user_inputs_s44, 0.002); end
-  def test_user_inputs_t44; assert_in_delta(1.0, worksheet.user_inputs_t44, 0.002); end
-  def test_user_inputs_u44; assert_in_delta(1.0, worksheet.user_inputs_u44, 0.002); end
-  def test_user_inputs_v44; assert_in_delta(1.0, worksheet.user_inputs_v44, 0.002); end
-  def test_user_inputs_w44; assert_in_delta(1.0, worksheet.user_inputs_w44, 0.002); end
-  def test_user_inputs_x44; assert_in_delta(1.0, worksheet.user_inputs_x44, 0.002); end
-  def test_user_inputs_y44; assert_in_delta(1.0, worksheet.user_inputs_y44, 0.002); end
-  def test_user_inputs_z44; assert_in_delta(1.0, worksheet.user_inputs_z44, 0.002); end
-  def test_user_inputs_aa44; assert_in_delta(1.0, worksheet.user_inputs_aa44, 0.002); end
-  def test_user_inputs_h45; assert_in_delta(1.0, worksheet.user_inputs_h45, 0.002); end
-  def test_user_inputs_i45; assert_in_delta(1.0, worksheet.user_inputs_i45, 0.002); end
-  def test_user_inputs_j45; assert_in_delta(1.0, worksheet.user_inputs_j45, 0.002); end
-  def test_user_inputs_k45; assert_in_delta(1.0, worksheet.user_inputs_k45, 0.002); end
-  def test_user_inputs_l45; assert_in_delta(1.0, worksheet.user_inputs_l45, 0.002); end
-  def test_user_inputs_m45; assert_in_delta(1.0, worksheet.user_inputs_m45, 0.002); end
-  def test_user_inputs_n45; assert_in_delta(1.0, worksheet.user_inputs_n45, 0.002); end
-  def test_user_inputs_o45; assert_in_delta(1.0, worksheet.user_inputs_o45, 0.002); end
-  def test_user_inputs_p45; assert_in_delta(1.0, worksheet.user_inputs_p45, 0.002); end
-  def test_user_inputs_q45; assert_in_delta(1.0, worksheet.user_inputs_q45, 0.002); end
-  def test_user_inputs_r45; assert_in_delta(1.0, worksheet.user_inputs_r45, 0.002); end
-  def test_user_inputs_s45; assert_in_delta(1.0, worksheet.user_inputs_s45, 0.002); end
-  def test_user_inputs_t45; assert_in_delta(1.0, worksheet.user_inputs_t45, 0.002); end
-  def test_user_inputs_u45; assert_in_delta(1.0, worksheet.user_inputs_u45, 0.002); end
-  def test_user_inputs_v45; assert_in_delta(1.0, worksheet.user_inputs_v45, 0.002); end
-  def test_user_inputs_w45; assert_in_delta(1.0, worksheet.user_inputs_w45, 0.002); end
-  def test_user_inputs_x45; assert_in_delta(1.0, worksheet.user_inputs_x45, 0.002); end
-  def test_user_inputs_y45; assert_in_epsilon(4.0, worksheet.user_inputs_y45, 0.002); end
-  def test_user_inputs_z45; assert_in_delta(1.0, worksheet.user_inputs_z45, 0.002); end
-  def test_user_inputs_aa45; assert_in_delta(1.0, worksheet.user_inputs_aa45, 0.002); end
-  def test_user_inputs_h46; assert_in_delta(1.0, worksheet.user_inputs_h46, 0.002); end
-  def test_user_inputs_i46; assert_in_delta(1.0, worksheet.user_inputs_i46, 0.002); end
-  def test_user_inputs_j46; assert_in_delta(1.0, worksheet.user_inputs_j46, 0.002); end
-  def test_user_inputs_k46; assert_in_delta(1.0, worksheet.user_inputs_k46, 0.002); end
-  def test_user_inputs_l46; assert_in_delta(1.0, worksheet.user_inputs_l46, 0.002); end
-  def test_user_inputs_m46; assert_in_delta(1.0, worksheet.user_inputs_m46, 0.002); end
-  def test_user_inputs_n46; assert_in_delta(1.0, worksheet.user_inputs_n46, 0.002); end
-  def test_user_inputs_o46; assert_in_delta(1.0, worksheet.user_inputs_o46, 0.002); end
-  def test_user_inputs_p46; assert_in_delta(1.0, worksheet.user_inputs_p46, 0.002); end
-  def test_user_inputs_q46; assert_in_delta(1.0, worksheet.user_inputs_q46, 0.002); end
-  def test_user_inputs_r46; assert_in_delta(1.0, worksheet.user_inputs_r46, 0.002); end
-  def test_user_inputs_s46; assert_in_delta(1.0, worksheet.user_inputs_s46, 0.002); end
-  def test_user_inputs_t46; assert_in_delta(1.0, worksheet.user_inputs_t46, 0.002); end
-  def test_user_inputs_u46; assert_in_delta(1.0, worksheet.user_inputs_u46, 0.002); end
-  def test_user_inputs_v46; assert_in_delta(1.0, worksheet.user_inputs_v46, 0.002); end
-  def test_user_inputs_w46; assert_in_delta(1.0, worksheet.user_inputs_w46, 0.002); end
-  def test_user_inputs_x46; assert_in_delta(1.0, worksheet.user_inputs_x46, 0.002); end
-  def test_user_inputs_y46; assert_in_delta(1.0, worksheet.user_inputs_y46, 0.002); end
-  def test_user_inputs_z46; assert_in_delta(1.0, worksheet.user_inputs_z46, 0.002); end
-  def test_user_inputs_aa46; assert_in_delta(1.0, worksheet.user_inputs_aa46, 0.002); end
-  def test_user_inputs_h47; assert_in_delta(1.0, worksheet.user_inputs_h47, 0.002); end
-  def test_user_inputs_i47; assert_in_delta(1.0, worksheet.user_inputs_i47, 0.002); end
-  def test_user_inputs_j47; assert_in_delta(1.0, worksheet.user_inputs_j47, 0.002); end
-  def test_user_inputs_k47; assert_in_delta(1.0, worksheet.user_inputs_k47, 0.002); end
-  def test_user_inputs_l47; assert_in_delta(1.0, worksheet.user_inputs_l47, 0.002); end
-  def test_user_inputs_m47; assert_in_delta(1.0, worksheet.user_inputs_m47, 0.002); end
-  def test_user_inputs_n47; assert_in_delta(1.0, worksheet.user_inputs_n47, 0.002); end
-  def test_user_inputs_o47; assert_in_delta(1.0, worksheet.user_inputs_o47, 0.002); end
-  def test_user_inputs_p47; assert_in_delta(1.0, worksheet.user_inputs_p47, 0.002); end
-  def test_user_inputs_q47; assert_in_delta(1.0, worksheet.user_inputs_q47, 0.002); end
-  def test_user_inputs_r47; assert_in_delta(1.0, worksheet.user_inputs_r47, 0.002); end
-  def test_user_inputs_s47; assert_in_delta(1.0, worksheet.user_inputs_s47, 0.002); end
-  def test_user_inputs_t47; assert_in_delta(1.0, worksheet.user_inputs_t47, 0.002); end
-  def test_user_inputs_u47; assert_in_delta(1.0, worksheet.user_inputs_u47, 0.002); end
-  def test_user_inputs_v47; assert_in_delta(1.0, worksheet.user_inputs_v47, 0.002); end
-  def test_user_inputs_w47; assert_in_delta(1.0, worksheet.user_inputs_w47, 0.002); end
-  def test_user_inputs_x47; assert_in_delta(1.0, worksheet.user_inputs_x47, 0.002); end
-  def test_user_inputs_y47; assert_in_delta(1.0, worksheet.user_inputs_y47, 0.002); end
-  def test_user_inputs_z47; assert_in_delta(1.0, worksheet.user_inputs_z47, 0.002); end
-  def test_user_inputs_aa47; assert_in_delta(1.0, worksheet.user_inputs_aa47, 0.002); end
-  def test_user_inputs_h48; assert_in_delta(1.0, worksheet.user_inputs_h48, 0.002); end
-  def test_user_inputs_i48; assert_in_delta(1.0, worksheet.user_inputs_i48, 0.002); end
-  def test_user_inputs_j48; assert_in_delta(1.0, worksheet.user_inputs_j48, 0.002); end
-  def test_user_inputs_k48; assert_in_delta(1.0, worksheet.user_inputs_k48, 0.002); end
-  def test_user_inputs_l48; assert_in_delta(1.0, worksheet.user_inputs_l48, 0.002); end
-  def test_user_inputs_m48; assert_in_delta(1.0, worksheet.user_inputs_m48, 0.002); end
-  def test_user_inputs_n48; assert_in_delta(1.0, worksheet.user_inputs_n48, 0.002); end
-  def test_user_inputs_o48; assert_in_delta(1.0, worksheet.user_inputs_o48, 0.002); end
-  def test_user_inputs_p48; assert_in_delta(1.0, worksheet.user_inputs_p48, 0.002); end
-  def test_user_inputs_q48; assert_in_delta(1.0, worksheet.user_inputs_q48, 0.002); end
-  def test_user_inputs_r48; assert_in_delta(1.0, worksheet.user_inputs_r48, 0.002); end
-  def test_user_inputs_s48; assert_in_delta(1.0, worksheet.user_inputs_s48, 0.002); end
-  def test_user_inputs_t48; assert_in_delta(1.0, worksheet.user_inputs_t48, 0.002); end
-  def test_user_inputs_u48; assert_in_delta(1.0, worksheet.user_inputs_u48, 0.002); end
-  def test_user_inputs_v48; assert_in_delta(1.0, worksheet.user_inputs_v48, 0.002); end
-  def test_user_inputs_w48; assert_in_delta(1.0, worksheet.user_inputs_w48, 0.002); end
-  def test_user_inputs_x48; assert_in_delta(1.0, worksheet.user_inputs_x48, 0.002); end
-  def test_user_inputs_y48; assert_in_delta(1.0, worksheet.user_inputs_y48, 0.002); end
-  def test_user_inputs_z48; assert_in_delta(1.0, worksheet.user_inputs_z48, 0.002); end
-  def test_user_inputs_aa48; assert_in_delta(1.0, worksheet.user_inputs_aa48, 0.002); end
-  def test_user_inputs_h49; assert_in_epsilon(2.5, worksheet.user_inputs_h49, 0.002); end
-  def test_user_inputs_i49; assert_in_epsilon(2.2, worksheet.user_inputs_i49, 0.002); end
-  def test_user_inputs_j49; assert_in_delta(1.0, worksheet.user_inputs_j49, 0.002); end
-  def test_user_inputs_k49; assert_in_delta(1.0, worksheet.user_inputs_k49, 0.002); end
-  def test_user_inputs_l49; assert_in_delta(1.0, worksheet.user_inputs_l49, 0.002); end
-  def test_user_inputs_m49; assert_in_delta(1.0, worksheet.user_inputs_m49, 0.002); end
-  def test_user_inputs_n49; assert_in_delta(1.0, worksheet.user_inputs_n49, 0.002); end
-  def test_user_inputs_o49; assert_in_delta(1.0, worksheet.user_inputs_o49, 0.002); end
-  def test_user_inputs_p49; assert_in_epsilon(4.0, worksheet.user_inputs_p49, 0.002); end
-  def test_user_inputs_q49; assert_in_epsilon(3.0, worksheet.user_inputs_q49, 0.002); end
-  def test_user_inputs_r49; assert_in_epsilon(2.0, worksheet.user_inputs_r49, 0.002); end
-  def test_user_inputs_s49; assert_in_delta(1.0, worksheet.user_inputs_s49, 0.002); end
-  def test_user_inputs_t49; assert_in_epsilon(2.6, worksheet.user_inputs_t49, 0.002); end
-  def test_user_inputs_u49; assert_in_epsilon(2.5, worksheet.user_inputs_u49, 0.002); end
-  def test_user_inputs_v49; assert_in_epsilon(2.5, worksheet.user_inputs_v49, 0.002); end
-  def test_user_inputs_w49; assert_in_epsilon(3.0, worksheet.user_inputs_w49, 0.002); end
-  def test_user_inputs_x49; assert_in_epsilon(2.5, worksheet.user_inputs_x49, 0.002); end
-  def test_user_inputs_y49; assert_in_epsilon(2.5, worksheet.user_inputs_y49, 0.002); end
-  def test_user_inputs_z49; assert_in_epsilon(2.5, worksheet.user_inputs_z49, 0.002); end
-  def test_user_inputs_aa49; assert_in_delta(1.0, worksheet.user_inputs_aa49, 0.002); end
-  def test_user_inputs_h50; assert_in_epsilon(2.4, worksheet.user_inputs_h50, 0.002); end
-  def test_user_inputs_i50; assert_in_epsilon(1.3, worksheet.user_inputs_i50, 0.002); end
-  def test_user_inputs_j50; assert_in_delta(1.0, worksheet.user_inputs_j50, 0.002); end
-  def test_user_inputs_k50; assert_in_epsilon(2.5, worksheet.user_inputs_k50, 0.002); end
-  def test_user_inputs_l50; assert_in_epsilon(2.5, worksheet.user_inputs_l50, 0.002); end
-  def test_user_inputs_m50; assert_in_epsilon(2.5, worksheet.user_inputs_m50, 0.002); end
-  def test_user_inputs_n50; assert_in_epsilon(2.5, worksheet.user_inputs_n50, 0.002); end
-  def test_user_inputs_o50; assert_in_epsilon(2.5, worksheet.user_inputs_o50, 0.002); end
-  def test_user_inputs_p50; assert_in_epsilon(2.5, worksheet.user_inputs_p50, 0.002); end
-  def test_user_inputs_q50; assert_in_epsilon(2.5, worksheet.user_inputs_q50, 0.002); end
-  def test_user_inputs_r50; assert_in_epsilon(2.5, worksheet.user_inputs_r50, 0.002); end
-  def test_user_inputs_s50; assert_in_epsilon(2.5, worksheet.user_inputs_s50, 0.002); end
-  def test_user_inputs_t50; assert_in_epsilon(2.4, worksheet.user_inputs_t50, 0.002); end
-  def test_user_inputs_u50; assert_in_epsilon(2.4, worksheet.user_inputs_u50, 0.002); end
-  def test_user_inputs_v50; assert_in_epsilon(2.5, worksheet.user_inputs_v50, 0.002); end
-  def test_user_inputs_w50; assert_in_epsilon(2.4, worksheet.user_inputs_w50, 0.002); end
-  def test_user_inputs_x50; assert_in_epsilon(2.4, worksheet.user_inputs_x50, 0.002); end
-  def test_user_inputs_y50; assert_in_epsilon(2.4, worksheet.user_inputs_y50, 0.002); end
-  def test_user_inputs_z50; assert_in_epsilon(2.4, worksheet.user_inputs_z50, 0.002); end
-  def test_user_inputs_aa50; assert_in_epsilon(4.0, worksheet.user_inputs_aa50, 0.002); end
-  def test_user_inputs_h51; assert_in_epsilon(2.0, worksheet.user_inputs_h51, 0.002); end
-  def test_user_inputs_i51; assert_in_epsilon(2.0, worksheet.user_inputs_i51, 0.002); end
-  def test_user_inputs_j51; assert_in_epsilon(2.0, worksheet.user_inputs_j51, 0.002); end
-  def test_user_inputs_k51; assert_in_epsilon(2.0, worksheet.user_inputs_k51, 0.002); end
-  def test_user_inputs_l51; assert_in_epsilon(2.0, worksheet.user_inputs_l51, 0.002); end
-  def test_user_inputs_m51; assert_in_epsilon(2.0, worksheet.user_inputs_m51, 0.002); end
-  def test_user_inputs_n51; assert_in_epsilon(2.0, worksheet.user_inputs_n51, 0.002); end
-  def test_user_inputs_o51; assert_in_epsilon(4.0, worksheet.user_inputs_o51, 0.002); end
-  def test_user_inputs_p51; assert_in_epsilon(4.0, worksheet.user_inputs_p51, 0.002); end
-  def test_user_inputs_q51; assert_in_epsilon(3.0, worksheet.user_inputs_q51, 0.002); end
-  def test_user_inputs_r51; assert_in_epsilon(2.0, worksheet.user_inputs_r51, 0.002); end
-  def test_user_inputs_s51; assert_in_delta(1.0, worksheet.user_inputs_s51, 0.002); end
-  def test_user_inputs_t51; assert_in_epsilon(2.0, worksheet.user_inputs_t51, 0.002); end
-  def test_user_inputs_u51; assert_in_epsilon(2.0, worksheet.user_inputs_u51, 0.002); end
-  def test_user_inputs_v51; assert_in_epsilon(2.0, worksheet.user_inputs_v51, 0.002); end
-  def test_user_inputs_w51; assert_in_epsilon(2.0, worksheet.user_inputs_w51, 0.002); end
-  def test_user_inputs_x51; assert_in_epsilon(2.0, worksheet.user_inputs_x51, 0.002); end
-  def test_user_inputs_y51; assert_in_epsilon(2.0, worksheet.user_inputs_y51, 0.002); end
-  def test_user_inputs_z51; assert_in_epsilon(2.0, worksheet.user_inputs_z51, 0.002); end
-  def test_user_inputs_aa51; assert_in_epsilon(2.0, worksheet.user_inputs_aa51, 0.002); end
-  def test_user_inputs_h52; assert_equal("B", worksheet.user_inputs_h52); end
-  def test_user_inputs_i52; assert_equal("B", worksheet.user_inputs_i52); end
-  def test_user_inputs_j52; assert_equal("B", worksheet.user_inputs_j52); end
-  def test_user_inputs_k52; assert_equal("B", worksheet.user_inputs_k52); end
-  def test_user_inputs_l52; assert_equal("B", worksheet.user_inputs_l52); end
-  def test_user_inputs_m52; assert_equal("B", worksheet.user_inputs_m52); end
-  def test_user_inputs_n52; assert_equal("B", worksheet.user_inputs_n52); end
-  def test_user_inputs_o52; assert_equal("B", worksheet.user_inputs_o52); end
-  def test_user_inputs_p52; assert_equal("B", worksheet.user_inputs_p52); end
-  def test_user_inputs_q52; assert_equal("B", worksheet.user_inputs_q52); end
-  def test_user_inputs_r52; assert_equal("B", worksheet.user_inputs_r52); end
-  def test_user_inputs_s52; assert_equal("B", worksheet.user_inputs_s52); end
-  def test_user_inputs_t52; assert_equal("B", worksheet.user_inputs_t52); end
-  def test_user_inputs_u52; assert_equal("B", worksheet.user_inputs_u52); end
-  def test_user_inputs_v52; assert_equal("B", worksheet.user_inputs_v52); end
-  def test_user_inputs_w52; assert_equal("B", worksheet.user_inputs_w52); end
-  def test_user_inputs_x52; assert_equal("B", worksheet.user_inputs_x52); end
-  def test_user_inputs_y52; assert_equal("B", worksheet.user_inputs_y52); end
-  def test_user_inputs_z52; assert_equal("B", worksheet.user_inputs_z52); end
-  def test_user_inputs_aa52; assert_equal("B", worksheet.user_inputs_aa52); end
-  def test_user_inputs_h53; assert_equal("US", worksheet.user_inputs_h53); end
-  def test_user_inputs_i53; assert_equal("US", worksheet.user_inputs_i53); end
-  def test_user_inputs_j53; assert_equal("US", worksheet.user_inputs_j53); end
-  def test_user_inputs_k53; assert_equal("US", worksheet.user_inputs_k53); end
-  def test_user_inputs_l53; assert_equal("US", worksheet.user_inputs_l53); end
-  def test_user_inputs_m53; assert_equal("US", worksheet.user_inputs_m53); end
-  def test_user_inputs_n53; assert_equal("US", worksheet.user_inputs_n53); end
-  def test_user_inputs_o53; assert_equal("US", worksheet.user_inputs_o53); end
-  def test_user_inputs_p53; assert_equal("US", worksheet.user_inputs_p53); end
-  def test_user_inputs_q53; assert_equal("US", worksheet.user_inputs_q53); end
-  def test_user_inputs_r53; assert_equal("US", worksheet.user_inputs_r53); end
-  def test_user_inputs_s53; assert_equal("US", worksheet.user_inputs_s53); end
-  def test_user_inputs_t53; assert_equal("US", worksheet.user_inputs_t53); end
-  def test_user_inputs_u53; assert_equal("US", worksheet.user_inputs_u53); end
-  def test_user_inputs_v53; assert_equal("US", worksheet.user_inputs_v53); end
-  def test_user_inputs_w53; assert_equal("US", worksheet.user_inputs_w53); end
-  def test_user_inputs_x53; assert_equal("US", worksheet.user_inputs_x53); end
-  def test_user_inputs_y53; assert_equal("US", worksheet.user_inputs_y53); end
-  def test_user_inputs_z53; assert_equal("US", worksheet.user_inputs_z53); end
-  def test_user_inputs_aa53; assert_equal("US", worksheet.user_inputs_aa53); end
-  def test_user_inputs_h54; assert_equal("US", worksheet.user_inputs_h54); end
-  def test_user_inputs_i54; assert_equal("US", worksheet.user_inputs_i54); end
-  def test_user_inputs_j54; assert_equal("US", worksheet.user_inputs_j54); end
-  def test_user_inputs_k54; assert_equal("US", worksheet.user_inputs_k54); end
-  def test_user_inputs_l54; assert_equal("US", worksheet.user_inputs_l54); end
-  def test_user_inputs_m54; assert_equal("US", worksheet.user_inputs_m54); end
-  def test_user_inputs_n54; assert_equal("US", worksheet.user_inputs_n54); end
-  def test_user_inputs_o54; assert_equal("US", worksheet.user_inputs_o54); end
-  def test_user_inputs_p54; assert_equal("US", worksheet.user_inputs_p54); end
-  def test_user_inputs_q54; assert_equal("US", worksheet.user_inputs_q54); end
-  def test_user_inputs_r54; assert_equal("US", worksheet.user_inputs_r54); end
-  def test_user_inputs_s54; assert_equal("US", worksheet.user_inputs_s54); end
-  def test_user_inputs_t54; assert_equal("US", worksheet.user_inputs_t54); end
-  def test_user_inputs_u54; assert_equal("US", worksheet.user_inputs_u54); end
-  def test_user_inputs_v54; assert_equal("US", worksheet.user_inputs_v54); end
-  def test_user_inputs_w54; assert_equal("US", worksheet.user_inputs_w54); end
-  def test_user_inputs_x54; assert_equal("US", worksheet.user_inputs_x54); end
-  def test_user_inputs_y54; assert_equal("US", worksheet.user_inputs_y54); end
-  def test_user_inputs_z54; assert_equal("US", worksheet.user_inputs_z54); end
-  def test_user_inputs_aa54; assert_equal("US", worksheet.user_inputs_aa54); end
-  def test_user_inputs_h55; assert_equal("US", worksheet.user_inputs_h55); end
-  def test_user_inputs_i55; assert_equal("US", worksheet.user_inputs_i55); end
-  def test_user_inputs_j55; assert_equal("US", worksheet.user_inputs_j55); end
-  def test_user_inputs_k55; assert_equal("US", worksheet.user_inputs_k55); end
-  def test_user_inputs_l55; assert_equal("US", worksheet.user_inputs_l55); end
-  def test_user_inputs_m55; assert_equal("US", worksheet.user_inputs_m55); end
-  def test_user_inputs_n55; assert_equal("US", worksheet.user_inputs_n55); end
-  def test_user_inputs_o55; assert_equal("US", worksheet.user_inputs_o55); end
-  def test_user_inputs_p55; assert_equal("US", worksheet.user_inputs_p55); end
-  def test_user_inputs_q55; assert_equal("US", worksheet.user_inputs_q55); end
-  def test_user_inputs_r55; assert_equal("US", worksheet.user_inputs_r55); end
-  def test_user_inputs_s55; assert_equal("US", worksheet.user_inputs_s55); end
-  def test_user_inputs_t55; assert_equal("US", worksheet.user_inputs_t55); end
-  def test_user_inputs_u55; assert_equal("US", worksheet.user_inputs_u55); end
-  def test_user_inputs_v55; assert_equal("US", worksheet.user_inputs_v55); end
-  def test_user_inputs_w55; assert_equal("US", worksheet.user_inputs_w55); end
-  def test_user_inputs_x55; assert_equal("US", worksheet.user_inputs_x55); end
-  def test_user_inputs_y55; assert_equal("US", worksheet.user_inputs_y55); end
-  def test_user_inputs_z55; assert_equal("US", worksheet.user_inputs_z55); end
-  def test_user_inputs_aa55; assert_equal("US", worksheet.user_inputs_aa55); end
-  def test_user_inputs_h56; assert_equal("Point", worksheet.user_inputs_h56); end
-  def test_user_inputs_i56; assert_equal("Point", worksheet.user_inputs_i56); end
-  def test_user_inputs_j56; assert_equal("Point", worksheet.user_inputs_j56); end
-  def test_user_inputs_k56; assert_equal("Point", worksheet.user_inputs_k56); end
-  def test_user_inputs_l56; assert_equal("Point", worksheet.user_inputs_l56); end
-  def test_user_inputs_m56; assert_equal("Point", worksheet.user_inputs_m56); end
-  def test_user_inputs_n56; assert_equal("Point", worksheet.user_inputs_n56); end
-  def test_user_inputs_o56; assert_equal("Point", worksheet.user_inputs_o56); end
-  def test_user_inputs_p56; assert_equal("Point", worksheet.user_inputs_p56); end
-  def test_user_inputs_q56; assert_equal("Point", worksheet.user_inputs_q56); end
-  def test_user_inputs_r56; assert_equal("Point", worksheet.user_inputs_r56); end
-  def test_user_inputs_s56; assert_equal("Point", worksheet.user_inputs_s56); end
-  def test_user_inputs_t56; assert_equal("Point", worksheet.user_inputs_t56); end
-  def test_user_inputs_u56; assert_equal("Point", worksheet.user_inputs_u56); end
-  def test_user_inputs_v56; assert_equal("Point", worksheet.user_inputs_v56); end
-  def test_user_inputs_w56; assert_equal("Point", worksheet.user_inputs_w56); end
-  def test_user_inputs_x56; assert_equal("Point", worksheet.user_inputs_x56); end
-  def test_user_inputs_y56; assert_equal("Point", worksheet.user_inputs_y56); end
-  def test_user_inputs_z56; assert_equal("Point", worksheet.user_inputs_z56); end
-  def test_user_inputs_aa56; assert_equal("Point", worksheet.user_inputs_aa56); end
-  def test_user_inputs_h57; assert_equal("Point", worksheet.user_inputs_h57); end
-  def test_user_inputs_i57; assert_equal("Point", worksheet.user_inputs_i57); end
-  def test_user_inputs_j57; assert_equal("Point", worksheet.user_inputs_j57); end
-  def test_user_inputs_k57; assert_equal("Point", worksheet.user_inputs_k57); end
-  def test_user_inputs_l57; assert_equal("Point", worksheet.user_inputs_l57); end
-  def test_user_inputs_m57; assert_equal("Point", worksheet.user_inputs_m57); end
-  def test_user_inputs_n57; assert_equal("Point", worksheet.user_inputs_n57); end
-  def test_user_inputs_o57; assert_equal("Point", worksheet.user_inputs_o57); end
-  def test_user_inputs_p57; assert_equal("Point", worksheet.user_inputs_p57); end
-  def test_user_inputs_q57; assert_equal("Point", worksheet.user_inputs_q57); end
-  def test_user_inputs_r57; assert_equal("Point", worksheet.user_inputs_r57); end
-  def test_user_inputs_s57; assert_equal("Point", worksheet.user_inputs_s57); end
-  def test_user_inputs_t57; assert_equal("Point", worksheet.user_inputs_t57); end
-  def test_user_inputs_u57; assert_equal("Point", worksheet.user_inputs_u57); end
-  def test_user_inputs_v57; assert_equal("Point", worksheet.user_inputs_v57); end
-  def test_user_inputs_w57; assert_equal("Point", worksheet.user_inputs_w57); end
-  def test_user_inputs_x57; assert_equal("Point", worksheet.user_inputs_x57); end
-  def test_user_inputs_y57; assert_equal("Point", worksheet.user_inputs_y57); end
-  def test_user_inputs_z57; assert_equal("Point", worksheet.user_inputs_z57); end
-  def test_user_inputs_aa57; assert_equal("Point", worksheet.user_inputs_aa57); end
-  def test_user_inputs_h58; assert_equal("Point", worksheet.user_inputs_h58); end
-  def test_user_inputs_i58; assert_equal("Point", worksheet.user_inputs_i58); end
-  def test_user_inputs_j58; assert_equal("Point", worksheet.user_inputs_j58); end
-  def test_user_inputs_k58; assert_equal("Point", worksheet.user_inputs_k58); end
-  def test_user_inputs_l58; assert_equal("Point", worksheet.user_inputs_l58); end
-  def test_user_inputs_m58; assert_equal("Point", worksheet.user_inputs_m58); end
-  def test_user_inputs_n58; assert_equal("Point", worksheet.user_inputs_n58); end
-  def test_user_inputs_o58; assert_equal("Point", worksheet.user_inputs_o58); end
-  def test_user_inputs_p58; assert_equal("Point", worksheet.user_inputs_p58); end
-  def test_user_inputs_q58; assert_equal("Point", worksheet.user_inputs_q58); end
-  def test_user_inputs_r58; assert_equal("Point", worksheet.user_inputs_r58); end
-  def test_user_inputs_s58; assert_equal("Point", worksheet.user_inputs_s58); end
-  def test_user_inputs_t58; assert_equal("Point", worksheet.user_inputs_t58); end
-  def test_user_inputs_u58; assert_equal("Point", worksheet.user_inputs_u58); end
-  def test_user_inputs_v58; assert_equal("Point", worksheet.user_inputs_v58); end
-  def test_user_inputs_w58; assert_equal("Point", worksheet.user_inputs_w58); end
-  def test_user_inputs_x58; assert_equal("Point", worksheet.user_inputs_x58); end
-  def test_user_inputs_y58; assert_equal("Point", worksheet.user_inputs_y58); end
-  def test_user_inputs_z58; assert_equal("Point", worksheet.user_inputs_z58); end
-  def test_user_inputs_aa58; assert_equal("Point", worksheet.user_inputs_aa58); end
-  def test_user_inputs_h59; assert_equal("Point", worksheet.user_inputs_h59); end
-  def test_user_inputs_i59; assert_equal("Point", worksheet.user_inputs_i59); end
-  def test_user_inputs_j59; assert_equal("Point", worksheet.user_inputs_j59); end
-  def test_user_inputs_k59; assert_equal("Point", worksheet.user_inputs_k59); end
-  def test_user_inputs_l59; assert_equal("Point", worksheet.user_inputs_l59); end
-  def test_user_inputs_m59; assert_equal("Point", worksheet.user_inputs_m59); end
-  def test_user_inputs_n59; assert_equal("Point", worksheet.user_inputs_n59); end
-  def test_user_inputs_o59; assert_equal("Point", worksheet.user_inputs_o59); end
-  def test_user_inputs_p59; assert_equal("Point", worksheet.user_inputs_p59); end
-  def test_user_inputs_q59; assert_equal("Point", worksheet.user_inputs_q59); end
-  def test_user_inputs_r59; assert_equal("Point", worksheet.user_inputs_r59); end
-  def test_user_inputs_s59; assert_equal("Point", worksheet.user_inputs_s59); end
-  def test_user_inputs_t59; assert_equal("Point", worksheet.user_inputs_t59); end
-  def test_user_inputs_u59; assert_equal("Point", worksheet.user_inputs_u59); end
-  def test_user_inputs_v59; assert_equal("Point", worksheet.user_inputs_v59); end
-  def test_user_inputs_w59; assert_equal("Point", worksheet.user_inputs_w59); end
-  def test_user_inputs_x59; assert_equal("Point", worksheet.user_inputs_x59); end
-  def test_user_inputs_y59; assert_equal("Point", worksheet.user_inputs_y59); end
-  def test_user_inputs_z59; assert_equal("Point", worksheet.user_inputs_z59); end
-  def test_user_inputs_aa59; assert_equal("Point", worksheet.user_inputs_aa59); end
-  def test_user_inputs_h60; assert_equal("Point", worksheet.user_inputs_h60); end
-  def test_user_inputs_i60; assert_equal("Point", worksheet.user_inputs_i60); end
-  def test_user_inputs_j60; assert_equal("Point", worksheet.user_inputs_j60); end
-  def test_user_inputs_k60; assert_equal("Point", worksheet.user_inputs_k60); end
-  def test_user_inputs_l60; assert_equal("Point", worksheet.user_inputs_l60); end
-  def test_user_inputs_m60; assert_equal("Point", worksheet.user_inputs_m60); end
-  def test_user_inputs_n60; assert_equal("Point", worksheet.user_inputs_n60); end
-  def test_user_inputs_o60; assert_equal("Point", worksheet.user_inputs_o60); end
-  def test_user_inputs_p60; assert_equal("Point", worksheet.user_inputs_p60); end
-  def test_user_inputs_q60; assert_equal("Point", worksheet.user_inputs_q60); end
-  def test_user_inputs_r60; assert_equal("Point", worksheet.user_inputs_r60); end
-  def test_user_inputs_s60; assert_equal("Point", worksheet.user_inputs_s60); end
-  def test_user_inputs_t60; assert_equal("Point", worksheet.user_inputs_t60); end
-  def test_user_inputs_u60; assert_equal("Point", worksheet.user_inputs_u60); end
-  def test_user_inputs_v60; assert_equal("Point", worksheet.user_inputs_v60); end
-  def test_user_inputs_w60; assert_equal("Point", worksheet.user_inputs_w60); end
-  def test_user_inputs_x60; assert_equal("Point", worksheet.user_inputs_x60); end
-  def test_user_inputs_y60; assert_equal("Point", worksheet.user_inputs_y60); end
-  def test_user_inputs_z60; assert_equal("Point", worksheet.user_inputs_z60); end
-  def test_user_inputs_aa60; assert_equal("Point", worksheet.user_inputs_aa60); end
-  def test_user_inputs_h61; assert_equal("Point", worksheet.user_inputs_h61); end
-  def test_user_inputs_i61; assert_equal("Point", worksheet.user_inputs_i61); end
-  def test_user_inputs_j61; assert_equal("Point", worksheet.user_inputs_j61); end
-  def test_user_inputs_k61; assert_equal("Point", worksheet.user_inputs_k61); end
-  def test_user_inputs_l61; assert_equal("Point", worksheet.user_inputs_l61); end
-  def test_user_inputs_m61; assert_equal("Point", worksheet.user_inputs_m61); end
-  def test_user_inputs_n61; assert_equal("Point", worksheet.user_inputs_n61); end
-  def test_user_inputs_o61; assert_equal("Point", worksheet.user_inputs_o61); end
-  def test_user_inputs_p61; assert_equal("Point", worksheet.user_inputs_p61); end
-  def test_user_inputs_q61; assert_equal("Point", worksheet.user_inputs_q61); end
-  def test_user_inputs_r61; assert_equal("Point", worksheet.user_inputs_r61); end
-  def test_user_inputs_s61; assert_equal("Point", worksheet.user_inputs_s61); end
-  def test_user_inputs_t61; assert_equal("Point", worksheet.user_inputs_t61); end
-  def test_user_inputs_u61; assert_equal("Point", worksheet.user_inputs_u61); end
-  def test_user_inputs_v61; assert_equal("Point", worksheet.user_inputs_v61); end
-  def test_user_inputs_w61; assert_equal("Point", worksheet.user_inputs_w61); end
-  def test_user_inputs_x61; assert_equal("Point", worksheet.user_inputs_x61); end
-  def test_user_inputs_y61; assert_equal("Point", worksheet.user_inputs_y61); end
-  def test_user_inputs_z61; assert_equal("Point", worksheet.user_inputs_z61); end
-  def test_user_inputs_aa61; assert_equal("Point", worksheet.user_inputs_aa61); end
-  def test_user_inputs_h62; assert_equal("Point", worksheet.user_inputs_h62); end
-  def test_user_inputs_i62; assert_equal("Point", worksheet.user_inputs_i62); end
-  def test_user_inputs_j62; assert_equal("Point", worksheet.user_inputs_j62); end
-  def test_user_inputs_k62; assert_equal("Point", worksheet.user_inputs_k62); end
-  def test_user_inputs_l62; assert_equal("Point", worksheet.user_inputs_l62); end
-  def test_user_inputs_m62; assert_equal("Point", worksheet.user_inputs_m62); end
-  def test_user_inputs_n62; assert_equal("Point", worksheet.user_inputs_n62); end
-  def test_user_inputs_o62; assert_equal("Point", worksheet.user_inputs_o62); end
-  def test_user_inputs_p62; assert_equal("Point", worksheet.user_inputs_p62); end
-  def test_user_inputs_q62; assert_equal("Point", worksheet.user_inputs_q62); end
-  def test_user_inputs_r62; assert_equal("Point", worksheet.user_inputs_r62); end
-  def test_user_inputs_s62; assert_equal("Point", worksheet.user_inputs_s62); end
-  def test_user_inputs_t62; assert_equal("Point", worksheet.user_inputs_t62); end
-  def test_user_inputs_u62; assert_equal("Point", worksheet.user_inputs_u62); end
-  def test_user_inputs_v62; assert_equal("Point", worksheet.user_inputs_v62); end
-  def test_user_inputs_w62; assert_equal("Point", worksheet.user_inputs_w62); end
-  def test_user_inputs_x62; assert_equal("Point", worksheet.user_inputs_x62); end
-  def test_user_inputs_y62; assert_equal("Point", worksheet.user_inputs_y62); end
-  def test_user_inputs_z62; assert_equal("Point", worksheet.user_inputs_z62); end
-  def test_user_inputs_aa62; assert_equal("Point", worksheet.user_inputs_aa62); end
-  def test_user_inputs_h63; assert_in_epsilon(2.8, worksheet.user_inputs_h63, 0.002); end
-  def test_user_inputs_i63; assert_in_epsilon(2.0, worksheet.user_inputs_i63, 0.002); end
-  def test_user_inputs_j63; assert_in_epsilon(1.9, worksheet.user_inputs_j63, 0.002); end
-  def test_user_inputs_k63; assert_in_epsilon(4.0, worksheet.user_inputs_k63, 0.002); end
-  def test_user_inputs_l63; assert_in_epsilon(1.9, worksheet.user_inputs_l63, 0.002); end
-  def test_user_inputs_m63; assert_in_epsilon(1.9, worksheet.user_inputs_m63, 0.002); end
-  def test_user_inputs_n63; assert_in_epsilon(1.9, worksheet.user_inputs_n63, 0.002); end
-  def test_user_inputs_o63; assert_in_epsilon(1.9, worksheet.user_inputs_o63, 0.002); end
-  def test_user_inputs_p63; assert_in_epsilon(4.0, worksheet.user_inputs_p63, 0.002); end
-  def test_user_inputs_q63; assert_in_epsilon(3.0, worksheet.user_inputs_q63, 0.002); end
-  def test_user_inputs_r63; assert_in_epsilon(2.0, worksheet.user_inputs_r63, 0.002); end
-  def test_user_inputs_s63; assert_in_delta(1.0, worksheet.user_inputs_s63, 0.002); end
-  def test_user_inputs_t63; assert_in_epsilon(3.0, worksheet.user_inputs_t63, 0.002); end
-  def test_user_inputs_u63; assert_in_epsilon(2.8, worksheet.user_inputs_u63, 0.002); end
-  def test_user_inputs_v63; assert_in_epsilon(2.8, worksheet.user_inputs_v63, 0.002); end
-  def test_user_inputs_w63; assert_in_epsilon(2.8, worksheet.user_inputs_w63, 0.002); end
-  def test_user_inputs_x63; assert_in_epsilon(2.8, worksheet.user_inputs_x63, 0.002); end
-  def test_user_inputs_y63; assert_in_epsilon(2.8, worksheet.user_inputs_y63, 0.002); end
-  def test_user_inputs_z63; assert_in_epsilon(2.8, worksheet.user_inputs_z63, 0.002); end
-  def test_user_inputs_aa63; assert_in_epsilon(1.9, worksheet.user_inputs_aa63, 0.002); end
-  def test_user_inputs_g7; assert_in_delta(0.0, (worksheet.user_inputs_g7||0), 0.002); end
-  def test_user_inputs_g8; assert_in_delta(0.0, (worksheet.user_inputs_g8||0), 0.002); end
-  def test_user_inputs_g9; assert_equal("Growth in travel demand continues in cities around the world, with global vehicle-kilometres travelled increasing at a rate of 2.65% annually and personal travel increasing by 180%. The global average travel per person will be similar to present day UK.", worksheet.user_inputs_g9); end
-  def test_user_inputs_g10; assert_equal("Freight tonne-kms remains closely tied to GDP and increase by roughly 140% in road, rail, and shipping, or 2.4% annually. ", worksheet.user_inputs_g10); end
-  def test_user_inputs_g11; assert_equal("Cities continue to grow in a sprawled pattern of development. Similar to the UK in 2011, 80% of pkm globally are by private vehicles. There is not a significant effort to add rail transport for freight or to improve logistics, and 65% of ground freight is by road, similar to Latin America in 2011. ", worksheet.user_inputs_g11); end
-  def test_user_inputs_g12; assert_equal("Many developed countries implement existing policies to improve efficiency while developing countries, even those with policies in place, see far less improvement in efficiency.  Most transport modes decreasing their energy intensity by 0.5% annually to roughly 8 lge/100km for LDVs and 26 lge/100km for HDVs.", worksheet.user_inputs_g12); end
-  def test_user_inputs_g13; assert_equal("With little support from policies or initiatives, the percentage of hybrid and electric vehicles remains low (5% and 2%)  for passenger cars, and  heavy duty vehicles (5% hybrid), and decreases for 2-3 wheelers (40% electric). Few new technologies are adopted for ships or airplanes.", worksheet.user_inputs_g13); end
-  def test_user_inputs_g14; assert_equal("In 2050 the average house floor area will be 0.0000000105 M ha per householdthe average services building floor area will be 0 M ha pre capita", worksheet.user_inputs_g14); end
-  def test_user_inputs_g15; assert_equal("In 2050 the average house inner temperature will be 19 ℃ and the services will be 21 ℃ in winter and 25 ℃, 24 ℃ in summer. The hot water demand will be 20088.75 l per y per capita", worksheet.user_inputs_g15); end
-  def test_user_inputs_g16; assert_equal("In 2050 the average household will own 1.1 refrigerator, 0.4 dishwasher, 0.9 clothes washers, 0.3 clothes dryers, 2 TV, 2.4 miscellaneous. And will own 35 bulbs.", worksheet.user_inputs_g16); end
-  def test_user_inputs_g17; assert_equal("In 2050 the average heat loss coefficient of buildings will be 10.2 GW/(M ha*℃), the thermal performance of building will improved by 32%", worksheet.user_inputs_g17); end
-  def test_user_inputs_g18; assert_equal("In 2050 the heating techology structure will be 2% solid boiler, 10% liquid boiler, 38% gas boiler, 3% heatpump, 8% electricity heater, 0% solar heater, 4% microchp, 36% districtheating. The cooling structure will be 89% aircondition, 4% chiller, 8% solar cooling. The cooking technology structure will be7% solid stoves, 12% liquid stoves, 45% gas stoves, 28% electricity stoves, 9% traditional biomass stoves. The lighting techonlogy structure will be 60% incandescents, 3% halogens, 35% CFLs, 3% LEDs. ", worksheet.user_inputs_g18); end
-  def test_user_inputs_g19; assert_equal("In 2050 the appliances efficiency will be refrigerator 0.00000008 GW improved by 20%, dishwasher 0.0000012 GW improved by 20%, clothwasher 0.00000056 GW improved by 20%, clothdryer 0.0000012 GW improved by 20%, TV 0.0000002 GW improved by 20%, miscellaneous 0.00000008 GW improved by 20%.", worksheet.user_inputs_g19); end
-  def test_user_inputs_g20; assert_equal("Demand for products leads to the production of 15.3Gt of materials, that is: 2.9Gt of crude steel, 0.2Gt of aluminium, 1.3Gt of chemicals, 0.9Gt of paper, 1.3Gt of timber, 2.3Gt of other materials, & 1.3Gt of cement", worksheet.user_inputs_g20); end
-  def test_user_inputs_g21; assert_equal("Products design leads to the reduction of -1% of materials in 2050", worksheet.user_inputs_g21); end
-  def test_user_inputs_g22; assert_equal("Specific emissions for Steel reduce/increase by -2%& for Aluminium  by of -2%", worksheet.user_inputs_g22); end
-  def test_user_inputs_g23; assert_equal("Specific emissions for chemicals reduce/increase by 1%", worksheet.user_inputs_g23); end
-  def test_user_inputs_g24; assert_equal("Specific emissions for Pulp & paper reduce/increase by -18%& for other materials by -18%", worksheet.user_inputs_g24); end
-  def test_user_inputs_g25; assert_equal("Specific emissions for Steel reduce/increase by -2%& for Aluminium  by of -2%", worksheet.user_inputs_g25); end
-  def test_user_inputs_g26; assert_equal("CCS enables a 0% CO2 reduction (excluding electricity emissions & counting biomass as fossil fuel) and an 0EJ electricity consumption increase", worksheet.user_inputs_g26); end
-  def test_user_inputs_g27; assert_equal("In 2050 out of total fossil energy supplied it is 45.454% of solid, 22.027% of liquid and 32.516% of gas power", worksheet.user_inputs_g27); end
-  def test_user_inputs_g28; assert_equal("In 2050 out of fossil energy supplied it is 18.72% by solid USC, 27.69% by solid SC, 53.59% by solid Sub-C, 52.4% by eff. liquid, 47.6% by ineff. liquid, 38.5% by OCGT and 61.5% by CCGT plant", worksheet.user_inputs_g28); end
-  def test_user_inputs_g29; assert_equal("In 2050 there is 110.8 GW of CCS installed power capacity", worksheet.user_inputs_g29); end
-  def test_user_inputs_g30; assert_equal("In 2050 there is 502.2 GW of installed nuclear power capacity", worksheet.user_inputs_g30); end
-  def test_user_inputs_g31; assert_equal("In 2050 there is 1390.2 GW of installed wind power capacity", worksheet.user_inputs_g31); end
-  def test_user_inputs_g32; assert_equal("In 2050 there is 1659.7 GW of installed hydro power capacity", worksheet.user_inputs_g32); end
-  def test_user_inputs_g33; assert_equal("In 2050 there is 43.6 GW of installed marine power capacity", worksheet.user_inputs_g33); end
-  def test_user_inputs_g34; assert_equal("In 2050 there is 479.6 GW of installed solar power capacity", worksheet.user_inputs_g34); end
-  def test_user_inputs_g35; assert_equal("In 2050 there is 68.8 GW of installed geothermal power capacity", worksheet.user_inputs_g35); end
-  def test_user_inputs_g36; assert_equal("In 2050 there is 277.5 GW of electricity storage capacity", worksheet.user_inputs_g36); end
-  def test_user_inputs_g37; assert_in_delta(0.0, (worksheet.user_inputs_g37||0), 0.002); end
-  def test_user_inputs_g38; assert_in_delta(0.0, (worksheet.user_inputs_g38||0), 0.002); end
-  def test_user_inputs_g39; assert_in_delta(0.0, (worksheet.user_inputs_g39||0), 0.002); end
-  def test_user_inputs_g41; assert_in_delta(0.0, (worksheet.user_inputs_g41||0), 0.002); end
-  def test_user_inputs_g42; assert_in_delta(0.0, (worksheet.user_inputs_g42||0), 0.002); end
-  def test_user_inputs_g43; assert_in_delta(0.0, (worksheet.user_inputs_g43||0), 0.002); end
-  def test_user_inputs_g44; assert_in_delta(0.0, (worksheet.user_inputs_g44||0), 0.002); end
-  def test_user_inputs_g45; assert_in_delta(0.0, (worksheet.user_inputs_g45||0), 0.002); end
-  def test_user_inputs_g46; assert_in_delta(0.0, (worksheet.user_inputs_g46||0), 0.002); end
-  def test_user_inputs_g47; assert_in_delta(0.0, (worksheet.user_inputs_g47||0), 0.002); end
-  def test_user_inputs_g48; assert_in_delta(0.0, (worksheet.user_inputs_g48||0), 0.002); end
-  def test_user_inputs_g49; assert_in_delta(0.0, (worksheet.user_inputs_g49||0), 0.002); end
-  def test_user_inputs_g50; assert_in_delta(0.0, (worksheet.user_inputs_g50||0), 0.002); end
-  def test_user_inputs_g51; assert_in_delta(0.0, (worksheet.user_inputs_g51||0), 0.002); end
-  def test_user_inputs_g52; assert_in_delta(0.0, (worksheet.user_inputs_g52||0), 0.002); end
-  def test_user_inputs_f7; assert_in_epsilon(3.0, worksheet.user_inputs_f7, 0.002); end
-  def test_user_inputs_f8; assert_in_epsilon(3.0, worksheet.user_inputs_f8, 0.002); end
-  def test_user_inputs_f9; assert_in_epsilon(4.0, worksheet.user_inputs_f9, 0.002); end
-  def test_user_inputs_f10; assert_in_epsilon(4.0, worksheet.user_inputs_f10, 0.002); end
-  def test_user_inputs_f11; assert_in_epsilon(4.0, worksheet.user_inputs_f11, 0.002); end
-  def test_user_inputs_f12; assert_in_epsilon(4.0, worksheet.user_inputs_f12, 0.002); end
-  def test_user_inputs_f13; assert_in_epsilon(4.0, worksheet.user_inputs_f13, 0.002); end
-  def test_user_inputs_f14; assert_in_epsilon(4.0, worksheet.user_inputs_f14, 0.002); end
-  def test_user_inputs_f15; assert_in_epsilon(4.0, worksheet.user_inputs_f15, 0.002); end
-  def test_user_inputs_f16; assert_in_epsilon(4.0, worksheet.user_inputs_f16, 0.002); end
-  def test_user_inputs_f17; assert_in_epsilon(4.0, worksheet.user_inputs_f17, 0.002); end
-  def test_user_inputs_f18; assert_in_epsilon(4.0, worksheet.user_inputs_f18, 0.002); end
-  def test_user_inputs_f19; assert_in_epsilon(4.0, worksheet.user_inputs_f19, 0.002); end
-  def test_user_inputs_f20; assert_in_epsilon(4.0, worksheet.user_inputs_f20, 0.002); end
-  def test_user_inputs_f21; assert_in_epsilon(4.0, worksheet.user_inputs_f21, 0.002); end
-  def test_user_inputs_f22; assert_in_epsilon(4.0, worksheet.user_inputs_f22, 0.002); end
-  def test_user_inputs_f23; assert_in_epsilon(4.0, worksheet.user_inputs_f23, 0.002); end
-  def test_user_inputs_f24; assert_in_epsilon(4.0, worksheet.user_inputs_f24, 0.002); end
-  def test_user_inputs_f25; assert_in_epsilon(4.0, worksheet.user_inputs_f25, 0.002); end
-  def test_user_inputs_f26; assert_in_epsilon(4.0, worksheet.user_inputs_f26, 0.002); end
-  def test_user_inputs_f27; assert_in_epsilon(4.0, worksheet.user_inputs_f27, 0.002); end
-  def test_user_inputs_f28; assert_in_epsilon(4.0, worksheet.user_inputs_f28, 0.002); end
-  def test_user_inputs_f29; assert_in_epsilon(4.0, worksheet.user_inputs_f29, 0.002); end
-  def test_user_inputs_f30; assert_in_epsilon(4.0, worksheet.user_inputs_f30, 0.002); end
-  def test_user_inputs_f31; assert_in_epsilon(4.0, worksheet.user_inputs_f31, 0.002); end
-  def test_user_inputs_f32; assert_in_epsilon(4.0, worksheet.user_inputs_f32, 0.002); end
-  def test_user_inputs_f33; assert_in_epsilon(4.0, worksheet.user_inputs_f33, 0.002); end
-  def test_user_inputs_f34; assert_in_epsilon(4.0, worksheet.user_inputs_f34, 0.002); end
-  def test_user_inputs_f35; assert_in_epsilon(4.0, worksheet.user_inputs_f35, 0.002); end
-  def test_user_inputs_f36; assert_in_epsilon(4.0, worksheet.user_inputs_f36, 0.002); end
-  def test_user_inputs_f37; assert_in_epsilon(4.0, worksheet.user_inputs_f37, 0.002); end
-  def test_user_inputs_f38; assert_in_epsilon(4.0, worksheet.user_inputs_f38, 0.002); end
-  def test_user_inputs_f39; assert_in_epsilon(4.0, worksheet.user_inputs_f39, 0.002); end
-  def test_user_inputs_f40; assert_in_epsilon(4.0, worksheet.user_inputs_f40, 0.002); end
-  def test_user_inputs_f41; assert_in_epsilon(4.0, worksheet.user_inputs_f41, 0.002); end
-  def test_user_inputs_f42; assert_in_epsilon(4.0, worksheet.user_inputs_f42, 0.002); end
-  def test_user_inputs_f43; assert_in_epsilon(4.0, worksheet.user_inputs_f43, 0.002); end
-  def test_user_inputs_f44; assert_in_epsilon(4.0, worksheet.user_inputs_f44, 0.002); end
-  def test_user_inputs_f45; assert_in_epsilon(4.0, worksheet.user_inputs_f45, 0.002); end
-  def test_user_inputs_f46; assert_in_epsilon(4.0, worksheet.user_inputs_f46, 0.002); end
-  def test_user_inputs_f47; assert_in_epsilon(4.0, worksheet.user_inputs_f47, 0.002); end
-  def test_user_inputs_f48; assert_in_epsilon(4.0, worksheet.user_inputs_f48, 0.002); end
-  def test_user_inputs_f49; assert_in_epsilon(4.0, worksheet.user_inputs_f49, 0.002); end
-  def test_user_inputs_f50; assert_in_epsilon(4.0, worksheet.user_inputs_f50, 0.002); end
-  def test_user_inputs_f51; assert_in_epsilon(4.0, worksheet.user_inputs_f51, 0.002); end
-  def test_user_inputs_f52; assert_equal("B", worksheet.user_inputs_f52); end
-  def test_user_inputs_d7; assert_equal("Global population", worksheet.user_inputs_d7); end
-  def test_user_inputs_d8; assert_equal("Urbanisation", worksheet.user_inputs_d8); end
-  def test_user_inputs_d9; assert_equal("Passenger distance", worksheet.user_inputs_d9); end
-  def test_user_inputs_d10; assert_equal("Freight distance", worksheet.user_inputs_d10); end
-  def test_user_inputs_d11; assert_equal("Mode", worksheet.user_inputs_d11); end
-  def test_user_inputs_d12; assert_equal("Efficiency", worksheet.user_inputs_d12); end
-  def test_user_inputs_d13; assert_equal("Electric and hydrogen", worksheet.user_inputs_d13); end
-  def test_user_inputs_d14; assert_equal("Building size", worksheet.user_inputs_d14); end
-  def test_user_inputs_d15; assert_equal("Temperature & hot water use", worksheet.user_inputs_d15); end
-  def test_user_inputs_d16; assert_equal("Lighting, cooking & appliance use", worksheet.user_inputs_d16); end
-  def test_user_inputs_d17; assert_equal("Building insulation", worksheet.user_inputs_d17); end
-  def test_user_inputs_d18; assert_equal("Temperature, cooking & lighting technology", worksheet.user_inputs_d18); end
-  def test_user_inputs_d19; assert_equal("Appliance efficiency", worksheet.user_inputs_d19); end
-  def test_user_inputs_d20; assert_equal("Product lifespan & demand", worksheet.user_inputs_d20); end
-  def test_user_inputs_d21; assert_equal("Design, material switch & recycling", worksheet.user_inputs_d21); end
-  def test_user_inputs_d22; assert_equal("Iron, steel & aluminium", worksheet.user_inputs_d22); end
-  def test_user_inputs_d23; assert_equal("Chemicals", worksheet.user_inputs_d23); end
-  def test_user_inputs_d24; assert_equal("Paper and other", worksheet.user_inputs_d24); end
-  def test_user_inputs_d25; assert_equal("Cement", worksheet.user_inputs_d25); end
-  def test_user_inputs_d26; assert_equal("Carbon capture and storage (ind.)", worksheet.user_inputs_d26); end
-  def test_user_inputs_d27; assert_equal("Coal (incl. biomass) / oil / gas", worksheet.user_inputs_d27); end
-  def test_user_inputs_d28; assert_equal("Fossil fuel efficiency", worksheet.user_inputs_d28); end
-  def test_user_inputs_d29; assert_equal("Carbon capture and storage (power)", worksheet.user_inputs_d29); end
-  def test_user_inputs_d30; assert_equal("Nuclear", worksheet.user_inputs_d30); end
-  def test_user_inputs_d31; assert_equal("Wind", worksheet.user_inputs_d31); end
-  def test_user_inputs_d32; assert_equal("Hydroelectric", worksheet.user_inputs_d32); end
-  def test_user_inputs_d33; assert_equal("Marine", worksheet.user_inputs_d33); end
-  def test_user_inputs_d34; assert_equal("Solar", worksheet.user_inputs_d34); end
-  def test_user_inputs_d35; assert_equal("Geothermal", worksheet.user_inputs_d35); end
-  def test_user_inputs_d36; assert_equal("Storage and demand shifting", worksheet.user_inputs_d36); end
-  def test_user_inputs_d37; assert_equal("Calories consumed", worksheet.user_inputs_d37); end
-  def test_user_inputs_d38; assert_equal("Meat consumed", worksheet.user_inputs_d38); end
-  def test_user_inputs_d39; assert_equal("Crop yields", worksheet.user_inputs_d39); end
-  def test_user_inputs_d40; assert_equal("Land-use efficiency ", worksheet.user_inputs_d40); end
-  def test_user_inputs_d41; assert_equal("Livestock yields", worksheet.user_inputs_d41); end
-  def test_user_inputs_d42; assert_equal("Bioenergy yields", worksheet.user_inputs_d42); end
-  def test_user_inputs_d43; assert_equal("Surplus land (forest & bioenergy) ", worksheet.user_inputs_d43); end
-  def test_user_inputs_d44; assert_equal("Biochar", worksheet.user_inputs_d44); end
-  def test_user_inputs_d45; assert_equal("Direct air capture", worksheet.user_inputs_d45); end
-  def test_user_inputs_d46; assert_equal("Ocean fertilisation", worksheet.user_inputs_d46); end
-  def test_user_inputs_d47; assert_equal("Enhanced weathering (ocean)", worksheet.user_inputs_d47); end
-  def test_user_inputs_d48; assert_equal("Enhanced weathering (terrestial)", worksheet.user_inputs_d48); end
-  def test_user_inputs_d49; assert_equal("Wastes and residues", worksheet.user_inputs_d49); end
-  def test_user_inputs_d50; assert_equal("Emissions trajectory", worksheet.user_inputs_d50); end
-  def test_user_inputs_d51; assert_equal("Atmospheric CO2 fraction", worksheet.user_inputs_d51); end
-  def test_user_inputs_d52; assert_equal("Confidence in climate models", worksheet.user_inputs_d52); end
-  def test_user_inputs_d53; assert_equal("High cost", worksheet.user_inputs_d53); end
-  def test_user_inputs_d54; assert_equal("Point cost", worksheet.user_inputs_d54); end
-  def test_user_inputs_d55; assert_equal("Low cost", worksheet.user_inputs_d55); end
   def test_detailed_lever_guides_b5; assert_equal("Lever", worksheet.detailed_lever_guides_b5); end
   def test_detailed_lever_guides_c5; assert_equal("Code", worksheet.detailed_lever_guides_c5); end
   def test_detailed_lever_guides_d5; assert_equal("Situation today", worksheet.detailed_lever_guides_d5); end
@@ -4714,13 +4714,13 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_detailed_lever_guides_b17; assert_equal("Temperature, cooking & lighting technology", worksheet.detailed_lever_guides_b17); end
   def test_detailed_lever_guides_d17; assert_equal("In 2011 the heating techology structure will be 2% solid boiler, 14% liquid boiler, 55% gas boiler, 2% heatpump, 8% electricity heater, 0% solar heater, 2% microchp, 17% districtheating. The cooling structure will be 100% aircondition, 0% chiller, 0% solar cooling. The cooking technology structure will be8% solid stoves, 15% liquid stoves, 40% gas stoves, 25% electricity stoves, 12% traditional biomass stoves. The lighting techonlogy structure will be 72% incandescents, 3% halogens, 25% CFLs, 0% LEDs. ", worksheet.detailed_lever_guides_d17); end
   def test_detailed_lever_guides_e17; assert_equal("In 2050 the heating techology structure will be 2% solid boiler, 10% liquid boiler, 38% gas boiler, 3% heatpump, 8% electricity heater, 0% solar heater, 4% microchp, 36% districtheating. The cooling structure will be 89% aircondition, 4% chiller, 8% solar cooling. The cooking technology structure will be7% solid stoves, 12% liquid stoves, 45% gas stoves, 28% electricity stoves, 9% traditional biomass stoves. The lighting techonlogy structure will be 60% incandescents, 3% halogens, 35% CFLs, 3% LEDs. ", worksheet.detailed_lever_guides_e17); end
-  def test_detailed_lever_guides_h17; assert_equal("By 2050:\r\nHEATING: 2% heat pumps, 8% electric heaters, 17% district heating and 0% solar heaters. The rest will be from boilers and micro combined heat and power.\r\nCOOLING: 93% air conditioners, 2% chillers, 5% solar cooling. \r\nCOOKING: 25% by electric stoves.\r\nLIGHTING: 0% LEDs. ", worksheet.detailed_lever_guides_h17); end
+  def test_detailed_lever_guides_h17; assert_equal("By 2050:HEATING: 2% heat pumps, 8% electric heaters, 17% district heating and 0% solar heaters. The rest will be from boilers and micro combined heat and power.COOLING: 93% air conditioners, 2% chillers, 5% solar cooling. COOKING: 25% by electric stoves.LIGHTING: 0% LEDs. ", worksheet.detailed_lever_guides_h17); end
   def test_detailed_lever_guides_i17; assert_equal("In 2050 the heating techology structure will be 2% solid boiler, 14% liquid boiler, 55% gas boiler, 2% heatpump, 8% electricity heater, 0% solar heater, 2% microchp, 17% districtheating. The cooling structure will be 93% aircondition, 2% chiller, 5% solar cooling. The cooking technology structure will be8% solid stoves, 15% liquid stoves, 40% gas stoves, 25% electricity stoves, 12% traditional biomass stoves. The lighting techonlogy structure will be 72% incandescents, 3% halogens, 25% CFLs, 0% LEDs. ", worksheet.detailed_lever_guides_i17); end
-  def test_detailed_lever_guides_j17; assert_equal("By 2050:\r\nHEATING: 4% heat pumps, 8% electric heaters, 1% solar heater, 5% microchp, 55% district heating. \r\nCOOLING 85% aircondition, 5% chiller, 10% solar cooling. COOKING: 30% electric stoves. \r\nLIGHTING 48% incandescents, 2% halogens, 45% CFLs, 5% LEDs. ", worksheet.detailed_lever_guides_j17); end
+  def test_detailed_lever_guides_j17; assert_equal("By 2050:HEATING: 4% heat pumps, 8% electric heaters, 1% solar heater, 5% microchp, 55% district heating. COOLING 85% aircondition, 5% chiller, 10% solar cooling. COOKING: 30% electric stoves. LIGHTING 48% incandescents, 2% halogens, 45% CFLs, 5% LEDs. ", worksheet.detailed_lever_guides_j17); end
   def test_detailed_lever_guides_k17; assert_equal("In 2050 the heating techology structure will be 2% solid boiler, 6% liquid boiler, 20% gas boiler, 4% heatpump, 8% electricity heater, 1% solar heater, 5% microchp, 55% districtheating. The cooling structure will be 85% aircondition, 5% chiller, 10% solar cooling. The cooking technology structure will be6% solid stoves, 8% liquid stoves, 50% gas stoves, 30% electricity stoves, 6% traditional biomass stoves. The lighting techonlogy structure will be 48% incandescents, 2% halogens, 45% CFLs, 5% LEDs. ", worksheet.detailed_lever_guides_k17); end
-  def test_detailed_lever_guides_l17; assert_equal("By 2050:\r\nHEATING 15% heat pumps, 10% electric heater, 1% solar heater, 10% microchp, 10% district heating. \r\nCOOLING 75% aircondition, 10% chiller, 15% solar cooling. \r\nCOOKING: 45% electric stoves, \r\nLIGHTING:  18% incandescents, 2% halogens, 45% CFLs, 35% LEDs. ", worksheet.detailed_lever_guides_l17); end
+  def test_detailed_lever_guides_l17; assert_equal("By 2050:HEATING 15% heat pumps, 10% electric heater, 1% solar heater, 10% microchp, 10% district heating. COOLING 75% aircondition, 10% chiller, 15% solar cooling. COOKING: 45% electric stoves, LIGHTING:  18% incandescents, 2% halogens, 45% CFLs, 35% LEDs. ", worksheet.detailed_lever_guides_l17); end
   def test_detailed_lever_guides_m17; assert_equal("In 2050 the heating techology structure will be 1% solid boiler, 3% liquid boiler, 50% gas boiler, 15% heatpump, 10% electricity heater, 1% solar heater, 10% microchp, 10% districtheating. The cooling structure will be 75% aircondition, 10% chiller, 15% solar cooling. The cooking technology structure will be4% solid stoves, 3% liquid stoves, 45% gas stoves, 45% electricity stoves, 3% traditional biomass stoves. The lighting techonlogy structure will be 18% incandescents, 2% halogens, 45% CFLs, 35% LEDs. ", worksheet.detailed_lever_guides_m17); end
-  def test_detailed_lever_guides_n17; assert_equal("By 2050:\r\nHEATING:40% heatpump, 10% electric heater, 10% solar heater, 11% microchp, 8% districtheating. \r\nCOOLING: 65% aircondition, 15% chiller, 20% solar cooling. \r\nCOOKING: 57% electric stoves \r\nLIGHTING 0% incandescents, 1% halogens, 34% CFLs, 65% LEDs. ", worksheet.detailed_lever_guides_n17); end
+  def test_detailed_lever_guides_n17; assert_equal("By 2050:HEATING:40% heatpump, 10% electric heater, 10% solar heater, 11% microchp, 8% districtheating. COOLING: 65% aircondition, 15% chiller, 20% solar cooling. COOKING: 57% electric stoves LIGHTING 0% incandescents, 1% halogens, 34% CFLs, 65% LEDs. ", worksheet.detailed_lever_guides_n17); end
   def test_detailed_lever_guides_o17; assert_equal("In 2050 the heating techology structure will be 0% solid boiler, 1% liquid boiler, 20% gas boiler, 40% heatpump, 10% electricity heater, 10% solar heater, 11% microchp, 8% districtheating. The cooling structure will be 65% aircondition, 15% chiller, 20% solar cooling. The cooking technology structure will be2% solid stoves, 1% liquid stoves, 40% gas stoves, 57% electricity stoves, 1% traditional biomass stoves. The lighting technology structure will be 0% incandescents, 1% halogens, 34% CFLs, 65% LEDs. ", worksheet.detailed_lever_guides_o17); end
   def test_detailed_lever_guides_b18; assert_equal("Appliance efficiency", worksheet.detailed_lever_guides_b18); end
   def test_detailed_lever_guides_d18; assert_equal("In 2011, the rate at which appliances used energy was on average: refrigerator 100W, dishwasher 1500W, clothwasher 700W, clothes dryer 1500W, TV 250W, miscellaneous appliances 100W", worksheet.detailed_lever_guides_d18); end
@@ -4739,70 +4739,70 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_detailed_lever_guides_f19; assert_equal("Demand for these products leads to the production of 17,5Gt of materials, that is: 3,1Gt of crude steel, 0,2Gt of aluminium, 1,4Gt of chemicals, 0,9Gt of paper, 1,4Gt of timber, 2,4Gt of other materials, & 1,4Gt of cement", worksheet.detailed_lever_guides_f19); end
   def test_detailed_lever_guides_g19; assert_equal("Product demand is defined by the activity in the other sectors whenever possible (e.g. amount of buildings, infrastructure & transport demand are defined in their respective sectors).Product demand is defined by this lever when there is no link with the activity in the other sectors (e.g. packaging & paper demand are defined by this lever)This lever also specifies the lifetime of all the consumer products (and therefore the need for new products to answer a specified stock requirement at a given time).", worksheet.detailed_lever_guides_g19); end
   def test_detailed_lever_guides_h19; assert_equal("Demand for consumers goods per head increases, with product demand correlated to GDP projection. Buildings, infrastructure & transport product demand are defined by the other sectors and transport lifespan is unchanged from 2011 levels. There is no development in product reuse nor recycling.", worksheet.detailed_lever_guides_h19); end
-  def test_detailed_lever_guides_i19; assert_equal("Product demand correlated to historical projections and GDP projection.  Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods increase (paper+10%, metals goods +20%, packaging +10%).\r\nThere is no development in product reuse nor recycling (product life time of cars is 12.5y, of TV 5y, of appliances 10y).", worksheet.detailed_lever_guides_i19); end
+  def test_detailed_lever_guides_i19; assert_equal("Product demand correlated to historical projections and GDP projection.  Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods increase (paper+10%, metals goods +20%, packaging +10%).There is no development in product reuse nor recycling (product life time of cars is 12.5y, of TV 5y, of appliances 10y).", worksheet.detailed_lever_guides_i19); end
   def test_detailed_lever_guides_j19; assert_equal("Consumer product demand per head reaches worldwide current EU levels then flattens. Buildings, infrastructure & transport product demand are defined by the other sectors and transport lifespan incrreases 10% from 2011 levels by 2050. Consumers goods stabilize.Moderate development in product reuse and recycling", worksheet.detailed_lever_guides_j19); end
-  def test_detailed_lever_guides_k19; assert_equal("Consumer product demand  reaches worldwide current EU levels then flattens. Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods stabilize (paper+0%, metals goods +10%, packaging +0%).\r\nModerate development in product reuse and recycling  (product life time of cars is  13.7y, of TV  7y, of appliances  15y).", worksheet.detailed_lever_guides_k19); end
+  def test_detailed_lever_guides_k19; assert_equal("Consumer product demand  reaches worldwide current EU levels then flattens. Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods stabilize (paper+0%, metals goods +10%, packaging +0%).Moderate development in product reuse and recycling  (product life time of cars is  13.7y, of TV  7y, of appliances  15y).", worksheet.detailed_lever_guides_k19); end
   def test_detailed_lever_guides_l19; assert_equal("Consumer product demand remains constant (increases in some parts of the  world balances decreases in other). Buildings, infrastructure & transport product demand are defined by the other sectors and transport technology lifespan increases by 20% by 2050 from 2011 levels. Significant development in product reuse and recycling", worksheet.detailed_lever_guides_l19); end
-  def test_detailed_lever_guides_m19; assert_equal("Consumers  product demand remains constant (increases in some parts of the  world balances decreases in other). Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods decrease (paper-10%, metals goods -10%, packaging -10%).\r\nSignificant development in product reuse and recycling   (product life time of cars is 15y, of TV  10y, of appliances  20y).", worksheet.detailed_lever_guides_m19); end
-  def test_detailed_lever_guides_n19; assert_equal("Consumers buy fewer goods (e.g. they are higher value but less resource intensive). Buildings, infrastructure & transport product demand are defined by the other sectors and transport technology lifespan increases 30% from 2011 levels by 2050. Consumers goods decrease\r\nProduct demand not correlated to GDP increase.", worksheet.detailed_lever_guides_n19); end
-  def test_detailed_lever_guides_o19; assert_equal("Consumers buy fewer goods (e.g. they are higher value but less resource intensive). Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods decrease (paper-20%, metals goods -20%, packaging -20%).\r\nProduct demand not correlated to GDP increase  (product life time of cars is 16.2y, of TV 15y, of appliances 30y).", worksheet.detailed_lever_guides_o19); end
+  def test_detailed_lever_guides_m19; assert_equal("Consumers  product demand remains constant (increases in some parts of the  world balances decreases in other). Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods decrease (paper-10%, metals goods -10%, packaging -10%).Significant development in product reuse and recycling   (product life time of cars is 15y, of TV  10y, of appliances  20y).", worksheet.detailed_lever_guides_m19); end
+  def test_detailed_lever_guides_n19; assert_equal("Consumers buy fewer goods (e.g. they are higher value but less resource intensive). Buildings, infrastructure & transport product demand are defined by the other sectors and transport technology lifespan increases 30% from 2011 levels by 2050. Consumers goods decreaseProduct demand not correlated to GDP increase.", worksheet.detailed_lever_guides_n19); end
+  def test_detailed_lever_guides_o19; assert_equal("Consumers buy fewer goods (e.g. they are higher value but less resource intensive). Buildings, infrastructure & transport product demand are defined by the other sectors. Consumers goods decrease (paper-20%, metals goods -20%, packaging -20%).Product demand not correlated to GDP increase  (product life time of cars is 16.2y, of TV 15y, of appliances 30y).", worksheet.detailed_lever_guides_o19); end
   def test_detailed_lever_guides_b20; assert_equal("Design, material switch & recycling", worksheet.detailed_lever_guides_b20); end
   def test_detailed_lever_guides_d20; assert_equal("Demand for products leads to the production of 8.4Gt of materials", worksheet.detailed_lever_guides_d20); end
   def test_detailed_lever_guides_e20; assert_equal("Products design leads to the reduction of -1% of materials in 2050", worksheet.detailed_lever_guides_e20); end
   def test_detailed_lever_guides_g20; assert_equal("/", worksheet.detailed_lever_guides_g20); end
   def test_detailed_lever_guides_h20; assert_equal("No product & material design improvements which would lead to less materials to make the products.No switch to materials less CO2 intensive over the product lifetime.Stable level of recycled products & materials (slight increase in chemicals, decrease in aluminium).", worksheet.detailed_lever_guides_h20); end
-  def test_detailed_lever_guides_i20; assert_equal("No product & material design improvements (leading to less materials to make products by 2050).\r\nNo switch to materials which are less CO2 intensive over the product lifetime.\r\nContinued use of recycled products/materials (36% recycled steel, 8% non-recycled chemicals  becomes recycled, -88% non-recycled aluminium becomes recycled).", worksheet.detailed_lever_guides_i20); end
-  def test_detailed_lever_guides_j20; assert_equal("Some product & material design improvements (-10% less materials to make the products).\r\nMinor switches to material which are less CO2 intensive over the product lifetime.\r\nMinor increase in non recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_j20); end
-  def test_detailed_lever_guides_k20; assert_equal("Some product & material design improvements (-10% less materials to make the products).\r\nMinor material switches (5% steel to timber in buildings, 5% cement to timber in buildings, 5% steel to aluminium in cars & trucks, 5% steel to carbon fibres(plastics) in cars & trucks, 1,25% cement to insulation materials (plastics) in buildings & infrastructuress).\r\nMinor increase by 2050 in non recycled which will get recycled (44% Steel, 16% Chemicals, -77% Aluminium, 9% Paper).", worksheet.detailed_lever_guides_k20); end
-  def test_detailed_lever_guides_l20; assert_equal("Important product & material design investments (-20% less material to make products by 2050).\r\nSignificant switches to materials which are less CO2 intensive over the product lifetime.\r\nSignificant increase in non recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_l20); end
-  def test_detailed_lever_guides_m20; assert_equal("Important product & material design investments (-20% less material to make the products).\r\nSignificant material switches (10% steel to timber in buildings, 10% cement to timber in buildings, 10% steel to aluminium in cars & trucks, 10% steel to carbon fibres(plastics) in cars & trucks, 2,5% cement to insulation materials (plastics) in buildings & infrastructures).\r\nSignificant increase in non recycled which will get recycled (56% Steel, 24% Chemicals, -67% Aluminium, 24% Paper).", worksheet.detailed_lever_guides_m20); end
-  def test_detailed_lever_guides_n20; assert_equal("Very important product & material design investments (-30% less material to make products by 2050).\r\nImportant material switches.\r\nImportant increase in non-recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_n20); end
-  def test_detailed_lever_guides_o20; assert_equal("Very important product & material design investments (-30% less material to make products by 2050).\r\nImportant material switches (20% steel to timber in buildings, 10% cement to timber in buildings, 20% steel to aluminium in cars and trucks, 20% steel to carbon fibres(plastics) in cars & trucks, 5% cement to insulation materials (plastics) in buildings & infrastructures).\r\nImportant increase in non-recycled which will get recycled (75% Steel, 32% Chemicals, -56% Aluminium, 39% Paper).", worksheet.detailed_lever_guides_o20); end
+  def test_detailed_lever_guides_i20; assert_equal("No product & material design improvements (leading to less materials to make products by 2050).No switch to materials which are less CO2 intensive over the product lifetime.Continued use of recycled products/materials (36% recycled steel, 8% non-recycled chemicals  becomes recycled, -88% non-recycled aluminium becomes recycled).", worksheet.detailed_lever_guides_i20); end
+  def test_detailed_lever_guides_j20; assert_equal("Some product & material design improvements (-10% less materials to make the products).Minor switches to material which are less CO2 intensive over the product lifetime.Minor increase in non recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_j20); end
+  def test_detailed_lever_guides_k20; assert_equal("Some product & material design improvements (-10% less materials to make the products).Minor material switches (5% steel to timber in buildings, 5% cement to timber in buildings, 5% steel to aluminium in cars & trucks, 5% steel to carbon fibres(plastics) in cars & trucks, 1,25% cement to insulation materials (plastics) in buildings & infrastructuress).Minor increase by 2050 in non recycled which will get recycled (44% Steel, 16% Chemicals, -77% Aluminium, 9% Paper).", worksheet.detailed_lever_guides_k20); end
+  def test_detailed_lever_guides_l20; assert_equal("Important product & material design investments (-20% less material to make products by 2050).Significant switches to materials which are less CO2 intensive over the product lifetime.Significant increase in non recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_l20); end
+  def test_detailed_lever_guides_m20; assert_equal("Important product & material design investments (-20% less material to make the products).Significant material switches (10% steel to timber in buildings, 10% cement to timber in buildings, 10% steel to aluminium in cars & trucks, 10% steel to carbon fibres(plastics) in cars & trucks, 2,5% cement to insulation materials (plastics) in buildings & infrastructures).Significant increase in non recycled which will get recycled (56% Steel, 24% Chemicals, -67% Aluminium, 24% Paper).", worksheet.detailed_lever_guides_m20); end
+  def test_detailed_lever_guides_n20; assert_equal("Very important product & material design investments (-30% less material to make products by 2050).Important material switches.Important increase in non-recycled which will get recycled (except aluminium which decreases).", worksheet.detailed_lever_guides_n20); end
+  def test_detailed_lever_guides_o20; assert_equal("Very important product & material design investments (-30% less material to make products by 2050).Important material switches (20% steel to timber in buildings, 10% cement to timber in buildings, 20% steel to aluminium in cars and trucks, 20% steel to carbon fibres(plastics) in cars & trucks, 5% cement to insulation materials (plastics) in buildings & infrastructures).Important increase in non-recycled which will get recycled (75% Steel, 32% Chemicals, -56% Aluminium, 39% Paper).", worksheet.detailed_lever_guides_o20); end
   def test_detailed_lever_guides_b21; assert_equal("Iron, steel & aluminium", worksheet.detailed_lever_guides_b21); end
   def test_detailed_lever_guides_d21; assert_equal("Specific emissions (GtCO2 per Gt of materials) for Steel of 2& for Aluminium of 0.9.", worksheet.detailed_lever_guides_d21); end
   def test_detailed_lever_guides_e21; assert_equal("Specific emissions for Steel reduce/increase by -2%& for Aluminium  by of -2%", worksheet.detailed_lever_guides_e21); end
   def test_detailed_lever_guides_g21; assert_equal("/", worksheet.detailed_lever_guides_g21); end
   def test_detailed_lever_guides_h21; assert_equal("Continued use of  current processes & technologies.Continued use of fuels.Minimal improvements in Energy efficiency.Emissions per ton increase by 0% for steel & 0% for aluminium.", worksheet.detailed_lever_guides_h21); end
-  def test_detailed_lever_guides_i21; assert_equal("Continued use of  current processes & technologies: Steel (70% Classic Blast Oxygen Furnaces (using 21% of scrap), 0% Hisarna, 5% electric arc furnace DRI (using 9% of scrap), 25% electric arc furnace scrap(using 70% of scrap)), Aluminium (0% decrease in consumption per ton for primary aluminium and 0% for Secondary aluminium) \r\nContinued use of fuels\r\nMinimal improvements in Energy efficiency (no additional CHP (none))\r\nEmissions per ton increase by 0% for steel & by 0% for aluminium (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i21); end
+  def test_detailed_lever_guides_i21; assert_equal("Continued use of  current processes & technologies: Steel (70% Classic Blast Oxygen Furnaces (using 21% of scrap), 0% Hisarna, 5% electric arc furnace DRI (using 9% of scrap), 25% electric arc furnace scrap(using 70% of scrap)), Aluminium (0% decrease in consumption per ton for primary aluminium and 0% for Secondary aluminium) Continued use of fuelsMinimal improvements in Energy efficiency (no additional CHP (none))Emissions per ton increase by 0% for steel & by 0% for aluminium (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i21); end
   def test_detailed_lever_guides_j21; assert_equal("Moderate decrease in classic blast oxygen furnaces, increase in Electric Arc furnaces and new oxygen furnace technologies. Moderate improvements in aluminium.Equivalent to the development of recent programs for some sectors.Emissions per ton decrease by 2% for steel and by 3% for aluminium.", worksheet.detailed_lever_guides_j21); end
-  def test_detailed_lever_guides_k21; assert_equal("Moderate process & technology change in Steel (61% Classic Blast Oxygen Furnaces (using 19% of scrap), 2% Hisarna (using 0.2% of scrap), 6% EAF DRI (using 10% of scrap), 31% EAF scrap(using 71% of scrap)) and in aluminium  (5% decrease in consumption per ton for primary aluminium and 5% for Secondary aluminium)\r\nSome fuel switches in Blast Oxygen furnaces (2% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (2% coal to biomass potential), none in secondary aluminium.\r\nSignificant energy efficiency (5% in Blast oxygen furnaces, none in other technologies & no additional CHP development) \r\nEmissions per ton decrease by 2% for steel & by 3% for aluminium (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k21); end
+  def test_detailed_lever_guides_k21; assert_equal("Moderate process & technology change in Steel (61% Classic Blast Oxygen Furnaces (using 19% of scrap), 2% Hisarna (using 0.2% of scrap), 6% EAF DRI (using 10% of scrap), 31% EAF scrap(using 71% of scrap)) and in aluminium  (5% decrease in consumption per ton for primary aluminium and 5% for Secondary aluminium)Some fuel switches in Blast Oxygen furnaces (2% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (2% coal to biomass potential), none in secondary aluminium.Significant energy efficiency (5% in Blast oxygen furnaces, none in other technologies & no additional CHP development) Emissions per ton decrease by 2% for steel & by 3% for aluminium (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k21); end
   def test_detailed_lever_guides_l21; assert_equal("Significant technology progress, fuel switch towards biomass & electrification)  & energy efficiency requiring important financial investments.Emissions per ton decrease by 1% for steel & by 7% for aluminium.", worksheet.detailed_lever_guides_l21); end
-  def test_detailed_lever_guides_m21; assert_equal("Significant technology progress in Steel (48% Classic Blast Oxygen Furnaces (using 18% of scrap), 5% Hisarna (using 1% of scrap), 8% EAF DRI (using 9% of scrap), 40% EAF scrap(using 72% of scrap)) and in aluminium (10% decrease in consumption per ton for primary aluminium and 10% for Secondary aluminium).\r\nImportant fuel switches in Blast Oxygen furnaces (3% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (3% coal to biomass potential), none in secondary aluminium.\r\nSignificant energy efficiency (7% in Blast oxygen furnaces, none in other technologies & no additional CHP development) \r\nEmissions per ton decrease by 1% for steel & by 7% for aluminium  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m21); end
+  def test_detailed_lever_guides_m21; assert_equal("Significant technology progress in Steel (48% Classic Blast Oxygen Furnaces (using 18% of scrap), 5% Hisarna (using 1% of scrap), 8% EAF DRI (using 9% of scrap), 40% EAF scrap(using 72% of scrap)) and in aluminium (10% decrease in consumption per ton for primary aluminium and 10% for Secondary aluminium).Important fuel switches in Blast Oxygen furnaces (3% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (3% coal to biomass potential), none in secondary aluminium.Significant energy efficiency (7% in Blast oxygen furnaces, none in other technologies & no additional CHP development) Emissions per ton decrease by 1% for steel & by 7% for aluminium  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m21); end
   def test_detailed_lever_guides_n21; assert_equal("Very important technology progress, fuel switch (towards biomass & electrification) & energy efficiency close to technical and physical constraints (but limited breakthrough technologies).Emissions per ton decrease by 1% for steel& by 13% for aluminium.", worksheet.detailed_lever_guides_n21); end
-  def test_detailed_lever_guides_o21; assert_equal("Very important technology progress (25% Classic Blast Oxygen Furnaces (using 13% of scrap), 10% Hisarna (using 4% of scrap), 10% EAF DRI (using 10% of scrap), 55% EAF scrap(using 73% of scrap)) and in aluminium (20% decrease in consumption per ton for primary aluminium and 20% for Secondary aluminium)\r\nMajor fuel switches in Blast Oxygen furnaces (5% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (5% coal to biomass potential), none in secondary aluminium.\r\nEnergy efficiency close to technical & physical constraints (10% in Blast oxygen furnaces, none in other technologies & no additional CHP development) \r\nEmissions per ton reduce by 1% for steel & by 13% for aluminium  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o21); end
+  def test_detailed_lever_guides_o21; assert_equal("Very important technology progress (25% Classic Blast Oxygen Furnaces (using 13% of scrap), 10% Hisarna (using 4% of scrap), 10% EAF DRI (using 10% of scrap), 55% EAF scrap(using 73% of scrap)) and in aluminium (20% decrease in consumption per ton for primary aluminium and 20% for Secondary aluminium)Major fuel switches in Blast Oxygen furnaces (5% coal to gas, 15% coal to biomass potential), none in the other steel technologies (Hisarna, EAF scrap & EAF DRI), some in Primary Aluminium (5% coal to biomass potential), none in secondary aluminium.Energy efficiency close to technical & physical constraints (10% in Blast oxygen furnaces, none in other technologies & no additional CHP development) Emissions per ton reduce by 1% for steel & by 13% for aluminium  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o21); end
   def test_detailed_lever_guides_b22; assert_equal("Chemicals", worksheet.detailed_lever_guides_b22); end
   def test_detailed_lever_guides_d22; assert_equal("Specific emissions for chemicals of 1.7GtCO2 per Gt of materials", worksheet.detailed_lever_guides_d22); end
   def test_detailed_lever_guides_e22; assert_equal("Specific emissions for chemicals reduce/increase by 1%", worksheet.detailed_lever_guides_e22); end
   def test_detailed_lever_guides_h22; assert_equal("Continued use of  current processes & technologiesContinued use of fuelsMinimal improvements in energy efficiencyEmissions per ton increase by 1% for chemicals", worksheet.detailed_lever_guides_h22); end
-  def test_detailed_lever_guides_i22; assert_equal("Continued use of  current processes & technologies\r\nContinued use of fuels\r\nMinimal improvements in energy efficiency (No additional CHP (5% of electricity produced by CHP)) \r\nEmissions per ton increase by 1% for chemicals  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i22); end
+  def test_detailed_lever_guides_i22; assert_equal("Continued use of  current processes & technologiesContinued use of fuelsMinimal improvements in energy efficiency (No additional CHP (5% of electricity produced by CHP)) Emissions per ton increase by 1% for chemicals  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i22); end
   def test_detailed_lever_guides_j22; assert_equal("Moderate technology progress, fuel changes and energy efficiency.Equivalent to the development of recent programs for some sectors.Emissions per ton decrease by 3%.", worksheet.detailed_lever_guides_j22); end
-  def test_detailed_lever_guides_k22; assert_equal("Moderate process & technology changes: 5% decrease in consumption per ton for High Value chemicals, 0% in Ammonia, 0% in Methanol, 5% in other chemicals\r\nSome fuel switches in High value chemicals (10% coal to gas,10% oil to gas), some switches accross all chemicals technologies (5% coal to biomass potential)\r\nSignificant energy efficiency (5% for HVC, 8% for Ammonia, 8% for Methanol & 5% for other chemicals. 10% of electricity produced by CHP) \r\nEmissions per ton decrease by 3%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k22); end
+  def test_detailed_lever_guides_k22; assert_equal("Moderate process & technology changes: 5% decrease in consumption per ton for High Value chemicals, 0% in Ammonia, 0% in Methanol, 5% in other chemicalsSome fuel switches in High value chemicals (10% coal to gas,10% oil to gas), some switches accross all chemicals technologies (5% coal to biomass potential)Significant energy efficiency (5% for HVC, 8% for Ammonia, 8% for Methanol & 5% for other chemicals. 10% of electricity produced by CHP) Emissions per ton decrease by 3%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k22); end
   def test_detailed_lever_guides_l22; assert_equal("Significant technology progress, fuel switch towards biomass & electrification)  & energy efficiency requiring important financial investmentsEmissions per ton decrease by 7%", worksheet.detailed_lever_guides_l22); end
-  def test_detailed_lever_guides_m22; assert_equal("Significant process & technology changes:  HVC (10% decrease in consumption per ton for High Value chamicals, 0% for Ammonia, 0% for Methanol, 10% for other chemicals).\r\nImportant fuel switches in High value chemicals (20% coal to gas,20% oil to gas), some switches accross all chemicals technologies (10% coal to biomass potential)\r\nSignificant energy efficiency (10% for HVC, 15% for Ammonia, 15% for Methanol & 10% for other chemicals & 15% of electricity produced by CHP) \r\nEmissions per ton decrease by 7% (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m22); end
+  def test_detailed_lever_guides_m22; assert_equal("Significant process & technology changes:  HVC (10% decrease in consumption per ton for High Value chamicals, 0% for Ammonia, 0% for Methanol, 10% for other chemicals).Important fuel switches in High value chemicals (20% coal to gas,20% oil to gas), some switches accross all chemicals technologies (10% coal to biomass potential)Significant energy efficiency (10% for HVC, 15% for Ammonia, 15% for Methanol & 10% for other chemicals & 15% of electricity produced by CHP) Emissions per ton decrease by 7% (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m22); end
   def test_detailed_lever_guides_n22; assert_equal("Very important technology progress, fuel switch (towards biomass & electrification) & energy efficiency close to technical and physical constraints (but limited breakthrough technologies).Emissions per ton decrease by 15%", worksheet.detailed_lever_guides_n22); end
-  def test_detailed_lever_guides_o22; assert_equal("Very important process & technology changes:  HVC (20% decrease in consumption per ton for High Value chamicals, 0% for Ammonia, 0% for Methanol, 20% for other chemicals)\r\nMajor fuel switches in High value chemicals (30% coal to gas,30% oil to gas), some switches accross all chemicals technologies (20% coal to biomass potential)\r\nEnergy efficiency close to technical & physical constraints (20% for HVC, 30% for Ammonia, 30% for Methanol & 20% for other chemicals & 20% of electricity produced by CHP) \r\nEmissions per ton decrease by 15%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o22); end
+  def test_detailed_lever_guides_o22; assert_equal("Very important process & technology changes:  HVC (20% decrease in consumption per ton for High Value chamicals, 0% for Ammonia, 0% for Methanol, 20% for other chemicals)Major fuel switches in High value chemicals (30% coal to gas,30% oil to gas), some switches accross all chemicals technologies (20% coal to biomass potential)Energy efficiency close to technical & physical constraints (20% for HVC, 30% for Ammonia, 30% for Methanol & 20% for other chemicals & 20% of electricity produced by CHP) Emissions per ton decrease by 15%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o22); end
   def test_detailed_lever_guides_b23; assert_equal("Paper and other", worksheet.detailed_lever_guides_b23); end
   def test_detailed_lever_guides_d23; assert_equal("Specific emissions (GtCO2 per Gt of materials) for Pulp & paper of 0.5 & for other materials of 2.2.", worksheet.detailed_lever_guides_d23); end
   def test_detailed_lever_guides_e23; assert_equal("Specific emissions for Pulp & paper reduce/increase by -18%& for other materials by -18%", worksheet.detailed_lever_guides_e23); end
   def test_detailed_lever_guides_h23; assert_equal("Continued use of  current processes & technologiesContinued use of fuelsMinimal improvements in energy efficiencyEmissions per ton increase by 1% for Paper and 2% for others materials", worksheet.detailed_lever_guides_h23); end
-  def test_detailed_lever_guides_i23; assert_equal("Continued use of  current processes & technologies\r\nContinued use of fuels\r\nMinimal improvements in energy efficiency (No additional CHP ( 5% of electricity produced by CHP for Paper, 5% for Timber & 5% for other industries). ))\r\nEmissions per ton increase by 1% for Paper and 2% for others materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i23); end
+  def test_detailed_lever_guides_i23; assert_equal("Continued use of  current processes & technologiesContinued use of fuelsMinimal improvements in energy efficiency (No additional CHP ( 5% of electricity produced by CHP for Paper, 5% for Timber & 5% for other industries). ))Emissions per ton increase by 1% for Paper and 2% for others materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i23); end
   def test_detailed_lever_guides_j23; assert_equal("Moderate technology progress, fuel changes and energy efficiency.Equivalent to the development of recent programs for some sectors.Emissions per ton decrease by 20% for pulp & paper & by 20 % for other materials.", worksheet.detailed_lever_guides_j23); end
-  def test_detailed_lever_guides_k23; assert_equal("Moderate process & technology changes: Paper (5% decrease in consumption per ton for Paper pulp, 5% for virgin paper, 5% for recycled paper), 0% for Timber & 0% for Other industries.\r\nSome fuel switches (coal to biomass potential) in Paper (2%), Timber(2%), & Other industries (2%)\r\nSignificant energy efficiency (20% for paper, 20% for timber, 20% for other industries. 10% of electricity produced by CHP for Paper, 10% for Timber & 10% for other industries). \r\nEmissions per ton decrease by 20% for pulp & paper & by 20% for other materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k23); end
+  def test_detailed_lever_guides_k23; assert_equal("Moderate process & technology changes: Paper (5% decrease in consumption per ton for Paper pulp, 5% for virgin paper, 5% for recycled paper), 0% for Timber & 0% for Other industries.Some fuel switches (coal to biomass potential) in Paper (2%), Timber(2%), & Other industries (2%)Significant energy efficiency (20% for paper, 20% for timber, 20% for other industries. 10% of electricity produced by CHP for Paper, 10% for Timber & 10% for other industries). Emissions per ton decrease by 20% for pulp & paper & by 20% for other materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k23); end
   def test_detailed_lever_guides_l23; assert_equal("Significant technology progress, fuel switch towards biomass & electrification)  & energy efficiency requiring important financial investmentsEmissions per ton decrease by 32% for pulp & paper, and by 31% for other materials", worksheet.detailed_lever_guides_l23); end
-  def test_detailed_lever_guides_m23; assert_equal("Significant process & technology changes: 10% decrease in consumption per ton for  Paper pulp, 10% for virgin paper, 10% for recycled paper), 0% for Timber & 0% for other industries.\r\nImportant fuel switches (coal to biomass potential) in Paper (3%), Timber(3%), & Other industries (3%)\r\nSignificant energy efficiency (30% for paper, 30% for timber, 30% for other industries. 15% of electricity produced by CHP for Paper, 15% for Timber & 15% for other industries). \r\nEmissions per ton decrease by 32% for pulp & paper, and by 31% for other materials (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m23); end
+  def test_detailed_lever_guides_m23; assert_equal("Significant process & technology changes: 10% decrease in consumption per ton for  Paper pulp, 10% for virgin paper, 10% for recycled paper), 0% for Timber & 0% for other industries.Important fuel switches (coal to biomass potential) in Paper (3%), Timber(3%), & Other industries (3%)Significant energy efficiency (30% for paper, 30% for timber, 30% for other industries. 15% of electricity produced by CHP for Paper, 15% for Timber & 15% for other industries). Emissions per ton decrease by 32% for pulp & paper, and by 31% for other materials (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m23); end
   def test_detailed_lever_guides_n23; assert_equal("Very important technology progress, fuel switch (towards biomass & electrification) & energy efficiency close to technical and physical constraints (but limited breakthrough technologies).Emissions per ton reduce by 45% for pulp & paper, and by 42% for other materials.", worksheet.detailed_lever_guides_n23); end
-  def test_detailed_lever_guides_o23; assert_equal("Very important process & technology changes:  Paper (20% decrease in consumption per ton for Paper pulp, 20% for virgin paper, 20% in recycled paper), % for Timber & % in other industries), 0% for Timber & 0% for Other industries.\r\nMajor fuel switches (coal to biomass potential) in Paper (5%), Timber(5%), & Other industries (5%)\r\nEnergy efficiency close to technical & physical constraints (40% for paper, 40% for timber, 40% for other industries. 20% of electricity produced by CHP for Paper, 20% for Timber & 20% for other industries). \r\nEmissions per ton reduce by 45% for pulp & paper, and by 42% for other materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o23); end
+  def test_detailed_lever_guides_o23; assert_equal("Very important process & technology changes:  Paper (20% decrease in consumption per ton for Paper pulp, 20% for virgin paper, 20% in recycled paper), % for Timber & % in other industries), 0% for Timber & 0% for Other industries.Major fuel switches (coal to biomass potential) in Paper (5%), Timber(5%), & Other industries (5%)Energy efficiency close to technical & physical constraints (40% for paper, 40% for timber, 40% for other industries. 20% of electricity produced by CHP for Paper, 20% for Timber & 20% for other industries). Emissions per ton reduce by 45% for pulp & paper, and by 42% for other materials  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o23); end
   def test_detailed_lever_guides_b24; assert_equal("Cement", worksheet.detailed_lever_guides_b24); end
   def test_detailed_lever_guides_d24; assert_equal("Specific emissions for cement of 0.6GtCO2 per Gt of materials", worksheet.detailed_lever_guides_d24); end
   def test_detailed_lever_guides_e24; assert_equal("Specific emissions for cement reduce/increase by -3%", worksheet.detailed_lever_guides_e24); end
-  def test_detailed_lever_guides_h24; assert_equal("Continued use of  current processes & technologies (28% clinker in cement).\r\nContinued use of fuels\r\nMinimal improvements in Energy efficiency\r\nEmissions per ton decrease by 2% for cement", worksheet.detailed_lever_guides_h24); end
-  def test_detailed_lever_guides_i24; assert_equal("Continued use of  current processes & technologies (28% clinker in cement)\r\nContinued use of fuels\r\nMinimal improvements in Energy efficiency (No additional CHP (none))\r\nEmissions per ton decrease by 2% for cement  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i24); end
-  def test_detailed_lever_guides_j24; assert_equal("Moderate technology progress (31% clinker in cement), fuel changes and energy efficiency.\r\nEquivalent to the development of recent programs for some sectors.\r\nEmissions per ton decrease by 4%.", worksheet.detailed_lever_guides_j24); end
-  def test_detailed_lever_guides_k24; assert_equal("Moderate process & technology changes:  4% decrease in consumption per ton (31% clinker in cement).\r\nSome fuel switches (6% coal to biomass potential)\r\nSignificant energy efficiency (9%).no additional CHP developments). \r\nEmissions per ton decrease by 4%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k24); end
-  def test_detailed_lever_guides_l24; assert_equal("Significant technology progress (34% clinker in cement), fuel switch towards biomass & electrification)  & energy efficiency requiring important financial investments\r\nEmissions per ton decrease by 8%", worksheet.detailed_lever_guides_l24); end
-  def test_detailed_lever_guides_m24; assert_equal("Significant process & technology changes:  8% decrease in consumption per ton (34% clinker in cement).\r\nImportant fuel switches (46% coal to biomass potential).\r\nSignificant energy efficiency (18%).no additional CHP developments). \r\nEmissions per ton decrease by 8%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m24); end
-  def test_detailed_lever_guides_n24; assert_equal("Very important technology progress (90% clinker in cement), fuel switch (towards biomass & electrification) & energy efficiency close to technical and physical constraints (but limited breakthrough technologies).\r\nEmissions per ton reduce by 31%.", worksheet.detailed_lever_guides_n24); end
-  def test_detailed_lever_guides_o24; assert_equal("Very important process & technology changes:   86% decrease in consumption per ton (90% clinker in cement).\r\nMajor fuel switches (100% coal to biomass potential).\r\nEnergy efficiency close to technical & physical constraints (30%).no additional CHP developments). \r\nEmissions per ton reduce by 31%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o24); end
+  def test_detailed_lever_guides_h24; assert_equal("Continued use of  current processes & technologies (28% clinker in cement).Continued use of fuelsMinimal improvements in Energy efficiencyEmissions per ton decrease by 2% for cement", worksheet.detailed_lever_guides_h24); end
+  def test_detailed_lever_guides_i24; assert_equal("Continued use of  current processes & technologies (28% clinker in cement)Continued use of fuelsMinimal improvements in Energy efficiency (No additional CHP (none))Emissions per ton decrease by 2% for cement  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_i24); end
+  def test_detailed_lever_guides_j24; assert_equal("Moderate technology progress (31% clinker in cement), fuel changes and energy efficiency.Equivalent to the development of recent programs for some sectors.Emissions per ton decrease by 4%.", worksheet.detailed_lever_guides_j24); end
+  def test_detailed_lever_guides_k24; assert_equal("Moderate process & technology changes:  4% decrease in consumption per ton (31% clinker in cement).Some fuel switches (6% coal to biomass potential)Significant energy efficiency (9%).no additional CHP developments). Emissions per ton decrease by 4%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_k24); end
+  def test_detailed_lever_guides_l24; assert_equal("Significant technology progress (34% clinker in cement), fuel switch towards biomass & electrification)  & energy efficiency requiring important financial investmentsEmissions per ton decrease by 8%", worksheet.detailed_lever_guides_l24); end
+  def test_detailed_lever_guides_m24; assert_equal("Significant process & technology changes:  8% decrease in consumption per ton (34% clinker in cement).Important fuel switches (46% coal to biomass potential).Significant energy efficiency (18%).no additional CHP developments). Emissions per ton decrease by 8%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_m24); end
+  def test_detailed_lever_guides_n24; assert_equal("Very important technology progress (90% clinker in cement), fuel switch (towards biomass & electrification) & energy efficiency close to technical and physical constraints (but limited breakthrough technologies).Emissions per ton reduce by 31%.", worksheet.detailed_lever_guides_n24); end
+  def test_detailed_lever_guides_o24; assert_equal("Very important process & technology changes:   86% decrease in consumption per ton (90% clinker in cement).Major fuel switches (100% coal to biomass potential).Energy efficiency close to technical & physical constraints (30%).no additional CHP developments). Emissions per ton reduce by 31%  (excluding electricity emissions & counting biomass as fossil fuel).", worksheet.detailed_lever_guides_o24); end
   def test_detailed_lever_guides_b25; assert_equal("Carbon capture and storage (ind.)", worksheet.detailed_lever_guides_b25); end
   def test_detailed_lever_guides_d25; assert_equal("CCS not implemented in the industry", worksheet.detailed_lever_guides_d25); end
   def test_detailed_lever_guides_e25; assert_equal("CCS enables a 0% CO2 reduction (excluding electricity emissions & counting biomass as fossil fuel) and an 0EJ electricity consumption increase", worksheet.detailed_lever_guides_e25); end
@@ -4831,14 +4831,14 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_detailed_lever_guides_b27; assert_equal("Fossil fuel efficiency", worksheet.detailed_lever_guides_b27); end
   def test_detailed_lever_guides_d27; assert_equal("In 2011:SOLID FUELED POWER: 8% by ultrasupercritical, 17% supercritical, 75% sub-criticalLIQUID FUELED POWER: 30% by efficient plants, 70% by inefficient plantsGAS FUELED POWER: 35% open cycle gas turbines and 65% by combined cycle gas turbines", worksheet.detailed_lever_guides_d27); end
   def test_detailed_lever_guides_e27; assert_equal("In 2050 out of fossil energy supplied it is 18.72% by solid USC, 27.69% by solid SC, 53.59% by solid Sub-C, 52.4% by eff. liquid, 47.6% by ineff. liquid, 38.5% by OCGT and 61.5% by CCGT plant", worksheet.detailed_lever_guides_e27); end
-  def test_detailed_lever_guides_h27; assert_equal("By 2050:\r\nSOLID FUELED POWER 14.35% by solid ultrasupercritical, 23.15% by solid supercritical, 62.4% by solid subcritical, \r\nLIQUID FUELED POWER: 32.88% by efficient, 67.11% by inefficient, \r\nGAS FUELD POWER: 61% open cycle gas turbine 39% combined cycle gas turbines", worksheet.detailed_lever_guides_h27); end
-  def test_detailed_lever_guides_i27; assert_equal("By 2050:\r\nSOLID FUELED POWER 14.35% by solid ultrasupercritical, 23.15% by solid supercritical, 62.4% by solid subcritical, \r\nLIQUID FUELED POWER: 32.88% by efficient, 67.11% by inefficient, \r\nGAS FUELD POWER: 61% open cycle gas turbine 39% combined cycle gas turbines", worksheet.detailed_lever_guides_i27); end
-  def test_detailed_lever_guides_j27; assert_equal("By 2050:\r\nSOLID FUELED POWER:18% by solid ultrasupercritical, 27% by solid supercritical, 55% by solid subcritical, \r\nLIQUID FUELED: 47% by efficient, 53% by inefficient\r\nGAS FUELED POWER: 47.5% open cycle gas turbine 52.5% combined cycle gas turbines", worksheet.detailed_lever_guides_j27); end
-  def test_detailed_lever_guides_k27; assert_equal("By 2050:\r\nSOLID FUELED POWER:18% by solid ultrasupercritical, 27% by solid supercritical, 55% by solid subcritical, \r\nLIQUID FUELED: 47% by efficient, 53% by inefficient\r\nGAS FUELED POWER: 47.5% open cycle gas turbine 52.5% combined cycle gas turbines", worksheet.detailed_lever_guides_k27); end
-  def test_detailed_lever_guides_l27; assert_equal("By 2050:\r\nSOLID FUELED POWER:  20.4% by solid ultrasupercritical, 29.3% by solid supercritical, 50.3% by solid subcritical\r\nLIQUID FUELED POWER: 65% by efficient, 35% by inefficient\r\nGAS FUELED POWER: 17.5% open cycle gas turbine 82.5% combined cycle gas turbines", worksheet.detailed_lever_guides_l27); end
-  def test_detailed_lever_guides_m27; assert_equal("By 2050:\r\nSOLID FUELED POWER:  20.4% by solid ultrasupercritical, 29.3% by solid supercritical, 50.3% by solid subcritical\r\nLIQUID FUELED POWER: 65% by efficient, 35% by inefficient\r\nGAS FUELED POWER: 17.5% open cycle gas turbine 82.5% combined cycle gas turbines", worksheet.detailed_lever_guides_m27); end
-  def test_detailed_lever_guides_n27; assert_equal("By 2050: \r\nSOLID FUELED POWER: 23.24% by solid ultrasupercritical, 32.23% by solid supercritical, 44.62% by solid subcritical\r\nLIQUID FUELED POWER: 71.42% by efficient, 28.57% by inefficient \r\nGAS FUELED POWER: 7% open cycle gas turbine 93% combined cycle gas turbines", worksheet.detailed_lever_guides_n27); end
-  def test_detailed_lever_guides_o27; assert_equal("By 2050: \r\nSOLID FUELED POWER: 23.24% by solid ultrasupercritical, 32.23% by solid supercritical, 44.62% by solid subcritical\r\nLIQUID FUELED POWER: 71.42% by efficient, 28.57% by inefficient \r\nGAS FUELED POWER: 7% open cycle gas turbine 93% combined cycle gas turbines", worksheet.detailed_lever_guides_o27); end
+  def test_detailed_lever_guides_h27; assert_equal("By 2050:SOLID FUELED POWER 14.35% by solid ultrasupercritical, 23.15% by solid supercritical, 62.4% by solid subcritical, LIQUID FUELED POWER: 32.88% by efficient, 67.11% by inefficient, GAS FUELD POWER: 61% open cycle gas turbine 39% combined cycle gas turbines", worksheet.detailed_lever_guides_h27); end
+  def test_detailed_lever_guides_i27; assert_equal("By 2050:SOLID FUELED POWER 14.35% by solid ultrasupercritical, 23.15% by solid supercritical, 62.4% by solid subcritical, LIQUID FUELED POWER: 32.88% by efficient, 67.11% by inefficient, GAS FUELD POWER: 61% open cycle gas turbine 39% combined cycle gas turbines", worksheet.detailed_lever_guides_i27); end
+  def test_detailed_lever_guides_j27; assert_equal("By 2050:SOLID FUELED POWER:18% by solid ultrasupercritical, 27% by solid supercritical, 55% by solid subcritical, LIQUID FUELED: 47% by efficient, 53% by inefficientGAS FUELED POWER: 47.5% open cycle gas turbine 52.5% combined cycle gas turbines", worksheet.detailed_lever_guides_j27); end
+  def test_detailed_lever_guides_k27; assert_equal("By 2050:SOLID FUELED POWER:18% by solid ultrasupercritical, 27% by solid supercritical, 55% by solid subcritical, LIQUID FUELED: 47% by efficient, 53% by inefficientGAS FUELED POWER: 47.5% open cycle gas turbine 52.5% combined cycle gas turbines", worksheet.detailed_lever_guides_k27); end
+  def test_detailed_lever_guides_l27; assert_equal("By 2050:SOLID FUELED POWER:  20.4% by solid ultrasupercritical, 29.3% by solid supercritical, 50.3% by solid subcriticalLIQUID FUELED POWER: 65% by efficient, 35% by inefficientGAS FUELED POWER: 17.5% open cycle gas turbine 82.5% combined cycle gas turbines", worksheet.detailed_lever_guides_l27); end
+  def test_detailed_lever_guides_m27; assert_equal("By 2050:SOLID FUELED POWER:  20.4% by solid ultrasupercritical, 29.3% by solid supercritical, 50.3% by solid subcriticalLIQUID FUELED POWER: 65% by efficient, 35% by inefficientGAS FUELED POWER: 17.5% open cycle gas turbine 82.5% combined cycle gas turbines", worksheet.detailed_lever_guides_m27); end
+  def test_detailed_lever_guides_n27; assert_equal("By 2050: SOLID FUELED POWER: 23.24% by solid ultrasupercritical, 32.23% by solid supercritical, 44.62% by solid subcriticalLIQUID FUELED POWER: 71.42% by efficient, 28.57% by inefficient GAS FUELED POWER: 7% open cycle gas turbine 93% combined cycle gas turbines", worksheet.detailed_lever_guides_n27); end
+  def test_detailed_lever_guides_o27; assert_equal("By 2050: SOLID FUELED POWER: 23.24% by solid ultrasupercritical, 32.23% by solid supercritical, 44.62% by solid subcriticalLIQUID FUELED POWER: 71.42% by efficient, 28.57% by inefficient GAS FUELED POWER: 7% open cycle gas turbine 93% combined cycle gas turbines", worksheet.detailed_lever_guides_o27); end
   def test_detailed_lever_guides_b28; assert_equal("Carbon capture and storage (power)", worksheet.detailed_lever_guides_b28); end
   def test_detailed_lever_guides_c28; assert_equal("CCS.elec", worksheet.detailed_lever_guides_c28); end
   def test_detailed_lever_guides_d28; assert_equal("In 2011 most of the CCS projects implemented in power sector were demonstration projects of KW and MW scale. However, there is a CCS pipeline developed by OECD countries (mainly USA and EU). The current timeline is till early 2020s. ", worksheet.detailed_lever_guides_d28); end
