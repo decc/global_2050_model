@@ -1,7 +1,7 @@
 GIT
-  remote: /Users/tamc/Documents/github/excel_to_code
+  remote: ../excel_to_code
   revision: 6d4f4137250bee24db4bc76d8e1bb3c554506b98
-  branch: nestedHash
+  branch: master
   specs:
     excel_to_code (0.2.28)
       ffi (~> 1.0, >= 1.0.11)
