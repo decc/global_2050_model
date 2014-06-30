@@ -1877,656 +1877,492 @@ module Global2050Model
   attach_function 'outputs_summary_table_e5', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f5', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g5', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h5', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i5', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g6', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h6', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i6', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g7', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h7', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i7', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g8', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h8', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i8', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g9', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h9', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i9', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g10', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h10', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i10', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g11', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h11', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i11', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g12', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h12', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i12', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g13', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h13', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i13', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g14', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h14', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i14', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g15', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h15', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i15', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g16', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h16', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i16', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g17', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h17', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i17', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g18', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h18', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i18', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g19', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h19', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i19', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g20', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h20', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i20', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g21', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h21', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i21', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g22', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h22', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i22', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g23', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h23', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i23', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g24', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h24', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i24', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g25', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h25', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i25', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g26', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h26', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i26', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g27', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h27', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i27', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g28', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h28', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i28', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g29', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h29', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i29', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g30', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h30', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i30', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g31', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h31', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i31', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g32', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h32', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i32', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g33', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h33', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i33', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g34', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h34', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i34', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g35', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h35', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i35', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g36', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h36', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i36', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g37', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h37', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i37', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g38', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h38', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i38', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g39', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h39', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i39', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g40', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h40', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i40', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g41', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h41', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i41', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g42', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h42', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i42', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g43', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h43', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i43', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g44', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h44', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i44', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g45', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h45', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i45', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g46', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h46', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i46', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g47', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h47', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i47', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g48', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h48', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i48', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g49', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h49', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i49', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g50', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h50', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i50', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g51', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h51', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i51', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g52', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h52', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i52', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g53', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h53', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i53', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g54', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h54', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i54', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g55', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h55', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i55', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g56', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h56', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i56', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g57', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h57', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i57', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g58', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h58', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i58', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g59', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h59', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i59', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g60', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h60', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i60', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g61', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h61', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i61', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g62', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h62', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i62', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g63', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h63', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i63', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g64', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h64', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i64', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g65', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h65', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i65', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g66', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h66', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i66', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g67', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h67', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i67', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g68', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h68', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i68', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g69', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h69', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i69', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g70', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h70', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i70', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g71', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h71', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i71', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g72', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h72', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i72', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g73', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h73', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i73', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g74', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h74', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i74', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g75', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h75', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i75', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g76', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h76', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i76', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g77', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h77', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i77', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g78', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h78', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i78', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g79', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h79', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i79', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g80', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h80', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i80', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g81', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h81', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i81', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g82', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h82', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i82', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g83', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h83', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i83', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g84', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h84', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i84', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b85', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c85', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d85', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_e85', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f85', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g85', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h85', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i85', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_b86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_c86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_d86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_e86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_f86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_g86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_h86', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_i86', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_b90', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_c90', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_d90', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_e90', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_f90', [], ExcelValue.by_value
+  attach_function 'outputs_summary_table_g90', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_b91', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_c91', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_d91', [], ExcelValue.by_value

@@ -1,6 +1,6 @@
 GIT
-  remote: ../excel_to_code
-  revision: 6d4f4137250bee24db4bc76d8e1bb3c554506b98
+  remote: /Users/tamc/Documents/github/excel_to_code
+  revision: 7b3a0d1cda34d0815edca2421289a6b640ce884f
   branch: master
   specs:
     excel_to_code (0.2.28)
