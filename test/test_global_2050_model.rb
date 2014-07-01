@@ -67,6 +67,4748 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_user_inputs_e61; assert_equal("Point", worksheet.user_inputs_e61); end
   def test_user_inputs_e62; assert_equal("Point", worksheet.user_inputs_e62); end
   def test_user_inputs_e63; assert_in_epsilon(1.9, worksheet.user_inputs_e63, 0.002); end
+  def test_lever_graphs_c2648; assert_equal("1975", worksheet.lever_graphs_c2648); end
+  def test_lever_graphs_d2648; assert_equal("1980", worksheet.lever_graphs_d2648); end
+  def test_lever_graphs_e2648; assert_equal("1985", worksheet.lever_graphs_e2648); end
+  def test_lever_graphs_f2648; assert_equal("1990", worksheet.lever_graphs_f2648); end
+  def test_lever_graphs_g2648; assert_equal("1995", worksheet.lever_graphs_g2648); end
+  def test_lever_graphs_h2648; assert_equal("2000", worksheet.lever_graphs_h2648); end
+  def test_lever_graphs_i2648; assert_equal("2005", worksheet.lever_graphs_i2648); end
+  def test_lever_graphs_j2648; assert_equal("2011", worksheet.lever_graphs_j2648); end
+  def test_lever_graphs_k2648; assert_equal("2015", worksheet.lever_graphs_k2648); end
+  def test_lever_graphs_l2648; assert_equal("2020", worksheet.lever_graphs_l2648); end
+  def test_lever_graphs_m2648; assert_equal("2025", worksheet.lever_graphs_m2648); end
+  def test_lever_graphs_n2648; assert_equal("2030", worksheet.lever_graphs_n2648); end
+  def test_lever_graphs_o2648; assert_equal("2035", worksheet.lever_graphs_o2648); end
+  def test_lever_graphs_p2648; assert_equal("2040", worksheet.lever_graphs_p2648); end
+  def test_lever_graphs_q2648; assert_equal("2045", worksheet.lever_graphs_q2648); end
+  def test_lever_graphs_r2648; assert_equal("2050", worksheet.lever_graphs_r2648); end
+  def test_lever_graphs_b2649; assert_equal("Historic data", worksheet.lever_graphs_b2649); end
+  def test_lever_graphs_b2650; assert_in_delta(1.0, worksheet.lever_graphs_b2650, 0.002); end
+  def test_lever_graphs_j2650; assert_in_delta(0.02, worksheet.lever_graphs_j2650, 0.002); end
+  def test_lever_graphs_k2650; assert_in_delta(0.027, worksheet.lever_graphs_k2650, 0.002); end
+  def test_lever_graphs_l2650; assert_in_delta(0.028, worksheet.lever_graphs_l2650, 0.002); end
+  def test_lever_graphs_m2650; assert_in_delta(0.02666666666666667, worksheet.lever_graphs_m2650, 0.002); end
+  def test_lever_graphs_n2650; assert_in_delta(0.025333333333333333, worksheet.lever_graphs_n2650, 0.002); end
+  def test_lever_graphs_o2650; assert_in_delta(0.024, worksheet.lever_graphs_o2650, 0.002); end
+  def test_lever_graphs_p2650; assert_in_delta(0.022666666666666665, worksheet.lever_graphs_p2650, 0.002); end
+  def test_lever_graphs_q2650; assert_in_delta(0.021333333333333333, worksheet.lever_graphs_q2650, 0.002); end
+  def test_lever_graphs_r2650; assert_in_delta(0.02, worksheet.lever_graphs_r2650, 0.002); end
+  def test_lever_graphs_b2651; assert_in_epsilon(2.0, worksheet.lever_graphs_b2651, 0.002); end
+  def test_lever_graphs_j2651; assert_in_delta(0.02, worksheet.lever_graphs_j2651, 0.002); end
+  def test_lever_graphs_k2651; assert_in_delta(0.027, worksheet.lever_graphs_k2651, 0.002); end
+  def test_lever_graphs_l2651; assert_in_delta(0.0285, worksheet.lever_graphs_l2651, 0.002); end
+  def test_lever_graphs_m2651; assert_in_delta(0.031, worksheet.lever_graphs_m2651, 0.002); end
+  def test_lever_graphs_n2651; assert_in_delta(0.0335, worksheet.lever_graphs_n2651, 0.002); end
+  def test_lever_graphs_o2651; assert_in_delta(0.036, worksheet.lever_graphs_o2651, 0.002); end
+  def test_lever_graphs_p2651; assert_in_delta(0.04066666666666666, worksheet.lever_graphs_p2651, 0.002); end
+  def test_lever_graphs_q2651; assert_in_delta(0.04533333333333333, worksheet.lever_graphs_q2651, 0.002); end
+  def test_lever_graphs_r2651; assert_in_delta(0.05, worksheet.lever_graphs_r2651, 0.002); end
+  def test_lever_graphs_b2652; assert_in_epsilon(3.0, worksheet.lever_graphs_b2652, 0.002); end
+  def test_lever_graphs_j2652; assert_in_delta(0.02, worksheet.lever_graphs_j2652, 0.002); end
+  def test_lever_graphs_k2652; assert_in_delta(0.027, worksheet.lever_graphs_k2652, 0.002); end
+  def test_lever_graphs_l2652; assert_in_delta(0.04457142857142857, worksheet.lever_graphs_l2652, 0.002); end
+  def test_lever_graphs_m2652; assert_in_delta(0.062, worksheet.lever_graphs_m2652, 0.002); end
+  def test_lever_graphs_n2652; assert_in_delta(0.0796, worksheet.lever_graphs_n2652, 0.002); end
+  def test_lever_graphs_o2652; assert_in_delta(0.0972, worksheet.lever_graphs_o2652, 0.002); end
+  def test_lever_graphs_p2652; assert_in_delta(0.1148, worksheet.lever_graphs_p2652, 0.002); end
+  def test_lever_graphs_q2652; assert_in_delta(0.1324, worksheet.lever_graphs_q2652, 0.002); end
+  def test_lever_graphs_r2652; assert_in_delta(0.15, worksheet.lever_graphs_r2652, 0.002); end
+  def test_lever_graphs_b2653; assert_in_epsilon(4.0, worksheet.lever_graphs_b2653, 0.002); end
+  def test_lever_graphs_j2653; assert_in_delta(0.02, worksheet.lever_graphs_j2653, 0.002); end
+  def test_lever_graphs_k2653; assert_in_delta(0.027, worksheet.lever_graphs_k2653, 0.002); end
+  def test_lever_graphs_l2653; assert_in_delta(0.06599999999999999, worksheet.lever_graphs_l2653, 0.002); end
+  def test_lever_graphs_m2653; assert_in_delta(0.10499999999999998, worksheet.lever_graphs_m2653, 0.002); end
+  def test_lever_graphs_n2653; assert_in_delta(0.144, worksheet.lever_graphs_n2653, 0.002); end
+  def test_lever_graphs_o2653; assert_in_delta(0.18299999999999997, worksheet.lever_graphs_o2653, 0.002); end
+  def test_lever_graphs_p2653; assert_in_delta(0.22199999999999998, worksheet.lever_graphs_p2653, 0.002); end
+  def test_lever_graphs_q2653; assert_in_delta(0.26099999999999995, worksheet.lever_graphs_q2653, 0.002); end
+  def test_lever_graphs_r2653; assert_in_delta(0.3, worksheet.lever_graphs_r2653, 0.002); end
+  def test_lever_graphs_c2638; assert_equal("1975", worksheet.lever_graphs_c2638); end
+  def test_lever_graphs_d2638; assert_equal("1980", worksheet.lever_graphs_d2638); end
+  def test_lever_graphs_e2638; assert_equal("1985", worksheet.lever_graphs_e2638); end
+  def test_lever_graphs_f2638; assert_equal("1990", worksheet.lever_graphs_f2638); end
+  def test_lever_graphs_g2638; assert_equal("1995", worksheet.lever_graphs_g2638); end
+  def test_lever_graphs_h2638; assert_equal("2000", worksheet.lever_graphs_h2638); end
+  def test_lever_graphs_i2638; assert_equal("2005", worksheet.lever_graphs_i2638); end
+  def test_lever_graphs_j2638; assert_equal("2011", worksheet.lever_graphs_j2638); end
+  def test_lever_graphs_k2638; assert_equal("2015", worksheet.lever_graphs_k2638); end
+  def test_lever_graphs_l2638; assert_equal("2020", worksheet.lever_graphs_l2638); end
+  def test_lever_graphs_m2638; assert_equal("2025", worksheet.lever_graphs_m2638); end
+  def test_lever_graphs_n2638; assert_equal("2030", worksheet.lever_graphs_n2638); end
+  def test_lever_graphs_o2638; assert_equal("2035", worksheet.lever_graphs_o2638); end
+  def test_lever_graphs_p2638; assert_equal("2040", worksheet.lever_graphs_p2638); end
+  def test_lever_graphs_q2638; assert_equal("2045", worksheet.lever_graphs_q2638); end
+  def test_lever_graphs_r2638; assert_equal("2050", worksheet.lever_graphs_r2638); end
+  def test_lever_graphs_b2639; assert_equal("Historic data", worksheet.lever_graphs_b2639); end
+  def test_lever_graphs_b2640; assert_in_delta(1.0, worksheet.lever_graphs_b2640, 0.002); end
+  def test_lever_graphs_j2640; assert_in_delta(0.0, (worksheet.lever_graphs_j2640||0), 0.002); end
+  def test_lever_graphs_k2640; assert_in_delta(0.021, worksheet.lever_graphs_k2640, 0.002); end
+  def test_lever_graphs_l2640; assert_in_delta(0.036, worksheet.lever_graphs_l2640, 0.002); end
+  def test_lever_graphs_m2640; assert_in_delta(0.04666666666666666, worksheet.lever_graphs_m2640, 0.002); end
+  def test_lever_graphs_n2640; assert_in_delta(0.05733333333333333, worksheet.lever_graphs_n2640, 0.002); end
+  def test_lever_graphs_o2640; assert_in_delta(0.068, worksheet.lever_graphs_o2640, 0.002); end
+  def test_lever_graphs_p2640; assert_in_delta(0.07866666666666666, worksheet.lever_graphs_p2640, 0.002); end
+  def test_lever_graphs_q2640; assert_in_delta(0.08933333333333333, worksheet.lever_graphs_q2640, 0.002); end
+  def test_lever_graphs_r2640; assert_in_delta(0.1, worksheet.lever_graphs_r2640, 0.002); end
+  def test_lever_graphs_b2641; assert_in_epsilon(2.0, worksheet.lever_graphs_b2641, 0.002); end
+  def test_lever_graphs_j2641; assert_in_delta(0.0, (worksheet.lever_graphs_j2641||0), 0.002); end
+  def test_lever_graphs_k2641; assert_in_delta(0.021, worksheet.lever_graphs_k2641, 0.002); end
+  def test_lever_graphs_l2641; assert_in_delta(0.05, worksheet.lever_graphs_l2641, 0.002); end
+  def test_lever_graphs_m2641; assert_in_delta(0.073, worksheet.lever_graphs_m2641, 0.002); end
+  def test_lever_graphs_n2641; assert_in_delta(0.105, worksheet.lever_graphs_n2641, 0.002); end
+  def test_lever_graphs_o2641; assert_in_delta(0.15375, worksheet.lever_graphs_o2641, 0.002); end
+  def test_lever_graphs_p2641; assert_in_delta(0.2025, worksheet.lever_graphs_p2641, 0.002); end
+  def test_lever_graphs_q2641; assert_in_delta(0.25125, worksheet.lever_graphs_q2641, 0.002); end
+  def test_lever_graphs_r2641; assert_in_delta(0.3, worksheet.lever_graphs_r2641, 0.002); end
+  def test_lever_graphs_b2642; assert_in_epsilon(3.0, worksheet.lever_graphs_b2642, 0.002); end
+  def test_lever_graphs_j2642; assert_in_delta(0.0, (worksheet.lever_graphs_j2642||0), 0.002); end
+  def test_lever_graphs_k2642; assert_in_delta(0.021, worksheet.lever_graphs_k2642, 0.002); end
+  def test_lever_graphs_l2642; assert_in_delta(0.06, worksheet.lever_graphs_l2642, 0.002); end
+  def test_lever_graphs_m2642; assert_in_delta(0.11, worksheet.lever_graphs_m2642, 0.002); end
+  def test_lever_graphs_n2642; assert_in_delta(0.19, worksheet.lever_graphs_n2642, 0.002); end
+  def test_lever_graphs_o2642; assert_in_delta(0.2675, worksheet.lever_graphs_o2642, 0.002); end
+  def test_lever_graphs_p2642; assert_in_delta(0.345, worksheet.lever_graphs_p2642, 0.002); end
+  def test_lever_graphs_q2642; assert_in_delta(0.4225, worksheet.lever_graphs_q2642, 0.002); end
+  def test_lever_graphs_r2642; assert_in_delta(0.5, worksheet.lever_graphs_r2642, 0.002); end
+  def test_lever_graphs_b2643; assert_in_epsilon(4.0, worksheet.lever_graphs_b2643, 0.002); end
+  def test_lever_graphs_j2643; assert_in_delta(0.0, (worksheet.lever_graphs_j2643||0), 0.002); end
+  def test_lever_graphs_k2643; assert_in_delta(0.021, worksheet.lever_graphs_k2643, 0.002); end
+  def test_lever_graphs_l2643; assert_in_delta(0.1, worksheet.lever_graphs_l2643, 0.002); end
+  def test_lever_graphs_m2643; assert_in_delta(0.22, worksheet.lever_graphs_m2643, 0.002); end
+  def test_lever_graphs_n2643; assert_in_delta(0.336, worksheet.lever_graphs_n2643, 0.002); end
+  def test_lever_graphs_o2643; assert_in_delta(0.45200000000000007, worksheet.lever_graphs_o2643, 0.002); end
+  def test_lever_graphs_p2643; assert_in_delta(0.5680000000000001, worksheet.lever_graphs_p2643, 0.002); end
+  def test_lever_graphs_q2643; assert_in_delta(0.684, worksheet.lever_graphs_q2643, 0.002); end
+  def test_lever_graphs_r2643; assert_in_delta(0.8, worksheet.lever_graphs_r2643, 0.002); end
+  def test_lever_graphs_d2254; assert_equal("Title", worksheet.lever_graphs_d2254); end
+  def test_lever_graphs_e2254; assert_equal("Global urban refrigerator used by people with access to electricity", worksheet.lever_graphs_e2254); end
+  def test_lever_graphs_f2254; assert_equal("Global urban dishwashers used by people with access to electricity", worksheet.lever_graphs_f2254); end
+  def test_lever_graphs_g2254; assert_equal("Global urban clothwasher used by people with access to electricity", worksheet.lever_graphs_g2254); end
+  def test_lever_graphs_h2254; assert_equal("Global urban clothdryers used by people with access to electricity", worksheet.lever_graphs_h2254); end
+  def test_lever_graphs_i2254; assert_equal("Global urban TV used by people with access to electricity", worksheet.lever_graphs_i2254); end
+  def test_lever_graphs_j2254; assert_equal("Global urban miscellaneous used by people with access to electricity", worksheet.lever_graphs_j2254); end
+  def test_lever_graphs_d2255; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2255, 0.002); end
+  def test_lever_graphs_e2255; assert_in_epsilon(99.99999999999999, worksheet.lever_graphs_e2255, 0.002); end
+  def test_lever_graphs_f2255; assert_in_epsilon(1500.0, worksheet.lever_graphs_f2255, 0.002); end
+  def test_lever_graphs_g2255; assert_in_epsilon(699.9999999999999, worksheet.lever_graphs_g2255, 0.002); end
+  def test_lever_graphs_h2255; assert_in_epsilon(1500.0, worksheet.lever_graphs_h2255, 0.002); end
+  def test_lever_graphs_i2255; assert_in_epsilon(249.99999999999997, worksheet.lever_graphs_i2255, 0.002); end
+  def test_lever_graphs_j2255; assert_in_epsilon(99.99999999999999, worksheet.lever_graphs_j2255, 0.002); end
+  def test_lever_graphs_d2256; assert_equal("2050: Level 1", worksheet.lever_graphs_d2256); end
+  def test_lever_graphs_e2256; assert_in_epsilon(80.0, worksheet.lever_graphs_e2256, 0.002); end
+  def test_lever_graphs_f2256; assert_in_epsilon(1199.9999999999998, worksheet.lever_graphs_f2256, 0.002); end
+  def test_lever_graphs_g2256; assert_in_epsilon(560.0, worksheet.lever_graphs_g2256, 0.002); end
+  def test_lever_graphs_h2256; assert_in_epsilon(1199.9999999999998, worksheet.lever_graphs_h2256, 0.002); end
+  def test_lever_graphs_i2256; assert_in_epsilon(199.99999999999997, worksheet.lever_graphs_i2256, 0.002); end
+  def test_lever_graphs_j2256; assert_in_epsilon(80.0, worksheet.lever_graphs_j2256, 0.002); end
+  def test_lever_graphs_d2257; assert_equal("2050: Level 2", worksheet.lever_graphs_d2257); end
+  def test_lever_graphs_e2257; assert_in_epsilon(65.0, worksheet.lever_graphs_e2257, 0.002); end
+  def test_lever_graphs_f2257; assert_in_epsilon(974.9999999999999, worksheet.lever_graphs_f2257, 0.002); end
+  def test_lever_graphs_g2257; assert_in_epsilon(454.99999999999994, worksheet.lever_graphs_g2257, 0.002); end
+  def test_lever_graphs_h2257; assert_in_epsilon(974.9999999999999, worksheet.lever_graphs_h2257, 0.002); end
+  def test_lever_graphs_i2257; assert_in_epsilon(162.5, worksheet.lever_graphs_i2257, 0.002); end
+  def test_lever_graphs_j2257; assert_in_epsilon(65.0, worksheet.lever_graphs_j2257, 0.002); end
+  def test_lever_graphs_d2258; assert_equal("2050: Level 3", worksheet.lever_graphs_d2258); end
+  def test_lever_graphs_e2258; assert_in_epsilon(49.99999999999999, worksheet.lever_graphs_e2258, 0.002); end
+  def test_lever_graphs_f2258; assert_in_epsilon(750.0, worksheet.lever_graphs_f2258, 0.002); end
+  def test_lever_graphs_g2258; assert_in_epsilon(349.99999999999994, worksheet.lever_graphs_g2258, 0.002); end
+  def test_lever_graphs_h2258; assert_in_epsilon(750.0, worksheet.lever_graphs_h2258, 0.002); end
+  def test_lever_graphs_i2258; assert_in_epsilon(124.99999999999999, worksheet.lever_graphs_i2258, 0.002); end
+  def test_lever_graphs_j2258; assert_in_epsilon(49.99999999999999, worksheet.lever_graphs_j2258, 0.002); end
+  def test_lever_graphs_d2259; assert_equal("2050: Level 4", worksheet.lever_graphs_d2259); end
+  def test_lever_graphs_e2259; assert_in_epsilon(35.0, worksheet.lever_graphs_e2259, 0.002); end
+  def test_lever_graphs_f2259; assert_in_epsilon(524.9999999999999, worksheet.lever_graphs_f2259, 0.002); end
+  def test_lever_graphs_g2259; assert_in_epsilon(244.99999999999997, worksheet.lever_graphs_g2259, 0.002); end
+  def test_lever_graphs_h2259; assert_in_epsilon(524.9999999999999, worksheet.lever_graphs_h2259, 0.002); end
+  def test_lever_graphs_i2259; assert_in_epsilon(104.99999999999999, worksheet.lever_graphs_i2259, 0.002); end
+  def test_lever_graphs_j2259; assert_in_epsilon(35.0, worksheet.lever_graphs_j2259, 0.002); end
+  def test_lever_graphs_d2197; assert_equal("Title", worksheet.lever_graphs_d2197); end
+  def test_lever_graphs_e2197; assert_equal("Global urban refrigerator used by people with access to electricity", worksheet.lever_graphs_e2197); end
+  def test_lever_graphs_f2197; assert_equal("Global urban dishwashers used by people with access to electricity", worksheet.lever_graphs_f2197); end
+  def test_lever_graphs_g2197; assert_equal("Global urban clothwasher used by people with access to electricity", worksheet.lever_graphs_g2197); end
+  def test_lever_graphs_h2197; assert_equal("Global urban clothdryers used by people with access to electricity", worksheet.lever_graphs_h2197); end
+  def test_lever_graphs_i2197; assert_equal("Global urban TV used by people with access to electricity", worksheet.lever_graphs_i2197); end
+  def test_lever_graphs_j2197; assert_equal("Global urban miscellaneous used by people with access to electricity", worksheet.lever_graphs_j2197); end
+  def test_lever_graphs_d2198; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2198, 0.002); end
+  def test_lever_graphs_e2198; assert_in_delta(0.9556862861159037, worksheet.lever_graphs_e2198, 0.002); end
+  def test_lever_graphs_f2198; assert_in_delta(0.3322490369750295, worksheet.lever_graphs_f2198, 0.002); end
+  def test_lever_graphs_g2198; assert_in_delta(0.7803646989372999, worksheet.lever_graphs_g2198, 0.002); end
+  def test_lever_graphs_h2198; assert_in_delta(0.25750327590507216, worksheet.lever_graphs_h2198, 0.002); end
+  def test_lever_graphs_i2198; assert_in_epsilon(1.63256072650361, worksheet.lever_graphs_i2198, 0.002); end
+  def test_lever_graphs_j2198; assert_in_epsilon(2.0, worksheet.lever_graphs_j2198, 0.002); end
+  def test_lever_graphs_d2199; assert_equal("2050: Level 1", worksheet.lever_graphs_d2199); end
+  def test_lever_graphs_e2199; assert_in_epsilon(1.4335294291738556, worksheet.lever_graphs_e2199, 0.002); end
+  def test_lever_graphs_f2199; assert_in_delta(0.49837355546254425, worksheet.lever_graphs_f2199, 0.002); end
+  def test_lever_graphs_g2199; assert_in_epsilon(1.17054704840595, worksheet.lever_graphs_g2199, 0.002); end
+  def test_lever_graphs_h2199; assert_in_delta(0.38625491385760824, worksheet.lever_graphs_h2199, 0.002); end
+  def test_lever_graphs_i2199; assert_in_epsilon(2.448841089755415, worksheet.lever_graphs_i2199, 0.002); end
+  def test_lever_graphs_j2199; assert_in_epsilon(3.0, worksheet.lever_graphs_j2199, 0.002); end
+  def test_lever_graphs_d2200; assert_equal("2050: Level 2", worksheet.lever_graphs_d2200); end
+  def test_lever_graphs_e2200; assert_in_epsilon(1.1468235433390843, worksheet.lever_graphs_e2200, 0.002); end
+  def test_lever_graphs_f2200; assert_in_delta(0.3986988443700354, worksheet.lever_graphs_f2200, 0.002); end
+  def test_lever_graphs_g2200; assert_in_delta(0.9364376387247598, worksheet.lever_graphs_g2200, 0.002); end
+  def test_lever_graphs_h2200; assert_in_delta(0.3090039310860866, worksheet.lever_graphs_h2200, 0.002); end
+  def test_lever_graphs_i2200; assert_in_epsilon(1.9590728718043318, worksheet.lever_graphs_i2200, 0.002); end
+  def test_lever_graphs_j2200; assert_in_epsilon(2.4, worksheet.lever_graphs_j2200, 0.002); end
+  def test_lever_graphs_d2201; assert_equal("2050: Level 3", worksheet.lever_graphs_d2201); end
+  def test_lever_graphs_e2201; assert_in_delta(0.9556862861159037, worksheet.lever_graphs_e2201, 0.002); end
+  def test_lever_graphs_f2201; assert_in_delta(0.3322490369750295, worksheet.lever_graphs_f2201, 0.002); end
+  def test_lever_graphs_g2201; assert_in_delta(0.7803646989372999, worksheet.lever_graphs_g2201, 0.002); end
+  def test_lever_graphs_h2201; assert_in_delta(0.25750327590507216, worksheet.lever_graphs_h2201, 0.002); end
+  def test_lever_graphs_i2201; assert_in_epsilon(1.63256072650361, worksheet.lever_graphs_i2201, 0.002); end
+  def test_lever_graphs_j2201; assert_in_epsilon(2.0, worksheet.lever_graphs_j2201, 0.002); end
+  def test_lever_graphs_d2202; assert_equal("2050: Level 4", worksheet.lever_graphs_d2202); end
+  def test_lever_graphs_e2202; assert_in_delta(0.764549028892723, worksheet.lever_graphs_e2202, 0.002); end
+  def test_lever_graphs_f2202; assert_in_delta(0.2657992295800236, worksheet.lever_graphs_f2202, 0.002); end
+  def test_lever_graphs_g2202; assert_in_delta(0.6242917591498399, worksheet.lever_graphs_g2202, 0.002); end
+  def test_lever_graphs_h2202; assert_in_delta(0.20600262072405773, worksheet.lever_graphs_h2202, 0.002); end
+  def test_lever_graphs_i2202; assert_in_epsilon(1.3060485812028881, worksheet.lever_graphs_i2202, 0.002); end
+  def test_lever_graphs_j2202; assert_in_epsilon(1.6, worksheet.lever_graphs_j2202, 0.002); end
+  def test_lever_graphs_c2686; assert_equal("1975", worksheet.lever_graphs_c2686); end
+  def test_lever_graphs_d2686; assert_equal("1980", worksheet.lever_graphs_d2686); end
+  def test_lever_graphs_e2686; assert_equal("1985", worksheet.lever_graphs_e2686); end
+  def test_lever_graphs_f2686; assert_equal("1990", worksheet.lever_graphs_f2686); end
+  def test_lever_graphs_g2686; assert_equal("1995", worksheet.lever_graphs_g2686); end
+  def test_lever_graphs_h2686; assert_equal("2000", worksheet.lever_graphs_h2686); end
+  def test_lever_graphs_i2686; assert_equal("2005", worksheet.lever_graphs_i2686); end
+  def test_lever_graphs_j2686; assert_equal("2011", worksheet.lever_graphs_j2686); end
+  def test_lever_graphs_k2686; assert_equal("2015", worksheet.lever_graphs_k2686); end
+  def test_lever_graphs_l2686; assert_equal("2020", worksheet.lever_graphs_l2686); end
+  def test_lever_graphs_m2686; assert_equal("2025", worksheet.lever_graphs_m2686); end
+  def test_lever_graphs_n2686; assert_equal("2030", worksheet.lever_graphs_n2686); end
+  def test_lever_graphs_o2686; assert_equal("2035", worksheet.lever_graphs_o2686); end
+  def test_lever_graphs_p2686; assert_equal("2040", worksheet.lever_graphs_p2686); end
+  def test_lever_graphs_q2686; assert_equal("2045", worksheet.lever_graphs_q2686); end
+  def test_lever_graphs_r2686; assert_equal("2050", worksheet.lever_graphs_r2686); end
+  def test_lever_graphs_b2687; assert_equal("Historic data", worksheet.lever_graphs_b2687); end
+  def test_lever_graphs_b2688; assert_in_delta(1.0, worksheet.lever_graphs_b2688, 0.002); end
+  def test_lever_graphs_j2688; assert_in_delta(0.0, (worksheet.lever_graphs_j2688||0), 0.002); end
+  def test_lever_graphs_k2688; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2688, 0.002); end
+  def test_lever_graphs_l2688; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2688, 0.002); end
+  def test_lever_graphs_m2688; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2688, 0.002); end
+  def test_lever_graphs_n2688; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2688, 0.002); end
+  def test_lever_graphs_o2688; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2688, 0.002); end
+  def test_lever_graphs_p2688; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2688, 0.002); end
+  def test_lever_graphs_q2688; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2688, 0.002); end
+  def test_lever_graphs_r2688; assert_in_delta(0.2, worksheet.lever_graphs_r2688, 0.002); end
+  def test_lever_graphs_b2689; assert_in_epsilon(2.0, worksheet.lever_graphs_b2689, 0.002); end
+  def test_lever_graphs_j2689; assert_in_delta(0.0, (worksheet.lever_graphs_j2689||0), 0.002); end
+  def test_lever_graphs_k2689; assert_in_delta(0.05128205128205128, worksheet.lever_graphs_k2689, 0.002); end
+  def test_lever_graphs_l2689; assert_in_delta(0.11538461538461538, worksheet.lever_graphs_l2689, 0.002); end
+  def test_lever_graphs_m2689; assert_in_delta(0.1794871794871795, worksheet.lever_graphs_m2689, 0.002); end
+  def test_lever_graphs_n2689; assert_in_delta(0.24358974358974358, worksheet.lever_graphs_n2689, 0.002); end
+  def test_lever_graphs_o2689; assert_in_delta(0.3076923076923077, worksheet.lever_graphs_o2689, 0.002); end
+  def test_lever_graphs_p2689; assert_in_delta(0.3717948717948718, worksheet.lever_graphs_p2689, 0.002); end
+  def test_lever_graphs_q2689; assert_in_delta(0.4358974358974359, worksheet.lever_graphs_q2689, 0.002); end
+  def test_lever_graphs_r2689; assert_in_delta(0.5, worksheet.lever_graphs_r2689, 0.002); end
+  def test_lever_graphs_b2690; assert_in_epsilon(3.0, worksheet.lever_graphs_b2690, 0.002); end
+  def test_lever_graphs_j2690; assert_in_delta(0.0, (worksheet.lever_graphs_j2690||0), 0.002); end
+  def test_lever_graphs_k2690; assert_in_delta(0.12307692307692307, worksheet.lever_graphs_k2690, 0.002); end
+  def test_lever_graphs_l2690; assert_in_delta(0.2769230769230769, worksheet.lever_graphs_l2690, 0.002); end
+  def test_lever_graphs_m2690; assert_in_delta(0.43076923076923074, worksheet.lever_graphs_m2690, 0.002); end
+  def test_lever_graphs_n2690; assert_in_delta(0.5846153846153845, worksheet.lever_graphs_n2690, 0.002); end
+  def test_lever_graphs_o2690; assert_in_delta(0.7384615384615384, worksheet.lever_graphs_o2690, 0.002); end
+  def test_lever_graphs_p2690; assert_in_delta(0.8923076923076922, worksheet.lever_graphs_p2690, 0.002); end
+  def test_lever_graphs_q2690; assert_in_epsilon(1.046153846153846, worksheet.lever_graphs_q2690, 0.002); end
+  def test_lever_graphs_r2690; assert_in_epsilon(1.2, worksheet.lever_graphs_r2690, 0.002); end
+  def test_lever_graphs_b2691; assert_in_epsilon(4.0, worksheet.lever_graphs_b2691, 0.002); end
+  def test_lever_graphs_j2691; assert_in_delta(0.0, (worksheet.lever_graphs_j2691||0), 0.002); end
+  def test_lever_graphs_k2691; assert_in_delta(0.22564102564102567, worksheet.lever_graphs_k2691, 0.002); end
+  def test_lever_graphs_l2691; assert_in_delta(0.5076923076923078, worksheet.lever_graphs_l2691, 0.002); end
+  def test_lever_graphs_m2691; assert_in_delta(0.7897435897435898, worksheet.lever_graphs_m2691, 0.002); end
+  def test_lever_graphs_n2691; assert_in_epsilon(1.071794871794872, worksheet.lever_graphs_n2691, 0.002); end
+  def test_lever_graphs_o2691; assert_in_epsilon(1.353846153846154, worksheet.lever_graphs_o2691, 0.002); end
+  def test_lever_graphs_p2691; assert_in_epsilon(1.635897435897436, worksheet.lever_graphs_p2691, 0.002); end
+  def test_lever_graphs_q2691; assert_in_epsilon(1.9179487179487182, worksheet.lever_graphs_q2691, 0.002); end
+  def test_lever_graphs_r2691; assert_in_epsilon(2.2, worksheet.lever_graphs_r2691, 0.002); end
+  def test_lever_graphs_c2103; assert_equal("1975", worksheet.lever_graphs_c2103); end
+  def test_lever_graphs_d2103; assert_equal("1980", worksheet.lever_graphs_d2103); end
+  def test_lever_graphs_e2103; assert_equal("1985", worksheet.lever_graphs_e2103); end
+  def test_lever_graphs_f2103; assert_equal("1990", worksheet.lever_graphs_f2103); end
+  def test_lever_graphs_g2103; assert_equal("1995", worksheet.lever_graphs_g2103); end
+  def test_lever_graphs_h2103; assert_equal("2000", worksheet.lever_graphs_h2103); end
+  def test_lever_graphs_i2103; assert_equal("2005", worksheet.lever_graphs_i2103); end
+  def test_lever_graphs_j2103; assert_equal("2011", worksheet.lever_graphs_j2103); end
+  def test_lever_graphs_k2103; assert_equal("2015", worksheet.lever_graphs_k2103); end
+  def test_lever_graphs_l2103; assert_equal("2020", worksheet.lever_graphs_l2103); end
+  def test_lever_graphs_m2103; assert_equal("2025", worksheet.lever_graphs_m2103); end
+  def test_lever_graphs_n2103; assert_equal("2030", worksheet.lever_graphs_n2103); end
+  def test_lever_graphs_o2103; assert_equal("2035", worksheet.lever_graphs_o2103); end
+  def test_lever_graphs_p2103; assert_equal("2040", worksheet.lever_graphs_p2103); end
+  def test_lever_graphs_q2103; assert_equal("2045", worksheet.lever_graphs_q2103); end
+  def test_lever_graphs_r2103; assert_equal("2050", worksheet.lever_graphs_r2103); end
+  def test_lever_graphs_b2104; assert_equal("Historic data", worksheet.lever_graphs_b2104); end
+  def test_lever_graphs_b2105; assert_in_delta(1.0, worksheet.lever_graphs_b2105, 0.002); end
+  def test_lever_graphs_j2105; assert_in_epsilon(78.0, worksheet.lever_graphs_j2105, 0.002); end
+  def test_lever_graphs_k2105; assert_in_epsilon(80.25641025641025, worksheet.lever_graphs_k2105, 0.002); end
+  def test_lever_graphs_l2105; assert_in_epsilon(83.07692307692308, worksheet.lever_graphs_l2105, 0.002); end
+  def test_lever_graphs_m2105; assert_in_epsilon(85.89743589743591, worksheet.lever_graphs_m2105, 0.002); end
+  def test_lever_graphs_n2105; assert_in_epsilon(88.71794871794872, worksheet.lever_graphs_n2105, 0.002); end
+  def test_lever_graphs_o2105; assert_in_epsilon(91.53846153846155, worksheet.lever_graphs_o2105, 0.002); end
+  def test_lever_graphs_p2105; assert_in_epsilon(94.35897435897436, worksheet.lever_graphs_p2105, 0.002); end
+  def test_lever_graphs_q2105; assert_in_epsilon(97.17948717948717, worksheet.lever_graphs_q2105, 0.002); end
+  def test_lever_graphs_r2105; assert_in_epsilon(100.0, worksheet.lever_graphs_r2105, 0.002); end
+  def test_lever_graphs_b2106; assert_in_epsilon(2.0, worksheet.lever_graphs_b2106, 0.002); end
+  def test_lever_graphs_j2106; assert_in_epsilon(78.0, worksheet.lever_graphs_j2106, 0.002); end
+  def test_lever_graphs_k2106; assert_in_epsilon(79.74358974358975, worksheet.lever_graphs_k2106, 0.002); end
+  def test_lever_graphs_l2106; assert_in_epsilon(81.92307692307693, worksheet.lever_graphs_l2106, 0.002); end
+  def test_lever_graphs_m2106; assert_in_epsilon(84.1025641025641, worksheet.lever_graphs_m2106, 0.002); end
+  def test_lever_graphs_n2106; assert_in_epsilon(86.28205128205128, worksheet.lever_graphs_n2106, 0.002); end
+  def test_lever_graphs_o2106; assert_in_epsilon(88.46153846153847, worksheet.lever_graphs_o2106, 0.002); end
+  def test_lever_graphs_p2106; assert_in_epsilon(90.64102564102565, worksheet.lever_graphs_p2106, 0.002); end
+  def test_lever_graphs_q2106; assert_in_epsilon(92.82051282051283, worksheet.lever_graphs_q2106, 0.002); end
+  def test_lever_graphs_r2106; assert_in_epsilon(95.0, worksheet.lever_graphs_r2106, 0.002); end
+  def test_lever_graphs_b2107; assert_in_epsilon(3.0, worksheet.lever_graphs_b2107, 0.002); end
+  def test_lever_graphs_j2107; assert_in_epsilon(78.0, worksheet.lever_graphs_j2107, 0.002); end
+  def test_lever_graphs_k2107; assert_in_epsilon(79.23076923076923, worksheet.lever_graphs_k2107, 0.002); end
+  def test_lever_graphs_l2107; assert_in_epsilon(80.76923076923077, worksheet.lever_graphs_l2107, 0.002); end
+  def test_lever_graphs_m2107; assert_in_epsilon(82.3076923076923, worksheet.lever_graphs_m2107, 0.002); end
+  def test_lever_graphs_n2107; assert_in_epsilon(83.84615384615384, worksheet.lever_graphs_n2107, 0.002); end
+  def test_lever_graphs_o2107; assert_in_epsilon(85.38461538461539, worksheet.lever_graphs_o2107, 0.002); end
+  def test_lever_graphs_p2107; assert_in_epsilon(86.92307692307692, worksheet.lever_graphs_p2107, 0.002); end
+  def test_lever_graphs_q2107; assert_in_epsilon(88.46153846153847, worksheet.lever_graphs_q2107, 0.002); end
+  def test_lever_graphs_r2107; assert_in_epsilon(89.99999999999999, worksheet.lever_graphs_r2107, 0.002); end
+  def test_lever_graphs_b2108; assert_in_epsilon(4.0, worksheet.lever_graphs_b2108, 0.002); end
+  def test_lever_graphs_j2108; assert_in_epsilon(78.0, worksheet.lever_graphs_j2108, 0.002); end
+  def test_lever_graphs_k2108; assert_in_epsilon(78.71794871794872, worksheet.lever_graphs_k2108, 0.002); end
+  def test_lever_graphs_l2108; assert_in_epsilon(79.61538461538463, worksheet.lever_graphs_l2108, 0.002); end
+  def test_lever_graphs_m2108; assert_in_epsilon(80.51282051282053, worksheet.lever_graphs_m2108, 0.002); end
+  def test_lever_graphs_n2108; assert_in_epsilon(81.4102564102564, worksheet.lever_graphs_n2108, 0.002); end
+  def test_lever_graphs_o2108; assert_in_epsilon(82.3076923076923, worksheet.lever_graphs_o2108, 0.002); end
+  def test_lever_graphs_p2108; assert_in_epsilon(83.2051282051282, worksheet.lever_graphs_p2108, 0.002); end
+  def test_lever_graphs_q2108; assert_in_epsilon(84.1025641025641, worksheet.lever_graphs_q2108, 0.002); end
+  def test_lever_graphs_r2108; assert_in_epsilon(85.0, worksheet.lever_graphs_r2108, 0.002); end
+  def test_lever_graphs_b2109; assert_equal("Austria -average", worksheet.lever_graphs_b2109); end
+  def test_lever_graphs_j2109; assert_in_epsilon(214.0, worksheet.lever_graphs_j2109, 0.002); end
+  def test_lever_graphs_b2110; assert_equal("US -average", worksheet.lever_graphs_b2110); end
+  def test_lever_graphs_j2110; assert_in_epsilon(201.0, worksheet.lever_graphs_j2110, 0.002); end
+  def test_lever_graphs_b2111; assert_equal("Germany -average", worksheet.lever_graphs_b2111); end
+  def test_lever_graphs_j2111; assert_in_epsilon(109.0, worksheet.lever_graphs_j2111, 0.002); end
+  def test_lever_graphs_b2112; assert_equal("Spain -average", worksheet.lever_graphs_b2112); end
+  def test_lever_graphs_j2112; assert_in_epsilon(97.0, worksheet.lever_graphs_j2112, 0.002); end
+  def test_lever_graphs_b2113; assert_equal("UK -average", worksheet.lever_graphs_b2113); end
+  def test_lever_graphs_j2113; assert_in_epsilon(76.0, worksheet.lever_graphs_j2113, 0.002); end
+  def test_lever_graphs_b2114; assert_equal("China -average", worksheet.lever_graphs_b2114); end
+  def test_lever_graphs_j2114; assert_in_epsilon(60.0, worksheet.lever_graphs_j2114, 0.002); end
+  def test_lever_graphs_b2115; assert_equal("Hong Kong -average", worksheet.lever_graphs_b2115); end
+  def test_lever_graphs_j2115; assert_in_epsilon(45.0, worksheet.lever_graphs_j2115, 0.002); end
+  def test_lever_graphs_c2086; assert_equal("1975", worksheet.lever_graphs_c2086); end
+  def test_lever_graphs_d2086; assert_equal("1980", worksheet.lever_graphs_d2086); end
+  def test_lever_graphs_e2086; assert_equal("1985", worksheet.lever_graphs_e2086); end
+  def test_lever_graphs_f2086; assert_equal("1990", worksheet.lever_graphs_f2086); end
+  def test_lever_graphs_g2086; assert_equal("1995", worksheet.lever_graphs_g2086); end
+  def test_lever_graphs_h2086; assert_equal("2000", worksheet.lever_graphs_h2086); end
+  def test_lever_graphs_i2086; assert_equal("2005", worksheet.lever_graphs_i2086); end
+  def test_lever_graphs_j2086; assert_equal("2011", worksheet.lever_graphs_j2086); end
+  def test_lever_graphs_k2086; assert_equal("2015", worksheet.lever_graphs_k2086); end
+  def test_lever_graphs_l2086; assert_equal("2020", worksheet.lever_graphs_l2086); end
+  def test_lever_graphs_m2086; assert_equal("2025", worksheet.lever_graphs_m2086); end
+  def test_lever_graphs_n2086; assert_equal("2030", worksheet.lever_graphs_n2086); end
+  def test_lever_graphs_o2086; assert_equal("2035", worksheet.lever_graphs_o2086); end
+  def test_lever_graphs_p2086; assert_equal("2040", worksheet.lever_graphs_p2086); end
+  def test_lever_graphs_q2086; assert_equal("2045", worksheet.lever_graphs_q2086); end
+  def test_lever_graphs_r2086; assert_equal("2050", worksheet.lever_graphs_r2086); end
+  def test_lever_graphs_b2087; assert_equal("Historical data", worksheet.lever_graphs_b2087); end
+  def test_lever_graphs_b2088; assert_in_delta(1.0, worksheet.lever_graphs_b2088, 0.002); end
+  def test_lever_graphs_j2088; assert_in_epsilon(92.0, worksheet.lever_graphs_j2088, 0.002); end
+  def test_lever_graphs_k2088; assert_in_epsilon(93.84615384615384, worksheet.lever_graphs_k2088, 0.002); end
+  def test_lever_graphs_l2088; assert_in_epsilon(96.15384615384615, worksheet.lever_graphs_l2088, 0.002); end
+  def test_lever_graphs_m2088; assert_in_epsilon(98.46153846153845, worksheet.lever_graphs_m2088, 0.002); end
+  def test_lever_graphs_n2088; assert_in_epsilon(100.76923076923075, worksheet.lever_graphs_n2088, 0.002); end
+  def test_lever_graphs_o2088; assert_in_epsilon(103.07692307692308, worksheet.lever_graphs_o2088, 0.002); end
+  def test_lever_graphs_p2088; assert_in_epsilon(105.3846153846154, worksheet.lever_graphs_p2088, 0.002); end
+  def test_lever_graphs_q2088; assert_in_epsilon(107.6923076923077, worksheet.lever_graphs_q2088, 0.002); end
+  def test_lever_graphs_r2088; assert_in_epsilon(110.0, worksheet.lever_graphs_r2088, 0.002); end
+  def test_lever_graphs_b2089; assert_in_epsilon(2.0, worksheet.lever_graphs_b2089, 0.002); end
+  def test_lever_graphs_j2089; assert_in_epsilon(92.0, worksheet.lever_graphs_j2089, 0.002); end
+  def test_lever_graphs_k2089; assert_in_epsilon(93.33333333333334, worksheet.lever_graphs_k2089, 0.002); end
+  def test_lever_graphs_l2089; assert_in_epsilon(94.99999999999999, worksheet.lever_graphs_l2089, 0.002); end
+  def test_lever_graphs_m2089; assert_in_epsilon(96.66666666666667, worksheet.lever_graphs_m2089, 0.002); end
+  def test_lever_graphs_n2089; assert_in_epsilon(98.33333333333331, worksheet.lever_graphs_n2089, 0.002); end
+  def test_lever_graphs_o2089; assert_in_epsilon(100.0, worksheet.lever_graphs_o2089, 0.002); end
+  def test_lever_graphs_p2089; assert_in_epsilon(101.66666666666664, worksheet.lever_graphs_p2089, 0.002); end
+  def test_lever_graphs_q2089; assert_in_epsilon(103.33333333333333, worksheet.lever_graphs_q2089, 0.002); end
+  def test_lever_graphs_r2089; assert_in_epsilon(105.0, worksheet.lever_graphs_r2089, 0.002); end
+  def test_lever_graphs_b2090; assert_in_epsilon(3.0, worksheet.lever_graphs_b2090, 0.002); end
+  def test_lever_graphs_j2090; assert_in_epsilon(92.0, worksheet.lever_graphs_j2090, 0.002); end
+  def test_lever_graphs_k2090; assert_in_epsilon(92.82051282051282, worksheet.lever_graphs_k2090, 0.002); end
+  def test_lever_graphs_l2090; assert_in_epsilon(93.84615384615384, worksheet.lever_graphs_l2090, 0.002); end
+  def test_lever_graphs_m2090; assert_in_epsilon(94.87179487179488, worksheet.lever_graphs_m2090, 0.002); end
+  def test_lever_graphs_n2090; assert_in_epsilon(95.89743589743588, worksheet.lever_graphs_n2090, 0.002); end
+  def test_lever_graphs_o2090; assert_in_epsilon(96.92307692307692, worksheet.lever_graphs_o2090, 0.002); end
+  def test_lever_graphs_p2090; assert_in_epsilon(97.94871794871796, worksheet.lever_graphs_p2090, 0.002); end
+  def test_lever_graphs_q2090; assert_in_epsilon(98.97435897435898, worksheet.lever_graphs_q2090, 0.002); end
+  def test_lever_graphs_r2090; assert_in_epsilon(100.0, worksheet.lever_graphs_r2090, 0.002); end
+  def test_lever_graphs_b2091; assert_in_epsilon(4.0, worksheet.lever_graphs_b2091, 0.002); end
+  def test_lever_graphs_j2091; assert_in_epsilon(92.0, worksheet.lever_graphs_j2091, 0.002); end
+  def test_lever_graphs_k2091; assert_in_epsilon(92.3076923076923, worksheet.lever_graphs_k2091, 0.002); end
+  def test_lever_graphs_l2091; assert_in_epsilon(92.6923076923077, worksheet.lever_graphs_l2091, 0.002); end
+  def test_lever_graphs_m2091; assert_in_epsilon(93.0769230769231, worksheet.lever_graphs_m2091, 0.002); end
+  def test_lever_graphs_n2091; assert_in_epsilon(93.46153846153845, worksheet.lever_graphs_n2091, 0.002); end
+  def test_lever_graphs_o2091; assert_in_epsilon(93.84615384615384, worksheet.lever_graphs_o2091, 0.002); end
+  def test_lever_graphs_p2091; assert_in_epsilon(94.23076923076924, worksheet.lever_graphs_p2091, 0.002); end
+  def test_lever_graphs_q2091; assert_in_epsilon(94.61538461538463, worksheet.lever_graphs_q2091, 0.002); end
+  def test_lever_graphs_r2091; assert_in_epsilon(95.0, worksheet.lever_graphs_r2091, 0.002); end
+  def test_lever_graphs_b2092; assert_equal("Austria -average", worksheet.lever_graphs_b2092); end
+  def test_lever_graphs_j2092; assert_in_epsilon(214.0, worksheet.lever_graphs_j2092, 0.002); end
+  def test_lever_graphs_b2093; assert_equal("US -average", worksheet.lever_graphs_b2093); end
+  def test_lever_graphs_j2093; assert_in_epsilon(201.0, worksheet.lever_graphs_j2093, 0.002); end
+  def test_lever_graphs_b2094; assert_equal("Germany -average", worksheet.lever_graphs_b2094); end
+  def test_lever_graphs_j2094; assert_in_epsilon(109.0, worksheet.lever_graphs_j2094, 0.002); end
+  def test_lever_graphs_b2095; assert_equal("Spain -average", worksheet.lever_graphs_b2095); end
+  def test_lever_graphs_j2095; assert_in_epsilon(97.0, worksheet.lever_graphs_j2095, 0.002); end
+  def test_lever_graphs_b2096; assert_equal("UK -average", worksheet.lever_graphs_b2096); end
+  def test_lever_graphs_j2096; assert_in_epsilon(76.0, worksheet.lever_graphs_j2096, 0.002); end
+  def test_lever_graphs_b2097; assert_equal("China -average", worksheet.lever_graphs_b2097); end
+  def test_lever_graphs_j2097; assert_in_epsilon(60.0, worksheet.lever_graphs_j2097, 0.002); end
+  def test_lever_graphs_b2098; assert_equal("Hong Kong -average", worksheet.lever_graphs_b2098); end
+  def test_lever_graphs_j2098; assert_in_epsilon(45.0, worksheet.lever_graphs_j2098, 0.002); end
+  def test_lever_graphs_c2540; assert_equal("1975", worksheet.lever_graphs_c2540); end
+  def test_lever_graphs_d2540; assert_equal("1980", worksheet.lever_graphs_d2540); end
+  def test_lever_graphs_e2540; assert_equal("1985", worksheet.lever_graphs_e2540); end
+  def test_lever_graphs_f2540; assert_equal("1990", worksheet.lever_graphs_f2540); end
+  def test_lever_graphs_g2540; assert_equal("1995", worksheet.lever_graphs_g2540); end
+  def test_lever_graphs_h2540; assert_equal("2000", worksheet.lever_graphs_h2540); end
+  def test_lever_graphs_i2540; assert_equal("2005", worksheet.lever_graphs_i2540); end
+  def test_lever_graphs_j2540; assert_equal("2011", worksheet.lever_graphs_j2540); end
+  def test_lever_graphs_k2540; assert_equal("2015", worksheet.lever_graphs_k2540); end
+  def test_lever_graphs_l2540; assert_equal("2020", worksheet.lever_graphs_l2540); end
+  def test_lever_graphs_m2540; assert_equal("2025", worksheet.lever_graphs_m2540); end
+  def test_lever_graphs_n2540; assert_equal("2030", worksheet.lever_graphs_n2540); end
+  def test_lever_graphs_o2540; assert_equal("2035", worksheet.lever_graphs_o2540); end
+  def test_lever_graphs_p2540; assert_equal("2040", worksheet.lever_graphs_p2540); end
+  def test_lever_graphs_q2540; assert_equal("2045", worksheet.lever_graphs_q2540); end
+  def test_lever_graphs_r2540; assert_equal("2050", worksheet.lever_graphs_r2540); end
+  def test_lever_graphs_b2541; assert_equal("Historic data", worksheet.lever_graphs_b2541); end
+  def test_lever_graphs_b2542; assert_in_delta(1.0, worksheet.lever_graphs_b2542, 0.002); end
+  def test_lever_graphs_j2542; assert_in_epsilon(2140.0, worksheet.lever_graphs_j2542, 0.002); end
+  def test_lever_graphs_k2542; assert_in_epsilon(2156.4102564102564, worksheet.lever_graphs_k2542, 0.002); end
+  def test_lever_graphs_l2542; assert_in_epsilon(2208.3516483516482, worksheet.lever_graphs_l2542, 0.002); end
+  def test_lever_graphs_m2542; assert_in_epsilon(2260.29304029304, worksheet.lever_graphs_m2542, 0.002); end
+  def test_lever_graphs_n2542; assert_in_epsilon(2312.2344322344325, worksheet.lever_graphs_n2542, 0.002); end
+  def test_lever_graphs_o2542; assert_in_epsilon(2364.175824175824, worksheet.lever_graphs_o2542, 0.002); end
+  def test_lever_graphs_p2542; assert_in_epsilon(2416.117216117216, worksheet.lever_graphs_p2542, 0.002); end
+  def test_lever_graphs_q2542; assert_in_epsilon(2468.0586080586077, worksheet.lever_graphs_q2542, 0.002); end
+  def test_lever_graphs_r2542; assert_in_epsilon(2520.0, worksheet.lever_graphs_r2542, 0.002); end
+  def test_lever_graphs_b2543; assert_in_epsilon(2.0, worksheet.lever_graphs_b2543, 0.002); end
+  def test_lever_graphs_j2543; assert_in_epsilon(2140.0, worksheet.lever_graphs_j2543, 0.002); end
+  def test_lever_graphs_k2543; assert_in_epsilon(2156.4102564102564, worksheet.lever_graphs_k2543, 0.002); end
+  def test_lever_graphs_l2543; assert_in_epsilon(2191.208791208791, worksheet.lever_graphs_l2543, 0.002); end
+  def test_lever_graphs_m2543; assert_in_epsilon(2226.007326007326, worksheet.lever_graphs_m2543, 0.002); end
+  def test_lever_graphs_n2543; assert_in_epsilon(2260.805860805861, worksheet.lever_graphs_n2543, 0.002); end
+  def test_lever_graphs_o2543; assert_in_epsilon(2295.604395604396, worksheet.lever_graphs_o2543, 0.002); end
+  def test_lever_graphs_p2543; assert_in_epsilon(2330.4029304029305, worksheet.lever_graphs_p2543, 0.002); end
+  def test_lever_graphs_q2543; assert_in_epsilon(2365.2014652014655, worksheet.lever_graphs_q2543, 0.002); end
+  def test_lever_graphs_r2543; assert_in_epsilon(2400.0, worksheet.lever_graphs_r2543, 0.002); end
+  def test_lever_graphs_b2544; assert_in_epsilon(3.0, worksheet.lever_graphs_b2544, 0.002); end
+  def test_lever_graphs_j2544; assert_in_epsilon(2140.0, worksheet.lever_graphs_j2544, 0.002); end
+  def test_lever_graphs_k2544; assert_in_epsilon(2156.4102564102564, worksheet.lever_graphs_k2544, 0.002); end
+  def test_lever_graphs_l2544; assert_in_epsilon(2176.923076923077, worksheet.lever_graphs_l2544, 0.002); end
+  def test_lever_graphs_m2544; assert_in_epsilon(2197.4358974358975, worksheet.lever_graphs_m2544, 0.002); end
+  def test_lever_graphs_n2544; assert_in_epsilon(2217.948717948718, worksheet.lever_graphs_n2544, 0.002); end
+  def test_lever_graphs_o2544; assert_in_epsilon(2238.461538461538, worksheet.lever_graphs_o2544, 0.002); end
+  def test_lever_graphs_p2544; assert_in_epsilon(2258.974358974359, worksheet.lever_graphs_p2544, 0.002); end
+  def test_lever_graphs_q2544; assert_in_epsilon(2279.487179487179, worksheet.lever_graphs_q2544, 0.002); end
+  def test_lever_graphs_r2544; assert_in_epsilon(2300.0, worksheet.lever_graphs_r2544, 0.002); end
+  def test_lever_graphs_b2545; assert_in_epsilon(4.0, worksheet.lever_graphs_b2545, 0.002); end
+  def test_lever_graphs_j2545; assert_in_epsilon(2140.0, worksheet.lever_graphs_j2545, 0.002); end
+  def test_lever_graphs_k2545; assert_in_epsilon(2156.4102564102564, worksheet.lever_graphs_k2545, 0.002); end
+  def test_lever_graphs_l2545; assert_in_epsilon(2148.3516483516482, worksheet.lever_graphs_l2545, 0.002); end
+  def test_lever_graphs_m2545; assert_in_epsilon(2140.29304029304, worksheet.lever_graphs_m2545, 0.002); end
+  def test_lever_graphs_n2545; assert_in_epsilon(2132.234432234432, worksheet.lever_graphs_n2545, 0.002); end
+  def test_lever_graphs_o2545; assert_in_epsilon(2124.1758241758243, worksheet.lever_graphs_o2545, 0.002); end
+  def test_lever_graphs_p2545; assert_in_epsilon(2116.1172161172162, worksheet.lever_graphs_p2545, 0.002); end
+  def test_lever_graphs_q2545; assert_in_epsilon(2108.058608058608, worksheet.lever_graphs_q2545, 0.002); end
+  def test_lever_graphs_r2545; assert_in_epsilon(2100.0, worksheet.lever_graphs_r2545, 0.002); end
+  def test_lever_graphs_b2546; assert_equal("USA today", worksheet.lever_graphs_b2546); end
+  def test_lever_graphs_b2547; assert_equal("EU today", worksheet.lever_graphs_b2547); end
+  def test_lever_graphs_j2547; assert_in_epsilon(2520.0, worksheet.lever_graphs_j2547, 0.002); end
+  def test_lever_graphs_b2548; assert_equal("Australia today", worksheet.lever_graphs_b2548); end
+  def test_lever_graphs_j2548; assert_in_epsilon(2449.0, worksheet.lever_graphs_j2548, 0.002); end
+  def test_lever_graphs_b2549; assert_equal("China today", worksheet.lever_graphs_b2549); end
+  def test_lever_graphs_j2549; assert_in_epsilon(2306.0, worksheet.lever_graphs_j2549, 0.002); end
+  def test_lever_graphs_b2550; assert_equal("South Africa today", worksheet.lever_graphs_b2550); end
+  def test_lever_graphs_j2550; assert_in_epsilon(2255.0, worksheet.lever_graphs_j2550, 0.002); end
+  def test_lever_graphs_b2551; assert_equal("Malaysia today", worksheet.lever_graphs_b2551); end
+  def test_lever_graphs_j2551; assert_in_epsilon(2141.0, worksheet.lever_graphs_j2551, 0.002); end
+  def test_lever_graphs_b2552; assert_equal("WHO healthy diet recommendation", worksheet.lever_graphs_b2552); end
+  def test_lever_graphs_j2552; assert_in_epsilon(2100.0, worksheet.lever_graphs_j2552, 0.002); end
+  def test_lever_graphs_c1691; assert_equal("1975", worksheet.lever_graphs_c1691); end
+  def test_lever_graphs_d1691; assert_equal("1980", worksheet.lever_graphs_d1691); end
+  def test_lever_graphs_e1691; assert_equal("1985", worksheet.lever_graphs_e1691); end
+  def test_lever_graphs_f1691; assert_equal("1990", worksheet.lever_graphs_f1691); end
+  def test_lever_graphs_g1691; assert_equal("1995", worksheet.lever_graphs_g1691); end
+  def test_lever_graphs_h1691; assert_equal("2000", worksheet.lever_graphs_h1691); end
+  def test_lever_graphs_i1691; assert_equal("2005", worksheet.lever_graphs_i1691); end
+  def test_lever_graphs_j1691; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1691, 0.002); end
+  def test_lever_graphs_k1691; assert_equal("2015", worksheet.lever_graphs_k1691); end
+  def test_lever_graphs_l1691; assert_equal("2020", worksheet.lever_graphs_l1691); end
+  def test_lever_graphs_m1691; assert_equal("2025", worksheet.lever_graphs_m1691); end
+  def test_lever_graphs_n1691; assert_equal("2030", worksheet.lever_graphs_n1691); end
+  def test_lever_graphs_o1691; assert_equal("2035", worksheet.lever_graphs_o1691); end
+  def test_lever_graphs_p1691; assert_equal("2040", worksheet.lever_graphs_p1691); end
+  def test_lever_graphs_q1691; assert_equal("2045", worksheet.lever_graphs_q1691); end
+  def test_lever_graphs_r1691; assert_equal("2050", worksheet.lever_graphs_r1691); end
+  def test_lever_graphs_b1692; assert_equal("Historic data", worksheet.lever_graphs_b1692); end
+  def test_lever_graphs_b1693; assert_in_delta(1.0, worksheet.lever_graphs_b1693, 0.002); end
+  def test_lever_graphs_j1693; assert_in_delta(0.0, (worksheet.lever_graphs_j1693||0), 0.002); end
+  def test_lever_graphs_k1693; assert_in_epsilon(2.6, worksheet.lever_graphs_k1693, 0.002); end
+  def test_lever_graphs_l1693; assert_in_epsilon(16.0, worksheet.lever_graphs_l1693, 0.002); end
+  def test_lever_graphs_m1693; assert_in_epsilon(16.0, worksheet.lever_graphs_m1693, 0.002); end
+  def test_lever_graphs_n1693; assert_in_epsilon(16.0, worksheet.lever_graphs_n1693, 0.002); end
+  def test_lever_graphs_o1693; assert_in_epsilon(16.0, worksheet.lever_graphs_o1693, 0.002); end
+  def test_lever_graphs_p1693; assert_in_epsilon(16.0, worksheet.lever_graphs_p1693, 0.002); end
+  def test_lever_graphs_q1693; assert_in_epsilon(16.0, worksheet.lever_graphs_q1693, 0.002); end
+  def test_lever_graphs_r1693; assert_in_epsilon(16.0, worksheet.lever_graphs_r1693, 0.002); end
+  def test_lever_graphs_b1694; assert_in_epsilon(2.0, worksheet.lever_graphs_b1694, 0.002); end
+  def test_lever_graphs_j1694; assert_in_delta(0.0, (worksheet.lever_graphs_j1694||0), 0.002); end
+  def test_lever_graphs_k1694; assert_in_epsilon(9.0, worksheet.lever_graphs_k1694, 0.002); end
+  def test_lever_graphs_l1694; assert_in_epsilon(18.0, worksheet.lever_graphs_l1694, 0.002); end
+  def test_lever_graphs_m1694; assert_in_epsilon(36.0, worksheet.lever_graphs_m1694, 0.002); end
+  def test_lever_graphs_n1694; assert_in_epsilon(114.0, worksheet.lever_graphs_n1694, 0.002); end
+  def test_lever_graphs_o1694; assert_in_epsilon(159.6, worksheet.lever_graphs_o1694, 0.002); end
+  def test_lever_graphs_p1694; assert_in_epsilon(223.4, worksheet.lever_graphs_p1694, 0.002); end
+  def test_lever_graphs_q1694; assert_in_epsilon(312.8, worksheet.lever_graphs_q1694, 0.002); end
+  def test_lever_graphs_r1694; assert_in_epsilon(490.0, worksheet.lever_graphs_r1694, 0.002); end
+  def test_lever_graphs_b1695; assert_in_epsilon(3.0, worksheet.lever_graphs_b1695, 0.002); end
+  def test_lever_graphs_j1695; assert_in_delta(0.0, (worksheet.lever_graphs_j1695||0), 0.002); end
+  def test_lever_graphs_k1695; assert_in_epsilon(9.0, worksheet.lever_graphs_k1695, 0.002); end
+  def test_lever_graphs_l1695; assert_in_epsilon(31.3, worksheet.lever_graphs_l1695, 0.002); end
+  def test_lever_graphs_m1695; assert_in_epsilon(108.9, worksheet.lever_graphs_m1695, 0.002); end
+  def test_lever_graphs_n1695; assert_in_epsilon(380.0, worksheet.lever_graphs_n1695, 0.002); end
+  def test_lever_graphs_o1695; assert_in_epsilon(535.8, worksheet.lever_graphs_o1695, 0.002); end
+  def test_lever_graphs_p1695; assert_in_epsilon(755.5, worksheet.lever_graphs_p1695, 0.002); end
+  def test_lever_graphs_q1695; assert_in_epsilon(1065.3, worksheet.lever_graphs_q1695, 0.002); end
+  def test_lever_graphs_r1695; assert_in_epsilon(1487.0, worksheet.lever_graphs_r1695, 0.002); end
+  def test_lever_graphs_b1696; assert_in_epsilon(4.0, worksheet.lever_graphs_b1696, 0.002); end
+  def test_lever_graphs_j1696; assert_in_delta(0.0, (worksheet.lever_graphs_j1696||0), 0.002); end
+  def test_lever_graphs_k1696; assert_in_epsilon(16.0, worksheet.lever_graphs_k1696, 0.002); end
+  def test_lever_graphs_l1696; assert_in_epsilon(380.0, worksheet.lever_graphs_l1696, 0.002); end
+  def test_lever_graphs_m1696; assert_in_epsilon(760.0, worksheet.lever_graphs_m1696, 0.002); end
+  def test_lever_graphs_n1696; assert_in_epsilon(1266.7, worksheet.lever_graphs_n1696, 0.002); end
+  def test_lever_graphs_o1696; assert_in_epsilon(1773.4, worksheet.lever_graphs_o1696, 0.002); end
+  def test_lever_graphs_p1696; assert_in_epsilon(2482.8, worksheet.lever_graphs_p1696, 0.002); end
+  def test_lever_graphs_q1696; assert_in_epsilon(3000.0, worksheet.lever_graphs_q1696, 0.002); end
+  def test_lever_graphs_r1696; assert_in_epsilon(3700.0, worksheet.lever_graphs_r1696, 0.002); end
+  def test_lever_graphs_b1697; assert_equal("Comparator A", worksheet.lever_graphs_b1697); end
+  def test_lever_graphs_b1698; assert_equal("Comparator B", worksheet.lever_graphs_b1698); end
+  def test_lever_graphs_b1699; assert_equal("Comparator C", worksheet.lever_graphs_b1699); end
+  def test_lever_graphs_c1715; assert_equal("1975", worksheet.lever_graphs_c1715); end
+  def test_lever_graphs_d1715; assert_equal("1980", worksheet.lever_graphs_d1715); end
+  def test_lever_graphs_e1715; assert_equal("1985", worksheet.lever_graphs_e1715); end
+  def test_lever_graphs_f1715; assert_equal("1990", worksheet.lever_graphs_f1715); end
+  def test_lever_graphs_g1715; assert_equal("1995", worksheet.lever_graphs_g1715); end
+  def test_lever_graphs_h1715; assert_equal("2000", worksheet.lever_graphs_h1715); end
+  def test_lever_graphs_i1715; assert_equal("2005", worksheet.lever_graphs_i1715); end
+  def test_lever_graphs_j1715; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1715, 0.002); end
+  def test_lever_graphs_k1715; assert_equal("2015", worksheet.lever_graphs_k1715); end
+  def test_lever_graphs_l1715; assert_equal("2020", worksheet.lever_graphs_l1715); end
+  def test_lever_graphs_m1715; assert_equal("2025", worksheet.lever_graphs_m1715); end
+  def test_lever_graphs_n1715; assert_equal("2030", worksheet.lever_graphs_n1715); end
+  def test_lever_graphs_o1715; assert_equal("2035", worksheet.lever_graphs_o1715); end
+  def test_lever_graphs_p1715; assert_equal("2040", worksheet.lever_graphs_p1715); end
+  def test_lever_graphs_q1715; assert_equal("2045", worksheet.lever_graphs_q1715); end
+  def test_lever_graphs_r1715; assert_equal("2050", worksheet.lever_graphs_r1715); end
+  def test_lever_graphs_b1716; assert_equal("Historic data", worksheet.lever_graphs_b1716); end
+  def test_lever_graphs_b1717; assert_in_delta(1.0, worksheet.lever_graphs_b1717, 0.002); end
+  def test_lever_graphs_j1717; assert_in_epsilon(1.6, worksheet.lever_graphs_j1717, 0.002); end
+  def test_lever_graphs_k1717; assert_in_epsilon(10.0, worksheet.lever_graphs_k1717, 0.002); end
+  def test_lever_graphs_l1717; assert_in_epsilon(60.0, worksheet.lever_graphs_l1717, 0.002); end
+  def test_lever_graphs_m1717; assert_in_epsilon(60.0, worksheet.lever_graphs_m1717, 0.002); end
+  def test_lever_graphs_n1717; assert_in_epsilon(50.0, worksheet.lever_graphs_n1717, 0.002); end
+  def test_lever_graphs_o1717; assert_in_epsilon(50.0, worksheet.lever_graphs_o1717, 0.002); end
+  def test_lever_graphs_p1717; assert_in_delta(0.0, (worksheet.lever_graphs_p1717||0), 0.002); end
+  def test_lever_graphs_q1717; assert_in_delta(0.0, (worksheet.lever_graphs_q1717||0), 0.002); end
+  def test_lever_graphs_r1717; assert_in_delta(0.0, (worksheet.lever_graphs_r1717||0), 0.002); end
+  def test_lever_graphs_b1718; assert_in_epsilon(2.0, worksheet.lever_graphs_b1718, 0.002); end
+  def test_lever_graphs_j1718; assert_in_epsilon(1.6, worksheet.lever_graphs_j1718, 0.002); end
+  def test_lever_graphs_k1718; assert_in_epsilon(11.0, worksheet.lever_graphs_k1718, 0.002); end
+  def test_lever_graphs_l1718; assert_in_epsilon(71.0, worksheet.lever_graphs_l1718, 0.002); end
+  def test_lever_graphs_m1718; assert_in_epsilon(101.0, worksheet.lever_graphs_m1718, 0.002); end
+  def test_lever_graphs_n1718; assert_in_epsilon(164.0, worksheet.lever_graphs_n1718, 0.002); end
+  def test_lever_graphs_o1718; assert_in_epsilon(199.0, worksheet.lever_graphs_o1718, 0.002); end
+  def test_lever_graphs_p1718; assert_in_epsilon(267.0, worksheet.lever_graphs_p1718, 0.002); end
+  def test_lever_graphs_q1718; assert_in_epsilon(312.0, worksheet.lever_graphs_q1718, 0.002); end
+  def test_lever_graphs_r1718; assert_in_epsilon(388.0, worksheet.lever_graphs_r1718, 0.002); end
+  def test_lever_graphs_b1719; assert_in_epsilon(3.0, worksheet.lever_graphs_b1719, 0.002); end
+  def test_lever_graphs_j1719; assert_in_epsilon(1.6, worksheet.lever_graphs_j1719, 0.002); end
+  def test_lever_graphs_k1719; assert_in_epsilon(13.0, worksheet.lever_graphs_k1719, 0.002); end
+  def test_lever_graphs_l1719; assert_in_epsilon(83.0, worksheet.lever_graphs_l1719, 0.002); end
+  def test_lever_graphs_m1719; assert_in_epsilon(146.3, worksheet.lever_graphs_m1719, 0.002); end
+  def test_lever_graphs_n1719; assert_in_epsilon(257.8, worksheet.lever_graphs_n1719, 0.002); end
+  def test_lever_graphs_o1719; assert_in_epsilon(396.6, worksheet.lever_graphs_o1719, 0.002); end
+  def test_lever_graphs_p1719; assert_in_epsilon(610.3, worksheet.lever_graphs_p1719, 0.002); end
+  def test_lever_graphs_q1719; assert_in_epsilon(778.9, worksheet.lever_graphs_q1719, 0.002); end
+  def test_lever_graphs_r1719; assert_in_epsilon(994.1, worksheet.lever_graphs_r1719, 0.002); end
+  def test_lever_graphs_b1720; assert_in_epsilon(4.0, worksheet.lever_graphs_b1720, 0.002); end
+  def test_lever_graphs_j1720; assert_in_epsilon(1.6, worksheet.lever_graphs_j1720, 0.002); end
+  def test_lever_graphs_k1720; assert_in_epsilon(15.7, worksheet.lever_graphs_k1720, 0.002); end
+  def test_lever_graphs_l1720; assert_in_epsilon(97.6, worksheet.lever_graphs_l1720, 0.002); end
+  def test_lever_graphs_m1720; assert_in_epsilon(196.2, worksheet.lever_graphs_m1720, 0.002); end
+  def test_lever_graphs_n1720; assert_in_epsilon(394.7, worksheet.lever_graphs_n1720, 0.002); end
+  def test_lever_graphs_o1720; assert_in_epsilon(665.1, worksheet.lever_graphs_o1720, 0.002); end
+  def test_lever_graphs_p1720; assert_in_epsilon(1120.8, worksheet.lever_graphs_p1720, 0.002); end
+  def test_lever_graphs_q1720; assert_in_epsilon(1499.9, worksheet.lever_graphs_q1720, 0.002); end
+  def test_lever_graphs_r1720; assert_in_epsilon(2007.1, worksheet.lever_graphs_r1720, 0.002); end
+  def test_lever_graphs_b1721; assert_equal("Comparator A", worksheet.lever_graphs_b1721); end
+  def test_lever_graphs_b1722; assert_equal("Comparator B", worksheet.lever_graphs_b1722); end
+  def test_lever_graphs_b1723; assert_equal("Comparator C", worksheet.lever_graphs_b1723); end
+  def test_lever_graphs_c1668; assert_equal("1975", worksheet.lever_graphs_c1668); end
+  def test_lever_graphs_d1668; assert_equal("1980", worksheet.lever_graphs_d1668); end
+  def test_lever_graphs_e1668; assert_equal("1985", worksheet.lever_graphs_e1668); end
+  def test_lever_graphs_f1668; assert_equal("1990", worksheet.lever_graphs_f1668); end
+  def test_lever_graphs_g1668; assert_equal("1995", worksheet.lever_graphs_g1668); end
+  def test_lever_graphs_h1668; assert_equal("2000", worksheet.lever_graphs_h1668); end
+  def test_lever_graphs_i1668; assert_equal("2005", worksheet.lever_graphs_i1668); end
+  def test_lever_graphs_j1668; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1668, 0.002); end
+  def test_lever_graphs_k1668; assert_equal("2015", worksheet.lever_graphs_k1668); end
+  def test_lever_graphs_l1668; assert_equal("2020", worksheet.lever_graphs_l1668); end
+  def test_lever_graphs_m1668; assert_equal("2025", worksheet.lever_graphs_m1668); end
+  def test_lever_graphs_n1668; assert_equal("2030", worksheet.lever_graphs_n1668); end
+  def test_lever_graphs_o1668; assert_equal("2035", worksheet.lever_graphs_o1668); end
+  def test_lever_graphs_p1668; assert_equal("2040", worksheet.lever_graphs_p1668); end
+  def test_lever_graphs_q1668; assert_equal("2045", worksheet.lever_graphs_q1668); end
+  def test_lever_graphs_r1668; assert_equal("2050", worksheet.lever_graphs_r1668); end
+  def test_lever_graphs_b1669; assert_equal("Historic data", worksheet.lever_graphs_b1669); end
+  def test_lever_graphs_b1670; assert_in_delta(1.0, worksheet.lever_graphs_b1670, 0.002); end
+  def test_lever_graphs_j1670; assert_in_epsilon(11.43, worksheet.lever_graphs_j1670, 0.002); end
+  def test_lever_graphs_k1670; assert_in_epsilon(14.0, worksheet.lever_graphs_k1670, 0.002); end
+  def test_lever_graphs_l1670; assert_in_epsilon(17.0, worksheet.lever_graphs_l1670, 0.002); end
+  def test_lever_graphs_m1670; assert_in_epsilon(17.0, worksheet.lever_graphs_m1670, 0.002); end
+  def test_lever_graphs_n1670; assert_in_epsilon(10.0, worksheet.lever_graphs_n1670, 0.002); end
+  def test_lever_graphs_o1670; assert_in_epsilon(7.0, worksheet.lever_graphs_o1670, 0.002); end
+  def test_lever_graphs_p1670; assert_in_epsilon(4.0, worksheet.lever_graphs_p1670, 0.002); end
+  def test_lever_graphs_q1670; assert_in_delta(0.0, (worksheet.lever_graphs_q1670||0), 0.002); end
+  def test_lever_graphs_r1670; assert_in_delta(0.0, (worksheet.lever_graphs_r1670||0), 0.002); end
+  def test_lever_graphs_b1671; assert_in_epsilon(2.0, worksheet.lever_graphs_b1671, 0.002); end
+  def test_lever_graphs_j1671; assert_in_epsilon(11.43, worksheet.lever_graphs_j1671, 0.002); end
+  def test_lever_graphs_k1671; assert_in_epsilon(15.0, worksheet.lever_graphs_k1671, 0.002); end
+  def test_lever_graphs_l1671; assert_in_epsilon(19.0, worksheet.lever_graphs_l1671, 0.002); end
+  def test_lever_graphs_m1671; assert_in_epsilon(25.0, worksheet.lever_graphs_m1671, 0.002); end
+  def test_lever_graphs_n1671; assert_in_epsilon(39.0, worksheet.lever_graphs_n1671, 0.002); end
+  def test_lever_graphs_o1671; assert_in_epsilon(73.0, worksheet.lever_graphs_o1671, 0.002); end
+  def test_lever_graphs_p1671; assert_in_epsilon(98.0, worksheet.lever_graphs_p1671, 0.002); end
+  def test_lever_graphs_q1671; assert_in_epsilon(137.0, worksheet.lever_graphs_q1671, 0.002); end
+  def test_lever_graphs_r1671; assert_in_epsilon(172.0, worksheet.lever_graphs_r1671, 0.002); end
+  def test_lever_graphs_b1672; assert_in_epsilon(3.0, worksheet.lever_graphs_b1672, 0.002); end
+  def test_lever_graphs_j1672; assert_in_epsilon(11.43, worksheet.lever_graphs_j1672, 0.002); end
+  def test_lever_graphs_k1672; assert_in_epsilon(15.0, worksheet.lever_graphs_k1672, 0.002); end
+  def test_lever_graphs_l1672; assert_in_epsilon(23.0, worksheet.lever_graphs_l1672, 0.002); end
+  def test_lever_graphs_m1672; assert_in_epsilon(38.0, worksheet.lever_graphs_m1672, 0.002); end
+  def test_lever_graphs_n1672; assert_in_epsilon(60.0, worksheet.lever_graphs_n1672, 0.002); end
+  def test_lever_graphs_o1672; assert_in_epsilon(103.0, worksheet.lever_graphs_o1672, 0.002); end
+  def test_lever_graphs_p1672; assert_in_epsilon(169.0, worksheet.lever_graphs_p1672, 0.002); end
+  def test_lever_graphs_q1672; assert_in_epsilon(237.0, worksheet.lever_graphs_q1672, 0.002); end
+  def test_lever_graphs_r1672; assert_in_epsilon(289.0, worksheet.lever_graphs_r1672, 0.002); end
+  def test_lever_graphs_b1673; assert_in_epsilon(4.0, worksheet.lever_graphs_b1673, 0.002); end
+  def test_lever_graphs_j1673; assert_in_epsilon(11.43, worksheet.lever_graphs_j1673, 0.002); end
+  def test_lever_graphs_k1673; assert_in_epsilon(16.47, worksheet.lever_graphs_k1673, 0.002); end
+  def test_lever_graphs_l1673; assert_in_epsilon(25.35, worksheet.lever_graphs_l1673, 0.002); end
+  def test_lever_graphs_m1673; assert_in_epsilon(43.79, worksheet.lever_graphs_m1673, 0.002); end
+  def test_lever_graphs_n1673; assert_in_epsilon(75.63, worksheet.lever_graphs_n1673, 0.002); end
+  def test_lever_graphs_o1673; assert_in_epsilon(130.64, worksheet.lever_graphs_o1673, 0.002); end
+  def test_lever_graphs_p1673; assert_in_epsilon(226.0, worksheet.lever_graphs_p1673, 0.002); end
+  def test_lever_graphs_q1673; assert_in_epsilon(302.0, worksheet.lever_graphs_q1673, 0.002); end
+  def test_lever_graphs_r1673; assert_in_epsilon(404.0, worksheet.lever_graphs_r1673, 0.002); end
+  def test_lever_graphs_b1674; assert_equal("Comparator A", worksheet.lever_graphs_b1674); end
+  def test_lever_graphs_b1675; assert_equal("Comparator B", worksheet.lever_graphs_b1675); end
+  def test_lever_graphs_b1676; assert_equal("Comparator C", worksheet.lever_graphs_b1676); end
+  def test_lever_graphs_c1646; assert_equal("1975", worksheet.lever_graphs_c1646); end
+  def test_lever_graphs_d1646; assert_equal("1980", worksheet.lever_graphs_d1646); end
+  def test_lever_graphs_e1646; assert_equal("1985", worksheet.lever_graphs_e1646); end
+  def test_lever_graphs_f1646; assert_equal("1990", worksheet.lever_graphs_f1646); end
+  def test_lever_graphs_g1646; assert_equal("1995", worksheet.lever_graphs_g1646); end
+  def test_lever_graphs_h1646; assert_equal("2000", worksheet.lever_graphs_h1646); end
+  def test_lever_graphs_i1646; assert_equal("2005", worksheet.lever_graphs_i1646); end
+  def test_lever_graphs_j1646; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1646, 0.002); end
+  def test_lever_graphs_k1646; assert_equal("2015", worksheet.lever_graphs_k1646); end
+  def test_lever_graphs_l1646; assert_equal("2020", worksheet.lever_graphs_l1646); end
+  def test_lever_graphs_m1646; assert_equal("2025", worksheet.lever_graphs_m1646); end
+  def test_lever_graphs_n1646; assert_equal("2030", worksheet.lever_graphs_n1646); end
+  def test_lever_graphs_o1646; assert_equal("2035", worksheet.lever_graphs_o1646); end
+  def test_lever_graphs_p1646; assert_equal("2040", worksheet.lever_graphs_p1646); end
+  def test_lever_graphs_q1646; assert_equal("2045", worksheet.lever_graphs_q1646); end
+  def test_lever_graphs_r1646; assert_equal("2050", worksheet.lever_graphs_r1646); end
+  def test_lever_graphs_b1647; assert_equal("Historic data", worksheet.lever_graphs_b1647); end
+  def test_lever_graphs_b1648; assert_in_delta(1.0, worksheet.lever_graphs_b1648, 0.002); end
+  def test_lever_graphs_j1648; assert_in_epsilon(970.0, worksheet.lever_graphs_j1648, 0.002); end
+  def test_lever_graphs_k1648; assert_in_epsilon(994.0, worksheet.lever_graphs_k1648, 0.002); end
+  def test_lever_graphs_l1648; assert_in_epsilon(1054.0, worksheet.lever_graphs_l1648, 0.002); end
+  def test_lever_graphs_m1648; assert_in_epsilon(1120.0, worksheet.lever_graphs_m1648, 0.002); end
+  def test_lever_graphs_n1648; assert_in_epsilon(1188.0, worksheet.lever_graphs_n1648, 0.002); end
+  def test_lever_graphs_o1648; assert_in_epsilon(1261.0, worksheet.lever_graphs_o1648, 0.002); end
+  def test_lever_graphs_p1648; assert_in_epsilon(1324.0, worksheet.lever_graphs_p1648, 0.002); end
+  def test_lever_graphs_q1648; assert_in_epsilon(1324.0, worksheet.lever_graphs_q1648, 0.002); end
+  def test_lever_graphs_r1648; assert_in_epsilon(1324.0, worksheet.lever_graphs_r1648, 0.002); end
+  def test_lever_graphs_b1649; assert_in_epsilon(2.0, worksheet.lever_graphs_b1649, 0.002); end
+  def test_lever_graphs_j1649; assert_in_epsilon(970.0, worksheet.lever_graphs_j1649, 0.002); end
+  def test_lever_graphs_k1649; assert_in_epsilon(1008.0, worksheet.lever_graphs_k1649, 0.002); end
+  def test_lever_graphs_l1649; assert_in_epsilon(1086.0, worksheet.lever_graphs_l1649, 0.002); end
+  def test_lever_graphs_m1649; assert_in_epsilon(1170.0, worksheet.lever_graphs_m1649, 0.002); end
+  def test_lever_graphs_n1649; assert_in_epsilon(1261.0, worksheet.lever_graphs_n1649, 0.002); end
+  def test_lever_graphs_o1649; assert_in_epsilon(1358.0, worksheet.lever_graphs_o1649, 0.002); end
+  def test_lever_graphs_p1649; assert_in_epsilon(1463.0, worksheet.lever_graphs_p1649, 0.002); end
+  def test_lever_graphs_q1649; assert_in_epsilon(1576.0, worksheet.lever_graphs_q1649, 0.002); end
+  def test_lever_graphs_r1649; assert_in_epsilon(1697.0, worksheet.lever_graphs_r1649, 0.002); end
+  def test_lever_graphs_b1650; assert_in_epsilon(3.0, worksheet.lever_graphs_b1650, 0.002); end
+  def test_lever_graphs_j1650; assert_in_epsilon(970.0, worksheet.lever_graphs_j1650, 0.002); end
+  def test_lever_graphs_k1650; assert_in_epsilon(1033.0, worksheet.lever_graphs_k1650, 0.002); end
+  def test_lever_graphs_l1650; assert_in_epsilon(1140.0, worksheet.lever_graphs_l1650, 0.002); end
+  def test_lever_graphs_m1650; assert_in_epsilon(1259.0, worksheet.lever_graphs_m1650, 0.002); end
+  def test_lever_graphs_n1650; assert_in_epsilon(1390.0, worksheet.lever_graphs_n1650, 0.002); end
+  def test_lever_graphs_o1650; assert_in_epsilon(1535.0, worksheet.lever_graphs_o1650, 0.002); end
+  def test_lever_graphs_p1650; assert_in_epsilon(1695.0, worksheet.lever_graphs_p1650, 0.002); end
+  def test_lever_graphs_q1650; assert_in_epsilon(1871.0, worksheet.lever_graphs_q1650, 0.002); end
+  def test_lever_graphs_r1650; assert_in_epsilon(1912.0, worksheet.lever_graphs_r1650, 0.002); end
+  def test_lever_graphs_b1651; assert_in_epsilon(4.0, worksheet.lever_graphs_b1651, 0.002); end
+  def test_lever_graphs_j1651; assert_in_epsilon(970.0, worksheet.lever_graphs_j1651, 0.002); end
+  def test_lever_graphs_k1651; assert_in_epsilon(1085.0, worksheet.lever_graphs_k1651, 0.002); end
+  def test_lever_graphs_l1651; assert_in_epsilon(1258.0, worksheet.lever_graphs_l1651, 0.002); end
+  def test_lever_graphs_m1651; assert_in_epsilon(1458.0, worksheet.lever_graphs_m1651, 0.002); end
+  def test_lever_graphs_n1651; assert_in_epsilon(1690.0, worksheet.lever_graphs_n1651, 0.002); end
+  def test_lever_graphs_o1651; assert_in_epsilon(1859.0, worksheet.lever_graphs_o1651, 0.002); end
+  def test_lever_graphs_p1651; assert_in_epsilon(2071.0, worksheet.lever_graphs_p1651, 0.002); end
+  def test_lever_graphs_q1651; assert_in_epsilon(2203.0, worksheet.lever_graphs_q1651, 0.002); end
+  def test_lever_graphs_r1651; assert_in_epsilon(2342.0, worksheet.lever_graphs_r1651, 0.002); end
+  def test_lever_graphs_b1652; assert_equal("Comparator A", worksheet.lever_graphs_b1652); end
+  def test_lever_graphs_b1653; assert_equal("Comparator B", worksheet.lever_graphs_b1653); end
+  def test_lever_graphs_b1654; assert_equal("Comparator C", worksheet.lever_graphs_b1654); end
+  def test_lever_graphs_c1811; assert_equal("1975", worksheet.lever_graphs_c1811); end
+  def test_lever_graphs_d1811; assert_equal("1980", worksheet.lever_graphs_d1811); end
+  def test_lever_graphs_e1811; assert_equal("1985", worksheet.lever_graphs_e1811); end
+  def test_lever_graphs_f1811; assert_equal("1990", worksheet.lever_graphs_f1811); end
+  def test_lever_graphs_g1811; assert_equal("1995", worksheet.lever_graphs_g1811); end
+  def test_lever_graphs_h1811; assert_equal("2000", worksheet.lever_graphs_h1811); end
+  def test_lever_graphs_i1811; assert_equal("2005", worksheet.lever_graphs_i1811); end
+  def test_lever_graphs_j1811; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1811, 0.002); end
+  def test_lever_graphs_k1811; assert_equal("2015", worksheet.lever_graphs_k1811); end
+  def test_lever_graphs_l1811; assert_equal("2020", worksheet.lever_graphs_l1811); end
+  def test_lever_graphs_m1811; assert_equal("2025", worksheet.lever_graphs_m1811); end
+  def test_lever_graphs_n1811; assert_equal("2030", worksheet.lever_graphs_n1811); end
+  def test_lever_graphs_o1811; assert_equal("2035", worksheet.lever_graphs_o1811); end
+  def test_lever_graphs_p1811; assert_equal("2040", worksheet.lever_graphs_p1811); end
+  def test_lever_graphs_q1811; assert_equal("2045", worksheet.lever_graphs_q1811); end
+  def test_lever_graphs_r1811; assert_equal("2050", worksheet.lever_graphs_r1811); end
+  def test_lever_graphs_b1812; assert_equal("Historic data", worksheet.lever_graphs_b1812); end
+  def test_lever_graphs_b1813; assert_in_delta(1.0, worksheet.lever_graphs_b1813, 0.002); end
+  def test_lever_graphs_j1813; assert_in_delta(0.527, worksheet.lever_graphs_j1813, 0.002); end
+  def test_lever_graphs_k1813; assert_in_delta(0.8, worksheet.lever_graphs_k1813, 0.002); end
+  def test_lever_graphs_l1813; assert_in_delta(1.0, worksheet.lever_graphs_l1813, 0.002); end
+  def test_lever_graphs_m1813; assert_in_delta(1.0, worksheet.lever_graphs_m1813, 0.002); end
+  def test_lever_graphs_n1813; assert_in_delta(1.0, worksheet.lever_graphs_n1813, 0.002); end
+  def test_lever_graphs_o1813; assert_in_delta(1.0, worksheet.lever_graphs_o1813, 0.002); end
+  def test_lever_graphs_p1813; assert_in_delta(1.0, worksheet.lever_graphs_p1813, 0.002); end
+  def test_lever_graphs_q1813; assert_in_delta(0.0, (worksheet.lever_graphs_q1813||0), 0.002); end
+  def test_lever_graphs_r1813; assert_in_delta(0.0, (worksheet.lever_graphs_r1813||0), 0.002); end
+  def test_lever_graphs_b1814; assert_in_epsilon(2.0, worksheet.lever_graphs_b1814, 0.002); end
+  def test_lever_graphs_j1814; assert_in_delta(0.527, worksheet.lever_graphs_j1814, 0.002); end
+  def test_lever_graphs_k1814; assert_in_delta(1.0, worksheet.lever_graphs_k1814, 0.002); end
+  def test_lever_graphs_l1814; assert_in_epsilon(2.0, worksheet.lever_graphs_l1814, 0.002); end
+  def test_lever_graphs_m1814; assert_in_epsilon(4.0, worksheet.lever_graphs_m1814, 0.002); end
+  def test_lever_graphs_n1814; assert_in_epsilon(8.0, worksheet.lever_graphs_n1814, 0.002); end
+  def test_lever_graphs_o1814; assert_in_epsilon(13.0, worksheet.lever_graphs_o1814, 0.002); end
+  def test_lever_graphs_p1814; assert_in_epsilon(21.0, worksheet.lever_graphs_p1814, 0.002); end
+  def test_lever_graphs_q1814; assert_in_epsilon(28.0, worksheet.lever_graphs_q1814, 0.002); end
+  def test_lever_graphs_r1814; assert_in_epsilon(35.0, worksheet.lever_graphs_r1814, 0.002); end
+  def test_lever_graphs_b1815; assert_in_epsilon(3.0, worksheet.lever_graphs_b1815, 0.002); end
+  def test_lever_graphs_j1815; assert_in_delta(0.527, worksheet.lever_graphs_j1815, 0.002); end
+  def test_lever_graphs_k1815; assert_in_delta(1.0, worksheet.lever_graphs_k1815, 0.002); end
+  def test_lever_graphs_l1815; assert_in_epsilon(2.0, worksheet.lever_graphs_l1815, 0.002); end
+  def test_lever_graphs_m1815; assert_in_epsilon(6.0, worksheet.lever_graphs_m1815, 0.002); end
+  def test_lever_graphs_n1815; assert_in_epsilon(11.0, worksheet.lever_graphs_n1815, 0.002); end
+  def test_lever_graphs_o1815; assert_in_epsilon(22.0, worksheet.lever_graphs_o1815, 0.002); end
+  def test_lever_graphs_p1815; assert_in_epsilon(38.0, worksheet.lever_graphs_p1815, 0.002); end
+  def test_lever_graphs_q1815; assert_in_epsilon(70.0, worksheet.lever_graphs_q1815, 0.002); end
+  def test_lever_graphs_r1815; assert_in_epsilon(132.0, worksheet.lever_graphs_r1815, 0.002); end
+  def test_lever_graphs_b1816; assert_in_epsilon(4.0, worksheet.lever_graphs_b1816, 0.002); end
+  def test_lever_graphs_j1816; assert_in_delta(0.527, worksheet.lever_graphs_j1816, 0.002); end
+  def test_lever_graphs_k1816; assert_in_delta(1.0, worksheet.lever_graphs_k1816, 0.002); end
+  def test_lever_graphs_l1816; assert_in_epsilon(3.0, worksheet.lever_graphs_l1816, 0.002); end
+  def test_lever_graphs_m1816; assert_in_epsilon(10.0, worksheet.lever_graphs_m1816, 0.002); end
+  def test_lever_graphs_n1816; assert_in_epsilon(18.0, worksheet.lever_graphs_n1816, 0.002); end
+  def test_lever_graphs_o1816; assert_in_epsilon(31.7, worksheet.lever_graphs_o1816, 0.002); end
+  def test_lever_graphs_p1816; assert_in_epsilon(55.9, worksheet.lever_graphs_p1816, 0.002); end
+  def test_lever_graphs_q1816; assert_in_epsilon(127.9, worksheet.lever_graphs_q1816, 0.002); end
+  def test_lever_graphs_r1816; assert_in_epsilon(292.6, worksheet.lever_graphs_r1816, 0.002); end
+  def test_lever_graphs_b1817; assert_equal("Comparator A", worksheet.lever_graphs_b1817); end
+  def test_lever_graphs_b1818; assert_equal("Comparator B", worksheet.lever_graphs_b1818); end
+  def test_lever_graphs_b1819; assert_equal("Comparator C", worksheet.lever_graphs_b1819); end
+  def test_lever_graphs_c1795; assert_equal("1975", worksheet.lever_graphs_c1795); end
+  def test_lever_graphs_d1795; assert_equal("1980", worksheet.lever_graphs_d1795); end
+  def test_lever_graphs_e1795; assert_equal("1985", worksheet.lever_graphs_e1795); end
+  def test_lever_graphs_f1795; assert_equal("1990", worksheet.lever_graphs_f1795); end
+  def test_lever_graphs_g1795; assert_equal("1995", worksheet.lever_graphs_g1795); end
+  def test_lever_graphs_h1795; assert_equal("2000", worksheet.lever_graphs_h1795); end
+  def test_lever_graphs_i1795; assert_equal("2005", worksheet.lever_graphs_i1795); end
+  def test_lever_graphs_j1795; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1795, 0.002); end
+  def test_lever_graphs_k1795; assert_equal("2015", worksheet.lever_graphs_k1795); end
+  def test_lever_graphs_l1795; assert_equal("2020", worksheet.lever_graphs_l1795); end
+  def test_lever_graphs_m1795; assert_equal("2025", worksheet.lever_graphs_m1795); end
+  def test_lever_graphs_n1795; assert_equal("2030", worksheet.lever_graphs_n1795); end
+  def test_lever_graphs_o1795; assert_equal("2035", worksheet.lever_graphs_o1795); end
+  def test_lever_graphs_p1795; assert_equal("2040", worksheet.lever_graphs_p1795); end
+  def test_lever_graphs_q1795; assert_equal("2045", worksheet.lever_graphs_q1795); end
+  def test_lever_graphs_r1795; assert_equal("2050", worksheet.lever_graphs_r1795); end
+  def test_lever_graphs_b1796; assert_equal("Historic data", worksheet.lever_graphs_b1796); end
+  def test_lever_graphs_b1797; assert_in_delta(1.0, worksheet.lever_graphs_b1797, 0.002); end
+  def test_lever_graphs_j1797; assert_in_delta(0.0, (worksheet.lever_graphs_j1797||0), 0.002); end
+  def test_lever_graphs_k1797; assert_in_delta(0.1, worksheet.lever_graphs_k1797, 0.002); end
+  def test_lever_graphs_l1797; assert_in_delta(0.1, worksheet.lever_graphs_l1797, 0.002); end
+  def test_lever_graphs_m1797; assert_in_delta(0.1, worksheet.lever_graphs_m1797, 0.002); end
+  def test_lever_graphs_n1797; assert_in_delta(1.0, worksheet.lever_graphs_n1797, 0.002); end
+  def test_lever_graphs_o1797; assert_in_epsilon(2.0, worksheet.lever_graphs_o1797, 0.002); end
+  def test_lever_graphs_p1797; assert_in_epsilon(4.0, worksheet.lever_graphs_p1797, 0.002); end
+  def test_lever_graphs_q1797; assert_in_epsilon(7.0, worksheet.lever_graphs_q1797, 0.002); end
+  def test_lever_graphs_r1797; assert_in_epsilon(8.0, worksheet.lever_graphs_r1797, 0.002); end
+  def test_lever_graphs_b1798; assert_in_epsilon(2.0, worksheet.lever_graphs_b1798, 0.002); end
+  def test_lever_graphs_j1798; assert_in_delta(0.0, (worksheet.lever_graphs_j1798||0), 0.002); end
+  def test_lever_graphs_k1798; assert_in_delta(1.0, worksheet.lever_graphs_k1798, 0.002); end
+  def test_lever_graphs_l1798; assert_in_delta(1.0, worksheet.lever_graphs_l1798, 0.002); end
+  def test_lever_graphs_m1798; assert_in_epsilon(6.0, worksheet.lever_graphs_m1798, 0.002); end
+  def test_lever_graphs_n1798; assert_in_epsilon(16.0, worksheet.lever_graphs_n1798, 0.002); end
+  def test_lever_graphs_o1798; assert_in_epsilon(27.0, worksheet.lever_graphs_o1798, 0.002); end
+  def test_lever_graphs_p1798; assert_in_epsilon(38.0, worksheet.lever_graphs_p1798, 0.002); end
+  def test_lever_graphs_q1798; assert_in_epsilon(51.0, worksheet.lever_graphs_q1798, 0.002); end
+  def test_lever_graphs_r1798; assert_in_epsilon(62.0, worksheet.lever_graphs_r1798, 0.002); end
+  def test_lever_graphs_b1799; assert_in_epsilon(3.0, worksheet.lever_graphs_b1799, 0.002); end
+  def test_lever_graphs_j1799; assert_in_delta(0.0, (worksheet.lever_graphs_j1799||0), 0.002); end
+  def test_lever_graphs_k1799; assert_in_delta(1.0, worksheet.lever_graphs_k1799, 0.002); end
+  def test_lever_graphs_l1799; assert_in_epsilon(2.0, worksheet.lever_graphs_l1799, 0.002); end
+  def test_lever_graphs_m1799; assert_in_epsilon(8.0, worksheet.lever_graphs_m1799, 0.002); end
+  def test_lever_graphs_n1799; assert_in_epsilon(19.0, worksheet.lever_graphs_n1799, 0.002); end
+  def test_lever_graphs_o1799; assert_in_epsilon(34.0, worksheet.lever_graphs_o1799, 0.002); end
+  def test_lever_graphs_p1799; assert_in_epsilon(59.0, worksheet.lever_graphs_p1799, 0.002); end
+  def test_lever_graphs_q1799; assert_in_epsilon(83.0, worksheet.lever_graphs_q1799, 0.002); end
+  def test_lever_graphs_r1799; assert_in_epsilon(105.0, worksheet.lever_graphs_r1799, 0.002); end
+  def test_lever_graphs_b1800; assert_in_epsilon(4.0, worksheet.lever_graphs_b1800, 0.002); end
+  def test_lever_graphs_j1800; assert_in_delta(0.0, (worksheet.lever_graphs_j1800||0), 0.002); end
+  def test_lever_graphs_k1800; assert_in_delta(1.0, worksheet.lever_graphs_k1800, 0.002); end
+  def test_lever_graphs_l1800; assert_in_epsilon(4.0, worksheet.lever_graphs_l1800, 0.002); end
+  def test_lever_graphs_m1800; assert_in_epsilon(14.0, worksheet.lever_graphs_m1800, 0.002); end
+  def test_lever_graphs_n1800; assert_in_epsilon(30.0, worksheet.lever_graphs_n1800, 0.002); end
+  def test_lever_graphs_o1800; assert_in_epsilon(58.0, worksheet.lever_graphs_o1800, 0.002); end
+  def test_lever_graphs_p1800; assert_in_epsilon(85.0, worksheet.lever_graphs_p1800, 0.002); end
+  def test_lever_graphs_q1800; assert_in_epsilon(117.0, worksheet.lever_graphs_q1800, 0.002); end
+  def test_lever_graphs_r1800; assert_in_epsilon(143.0, worksheet.lever_graphs_r1800, 0.002); end
+  def test_lever_graphs_b1801; assert_equal("Comparator A", worksheet.lever_graphs_b1801); end
+  def test_lever_graphs_b1802; assert_equal("Comparator B", worksheet.lever_graphs_b1802); end
+  def test_lever_graphs_b1803; assert_equal("Comparator C", worksheet.lever_graphs_b1803); end
+  def test_lever_graphs_c1625; assert_equal("1975", worksheet.lever_graphs_c1625); end
+  def test_lever_graphs_d1625; assert_equal("1980", worksheet.lever_graphs_d1625); end
+  def test_lever_graphs_e1625; assert_equal("1985", worksheet.lever_graphs_e1625); end
+  def test_lever_graphs_f1625; assert_equal("1990", worksheet.lever_graphs_f1625); end
+  def test_lever_graphs_g1625; assert_equal("1995", worksheet.lever_graphs_g1625); end
+  def test_lever_graphs_h1625; assert_equal("2000", worksheet.lever_graphs_h1625); end
+  def test_lever_graphs_i1625; assert_equal("2005", worksheet.lever_graphs_i1625); end
+  def test_lever_graphs_j1625; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1625, 0.002); end
+  def test_lever_graphs_k1625; assert_equal("2015", worksheet.lever_graphs_k1625); end
+  def test_lever_graphs_l1625; assert_equal("2020", worksheet.lever_graphs_l1625); end
+  def test_lever_graphs_m1625; assert_equal("2025", worksheet.lever_graphs_m1625); end
+  def test_lever_graphs_n1625; assert_equal("2030", worksheet.lever_graphs_n1625); end
+  def test_lever_graphs_o1625; assert_equal("2035", worksheet.lever_graphs_o1625); end
+  def test_lever_graphs_p1625; assert_equal("2040", worksheet.lever_graphs_p1625); end
+  def test_lever_graphs_q1625; assert_equal("2045", worksheet.lever_graphs_q1625); end
+  def test_lever_graphs_r1625; assert_equal("2050", worksheet.lever_graphs_r1625); end
+  def test_lever_graphs_b1626; assert_equal("Historic data", worksheet.lever_graphs_b1626); end
+  def test_lever_graphs_b1627; assert_in_delta(1.0, worksheet.lever_graphs_b1627, 0.002); end
+  def test_lever_graphs_j1627; assert_in_epsilon(364.0, worksheet.lever_graphs_j1627, 0.002); end
+  def test_lever_graphs_k1627; assert_in_epsilon(364.0, worksheet.lever_graphs_k1627, 0.002); end
+  def test_lever_graphs_l1627; assert_in_epsilon(300.0, worksheet.lever_graphs_l1627, 0.002); end
+  def test_lever_graphs_m1627; assert_in_epsilon(300.0, worksheet.lever_graphs_m1627, 0.002); end
+  def test_lever_graphs_n1627; assert_in_epsilon(200.0, worksheet.lever_graphs_n1627, 0.002); end
+  def test_lever_graphs_o1627; assert_in_epsilon(200.0, worksheet.lever_graphs_o1627, 0.002); end
+  def test_lever_graphs_p1627; assert_in_epsilon(100.0, worksheet.lever_graphs_p1627, 0.002); end
+  def test_lever_graphs_q1627; assert_in_epsilon(50.0, worksheet.lever_graphs_q1627, 0.002); end
+  def test_lever_graphs_r1627; assert_in_delta(0.0, (worksheet.lever_graphs_r1627||0), 0.002); end
+  def test_lever_graphs_b1628; assert_in_epsilon(2.0, worksheet.lever_graphs_b1628, 0.002); end
+  def test_lever_graphs_j1628; assert_in_epsilon(364.0, worksheet.lever_graphs_j1628, 0.002); end
+  def test_lever_graphs_k1628; assert_in_epsilon(394.0, worksheet.lever_graphs_k1628, 0.002); end
+  def test_lever_graphs_l1628; assert_in_epsilon(414.0, worksheet.lever_graphs_l1628, 0.002); end
+  def test_lever_graphs_m1628; assert_in_epsilon(435.0, worksheet.lever_graphs_m1628, 0.002); end
+  def test_lever_graphs_n1628; assert_in_epsilon(457.0, worksheet.lever_graphs_n1628, 0.002); end
+  def test_lever_graphs_o1628; assert_in_epsilon(480.0, worksheet.lever_graphs_o1628, 0.002); end
+  def test_lever_graphs_p1628; assert_in_epsilon(505.0, worksheet.lever_graphs_p1628, 0.002); end
+  def test_lever_graphs_q1628; assert_in_epsilon(531.0, worksheet.lever_graphs_q1628, 0.002); end
+  def test_lever_graphs_r1628; assert_in_epsilon(558.0, worksheet.lever_graphs_r1628, 0.002); end
+  def test_lever_graphs_b1629; assert_in_epsilon(3.0, worksheet.lever_graphs_b1629, 0.002); end
+  def test_lever_graphs_j1629; assert_in_epsilon(364.0, worksheet.lever_graphs_j1629, 0.002); end
+  def test_lever_graphs_k1629; assert_in_epsilon(404.0, worksheet.lever_graphs_k1629, 0.002); end
+  def test_lever_graphs_l1629; assert_in_epsilon(432.0, worksheet.lever_graphs_l1629, 0.002); end
+  def test_lever_graphs_m1629; assert_in_epsilon(458.0, worksheet.lever_graphs_m1629, 0.002); end
+  def test_lever_graphs_n1629; assert_in_epsilon(534.0, worksheet.lever_graphs_n1629, 0.002); end
+  def test_lever_graphs_o1629; assert_in_epsilon(623.0, worksheet.lever_graphs_o1629, 0.002); end
+  def test_lever_graphs_p1629; assert_in_epsilon(726.0, worksheet.lever_graphs_p1629, 0.002); end
+  def test_lever_graphs_q1629; assert_in_epsilon(847.0, worksheet.lever_graphs_q1629, 0.002); end
+  def test_lever_graphs_r1629; assert_in_epsilon(989.0, worksheet.lever_graphs_r1629, 0.002); end
+  def test_lever_graphs_b1630; assert_in_epsilon(4.0, worksheet.lever_graphs_b1630, 0.002); end
+  def test_lever_graphs_j1630; assert_in_epsilon(364.0, worksheet.lever_graphs_j1630, 0.002); end
+  def test_lever_graphs_k1630; assert_in_epsilon(448.0, worksheet.lever_graphs_k1630, 0.002); end
+  def test_lever_graphs_l1630; assert_in_epsilon(546.0, worksheet.lever_graphs_l1630, 0.002); end
+  def test_lever_graphs_m1630; assert_in_epsilon(670.0, worksheet.lever_graphs_m1630, 0.002); end
+  def test_lever_graphs_n1630; assert_in_epsilon(823.0, worksheet.lever_graphs_n1630, 0.002); end
+  def test_lever_graphs_o1630; assert_in_epsilon(1010.0, worksheet.lever_graphs_o1630, 0.002); end
+  def test_lever_graphs_p1630; assert_in_epsilon(1240.0, worksheet.lever_graphs_p1630, 0.002); end
+  def test_lever_graphs_q1630; assert_in_epsilon(1523.0, worksheet.lever_graphs_q1630, 0.002); end
+  def test_lever_graphs_r1630; assert_in_epsilon(1870.0, worksheet.lever_graphs_r1630, 0.002); end
+  def test_lever_graphs_b1631; assert_equal("Comparator A", worksheet.lever_graphs_b1631); end
+  def test_lever_graphs_b1632; assert_equal("Comparator B", worksheet.lever_graphs_b1632); end
+  def test_lever_graphs_b1633; assert_equal("Comparator C", worksheet.lever_graphs_b1633); end
+  def test_lever_graphs_c1771; assert_equal("1975", worksheet.lever_graphs_c1771); end
+  def test_lever_graphs_d1771; assert_equal("1980", worksheet.lever_graphs_d1771); end
+  def test_lever_graphs_e1771; assert_equal("1985", worksheet.lever_graphs_e1771); end
+  def test_lever_graphs_f1771; assert_equal("1990", worksheet.lever_graphs_f1771); end
+  def test_lever_graphs_g1771; assert_equal("1995", worksheet.lever_graphs_g1771); end
+  def test_lever_graphs_h1771; assert_equal("2000", worksheet.lever_graphs_h1771); end
+  def test_lever_graphs_i1771; assert_equal("2005", worksheet.lever_graphs_i1771); end
+  def test_lever_graphs_j1771; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1771, 0.002); end
+  def test_lever_graphs_k1771; assert_equal("2015", worksheet.lever_graphs_k1771); end
+  def test_lever_graphs_l1771; assert_equal("2020", worksheet.lever_graphs_l1771); end
+  def test_lever_graphs_m1771; assert_equal("2025", worksheet.lever_graphs_m1771); end
+  def test_lever_graphs_n1771; assert_equal("2030", worksheet.lever_graphs_n1771); end
+  def test_lever_graphs_o1771; assert_equal("2035", worksheet.lever_graphs_o1771); end
+  def test_lever_graphs_p1771; assert_equal("2040", worksheet.lever_graphs_p1771); end
+  def test_lever_graphs_q1771; assert_equal("2045", worksheet.lever_graphs_q1771); end
+  def test_lever_graphs_r1771; assert_equal("2050", worksheet.lever_graphs_r1771); end
+  def test_lever_graphs_b1772; assert_equal("Historic data", worksheet.lever_graphs_b1772); end
+  def test_lever_graphs_b1773; assert_in_delta(1.0, worksheet.lever_graphs_b1773, 0.002); end
+  def test_lever_graphs_j1773; assert_in_epsilon(4.1, worksheet.lever_graphs_j1773, 0.002); end
+  def test_lever_graphs_k1773; assert_in_epsilon(17.0, worksheet.lever_graphs_k1773, 0.002); end
+  def test_lever_graphs_l1773; assert_in_epsilon(17.0, worksheet.lever_graphs_l1773, 0.002); end
+  def test_lever_graphs_m1773; assert_in_epsilon(13.0, worksheet.lever_graphs_m1773, 0.002); end
+  def test_lever_graphs_n1773; assert_in_delta(0.0, (worksheet.lever_graphs_n1773||0), 0.002); end
+  def test_lever_graphs_o1773; assert_in_delta(0.0, (worksheet.lever_graphs_o1773||0), 0.002); end
+  def test_lever_graphs_p1773; assert_in_delta(0.0, (worksheet.lever_graphs_p1773||0), 0.002); end
+  def test_lever_graphs_q1773; assert_in_delta(0.0, (worksheet.lever_graphs_q1773||0), 0.002); end
+  def test_lever_graphs_r1773; assert_in_delta(0.0, (worksheet.lever_graphs_r1773||0), 0.002); end
+  def test_lever_graphs_b1774; assert_in_epsilon(2.0, worksheet.lever_graphs_b1774, 0.002); end
+  def test_lever_graphs_j1774; assert_in_epsilon(4.1, worksheet.lever_graphs_j1774, 0.002); end
+  def test_lever_graphs_k1774; assert_in_epsilon(17.0, worksheet.lever_graphs_k1774, 0.002); end
+  def test_lever_graphs_l1774; assert_in_epsilon(33.0, worksheet.lever_graphs_l1774, 0.002); end
+  def test_lever_graphs_m1774; assert_in_epsilon(50.0, worksheet.lever_graphs_m1774, 0.002); end
+  def test_lever_graphs_n1774; assert_in_epsilon(96.0, worksheet.lever_graphs_n1774, 0.002); end
+  def test_lever_graphs_o1774; assert_in_epsilon(147.0, worksheet.lever_graphs_o1774, 0.002); end
+  def test_lever_graphs_p1774; assert_in_epsilon(220.0, worksheet.lever_graphs_p1774, 0.002); end
+  def test_lever_graphs_q1774; assert_in_epsilon(376.0, worksheet.lever_graphs_q1774, 0.002); end
+  def test_lever_graphs_r1774; assert_in_epsilon(455.0, worksheet.lever_graphs_r1774, 0.002); end
+  def test_lever_graphs_b1775; assert_in_epsilon(3.0, worksheet.lever_graphs_b1775, 0.002); end
+  def test_lever_graphs_j1775; assert_in_epsilon(4.1, worksheet.lever_graphs_j1775, 0.002); end
+  def test_lever_graphs_k1775; assert_in_epsilon(17.0, worksheet.lever_graphs_k1775, 0.002); end
+  def test_lever_graphs_l1775; assert_in_epsilon(46.0, worksheet.lever_graphs_l1775, 0.002); end
+  def test_lever_graphs_m1775; assert_in_epsilon(87.0, worksheet.lever_graphs_m1775, 0.002); end
+  def test_lever_graphs_n1775; assert_in_epsilon(188.0, worksheet.lever_graphs_n1775, 0.002); end
+  def test_lever_graphs_o1775; assert_in_epsilon(295.0, worksheet.lever_graphs_o1775, 0.002); end
+  def test_lever_graphs_p1775; assert_in_epsilon(424.0, worksheet.lever_graphs_p1775, 0.002); end
+  def test_lever_graphs_q1775; assert_in_epsilon(708.0, worksheet.lever_graphs_q1775, 0.002); end
+  def test_lever_graphs_r1775; assert_in_epsilon(910.0, worksheet.lever_graphs_r1775, 0.002); end
+  def test_lever_graphs_b1776; assert_in_epsilon(4.0, worksheet.lever_graphs_b1776, 0.002); end
+  def test_lever_graphs_j1776; assert_in_epsilon(4.1, worksheet.lever_graphs_j1776, 0.002); end
+  def test_lever_graphs_k1776; assert_in_epsilon(17.0, worksheet.lever_graphs_k1776, 0.002); end
+  def test_lever_graphs_l1776; assert_in_epsilon(71.0, worksheet.lever_graphs_l1776, 0.002); end
+  def test_lever_graphs_m1776; assert_in_epsilon(177.0, worksheet.lever_graphs_m1776, 0.002); end
+  def test_lever_graphs_n1776; assert_in_epsilon(440.0, worksheet.lever_graphs_n1776, 0.002); end
+  def test_lever_graphs_o1776; assert_in_epsilon(647.0, worksheet.lever_graphs_o1776, 0.002); end
+  def test_lever_graphs_p1776; assert_in_epsilon(951.0, worksheet.lever_graphs_p1776, 0.002); end
+  def test_lever_graphs_q1776; assert_in_epsilon(1157.0, worksheet.lever_graphs_q1776, 0.002); end
+  def test_lever_graphs_r1776; assert_in_epsilon(1408.0, worksheet.lever_graphs_r1776, 0.002); end
+  def test_lever_graphs_b1777; assert_equal("Comparator A", worksheet.lever_graphs_b1777); end
+  def test_lever_graphs_b1778; assert_equal("Comparator B", worksheet.lever_graphs_b1778); end
+  def test_lever_graphs_b1779; assert_equal("Comparator C", worksheet.lever_graphs_b1779); end
+  def test_lever_graphs_c1755; assert_equal("1975", worksheet.lever_graphs_c1755); end
+  def test_lever_graphs_d1755; assert_equal("1980", worksheet.lever_graphs_d1755); end
+  def test_lever_graphs_e1755; assert_equal("1985", worksheet.lever_graphs_e1755); end
+  def test_lever_graphs_f1755; assert_equal("1990", worksheet.lever_graphs_f1755); end
+  def test_lever_graphs_g1755; assert_equal("1995", worksheet.lever_graphs_g1755); end
+  def test_lever_graphs_h1755; assert_equal("2000", worksheet.lever_graphs_h1755); end
+  def test_lever_graphs_i1755; assert_equal("2005", worksheet.lever_graphs_i1755); end
+  def test_lever_graphs_j1755; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1755, 0.002); end
+  def test_lever_graphs_k1755; assert_equal("2015", worksheet.lever_graphs_k1755); end
+  def test_lever_graphs_l1755; assert_equal("2020", worksheet.lever_graphs_l1755); end
+  def test_lever_graphs_m1755; assert_equal("2025", worksheet.lever_graphs_m1755); end
+  def test_lever_graphs_n1755; assert_equal("2030", worksheet.lever_graphs_n1755); end
+  def test_lever_graphs_o1755; assert_equal("2035", worksheet.lever_graphs_o1755); end
+  def test_lever_graphs_p1755; assert_equal("2040", worksheet.lever_graphs_p1755); end
+  def test_lever_graphs_q1755; assert_equal("2045", worksheet.lever_graphs_q1755); end
+  def test_lever_graphs_r1755; assert_equal("2050", worksheet.lever_graphs_r1755); end
+  def test_lever_graphs_b1756; assert_equal("Historic data", worksheet.lever_graphs_b1756); end
+  def test_lever_graphs_b1757; assert_in_delta(1.0, worksheet.lever_graphs_b1757, 0.002); end
+  def test_lever_graphs_j1757; assert_in_epsilon(233.57, worksheet.lever_graphs_j1757, 0.002); end
+  def test_lever_graphs_k1757; assert_in_epsilon(393.0, worksheet.lever_graphs_k1757, 0.002); end
+  def test_lever_graphs_l1757; assert_in_epsilon(376.0, worksheet.lever_graphs_l1757, 0.002); end
+  def test_lever_graphs_m1757; assert_in_epsilon(335.0, worksheet.lever_graphs_m1757, 0.002); end
+  def test_lever_graphs_n1757; assert_in_epsilon(198.0, worksheet.lever_graphs_n1757, 0.002); end
+  def test_lever_graphs_o1757; assert_in_delta(0.0, (worksheet.lever_graphs_o1757||0), 0.002); end
+  def test_lever_graphs_p1757; assert_in_delta(0.0, (worksheet.lever_graphs_p1757||0), 0.002); end
+  def test_lever_graphs_q1757; assert_in_delta(0.0, (worksheet.lever_graphs_q1757||0), 0.002); end
+  def test_lever_graphs_r1757; assert_in_delta(0.0, (worksheet.lever_graphs_r1757||0), 0.002); end
+  def test_lever_graphs_b1758; assert_in_epsilon(2.0, worksheet.lever_graphs_b1758, 0.002); end
+  def test_lever_graphs_j1758; assert_in_epsilon(233.57, worksheet.lever_graphs_j1758, 0.002); end
+  def test_lever_graphs_k1758; assert_in_epsilon(428.0, worksheet.lever_graphs_k1758, 0.002); end
+  def test_lever_graphs_l1758; assert_in_epsilon(564.0, worksheet.lever_graphs_l1758, 0.002); end
+  def test_lever_graphs_m1758; assert_in_epsilon(607.0, worksheet.lever_graphs_m1758, 0.002); end
+  def test_lever_graphs_n1758; assert_in_epsilon(741.0, worksheet.lever_graphs_n1758, 0.002); end
+  def test_lever_graphs_o1758; assert_in_epsilon(878.0, worksheet.lever_graphs_o1758, 0.002); end
+  def test_lever_graphs_p1758; assert_in_epsilon(1068.0, worksheet.lever_graphs_p1758, 0.002); end
+  def test_lever_graphs_q1758; assert_in_epsilon(1499.0, worksheet.lever_graphs_q1758, 0.002); end
+  def test_lever_graphs_r1758; assert_in_epsilon(1862.0, worksheet.lever_graphs_r1758, 0.002); end
+  def test_lever_graphs_b1759; assert_in_epsilon(3.0, worksheet.lever_graphs_b1759, 0.002); end
+  def test_lever_graphs_j1759; assert_in_epsilon(233.57, worksheet.lever_graphs_j1759, 0.002); end
+  def test_lever_graphs_k1759; assert_in_epsilon(466.0, worksheet.lever_graphs_k1759, 0.002); end
+  def test_lever_graphs_l1759; assert_in_epsilon(778.0, worksheet.lever_graphs_l1759, 0.002); end
+  def test_lever_graphs_m1759; assert_in_epsilon(982.0, worksheet.lever_graphs_m1759, 0.002); end
+  def test_lever_graphs_n1759; assert_in_epsilon(1466.0, worksheet.lever_graphs_n1759, 0.002); end
+  def test_lever_graphs_o1759; assert_in_epsilon(1945.0, worksheet.lever_graphs_o1759, 0.002); end
+  def test_lever_graphs_p1759; assert_in_epsilon(2369.0, worksheet.lever_graphs_p1759, 0.002); end
+  def test_lever_graphs_q1759; assert_in_epsilon(3037.0, worksheet.lever_graphs_q1759, 0.002); end
+  def test_lever_graphs_r1759; assert_in_epsilon(3800.0, worksheet.lever_graphs_r1759, 0.002); end
+  def test_lever_graphs_b1760; assert_in_epsilon(4.0, worksheet.lever_graphs_b1760, 0.002); end
+  def test_lever_graphs_j1760; assert_in_epsilon(233.57, worksheet.lever_graphs_j1760, 0.002); end
+  def test_lever_graphs_k1760; assert_in_epsilon(511.0, worksheet.lever_graphs_k1760, 0.002); end
+  def test_lever_graphs_l1760; assert_in_epsilon(1073.0, worksheet.lever_graphs_l1760, 0.002); end
+  def test_lever_graphs_m1760; assert_in_epsilon(1576.0, worksheet.lever_graphs_m1760, 0.002); end
+  def test_lever_graphs_n1760; assert_in_epsilon(2316.0, worksheet.lever_graphs_n1760, 0.002); end
+  def test_lever_graphs_o1760; assert_in_epsilon(3100.0, worksheet.lever_graphs_o1760, 0.002); end
+  def test_lever_graphs_p1760; assert_in_epsilon(4149.0, worksheet.lever_graphs_p1760, 0.002); end
+  def test_lever_graphs_q1760; assert_in_epsilon(4581.0, worksheet.lever_graphs_q1760, 0.002); end
+  def test_lever_graphs_r1760; assert_in_epsilon(5058.0, worksheet.lever_graphs_r1760, 0.002); end
+  def test_lever_graphs_b1761; assert_equal("Comparator A", worksheet.lever_graphs_b1761); end
+  def test_lever_graphs_b1762; assert_equal("Comparator B", worksheet.lever_graphs_b1762); end
+  def test_lever_graphs_b1763; assert_equal("Comparator C", worksheet.lever_graphs_b1763); end
+  def test_lever_graphs_c1731; assert_equal("1975", worksheet.lever_graphs_c1731); end
+  def test_lever_graphs_d1731; assert_equal("1980", worksheet.lever_graphs_d1731); end
+  def test_lever_graphs_e1731; assert_equal("1985", worksheet.lever_graphs_e1731); end
+  def test_lever_graphs_f1731; assert_equal("1990", worksheet.lever_graphs_f1731); end
+  def test_lever_graphs_g1731; assert_equal("1995", worksheet.lever_graphs_g1731); end
+  def test_lever_graphs_h1731; assert_equal("2000", worksheet.lever_graphs_h1731); end
+  def test_lever_graphs_i1731; assert_equal("2005", worksheet.lever_graphs_i1731); end
+  def test_lever_graphs_j1731; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1731, 0.002); end
+  def test_lever_graphs_k1731; assert_equal("2015", worksheet.lever_graphs_k1731); end
+  def test_lever_graphs_l1731; assert_equal("2020", worksheet.lever_graphs_l1731); end
+  def test_lever_graphs_m1731; assert_equal("2025", worksheet.lever_graphs_m1731); end
+  def test_lever_graphs_n1731; assert_equal("2030", worksheet.lever_graphs_n1731); end
+  def test_lever_graphs_o1731; assert_equal("2035", worksheet.lever_graphs_o1731); end
+  def test_lever_graphs_p1731; assert_equal("2040", worksheet.lever_graphs_p1731); end
+  def test_lever_graphs_q1731; assert_equal("2045", worksheet.lever_graphs_q1731); end
+  def test_lever_graphs_r1731; assert_equal("2050", worksheet.lever_graphs_r1731); end
+  def test_lever_graphs_b1732; assert_equal("Historic data", worksheet.lever_graphs_b1732); end
+  def test_lever_graphs_b1733; assert_in_delta(1.0, worksheet.lever_graphs_b1733, 0.002); end
+  def test_lever_graphs_j1733; assert_in_epsilon(28.0, worksheet.lever_graphs_j1733, 0.002); end
+  def test_lever_graphs_k1733; assert_in_epsilon(65.0, worksheet.lever_graphs_k1733, 0.002); end
+  def test_lever_graphs_l1733; assert_in_epsilon(140.0, worksheet.lever_graphs_l1733, 0.002); end
+  def test_lever_graphs_m1733; assert_in_epsilon(120.0, worksheet.lever_graphs_m1733, 0.002); end
+  def test_lever_graphs_n1733; assert_in_epsilon(75.0, worksheet.lever_graphs_n1733, 0.002); end
+  def test_lever_graphs_o1733; assert_in_epsilon(35.0, worksheet.lever_graphs_o1733, 0.002); end
+  def test_lever_graphs_p1733; assert_in_delta(0.0, (worksheet.lever_graphs_p1733||0), 0.002); end
+  def test_lever_graphs_q1733; assert_in_delta(0.0, (worksheet.lever_graphs_q1733||0), 0.002); end
+  def test_lever_graphs_r1733; assert_in_delta(0.0, (worksheet.lever_graphs_r1733||0), 0.002); end
+  def test_lever_graphs_b1734; assert_in_epsilon(2.0, worksheet.lever_graphs_b1734, 0.002); end
+  def test_lever_graphs_j1734; assert_in_epsilon(28.0, worksheet.lever_graphs_j1734, 0.002); end
+  def test_lever_graphs_k1734; assert_in_epsilon(67.0, worksheet.lever_graphs_k1734, 0.002); end
+  def test_lever_graphs_l1734; assert_in_epsilon(158.0, worksheet.lever_graphs_l1734, 0.002); end
+  def test_lever_graphs_m1734; assert_in_epsilon(191.0, worksheet.lever_graphs_m1734, 0.002); end
+  def test_lever_graphs_n1734; assert_in_epsilon(259.0, worksheet.lever_graphs_n1734, 0.002); end
+  def test_lever_graphs_o1734; assert_in_epsilon(379.0, worksheet.lever_graphs_o1734, 0.002); end
+  def test_lever_graphs_p1734; assert_in_epsilon(466.0, worksheet.lever_graphs_p1734, 0.002); end
+  def test_lever_graphs_q1734; assert_in_epsilon(601.0, worksheet.lever_graphs_q1734, 0.002); end
+  def test_lever_graphs_r1734; assert_in_epsilon(811.0, worksheet.lever_graphs_r1734, 0.002); end
+  def test_lever_graphs_b1735; assert_in_epsilon(3.0, worksheet.lever_graphs_b1735, 0.002); end
+  def test_lever_graphs_j1735; assert_in_epsilon(28.0, worksheet.lever_graphs_j1735, 0.002); end
+  def test_lever_graphs_k1735; assert_in_epsilon(70.0, worksheet.lever_graphs_k1735, 0.002); end
+  def test_lever_graphs_l1735; assert_in_epsilon(177.0, worksheet.lever_graphs_l1735, 0.002); end
+  def test_lever_graphs_m1735; assert_in_epsilon(281.4, worksheet.lever_graphs_m1735, 0.002); end
+  def test_lever_graphs_n1735; assert_in_epsilon(447.5, worksheet.lever_graphs_n1735, 0.002); end
+  def test_lever_graphs_o1735; assert_in_epsilon(711.4, worksheet.lever_graphs_o1735, 0.002); end
+  def test_lever_graphs_p1735; assert_in_epsilon(1131.2, worksheet.lever_graphs_p1735, 0.002); end
+  def test_lever_graphs_q1735; assert_in_epsilon(1798.5, worksheet.lever_graphs_q1735, 0.002); end
+  def test_lever_graphs_r1735; assert_in_epsilon(2859.6, worksheet.lever_graphs_r1735, 0.002); end
+  def test_lever_graphs_b1736; assert_in_epsilon(4.0, worksheet.lever_graphs_b1736, 0.002); end
+  def test_lever_graphs_j1736; assert_in_epsilon(28.0, worksheet.lever_graphs_j1736, 0.002); end
+  def test_lever_graphs_k1736; assert_in_epsilon(89.0, worksheet.lever_graphs_k1736, 0.002); end
+  def test_lever_graphs_l1736; assert_in_epsilon(201.2, worksheet.lever_graphs_l1736, 0.002); end
+  def test_lever_graphs_m1736; assert_in_epsilon(468.2, worksheet.lever_graphs_m1736, 0.002); end
+  def test_lever_graphs_n1736; assert_in_epsilon(1089.4, worksheet.lever_graphs_n1736, 0.002); end
+  def test_lever_graphs_o1736; assert_in_epsilon(1835.7, worksheet.lever_graphs_o1736, 0.002); end
+  def test_lever_graphs_p1736; assert_in_epsilon(3093.3, worksheet.lever_graphs_p1736, 0.002); end
+  def test_lever_graphs_q1736; assert_in_epsilon(4139.5, worksheet.lever_graphs_q1736, 0.002); end
+  def test_lever_graphs_r1736; assert_in_epsilon(5539.6, worksheet.lever_graphs_r1736, 0.002); end
+  def test_lever_graphs_b1737; assert_equal("Comparator A", worksheet.lever_graphs_b1737); end
+  def test_lever_graphs_b1738; assert_equal("Comparator B", worksheet.lever_graphs_b1738); end
+  def test_lever_graphs_b1739; assert_equal("Comparator C", worksheet.lever_graphs_b1739); end
+  def test_lever_graphs_c1833; assert_equal("1975", worksheet.lever_graphs_c1833); end
+  def test_lever_graphs_d1833; assert_equal("1980", worksheet.lever_graphs_d1833); end
+  def test_lever_graphs_e1833; assert_equal("1985", worksheet.lever_graphs_e1833); end
+  def test_lever_graphs_f1833; assert_equal("1990", worksheet.lever_graphs_f1833); end
+  def test_lever_graphs_g1833; assert_equal("1995", worksheet.lever_graphs_g1833); end
+  def test_lever_graphs_h1833; assert_equal("2000", worksheet.lever_graphs_h1833); end
+  def test_lever_graphs_i1833; assert_equal("2005", worksheet.lever_graphs_i1833); end
+  def test_lever_graphs_j1833; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1833, 0.002); end
+  def test_lever_graphs_k1833; assert_equal("2015", worksheet.lever_graphs_k1833); end
+  def test_lever_graphs_l1833; assert_equal("2020", worksheet.lever_graphs_l1833); end
+  def test_lever_graphs_m1833; assert_equal("2025", worksheet.lever_graphs_m1833); end
+  def test_lever_graphs_n1833; assert_equal("2030", worksheet.lever_graphs_n1833); end
+  def test_lever_graphs_o1833; assert_equal("2035", worksheet.lever_graphs_o1833); end
+  def test_lever_graphs_p1833; assert_equal("2040", worksheet.lever_graphs_p1833); end
+  def test_lever_graphs_q1833; assert_equal("2045", worksheet.lever_graphs_q1833); end
+  def test_lever_graphs_r1833; assert_equal("2050", worksheet.lever_graphs_r1833); end
+  def test_lever_graphs_b1834; assert_equal("Historic data", worksheet.lever_graphs_b1834); end
+  def test_lever_graphs_b1835; assert_in_delta(1.0, worksheet.lever_graphs_b1835, 0.002); end
+  def test_lever_graphs_j1835; assert_in_epsilon(120.0, worksheet.lever_graphs_j1835, 0.002); end
+  def test_lever_graphs_k1835; assert_in_epsilon(123.6, worksheet.lever_graphs_k1835, 0.002); end
+  def test_lever_graphs_l1835; assert_in_epsilon(127.3, worksheet.lever_graphs_l1835, 0.002); end
+  def test_lever_graphs_m1835; assert_in_epsilon(131.1, worksheet.lever_graphs_m1835, 0.002); end
+  def test_lever_graphs_n1835; assert_in_epsilon(135.0, worksheet.lever_graphs_n1835, 0.002); end
+  def test_lever_graphs_o1835; assert_in_epsilon(139.1, worksheet.lever_graphs_o1835, 0.002); end
+  def test_lever_graphs_p1835; assert_in_epsilon(143.3, worksheet.lever_graphs_p1835, 0.002); end
+  def test_lever_graphs_q1835; assert_in_epsilon(147.6, worksheet.lever_graphs_q1835, 0.002); end
+  def test_lever_graphs_r1835; assert_in_epsilon(152.0, worksheet.lever_graphs_r1835, 0.002); end
+  def test_lever_graphs_b1836; assert_in_epsilon(2.0, worksheet.lever_graphs_b1836, 0.002); end
+  def test_lever_graphs_j1836; assert_in_epsilon(120.0, worksheet.lever_graphs_j1836, 0.002); end
+  def test_lever_graphs_k1836; assert_in_epsilon(146.4, worksheet.lever_graphs_k1836, 0.002); end
+  def test_lever_graphs_l1836; assert_in_epsilon(178.6, worksheet.lever_graphs_l1836, 0.002); end
+  def test_lever_graphs_m1836; assert_in_epsilon(202.2, worksheet.lever_graphs_m1836, 0.002); end
+  def test_lever_graphs_n1836; assert_in_epsilon(245.1, worksheet.lever_graphs_n1836, 0.002); end
+  def test_lever_graphs_o1836; assert_in_epsilon(278.2, worksheet.lever_graphs_o1836, 0.002); end
+  def test_lever_graphs_p1836; assert_in_epsilon(305.7, worksheet.lever_graphs_p1836, 0.002); end
+  def test_lever_graphs_q1836; assert_in_epsilon(355.3, worksheet.lever_graphs_q1836, 0.002); end
+  def test_lever_graphs_r1836; assert_in_epsilon(403.0, worksheet.lever_graphs_r1836, 0.002); end
+  def test_lever_graphs_b1837; assert_in_epsilon(3.0, worksheet.lever_graphs_b1837, 0.002); end
+  def test_lever_graphs_j1837; assert_in_epsilon(120.0, worksheet.lever_graphs_j1837, 0.002); end
+  def test_lever_graphs_k1837; assert_in_epsilon(152.4, worksheet.lever_graphs_k1837, 0.002); end
+  def test_lever_graphs_l1837; assert_in_epsilon(193.5, worksheet.lever_graphs_l1837, 0.002); end
+  def test_lever_graphs_m1837; assert_in_epsilon(245.7, worksheet.lever_graphs_m1837, 0.002); end
+  def test_lever_graphs_n1837; assert_in_epsilon(312.0, worksheet.lever_graphs_n1837, 0.002); end
+  def test_lever_graphs_o1837; assert_in_epsilon(396.2, worksheet.lever_graphs_o1837, 0.002); end
+  def test_lever_graphs_p1837; assert_in_epsilon(503.2, worksheet.lever_graphs_p1837, 0.002); end
+  def test_lever_graphs_q1837; assert_in_epsilon(639.1, worksheet.lever_graphs_q1837, 0.002); end
+  def test_lever_graphs_r1837; assert_in_epsilon(800.0, worksheet.lever_graphs_r1837, 0.002); end
+  def test_lever_graphs_b1838; assert_in_epsilon(4.0, worksheet.lever_graphs_b1838, 0.002); end
+  def test_lever_graphs_j1838; assert_in_epsilon(120.0, worksheet.lever_graphs_j1838, 0.002); end
+  def test_lever_graphs_k1838; assert_in_epsilon(159.6, worksheet.lever_graphs_k1838, 0.002); end
+  def test_lever_graphs_l1838; assert_in_epsilon(212.3, worksheet.lever_graphs_l1838, 0.002); end
+  def test_lever_graphs_m1838; assert_in_epsilon(282.4, worksheet.lever_graphs_m1838, 0.002); end
+  def test_lever_graphs_n1838; assert_in_epsilon(375.6, worksheet.lever_graphs_n1838, 0.002); end
+  def test_lever_graphs_o1838; assert_in_epsilon(499.5, worksheet.lever_graphs_o1838, 0.002); end
+  def test_lever_graphs_p1838; assert_in_epsilon(664.3, worksheet.lever_graphs_p1838, 0.002); end
+  def test_lever_graphs_q1838; assert_in_epsilon(883.5, worksheet.lever_graphs_q1838, 0.002); end
+  def test_lever_graphs_r1838; assert_in_epsilon(1200.0, worksheet.lever_graphs_r1838, 0.002); end
+  def test_lever_graphs_b1839; assert_equal("Comparator A", worksheet.lever_graphs_b1839); end
+  def test_lever_graphs_b1840; assert_equal("Comparator B", worksheet.lever_graphs_b1840); end
+  def test_lever_graphs_b1841; assert_equal("Comparator C", worksheet.lever_graphs_b1841); end
+  def test_lever_graphs_c1545; assert_equal("1975", worksheet.lever_graphs_c1545); end
+  def test_lever_graphs_d1545; assert_equal("1980", worksheet.lever_graphs_d1545); end
+  def test_lever_graphs_e1545; assert_equal("1985", worksheet.lever_graphs_e1545); end
+  def test_lever_graphs_f1545; assert_equal("1990", worksheet.lever_graphs_f1545); end
+  def test_lever_graphs_g1545; assert_equal("1995", worksheet.lever_graphs_g1545); end
+  def test_lever_graphs_h1545; assert_equal("2000", worksheet.lever_graphs_h1545); end
+  def test_lever_graphs_i1545; assert_equal("2005", worksheet.lever_graphs_i1545); end
+  def test_lever_graphs_j1545; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1545, 0.002); end
+  def test_lever_graphs_k1545; assert_equal("2015", worksheet.lever_graphs_k1545); end
+  def test_lever_graphs_l1545; assert_equal("2020", worksheet.lever_graphs_l1545); end
+  def test_lever_graphs_m1545; assert_equal("2025", worksheet.lever_graphs_m1545); end
+  def test_lever_graphs_n1545; assert_equal("2030", worksheet.lever_graphs_n1545); end
+  def test_lever_graphs_o1545; assert_equal("2035", worksheet.lever_graphs_o1545); end
+  def test_lever_graphs_p1545; assert_equal("2040", worksheet.lever_graphs_p1545); end
+  def test_lever_graphs_q1545; assert_equal("2045", worksheet.lever_graphs_q1545); end
+  def test_lever_graphs_r1545; assert_equal("2050", worksheet.lever_graphs_r1545); end
+  def test_lever_graphs_b1546; assert_equal("Historic data", worksheet.lever_graphs_b1546); end
+  def test_lever_graphs_b1547; assert_in_delta(1.0, worksheet.lever_graphs_b1547, 0.002); end
+  def test_lever_graphs_j1547; assert_in_delta(0.0, (worksheet.lever_graphs_j1547||0), 0.002); end
+  def test_lever_graphs_k1547; assert_in_delta(0.0, (worksheet.lever_graphs_k1547||0), 0.002); end
+  def test_lever_graphs_l1547; assert_in_delta(0.0, (worksheet.lever_graphs_l1547||0), 0.002); end
+  def test_lever_graphs_m1547; assert_in_delta(0.0, (worksheet.lever_graphs_m1547||0), 0.002); end
+  def test_lever_graphs_n1547; assert_in_delta(0.0, (worksheet.lever_graphs_n1547||0), 0.002); end
+  def test_lever_graphs_o1547; assert_in_delta(0.0, (worksheet.lever_graphs_o1547||0), 0.002); end
+  def test_lever_graphs_p1547; assert_in_delta(0.0, (worksheet.lever_graphs_p1547||0), 0.002); end
+  def test_lever_graphs_q1547; assert_in_delta(0.0, (worksheet.lever_graphs_q1547||0), 0.002); end
+  def test_lever_graphs_r1547; assert_in_delta(0.0, (worksheet.lever_graphs_r1547||0), 0.002); end
+  def test_lever_graphs_b1548; assert_in_epsilon(2.0, worksheet.lever_graphs_b1548, 0.002); end
+  def test_lever_graphs_j1548; assert_in_delta(0.0, (worksheet.lever_graphs_j1548||0), 0.002); end
+  def test_lever_graphs_k1548; assert_in_delta(0.0, (worksheet.lever_graphs_k1548||0), 0.002); end
+  def test_lever_graphs_l1548; assert_in_delta(0.0, (worksheet.lever_graphs_l1548||0), 0.002); end
+  def test_lever_graphs_m1548; assert_in_delta(0.0, (worksheet.lever_graphs_m1548||0), 0.002); end
+  def test_lever_graphs_n1548; assert_in_delta(0.0, (worksheet.lever_graphs_n1548||0), 0.002); end
+  def test_lever_graphs_o1548; assert_in_delta(0.0, (worksheet.lever_graphs_o1548||0), 0.002); end
+  def test_lever_graphs_p1548; assert_in_delta(0.0, (worksheet.lever_graphs_p1548||0), 0.002); end
+  def test_lever_graphs_q1548; assert_in_delta(0.0, (worksheet.lever_graphs_q1548||0), 0.002); end
+  def test_lever_graphs_r1548; assert_in_delta(0.2, worksheet.lever_graphs_r1548, 0.002); end
+  def test_lever_graphs_b1549; assert_in_epsilon(3.0, worksheet.lever_graphs_b1549, 0.002); end
+  def test_lever_graphs_j1549; assert_in_delta(0.0, (worksheet.lever_graphs_j1549||0), 0.002); end
+  def test_lever_graphs_k1549; assert_in_delta(0.0, (worksheet.lever_graphs_k1549||0), 0.002); end
+  def test_lever_graphs_l1549; assert_in_delta(0.0, (worksheet.lever_graphs_l1549||0), 0.002); end
+  def test_lever_graphs_m1549; assert_in_delta(0.0, (worksheet.lever_graphs_m1549||0), 0.002); end
+  def test_lever_graphs_n1549; assert_in_delta(0.07200000000000001, worksheet.lever_graphs_n1549, 0.002); end
+  def test_lever_graphs_o1549; assert_in_delta(0.14400000000000002, worksheet.lever_graphs_o1549, 0.002); end
+  def test_lever_graphs_p1549; assert_in_delta(0.21600000000000003, worksheet.lever_graphs_p1549, 0.002); end
+  def test_lever_graphs_q1549; assert_in_delta(0.28800000000000003, worksheet.lever_graphs_q1549, 0.002); end
+  def test_lever_graphs_r1549; assert_in_delta(0.36000000000000004, worksheet.lever_graphs_r1549, 0.002); end
+  def test_lever_graphs_b1550; assert_in_epsilon(4.0, worksheet.lever_graphs_b1550, 0.002); end
+  def test_lever_graphs_j1550; assert_in_delta(0.0, (worksheet.lever_graphs_j1550||0), 0.002); end
+  def test_lever_graphs_k1550; assert_in_delta(0.0, (worksheet.lever_graphs_k1550||0), 0.002); end
+  def test_lever_graphs_l1550; assert_in_delta(0.0, (worksheet.lever_graphs_l1550||0), 0.002); end
+  def test_lever_graphs_m1550; assert_in_delta(0.0, (worksheet.lever_graphs_m1550||0), 0.002); end
+  def test_lever_graphs_n1550; assert_in_delta(0.16, worksheet.lever_graphs_n1550, 0.002); end
+  def test_lever_graphs_o1550; assert_in_delta(0.32, worksheet.lever_graphs_o1550, 0.002); end
+  def test_lever_graphs_p1550; assert_in_delta(0.48, worksheet.lever_graphs_p1550, 0.002); end
+  def test_lever_graphs_q1550; assert_in_delta(0.64, worksheet.lever_graphs_q1550, 0.002); end
+  def test_lever_graphs_r1550; assert_in_delta(0.8, worksheet.lever_graphs_r1550, 0.002); end
+  def test_lever_graphs_b1551; assert_equal("Comparator A", worksheet.lever_graphs_b1551); end
+  def test_lever_graphs_b1552; assert_equal("Comparator B", worksheet.lever_graphs_b1552); end
+  def test_lever_graphs_b1553; assert_equal("Comparator C", worksheet.lever_graphs_b1553); end
+  def test_lever_graphs_d1534; assert_equal("Title", worksheet.lever_graphs_d1534); end
+  def test_lever_graphs_e1534; assert_equal("Steel.Oxygen", worksheet.lever_graphs_e1534); end
+  def test_lever_graphs_f1534; assert_equal("Chemicals & petrochemicals.HVC", worksheet.lever_graphs_f1534); end
+  def test_lever_graphs_g1534; assert_equal("Pulp & paper.Pulp", worksheet.lever_graphs_g1534); end
+  def test_lever_graphs_h1534; assert_equal("Cement", worksheet.lever_graphs_h1534); end
+  def test_lever_graphs_i1534; assert_equal("Timber", worksheet.lever_graphs_i1534); end
+  def test_lever_graphs_d1535; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1535, 0.002); end
+  def test_lever_graphs_e1535; assert_in_delta(0.0, (worksheet.lever_graphs_e1535||0), 0.002); end
+  def test_lever_graphs_f1535; assert_in_delta(0.0, (worksheet.lever_graphs_f1535||0), 0.002); end
+  def test_lever_graphs_g1535; assert_in_delta(0.0, (worksheet.lever_graphs_g1535||0), 0.002); end
+  def test_lever_graphs_h1535; assert_in_delta(0.0, (worksheet.lever_graphs_h1535||0), 0.002); end
+  def test_lever_graphs_i1535; assert_in_delta(0.0, (worksheet.lever_graphs_i1535||0), 0.002); end
+  def test_lever_graphs_d1536; assert_equal("2050: Level 1", worksheet.lever_graphs_d1536); end
+  def test_lever_graphs_e1536; assert_in_delta(0.0, (worksheet.lever_graphs_e1536||0), 0.002); end
+  def test_lever_graphs_f1536; assert_in_delta(0.0, (worksheet.lever_graphs_f1536||0), 0.002); end
+  def test_lever_graphs_g1536; assert_in_delta(0.0, (worksheet.lever_graphs_g1536||0), 0.002); end
+  def test_lever_graphs_h1536; assert_in_delta(0.0, (worksheet.lever_graphs_h1536||0), 0.002); end
+  def test_lever_graphs_i1536; assert_in_delta(0.0, (worksheet.lever_graphs_i1536||0), 0.002); end
+  def test_lever_graphs_d1537; assert_equal("2050: Level 2", worksheet.lever_graphs_d1537); end
+  def test_lever_graphs_e1537; assert_in_delta(0.2, worksheet.lever_graphs_e1537, 0.002); end
+  def test_lever_graphs_f1537; assert_in_delta(0.0, (worksheet.lever_graphs_f1537||0), 0.002); end
+  def test_lever_graphs_g1537; assert_in_delta(0.425, worksheet.lever_graphs_g1537, 0.002); end
+  def test_lever_graphs_h1537; assert_in_delta(0.425, worksheet.lever_graphs_h1537, 0.002); end
+  def test_lever_graphs_i1537; assert_in_delta(0.0, (worksheet.lever_graphs_i1537||0), 0.002); end
+  def test_lever_graphs_d1538; assert_equal("2050: Level 3", worksheet.lever_graphs_d1538); end
+  def test_lever_graphs_e1538; assert_in_delta(0.36000000000000004, worksheet.lever_graphs_e1538, 0.002); end
+  def test_lever_graphs_f1538; assert_in_delta(0.5, worksheet.lever_graphs_f1538, 0.002); end
+  def test_lever_graphs_g1538; assert_in_delta(0.6375, worksheet.lever_graphs_g1538, 0.002); end
+  def test_lever_graphs_h1538; assert_in_delta(0.6375, worksheet.lever_graphs_h1538, 0.002); end
+  def test_lever_graphs_i1538; assert_in_delta(0.0, (worksheet.lever_graphs_i1538||0), 0.002); end
+  def test_lever_graphs_d1539; assert_equal("2050: Level 4", worksheet.lever_graphs_d1539); end
+  def test_lever_graphs_e1539; assert_in_delta(0.8, worksheet.lever_graphs_e1539, 0.002); end
+  def test_lever_graphs_f1539; assert_in_delta(0.62, worksheet.lever_graphs_f1539, 0.002); end
+  def test_lever_graphs_g1539; assert_in_delta(0.85, worksheet.lever_graphs_g1539, 0.002); end
+  def test_lever_graphs_h1539; assert_in_delta(0.85, worksheet.lever_graphs_h1539, 0.002); end
+  def test_lever_graphs_i1539; assert_in_delta(0.3, worksheet.lever_graphs_i1539, 0.002); end
+  def test_lever_graphs_c2209; assert_equal("1975", worksheet.lever_graphs_c2209); end
+  def test_lever_graphs_d2209; assert_equal("1980", worksheet.lever_graphs_d2209); end
+  def test_lever_graphs_e2209; assert_equal("1985", worksheet.lever_graphs_e2209); end
+  def test_lever_graphs_f2209; assert_equal("1990", worksheet.lever_graphs_f2209); end
+  def test_lever_graphs_g2209; assert_equal("1995", worksheet.lever_graphs_g2209); end
+  def test_lever_graphs_h2209; assert_equal("2000", worksheet.lever_graphs_h2209); end
+  def test_lever_graphs_i2209; assert_equal("2005", worksheet.lever_graphs_i2209); end
+  def test_lever_graphs_j2209; assert_equal("2011", worksheet.lever_graphs_j2209); end
+  def test_lever_graphs_k2209; assert_equal("2015", worksheet.lever_graphs_k2209); end
+  def test_lever_graphs_l2209; assert_equal("2020", worksheet.lever_graphs_l2209); end
+  def test_lever_graphs_m2209; assert_equal("2025", worksheet.lever_graphs_m2209); end
+  def test_lever_graphs_n2209; assert_equal("2030", worksheet.lever_graphs_n2209); end
+  def test_lever_graphs_o2209; assert_equal("2035", worksheet.lever_graphs_o2209); end
+  def test_lever_graphs_p2209; assert_equal("2040", worksheet.lever_graphs_p2209); end
+  def test_lever_graphs_q2209; assert_equal("2045", worksheet.lever_graphs_q2209); end
+  def test_lever_graphs_r2209; assert_equal("2050", worksheet.lever_graphs_r2209); end
+  def test_lever_graphs_b2210; assert_equal("Historic data", worksheet.lever_graphs_b2210); end
+  def test_lever_graphs_b2211; assert_in_delta(1.0, worksheet.lever_graphs_b2211, 0.002); end
+  def test_lever_graphs_j2211; assert_in_epsilon(4835.975815154016, worksheet.lever_graphs_j2211, 0.002); end
+  def test_lever_graphs_k2211; assert_in_epsilon(4819.97829565104, worksheet.lever_graphs_k2211, 0.002); end
+  def test_lever_graphs_l2211; assert_in_epsilon(4799.98139627232, worksheet.lever_graphs_l2211, 0.002); end
+  def test_lever_graphs_m2211; assert_in_epsilon(4779.9844968936, worksheet.lever_graphs_m2211, 0.002); end
+  def test_lever_graphs_n2211; assert_in_epsilon(4759.98759751488, worksheet.lever_graphs_n2211, 0.002); end
+  def test_lever_graphs_o2211; assert_in_epsilon(4739.99069813616, worksheet.lever_graphs_o2211, 0.002); end
+  def test_lever_graphs_p2211; assert_in_epsilon(4719.99379875744, worksheet.lever_graphs_p2211, 0.002); end
+  def test_lever_graphs_q2211; assert_in_epsilon(4699.996899378721, worksheet.lever_graphs_q2211, 0.002); end
+  def test_lever_graphs_r2211; assert_in_epsilon(4680.000000000001, worksheet.lever_graphs_r2211, 0.002); end
+  def test_lever_graphs_b2212; assert_in_epsilon(2.0, worksheet.lever_graphs_b2212, 0.002); end
+  def test_lever_graphs_j2212; assert_in_epsilon(4835.975815154016, worksheet.lever_graphs_j2212, 0.002); end
+  def test_lever_graphs_k2212; assert_in_epsilon(4783.055218727963, worksheet.lever_graphs_k2212, 0.002); end
+  def test_lever_graphs_l2212; assert_in_epsilon(4716.904473195397, worksheet.lever_graphs_l2212, 0.002); end
+  def test_lever_graphs_m2212; assert_in_epsilon(4650.753727662831, worksheet.lever_graphs_m2212, 0.002); end
+  def test_lever_graphs_n2212; assert_in_epsilon(4584.6029821302645, worksheet.lever_graphs_n2212, 0.002); end
+  def test_lever_graphs_o2212; assert_in_epsilon(4518.452236597698, worksheet.lever_graphs_o2212, 0.002); end
+  def test_lever_graphs_p2212; assert_in_epsilon(4452.301491065132, worksheet.lever_graphs_p2212, 0.002); end
+  def test_lever_graphs_q2212; assert_in_epsilon(4386.150745532566, worksheet.lever_graphs_q2212, 0.002); end
+  def test_lever_graphs_r2212; assert_in_epsilon(4320.0, worksheet.lever_graphs_r2212, 0.002); end
+  def test_lever_graphs_b2213; assert_in_epsilon(3.0, worksheet.lever_graphs_b2213, 0.002); end
+  def test_lever_graphs_j2213; assert_in_epsilon(4835.975815154016, worksheet.lever_graphs_j2213, 0.002); end
+  def test_lever_graphs_k2213; assert_in_epsilon(4746.1321418048865, worksheet.lever_graphs_k2213, 0.002); end
+  def test_lever_graphs_l2213; assert_in_epsilon(4633.8275501184735, worksheet.lever_graphs_l2213, 0.002); end
+  def test_lever_graphs_m2213; assert_in_epsilon(4521.522958432061, worksheet.lever_graphs_m2213, 0.002); end
+  def test_lever_graphs_n2213; assert_in_epsilon(4409.218366745648, worksheet.lever_graphs_n2213, 0.002); end
+  def test_lever_graphs_o2213; assert_in_epsilon(4296.913775059236, worksheet.lever_graphs_o2213, 0.002); end
+  def test_lever_graphs_p2213; assert_in_epsilon(4184.609183372824, worksheet.lever_graphs_p2213, 0.002); end
+  def test_lever_graphs_q2213; assert_in_epsilon(4072.3045916864126, worksheet.lever_graphs_q2213, 0.002); end
+  def test_lever_graphs_r2213; assert_in_epsilon(3960.0000000000005, worksheet.lever_graphs_r2213, 0.002); end
+  def test_lever_graphs_b2214; assert_in_epsilon(4.0, worksheet.lever_graphs_b2214, 0.002); end
+  def test_lever_graphs_j2214; assert_in_epsilon(4835.975815154016, worksheet.lever_graphs_j2214, 0.002); end
+  def test_lever_graphs_k2214; assert_in_epsilon(4709.209064881809, worksheet.lever_graphs_k2214, 0.002); end
+  def test_lever_graphs_l2214; assert_in_epsilon(4550.750627041551, worksheet.lever_graphs_l2214, 0.002); end
+  def test_lever_graphs_m2214; assert_in_epsilon(4392.292189201292, worksheet.lever_graphs_m2214, 0.002); end
+  def test_lever_graphs_n2214; assert_in_epsilon(4233.833751361034, worksheet.lever_graphs_n2214, 0.002); end
+  def test_lever_graphs_o2214; assert_in_epsilon(4075.3753135207758, worksheet.lever_graphs_o2214, 0.002); end
+  def test_lever_graphs_p2214; assert_in_epsilon(3916.9168756805175, worksheet.lever_graphs_p2214, 0.002); end
+  def test_lever_graphs_q2214; assert_in_epsilon(3758.4584378402583, worksheet.lever_graphs_q2214, 0.002); end
+  def test_lever_graphs_r2214; assert_in_epsilon(3600.0, worksheet.lever_graphs_r2214, 0.002); end
+  def test_lever_graphs_d2219; assert_equal("Title", worksheet.lever_graphs_d2219); end
+  def test_lever_graphs_e2219; assert_equal("Global urban solid stoves used by people with access to electricity", worksheet.lever_graphs_e2219); end
+  def test_lever_graphs_f2219; assert_equal("Global urban liquid stoves used by people with access to electricity", worksheet.lever_graphs_f2219); end
+  def test_lever_graphs_g2219; assert_equal("Global urban gas stoves used by people with access to electricity", worksheet.lever_graphs_g2219); end
+  def test_lever_graphs_h2219; assert_equal("Global urban electicity stoves used by people with access to electricity", worksheet.lever_graphs_h2219); end
+  def test_lever_graphs_i2219; assert_equal("Global urban traditional biomass boiler used by people with access to electricity", worksheet.lever_graphs_i2219); end
+  def test_lever_graphs_d2220; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2220, 0.002); end
+  def test_lever_graphs_e2220; assert_in_delta(0.07999999999999996, worksheet.lever_graphs_e2220, 0.002); end
+  def test_lever_graphs_f2220; assert_in_delta(0.15, worksheet.lever_graphs_f2220, 0.002); end
+  def test_lever_graphs_g2220; assert_in_delta(0.4, worksheet.lever_graphs_g2220, 0.002); end
+  def test_lever_graphs_h2220; assert_in_delta(0.25, worksheet.lever_graphs_h2220, 0.002); end
+  def test_lever_graphs_i2220; assert_in_delta(0.12, worksheet.lever_graphs_i2220, 0.002); end
+  def test_lever_graphs_d2221; assert_equal("2050: Level 1", worksheet.lever_graphs_d2221); end
+  def test_lever_graphs_e2221; assert_in_delta(0.07999999999999996, worksheet.lever_graphs_e2221, 0.002); end
+  def test_lever_graphs_f2221; assert_in_delta(0.15, worksheet.lever_graphs_f2221, 0.002); end
+  def test_lever_graphs_g2221; assert_in_delta(0.4, worksheet.lever_graphs_g2221, 0.002); end
+  def test_lever_graphs_h2221; assert_in_delta(0.25, worksheet.lever_graphs_h2221, 0.002); end
+  def test_lever_graphs_i2221; assert_in_delta(0.12, worksheet.lever_graphs_i2221, 0.002); end
+  def test_lever_graphs_d2222; assert_equal("2050: Level 2", worksheet.lever_graphs_d2222); end
+  def test_lever_graphs_e2222; assert_in_delta(0.06000000000000005, worksheet.lever_graphs_e2222, 0.002); end
+  def test_lever_graphs_f2222; assert_in_delta(0.08, worksheet.lever_graphs_f2222, 0.002); end
+  def test_lever_graphs_g2222; assert_in_delta(0.5, worksheet.lever_graphs_g2222, 0.002); end
+  def test_lever_graphs_h2222; assert_in_delta(0.3, worksheet.lever_graphs_h2222, 0.002); end
+  def test_lever_graphs_i2222; assert_in_delta(0.06, worksheet.lever_graphs_i2222, 0.002); end
+  def test_lever_graphs_d2223; assert_equal("2050: Level 3", worksheet.lever_graphs_d2223); end
+  def test_lever_graphs_e2223; assert_in_delta(0.040000000000000036, worksheet.lever_graphs_e2223, 0.002); end
+  def test_lever_graphs_f2223; assert_in_delta(0.03, worksheet.lever_graphs_f2223, 0.002); end
+  def test_lever_graphs_g2223; assert_in_delta(0.45, worksheet.lever_graphs_g2223, 0.002); end
+  def test_lever_graphs_h2223; assert_in_delta(0.45, worksheet.lever_graphs_h2223, 0.002); end
+  def test_lever_graphs_i2223; assert_in_delta(0.029999999999999916, worksheet.lever_graphs_i2223, 0.002); end
+  def test_lever_graphs_d2224; assert_equal("2050: Level 4", worksheet.lever_graphs_d2224); end
+  def test_lever_graphs_e2224; assert_in_delta(0.015000000000000013, worksheet.lever_graphs_e2224, 0.002); end
+  def test_lever_graphs_f2224; assert_in_delta(0.01, worksheet.lever_graphs_f2224, 0.002); end
+  def test_lever_graphs_g2224; assert_in_delta(0.4, worksheet.lever_graphs_g2224, 0.002); end
+  def test_lever_graphs_h2224; assert_in_delta(0.57, worksheet.lever_graphs_h2224, 0.002); end
+  def test_lever_graphs_i2224; assert_in_delta(0.0050000000000000044, worksheet.lever_graphs_i2224, 0.002); end
+  def test_lever_graphs_c2588; assert_equal("1975", worksheet.lever_graphs_c2588); end
+  def test_lever_graphs_d2588; assert_equal("1980", worksheet.lever_graphs_d2588); end
+  def test_lever_graphs_e2588; assert_equal("1985", worksheet.lever_graphs_e2588); end
+  def test_lever_graphs_f2588; assert_equal("1990", worksheet.lever_graphs_f2588); end
+  def test_lever_graphs_g2588; assert_equal("1995", worksheet.lever_graphs_g2588); end
+  def test_lever_graphs_h2588; assert_equal("2000", worksheet.lever_graphs_h2588); end
+  def test_lever_graphs_i2588; assert_equal("2005", worksheet.lever_graphs_i2588); end
+  def test_lever_graphs_j2588; assert_equal("2011", worksheet.lever_graphs_j2588); end
+  def test_lever_graphs_k2588; assert_equal("2015", worksheet.lever_graphs_k2588); end
+  def test_lever_graphs_l2588; assert_equal("2020", worksheet.lever_graphs_l2588); end
+  def test_lever_graphs_m2588; assert_equal("2025", worksheet.lever_graphs_m2588); end
+  def test_lever_graphs_n2588; assert_equal("2030", worksheet.lever_graphs_n2588); end
+  def test_lever_graphs_o2588; assert_equal("2035", worksheet.lever_graphs_o2588); end
+  def test_lever_graphs_p2588; assert_equal("2040", worksheet.lever_graphs_p2588); end
+  def test_lever_graphs_q2588; assert_equal("2045", worksheet.lever_graphs_q2588); end
+  def test_lever_graphs_r2588; assert_equal("2050", worksheet.lever_graphs_r2588); end
+  def test_lever_graphs_b2589; assert_equal("Historic data", worksheet.lever_graphs_b2589); end
+  def test_lever_graphs_b2590; assert_in_delta(1.0, worksheet.lever_graphs_b2590, 0.002); end
+  def test_lever_graphs_j2590; assert_in_delta(0.03015610243776599, worksheet.lever_graphs_j2590, 0.002); end
+  def test_lever_graphs_k2590; assert_in_delta(0.031060785510898973, worksheet.lever_graphs_k2590, 0.002); end
+  def test_lever_graphs_l2590; assert_in_delta(0.030910004998710137, worksheet.lever_graphs_l2590, 0.002); end
+  def test_lever_graphs_m2590; assert_in_delta(0.03015610243776599, worksheet.lever_graphs_m2590, 0.002); end
+  def test_lever_graphs_n2590; assert_in_delta(0.02955298038901067, worksheet.lever_graphs_n2590, 0.002); end
+  def test_lever_graphs_o2590; assert_in_delta(0.02894985834025535, worksheet.lever_graphs_o2590, 0.002); end
+  def test_lever_graphs_p2590; assert_in_delta(0.02834673629150003, worksheet.lever_graphs_p2590, 0.002); end
+  def test_lever_graphs_q2590; assert_in_delta(0.027743614242744713, worksheet.lever_graphs_q2590, 0.002); end
+  def test_lever_graphs_r2590; assert_in_delta(0.027140492193989393, worksheet.lever_graphs_r2590, 0.002); end
+  def test_lever_graphs_b2591; assert_in_epsilon(2.0, worksheet.lever_graphs_b2591, 0.002); end
+  def test_lever_graphs_j2591; assert_in_delta(0.03015610243776599, worksheet.lever_graphs_j2591, 0.002); end
+  def test_lever_graphs_k2591; assert_in_delta(0.031060785510898973, worksheet.lever_graphs_k2591, 0.002); end
+  def test_lever_graphs_l2591; assert_in_delta(0.03226702960840961, worksheet.lever_graphs_l2591, 0.002); end
+  def test_lever_graphs_m2591; assert_in_delta(0.03347327370592025, worksheet.lever_graphs_m2591, 0.002); end
+  def test_lever_graphs_n2591; assert_in_delta(0.034679517803430884, worksheet.lever_graphs_n2591, 0.002); end
+  def test_lever_graphs_o2591; assert_in_delta(0.035584200876563866, worksheet.lever_graphs_o2591, 0.002); end
+  def test_lever_graphs_p2591; assert_in_delta(0.03679044497407451, worksheet.lever_graphs_p2591, 0.002); end
+  def test_lever_graphs_q2591; assert_in_delta(0.03799668907158515, worksheet.lever_graphs_q2591, 0.002); end
+  def test_lever_graphs_r2591; assert_in_delta(0.03920293316909579, worksheet.lever_graphs_r2591, 0.002); end
+  def test_lever_graphs_b2592; assert_in_epsilon(3.0, worksheet.lever_graphs_b2592, 0.002); end
+  def test_lever_graphs_j2592; assert_in_delta(0.03015610243776599, worksheet.lever_graphs_j2592, 0.002); end
+  def test_lever_graphs_k2592; assert_in_delta(0.031060785510898973, worksheet.lever_graphs_k2592, 0.002); end
+  def test_lever_graphs_l2592; assert_in_delta(0.03347327370592025, worksheet.lever_graphs_l2592, 0.002); end
+  def test_lever_graphs_m2592; assert_in_delta(0.035885761900941525, worksheet.lever_graphs_m2592, 0.002); end
+  def test_lever_graphs_n2592; assert_in_delta(0.038298250095962806, worksheet.lever_graphs_n2592, 0.002); end
+  def test_lever_graphs_o2592; assert_in_delta(0.041012299315361746, worksheet.lever_graphs_o2592, 0.002); end
+  def test_lever_graphs_p2592; assert_in_delta(0.04342478751038303, worksheet.lever_graphs_p2592, 0.002); end
+  def test_lever_graphs_q2592; assert_in_delta(0.04583727570540431, worksheet.lever_graphs_q2592, 0.002); end
+  def test_lever_graphs_r2592; assert_in_delta(0.04824976390042559, worksheet.lever_graphs_r2592, 0.002); end
+  def test_lever_graphs_b2593; assert_in_epsilon(4.0, worksheet.lever_graphs_b2593, 0.002); end
+  def test_lever_graphs_j2593; assert_in_delta(0.03015610243776599, worksheet.lever_graphs_j2593, 0.002); end
+  def test_lever_graphs_k2593; assert_in_delta(0.031060785510898973, worksheet.lever_graphs_k2593, 0.002); end
+  def test_lever_graphs_l2593; assert_in_delta(0.03618732292531919, worksheet.lever_graphs_l2593, 0.002); end
+  def test_lever_graphs_m2593; assert_in_delta(0.04131386033973941, worksheet.lever_graphs_m2593, 0.002); end
+  def test_lever_graphs_n2593; assert_in_delta(0.04613883672978197, worksheet.lever_graphs_n2593, 0.002); end
+  def test_lever_graphs_o2593; assert_in_delta(0.05126537414420218, worksheet.lever_graphs_o2593, 0.002); end
+  def test_lever_graphs_p2593; assert_in_delta(0.05639191155862241, worksheet.lever_graphs_p2593, 0.002); end
+  def test_lever_graphs_q2593; assert_in_delta(0.06121688794866497, worksheet.lever_graphs_q2593, 0.002); end
+  def test_lever_graphs_r2593; assert_in_delta(0.06634342536308518, worksheet.lever_graphs_r2593, 0.002); end
+  def test_lever_graphs_c2658; assert_equal("1975", worksheet.lever_graphs_c2658); end
+  def test_lever_graphs_d2658; assert_equal("1980", worksheet.lever_graphs_d2658); end
+  def test_lever_graphs_e2658; assert_equal("1985", worksheet.lever_graphs_e2658); end
+  def test_lever_graphs_f2658; assert_equal("1990", worksheet.lever_graphs_f2658); end
+  def test_lever_graphs_g2658; assert_equal("1995", worksheet.lever_graphs_g2658); end
+  def test_lever_graphs_h2658; assert_equal("2000", worksheet.lever_graphs_h2658); end
+  def test_lever_graphs_i2658; assert_equal("2005", worksheet.lever_graphs_i2658); end
+  def test_lever_graphs_j2658; assert_equal("2011", worksheet.lever_graphs_j2658); end
+  def test_lever_graphs_k2658; assert_equal("2015", worksheet.lever_graphs_k2658); end
+  def test_lever_graphs_l2658; assert_equal("2020", worksheet.lever_graphs_l2658); end
+  def test_lever_graphs_m2658; assert_equal("2025", worksheet.lever_graphs_m2658); end
+  def test_lever_graphs_n2658; assert_equal("2030", worksheet.lever_graphs_n2658); end
+  def test_lever_graphs_o2658; assert_equal("2035", worksheet.lever_graphs_o2658); end
+  def test_lever_graphs_p2658; assert_equal("2040", worksheet.lever_graphs_p2658); end
+  def test_lever_graphs_q2658; assert_equal("2045", worksheet.lever_graphs_q2658); end
+  def test_lever_graphs_r2658; assert_equal("2050", worksheet.lever_graphs_r2658); end
+  def test_lever_graphs_b2659; assert_equal("Historic data", worksheet.lever_graphs_b2659); end
+  def test_lever_graphs_b2660; assert_in_delta(1.0, worksheet.lever_graphs_b2660, 0.002); end
+  def test_lever_graphs_j2660; assert_in_delta(0.05, worksheet.lever_graphs_j2660, 0.002); end
+  def test_lever_graphs_k2660; assert_in_delta(0.05051282051282052, worksheet.lever_graphs_k2660, 0.002); end
+  def test_lever_graphs_l2660; assert_in_delta(0.0507967032967033, worksheet.lever_graphs_l2660, 0.002); end
+  def test_lever_graphs_m2660; assert_in_delta(0.05108058608058609, worksheet.lever_graphs_m2660, 0.002); end
+  def test_lever_graphs_n2660; assert_in_delta(0.05136446886446887, worksheet.lever_graphs_n2660, 0.002); end
+  def test_lever_graphs_o2660; assert_in_delta(0.05164835164835165, worksheet.lever_graphs_o2660, 0.002); end
+  def test_lever_graphs_p2660; assert_in_delta(0.051932234432234436, worksheet.lever_graphs_p2660, 0.002); end
+  def test_lever_graphs_q2660; assert_in_delta(0.052216117216117214, worksheet.lever_graphs_q2660, 0.002); end
+  def test_lever_graphs_r2660; assert_in_delta(0.052500000000000005, worksheet.lever_graphs_r2660, 0.002); end
+  def test_lever_graphs_b2661; assert_in_epsilon(2.0, worksheet.lever_graphs_b2661, 0.002); end
+  def test_lever_graphs_j2661; assert_in_delta(0.05, worksheet.lever_graphs_j2661, 0.002); end
+  def test_lever_graphs_k2661; assert_in_delta(0.05051282051282052, worksheet.lever_graphs_k2661, 0.002); end
+  def test_lever_graphs_l2661; assert_in_delta(0.05115384615384616, worksheet.lever_graphs_l2661, 0.002); end
+  def test_lever_graphs_m2661; assert_in_delta(0.05179487179487181, worksheet.lever_graphs_m2661, 0.002); end
+  def test_lever_graphs_n2661; assert_in_delta(0.05243589743589744, worksheet.lever_graphs_n2661, 0.002); end
+  def test_lever_graphs_o2661; assert_in_delta(0.05307692307692308, worksheet.lever_graphs_o2661, 0.002); end
+  def test_lever_graphs_p2661; assert_in_delta(0.05371794871794873, worksheet.lever_graphs_p2661, 0.002); end
+  def test_lever_graphs_q2661; assert_in_delta(0.05435897435897436, worksheet.lever_graphs_q2661, 0.002); end
+  def test_lever_graphs_r2661; assert_in_delta(0.05500000000000001, worksheet.lever_graphs_r2661, 0.002); end
+  def test_lever_graphs_b2662; assert_in_epsilon(3.0, worksheet.lever_graphs_b2662, 0.002); end
+  def test_lever_graphs_j2662; assert_in_delta(0.05, worksheet.lever_graphs_j2662, 0.002); end
+  def test_lever_graphs_k2662; assert_in_delta(0.05051282051282052, worksheet.lever_graphs_k2662, 0.002); end
+  def test_lever_graphs_l2662; assert_in_delta(0.051510989010989015, worksheet.lever_graphs_l2662, 0.002); end
+  def test_lever_graphs_m2662; assert_in_delta(0.05250915750915752, worksheet.lever_graphs_m2662, 0.002); end
+  def test_lever_graphs_n2662; assert_in_delta(0.05350732600732601, worksheet.lever_graphs_n2662, 0.002); end
+  def test_lever_graphs_o2662; assert_in_delta(0.05450549450549451, worksheet.lever_graphs_o2662, 0.002); end
+  def test_lever_graphs_p2662; assert_in_delta(0.05550366300366301, worksheet.lever_graphs_p2662, 0.002); end
+  def test_lever_graphs_q2662; assert_in_delta(0.056501831501831495, worksheet.lever_graphs_q2662, 0.002); end
+  def test_lever_graphs_r2662; assert_in_delta(0.057499999999999996, worksheet.lever_graphs_r2662, 0.002); end
+  def test_lever_graphs_b2663; assert_in_epsilon(4.0, worksheet.lever_graphs_b2663, 0.002); end
+  def test_lever_graphs_j2663; assert_in_delta(0.05, worksheet.lever_graphs_j2663, 0.002); end
+  def test_lever_graphs_k2663; assert_in_delta(0.05051282051282052, worksheet.lever_graphs_k2663, 0.002); end
+  def test_lever_graphs_l2663; assert_in_delta(0.05186813186813187, worksheet.lever_graphs_l2663, 0.002); end
+  def test_lever_graphs_m2663; assert_in_delta(0.05322344322344323, worksheet.lever_graphs_m2663, 0.002); end
+  def test_lever_graphs_n2663; assert_in_delta(0.05457875457875458, worksheet.lever_graphs_n2663, 0.002); end
+  def test_lever_graphs_o2663; assert_in_delta(0.05593406593406593, worksheet.lever_graphs_o2663, 0.002); end
+  def test_lever_graphs_p2663; assert_in_delta(0.05728937728937729, worksheet.lever_graphs_p2663, 0.002); end
+  def test_lever_graphs_q2663; assert_in_delta(0.058644688644688636, worksheet.lever_graphs_q2663, 0.002); end
+  def test_lever_graphs_r2663; assert_in_delta(0.06, worksheet.lever_graphs_r2663, 0.002); end
+  def test_lever_graphs_c2668; assert_equal("1975", worksheet.lever_graphs_c2668); end
+  def test_lever_graphs_d2668; assert_equal("1980", worksheet.lever_graphs_d2668); end
+  def test_lever_graphs_e2668; assert_equal("1985", worksheet.lever_graphs_e2668); end
+  def test_lever_graphs_f2668; assert_equal("1990", worksheet.lever_graphs_f2668); end
+  def test_lever_graphs_g2668; assert_equal("1995", worksheet.lever_graphs_g2668); end
+  def test_lever_graphs_h2668; assert_equal("2000", worksheet.lever_graphs_h2668); end
+  def test_lever_graphs_i2668; assert_equal("2005", worksheet.lever_graphs_i2668); end
+  def test_lever_graphs_j2668; assert_equal("2011", worksheet.lever_graphs_j2668); end
+  def test_lever_graphs_k2668; assert_equal("2015", worksheet.lever_graphs_k2668); end
+  def test_lever_graphs_l2668; assert_equal("2020", worksheet.lever_graphs_l2668); end
+  def test_lever_graphs_m2668; assert_equal("2025", worksheet.lever_graphs_m2668); end
+  def test_lever_graphs_n2668; assert_equal("2030", worksheet.lever_graphs_n2668); end
+  def test_lever_graphs_o2668; assert_equal("2035", worksheet.lever_graphs_o2668); end
+  def test_lever_graphs_p2668; assert_equal("2040", worksheet.lever_graphs_p2668); end
+  def test_lever_graphs_q2668; assert_equal("2045", worksheet.lever_graphs_q2668); end
+  def test_lever_graphs_r2668; assert_equal("2050", worksheet.lever_graphs_r2668); end
+  def test_lever_graphs_b2669; assert_equal("Historic data", worksheet.lever_graphs_b2669); end
+  def test_lever_graphs_b2670; assert_in_delta(1.0, worksheet.lever_graphs_b2670, 0.002); end
+  def test_lever_graphs_j2670; assert_in_delta(0.078, worksheet.lever_graphs_j2670, 0.002); end
+  def test_lever_graphs_k2670; assert_in_delta(0.07902564102564104, worksheet.lever_graphs_k2670, 0.002); end
+  def test_lever_graphs_l2670; assert_in_delta(0.07973626373626375, worksheet.lever_graphs_l2670, 0.002); end
+  def test_lever_graphs_m2670; assert_in_delta(0.08044688644688647, worksheet.lever_graphs_m2670, 0.002); end
+  def test_lever_graphs_n2670; assert_in_delta(0.08115750915750916, worksheet.lever_graphs_n2670, 0.002); end
+  def test_lever_graphs_o2670; assert_in_delta(0.08186813186813188, worksheet.lever_graphs_o2670, 0.002); end
+  def test_lever_graphs_p2670; assert_in_delta(0.08257875457875459, worksheet.lever_graphs_p2670, 0.002); end
+  def test_lever_graphs_q2670; assert_in_delta(0.08328937728937728, worksheet.lever_graphs_q2670, 0.002); end
+  def test_lever_graphs_r2670; assert_in_delta(0.084, worksheet.lever_graphs_r2670, 0.002); end
+  def test_lever_graphs_b2671; assert_in_epsilon(2.0, worksheet.lever_graphs_b2671, 0.002); end
+  def test_lever_graphs_j2671; assert_in_delta(0.078, worksheet.lever_graphs_j2671, 0.002); end
+  def test_lever_graphs_k2671; assert_in_delta(0.07902564102564104, worksheet.lever_graphs_k2671, 0.002); end
+  def test_lever_graphs_l2671; assert_in_delta(0.08030769230769232, worksheet.lever_graphs_l2671, 0.002); end
+  def test_lever_graphs_m2671; assert_in_delta(0.08158974358974361, worksheet.lever_graphs_m2671, 0.002); end
+  def test_lever_graphs_n2671; assert_in_delta(0.08287179487179488, worksheet.lever_graphs_n2671, 0.002); end
+  def test_lever_graphs_o2671; assert_in_delta(0.08415384615384616, worksheet.lever_graphs_o2671, 0.002); end
+  def test_lever_graphs_p2671; assert_in_delta(0.08543589743589744, worksheet.lever_graphs_p2671, 0.002); end
+  def test_lever_graphs_q2671; assert_in_delta(0.08671794871794872, worksheet.lever_graphs_q2671, 0.002); end
+  def test_lever_graphs_r2671; assert_in_delta(0.08800000000000001, worksheet.lever_graphs_r2671, 0.002); end
+  def test_lever_graphs_b2672; assert_in_epsilon(3.0, worksheet.lever_graphs_b2672, 0.002); end
+  def test_lever_graphs_j2672; assert_in_delta(0.078, worksheet.lever_graphs_j2672, 0.002); end
+  def test_lever_graphs_k2672; assert_in_delta(0.07902564102564104, worksheet.lever_graphs_k2672, 0.002); end
+  def test_lever_graphs_l2672; assert_in_delta(0.08087912087912089, worksheet.lever_graphs_l2672, 0.002); end
+  def test_lever_graphs_m2672; assert_in_delta(0.08273260073260075, worksheet.lever_graphs_m2672, 0.002); end
+  def test_lever_graphs_n2672; assert_in_delta(0.08458608058608058, worksheet.lever_graphs_n2672, 0.002); end
+  def test_lever_graphs_o2672; assert_in_delta(0.08643956043956044, worksheet.lever_graphs_o2672, 0.002); end
+  def test_lever_graphs_p2672; assert_in_delta(0.08829304029304029, worksheet.lever_graphs_p2672, 0.002); end
+  def test_lever_graphs_q2672; assert_in_delta(0.09014652014652014, worksheet.lever_graphs_q2672, 0.002); end
+  def test_lever_graphs_r2672; assert_in_delta(0.092, worksheet.lever_graphs_r2672, 0.002); end
+  def test_lever_graphs_b2673; assert_in_epsilon(4.0, worksheet.lever_graphs_b2673, 0.002); end
+  def test_lever_graphs_j2673; assert_in_delta(0.078, worksheet.lever_graphs_j2673, 0.002); end
+  def test_lever_graphs_k2673; assert_in_delta(0.07902564102564104, worksheet.lever_graphs_k2673, 0.002); end
+  def test_lever_graphs_l2673; assert_in_delta(0.08145054945054947, worksheet.lever_graphs_l2673, 0.002); end
+  def test_lever_graphs_m2673; assert_in_delta(0.08387545787545789, worksheet.lever_graphs_m2673, 0.002); end
+  def test_lever_graphs_n2673; assert_in_delta(0.0863003663003663, worksheet.lever_graphs_n2673, 0.002); end
+  def test_lever_graphs_o2673; assert_in_delta(0.08872527472527472, worksheet.lever_graphs_o2673, 0.002); end
+  def test_lever_graphs_p2673; assert_in_delta(0.09115018315018315, worksheet.lever_graphs_p2673, 0.002); end
+  def test_lever_graphs_q2673; assert_in_delta(0.09357509157509157, worksheet.lever_graphs_q2673, 0.002); end
+  def test_lever_graphs_r2673; assert_in_delta(0.096, worksheet.lever_graphs_r2673, 0.002); end
+  def test_lever_graphs_c2733; assert_equal("1975", worksheet.lever_graphs_c2733); end
+  def test_lever_graphs_d2733; assert_equal("1980", worksheet.lever_graphs_d2733); end
+  def test_lever_graphs_e2733; assert_equal("1985", worksheet.lever_graphs_e2733); end
+  def test_lever_graphs_f2733; assert_equal("1990", worksheet.lever_graphs_f2733); end
+  def test_lever_graphs_g2733; assert_equal("1995", worksheet.lever_graphs_g2733); end
+  def test_lever_graphs_h2733; assert_equal("2000", worksheet.lever_graphs_h2733); end
+  def test_lever_graphs_i2733; assert_equal("2005", worksheet.lever_graphs_i2733); end
+  def test_lever_graphs_j2733; assert_equal("2011", worksheet.lever_graphs_j2733); end
+  def test_lever_graphs_k2733; assert_equal("2015", worksheet.lever_graphs_k2733); end
+  def test_lever_graphs_l2733; assert_equal("2020", worksheet.lever_graphs_l2733); end
+  def test_lever_graphs_m2733; assert_equal("2025", worksheet.lever_graphs_m2733); end
+  def test_lever_graphs_n2733; assert_equal("2030", worksheet.lever_graphs_n2733); end
+  def test_lever_graphs_o2733; assert_equal("2035", worksheet.lever_graphs_o2733); end
+  def test_lever_graphs_p2733; assert_equal("2040", worksheet.lever_graphs_p2733); end
+  def test_lever_graphs_q2733; assert_equal("2045", worksheet.lever_graphs_q2733); end
+  def test_lever_graphs_r2733; assert_equal("2050", worksheet.lever_graphs_r2733); end
+  def test_lever_graphs_b2734; assert_equal("Historic data", worksheet.lever_graphs_b2734); end
+  def test_lever_graphs_b2735; assert_in_delta(1.0, worksheet.lever_graphs_b2735, 0.002); end
+  def test_lever_graphs_j2735; assert_in_delta(1.0, worksheet.lever_graphs_j2735, 0.002); end
+  def test_lever_graphs_k2735; assert_in_delta(1.0, worksheet.lever_graphs_k2735, 0.002); end
+  def test_lever_graphs_l2735; assert_in_delta(1.0, worksheet.lever_graphs_l2735, 0.002); end
+  def test_lever_graphs_m2735; assert_in_delta(1.0, worksheet.lever_graphs_m2735, 0.002); end
+  def test_lever_graphs_n2735; assert_in_delta(1.0, worksheet.lever_graphs_n2735, 0.002); end
+  def test_lever_graphs_o2735; assert_in_delta(1.0, worksheet.lever_graphs_o2735, 0.002); end
+  def test_lever_graphs_p2735; assert_in_delta(1.0, worksheet.lever_graphs_p2735, 0.002); end
+  def test_lever_graphs_q2735; assert_in_delta(1.0, worksheet.lever_graphs_q2735, 0.002); end
+  def test_lever_graphs_r2735; assert_in_delta(1.0, worksheet.lever_graphs_r2735, 0.002); end
+  def test_lever_graphs_b2736; assert_in_epsilon(2.0, worksheet.lever_graphs_b2736, 0.002); end
+  def test_lever_graphs_j2736; assert_in_delta(1.0, worksheet.lever_graphs_j2736, 0.002); end
+  def test_lever_graphs_k2736; assert_in_delta(1.0, worksheet.lever_graphs_k2736, 0.002); end
+  def test_lever_graphs_l2736; assert_in_delta(1.0, worksheet.lever_graphs_l2736, 0.002); end
+  def test_lever_graphs_m2736; assert_in_delta(1.0, worksheet.lever_graphs_m2736, 0.002); end
+  def test_lever_graphs_n2736; assert_in_delta(1.0, worksheet.lever_graphs_n2736, 0.002); end
+  def test_lever_graphs_o2736; assert_in_delta(1.0, worksheet.lever_graphs_o2736, 0.002); end
+  def test_lever_graphs_p2736; assert_in_delta(1.0, worksheet.lever_graphs_p2736, 0.002); end
+  def test_lever_graphs_q2736; assert_in_delta(1.0, worksheet.lever_graphs_q2736, 0.002); end
+  def test_lever_graphs_r2736; assert_in_delta(1.0, worksheet.lever_graphs_r2736, 0.002); end
+  def test_lever_graphs_b2737; assert_in_epsilon(3.0, worksheet.lever_graphs_b2737, 0.002); end
+  def test_lever_graphs_j2737; assert_in_delta(1.0, worksheet.lever_graphs_j2737, 0.002); end
+  def test_lever_graphs_k2737; assert_in_delta(1.0, worksheet.lever_graphs_k2737, 0.002); end
+  def test_lever_graphs_l2737; assert_in_delta(1.0, worksheet.lever_graphs_l2737, 0.002); end
+  def test_lever_graphs_m2737; assert_in_delta(1.0, worksheet.lever_graphs_m2737, 0.002); end
+  def test_lever_graphs_n2737; assert_in_delta(1.0, worksheet.lever_graphs_n2737, 0.002); end
+  def test_lever_graphs_o2737; assert_in_delta(1.0, worksheet.lever_graphs_o2737, 0.002); end
+  def test_lever_graphs_p2737; assert_in_delta(1.0, worksheet.lever_graphs_p2737, 0.002); end
+  def test_lever_graphs_q2737; assert_in_delta(1.0, worksheet.lever_graphs_q2737, 0.002); end
+  def test_lever_graphs_r2737; assert_in_delta(1.0, worksheet.lever_graphs_r2737, 0.002); end
+  def test_lever_graphs_b2738; assert_in_epsilon(4.0, worksheet.lever_graphs_b2738, 0.002); end
+  def test_lever_graphs_j2738; assert_in_delta(1.0, worksheet.lever_graphs_j2738, 0.002); end
+  def test_lever_graphs_k2738; assert_in_delta(1.0, worksheet.lever_graphs_k2738, 0.002); end
+  def test_lever_graphs_l2738; assert_in_delta(1.0, worksheet.lever_graphs_l2738, 0.002); end
+  def test_lever_graphs_m2738; assert_in_delta(1.0, worksheet.lever_graphs_m2738, 0.002); end
+  def test_lever_graphs_n2738; assert_in_delta(1.0, worksheet.lever_graphs_n2738, 0.002); end
+  def test_lever_graphs_o2738; assert_in_delta(1.0, worksheet.lever_graphs_o2738, 0.002); end
+  def test_lever_graphs_p2738; assert_in_delta(1.0, worksheet.lever_graphs_p2738, 0.002); end
+  def test_lever_graphs_q2738; assert_in_delta(1.0, worksheet.lever_graphs_q2738, 0.002); end
+  def test_lever_graphs_r2738; assert_in_delta(1.0, worksheet.lever_graphs_r2738, 0.002); end
+  def test_lever_graphs_d2744; assert_equal("Title", worksheet.lever_graphs_d2744); end
+  def test_lever_graphs_e2744; assert_equal("Food crops", worksheet.lever_graphs_e2744); end
+  def test_lever_graphs_f2744; assert_equal("Cows and other bovines ", worksheet.lever_graphs_f2744); end
+  def test_lever_graphs_g2744; assert_equal("Chickens and other poultry", worksheet.lever_graphs_g2744); end
+  def test_lever_graphs_h2744; assert_equal("Pigs", worksheet.lever_graphs_h2744); end
+  def test_lever_graphs_i2744; assert_equal("Sheep and goats", worksheet.lever_graphs_i2744); end
+  def test_lever_graphs_j2744; assert_equal("Other animals", worksheet.lever_graphs_j2744); end
+  def test_lever_graphs_k2744; assert_equal("Eggs", worksheet.lever_graphs_k2744); end
+  def test_lever_graphs_l2744; assert_equal("Milk products", worksheet.lever_graphs_l2744); end
+  def test_lever_graphs_d2745; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2745, 0.002); end
+  def test_lever_graphs_e2745; assert_in_delta(0.25, worksheet.lever_graphs_e2745, 0.002); end
+  def test_lever_graphs_f2745; assert_in_delta(0.1, worksheet.lever_graphs_f2745, 0.002); end
+  def test_lever_graphs_g2745; assert_in_delta(0.1, worksheet.lever_graphs_g2745, 0.002); end
+  def test_lever_graphs_h2745; assert_in_delta(0.1, worksheet.lever_graphs_h2745, 0.002); end
+  def test_lever_graphs_i2745; assert_in_delta(0.1, worksheet.lever_graphs_i2745, 0.002); end
+  def test_lever_graphs_j2745; assert_in_delta(0.1, worksheet.lever_graphs_j2745, 0.002); end
+  def test_lever_graphs_k2745; assert_in_delta(0.1, worksheet.lever_graphs_k2745, 0.002); end
+  def test_lever_graphs_l2745; assert_in_delta(0.1, worksheet.lever_graphs_l2745, 0.002); end
+  def test_lever_graphs_d2746; assert_equal("2050: Level 1", worksheet.lever_graphs_d2746); end
+  def test_lever_graphs_e2746; assert_in_delta(0.25, worksheet.lever_graphs_e2746, 0.002); end
+  def test_lever_graphs_f2746; assert_in_delta(0.1, worksheet.lever_graphs_f2746, 0.002); end
+  def test_lever_graphs_g2746; assert_in_delta(0.1, worksheet.lever_graphs_g2746, 0.002); end
+  def test_lever_graphs_h2746; assert_in_delta(0.1, worksheet.lever_graphs_h2746, 0.002); end
+  def test_lever_graphs_i2746; assert_in_delta(0.1, worksheet.lever_graphs_i2746, 0.002); end
+  def test_lever_graphs_j2746; assert_in_delta(0.1, worksheet.lever_graphs_j2746, 0.002); end
+  def test_lever_graphs_k2746; assert_in_delta(0.1, worksheet.lever_graphs_k2746, 0.002); end
+  def test_lever_graphs_l2746; assert_in_delta(0.1, worksheet.lever_graphs_l2746, 0.002); end
+  def test_lever_graphs_d2747; assert_equal("2050: Level 2", worksheet.lever_graphs_d2747); end
+  def test_lever_graphs_e2747; assert_in_delta(0.2, worksheet.lever_graphs_e2747, 0.002); end
+  def test_lever_graphs_f2747; assert_in_delta(0.08, worksheet.lever_graphs_f2747, 0.002); end
+  def test_lever_graphs_g2747; assert_in_delta(0.08, worksheet.lever_graphs_g2747, 0.002); end
+  def test_lever_graphs_h2747; assert_in_delta(0.08, worksheet.lever_graphs_h2747, 0.002); end
+  def test_lever_graphs_i2747; assert_in_delta(0.08, worksheet.lever_graphs_i2747, 0.002); end
+  def test_lever_graphs_j2747; assert_in_delta(0.08, worksheet.lever_graphs_j2747, 0.002); end
+  def test_lever_graphs_k2747; assert_in_delta(0.08, worksheet.lever_graphs_k2747, 0.002); end
+  def test_lever_graphs_l2747; assert_in_delta(0.08, worksheet.lever_graphs_l2747, 0.002); end
+  def test_lever_graphs_d2748; assert_equal("2050: Level 3", worksheet.lever_graphs_d2748); end
+  def test_lever_graphs_e2748; assert_in_delta(0.15, worksheet.lever_graphs_e2748, 0.002); end
+  def test_lever_graphs_f2748; assert_in_delta(0.06, worksheet.lever_graphs_f2748, 0.002); end
+  def test_lever_graphs_g2748; assert_in_delta(0.06, worksheet.lever_graphs_g2748, 0.002); end
+  def test_lever_graphs_h2748; assert_in_delta(0.06, worksheet.lever_graphs_h2748, 0.002); end
+  def test_lever_graphs_i2748; assert_in_delta(0.06, worksheet.lever_graphs_i2748, 0.002); end
+  def test_lever_graphs_j2748; assert_in_delta(0.06, worksheet.lever_graphs_j2748, 0.002); end
+  def test_lever_graphs_k2748; assert_in_delta(0.06, worksheet.lever_graphs_k2748, 0.002); end
+  def test_lever_graphs_l2748; assert_in_delta(0.06, worksheet.lever_graphs_l2748, 0.002); end
+  def test_lever_graphs_d2749; assert_equal("2050: Level 4", worksheet.lever_graphs_d2749); end
+  def test_lever_graphs_e2749; assert_in_delta(0.1, worksheet.lever_graphs_e2749, 0.002); end
+  def test_lever_graphs_f2749; assert_in_delta(0.05, worksheet.lever_graphs_f2749, 0.002); end
+  def test_lever_graphs_g2749; assert_in_delta(0.05, worksheet.lever_graphs_g2749, 0.002); end
+  def test_lever_graphs_h2749; assert_in_delta(0.05, worksheet.lever_graphs_h2749, 0.002); end
+  def test_lever_graphs_i2749; assert_in_delta(0.05, worksheet.lever_graphs_i2749, 0.002); end
+  def test_lever_graphs_j2749; assert_in_delta(0.05, worksheet.lever_graphs_j2749, 0.002); end
+  def test_lever_graphs_k2749; assert_in_delta(0.05, worksheet.lever_graphs_k2749, 0.002); end
+  def test_lever_graphs_l2749; assert_in_delta(0.05, worksheet.lever_graphs_l2749, 0.002); end
+  def test_lever_graphs_c1310; assert_equal("1975", worksheet.lever_graphs_c1310); end
+  def test_lever_graphs_d1310; assert_equal("1980", worksheet.lever_graphs_d1310); end
+  def test_lever_graphs_e1310; assert_equal("1985", worksheet.lever_graphs_e1310); end
+  def test_lever_graphs_f1310; assert_equal("1990", worksheet.lever_graphs_f1310); end
+  def test_lever_graphs_g1310; assert_equal("1995", worksheet.lever_graphs_g1310); end
+  def test_lever_graphs_h1310; assert_equal("2000", worksheet.lever_graphs_h1310); end
+  def test_lever_graphs_i1310; assert_equal("2005", worksheet.lever_graphs_i1310); end
+  def test_lever_graphs_j1310; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1310, 0.002); end
+  def test_lever_graphs_k1310; assert_equal("2015", worksheet.lever_graphs_k1310); end
+  def test_lever_graphs_l1310; assert_equal("2020", worksheet.lever_graphs_l1310); end
+  def test_lever_graphs_m1310; assert_equal("2025", worksheet.lever_graphs_m1310); end
+  def test_lever_graphs_n1310; assert_equal("2030", worksheet.lever_graphs_n1310); end
+  def test_lever_graphs_o1310; assert_equal("2035", worksheet.lever_graphs_o1310); end
+  def test_lever_graphs_p1310; assert_equal("2040", worksheet.lever_graphs_p1310); end
+  def test_lever_graphs_q1310; assert_equal("2045", worksheet.lever_graphs_q1310); end
+  def test_lever_graphs_r1310; assert_equal("2050", worksheet.lever_graphs_r1310); end
+  def test_lever_graphs_b1311; assert_equal("Historic data", worksheet.lever_graphs_b1311); end
+  def test_lever_graphs_b1312; assert_in_delta(1.0, worksheet.lever_graphs_b1312, 0.002); end
+  def test_lever_graphs_j1312; assert_in_epsilon(5702.542028582494, worksheet.lever_graphs_j1312, 0.002); end
+  def test_lever_graphs_k1312; assert_in_epsilon(6305.331553554374, worksheet.lever_graphs_k1312, 0.002); end
+  def test_lever_graphs_l1312; assert_in_epsilon(6971.839190483098, worksheet.lever_graphs_l1312, 0.002); end
+  def test_lever_graphs_m1312; assert_in_epsilon(7708.800288314111, worksheet.lever_graphs_m1312, 0.002); end
+  def test_lever_graphs_n1312; assert_in_epsilon(8523.662158793131, worksheet.lever_graphs_n1312, 0.002); end
+  def test_lever_graphs_o1312; assert_in_epsilon(9424.659334783586, worksheet.lever_graphs_o1312, 0.002); end
+  def test_lever_graphs_p1312; assert_in_epsilon(10420.896783795104, worksheet.lever_graphs_p1312, 0.002); end
+  def test_lever_graphs_q1312; assert_in_epsilon(11522.441917631899, worksheet.lever_graphs_q1312, 0.002); end
+  def test_lever_graphs_r1312; assert_in_epsilon(12740.426327958448, worksheet.lever_graphs_r1312, 0.002); end
+  def test_lever_graphs_b1313; assert_in_epsilon(2.0, worksheet.lever_graphs_b1313, 0.002); end
+  def test_lever_graphs_j1313; assert_in_epsilon(5702.542028582494, worksheet.lever_graphs_j1313, 0.002); end
+  def test_lever_graphs_k1313; assert_in_epsilon(6188.785202267425, worksheet.lever_graphs_k1313, 0.002); end
+  def test_lever_graphs_l1313; assert_in_epsilon(6716.489258269425, worksheet.lever_graphs_l1313, 0.002); end
+  def test_lever_graphs_m1313; assert_in_epsilon(7289.18947452254, worksheet.lever_graphs_m1313, 0.002); end
+  def test_lever_graphs_n1313; assert_in_epsilon(7910.722574308156, worksheet.lever_graphs_n1313, 0.002); end
+  def test_lever_graphs_o1313; assert_in_epsilon(8585.252429834496, worksheet.lever_graphs_o1313, 0.002); end
+  def test_lever_graphs_p1313; assert_in_epsilon(9317.297957503613, worksheet.lever_graphs_p1313, 0.002); end
+  def test_lever_graphs_q1313; assert_in_epsilon(10111.763391746252, worksheet.lever_graphs_q1313, 0.002); end
+  def test_lever_graphs_r1313; assert_in_epsilon(10973.971140239775, worksheet.lever_graphs_r1313, 0.002); end
+  def test_lever_graphs_b1314; assert_in_epsilon(3.0, worksheet.lever_graphs_b1314, 0.002); end
+  def test_lever_graphs_j1314; assert_in_epsilon(5702.542028582494, worksheet.lever_graphs_j1314, 0.002); end
+  def test_lever_graphs_k1314; assert_in_epsilon(6116.069450415072, worksheet.lever_graphs_k1314, 0.002); end
+  def test_lever_graphs_l1314; assert_in_epsilon(6559.584363396402, worksheet.lever_graphs_l1314, 0.002); end
+  def test_lever_graphs_m1314; assert_in_epsilon(7035.261350342325, worksheet.lever_graphs_m1314, 0.002); end
+  def test_lever_graphs_n1314; assert_in_epsilon(7545.432686834626, worksheet.lever_graphs_n1314, 0.002); end
+  def test_lever_graphs_o1314; assert_in_epsilon(8092.59977652175, worksheet.lever_graphs_o1314, 0.002); end
+  def test_lever_graphs_p1314; assert_in_epsilon(8679.445415665561, worksheet.lever_graphs_p1314, 0.002); end
+  def test_lever_graphs_q1314; assert_in_epsilon(9308.846947068032, worksheet.lever_graphs_q1314, 0.002); end
+  def test_lever_graphs_r1314; assert_in_epsilon(9983.890367872418, worksheet.lever_graphs_r1314, 0.002); end
+  def test_lever_graphs_b1315; assert_in_epsilon(4.0, worksheet.lever_graphs_b1315, 0.002); end
+  def test_lever_graphs_j1315; assert_in_epsilon(5702.542028582494, worksheet.lever_graphs_j1315, 0.002); end
+  def test_lever_graphs_k1315; assert_in_epsilon(5861.0964670560725, worksheet.lever_graphs_k1315, 0.002); end
+  def test_lever_graphs_l1315; assert_in_epsilon(6024.059379826494, worksheet.lever_graphs_l1315, 0.002); end
+  def test_lever_graphs_m1315; assert_in_epsilon(6191.553340855186, worksheet.lever_graphs_m1315, 0.002); end
+  def test_lever_graphs_n1315; assert_in_epsilon(6363.704332170638, worksheet.lever_graphs_n1315, 0.002); end
+  def test_lever_graphs_o1315; assert_in_epsilon(6540.64183862686, worksheet.lever_graphs_o1315, 0.002); end
+  def test_lever_graphs_p1315; assert_in_epsilon(6722.498945296542, worksheet.lever_graphs_p1315, 0.002); end
+  def test_lever_graphs_q1315; assert_in_epsilon(6909.412437572138, worksheet.lever_graphs_q1315, 0.002); end
+  def test_lever_graphs_r1315; assert_in_epsilon(7101.522904050177, worksheet.lever_graphs_r1315, 0.002); end
+  def test_lever_graphs_c1320; assert_equal("1975", worksheet.lever_graphs_c1320); end
+  def test_lever_graphs_d1320; assert_equal("1980", worksheet.lever_graphs_d1320); end
+  def test_lever_graphs_e1320; assert_equal("1985", worksheet.lever_graphs_e1320); end
+  def test_lever_graphs_f1320; assert_equal("1990", worksheet.lever_graphs_f1320); end
+  def test_lever_graphs_g1320; assert_equal("1995", worksheet.lever_graphs_g1320); end
+  def test_lever_graphs_h1320; assert_equal("2000", worksheet.lever_graphs_h1320); end
+  def test_lever_graphs_i1320; assert_equal("2005", worksheet.lever_graphs_i1320); end
+  def test_lever_graphs_j1320; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1320, 0.002); end
+  def test_lever_graphs_k1320; assert_equal("2015", worksheet.lever_graphs_k1320); end
+  def test_lever_graphs_l1320; assert_equal("2020", worksheet.lever_graphs_l1320); end
+  def test_lever_graphs_m1320; assert_equal("2025", worksheet.lever_graphs_m1320); end
+  def test_lever_graphs_n1320; assert_equal("2030", worksheet.lever_graphs_n1320); end
+  def test_lever_graphs_o1320; assert_equal("2035", worksheet.lever_graphs_o1320); end
+  def test_lever_graphs_p1320; assert_equal("2040", worksheet.lever_graphs_p1320); end
+  def test_lever_graphs_q1320; assert_equal("2045", worksheet.lever_graphs_q1320); end
+  def test_lever_graphs_r1320; assert_equal("2050", worksheet.lever_graphs_r1320); end
+  def test_lever_graphs_b1321; assert_equal("Historic data", worksheet.lever_graphs_b1321); end
+  def test_lever_graphs_b1322; assert_in_delta(1.0, worksheet.lever_graphs_b1322, 0.002); end
+  def test_lever_graphs_j1322; assert_in_epsilon(106922.66303592175, worksheet.lever_graphs_j1322, 0.002); end
+  def test_lever_graphs_k1322; assert_in_epsilon(119914.69969951958, worksheet.lever_graphs_k1322, 0.002); end
+  def test_lever_graphs_l1322; assert_in_epsilon(134485.38219811275, worksheet.lever_graphs_l1322, 0.002); end
+  def test_lever_graphs_m1322; assert_in_epsilon(150826.52977735744, worksheet.lever_graphs_m1322, 0.002); end
+  def test_lever_graphs_n1322; assert_in_epsilon(169153.26939524675, worksheet.lever_graphs_n1322, 0.002); end
+  def test_lever_graphs_o1322; assert_in_epsilon(189706.8678125642, worksheet.lever_graphs_o1322, 0.002); end
+  def test_lever_graphs_p1322; assert_in_epsilon(212757.90780704233, worksheet.lever_graphs_p1322, 0.002); end
+  def test_lever_graphs_q1322; assert_in_epsilon(238609.85032526052, worksheet.lever_graphs_q1322, 0.002); end
+  def test_lever_graphs_r1322; assert_in_epsilon(267603.0294670846, worksheet.lever_graphs_r1322, 0.002); end
+  def test_lever_graphs_b1323; assert_in_epsilon(2.0, worksheet.lever_graphs_b1323, 0.002); end
+  def test_lever_graphs_j1323; assert_in_epsilon(106922.66303592175, worksheet.lever_graphs_j1323, 0.002); end
+  def test_lever_graphs_k1323; assert_in_epsilon(117128.26765919256, worksheet.lever_graphs_k1323, 0.002); end
+  def test_lever_graphs_l1323; assert_in_epsilon(128307.98163186794, worksheet.lever_graphs_l1323, 0.002); end
+  def test_lever_graphs_m1323; assert_in_epsilon(140554.78220121787, worksheet.lever_graphs_m1323, 0.002); end
+  def test_lever_graphs_n1323; assert_in_epsilon(153970.52115053352, worksheet.lever_graphs_n1323, 0.002); end
+  def test_lever_graphs_o1323; assert_in_epsilon(168666.77186001485, worksheet.lever_graphs_o1323, 0.002); end
+  def test_lever_graphs_p1323; assert_in_epsilon(184765.75721832403, worksheet.lever_graphs_p1323, 0.002); end
+  def test_lever_graphs_q1323; assert_in_epsilon(202401.36610187715, worksheet.lever_graphs_q1323, 0.002); end
+  def test_lever_graphs_r1323; assert_in_epsilon(221720.26687552955, worksheet.lever_graphs_r1323, 0.002); end
+  def test_lever_graphs_b1324; assert_in_epsilon(3.0, worksheet.lever_graphs_b1324, 0.002); end
+  def test_lever_graphs_j1324; assert_in_epsilon(106922.66303592175, worksheet.lever_graphs_j1324, 0.002); end
+  def test_lever_graphs_k1324; assert_in_epsilon(115072.63543791065, worksheet.lever_graphs_k1324, 0.002); end
+  def test_lever_graphs_l1324; assert_in_epsilon(123843.82366325465, worksheet.lever_graphs_l1324, 0.002); end
+  def test_lever_graphs_m1324; assert_in_epsilon(133283.57868201256, worksheet.lever_graphs_m1324, 0.002); end
+  def test_lever_graphs_n1324; assert_in_epsilon(143442.86070000514, worksheet.lever_graphs_n1324, 0.002); end
+  def test_lever_graphs_o1324; assert_in_epsilon(154376.51426580368, worksheet.lever_graphs_o1324, 0.002); end
+  def test_lever_graphs_p1324; assert_in_epsilon(166143.56434721488, worksheet.lever_graphs_p1324, 0.002); end
+  def test_lever_graphs_q1324; assert_in_epsilon(178807.53497562092, worksheet.lever_graphs_q1324, 0.002); end
+  def test_lever_graphs_r1324; assert_in_epsilon(192436.79217836558, worksheet.lever_graphs_r1324, 0.002); end
+  def test_lever_graphs_b1325; assert_in_epsilon(4.0, worksheet.lever_graphs_b1325, 0.002); end
+  def test_lever_graphs_j1325; assert_in_epsilon(106922.66303592175, worksheet.lever_graphs_j1325, 0.002); end
+  def test_lever_graphs_k1325; assert_in_epsilon(109404.6134350806, worksheet.lever_graphs_k1325, 0.002); end
+  def test_lever_graphs_l1325; assert_in_epsilon(111944.1762955173, worksheet.lever_graphs_l1325, 0.002); end
+  def test_lever_graphs_m1325; assert_in_epsilon(114542.68895084485, worksheet.lever_graphs_m1325, 0.002); end
+  def test_lever_graphs_n1325; assert_in_epsilon(117201.5197776338, worksheet.lever_graphs_n1325, 0.002); end
+  def test_lever_graphs_o1325; assert_in_epsilon(119922.06891599929, worksheet.lever_graphs_o1325, 0.002); end
+  def test_lever_graphs_p1325; assert_in_epsilon(122705.76900691475, worksheet.lever_graphs_p1325, 0.002); end
+  def test_lever_graphs_q1325; assert_in_epsilon(125554.0859466405, worksheet.lever_graphs_q1325, 0.002); end
+  def test_lever_graphs_r1325; assert_in_epsilon(128468.51965866463, worksheet.lever_graphs_r1325, 0.002); end
+  def test_lever_graphs_c1934; assert_equal("1975", worksheet.lever_graphs_c1934); end
+  def test_lever_graphs_d1934; assert_equal("1980", worksheet.lever_graphs_d1934); end
+  def test_lever_graphs_e1934; assert_equal("1985", worksheet.lever_graphs_e1934); end
+  def test_lever_graphs_f1934; assert_equal("1990", worksheet.lever_graphs_f1934); end
+  def test_lever_graphs_g1934; assert_equal("1995", worksheet.lever_graphs_g1934); end
+  def test_lever_graphs_h1934; assert_equal("2000", worksheet.lever_graphs_h1934); end
+  def test_lever_graphs_i1934; assert_equal("2005", worksheet.lever_graphs_i1934); end
+  def test_lever_graphs_j1934; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1934, 0.002); end
+  def test_lever_graphs_k1934; assert_equal("2015", worksheet.lever_graphs_k1934); end
+  def test_lever_graphs_l1934; assert_equal("2020", worksheet.lever_graphs_l1934); end
+  def test_lever_graphs_m1934; assert_equal("2025", worksheet.lever_graphs_m1934); end
+  def test_lever_graphs_n1934; assert_equal("2030", worksheet.lever_graphs_n1934); end
+  def test_lever_graphs_o1934; assert_equal("2035", worksheet.lever_graphs_o1934); end
+  def test_lever_graphs_p1934; assert_equal("2040", worksheet.lever_graphs_p1934); end
+  def test_lever_graphs_q1934; assert_equal("2045", worksheet.lever_graphs_q1934); end
+  def test_lever_graphs_r1934; assert_equal("2050", worksheet.lever_graphs_r1934); end
+  def test_lever_graphs_b1935; assert_equal("Historic data", worksheet.lever_graphs_b1935); end
+  def test_lever_graphs_b1936; assert_in_delta(1.0, worksheet.lever_graphs_b1936, 0.002); end
+  def test_lever_graphs_j1936; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1936, 0.002); end
+  def test_lever_graphs_k1936; assert_in_epsilon(8.426747442085842, worksheet.lever_graphs_k1936, 0.002); end
+  def test_lever_graphs_l1936; assert_in_epsilon(8.218174935767168, worksheet.lever_graphs_l1936, 0.002); end
+  def test_lever_graphs_m1936; assert_in_epsilon(8.014764859044377, worksheet.lever_graphs_m1936, 0.002); end
+  def test_lever_graphs_n1936; assert_in_epsilon(7.816389435348049, worksheet.lever_graphs_n1936, 0.002); end
+  def test_lever_graphs_o1936; assert_in_epsilon(7.622924050738182, worksheet.lever_graphs_o1936, 0.002); end
+  def test_lever_graphs_p1936; assert_in_epsilon(7.434247175625165, worksheet.lever_graphs_p1936, 0.002); end
+  def test_lever_graphs_q1936; assert_in_epsilon(7.250240288428264, worksheet.lever_graphs_q1936, 0.002); end
+  def test_lever_graphs_r1936; assert_in_epsilon(7.0707878011236485, worksheet.lever_graphs_r1936, 0.002); end
+  def test_lever_graphs_b1937; assert_in_epsilon(2.0, worksheet.lever_graphs_b1937, 0.002); end
+  def test_lever_graphs_j1937; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1937, 0.002); end
+  def test_lever_graphs_k1937; assert_in_epsilon(8.217137366021783, worksheet.lever_graphs_k1937, 0.002); end
+  def test_lever_graphs_l1937; assert_in_epsilon(7.814415873748209, worksheet.lever_graphs_l1937, 0.002); end
+  def test_lever_graphs_m1937; assert_in_epsilon(7.431431741715161, worksheet.lever_graphs_m1937, 0.002); end
+  def test_lever_graphs_n1937; assert_in_epsilon(7.067217642882144, worksheet.lever_graphs_n1937, 0.002); end
+  def test_lever_graphs_o1937; assert_in_epsilon(6.72085365885865, worksheet.lever_graphs_o1937, 0.002); end
+  def test_lever_graphs_p1937; assert_in_epsilon(6.391464956408584, worksheet.lever_graphs_p1937, 0.002); end
+  def test_lever_graphs_q1937; assert_in_epsilon(6.078219577829101, worksheet.lever_graphs_q1937, 0.002); end
+  def test_lever_graphs_r1937; assert_in_epsilon(5.780326339622853, worksheet.lever_graphs_r1937, 0.002); end
+  def test_lever_graphs_b1938; assert_in_epsilon(3.0, worksheet.lever_graphs_b1938, 0.002); end
+  def test_lever_graphs_j1938; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1938, 0.002); end
+  def test_lever_graphs_k1938; assert_in_epsilon(7.810430147077254, worksheet.lever_graphs_k1938, 0.002); end
+  def test_lever_graphs_l1938; assert_in_epsilon(7.060010241896811, worksheet.lever_graphs_l1938, 0.002); end
+  def test_lever_graphs_m1938; assert_in_epsilon(6.381690083271525, worksheet.lever_graphs_m1938, 0.002); end
+  def test_lever_graphs_n1938; assert_in_epsilon(5.768542385001454, worksheet.lever_graphs_n1938, 0.002); end
+  def test_lever_graphs_o1938; assert_in_epsilon(5.214305429025085, worksheet.lever_graphs_o1938, 0.002); end
+  def test_lever_graphs_p1938; assert_in_epsilon(4.71331911816292, worksheet.lever_graphs_p1938, 0.002); end
+  def test_lever_graphs_q1938; assert_in_epsilon(4.260467172862499, worksheet.lever_graphs_q1938, 0.002); end
+  def test_lever_graphs_r1938; assert_in_epsilon(3.8511248816341124, worksheet.lever_graphs_r1938, 0.002); end
+  def test_lever_graphs_b1939; assert_in_epsilon(4.0, worksheet.lever_graphs_b1939, 0.002); end
+  def test_lever_graphs_j1939; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1939, 0.002); end
+  def test_lever_graphs_k1939; assert_in_epsilon(7.419988727322413, worksheet.lever_graphs_k1939, 0.002); end
+  def test_lever_graphs_l1939; assert_in_epsilon(6.371796790462194, worksheet.lever_graphs_l1939, 0.002); end
+  def test_lever_graphs_m1939; assert_in_epsilon(5.471678708815939, worksheet.lever_graphs_m1939, 0.002); end
+  def test_lever_graphs_n1939; assert_in_epsilon(4.698716684958489, worksheet.lever_graphs_n1939, 0.002); end
+  def test_lever_graphs_o1939; assert_in_epsilon(4.034947894498162, worksheet.lever_graphs_o1939, 0.002); end
+  def test_lever_graphs_p1939; assert_in_epsilon(3.464947048932145, worksheet.lever_graphs_p1939, 0.002); end
+  def test_lever_graphs_q1939; assert_in_epsilon(2.9754679281668355, worksheet.lever_graphs_q1939, 0.002); end
+  def test_lever_graphs_r1939; assert_in_epsilon(2.555135552295945, worksheet.lever_graphs_r1939, 0.002); end
+  def test_lever_graphs_c2005; assert_equal("1975", worksheet.lever_graphs_c2005); end
+  def test_lever_graphs_d2005; assert_equal("1980", worksheet.lever_graphs_d2005); end
+  def test_lever_graphs_e2005; assert_equal("1985", worksheet.lever_graphs_e2005); end
+  def test_lever_graphs_f2005; assert_equal("1990", worksheet.lever_graphs_f2005); end
+  def test_lever_graphs_g2005; assert_equal("1995", worksheet.lever_graphs_g2005); end
+  def test_lever_graphs_h2005; assert_equal("2000", worksheet.lever_graphs_h2005); end
+  def test_lever_graphs_i2005; assert_equal("2005", worksheet.lever_graphs_i2005); end
+  def test_lever_graphs_j2005; assert_in_epsilon(2011.0, worksheet.lever_graphs_j2005, 0.002); end
+  def test_lever_graphs_k2005; assert_equal("2015", worksheet.lever_graphs_k2005); end
+  def test_lever_graphs_l2005; assert_equal("2020", worksheet.lever_graphs_l2005); end
+  def test_lever_graphs_m2005; assert_equal("2025", worksheet.lever_graphs_m2005); end
+  def test_lever_graphs_n2005; assert_equal("2030", worksheet.lever_graphs_n2005); end
+  def test_lever_graphs_o2005; assert_equal("2035", worksheet.lever_graphs_o2005); end
+  def test_lever_graphs_p2005; assert_equal("2040", worksheet.lever_graphs_p2005); end
+  def test_lever_graphs_q2005; assert_equal("2045", worksheet.lever_graphs_q2005); end
+  def test_lever_graphs_r2005; assert_equal("2050", worksheet.lever_graphs_r2005); end
+  def test_lever_graphs_b2006; assert_equal("Historic data", worksheet.lever_graphs_b2006); end
+  def test_lever_graphs_b2007; assert_in_delta(1.0, worksheet.lever_graphs_b2007, 0.002); end
+  def test_lever_graphs_j2007; assert_in_epsilon(9.96, worksheet.lever_graphs_j2007, 0.002); end
+  def test_lever_graphs_k2007; assert_in_epsilon(9.713477581093876, worksheet.lever_graphs_k2007, 0.002); end
+  def test_lever_graphs_l2007; assert_in_epsilon(9.47305689943909, worksheet.lever_graphs_l2007, 0.002); end
+  def test_lever_graphs_m2007; assert_in_epsilon(9.238586929430548, worksheet.lever_graphs_m2007, 0.002); end
+  def test_lever_graphs_n2007; assert_in_epsilon(9.009920383535194, worksheet.lever_graphs_n2007, 0.002); end
+  def test_lever_graphs_o2007; assert_in_epsilon(8.786913619770065, worksheet.lever_graphs_o2007, 0.002); end
+  def test_lever_graphs_p2007; assert_in_epsilon(8.569426551470377, worksheet.lever_graphs_p2007, 0.002); end
+  def test_lever_graphs_q2007; assert_in_epsilon(8.357322559290974, worksheet.lever_graphs_q2007, 0.002); end
+  def test_lever_graphs_r2007; assert_in_epsilon(8.15046840538584, worksheet.lever_graphs_r2007, 0.002); end
+  def test_lever_graphs_b2008; assert_in_epsilon(2.0, worksheet.lever_graphs_b2008, 0.002); end
+  def test_lever_graphs_j2008; assert_in_epsilon(9.96, worksheet.lever_graphs_j2008, 0.002); end
+  def test_lever_graphs_k2008; assert_in_epsilon(9.376571321374435, worksheet.lever_graphs_k2008, 0.002); end
+  def test_lever_graphs_l2008; assert_in_epsilon(8.827318247472038, worksheet.lever_graphs_l2008, 0.002); end
+  def test_lever_graphs_m2008; assert_in_epsilon(8.310238867860596, worksheet.lever_graphs_m2008, 0.002); end
+  def test_lever_graphs_n2008; assert_in_epsilon(7.823448538368755, worksheet.lever_graphs_n2008, 0.002); end
+  def test_lever_graphs_o2008; assert_in_epsilon(7.365173011959558, worksheet.lever_graphs_o2008, 0.002); end
+  def test_lever_graphs_p2008; assert_in_epsilon(6.933741971978007, worksheet.lever_graphs_p2008, 0.002); end
+  def test_lever_graphs_q2008; assert_in_epsilon(6.52758294420273, worksheet.lever_graphs_q2008, 0.002); end
+  def test_lever_graphs_r2008; assert_in_epsilon(6.145215565512471, worksheet.lever_graphs_r2008, 0.002); end
+  def test_lever_graphs_b2009; assert_in_epsilon(3.0, worksheet.lever_graphs_b2009, 0.002); end
+  def test_lever_graphs_j2009; assert_in_epsilon(9.96, worksheet.lever_graphs_j2009, 0.002); end
+  def test_lever_graphs_k2009; assert_in_epsilon(9.141699210404024, worksheet.lever_graphs_k2009, 0.002); end
+  def test_lever_graphs_l2009; assert_in_epsilon(8.390628961194935, worksheet.lever_graphs_l2009, 0.002); end
+  def test_lever_graphs_m2009; assert_in_epsilon(7.701265677645468, worksheet.lever_graphs_m2009, 0.002); end
+  def test_lever_graphs_n2009; assert_in_epsilon(7.068539594823612, worksheet.lever_graphs_n2009, 0.002); end
+  def test_lever_graphs_o2009; assert_in_epsilon(6.487797473163512, worksheet.lever_graphs_o2009, 0.002); end
+  def test_lever_graphs_p2009; assert_in_epsilon(5.954768377277118, worksheet.lever_graphs_p2009, 0.002); end
+  def test_lever_graphs_q2009; assert_in_epsilon(5.4655322663346455, worksheet.lever_graphs_q2009, 0.002); end
+  def test_lever_graphs_r2009; assert_in_epsilon(5.01649116501899, worksheet.lever_graphs_r2009, 0.002); end
+  def test_lever_graphs_b2010; assert_in_epsilon(4.0, worksheet.lever_graphs_b2010, 0.002); end
+  def test_lever_graphs_j2010; assert_in_epsilon(9.96, worksheet.lever_graphs_j2010, 0.002); end
+  def test_lever_graphs_k2010; assert_in_epsilon(8.957210848876155, worksheet.lever_graphs_k2010, 0.002); end
+  def test_lever_graphs_l2010; assert_in_epsilon(8.05538415574545, worksheet.lever_graphs_l2010, 0.002); end
+  def test_lever_graphs_m2010; assert_in_epsilon(7.244354854589179, worksheet.lever_graphs_m2010, 0.002); end
+  def test_lever_graphs_n2010; assert_in_epsilon(6.514981314923176, worksheet.lever_graphs_n2010, 0.002); end
+  def test_lever_graphs_o2010; assert_in_epsilon(5.859042300628043, worksheet.lever_graphs_o2010, 0.002); end
+  def test_lever_graphs_p2010; assert_in_epsilon(5.269144303133515, worksheet.lever_graphs_p2010, 0.002); end
+  def test_lever_graphs_q2010; assert_in_epsilon(4.73863820444995, worksheet.lever_graphs_q2010, 0.002); end
+  def test_lever_graphs_r2010; assert_in_epsilon(4.2615443307026215, worksheet.lever_graphs_r2010, 0.002); end
+  def test_lever_graphs_d2301; assert_equal("Title", worksheet.lever_graphs_d2301); end
+  def test_lever_graphs_e2301; assert_equal("Design for Steel Materials demand per product", worksheet.lever_graphs_e2301); end
+  def test_lever_graphs_f2301; assert_equal("Design for Chemicals Materials demand per product", worksheet.lever_graphs_f2301); end
+  def test_lever_graphs_g2301; assert_equal("Design for Aluminium Materials demand per product", worksheet.lever_graphs_g2301); end
+  def test_lever_graphs_h2301; assert_equal("Design for Cement Materials demand per product", worksheet.lever_graphs_h2301); end
+  def test_lever_graphs_i2301; assert_equal("Design for Paper Materials demand per product", worksheet.lever_graphs_i2301); end
+  def test_lever_graphs_j2301; assert_equal("Design for Timber Materials demand per product", worksheet.lever_graphs_j2301); end
+  def test_lever_graphs_k2301; assert_equal("Design for Other industries Materials demand per product", worksheet.lever_graphs_k2301); end
+  def test_lever_graphs_d2302; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2302, 0.002); end
+  def test_lever_graphs_e2302; assert_in_delta(1.0, worksheet.lever_graphs_e2302, 0.002); end
+  def test_lever_graphs_f2302; assert_in_delta(1.0, worksheet.lever_graphs_f2302, 0.002); end
+  def test_lever_graphs_g2302; assert_in_delta(1.0, worksheet.lever_graphs_g2302, 0.002); end
+  def test_lever_graphs_h2302; assert_in_delta(1.0, worksheet.lever_graphs_h2302, 0.002); end
+  def test_lever_graphs_i2302; assert_in_delta(1.0, worksheet.lever_graphs_i2302, 0.002); end
+  def test_lever_graphs_j2302; assert_in_delta(1.0, worksheet.lever_graphs_j2302, 0.002); end
+  def test_lever_graphs_k2302; assert_in_delta(1.0, worksheet.lever_graphs_k2302, 0.002); end
+  def test_lever_graphs_d2303; assert_equal("2050: Level 1", worksheet.lever_graphs_d2303); end
+  def test_lever_graphs_e2303; assert_in_delta(1.0, worksheet.lever_graphs_e2303, 0.002); end
+  def test_lever_graphs_f2303; assert_in_delta(1.0, worksheet.lever_graphs_f2303, 0.002); end
+  def test_lever_graphs_g2303; assert_in_delta(1.0, worksheet.lever_graphs_g2303, 0.002); end
+  def test_lever_graphs_h2303; assert_in_delta(1.0, worksheet.lever_graphs_h2303, 0.002); end
+  def test_lever_graphs_i2303; assert_in_delta(1.0, worksheet.lever_graphs_i2303, 0.002); end
+  def test_lever_graphs_j2303; assert_in_delta(1.0, worksheet.lever_graphs_j2303, 0.002); end
+  def test_lever_graphs_k2303; assert_in_delta(1.0, worksheet.lever_graphs_k2303, 0.002); end
+  def test_lever_graphs_d2304; assert_equal("2050: Level 2", worksheet.lever_graphs_d2304); end
+  def test_lever_graphs_e2304; assert_in_delta(0.9, worksheet.lever_graphs_e2304, 0.002); end
+  def test_lever_graphs_f2304; assert_in_delta(0.9, worksheet.lever_graphs_f2304, 0.002); end
+  def test_lever_graphs_g2304; assert_in_delta(0.9, worksheet.lever_graphs_g2304, 0.002); end
+  def test_lever_graphs_h2304; assert_in_delta(0.9, worksheet.lever_graphs_h2304, 0.002); end
+  def test_lever_graphs_i2304; assert_in_delta(0.95, worksheet.lever_graphs_i2304, 0.002); end
+  def test_lever_graphs_j2304; assert_in_delta(0.9, worksheet.lever_graphs_j2304, 0.002); end
+  def test_lever_graphs_k2304; assert_in_delta(0.9, worksheet.lever_graphs_k2304, 0.002); end
+  def test_lever_graphs_d2305; assert_equal("2050: Level 3", worksheet.lever_graphs_d2305); end
+  def test_lever_graphs_e2305; assert_in_delta(0.8, worksheet.lever_graphs_e2305, 0.002); end
+  def test_lever_graphs_f2305; assert_in_delta(0.8, worksheet.lever_graphs_f2305, 0.002); end
+  def test_lever_graphs_g2305; assert_in_delta(0.8, worksheet.lever_graphs_g2305, 0.002); end
+  def test_lever_graphs_h2305; assert_in_delta(0.8, worksheet.lever_graphs_h2305, 0.002); end
+  def test_lever_graphs_i2305; assert_in_delta(0.9, worksheet.lever_graphs_i2305, 0.002); end
+  def test_lever_graphs_j2305; assert_in_delta(0.8, worksheet.lever_graphs_j2305, 0.002); end
+  def test_lever_graphs_k2305; assert_in_delta(0.8, worksheet.lever_graphs_k2305, 0.002); end
+  def test_lever_graphs_d2306; assert_equal("2050: Level 4", worksheet.lever_graphs_d2306); end
+  def test_lever_graphs_e2306; assert_in_delta(0.7, worksheet.lever_graphs_e2306, 0.002); end
+  def test_lever_graphs_f2306; assert_in_delta(0.7, worksheet.lever_graphs_f2306, 0.002); end
+  def test_lever_graphs_g2306; assert_in_delta(0.7, worksheet.lever_graphs_g2306, 0.002); end
+  def test_lever_graphs_h2306; assert_in_delta(0.7, worksheet.lever_graphs_h2306, 0.002); end
+  def test_lever_graphs_i2306; assert_in_delta(0.8, worksheet.lever_graphs_i2306, 0.002); end
+  def test_lever_graphs_j2306; assert_in_delta(0.7, worksheet.lever_graphs_j2306, 0.002); end
+  def test_lever_graphs_k2306; assert_in_delta(0.7, worksheet.lever_graphs_k2306, 0.002); end
+  def test_lever_graphs_c2511; assert_equal("1975", worksheet.lever_graphs_c2511); end
+  def test_lever_graphs_d2511; assert_equal("1980", worksheet.lever_graphs_d2511); end
+  def test_lever_graphs_e2511; assert_equal("1985", worksheet.lever_graphs_e2511); end
+  def test_lever_graphs_f2511; assert_equal("1990", worksheet.lever_graphs_f2511); end
+  def test_lever_graphs_g2511; assert_equal("1995", worksheet.lever_graphs_g2511); end
+  def test_lever_graphs_h2511; assert_equal("2000", worksheet.lever_graphs_h2511); end
+  def test_lever_graphs_i2511; assert_equal("2005", worksheet.lever_graphs_i2511); end
+  def test_lever_graphs_j2511; assert_equal("2011", worksheet.lever_graphs_j2511); end
+  def test_lever_graphs_k2511; assert_equal("2015", worksheet.lever_graphs_k2511); end
+  def test_lever_graphs_l2511; assert_equal("2020", worksheet.lever_graphs_l2511); end
+  def test_lever_graphs_m2511; assert_equal("2025", worksheet.lever_graphs_m2511); end
+  def test_lever_graphs_n2511; assert_equal("2030", worksheet.lever_graphs_n2511); end
+  def test_lever_graphs_o2511; assert_equal("2035", worksheet.lever_graphs_o2511); end
+  def test_lever_graphs_p2511; assert_equal("2040", worksheet.lever_graphs_p2511); end
+  def test_lever_graphs_q2511; assert_equal("2045", worksheet.lever_graphs_q2511); end
+  def test_lever_graphs_r2511; assert_equal("2050", worksheet.lever_graphs_r2511); end
+  def test_lever_graphs_b2512; assert_equal("Historic data", worksheet.lever_graphs_b2512); end
+  def test_lever_graphs_b2513; assert_in_delta(1.0, worksheet.lever_graphs_b2513, 0.002); end
+  def test_lever_graphs_j2513; assert_in_delta(1.0, worksheet.lever_graphs_j2513, 0.002); end
+  def test_lever_graphs_k2513; assert_in_delta(1.0, worksheet.lever_graphs_k2513, 0.002); end
+  def test_lever_graphs_l2513; assert_in_delta(1.0, worksheet.lever_graphs_l2513, 0.002); end
+  def test_lever_graphs_m2513; assert_in_delta(1.0, worksheet.lever_graphs_m2513, 0.002); end
+  def test_lever_graphs_n2513; assert_in_delta(1.0, worksheet.lever_graphs_n2513, 0.002); end
+  def test_lever_graphs_o2513; assert_in_delta(1.0, worksheet.lever_graphs_o2513, 0.002); end
+  def test_lever_graphs_p2513; assert_in_delta(1.0, worksheet.lever_graphs_p2513, 0.002); end
+  def test_lever_graphs_q2513; assert_in_delta(1.0, worksheet.lever_graphs_q2513, 0.002); end
+  def test_lever_graphs_r2513; assert_in_delta(1.0, worksheet.lever_graphs_r2513, 0.002); end
+  def test_lever_graphs_b2514; assert_in_epsilon(2.0, worksheet.lever_graphs_b2514, 0.002); end
+  def test_lever_graphs_j2514; assert_in_delta(1.0, worksheet.lever_graphs_j2514, 0.002); end
+  def test_lever_graphs_k2514; assert_in_delta(0.9897435897435898, worksheet.lever_graphs_k2514, 0.002); end
+  def test_lever_graphs_l2514; assert_in_delta(0.9769230769230769, worksheet.lever_graphs_l2514, 0.002); end
+  def test_lever_graphs_m2514; assert_in_delta(0.9641025641025641, worksheet.lever_graphs_m2514, 0.002); end
+  def test_lever_graphs_n2514; assert_in_delta(0.9512820512820512, worksheet.lever_graphs_n2514, 0.002); end
+  def test_lever_graphs_o2514; assert_in_delta(0.9384615384615385, worksheet.lever_graphs_o2514, 0.002); end
+  def test_lever_graphs_p2514; assert_in_delta(0.9256410256410257, worksheet.lever_graphs_p2514, 0.002); end
+  def test_lever_graphs_q2514; assert_in_delta(0.9128205128205128, worksheet.lever_graphs_q2514, 0.002); end
+  def test_lever_graphs_r2514; assert_in_delta(0.9, worksheet.lever_graphs_r2514, 0.002); end
+  def test_lever_graphs_b2515; assert_in_epsilon(3.0, worksheet.lever_graphs_b2515, 0.002); end
+  def test_lever_graphs_j2515; assert_in_delta(1.0, worksheet.lever_graphs_j2515, 0.002); end
+  def test_lever_graphs_k2515; assert_in_delta(0.9794871794871794, worksheet.lever_graphs_k2515, 0.002); end
+  def test_lever_graphs_l2515; assert_in_delta(0.9538461538461539, worksheet.lever_graphs_l2515, 0.002); end
+  def test_lever_graphs_m2515; assert_in_delta(0.9282051282051282, worksheet.lever_graphs_m2515, 0.002); end
+  def test_lever_graphs_n2515; assert_in_delta(0.9025641025641026, worksheet.lever_graphs_n2515, 0.002); end
+  def test_lever_graphs_o2515; assert_in_delta(0.8769230769230769, worksheet.lever_graphs_o2515, 0.002); end
+  def test_lever_graphs_p2515; assert_in_delta(0.8512820512820514, worksheet.lever_graphs_p2515, 0.002); end
+  def test_lever_graphs_q2515; assert_in_delta(0.8256410256410257, worksheet.lever_graphs_q2515, 0.002); end
+  def test_lever_graphs_r2515; assert_in_delta(0.8, worksheet.lever_graphs_r2515, 0.002); end
+  def test_lever_graphs_b2516; assert_in_epsilon(4.0, worksheet.lever_graphs_b2516, 0.002); end
+  def test_lever_graphs_j2516; assert_in_delta(1.0, worksheet.lever_graphs_j2516, 0.002); end
+  def test_lever_graphs_k2516; assert_in_delta(0.9692307692307692, worksheet.lever_graphs_k2516, 0.002); end
+  def test_lever_graphs_l2516; assert_in_delta(0.9307692307692308, worksheet.lever_graphs_l2516, 0.002); end
+  def test_lever_graphs_m2516; assert_in_delta(0.8923076923076922, worksheet.lever_graphs_m2516, 0.002); end
+  def test_lever_graphs_n2516; assert_in_delta(0.8538461538461538, worksheet.lever_graphs_n2516, 0.002); end
+  def test_lever_graphs_o2516; assert_in_delta(0.8153846153846154, worksheet.lever_graphs_o2516, 0.002); end
+  def test_lever_graphs_p2516; assert_in_delta(0.7769230769230768, worksheet.lever_graphs_p2516, 0.002); end
+  def test_lever_graphs_q2516; assert_in_delta(0.7384615384615384, worksheet.lever_graphs_q2516, 0.002); end
+  def test_lever_graphs_r2516; assert_in_delta(0.7, worksheet.lever_graphs_r2516, 0.002); end
+  def test_lever_graphs_c2427; assert_equal("1975", worksheet.lever_graphs_c2427); end
+  def test_lever_graphs_d2427; assert_equal("1980", worksheet.lever_graphs_d2427); end
+  def test_lever_graphs_e2427; assert_equal("1985", worksheet.lever_graphs_e2427); end
+  def test_lever_graphs_f2427; assert_equal("1990", worksheet.lever_graphs_f2427); end
+  def test_lever_graphs_g2427; assert_equal("1995", worksheet.lever_graphs_g2427); end
+  def test_lever_graphs_h2427; assert_equal("2000", worksheet.lever_graphs_h2427); end
+  def test_lever_graphs_i2427; assert_equal("2005", worksheet.lever_graphs_i2427); end
+  def test_lever_graphs_j2427; assert_equal("2011", worksheet.lever_graphs_j2427); end
+  def test_lever_graphs_k2427; assert_equal("2015", worksheet.lever_graphs_k2427); end
+  def test_lever_graphs_l2427; assert_equal("2020", worksheet.lever_graphs_l2427); end
+  def test_lever_graphs_m2427; assert_equal("2025", worksheet.lever_graphs_m2427); end
+  def test_lever_graphs_n2427; assert_equal("2030", worksheet.lever_graphs_n2427); end
+  def test_lever_graphs_o2427; assert_equal("2035", worksheet.lever_graphs_o2427); end
+  def test_lever_graphs_p2427; assert_equal("2040", worksheet.lever_graphs_p2427); end
+  def test_lever_graphs_q2427; assert_equal("2045", worksheet.lever_graphs_q2427); end
+  def test_lever_graphs_r2427; assert_equal("2050", worksheet.lever_graphs_r2427); end
+  def test_lever_graphs_b2428; assert_equal("Historic data", worksheet.lever_graphs_b2428); end
+  def test_lever_graphs_b2429; assert_in_delta(1.0, worksheet.lever_graphs_b2429, 0.002); end
+  def test_lever_graphs_j2429; assert_in_delta(1.0, worksheet.lever_graphs_j2429, 0.002); end
+  def test_lever_graphs_k2429; assert_in_delta(1.0, worksheet.lever_graphs_k2429, 0.002); end
+  def test_lever_graphs_l2429; assert_in_delta(1.0, worksheet.lever_graphs_l2429, 0.002); end
+  def test_lever_graphs_m2429; assert_in_delta(1.0, worksheet.lever_graphs_m2429, 0.002); end
+  def test_lever_graphs_n2429; assert_in_delta(1.0, worksheet.lever_graphs_n2429, 0.002); end
+  def test_lever_graphs_o2429; assert_in_delta(1.0, worksheet.lever_graphs_o2429, 0.002); end
+  def test_lever_graphs_p2429; assert_in_delta(1.0, worksheet.lever_graphs_p2429, 0.002); end
+  def test_lever_graphs_q2429; assert_in_delta(1.0, worksheet.lever_graphs_q2429, 0.002); end
+  def test_lever_graphs_r2429; assert_in_delta(1.0, worksheet.lever_graphs_r2429, 0.002); end
+  def test_lever_graphs_b2430; assert_in_epsilon(2.0, worksheet.lever_graphs_b2430, 0.002); end
+  def test_lever_graphs_j2430; assert_in_delta(1.0, worksheet.lever_graphs_j2430, 0.002); end
+  def test_lever_graphs_k2430; assert_in_delta(0.9897435897435898, worksheet.lever_graphs_k2430, 0.002); end
+  def test_lever_graphs_l2430; assert_in_delta(0.9769230769230769, worksheet.lever_graphs_l2430, 0.002); end
+  def test_lever_graphs_m2430; assert_in_delta(0.9641025641025641, worksheet.lever_graphs_m2430, 0.002); end
+  def test_lever_graphs_n2430; assert_in_delta(0.9512820512820512, worksheet.lever_graphs_n2430, 0.002); end
+  def test_lever_graphs_o2430; assert_in_delta(0.9384615384615385, worksheet.lever_graphs_o2430, 0.002); end
+  def test_lever_graphs_p2430; assert_in_delta(0.9256410256410257, worksheet.lever_graphs_p2430, 0.002); end
+  def test_lever_graphs_q2430; assert_in_delta(0.9128205128205128, worksheet.lever_graphs_q2430, 0.002); end
+  def test_lever_graphs_r2430; assert_in_delta(0.9, worksheet.lever_graphs_r2430, 0.002); end
+  def test_lever_graphs_b2431; assert_in_epsilon(3.0, worksheet.lever_graphs_b2431, 0.002); end
+  def test_lever_graphs_j2431; assert_in_delta(1.0, worksheet.lever_graphs_j2431, 0.002); end
+  def test_lever_graphs_k2431; assert_in_delta(0.9794871794871794, worksheet.lever_graphs_k2431, 0.002); end
+  def test_lever_graphs_l2431; assert_in_delta(0.9538461538461539, worksheet.lever_graphs_l2431, 0.002); end
+  def test_lever_graphs_m2431; assert_in_delta(0.9282051282051282, worksheet.lever_graphs_m2431, 0.002); end
+  def test_lever_graphs_n2431; assert_in_delta(0.9025641025641026, worksheet.lever_graphs_n2431, 0.002); end
+  def test_lever_graphs_o2431; assert_in_delta(0.8769230769230769, worksheet.lever_graphs_o2431, 0.002); end
+  def test_lever_graphs_p2431; assert_in_delta(0.8512820512820514, worksheet.lever_graphs_p2431, 0.002); end
+  def test_lever_graphs_q2431; assert_in_delta(0.8256410256410257, worksheet.lever_graphs_q2431, 0.002); end
+  def test_lever_graphs_r2431; assert_in_delta(0.8, worksheet.lever_graphs_r2431, 0.002); end
+  def test_lever_graphs_b2432; assert_in_epsilon(4.0, worksheet.lever_graphs_b2432, 0.002); end
+  def test_lever_graphs_j2432; assert_in_delta(1.0, worksheet.lever_graphs_j2432, 0.002); end
+  def test_lever_graphs_k2432; assert_in_delta(0.9692307692307692, worksheet.lever_graphs_k2432, 0.002); end
+  def test_lever_graphs_l2432; assert_in_delta(0.9307692307692308, worksheet.lever_graphs_l2432, 0.002); end
+  def test_lever_graphs_m2432; assert_in_delta(0.8923076923076922, worksheet.lever_graphs_m2432, 0.002); end
+  def test_lever_graphs_n2432; assert_in_delta(0.8538461538461538, worksheet.lever_graphs_n2432, 0.002); end
+  def test_lever_graphs_o2432; assert_in_delta(0.8153846153846154, worksheet.lever_graphs_o2432, 0.002); end
+  def test_lever_graphs_p2432; assert_in_delta(0.7769230769230768, worksheet.lever_graphs_p2432, 0.002); end
+  def test_lever_graphs_q2432; assert_in_delta(0.7384615384615384, worksheet.lever_graphs_q2432, 0.002); end
+  def test_lever_graphs_r2432; assert_in_delta(0.7, worksheet.lever_graphs_r2432, 0.002); end
+  def test_lever_graphs_d2357; assert_equal("Title", worksheet.lever_graphs_d2357); end
+  def test_lever_graphs_e2357; assert_equal("Steel", worksheet.lever_graphs_e2357); end
+  def test_lever_graphs_f2357; assert_equal("Chemicals & petrochemicals", worksheet.lever_graphs_f2357); end
+  def test_lever_graphs_g2357; assert_equal("Pulp & paper", worksheet.lever_graphs_g2357); end
+  def test_lever_graphs_d2358; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2358, 0.002); end
+  def test_lever_graphs_e2358; assert_in_delta(0.0, (worksheet.lever_graphs_e2358||0), 0.002); end
+  def test_lever_graphs_f2358; assert_in_delta(0.0, (worksheet.lever_graphs_f2358||0), 0.002); end
+  def test_lever_graphs_g2358; assert_in_delta(0.0, (worksheet.lever_graphs_g2358||0), 0.002); end
+  def test_lever_graphs_d2359; assert_equal("2050: Level 1", worksheet.lever_graphs_d2359); end
+  def test_lever_graphs_e2359; assert_in_delta(0.0, (worksheet.lever_graphs_e2359||0), 0.002); end
+  def test_lever_graphs_f2359; assert_in_delta(0.07624999999999993, worksheet.lever_graphs_f2359, 0.002); end
+  def test_lever_graphs_g2359; assert_in_delta(0.0, (worksheet.lever_graphs_g2359||0), 0.002); end
+  def test_lever_graphs_d2360; assert_equal("2050: Level 2", worksheet.lever_graphs_d2360); end
+  def test_lever_graphs_e2360; assert_in_delta(0.1549295774647888, worksheet.lever_graphs_e2360, 0.002); end
+  def test_lever_graphs_f2360; assert_in_delta(0.15500000000000025, worksheet.lever_graphs_f2360, 0.002); end
+  def test_lever_graphs_g2360; assert_in_delta(0.09090909090909091, worksheet.lever_graphs_g2360, 0.002); end
+  def test_lever_graphs_d2361; assert_equal("2050: Level 3", worksheet.lever_graphs_d2361); end
+  def test_lever_graphs_e2361; assert_in_delta(0.295774647887324, worksheet.lever_graphs_e2361, 0.002); end
+  def test_lever_graphs_f2361; assert_in_delta(0.23624999999999985, worksheet.lever_graphs_f2361, 0.002); end
+  def test_lever_graphs_g2361; assert_in_delta(0.2424242424242424, worksheet.lever_graphs_g2361, 0.002); end
+  def test_lever_graphs_d2362; assert_equal("2050: Level 4", worksheet.lever_graphs_d2362); end
+  def test_lever_graphs_e2362; assert_in_delta(0.647887323943662, worksheet.lever_graphs_e2362, 0.002); end
+  def test_lever_graphs_f2362; assert_in_delta(0.32000000000000006, worksheet.lever_graphs_f2362, 0.002); end
+  def test_lever_graphs_g2362; assert_in_delta(0.3939393939393939, worksheet.lever_graphs_g2362, 0.002); end
+  def test_lever_graphs_d2368; assert_equal("Title", worksheet.lever_graphs_d2368); end
+  def test_lever_graphs_e2368; assert_equal("Aluminium", worksheet.lever_graphs_e2368); end
+  def test_lever_graphs_d2369; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2369, 0.002); end
+  def test_lever_graphs_e2369; assert_in_delta(0.0, (worksheet.lever_graphs_e2369||0), 0.002); end
+  def test_lever_graphs_d2370; assert_equal("2050: Level 1", worksheet.lever_graphs_d2370); end
+  def test_lever_graphs_e2370; assert_in_delta(-0.8750000000000001, worksheet.lever_graphs_e2370, 0.002); end
+  def test_lever_graphs_d2371; assert_equal("2050: Level 2", worksheet.lever_graphs_d2371); end
+  def test_lever_graphs_e2371; assert_in_delta(-0.7708333333333334, worksheet.lever_graphs_e2371, 0.002); end
+  def test_lever_graphs_d2372; assert_equal("2050: Level 3", worksheet.lever_graphs_d2372); end
+  def test_lever_graphs_e2372; assert_in_delta(-0.6666666666666667, worksheet.lever_graphs_e2372, 0.002); end
+  def test_lever_graphs_d2373; assert_equal("2050: Level 4", worksheet.lever_graphs_d2373); end
+  def test_lever_graphs_e2373; assert_in_delta(-0.5625000000000001, worksheet.lever_graphs_e2373, 0.002); end
+  def test_lever_graphs_d2311; assert_equal("Title", worksheet.lever_graphs_d2311); end
+  def test_lever_graphs_e2311; assert_equal("Global Oxygen steel technology", worksheet.lever_graphs_e2311); end
+  def test_lever_graphs_f2311; assert_equal("Global Hisarna Oxygen steel technology", worksheet.lever_graphs_f2311); end
+  def test_lever_graphs_g2311; assert_equal("Global Electric steel technology", worksheet.lever_graphs_g2311); end
+  def test_lever_graphs_h2311; assert_equal("Global DRI Electric steel technology", worksheet.lever_graphs_h2311); end
+  def test_lever_graphs_i2311; assert_equal("Global Alumina Aluminium technology", worksheet.lever_graphs_i2311); end
+  def test_lever_graphs_j2311; assert_equal("Global Primary Aluminium technology", worksheet.lever_graphs_j2311); end
+  def test_lever_graphs_k2311; assert_equal("Global Secondary Aluminium technology", worksheet.lever_graphs_k2311); end
+  def test_lever_graphs_l2311; assert_equal("Global Chemicals: High Value Chemicals  technology", worksheet.lever_graphs_l2311); end
+  def test_lever_graphs_m2311; assert_equal("Global Chemicals: Ammonia technology", worksheet.lever_graphs_m2311); end
+  def test_lever_graphs_n2311; assert_equal("Global Chemicals: Methanol technology", worksheet.lever_graphs_n2311); end
+  def test_lever_graphs_o2311; assert_equal("Global Chemicals: Others technology", worksheet.lever_graphs_o2311); end
+  def test_lever_graphs_p2311; assert_equal("Global Pulp & paper: Pulp technology", worksheet.lever_graphs_p2311); end
+  def test_lever_graphs_q2311; assert_equal("Global Pulp & paper: Virgin technology", worksheet.lever_graphs_q2311); end
+  def test_lever_graphs_r2311; assert_equal("Global Pulp & paper: Recycled technology", worksheet.lever_graphs_r2311); end
+  def test_lever_graphs_s2311; assert_equal("Global Cement technology", worksheet.lever_graphs_s2311); end
+  def test_lever_graphs_t2311; assert_equal("Global Timber technology", worksheet.lever_graphs_t2311); end
+  def test_lever_graphs_u2311; assert_equal("Global Other industries technology", worksheet.lever_graphs_u2311); end
+  def test_lever_graphs_d2312; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2312, 0.002); end
+  def test_lever_graphs_e2312; assert_in_delta(0.0, (worksheet.lever_graphs_e2312||0), 0.002); end
+  def test_lever_graphs_f2312; assert_in_delta(0.0, (worksheet.lever_graphs_f2312||0), 0.002); end
+  def test_lever_graphs_g2312; assert_in_delta(0.0, (worksheet.lever_graphs_g2312||0), 0.002); end
+  def test_lever_graphs_h2312; assert_in_delta(0.0, (worksheet.lever_graphs_h2312||0), 0.002); end
+  def test_lever_graphs_i2312; assert_in_delta(0.0, (worksheet.lever_graphs_i2312||0), 0.002); end
+  def test_lever_graphs_j2312; assert_in_delta(0.0, (worksheet.lever_graphs_j2312||0), 0.002); end
+  def test_lever_graphs_k2312; assert_in_delta(0.0, (worksheet.lever_graphs_k2312||0), 0.002); end
+  def test_lever_graphs_l2312; assert_in_delta(0.0, (worksheet.lever_graphs_l2312||0), 0.002); end
+  def test_lever_graphs_m2312; assert_in_delta(0.0, (worksheet.lever_graphs_m2312||0), 0.002); end
+  def test_lever_graphs_n2312; assert_in_delta(0.0, (worksheet.lever_graphs_n2312||0), 0.002); end
+  def test_lever_graphs_o2312; assert_in_delta(0.0, (worksheet.lever_graphs_o2312||0), 0.002); end
+  def test_lever_graphs_p2312; assert_in_delta(0.0, (worksheet.lever_graphs_p2312||0), 0.002); end
+  def test_lever_graphs_q2312; assert_in_delta(0.0, (worksheet.lever_graphs_q2312||0), 0.002); end
+  def test_lever_graphs_r2312; assert_in_delta(0.0, (worksheet.lever_graphs_r2312||0), 0.002); end
+  def test_lever_graphs_s2312; assert_in_delta(0.0, (worksheet.lever_graphs_s2312||0), 0.002); end
+  def test_lever_graphs_t2312; assert_in_delta(0.0, (worksheet.lever_graphs_t2312||0), 0.002); end
+  def test_lever_graphs_u2312; assert_in_delta(0.0, (worksheet.lever_graphs_u2312||0), 0.002); end
+  def test_lever_graphs_d2313; assert_equal("2050: Level 1", worksheet.lever_graphs_d2313); end
+  def test_lever_graphs_e2313; assert_in_delta(0.0, (worksheet.lever_graphs_e2313||0), 0.002); end
+  def test_lever_graphs_f2313; assert_in_delta(0.0, (worksheet.lever_graphs_f2313||0), 0.002); end
+  def test_lever_graphs_g2313; assert_in_delta(0.0, (worksheet.lever_graphs_g2313||0), 0.002); end
+  def test_lever_graphs_h2313; assert_in_delta(0.0, (worksheet.lever_graphs_h2313||0), 0.002); end
+  def test_lever_graphs_i2313; assert_in_delta(0.0, (worksheet.lever_graphs_i2313||0), 0.002); end
+  def test_lever_graphs_j2313; assert_in_delta(0.0, (worksheet.lever_graphs_j2313||0), 0.002); end
+  def test_lever_graphs_k2313; assert_in_delta(0.0, (worksheet.lever_graphs_k2313||0), 0.002); end
+  def test_lever_graphs_l2313; assert_in_delta(0.0, (worksheet.lever_graphs_l2313||0), 0.002); end
+  def test_lever_graphs_m2313; assert_in_delta(0.0, (worksheet.lever_graphs_m2313||0), 0.002); end
+  def test_lever_graphs_n2313; assert_in_delta(0.0, (worksheet.lever_graphs_n2313||0), 0.002); end
+  def test_lever_graphs_o2313; assert_in_delta(0.0, (worksheet.lever_graphs_o2313||0), 0.002); end
+  def test_lever_graphs_p2313; assert_in_delta(0.0, (worksheet.lever_graphs_p2313||0), 0.002); end
+  def test_lever_graphs_q2313; assert_in_delta(0.0, (worksheet.lever_graphs_q2313||0), 0.002); end
+  def test_lever_graphs_r2313; assert_in_delta(0.0, (worksheet.lever_graphs_r2313||0), 0.002); end
+  def test_lever_graphs_s2313; assert_in_delta(0.05, worksheet.lever_graphs_s2313, 0.002); end
+  def test_lever_graphs_t2313; assert_in_delta(0.0, (worksheet.lever_graphs_t2313||0), 0.002); end
+  def test_lever_graphs_u2313; assert_in_delta(0.0, (worksheet.lever_graphs_u2313||0), 0.002); end
+  def test_lever_graphs_d2314; assert_equal("2050: Level 2", worksheet.lever_graphs_d2314); end
+  def test_lever_graphs_e2314; assert_in_delta(0.05, worksheet.lever_graphs_e2314, 0.002); end
+  def test_lever_graphs_f2314; assert_in_delta(0.0, (worksheet.lever_graphs_f2314||0), 0.002); end
+  def test_lever_graphs_g2314; assert_in_delta(0.0, (worksheet.lever_graphs_g2314||0), 0.002); end
+  def test_lever_graphs_h2314; assert_in_delta(0.0, (worksheet.lever_graphs_h2314||0), 0.002); end
+  def test_lever_graphs_i2314; assert_in_delta(0.025, worksheet.lever_graphs_i2314, 0.002); end
+  def test_lever_graphs_j2314; assert_in_delta(0.025, worksheet.lever_graphs_j2314, 0.002); end
+  def test_lever_graphs_k2314; assert_in_delta(0.025, worksheet.lever_graphs_k2314, 0.002); end
+  def test_lever_graphs_l2314; assert_in_delta(0.05, worksheet.lever_graphs_l2314, 0.002); end
+  def test_lever_graphs_m2314; assert_in_delta(0.075, worksheet.lever_graphs_m2314, 0.002); end
+  def test_lever_graphs_n2314; assert_in_delta(0.075, worksheet.lever_graphs_n2314, 0.002); end
+  def test_lever_graphs_o2314; assert_in_delta(0.05, worksheet.lever_graphs_o2314, 0.002); end
+  def test_lever_graphs_p2314; assert_in_delta(0.2, worksheet.lever_graphs_p2314, 0.002); end
+  def test_lever_graphs_q2314; assert_in_delta(0.2, worksheet.lever_graphs_q2314, 0.002); end
+  def test_lever_graphs_r2314; assert_in_delta(0.2, worksheet.lever_graphs_r2314, 0.002); end
+  def test_lever_graphs_s2314; assert_in_delta(0.09, worksheet.lever_graphs_s2314, 0.002); end
+  def test_lever_graphs_t2314; assert_in_delta(0.2, worksheet.lever_graphs_t2314, 0.002); end
+  def test_lever_graphs_u2314; assert_in_delta(0.2, worksheet.lever_graphs_u2314, 0.002); end
+  def test_lever_graphs_d2315; assert_equal("2050: Level 3", worksheet.lever_graphs_d2315); end
+  def test_lever_graphs_e2315; assert_in_delta(0.07, worksheet.lever_graphs_e2315, 0.002); end
+  def test_lever_graphs_f2315; assert_in_delta(0.0, (worksheet.lever_graphs_f2315||0), 0.002); end
+  def test_lever_graphs_g2315; assert_in_delta(0.0, (worksheet.lever_graphs_g2315||0), 0.002); end
+  def test_lever_graphs_h2315; assert_in_delta(0.0, (worksheet.lever_graphs_h2315||0), 0.002); end
+  def test_lever_graphs_i2315; assert_in_delta(0.05, worksheet.lever_graphs_i2315, 0.002); end
+  def test_lever_graphs_j2315; assert_in_delta(0.05, worksheet.lever_graphs_j2315, 0.002); end
+  def test_lever_graphs_k2315; assert_in_delta(0.05, worksheet.lever_graphs_k2315, 0.002); end
+  def test_lever_graphs_l2315; assert_in_delta(0.1, worksheet.lever_graphs_l2315, 0.002); end
+  def test_lever_graphs_m2315; assert_in_delta(0.15, worksheet.lever_graphs_m2315, 0.002); end
+  def test_lever_graphs_n2315; assert_in_delta(0.15, worksheet.lever_graphs_n2315, 0.002); end
+  def test_lever_graphs_o2315; assert_in_delta(0.1, worksheet.lever_graphs_o2315, 0.002); end
+  def test_lever_graphs_p2315; assert_in_delta(0.3, worksheet.lever_graphs_p2315, 0.002); end
+  def test_lever_graphs_q2315; assert_in_delta(0.3, worksheet.lever_graphs_q2315, 0.002); end
+  def test_lever_graphs_r2315; assert_in_delta(0.3, worksheet.lever_graphs_r2315, 0.002); end
+  def test_lever_graphs_s2315; assert_in_delta(0.18, worksheet.lever_graphs_s2315, 0.002); end
+  def test_lever_graphs_t2315; assert_in_delta(0.3, worksheet.lever_graphs_t2315, 0.002); end
+  def test_lever_graphs_u2315; assert_in_delta(0.3, worksheet.lever_graphs_u2315, 0.002); end
+  def test_lever_graphs_d2316; assert_equal("2050: Level 4", worksheet.lever_graphs_d2316); end
+  def test_lever_graphs_e2316; assert_in_delta(0.1, worksheet.lever_graphs_e2316, 0.002); end
+  def test_lever_graphs_f2316; assert_in_delta(0.0, (worksheet.lever_graphs_f2316||0), 0.002); end
+  def test_lever_graphs_g2316; assert_in_delta(0.0, (worksheet.lever_graphs_g2316||0), 0.002); end
+  def test_lever_graphs_h2316; assert_in_delta(0.0, (worksheet.lever_graphs_h2316||0), 0.002); end
+  def test_lever_graphs_i2316; assert_in_delta(0.1, worksheet.lever_graphs_i2316, 0.002); end
+  def test_lever_graphs_j2316; assert_in_delta(0.1, worksheet.lever_graphs_j2316, 0.002); end
+  def test_lever_graphs_k2316; assert_in_delta(0.1, worksheet.lever_graphs_k2316, 0.002); end
+  def test_lever_graphs_l2316; assert_in_delta(0.2, worksheet.lever_graphs_l2316, 0.002); end
+  def test_lever_graphs_m2316; assert_in_delta(0.3, worksheet.lever_graphs_m2316, 0.002); end
+  def test_lever_graphs_n2316; assert_in_delta(0.3, worksheet.lever_graphs_n2316, 0.002); end
+  def test_lever_graphs_o2316; assert_in_delta(0.2, worksheet.lever_graphs_o2316, 0.002); end
+  def test_lever_graphs_p2316; assert_in_delta(0.4, worksheet.lever_graphs_p2316, 0.002); end
+  def test_lever_graphs_q2316; assert_in_delta(0.4, worksheet.lever_graphs_q2316, 0.002); end
+  def test_lever_graphs_r2316; assert_in_delta(0.4, worksheet.lever_graphs_r2316, 0.002); end
+  def test_lever_graphs_s2316; assert_in_delta(0.3, worksheet.lever_graphs_s2316, 0.002); end
+  def test_lever_graphs_t2316; assert_in_delta(0.4, worksheet.lever_graphs_t2316, 0.002); end
+  def test_lever_graphs_u2316; assert_in_delta(0.4, worksheet.lever_graphs_u2316, 0.002); end
+  def test_lever_graphs_c2417; assert_equal("1975", worksheet.lever_graphs_c2417); end
+  def test_lever_graphs_d2417; assert_equal("1980", worksheet.lever_graphs_d2417); end
+  def test_lever_graphs_e2417; assert_equal("1985", worksheet.lever_graphs_e2417); end
+  def test_lever_graphs_f2417; assert_equal("1990", worksheet.lever_graphs_f2417); end
+  def test_lever_graphs_g2417; assert_equal("1995", worksheet.lever_graphs_g2417); end
+  def test_lever_graphs_h2417; assert_equal("2000", worksheet.lever_graphs_h2417); end
+  def test_lever_graphs_i2417; assert_equal("2005", worksheet.lever_graphs_i2417); end
+  def test_lever_graphs_j2417; assert_equal("2011", worksheet.lever_graphs_j2417); end
+  def test_lever_graphs_k2417; assert_equal("2015", worksheet.lever_graphs_k2417); end
+  def test_lever_graphs_l2417; assert_equal("2020", worksheet.lever_graphs_l2417); end
+  def test_lever_graphs_m2417; assert_equal("2025", worksheet.lever_graphs_m2417); end
+  def test_lever_graphs_n2417; assert_equal("2030", worksheet.lever_graphs_n2417); end
+  def test_lever_graphs_o2417; assert_equal("2035", worksheet.lever_graphs_o2417); end
+  def test_lever_graphs_p2417; assert_equal("2040", worksheet.lever_graphs_p2417); end
+  def test_lever_graphs_q2417; assert_equal("2045", worksheet.lever_graphs_q2417); end
+  def test_lever_graphs_r2417; assert_equal("2050", worksheet.lever_graphs_r2417); end
+  def test_lever_graphs_b2418; assert_equal("Historic data", worksheet.lever_graphs_b2418); end
+  def test_lever_graphs_b2419; assert_in_delta(1.0, worksheet.lever_graphs_b2419, 0.002); end
+  def test_lever_graphs_j2419; assert_in_delta(0.0, (worksheet.lever_graphs_j2419||0), 0.002); end
+  def test_lever_graphs_k2419; assert_in_delta(0.0, (worksheet.lever_graphs_k2419||0), 0.002); end
+  def test_lever_graphs_l2419; assert_in_delta(0.0, (worksheet.lever_graphs_l2419||0), 0.002); end
+  def test_lever_graphs_m2419; assert_in_delta(0.0, (worksheet.lever_graphs_m2419||0), 0.002); end
+  def test_lever_graphs_n2419; assert_in_delta(0.0, (worksheet.lever_graphs_n2419||0), 0.002); end
+  def test_lever_graphs_o2419; assert_in_delta(0.0, (worksheet.lever_graphs_o2419||0), 0.002); end
+  def test_lever_graphs_p2419; assert_in_delta(0.0, (worksheet.lever_graphs_p2419||0), 0.002); end
+  def test_lever_graphs_q2419; assert_in_delta(0.0, (worksheet.lever_graphs_q2419||0), 0.002); end
+  def test_lever_graphs_r2419; assert_in_delta(0.0, (worksheet.lever_graphs_r2419||0), 0.002); end
+  def test_lever_graphs_b2420; assert_in_epsilon(2.0, worksheet.lever_graphs_b2420, 0.002); end
+  def test_lever_graphs_j2420; assert_in_delta(0.0, (worksheet.lever_graphs_j2420||0), 0.002); end
+  def test_lever_graphs_k2420; assert_in_delta(0.002564102564102564, worksheet.lever_graphs_k2420, 0.002); end
+  def test_lever_graphs_l2420; assert_in_delta(0.0057692307692307696, worksheet.lever_graphs_l2420, 0.002); end
+  def test_lever_graphs_m2420; assert_in_delta(0.008974358974358974, worksheet.lever_graphs_m2420, 0.002); end
+  def test_lever_graphs_n2420; assert_in_delta(0.01217948717948718, worksheet.lever_graphs_n2420, 0.002); end
+  def test_lever_graphs_o2420; assert_in_delta(0.015384615384615385, worksheet.lever_graphs_o2420, 0.002); end
+  def test_lever_graphs_p2420; assert_in_delta(0.01858974358974359, worksheet.lever_graphs_p2420, 0.002); end
+  def test_lever_graphs_q2420; assert_in_delta(0.021794871794871794, worksheet.lever_graphs_q2420, 0.002); end
+  def test_lever_graphs_r2420; assert_in_delta(0.025, worksheet.lever_graphs_r2420, 0.002); end
+  def test_lever_graphs_b2421; assert_in_epsilon(3.0, worksheet.lever_graphs_b2421, 0.002); end
+  def test_lever_graphs_j2421; assert_in_delta(0.0, (worksheet.lever_graphs_j2421||0), 0.002); end
+  def test_lever_graphs_k2421; assert_in_delta(0.005128205128205128, worksheet.lever_graphs_k2421, 0.002); end
+  def test_lever_graphs_l2421; assert_in_delta(0.011538461538461539, worksheet.lever_graphs_l2421, 0.002); end
+  def test_lever_graphs_m2421; assert_in_delta(0.017948717948717947, worksheet.lever_graphs_m2421, 0.002); end
+  def test_lever_graphs_n2421; assert_in_delta(0.02435897435897436, worksheet.lever_graphs_n2421, 0.002); end
+  def test_lever_graphs_o2421; assert_in_delta(0.03076923076923077, worksheet.lever_graphs_o2421, 0.002); end
+  def test_lever_graphs_p2421; assert_in_delta(0.03717948717948718, worksheet.lever_graphs_p2421, 0.002); end
+  def test_lever_graphs_q2421; assert_in_delta(0.04358974358974359, worksheet.lever_graphs_q2421, 0.002); end
+  def test_lever_graphs_r2421; assert_in_delta(0.05, worksheet.lever_graphs_r2421, 0.002); end
+  def test_lever_graphs_b2422; assert_in_epsilon(4.0, worksheet.lever_graphs_b2422, 0.002); end
+  def test_lever_graphs_j2422; assert_in_delta(0.0, (worksheet.lever_graphs_j2422||0), 0.002); end
+  def test_lever_graphs_k2422; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2422, 0.002); end
+  def test_lever_graphs_l2422; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2422, 0.002); end
+  def test_lever_graphs_m2422; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2422, 0.002); end
+  def test_lever_graphs_n2422; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2422, 0.002); end
+  def test_lever_graphs_o2422; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2422, 0.002); end
+  def test_lever_graphs_p2422; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2422, 0.002); end
+  def test_lever_graphs_q2422; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2422, 0.002); end
+  def test_lever_graphs_r2422; assert_in_delta(0.1, worksheet.lever_graphs_r2422, 0.002); end
+  def test_lever_graphs_c2445; assert_equal("1975", worksheet.lever_graphs_c2445); end
+  def test_lever_graphs_d2445; assert_equal("1980", worksheet.lever_graphs_d2445); end
+  def test_lever_graphs_e2445; assert_equal("1985", worksheet.lever_graphs_e2445); end
+  def test_lever_graphs_f2445; assert_equal("1990", worksheet.lever_graphs_f2445); end
+  def test_lever_graphs_g2445; assert_equal("1995", worksheet.lever_graphs_g2445); end
+  def test_lever_graphs_h2445; assert_equal("2000", worksheet.lever_graphs_h2445); end
+  def test_lever_graphs_i2445; assert_equal("2005", worksheet.lever_graphs_i2445); end
+  def test_lever_graphs_j2445; assert_equal("2011", worksheet.lever_graphs_j2445); end
+  def test_lever_graphs_k2445; assert_equal("2015", worksheet.lever_graphs_k2445); end
+  def test_lever_graphs_l2445; assert_equal("2020", worksheet.lever_graphs_l2445); end
+  def test_lever_graphs_m2445; assert_equal("2025", worksheet.lever_graphs_m2445); end
+  def test_lever_graphs_n2445; assert_equal("2030", worksheet.lever_graphs_n2445); end
+  def test_lever_graphs_o2445; assert_equal("2035", worksheet.lever_graphs_o2445); end
+  def test_lever_graphs_p2445; assert_equal("2040", worksheet.lever_graphs_p2445); end
+  def test_lever_graphs_q2445; assert_equal("2045", worksheet.lever_graphs_q2445); end
+  def test_lever_graphs_r2445; assert_equal("2050", worksheet.lever_graphs_r2445); end
+  def test_lever_graphs_b2446; assert_equal("Historic data", worksheet.lever_graphs_b2446); end
+  def test_lever_graphs_b2447; assert_in_delta(1.0, worksheet.lever_graphs_b2447, 0.002); end
+  def test_lever_graphs_j2447; assert_in_delta(0.0, (worksheet.lever_graphs_j2447||0), 0.002); end
+  def test_lever_graphs_k2447; assert_in_delta(0.0, (worksheet.lever_graphs_k2447||0), 0.002); end
+  def test_lever_graphs_l2447; assert_in_delta(0.0, (worksheet.lever_graphs_l2447||0), 0.002); end
+  def test_lever_graphs_m2447; assert_in_delta(0.0, (worksheet.lever_graphs_m2447||0), 0.002); end
+  def test_lever_graphs_n2447; assert_in_delta(0.0, (worksheet.lever_graphs_n2447||0), 0.002); end
+  def test_lever_graphs_o2447; assert_in_delta(0.0, (worksheet.lever_graphs_o2447||0), 0.002); end
+  def test_lever_graphs_p2447; assert_in_delta(0.0, (worksheet.lever_graphs_p2447||0), 0.002); end
+  def test_lever_graphs_q2447; assert_in_delta(0.0, (worksheet.lever_graphs_q2447||0), 0.002); end
+  def test_lever_graphs_r2447; assert_in_delta(0.0, (worksheet.lever_graphs_r2447||0), 0.002); end
+  def test_lever_graphs_b2448; assert_in_epsilon(2.0, worksheet.lever_graphs_b2448, 0.002); end
+  def test_lever_graphs_j2448; assert_in_delta(0.0, (worksheet.lever_graphs_j2448||0), 0.002); end
+  def test_lever_graphs_k2448; assert_in_delta(0.005128205128205128, worksheet.lever_graphs_k2448, 0.002); end
+  def test_lever_graphs_l2448; assert_in_delta(0.011538461538461539, worksheet.lever_graphs_l2448, 0.002); end
+  def test_lever_graphs_m2448; assert_in_delta(0.017948717948717947, worksheet.lever_graphs_m2448, 0.002); end
+  def test_lever_graphs_n2448; assert_in_delta(0.02435897435897436, worksheet.lever_graphs_n2448, 0.002); end
+  def test_lever_graphs_o2448; assert_in_delta(0.03076923076923077, worksheet.lever_graphs_o2448, 0.002); end
+  def test_lever_graphs_p2448; assert_in_delta(0.03717948717948718, worksheet.lever_graphs_p2448, 0.002); end
+  def test_lever_graphs_q2448; assert_in_delta(0.04358974358974359, worksheet.lever_graphs_q2448, 0.002); end
+  def test_lever_graphs_r2448; assert_in_delta(0.05, worksheet.lever_graphs_r2448, 0.002); end
+  def test_lever_graphs_b2449; assert_in_epsilon(3.0, worksheet.lever_graphs_b2449, 0.002); end
+  def test_lever_graphs_j2449; assert_in_delta(0.0, (worksheet.lever_graphs_j2449||0), 0.002); end
+  def test_lever_graphs_k2449; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2449, 0.002); end
+  def test_lever_graphs_l2449; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2449, 0.002); end
+  def test_lever_graphs_m2449; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2449, 0.002); end
+  def test_lever_graphs_n2449; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2449, 0.002); end
+  def test_lever_graphs_o2449; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2449, 0.002); end
+  def test_lever_graphs_p2449; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2449, 0.002); end
+  def test_lever_graphs_q2449; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2449, 0.002); end
+  def test_lever_graphs_r2449; assert_in_delta(0.1, worksheet.lever_graphs_r2449, 0.002); end
+  def test_lever_graphs_b2450; assert_in_epsilon(4.0, worksheet.lever_graphs_b2450, 0.002); end
+  def test_lever_graphs_j2450; assert_in_delta(0.0, (worksheet.lever_graphs_j2450||0), 0.002); end
+  def test_lever_graphs_k2450; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2450, 0.002); end
+  def test_lever_graphs_l2450; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2450, 0.002); end
+  def test_lever_graphs_m2450; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2450, 0.002); end
+  def test_lever_graphs_n2450; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2450, 0.002); end
+  def test_lever_graphs_o2450; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2450, 0.002); end
+  def test_lever_graphs_p2450; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2450, 0.002); end
+  def test_lever_graphs_q2450; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2450, 0.002); end
+  def test_lever_graphs_r2450; assert_in_delta(0.2, worksheet.lever_graphs_r2450, 0.002); end
+  def test_lever_graphs_c2483; assert_equal("1975", worksheet.lever_graphs_c2483); end
+  def test_lever_graphs_d2483; assert_equal("1980", worksheet.lever_graphs_d2483); end
+  def test_lever_graphs_e2483; assert_equal("1985", worksheet.lever_graphs_e2483); end
+  def test_lever_graphs_f2483; assert_equal("1990", worksheet.lever_graphs_f2483); end
+  def test_lever_graphs_g2483; assert_equal("1995", worksheet.lever_graphs_g2483); end
+  def test_lever_graphs_h2483; assert_equal("2000", worksheet.lever_graphs_h2483); end
+  def test_lever_graphs_i2483; assert_equal("2005", worksheet.lever_graphs_i2483); end
+  def test_lever_graphs_j2483; assert_equal("2011", worksheet.lever_graphs_j2483); end
+  def test_lever_graphs_k2483; assert_equal("2015", worksheet.lever_graphs_k2483); end
+  def test_lever_graphs_l2483; assert_equal("2020", worksheet.lever_graphs_l2483); end
+  def test_lever_graphs_m2483; assert_equal("2025", worksheet.lever_graphs_m2483); end
+  def test_lever_graphs_n2483; assert_equal("2030", worksheet.lever_graphs_n2483); end
+  def test_lever_graphs_o2483; assert_equal("2035", worksheet.lever_graphs_o2483); end
+  def test_lever_graphs_p2483; assert_equal("2040", worksheet.lever_graphs_p2483); end
+  def test_lever_graphs_q2483; assert_equal("2045", worksheet.lever_graphs_q2483); end
+  def test_lever_graphs_r2483; assert_equal("2050", worksheet.lever_graphs_r2483); end
+  def test_lever_graphs_b2484; assert_equal("Historic data", worksheet.lever_graphs_b2484); end
+  def test_lever_graphs_b2485; assert_in_delta(1.0, worksheet.lever_graphs_b2485, 0.002); end
+  def test_lever_graphs_j2485; assert_in_delta(0.0, (worksheet.lever_graphs_j2485||0), 0.002); end
+  def test_lever_graphs_k2485; assert_in_delta(0.0, (worksheet.lever_graphs_k2485||0), 0.002); end
+  def test_lever_graphs_l2485; assert_in_delta(0.0, (worksheet.lever_graphs_l2485||0), 0.002); end
+  def test_lever_graphs_m2485; assert_in_delta(0.0, (worksheet.lever_graphs_m2485||0), 0.002); end
+  def test_lever_graphs_n2485; assert_in_delta(0.0, (worksheet.lever_graphs_n2485||0), 0.002); end
+  def test_lever_graphs_o2485; assert_in_delta(0.0, (worksheet.lever_graphs_o2485||0), 0.002); end
+  def test_lever_graphs_p2485; assert_in_delta(0.0, (worksheet.lever_graphs_p2485||0), 0.002); end
+  def test_lever_graphs_q2485; assert_in_delta(0.0, (worksheet.lever_graphs_q2485||0), 0.002); end
+  def test_lever_graphs_r2485; assert_in_delta(0.0, (worksheet.lever_graphs_r2485||0), 0.002); end
+  def test_lever_graphs_b2486; assert_in_epsilon(2.0, worksheet.lever_graphs_b2486, 0.002); end
+  def test_lever_graphs_j2486; assert_in_delta(0.0, (worksheet.lever_graphs_j2486||0), 0.002); end
+  def test_lever_graphs_k2486; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2486, 0.002); end
+  def test_lever_graphs_l2486; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2486, 0.002); end
+  def test_lever_graphs_m2486; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2486, 0.002); end
+  def test_lever_graphs_n2486; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2486, 0.002); end
+  def test_lever_graphs_o2486; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2486, 0.002); end
+  def test_lever_graphs_p2486; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2486, 0.002); end
+  def test_lever_graphs_q2486; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2486, 0.002); end
+  def test_lever_graphs_r2486; assert_in_delta(0.2, worksheet.lever_graphs_r2486, 0.002); end
+  def test_lever_graphs_b2487; assert_in_epsilon(3.0, worksheet.lever_graphs_b2487, 0.002); end
+  def test_lever_graphs_j2487; assert_in_delta(0.0, (worksheet.lever_graphs_j2487||0), 0.002); end
+  def test_lever_graphs_k2487; assert_in_delta(0.030769230769230767, worksheet.lever_graphs_k2487, 0.002); end
+  def test_lever_graphs_l2487; assert_in_delta(0.06923076923076922, worksheet.lever_graphs_l2487, 0.002); end
+  def test_lever_graphs_m2487; assert_in_delta(0.10769230769230768, worksheet.lever_graphs_m2487, 0.002); end
+  def test_lever_graphs_n2487; assert_in_delta(0.14615384615384613, worksheet.lever_graphs_n2487, 0.002); end
+  def test_lever_graphs_o2487; assert_in_delta(0.1846153846153846, worksheet.lever_graphs_o2487, 0.002); end
+  def test_lever_graphs_p2487; assert_in_delta(0.22307692307692306, worksheet.lever_graphs_p2487, 0.002); end
+  def test_lever_graphs_q2487; assert_in_delta(0.2615384615384615, worksheet.lever_graphs_q2487, 0.002); end
+  def test_lever_graphs_r2487; assert_in_delta(0.3, worksheet.lever_graphs_r2487, 0.002); end
+  def test_lever_graphs_b2488; assert_in_epsilon(4.0, worksheet.lever_graphs_b2488, 0.002); end
+  def test_lever_graphs_j2488; assert_in_delta(0.0, (worksheet.lever_graphs_j2488||0), 0.002); end
+  def test_lever_graphs_k2488; assert_in_delta(0.041025641025641026, worksheet.lever_graphs_k2488, 0.002); end
+  def test_lever_graphs_l2488; assert_in_delta(0.09230769230769231, worksheet.lever_graphs_l2488, 0.002); end
+  def test_lever_graphs_m2488; assert_in_delta(0.14358974358974358, worksheet.lever_graphs_m2488, 0.002); end
+  def test_lever_graphs_n2488; assert_in_delta(0.19487179487179487, worksheet.lever_graphs_n2488, 0.002); end
+  def test_lever_graphs_o2488; assert_in_delta(0.24615384615384617, worksheet.lever_graphs_o2488, 0.002); end
+  def test_lever_graphs_p2488; assert_in_delta(0.29743589743589743, worksheet.lever_graphs_p2488, 0.002); end
+  def test_lever_graphs_q2488; assert_in_delta(0.3487179487179487, worksheet.lever_graphs_q2488, 0.002); end
+  def test_lever_graphs_r2488; assert_in_delta(0.4, worksheet.lever_graphs_r2488, 0.002); end
+  def test_lever_graphs_c2473; assert_equal("1975", worksheet.lever_graphs_c2473); end
+  def test_lever_graphs_d2473; assert_equal("1980", worksheet.lever_graphs_d2473); end
+  def test_lever_graphs_e2473; assert_equal("1985", worksheet.lever_graphs_e2473); end
+  def test_lever_graphs_f2473; assert_equal("1990", worksheet.lever_graphs_f2473); end
+  def test_lever_graphs_g2473; assert_equal("1995", worksheet.lever_graphs_g2473); end
+  def test_lever_graphs_h2473; assert_equal("2000", worksheet.lever_graphs_h2473); end
+  def test_lever_graphs_i2473; assert_equal("2005", worksheet.lever_graphs_i2473); end
+  def test_lever_graphs_j2473; assert_equal("2011", worksheet.lever_graphs_j2473); end
+  def test_lever_graphs_k2473; assert_equal("2015", worksheet.lever_graphs_k2473); end
+  def test_lever_graphs_l2473; assert_equal("2020", worksheet.lever_graphs_l2473); end
+  def test_lever_graphs_m2473; assert_equal("2025", worksheet.lever_graphs_m2473); end
+  def test_lever_graphs_n2473; assert_equal("2030", worksheet.lever_graphs_n2473); end
+  def test_lever_graphs_o2473; assert_equal("2035", worksheet.lever_graphs_o2473); end
+  def test_lever_graphs_p2473; assert_equal("2040", worksheet.lever_graphs_p2473); end
+  def test_lever_graphs_q2473; assert_equal("2045", worksheet.lever_graphs_q2473); end
+  def test_lever_graphs_r2473; assert_equal("2050", worksheet.lever_graphs_r2473); end
+  def test_lever_graphs_b2474; assert_equal("Historic data", worksheet.lever_graphs_b2474); end
+  def test_lever_graphs_b2475; assert_in_delta(1.0, worksheet.lever_graphs_b2475, 0.002); end
+  def test_lever_graphs_j2475; assert_in_delta(0.0, (worksheet.lever_graphs_j2475||0), 0.002); end
+  def test_lever_graphs_k2475; assert_in_delta(0.0, (worksheet.lever_graphs_k2475||0), 0.002); end
+  def test_lever_graphs_l2475; assert_in_delta(0.0, (worksheet.lever_graphs_l2475||0), 0.002); end
+  def test_lever_graphs_m2475; assert_in_delta(0.0, (worksheet.lever_graphs_m2475||0), 0.002); end
+  def test_lever_graphs_n2475; assert_in_delta(0.0, (worksheet.lever_graphs_n2475||0), 0.002); end
+  def test_lever_graphs_o2475; assert_in_delta(0.0, (worksheet.lever_graphs_o2475||0), 0.002); end
+  def test_lever_graphs_p2475; assert_in_delta(0.0, (worksheet.lever_graphs_p2475||0), 0.002); end
+  def test_lever_graphs_q2475; assert_in_delta(0.0, (worksheet.lever_graphs_q2475||0), 0.002); end
+  def test_lever_graphs_r2475; assert_in_delta(0.0, (worksheet.lever_graphs_r2475||0), 0.002); end
+  def test_lever_graphs_b2476; assert_in_epsilon(2.0, worksheet.lever_graphs_b2476, 0.002); end
+  def test_lever_graphs_j2476; assert_in_delta(0.0, (worksheet.lever_graphs_j2476||0), 0.002); end
+  def test_lever_graphs_k2476; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2476, 0.002); end
+  def test_lever_graphs_l2476; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2476, 0.002); end
+  def test_lever_graphs_m2476; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2476, 0.002); end
+  def test_lever_graphs_n2476; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2476, 0.002); end
+  def test_lever_graphs_o2476; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2476, 0.002); end
+  def test_lever_graphs_p2476; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2476, 0.002); end
+  def test_lever_graphs_q2476; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2476, 0.002); end
+  def test_lever_graphs_r2476; assert_in_delta(0.2, worksheet.lever_graphs_r2476, 0.002); end
+  def test_lever_graphs_b2477; assert_in_epsilon(3.0, worksheet.lever_graphs_b2477, 0.002); end
+  def test_lever_graphs_j2477; assert_in_delta(0.0, (worksheet.lever_graphs_j2477||0), 0.002); end
+  def test_lever_graphs_k2477; assert_in_delta(0.030769230769230767, worksheet.lever_graphs_k2477, 0.002); end
+  def test_lever_graphs_l2477; assert_in_delta(0.06923076923076922, worksheet.lever_graphs_l2477, 0.002); end
+  def test_lever_graphs_m2477; assert_in_delta(0.10769230769230768, worksheet.lever_graphs_m2477, 0.002); end
+  def test_lever_graphs_n2477; assert_in_delta(0.14615384615384613, worksheet.lever_graphs_n2477, 0.002); end
+  def test_lever_graphs_o2477; assert_in_delta(0.1846153846153846, worksheet.lever_graphs_o2477, 0.002); end
+  def test_lever_graphs_p2477; assert_in_delta(0.22307692307692306, worksheet.lever_graphs_p2477, 0.002); end
+  def test_lever_graphs_q2477; assert_in_delta(0.2615384615384615, worksheet.lever_graphs_q2477, 0.002); end
+  def test_lever_graphs_r2477; assert_in_delta(0.3, worksheet.lever_graphs_r2477, 0.002); end
+  def test_lever_graphs_b2478; assert_in_epsilon(4.0, worksheet.lever_graphs_b2478, 0.002); end
+  def test_lever_graphs_j2478; assert_in_delta(0.0, (worksheet.lever_graphs_j2478||0), 0.002); end
+  def test_lever_graphs_k2478; assert_in_delta(0.041025641025641026, worksheet.lever_graphs_k2478, 0.002); end
+  def test_lever_graphs_l2478; assert_in_delta(0.09230769230769231, worksheet.lever_graphs_l2478, 0.002); end
+  def test_lever_graphs_m2478; assert_in_delta(0.14358974358974358, worksheet.lever_graphs_m2478, 0.002); end
+  def test_lever_graphs_n2478; assert_in_delta(0.19487179487179487, worksheet.lever_graphs_n2478, 0.002); end
+  def test_lever_graphs_o2478; assert_in_delta(0.24615384615384617, worksheet.lever_graphs_o2478, 0.002); end
+  def test_lever_graphs_p2478; assert_in_delta(0.29743589743589743, worksheet.lever_graphs_p2478, 0.002); end
+  def test_lever_graphs_q2478; assert_in_delta(0.3487179487179487, worksheet.lever_graphs_q2478, 0.002); end
+  def test_lever_graphs_r2478; assert_in_delta(0.4, worksheet.lever_graphs_r2478, 0.002); end
+  def test_lever_graphs_c2407; assert_equal("1975", worksheet.lever_graphs_c2407); end
+  def test_lever_graphs_d2407; assert_equal("1980", worksheet.lever_graphs_d2407); end
+  def test_lever_graphs_e2407; assert_equal("1985", worksheet.lever_graphs_e2407); end
+  def test_lever_graphs_f2407; assert_equal("1990", worksheet.lever_graphs_f2407); end
+  def test_lever_graphs_g2407; assert_equal("1995", worksheet.lever_graphs_g2407); end
+  def test_lever_graphs_h2407; assert_equal("2000", worksheet.lever_graphs_h2407); end
+  def test_lever_graphs_i2407; assert_equal("2005", worksheet.lever_graphs_i2407); end
+  def test_lever_graphs_j2407; assert_equal("2011", worksheet.lever_graphs_j2407); end
+  def test_lever_graphs_k2407; assert_equal("2015", worksheet.lever_graphs_k2407); end
+  def test_lever_graphs_l2407; assert_equal("2020", worksheet.lever_graphs_l2407); end
+  def test_lever_graphs_m2407; assert_equal("2025", worksheet.lever_graphs_m2407); end
+  def test_lever_graphs_n2407; assert_equal("2030", worksheet.lever_graphs_n2407); end
+  def test_lever_graphs_o2407; assert_equal("2035", worksheet.lever_graphs_o2407); end
+  def test_lever_graphs_p2407; assert_equal("2040", worksheet.lever_graphs_p2407); end
+  def test_lever_graphs_q2407; assert_equal("2045", worksheet.lever_graphs_q2407); end
+  def test_lever_graphs_r2407; assert_equal("2050", worksheet.lever_graphs_r2407); end
+  def test_lever_graphs_b2408; assert_equal("Historic data", worksheet.lever_graphs_b2408); end
+  def test_lever_graphs_b2409; assert_in_delta(1.0, worksheet.lever_graphs_b2409, 0.002); end
+  def test_lever_graphs_j2409; assert_in_delta(0.0, (worksheet.lever_graphs_j2409||0), 0.002); end
+  def test_lever_graphs_k2409; assert_in_delta(0.0, (worksheet.lever_graphs_k2409||0), 0.002); end
+  def test_lever_graphs_l2409; assert_in_delta(0.0, (worksheet.lever_graphs_l2409||0), 0.002); end
+  def test_lever_graphs_m2409; assert_in_delta(0.0, (worksheet.lever_graphs_m2409||0), 0.002); end
+  def test_lever_graphs_n2409; assert_in_delta(0.0, (worksheet.lever_graphs_n2409||0), 0.002); end
+  def test_lever_graphs_o2409; assert_in_delta(0.0, (worksheet.lever_graphs_o2409||0), 0.002); end
+  def test_lever_graphs_p2409; assert_in_delta(0.0, (worksheet.lever_graphs_p2409||0), 0.002); end
+  def test_lever_graphs_q2409; assert_in_delta(0.0, (worksheet.lever_graphs_q2409||0), 0.002); end
+  def test_lever_graphs_r2409; assert_in_delta(0.0, (worksheet.lever_graphs_r2409||0), 0.002); end
+  def test_lever_graphs_b2410; assert_in_epsilon(2.0, worksheet.lever_graphs_b2410, 0.002); end
+  def test_lever_graphs_j2410; assert_in_delta(0.0, (worksheet.lever_graphs_j2410||0), 0.002); end
+  def test_lever_graphs_k2410; assert_in_delta(0.005128205128205128, worksheet.lever_graphs_k2410, 0.002); end
+  def test_lever_graphs_l2410; assert_in_delta(0.011538461538461539, worksheet.lever_graphs_l2410, 0.002); end
+  def test_lever_graphs_m2410; assert_in_delta(0.017948717948717947, worksheet.lever_graphs_m2410, 0.002); end
+  def test_lever_graphs_n2410; assert_in_delta(0.02435897435897436, worksheet.lever_graphs_n2410, 0.002); end
+  def test_lever_graphs_o2410; assert_in_delta(0.03076923076923077, worksheet.lever_graphs_o2410, 0.002); end
+  def test_lever_graphs_p2410; assert_in_delta(0.03717948717948718, worksheet.lever_graphs_p2410, 0.002); end
+  def test_lever_graphs_q2410; assert_in_delta(0.04358974358974359, worksheet.lever_graphs_q2410, 0.002); end
+  def test_lever_graphs_r2410; assert_in_delta(0.05, worksheet.lever_graphs_r2410, 0.002); end
+  def test_lever_graphs_b2411; assert_in_epsilon(3.0, worksheet.lever_graphs_b2411, 0.002); end
+  def test_lever_graphs_j2411; assert_in_delta(0.0, (worksheet.lever_graphs_j2411||0), 0.002); end
+  def test_lever_graphs_k2411; assert_in_delta(0.00717948717948718, worksheet.lever_graphs_k2411, 0.002); end
+  def test_lever_graphs_l2411; assert_in_delta(0.016153846153846158, worksheet.lever_graphs_l2411, 0.002); end
+  def test_lever_graphs_m2411; assert_in_delta(0.02512820512820513, worksheet.lever_graphs_m2411, 0.002); end
+  def test_lever_graphs_n2411; assert_in_delta(0.034102564102564105, worksheet.lever_graphs_n2411, 0.002); end
+  def test_lever_graphs_o2411; assert_in_delta(0.04307692307692308, worksheet.lever_graphs_o2411, 0.002); end
+  def test_lever_graphs_p2411; assert_in_delta(0.05205128205128206, worksheet.lever_graphs_p2411, 0.002); end
+  def test_lever_graphs_q2411; assert_in_delta(0.061025641025641036, worksheet.lever_graphs_q2411, 0.002); end
+  def test_lever_graphs_r2411; assert_in_delta(0.07, worksheet.lever_graphs_r2411, 0.002); end
+  def test_lever_graphs_b2412; assert_in_epsilon(4.0, worksheet.lever_graphs_b2412, 0.002); end
+  def test_lever_graphs_j2412; assert_in_delta(0.0, (worksheet.lever_graphs_j2412||0), 0.002); end
+  def test_lever_graphs_k2412; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2412, 0.002); end
+  def test_lever_graphs_l2412; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2412, 0.002); end
+  def test_lever_graphs_m2412; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2412, 0.002); end
+  def test_lever_graphs_n2412; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2412, 0.002); end
+  def test_lever_graphs_o2412; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2412, 0.002); end
+  def test_lever_graphs_p2412; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2412, 0.002); end
+  def test_lever_graphs_q2412; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2412, 0.002); end
+  def test_lever_graphs_r2412; assert_in_delta(0.1, worksheet.lever_graphs_r2412, 0.002); end
+  def test_lever_graphs_c2386; assert_equal("1975", worksheet.lever_graphs_c2386); end
+  def test_lever_graphs_d2386; assert_equal("1980", worksheet.lever_graphs_d2386); end
+  def test_lever_graphs_e2386; assert_equal("1985", worksheet.lever_graphs_e2386); end
+  def test_lever_graphs_f2386; assert_equal("1990", worksheet.lever_graphs_f2386); end
+  def test_lever_graphs_g2386; assert_equal("1995", worksheet.lever_graphs_g2386); end
+  def test_lever_graphs_h2386; assert_equal("2000", worksheet.lever_graphs_h2386); end
+  def test_lever_graphs_i2386; assert_equal("2005", worksheet.lever_graphs_i2386); end
+  def test_lever_graphs_j2386; assert_equal("2011", worksheet.lever_graphs_j2386); end
+  def test_lever_graphs_k2386; assert_equal("2015", worksheet.lever_graphs_k2386); end
+  def test_lever_graphs_l2386; assert_equal("2020", worksheet.lever_graphs_l2386); end
+  def test_lever_graphs_m2386; assert_equal("2025", worksheet.lever_graphs_m2386); end
+  def test_lever_graphs_n2386; assert_equal("2030", worksheet.lever_graphs_n2386); end
+  def test_lever_graphs_o2386; assert_equal("2035", worksheet.lever_graphs_o2386); end
+  def test_lever_graphs_p2386; assert_equal("2040", worksheet.lever_graphs_p2386); end
+  def test_lever_graphs_q2386; assert_equal("2045", worksheet.lever_graphs_q2386); end
+  def test_lever_graphs_r2386; assert_equal("2050", worksheet.lever_graphs_r2386); end
+  def test_lever_graphs_b2387; assert_equal("Historic data", worksheet.lever_graphs_b2387); end
+  def test_lever_graphs_b2388; assert_in_delta(1.0, worksheet.lever_graphs_b2388, 0.002); end
+  def test_lever_graphs_j2388; assert_in_delta(0.0, (worksheet.lever_graphs_j2388||0), 0.002); end
+  def test_lever_graphs_k2388; assert_in_delta(0.0, (worksheet.lever_graphs_k2388||0), 0.002); end
+  def test_lever_graphs_l2388; assert_in_delta(0.0, (worksheet.lever_graphs_l2388||0), 0.002); end
+  def test_lever_graphs_m2388; assert_in_delta(0.0, (worksheet.lever_graphs_m2388||0), 0.002); end
+  def test_lever_graphs_n2388; assert_in_delta(0.0, (worksheet.lever_graphs_n2388||0), 0.002); end
+  def test_lever_graphs_o2388; assert_in_delta(0.0, (worksheet.lever_graphs_o2388||0), 0.002); end
+  def test_lever_graphs_p2388; assert_in_delta(0.0, (worksheet.lever_graphs_p2388||0), 0.002); end
+  def test_lever_graphs_q2388; assert_in_delta(0.0, (worksheet.lever_graphs_q2388||0), 0.002); end
+  def test_lever_graphs_r2388; assert_in_delta(0.0, (worksheet.lever_graphs_r2388||0), 0.002); end
+  def test_lever_graphs_b2389; assert_in_epsilon(2.0, worksheet.lever_graphs_b2389, 0.002); end
+  def test_lever_graphs_j2389; assert_in_delta(0.0, (worksheet.lever_graphs_j2389||0), 0.002); end
+  def test_lever_graphs_k2389; assert_in_delta(0.0038461538461538464, worksheet.lever_graphs_k2389, 0.002); end
+  def test_lever_graphs_l2389; assert_in_delta(0.008653846153846154, worksheet.lever_graphs_l2389, 0.002); end
+  def test_lever_graphs_m2389; assert_in_delta(0.01346153846153846, worksheet.lever_graphs_m2389, 0.002); end
+  def test_lever_graphs_n2389; assert_in_delta(0.01826923076923077, worksheet.lever_graphs_n2389, 0.002); end
+  def test_lever_graphs_o2389; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_o2389, 0.002); end
+  def test_lever_graphs_p2389; assert_in_delta(0.027884615384615383, worksheet.lever_graphs_p2389, 0.002); end
+  def test_lever_graphs_q2389; assert_in_delta(0.03269230769230769, worksheet.lever_graphs_q2389, 0.002); end
+  def test_lever_graphs_r2389; assert_in_delta(0.037500000000000006, worksheet.lever_graphs_r2389, 0.002); end
+  def test_lever_graphs_b2390; assert_in_epsilon(3.0, worksheet.lever_graphs_b2390, 0.002); end
+  def test_lever_graphs_j2390; assert_in_delta(0.0, (worksheet.lever_graphs_j2390||0), 0.002); end
+  def test_lever_graphs_k2390; assert_in_delta(0.006153846153846154, worksheet.lever_graphs_k2390, 0.002); end
+  def test_lever_graphs_l2390; assert_in_delta(0.013846153846153848, worksheet.lever_graphs_l2390, 0.002); end
+  def test_lever_graphs_m2390; assert_in_delta(0.02153846153846154, worksheet.lever_graphs_m2390, 0.002); end
+  def test_lever_graphs_n2390; assert_in_delta(0.029230769230769234, worksheet.lever_graphs_n2390, 0.002); end
+  def test_lever_graphs_o2390; assert_in_delta(0.036923076923076927, worksheet.lever_graphs_o2390, 0.002); end
+  def test_lever_graphs_p2390; assert_in_delta(0.04461538461538462, worksheet.lever_graphs_p2390, 0.002); end
+  def test_lever_graphs_q2390; assert_in_delta(0.05230769230769231, worksheet.lever_graphs_q2390, 0.002); end
+  def test_lever_graphs_r2390; assert_in_delta(0.060000000000000005, worksheet.lever_graphs_r2390, 0.002); end
+  def test_lever_graphs_b2391; assert_in_epsilon(4.0, worksheet.lever_graphs_b2391, 0.002); end
+  def test_lever_graphs_j2391; assert_in_delta(0.0, (worksheet.lever_graphs_j2391||0), 0.002); end
+  def test_lever_graphs_k2391; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2391, 0.002); end
+  def test_lever_graphs_l2391; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2391, 0.002); end
+  def test_lever_graphs_m2391; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2391, 0.002); end
+  def test_lever_graphs_n2391; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2391, 0.002); end
+  def test_lever_graphs_o2391; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2391, 0.002); end
+  def test_lever_graphs_p2391; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2391, 0.002); end
+  def test_lever_graphs_q2391; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2391, 0.002); end
+  def test_lever_graphs_r2391; assert_in_delta(0.1, worksheet.lever_graphs_r2391, 0.002); end
+  def test_lever_graphs_c2057; assert_equal("1975", worksheet.lever_graphs_c2057); end
+  def test_lever_graphs_d2057; assert_equal("1980", worksheet.lever_graphs_d2057); end
+  def test_lever_graphs_e2057; assert_equal("1985", worksheet.lever_graphs_e2057); end
+  def test_lever_graphs_f2057; assert_equal("1990", worksheet.lever_graphs_f2057); end
+  def test_lever_graphs_g2057; assert_equal("1995", worksheet.lever_graphs_g2057); end
+  def test_lever_graphs_h2057; assert_equal("2000", worksheet.lever_graphs_h2057); end
+  def test_lever_graphs_i2057; assert_equal("2005", worksheet.lever_graphs_i2057); end
+  def test_lever_graphs_j2057; assert_equal("2011", worksheet.lever_graphs_j2057); end
+  def test_lever_graphs_k2057; assert_equal("2015", worksheet.lever_graphs_k2057); end
+  def test_lever_graphs_l2057; assert_equal("2020", worksheet.lever_graphs_l2057); end
+  def test_lever_graphs_m2057; assert_equal("2025", worksheet.lever_graphs_m2057); end
+  def test_lever_graphs_n2057; assert_equal("2030", worksheet.lever_graphs_n2057); end
+  def test_lever_graphs_o2057; assert_equal("2035", worksheet.lever_graphs_o2057); end
+  def test_lever_graphs_p2057; assert_equal("2040", worksheet.lever_graphs_p2057); end
+  def test_lever_graphs_q2057; assert_equal("2045", worksheet.lever_graphs_q2057); end
+  def test_lever_graphs_r2057; assert_equal("2050", worksheet.lever_graphs_r2057); end
+  def test_lever_graphs_b2058; assert_equal("Historic data", worksheet.lever_graphs_b2058); end
+  def test_lever_graphs_b2059; assert_in_delta(1.0, worksheet.lever_graphs_b2059, 0.002); end
+  def test_lever_graphs_j2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_j2059, 0.002); end
+  def test_lever_graphs_k2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_k2059, 0.002); end
+  def test_lever_graphs_l2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_l2059, 0.002); end
+  def test_lever_graphs_m2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_m2059, 0.002); end
+  def test_lever_graphs_n2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_n2059, 0.002); end
+  def test_lever_graphs_o2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_o2059, 0.002); end
+  def test_lever_graphs_p2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_p2059, 0.002); end
+  def test_lever_graphs_q2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_q2059, 0.002); end
+  def test_lever_graphs_r2059; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_r2059, 0.002); end
+  def test_lever_graphs_b2060; assert_in_epsilon(2.0, worksheet.lever_graphs_b2060, 0.002); end
+  def test_lever_graphs_j2060; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_j2060, 0.002); end
+  def test_lever_graphs_k2060; assert_in_epsilon(12.58733212950103, worksheet.lever_graphs_k2060, 0.002); end
+  def test_lever_graphs_l2060; assert_in_epsilon(12.747069846880484, worksheet.lever_graphs_l2060, 0.002); end
+  def test_lever_graphs_m2060; assert_in_epsilon(12.906807564259939, worksheet.lever_graphs_m2060, 0.002); end
+  def test_lever_graphs_n2060; assert_in_epsilon(13.066545281639394, worksheet.lever_graphs_n2060, 0.002); end
+  def test_lever_graphs_o2060; assert_in_epsilon(13.22628299901885, worksheet.lever_graphs_o2060, 0.002); end
+  def test_lever_graphs_p2060; assert_in_epsilon(13.386020716398303, worksheet.lever_graphs_p2060, 0.002); end
+  def test_lever_graphs_q2060; assert_in_epsilon(13.545758433777758, worksheet.lever_graphs_q2060, 0.002); end
+  def test_lever_graphs_r2060; assert_in_epsilon(13.705496151157213, worksheet.lever_graphs_r2060, 0.002); end
+  def test_lever_graphs_b2061; assert_in_epsilon(3.0, worksheet.lever_graphs_b2061, 0.002); end
+  def test_lever_graphs_j2061; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_j2061, 0.002); end
+  def test_lever_graphs_k2061; assert_in_epsilon(12.715122303404593, worksheet.lever_graphs_k2061, 0.002); end
+  def test_lever_graphs_l2061; assert_in_epsilon(13.034597738163502, worksheet.lever_graphs_l2061, 0.002); end
+  def test_lever_graphs_m2061; assert_in_epsilon(13.354073172922412, worksheet.lever_graphs_m2061, 0.002); end
+  def test_lever_graphs_n2061; assert_in_epsilon(13.67354860768132, worksheet.lever_graphs_n2061, 0.002); end
+  def test_lever_graphs_o2061; assert_in_epsilon(13.993024042440231, worksheet.lever_graphs_o2061, 0.002); end
+  def test_lever_graphs_p2061; assert_in_epsilon(14.31249947719914, worksheet.lever_graphs_p2061, 0.002); end
+  def test_lever_graphs_q2061; assert_in_epsilon(14.63197491195805, worksheet.lever_graphs_q2061, 0.002); end
+  def test_lever_graphs_r2061; assert_in_epsilon(14.951450346716959, worksheet.lever_graphs_r2061, 0.002); end
+  def test_lever_graphs_b2062; assert_in_epsilon(4.0, worksheet.lever_graphs_b2062, 0.002); end
+  def test_lever_graphs_j2062; assert_in_epsilon(12.459541955597466, worksheet.lever_graphs_j2062, 0.002); end
+  def test_lever_graphs_k2062; assert_in_epsilon(12.842912477308158, worksheet.lever_graphs_k2062, 0.002); end
+  def test_lever_graphs_l2062; assert_in_epsilon(13.322125629446521, worksheet.lever_graphs_l2062, 0.002); end
+  def test_lever_graphs_m2062; assert_in_epsilon(13.801338781584885, worksheet.lever_graphs_m2062, 0.002); end
+  def test_lever_graphs_n2062; assert_in_epsilon(14.28055193372325, worksheet.lever_graphs_n2062, 0.002); end
+  def test_lever_graphs_o2062; assert_in_epsilon(14.759765085861615, worksheet.lever_graphs_o2062, 0.002); end
+  def test_lever_graphs_p2062; assert_in_epsilon(15.238978237999978, worksheet.lever_graphs_p2062, 0.002); end
+  def test_lever_graphs_q2062; assert_in_epsilon(15.718191390138344, worksheet.lever_graphs_q2062, 0.002); end
+  def test_lever_graphs_r2062; assert_in_epsilon(16.197404542276708, worksheet.lever_graphs_r2062, 0.002); end
+  def test_lever_graphs_c2067; assert_equal("1975", worksheet.lever_graphs_c2067); end
+  def test_lever_graphs_d2067; assert_equal("1980", worksheet.lever_graphs_d2067); end
+  def test_lever_graphs_e2067; assert_equal("1985", worksheet.lever_graphs_e2067); end
+  def test_lever_graphs_f2067; assert_equal("1990", worksheet.lever_graphs_f2067); end
+  def test_lever_graphs_g2067; assert_equal("1995", worksheet.lever_graphs_g2067); end
+  def test_lever_graphs_h2067; assert_equal("2000", worksheet.lever_graphs_h2067); end
+  def test_lever_graphs_i2067; assert_equal("2005", worksheet.lever_graphs_i2067); end
+  def test_lever_graphs_j2067; assert_equal("2011", worksheet.lever_graphs_j2067); end
+  def test_lever_graphs_k2067; assert_equal("2015", worksheet.lever_graphs_k2067); end
+  def test_lever_graphs_l2067; assert_equal("2020", worksheet.lever_graphs_l2067); end
+  def test_lever_graphs_m2067; assert_equal("2025", worksheet.lever_graphs_m2067); end
+  def test_lever_graphs_n2067; assert_equal("2030", worksheet.lever_graphs_n2067); end
+  def test_lever_graphs_o2067; assert_equal("2035", worksheet.lever_graphs_o2067); end
+  def test_lever_graphs_p2067; assert_equal("2040", worksheet.lever_graphs_p2067); end
+  def test_lever_graphs_q2067; assert_equal("2045", worksheet.lever_graphs_q2067); end
+  def test_lever_graphs_r2067; assert_equal("2050", worksheet.lever_graphs_r2067); end
+  def test_lever_graphs_b2068; assert_equal("Historic data", worksheet.lever_graphs_b2068); end
+  def test_lever_graphs_b2069; assert_in_delta(1.0, worksheet.lever_graphs_b2069, 0.002); end
+  def test_lever_graphs_j2069; assert_in_epsilon(7.0, worksheet.lever_graphs_j2069, 0.002); end
+  def test_lever_graphs_k2069; assert_in_epsilon(6.794871794871795, worksheet.lever_graphs_k2069, 0.002); end
+  def test_lever_graphs_l2069; assert_in_epsilon(6.538461538461538, worksheet.lever_graphs_l2069, 0.002); end
+  def test_lever_graphs_m2069; assert_in_epsilon(6.282051282051282, worksheet.lever_graphs_m2069, 0.002); end
+  def test_lever_graphs_n2069; assert_in_epsilon(6.0256410256410255, worksheet.lever_graphs_n2069, 0.002); end
+  def test_lever_graphs_o2069; assert_in_epsilon(5.769230769230769, worksheet.lever_graphs_o2069, 0.002); end
+  def test_lever_graphs_p2069; assert_in_epsilon(5.512820512820513, worksheet.lever_graphs_p2069, 0.002); end
+  def test_lever_graphs_q2069; assert_in_epsilon(5.256410256410256, worksheet.lever_graphs_q2069, 0.002); end
+  def test_lever_graphs_r2069; assert_in_epsilon(5.0, worksheet.lever_graphs_r2069, 0.002); end
+  def test_lever_graphs_b2070; assert_in_epsilon(2.0, worksheet.lever_graphs_b2070, 0.002); end
+  def test_lever_graphs_j2070; assert_in_epsilon(7.0, worksheet.lever_graphs_j2070, 0.002); end
+  def test_lever_graphs_k2070; assert_in_epsilon(7.0, worksheet.lever_graphs_k2070, 0.002); end
+  def test_lever_graphs_l2070; assert_in_epsilon(7.0, worksheet.lever_graphs_l2070, 0.002); end
+  def test_lever_graphs_m2070; assert_in_epsilon(7.0, worksheet.lever_graphs_m2070, 0.002); end
+  def test_lever_graphs_n2070; assert_in_epsilon(7.0, worksheet.lever_graphs_n2070, 0.002); end
+  def test_lever_graphs_o2070; assert_in_epsilon(7.0, worksheet.lever_graphs_o2070, 0.002); end
+  def test_lever_graphs_p2070; assert_in_epsilon(7.0, worksheet.lever_graphs_p2070, 0.002); end
+  def test_lever_graphs_q2070; assert_in_epsilon(7.0, worksheet.lever_graphs_q2070, 0.002); end
+  def test_lever_graphs_r2070; assert_in_epsilon(7.0, worksheet.lever_graphs_r2070, 0.002); end
+  def test_lever_graphs_b2071; assert_in_epsilon(3.0, worksheet.lever_graphs_b2071, 0.002); end
+  def test_lever_graphs_j2071; assert_in_epsilon(7.0, worksheet.lever_graphs_j2071, 0.002); end
+  def test_lever_graphs_k2071; assert_in_epsilon(7.3076923076923075, worksheet.lever_graphs_k2071, 0.002); end
+  def test_lever_graphs_l2071; assert_in_epsilon(7.6923076923076925, worksheet.lever_graphs_l2071, 0.002); end
+  def test_lever_graphs_m2071; assert_in_epsilon(8.076923076923077, worksheet.lever_graphs_m2071, 0.002); end
+  def test_lever_graphs_n2071; assert_in_epsilon(8.461538461538462, worksheet.lever_graphs_n2071, 0.002); end
+  def test_lever_graphs_o2071; assert_in_epsilon(8.846153846153847, worksheet.lever_graphs_o2071, 0.002); end
+  def test_lever_graphs_p2071; assert_in_epsilon(9.23076923076923, worksheet.lever_graphs_p2071, 0.002); end
+  def test_lever_graphs_q2071; assert_in_epsilon(9.615384615384615, worksheet.lever_graphs_q2071, 0.002); end
+  def test_lever_graphs_r2071; assert_in_epsilon(10.0, worksheet.lever_graphs_r2071, 0.002); end
+  def test_lever_graphs_b2072; assert_in_epsilon(4.0, worksheet.lever_graphs_b2072, 0.002); end
+  def test_lever_graphs_j2072; assert_in_epsilon(7.0, worksheet.lever_graphs_j2072, 0.002); end
+  def test_lever_graphs_k2072; assert_in_epsilon(7.82051282051282, worksheet.lever_graphs_k2072, 0.002); end
+  def test_lever_graphs_l2072; assert_in_epsilon(8.846153846153847, worksheet.lever_graphs_l2072, 0.002); end
+  def test_lever_graphs_m2072; assert_in_epsilon(9.871794871794872, worksheet.lever_graphs_m2072, 0.002); end
+  def test_lever_graphs_n2072; assert_in_epsilon(10.897435897435898, worksheet.lever_graphs_n2072, 0.002); end
+  def test_lever_graphs_o2072; assert_in_epsilon(11.923076923076923, worksheet.lever_graphs_o2072, 0.002); end
+  def test_lever_graphs_p2072; assert_in_epsilon(12.948717948717949, worksheet.lever_graphs_p2072, 0.002); end
+  def test_lever_graphs_q2072; assert_in_epsilon(13.974358974358974, worksheet.lever_graphs_q2072, 0.002); end
+  def test_lever_graphs_r2072; assert_in_epsilon(15.0, worksheet.lever_graphs_r2072, 0.002); end
+  def test_lever_graphs_d2335; assert_equal("Title", worksheet.lever_graphs_d2335); end
+  def test_lever_graphs_e2335; assert_equal("Material switch for Steel Materials demand per product", worksheet.lever_graphs_e2335); end
+  def test_lever_graphs_d2336; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2336, 0.002); end
+  def test_lever_graphs_e2336; assert_in_delta(0.0, (worksheet.lever_graphs_e2336||0), 0.002); end
+  def test_lever_graphs_d2337; assert_equal("2050: Level 1", worksheet.lever_graphs_d2337); end
+  def test_lever_graphs_e2337; assert_in_delta(0.0, (worksheet.lever_graphs_e2337||0), 0.002); end
+  def test_lever_graphs_d2338; assert_equal("2050: Level 2", worksheet.lever_graphs_d2338); end
+  def test_lever_graphs_e2338; assert_in_delta(0.005, worksheet.lever_graphs_e2338, 0.002); end
+  def test_lever_graphs_d2339; assert_equal("2050: Level 3", worksheet.lever_graphs_d2339); end
+  def test_lever_graphs_e2339; assert_in_delta(0.01, worksheet.lever_graphs_e2339, 0.002); end
+  def test_lever_graphs_d2340; assert_equal("2050: Level 4", worksheet.lever_graphs_d2340); end
+  def test_lever_graphs_e2340; assert_in_delta(0.02, worksheet.lever_graphs_e2340, 0.002); end
+  def test_lever_graphs_d2346; assert_equal("Title", worksheet.lever_graphs_d2346); end
+  def test_lever_graphs_e2346; assert_equal("Material switch for Steel Materials demand per product", worksheet.lever_graphs_e2346); end
+  def test_lever_graphs_f2346; assert_equal("Material switch for Cement Materials demand per product", worksheet.lever_graphs_f2346); end
+  def test_lever_graphs_d2347; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2347, 0.002); end
+  def test_lever_graphs_e2347; assert_in_delta(0.0, (worksheet.lever_graphs_e2347||0), 0.002); end
+  def test_lever_graphs_f2347; assert_in_delta(0.0, (worksheet.lever_graphs_f2347||0), 0.002); end
+  def test_lever_graphs_d2348; assert_equal("2050: Level 1", worksheet.lever_graphs_d2348); end
+  def test_lever_graphs_e2348; assert_in_delta(0.0, (worksheet.lever_graphs_e2348||0), 0.002); end
+  def test_lever_graphs_f2348; assert_in_delta(0.0, (worksheet.lever_graphs_f2348||0), 0.002); end
+  def test_lever_graphs_d2349; assert_equal("2050: Level 2", worksheet.lever_graphs_d2349); end
+  def test_lever_graphs_e2349; assert_in_delta(0.0025, worksheet.lever_graphs_e2349, 0.002); end
+  def test_lever_graphs_f2349; assert_in_delta(0.0125, worksheet.lever_graphs_f2349, 0.002); end
+  def test_lever_graphs_d2350; assert_equal("2050: Level 3", worksheet.lever_graphs_d2350); end
+  def test_lever_graphs_e2350; assert_in_delta(0.005, worksheet.lever_graphs_e2350, 0.002); end
+  def test_lever_graphs_f2350; assert_in_delta(0.025, worksheet.lever_graphs_f2350, 0.002); end
+  def test_lever_graphs_d2351; assert_equal("2050: Level 4", worksheet.lever_graphs_d2351); end
+  def test_lever_graphs_e2351; assert_in_delta(0.01, worksheet.lever_graphs_e2351, 0.002); end
+  def test_lever_graphs_f2351; assert_in_delta(0.05, worksheet.lever_graphs_f2351, 0.002); end
+  def test_lever_graphs_d2324; assert_equal("Title", worksheet.lever_graphs_d2324); end
+  def test_lever_graphs_e2324; assert_equal("Material switch for Steel Materials demand per product", worksheet.lever_graphs_e2324); end
+  def test_lever_graphs_f2324; assert_equal("Material switch for Cement Materials demand per product", worksheet.lever_graphs_f2324); end
+  def test_lever_graphs_d2325; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2325, 0.002); end
+  def test_lever_graphs_e2325; assert_in_delta(0.0, (worksheet.lever_graphs_e2325||0), 0.002); end
+  def test_lever_graphs_f2325; assert_in_delta(0.0, (worksheet.lever_graphs_f2325||0), 0.002); end
+  def test_lever_graphs_d2326; assert_equal("2050: Level 1", worksheet.lever_graphs_d2326); end
+  def test_lever_graphs_e2326; assert_in_delta(0.0, (worksheet.lever_graphs_e2326||0), 0.002); end
+  def test_lever_graphs_f2326; assert_in_delta(0.0, (worksheet.lever_graphs_f2326||0), 0.002); end
+  def test_lever_graphs_d2327; assert_equal("2050: Level 2", worksheet.lever_graphs_d2327); end
+  def test_lever_graphs_e2327; assert_in_delta(0.0175, worksheet.lever_graphs_e2327, 0.002); end
+  def test_lever_graphs_f2327; assert_in_delta(0.04, worksheet.lever_graphs_f2327, 0.002); end
+  def test_lever_graphs_d2328; assert_equal("2050: Level 3", worksheet.lever_graphs_d2328); end
+  def test_lever_graphs_e2328; assert_in_delta(0.035, worksheet.lever_graphs_e2328, 0.002); end
+  def test_lever_graphs_f2328; assert_in_delta(0.08, worksheet.lever_graphs_f2328, 0.002); end
+  def test_lever_graphs_d2329; assert_equal("2050: Level 4", worksheet.lever_graphs_d2329); end
+  def test_lever_graphs_e2329; assert_in_delta(0.07, worksheet.lever_graphs_e2329, 0.002); end
+  def test_lever_graphs_f2329; assert_in_delta(0.16, worksheet.lever_graphs_f2329, 0.002); end
+  def test_lever_graphs_c2521; assert_equal("1975", worksheet.lever_graphs_c2521); end
+  def test_lever_graphs_d2521; assert_equal("1980", worksheet.lever_graphs_d2521); end
+  def test_lever_graphs_e2521; assert_equal("1985", worksheet.lever_graphs_e2521); end
+  def test_lever_graphs_f2521; assert_equal("1990", worksheet.lever_graphs_f2521); end
+  def test_lever_graphs_g2521; assert_equal("1995", worksheet.lever_graphs_g2521); end
+  def test_lever_graphs_h2521; assert_equal("2000", worksheet.lever_graphs_h2521); end
+  def test_lever_graphs_i2521; assert_equal("2005", worksheet.lever_graphs_i2521); end
+  def test_lever_graphs_j2521; assert_equal("2011", worksheet.lever_graphs_j2521); end
+  def test_lever_graphs_k2521; assert_equal("2015", worksheet.lever_graphs_k2521); end
+  def test_lever_graphs_l2521; assert_equal("2020", worksheet.lever_graphs_l2521); end
+  def test_lever_graphs_m2521; assert_equal("2025", worksheet.lever_graphs_m2521); end
+  def test_lever_graphs_n2521; assert_equal("2030", worksheet.lever_graphs_n2521); end
+  def test_lever_graphs_o2521; assert_equal("2035", worksheet.lever_graphs_o2521); end
+  def test_lever_graphs_p2521; assert_equal("2040", worksheet.lever_graphs_p2521); end
+  def test_lever_graphs_q2521; assert_equal("2045", worksheet.lever_graphs_q2521); end
+  def test_lever_graphs_r2521; assert_equal("2050", worksheet.lever_graphs_r2521); end
+  def test_lever_graphs_b2522; assert_equal("Historic data", worksheet.lever_graphs_b2522); end
+  def test_lever_graphs_b2523; assert_in_delta(1.0, worksheet.lever_graphs_b2523, 0.002); end
+  def test_lever_graphs_j2523; assert_in_delta(0.0, (worksheet.lever_graphs_j2523||0), 0.002); end
+  def test_lever_graphs_k2523; assert_in_delta(0.0, (worksheet.lever_graphs_k2523||0), 0.002); end
+  def test_lever_graphs_l2523; assert_in_delta(0.0, (worksheet.lever_graphs_l2523||0), 0.002); end
+  def test_lever_graphs_m2523; assert_in_delta(0.0, (worksheet.lever_graphs_m2523||0), 0.002); end
+  def test_lever_graphs_n2523; assert_in_delta(0.0, (worksheet.lever_graphs_n2523||0), 0.002); end
+  def test_lever_graphs_o2523; assert_in_delta(0.0, (worksheet.lever_graphs_o2523||0), 0.002); end
+  def test_lever_graphs_p2523; assert_in_delta(0.0, (worksheet.lever_graphs_p2523||0), 0.002); end
+  def test_lever_graphs_q2523; assert_in_delta(0.0, (worksheet.lever_graphs_q2523||0), 0.002); end
+  def test_lever_graphs_r2523; assert_in_delta(0.0, (worksheet.lever_graphs_r2523||0), 0.002); end
+  def test_lever_graphs_b2524; assert_in_epsilon(2.0, worksheet.lever_graphs_b2524, 0.002); end
+  def test_lever_graphs_j2524; assert_in_delta(0.0, (worksheet.lever_graphs_j2524||0), 0.002); end
+  def test_lever_graphs_k2524; assert_in_delta(0.00427350427350427, worksheet.lever_graphs_k2524, 0.002); end
+  def test_lever_graphs_l2524; assert_in_delta(0.009615384615384607, worksheet.lever_graphs_l2524, 0.002); end
+  def test_lever_graphs_m2524; assert_in_delta(0.014957264957264944, worksheet.lever_graphs_m2524, 0.002); end
+  def test_lever_graphs_n2524; assert_in_delta(0.02029914529914528, worksheet.lever_graphs_n2524, 0.002); end
+  def test_lever_graphs_o2524; assert_in_delta(0.02564102564102562, worksheet.lever_graphs_o2524, 0.002); end
+  def test_lever_graphs_p2524; assert_in_delta(0.030982905982905956, worksheet.lever_graphs_p2524, 0.002); end
+  def test_lever_graphs_q2524; assert_in_delta(0.03632478632478629, worksheet.lever_graphs_q2524, 0.002); end
+  def test_lever_graphs_r2524; assert_in_delta(0.04166666666666663, worksheet.lever_graphs_r2524, 0.002); end
+  def test_lever_graphs_b2525; assert_in_epsilon(3.0, worksheet.lever_graphs_b2525, 0.002); end
+  def test_lever_graphs_j2525; assert_in_delta(0.0, (worksheet.lever_graphs_j2525||0), 0.002); end
+  def test_lever_graphs_k2525; assert_in_delta(0.008547008547008546, worksheet.lever_graphs_k2525, 0.002); end
+  def test_lever_graphs_l2525; assert_in_delta(0.01923076923076923, worksheet.lever_graphs_l2525, 0.002); end
+  def test_lever_graphs_m2525; assert_in_delta(0.029914529914529912, worksheet.lever_graphs_m2525, 0.002); end
+  def test_lever_graphs_n2525; assert_in_delta(0.04059829059829059, worksheet.lever_graphs_n2525, 0.002); end
+  def test_lever_graphs_o2525; assert_in_delta(0.05128205128205128, worksheet.lever_graphs_o2525, 0.002); end
+  def test_lever_graphs_p2525; assert_in_delta(0.06196581196581196, worksheet.lever_graphs_p2525, 0.002); end
+  def test_lever_graphs_q2525; assert_in_delta(0.07264957264957264, worksheet.lever_graphs_q2525, 0.002); end
+  def test_lever_graphs_r2525; assert_in_delta(0.08333333333333333, worksheet.lever_graphs_r2525, 0.002); end
+  def test_lever_graphs_b2526; assert_in_epsilon(4.0, worksheet.lever_graphs_b2526, 0.002); end
+  def test_lever_graphs_j2526; assert_in_delta(0.0, (worksheet.lever_graphs_j2526||0), 0.002); end
+  def test_lever_graphs_k2526; assert_in_delta(0.08831908831908833, worksheet.lever_graphs_k2526, 0.002); end
+  def test_lever_graphs_l2526; assert_in_delta(0.19871794871794873, worksheet.lever_graphs_l2526, 0.002); end
+  def test_lever_graphs_m2526; assert_in_delta(0.30911680911680917, worksheet.lever_graphs_m2526, 0.002); end
+  def test_lever_graphs_n2526; assert_in_delta(0.41951566951566954, worksheet.lever_graphs_n2526, 0.002); end
+  def test_lever_graphs_o2526; assert_in_delta(0.52991452991453, worksheet.lever_graphs_o2526, 0.002); end
+  def test_lever_graphs_p2526; assert_in_delta(0.6403133903133904, worksheet.lever_graphs_p2526, 0.002); end
+  def test_lever_graphs_q2526; assert_in_delta(0.7507122507122508, worksheet.lever_graphs_q2526, 0.002); end
+  def test_lever_graphs_r2526; assert_in_delta(0.8611111111111112, worksheet.lever_graphs_r2526, 0.002); end
+  def test_lever_graphs_c2455; assert_equal("1975", worksheet.lever_graphs_c2455); end
+  def test_lever_graphs_d2455; assert_equal("1980", worksheet.lever_graphs_d2455); end
+  def test_lever_graphs_e2455; assert_equal("1985", worksheet.lever_graphs_e2455); end
+  def test_lever_graphs_f2455; assert_equal("1990", worksheet.lever_graphs_f2455); end
+  def test_lever_graphs_g2455; assert_equal("1995", worksheet.lever_graphs_g2455); end
+  def test_lever_graphs_h2455; assert_equal("2000", worksheet.lever_graphs_h2455); end
+  def test_lever_graphs_i2455; assert_equal("2005", worksheet.lever_graphs_i2455); end
+  def test_lever_graphs_j2455; assert_equal("2011", worksheet.lever_graphs_j2455); end
+  def test_lever_graphs_k2455; assert_equal("2015", worksheet.lever_graphs_k2455); end
+  def test_lever_graphs_l2455; assert_equal("2020", worksheet.lever_graphs_l2455); end
+  def test_lever_graphs_m2455; assert_equal("2025", worksheet.lever_graphs_m2455); end
+  def test_lever_graphs_n2455; assert_equal("2030", worksheet.lever_graphs_n2455); end
+  def test_lever_graphs_o2455; assert_equal("2035", worksheet.lever_graphs_o2455); end
+  def test_lever_graphs_p2455; assert_equal("2040", worksheet.lever_graphs_p2455); end
+  def test_lever_graphs_q2455; assert_equal("2045", worksheet.lever_graphs_q2455); end
+  def test_lever_graphs_r2455; assert_equal("2050", worksheet.lever_graphs_r2455); end
+  def test_lever_graphs_b2456; assert_equal("Historic data", worksheet.lever_graphs_b2456); end
+  def test_lever_graphs_b2457; assert_in_delta(1.0, worksheet.lever_graphs_b2457, 0.002); end
+  def test_lever_graphs_j2457; assert_in_delta(0.0, (worksheet.lever_graphs_j2457||0), 0.002); end
+  def test_lever_graphs_k2457; assert_in_delta(0.0, (worksheet.lever_graphs_k2457||0), 0.002); end
+  def test_lever_graphs_l2457; assert_in_delta(0.0, (worksheet.lever_graphs_l2457||0), 0.002); end
+  def test_lever_graphs_m2457; assert_in_delta(0.0, (worksheet.lever_graphs_m2457||0), 0.002); end
+  def test_lever_graphs_n2457; assert_in_delta(0.0, (worksheet.lever_graphs_n2457||0), 0.002); end
+  def test_lever_graphs_o2457; assert_in_delta(0.0, (worksheet.lever_graphs_o2457||0), 0.002); end
+  def test_lever_graphs_p2457; assert_in_delta(0.0, (worksheet.lever_graphs_p2457||0), 0.002); end
+  def test_lever_graphs_q2457; assert_in_delta(0.0, (worksheet.lever_graphs_q2457||0), 0.002); end
+  def test_lever_graphs_r2457; assert_in_delta(0.0, (worksheet.lever_graphs_r2457||0), 0.002); end
+  def test_lever_graphs_b2458; assert_in_epsilon(2.0, worksheet.lever_graphs_b2458, 0.002); end
+  def test_lever_graphs_j2458; assert_in_delta(0.0, (worksheet.lever_graphs_j2458||0), 0.002); end
+  def test_lever_graphs_k2458; assert_in_delta(0.005128205128205128, worksheet.lever_graphs_k2458, 0.002); end
+  def test_lever_graphs_l2458; assert_in_delta(0.011538461538461539, worksheet.lever_graphs_l2458, 0.002); end
+  def test_lever_graphs_m2458; assert_in_delta(0.017948717948717947, worksheet.lever_graphs_m2458, 0.002); end
+  def test_lever_graphs_n2458; assert_in_delta(0.02435897435897436, worksheet.lever_graphs_n2458, 0.002); end
+  def test_lever_graphs_o2458; assert_in_delta(0.03076923076923077, worksheet.lever_graphs_o2458, 0.002); end
+  def test_lever_graphs_p2458; assert_in_delta(0.03717948717948718, worksheet.lever_graphs_p2458, 0.002); end
+  def test_lever_graphs_q2458; assert_in_delta(0.04358974358974359, worksheet.lever_graphs_q2458, 0.002); end
+  def test_lever_graphs_r2458; assert_in_delta(0.05, worksheet.lever_graphs_r2458, 0.002); end
+  def test_lever_graphs_b2459; assert_in_epsilon(3.0, worksheet.lever_graphs_b2459, 0.002); end
+  def test_lever_graphs_j2459; assert_in_delta(0.0, (worksheet.lever_graphs_j2459||0), 0.002); end
+  def test_lever_graphs_k2459; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2459, 0.002); end
+  def test_lever_graphs_l2459; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2459, 0.002); end
+  def test_lever_graphs_m2459; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2459, 0.002); end
+  def test_lever_graphs_n2459; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2459, 0.002); end
+  def test_lever_graphs_o2459; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2459, 0.002); end
+  def test_lever_graphs_p2459; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2459, 0.002); end
+  def test_lever_graphs_q2459; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2459, 0.002); end
+  def test_lever_graphs_r2459; assert_in_delta(0.1, worksheet.lever_graphs_r2459, 0.002); end
+  def test_lever_graphs_b2460; assert_in_epsilon(4.0, worksheet.lever_graphs_b2460, 0.002); end
+  def test_lever_graphs_j2460; assert_in_delta(0.0, (worksheet.lever_graphs_j2460||0), 0.002); end
+  def test_lever_graphs_k2460; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2460, 0.002); end
+  def test_lever_graphs_l2460; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2460, 0.002); end
+  def test_lever_graphs_m2460; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2460, 0.002); end
+  def test_lever_graphs_n2460; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2460, 0.002); end
+  def test_lever_graphs_o2460; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2460, 0.002); end
+  def test_lever_graphs_p2460; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2460, 0.002); end
+  def test_lever_graphs_q2460; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2460, 0.002); end
+  def test_lever_graphs_r2460; assert_in_delta(0.2, worksheet.lever_graphs_r2460, 0.002); end
+  def test_lever_graphs_c2493; assert_equal("1975", worksheet.lever_graphs_c2493); end
+  def test_lever_graphs_d2493; assert_equal("1980", worksheet.lever_graphs_d2493); end
+  def test_lever_graphs_e2493; assert_equal("1985", worksheet.lever_graphs_e2493); end
+  def test_lever_graphs_f2493; assert_equal("1990", worksheet.lever_graphs_f2493); end
+  def test_lever_graphs_g2493; assert_equal("1995", worksheet.lever_graphs_g2493); end
+  def test_lever_graphs_h2493; assert_equal("2000", worksheet.lever_graphs_h2493); end
+  def test_lever_graphs_i2493; assert_equal("2005", worksheet.lever_graphs_i2493); end
+  def test_lever_graphs_j2493; assert_equal("2011", worksheet.lever_graphs_j2493); end
+  def test_lever_graphs_k2493; assert_equal("2015", worksheet.lever_graphs_k2493); end
+  def test_lever_graphs_l2493; assert_equal("2020", worksheet.lever_graphs_l2493); end
+  def test_lever_graphs_m2493; assert_equal("2025", worksheet.lever_graphs_m2493); end
+  def test_lever_graphs_n2493; assert_equal("2030", worksheet.lever_graphs_n2493); end
+  def test_lever_graphs_o2493; assert_equal("2035", worksheet.lever_graphs_o2493); end
+  def test_lever_graphs_p2493; assert_equal("2040", worksheet.lever_graphs_p2493); end
+  def test_lever_graphs_q2493; assert_equal("2045", worksheet.lever_graphs_q2493); end
+  def test_lever_graphs_r2493; assert_equal("2050", worksheet.lever_graphs_r2493); end
+  def test_lever_graphs_b2494; assert_equal("Historic data", worksheet.lever_graphs_b2494); end
+  def test_lever_graphs_b2495; assert_in_delta(1.0, worksheet.lever_graphs_b2495, 0.002); end
+  def test_lever_graphs_j2495; assert_in_delta(0.0, (worksheet.lever_graphs_j2495||0), 0.002); end
+  def test_lever_graphs_k2495; assert_in_delta(0.0, (worksheet.lever_graphs_k2495||0), 0.002); end
+  def test_lever_graphs_l2495; assert_in_delta(0.0, (worksheet.lever_graphs_l2495||0), 0.002); end
+  def test_lever_graphs_m2495; assert_in_delta(0.0, (worksheet.lever_graphs_m2495||0), 0.002); end
+  def test_lever_graphs_n2495; assert_in_delta(0.0, (worksheet.lever_graphs_n2495||0), 0.002); end
+  def test_lever_graphs_o2495; assert_in_delta(0.0, (worksheet.lever_graphs_o2495||0), 0.002); end
+  def test_lever_graphs_p2495; assert_in_delta(0.0, (worksheet.lever_graphs_p2495||0), 0.002); end
+  def test_lever_graphs_q2495; assert_in_delta(0.0, (worksheet.lever_graphs_q2495||0), 0.002); end
+  def test_lever_graphs_r2495; assert_in_delta(0.0, (worksheet.lever_graphs_r2495||0), 0.002); end
+  def test_lever_graphs_b2496; assert_in_epsilon(2.0, worksheet.lever_graphs_b2496, 0.002); end
+  def test_lever_graphs_j2496; assert_in_delta(0.0, (worksheet.lever_graphs_j2496||0), 0.002); end
+  def test_lever_graphs_k2496; assert_in_delta(0.005128205128205128, worksheet.lever_graphs_k2496, 0.002); end
+  def test_lever_graphs_l2496; assert_in_delta(0.011538461538461539, worksheet.lever_graphs_l2496, 0.002); end
+  def test_lever_graphs_m2496; assert_in_delta(0.017948717948717947, worksheet.lever_graphs_m2496, 0.002); end
+  def test_lever_graphs_n2496; assert_in_delta(0.02435897435897436, worksheet.lever_graphs_n2496, 0.002); end
+  def test_lever_graphs_o2496; assert_in_delta(0.03076923076923077, worksheet.lever_graphs_o2496, 0.002); end
+  def test_lever_graphs_p2496; assert_in_delta(0.03717948717948718, worksheet.lever_graphs_p2496, 0.002); end
+  def test_lever_graphs_q2496; assert_in_delta(0.04358974358974359, worksheet.lever_graphs_q2496, 0.002); end
+  def test_lever_graphs_r2496; assert_in_delta(0.05, worksheet.lever_graphs_r2496, 0.002); end
+  def test_lever_graphs_b2497; assert_in_epsilon(3.0, worksheet.lever_graphs_b2497, 0.002); end
+  def test_lever_graphs_j2497; assert_in_delta(0.0, (worksheet.lever_graphs_j2497||0), 0.002); end
+  def test_lever_graphs_k2497; assert_in_delta(0.010256410256410256, worksheet.lever_graphs_k2497, 0.002); end
+  def test_lever_graphs_l2497; assert_in_delta(0.023076923076923078, worksheet.lever_graphs_l2497, 0.002); end
+  def test_lever_graphs_m2497; assert_in_delta(0.035897435897435895, worksheet.lever_graphs_m2497, 0.002); end
+  def test_lever_graphs_n2497; assert_in_delta(0.04871794871794872, worksheet.lever_graphs_n2497, 0.002); end
+  def test_lever_graphs_o2497; assert_in_delta(0.06153846153846154, worksheet.lever_graphs_o2497, 0.002); end
+  def test_lever_graphs_p2497; assert_in_delta(0.07435897435897436, worksheet.lever_graphs_p2497, 0.002); end
+  def test_lever_graphs_q2497; assert_in_delta(0.08717948717948718, worksheet.lever_graphs_q2497, 0.002); end
+  def test_lever_graphs_r2497; assert_in_delta(0.1, worksheet.lever_graphs_r2497, 0.002); end
+  def test_lever_graphs_b2498; assert_in_epsilon(4.0, worksheet.lever_graphs_b2498, 0.002); end
+  def test_lever_graphs_j2498; assert_in_delta(0.0, (worksheet.lever_graphs_j2498||0), 0.002); end
+  def test_lever_graphs_k2498; assert_in_delta(0.020512820512820513, worksheet.lever_graphs_k2498, 0.002); end
+  def test_lever_graphs_l2498; assert_in_delta(0.046153846153846156, worksheet.lever_graphs_l2498, 0.002); end
+  def test_lever_graphs_m2498; assert_in_delta(0.07179487179487179, worksheet.lever_graphs_m2498, 0.002); end
+  def test_lever_graphs_n2498; assert_in_delta(0.09743589743589744, worksheet.lever_graphs_n2498, 0.002); end
+  def test_lever_graphs_o2498; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_o2498, 0.002); end
+  def test_lever_graphs_p2498; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_p2498, 0.002); end
+  def test_lever_graphs_q2498; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_q2498, 0.002); end
+  def test_lever_graphs_r2498; assert_in_delta(0.2, worksheet.lever_graphs_r2498, 0.002); end
+  def test_lever_graphs_c2396; assert_equal("1975", worksheet.lever_graphs_c2396); end
+  def test_lever_graphs_d2396; assert_equal("1980", worksheet.lever_graphs_d2396); end
+  def test_lever_graphs_e2396; assert_equal("1985", worksheet.lever_graphs_e2396); end
+  def test_lever_graphs_f2396; assert_equal("1990", worksheet.lever_graphs_f2396); end
+  def test_lever_graphs_g2396; assert_equal("1995", worksheet.lever_graphs_g2396); end
+  def test_lever_graphs_h2396; assert_equal("2000", worksheet.lever_graphs_h2396); end
+  def test_lever_graphs_i2396; assert_equal("2005", worksheet.lever_graphs_i2396); end
+  def test_lever_graphs_j2396; assert_equal("2011", worksheet.lever_graphs_j2396); end
+  def test_lever_graphs_k2396; assert_equal("2015", worksheet.lever_graphs_k2396); end
+  def test_lever_graphs_l2396; assert_equal("2020", worksheet.lever_graphs_l2396); end
+  def test_lever_graphs_m2396; assert_equal("2025", worksheet.lever_graphs_m2396); end
+  def test_lever_graphs_n2396; assert_equal("2030", worksheet.lever_graphs_n2396); end
+  def test_lever_graphs_o2396; assert_equal("2035", worksheet.lever_graphs_o2396); end
+  def test_lever_graphs_p2396; assert_equal("2040", worksheet.lever_graphs_p2396); end
+  def test_lever_graphs_q2396; assert_equal("2045", worksheet.lever_graphs_q2396); end
+  def test_lever_graphs_r2396; assert_equal("2050", worksheet.lever_graphs_r2396); end
+  def test_lever_graphs_b2397; assert_equal("Historic data", worksheet.lever_graphs_b2397); end
+  def test_lever_graphs_b2398; assert_in_delta(1.0, worksheet.lever_graphs_b2398, 0.002); end
+  def test_lever_graphs_j2398; assert_in_delta(0.0, (worksheet.lever_graphs_j2398||0), 0.002); end
+  def test_lever_graphs_k2398; assert_in_delta(0.0, (worksheet.lever_graphs_k2398||0), 0.002); end
+  def test_lever_graphs_l2398; assert_in_delta(0.0, (worksheet.lever_graphs_l2398||0), 0.002); end
+  def test_lever_graphs_m2398; assert_in_delta(0.0, (worksheet.lever_graphs_m2398||0), 0.002); end
+  def test_lever_graphs_n2398; assert_in_delta(0.0, (worksheet.lever_graphs_n2398||0), 0.002); end
+  def test_lever_graphs_o2398; assert_in_delta(0.0, (worksheet.lever_graphs_o2398||0), 0.002); end
+  def test_lever_graphs_p2398; assert_in_delta(0.0, (worksheet.lever_graphs_p2398||0), 0.002); end
+  def test_lever_graphs_q2398; assert_in_delta(0.0, (worksheet.lever_graphs_q2398||0), 0.002); end
+  def test_lever_graphs_r2398; assert_in_delta(0.0, (worksheet.lever_graphs_r2398||0), 0.002); end
+  def test_lever_graphs_b2399; assert_in_epsilon(2.0, worksheet.lever_graphs_b2399, 0.002); end
+  def test_lever_graphs_j2399; assert_in_delta(0.0, (worksheet.lever_graphs_j2399||0), 0.002); end
+  def test_lever_graphs_k2399; assert_in_delta(-0.0006837606837606838, worksheet.lever_graphs_k2399, 0.002); end
+  def test_lever_graphs_l2399; assert_in_delta(-0.0015384615384615385, worksheet.lever_graphs_l2399, 0.002); end
+  def test_lever_graphs_m2399; assert_in_delta(-0.002393162393162393, worksheet.lever_graphs_m2399, 0.002); end
+  def test_lever_graphs_n2399; assert_in_delta(-0.003247863247863248, worksheet.lever_graphs_n2399, 0.002); end
+  def test_lever_graphs_o2399; assert_in_delta(-0.0041025641025641026, worksheet.lever_graphs_o2399, 0.002); end
+  def test_lever_graphs_p2399; assert_in_delta(-0.004957264957264958, worksheet.lever_graphs_p2399, 0.002); end
+  def test_lever_graphs_q2399; assert_in_delta(-0.005811965811965812, worksheet.lever_graphs_q2399, 0.002); end
+  def test_lever_graphs_r2399; assert_in_delta(-0.006666666666666667, worksheet.lever_graphs_r2399, 0.002); end
+  def test_lever_graphs_b2400; assert_in_epsilon(3.0, worksheet.lever_graphs_b2400, 0.002); end
+  def test_lever_graphs_j2400; assert_in_delta(0.0, (worksheet.lever_graphs_j2400||0), 0.002); end
+  def test_lever_graphs_k2400; assert_in_delta(-0.0022792022792022795, worksheet.lever_graphs_k2400, 0.002); end
+  def test_lever_graphs_l2400; assert_in_delta(-0.005128205128205129, worksheet.lever_graphs_l2400, 0.002); end
+  def test_lever_graphs_m2400; assert_in_delta(-0.007977207977207978, worksheet.lever_graphs_m2400, 0.002); end
+  def test_lever_graphs_n2400; assert_in_delta(-0.010826210826210828, worksheet.lever_graphs_n2400, 0.002); end
+  def test_lever_graphs_o2400; assert_in_delta(-0.013675213675213677, worksheet.lever_graphs_o2400, 0.002); end
+  def test_lever_graphs_p2400; assert_in_delta(-0.016524216524216526, worksheet.lever_graphs_p2400, 0.002); end
+  def test_lever_graphs_q2400; assert_in_delta(-0.019373219373219376, worksheet.lever_graphs_q2400, 0.002); end
+  def test_lever_graphs_r2400; assert_in_delta(-0.022222222222222223, worksheet.lever_graphs_r2400, 0.002); end
+  def test_lever_graphs_b2401; assert_in_epsilon(4.0, worksheet.lever_graphs_b2401, 0.002); end
+  def test_lever_graphs_j2401; assert_in_delta(0.0, (worksheet.lever_graphs_j2401||0), 0.002); end
+  def test_lever_graphs_k2401; assert_in_delta(0.017094017094017092, worksheet.lever_graphs_k2401, 0.002); end
+  def test_lever_graphs_l2401; assert_in_delta(0.03846153846153846, worksheet.lever_graphs_l2401, 0.002); end
+  def test_lever_graphs_m2401; assert_in_delta(0.059829059829059825, worksheet.lever_graphs_m2401, 0.002); end
+  def test_lever_graphs_n2401; assert_in_delta(0.08119658119658119, worksheet.lever_graphs_n2401, 0.002); end
+  def test_lever_graphs_o2401; assert_in_delta(0.10256410256410256, worksheet.lever_graphs_o2401, 0.002); end
+  def test_lever_graphs_p2401; assert_in_delta(0.12393162393162392, worksheet.lever_graphs_p2401, 0.002); end
+  def test_lever_graphs_q2401; assert_in_delta(0.14529914529914528, worksheet.lever_graphs_q2401, 0.002); end
+  def test_lever_graphs_r2401; assert_in_delta(0.16666666666666666, worksheet.lever_graphs_r2401, 0.002); end
+  def test_lever_graphs_d1607; assert_equal("Title", worksheet.lever_graphs_d1607); end
+  def test_lever_graphs_e1607; assert_equal("Open-cycle gas turbine power plant", worksheet.lever_graphs_e1607); end
+  def test_lever_graphs_f1607; assert_equal("Combined cycle gas turbine power plant", worksheet.lever_graphs_f1607); end
+  def test_lever_graphs_d1608; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1608, 0.002); end
+  def test_lever_graphs_e1608; assert_in_delta(0.35, worksheet.lever_graphs_e1608, 0.002); end
+  def test_lever_graphs_f1608; assert_in_delta(0.65, worksheet.lever_graphs_f1608, 0.002); end
+  def test_lever_graphs_d1609; assert_equal("2050: Level 1", worksheet.lever_graphs_d1609); end
+  def test_lever_graphs_e1609; assert_in_delta(0.61, worksheet.lever_graphs_e1609, 0.002); end
+  def test_lever_graphs_f1609; assert_in_delta(0.39, worksheet.lever_graphs_f1609, 0.002); end
+  def test_lever_graphs_d1610; assert_equal("2050: Level 2", worksheet.lever_graphs_d1610); end
+  def test_lever_graphs_e1610; assert_in_delta(0.475, worksheet.lever_graphs_e1610, 0.002); end
+  def test_lever_graphs_f1610; assert_in_delta(0.525, worksheet.lever_graphs_f1610, 0.002); end
+  def test_lever_graphs_d1611; assert_equal("2050: Level 3", worksheet.lever_graphs_d1611); end
+  def test_lever_graphs_e1611; assert_in_delta(0.175, worksheet.lever_graphs_e1611, 0.002); end
+  def test_lever_graphs_f1611; assert_in_delta(0.825, worksheet.lever_graphs_f1611, 0.002); end
+  def test_lever_graphs_d1612; assert_equal("2050: Level 4", worksheet.lever_graphs_d1612); end
+  def test_lever_graphs_e1612; assert_in_delta(0.07, worksheet.lever_graphs_e1612, 0.002); end
+  def test_lever_graphs_f1612; assert_in_delta(0.9299999999999999, worksheet.lever_graphs_f1612, 0.002); end
+  def test_lever_graphs_c2177; assert_equal("1975", worksheet.lever_graphs_c2177); end
+  def test_lever_graphs_d2177; assert_equal("1980", worksheet.lever_graphs_d2177); end
+  def test_lever_graphs_e2177; assert_equal("1985", worksheet.lever_graphs_e2177); end
+  def test_lever_graphs_f2177; assert_equal("1990", worksheet.lever_graphs_f2177); end
+  def test_lever_graphs_g2177; assert_equal("1995", worksheet.lever_graphs_g2177); end
+  def test_lever_graphs_h2177; assert_equal("2000", worksheet.lever_graphs_h2177); end
+  def test_lever_graphs_i2177; assert_equal("2005", worksheet.lever_graphs_i2177); end
+  def test_lever_graphs_j2177; assert_equal("2011", worksheet.lever_graphs_j2177); end
+  def test_lever_graphs_k2177; assert_equal("2015", worksheet.lever_graphs_k2177); end
+  def test_lever_graphs_l2177; assert_equal("2020", worksheet.lever_graphs_l2177); end
+  def test_lever_graphs_m2177; assert_equal("2025", worksheet.lever_graphs_m2177); end
+  def test_lever_graphs_n2177; assert_equal("2030", worksheet.lever_graphs_n2177); end
+  def test_lever_graphs_o2177; assert_equal("2035", worksheet.lever_graphs_o2177); end
+  def test_lever_graphs_p2177; assert_equal("2040", worksheet.lever_graphs_p2177); end
+  def test_lever_graphs_q2177; assert_equal("2045", worksheet.lever_graphs_q2177); end
+  def test_lever_graphs_r2177; assert_equal("2050", worksheet.lever_graphs_r2177); end
+  def test_lever_graphs_b2178; assert_equal("Historic data", worksheet.lever_graphs_b2178); end
+  def test_lever_graphs_b2179; assert_in_delta(1.0, worksheet.lever_graphs_b2179, 0.002); end
+  def test_lever_graphs_j2179; assert_in_epsilon(9131.25, worksheet.lever_graphs_j2179, 0.002); end
+  def test_lever_graphs_k2179; assert_in_epsilon(9318.557692307693, worksheet.lever_graphs_k2179, 0.002); end
+  def test_lever_graphs_l2179; assert_in_epsilon(9552.692307692309, worksheet.lever_graphs_l2179, 0.002); end
+  def test_lever_graphs_m2179; assert_in_epsilon(9786.826923076924, worksheet.lever_graphs_m2179, 0.002); end
+  def test_lever_graphs_n2179; assert_in_epsilon(10020.961538461539, worksheet.lever_graphs_n2179, 0.002); end
+  def test_lever_graphs_o2179; assert_in_epsilon(10255.096153846154, worksheet.lever_graphs_o2179, 0.002); end
+  def test_lever_graphs_p2179; assert_in_epsilon(10489.23076923077, worksheet.lever_graphs_p2179, 0.002); end
+  def test_lever_graphs_q2179; assert_in_epsilon(10723.365384615385, worksheet.lever_graphs_q2179, 0.002); end
+  def test_lever_graphs_r2179; assert_in_epsilon(10957.5, worksheet.lever_graphs_r2179, 0.002); end
+  def test_lever_graphs_b2180; assert_in_epsilon(2.0, worksheet.lever_graphs_b2180, 0.002); end
+  def test_lever_graphs_j2180; assert_in_epsilon(9131.25, worksheet.lever_graphs_j2180, 0.002); end
+  def test_lever_graphs_k2180; assert_in_epsilon(9224.903846153848, worksheet.lever_graphs_k2180, 0.002); end
+  def test_lever_graphs_l2180; assert_in_epsilon(9341.971153846154, worksheet.lever_graphs_l2180, 0.002); end
+  def test_lever_graphs_m2180; assert_in_epsilon(9459.038461538461, worksheet.lever_graphs_m2180, 0.002); end
+  def test_lever_graphs_n2180; assert_in_epsilon(9576.10576923077, worksheet.lever_graphs_n2180, 0.002); end
+  def test_lever_graphs_o2180; assert_in_epsilon(9693.173076923078, worksheet.lever_graphs_o2180, 0.002); end
+  def test_lever_graphs_p2180; assert_in_epsilon(9810.240384615385, worksheet.lever_graphs_p2180, 0.002); end
+  def test_lever_graphs_q2180; assert_in_epsilon(9927.307692307691, worksheet.lever_graphs_q2180, 0.002); end
+  def test_lever_graphs_r2180; assert_in_epsilon(10044.375, worksheet.lever_graphs_r2180, 0.002); end
+  def test_lever_graphs_b2181; assert_in_epsilon(3.0, worksheet.lever_graphs_b2181, 0.002); end
+  def test_lever_graphs_j2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_j2181, 0.002); end
+  def test_lever_graphs_k2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_k2181, 0.002); end
+  def test_lever_graphs_l2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_l2181, 0.002); end
+  def test_lever_graphs_m2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_m2181, 0.002); end
+  def test_lever_graphs_n2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_n2181, 0.002); end
+  def test_lever_graphs_o2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_o2181, 0.002); end
+  def test_lever_graphs_p2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_p2181, 0.002); end
+  def test_lever_graphs_q2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_q2181, 0.002); end
+  def test_lever_graphs_r2181; assert_in_epsilon(9131.25, worksheet.lever_graphs_r2181, 0.002); end
+  def test_lever_graphs_b2182; assert_in_epsilon(4.0, worksheet.lever_graphs_b2182, 0.002); end
+  def test_lever_graphs_j2182; assert_in_epsilon(9131.25, worksheet.lever_graphs_j2182, 0.002); end
+  def test_lever_graphs_k2182; assert_in_epsilon(8943.942307692309, worksheet.lever_graphs_k2182, 0.002); end
+  def test_lever_graphs_l2182; assert_in_epsilon(8709.807692307693, worksheet.lever_graphs_l2182, 0.002); end
+  def test_lever_graphs_m2182; assert_in_epsilon(8475.673076923078, worksheet.lever_graphs_m2182, 0.002); end
+  def test_lever_graphs_n2182; assert_in_epsilon(8241.538461538461, worksheet.lever_graphs_n2182, 0.002); end
+  def test_lever_graphs_o2182; assert_in_epsilon(8007.403846153846, worksheet.lever_graphs_o2182, 0.002); end
+  def test_lever_graphs_p2182; assert_in_epsilon(7773.2692307692305, worksheet.lever_graphs_p2182, 0.002); end
+  def test_lever_graphs_q2182; assert_in_epsilon(7539.134615384615, worksheet.lever_graphs_q2182, 0.002); end
+  def test_lever_graphs_r2182; assert_in_epsilon(7305.0, worksheet.lever_graphs_r2182, 0.002); end
+  def test_lever_graphs_c2167; assert_equal("1975", worksheet.lever_graphs_c2167); end
+  def test_lever_graphs_d2167; assert_equal("1980", worksheet.lever_graphs_d2167); end
+  def test_lever_graphs_e2167; assert_equal("1985", worksheet.lever_graphs_e2167); end
+  def test_lever_graphs_f2167; assert_equal("1990", worksheet.lever_graphs_f2167); end
+  def test_lever_graphs_g2167; assert_equal("1995", worksheet.lever_graphs_g2167); end
+  def test_lever_graphs_h2167; assert_equal("2000", worksheet.lever_graphs_h2167); end
+  def test_lever_graphs_i2167; assert_equal("2005", worksheet.lever_graphs_i2167); end
+  def test_lever_graphs_j2167; assert_equal("2011", worksheet.lever_graphs_j2167); end
+  def test_lever_graphs_k2167; assert_equal("2015", worksheet.lever_graphs_k2167); end
+  def test_lever_graphs_l2167; assert_equal("2020", worksheet.lever_graphs_l2167); end
+  def test_lever_graphs_m2167; assert_equal("2025", worksheet.lever_graphs_m2167); end
+  def test_lever_graphs_n2167; assert_equal("2030", worksheet.lever_graphs_n2167); end
+  def test_lever_graphs_o2167; assert_equal("2035", worksheet.lever_graphs_o2167); end
+  def test_lever_graphs_p2167; assert_equal("2040", worksheet.lever_graphs_p2167); end
+  def test_lever_graphs_q2167; assert_equal("2045", worksheet.lever_graphs_q2167); end
+  def test_lever_graphs_r2167; assert_equal("2050", worksheet.lever_graphs_r2167); end
+  def test_lever_graphs_b2168; assert_equal("Historic data", worksheet.lever_graphs_b2168); end
+  def test_lever_graphs_b2169; assert_in_delta(1.0, worksheet.lever_graphs_b2169, 0.002); end
+  def test_lever_graphs_j2169; assert_in_epsilon(18262.5, worksheet.lever_graphs_j2169, 0.002); end
+  def test_lever_graphs_k2169; assert_in_epsilon(18637.115384615387, worksheet.lever_graphs_k2169, 0.002); end
+  def test_lever_graphs_l2169; assert_in_epsilon(19105.384615384617, worksheet.lever_graphs_l2169, 0.002); end
+  def test_lever_graphs_m2169; assert_in_epsilon(19573.653846153848, worksheet.lever_graphs_m2169, 0.002); end
+  def test_lever_graphs_n2169; assert_in_epsilon(20041.923076923078, worksheet.lever_graphs_n2169, 0.002); end
+  def test_lever_graphs_o2169; assert_in_epsilon(20510.19230769231, worksheet.lever_graphs_o2169, 0.002); end
+  def test_lever_graphs_p2169; assert_in_epsilon(20978.46153846154, worksheet.lever_graphs_p2169, 0.002); end
+  def test_lever_graphs_q2169; assert_in_epsilon(21446.73076923077, worksheet.lever_graphs_q2169, 0.002); end
+  def test_lever_graphs_r2169; assert_in_epsilon(21915.0, worksheet.lever_graphs_r2169, 0.002); end
+  def test_lever_graphs_b2170; assert_in_epsilon(2.0, worksheet.lever_graphs_b2170, 0.002); end
+  def test_lever_graphs_j2170; assert_in_epsilon(18262.5, worksheet.lever_graphs_j2170, 0.002); end
+  def test_lever_graphs_k2170; assert_in_epsilon(18449.807692307695, worksheet.lever_graphs_k2170, 0.002); end
+  def test_lever_graphs_l2170; assert_in_epsilon(18683.94230769231, worksheet.lever_graphs_l2170, 0.002); end
+  def test_lever_graphs_m2170; assert_in_epsilon(18918.076923076922, worksheet.lever_graphs_m2170, 0.002); end
+  def test_lever_graphs_n2170; assert_in_epsilon(19152.21153846154, worksheet.lever_graphs_n2170, 0.002); end
+  def test_lever_graphs_o2170; assert_in_epsilon(19386.346153846156, worksheet.lever_graphs_o2170, 0.002); end
+  def test_lever_graphs_p2170; assert_in_epsilon(19620.48076923077, worksheet.lever_graphs_p2170, 0.002); end
+  def test_lever_graphs_q2170; assert_in_epsilon(19854.615384615383, worksheet.lever_graphs_q2170, 0.002); end
+  def test_lever_graphs_r2170; assert_in_epsilon(20088.75, worksheet.lever_graphs_r2170, 0.002); end
+  def test_lever_graphs_b2171; assert_in_epsilon(3.0, worksheet.lever_graphs_b2171, 0.002); end
+  def test_lever_graphs_j2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_j2171, 0.002); end
+  def test_lever_graphs_k2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_k2171, 0.002); end
+  def test_lever_graphs_l2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_l2171, 0.002); end
+  def test_lever_graphs_m2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_m2171, 0.002); end
+  def test_lever_graphs_n2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_n2171, 0.002); end
+  def test_lever_graphs_o2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_o2171, 0.002); end
+  def test_lever_graphs_p2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_p2171, 0.002); end
+  def test_lever_graphs_q2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_q2171, 0.002); end
+  def test_lever_graphs_r2171; assert_in_epsilon(18262.5, worksheet.lever_graphs_r2171, 0.002); end
+  def test_lever_graphs_b2172; assert_in_epsilon(4.0, worksheet.lever_graphs_b2172, 0.002); end
+  def test_lever_graphs_j2172; assert_in_epsilon(18262.5, worksheet.lever_graphs_j2172, 0.002); end
+  def test_lever_graphs_k2172; assert_in_epsilon(17887.884615384617, worksheet.lever_graphs_k2172, 0.002); end
+  def test_lever_graphs_l2172; assert_in_epsilon(17419.615384615387, worksheet.lever_graphs_l2172, 0.002); end
+  def test_lever_graphs_m2172; assert_in_epsilon(16951.346153846156, worksheet.lever_graphs_m2172, 0.002); end
+  def test_lever_graphs_n2172; assert_in_epsilon(16483.076923076922, worksheet.lever_graphs_n2172, 0.002); end
+  def test_lever_graphs_o2172; assert_in_epsilon(16014.807692307691, worksheet.lever_graphs_o2172, 0.002); end
+  def test_lever_graphs_p2172; assert_in_epsilon(15546.538461538461, worksheet.lever_graphs_p2172, 0.002); end
+  def test_lever_graphs_q2172; assert_in_epsilon(15078.26923076923, worksheet.lever_graphs_q2172, 0.002); end
+  def test_lever_graphs_r2172; assert_in_epsilon(14610.0, worksheet.lever_graphs_r2172, 0.002); end
+  def test_lever_graphs_c2283; assert_equal("1975", worksheet.lever_graphs_c2283); end
+  def test_lever_graphs_d2283; assert_equal("1980", worksheet.lever_graphs_d2283); end
+  def test_lever_graphs_e2283; assert_equal("1985", worksheet.lever_graphs_e2283); end
+  def test_lever_graphs_f2283; assert_equal("1990", worksheet.lever_graphs_f2283); end
+  def test_lever_graphs_g2283; assert_equal("1995", worksheet.lever_graphs_g2283); end
+  def test_lever_graphs_h2283; assert_equal("2000", worksheet.lever_graphs_h2283); end
+  def test_lever_graphs_i2283; assert_equal("2005", worksheet.lever_graphs_i2283); end
+  def test_lever_graphs_j2283; assert_equal("2011", worksheet.lever_graphs_j2283); end
+  def test_lever_graphs_k2283; assert_equal("2015", worksheet.lever_graphs_k2283); end
+  def test_lever_graphs_l2283; assert_equal("2020", worksheet.lever_graphs_l2283); end
+  def test_lever_graphs_m2283; assert_equal("2025", worksheet.lever_graphs_m2283); end
+  def test_lever_graphs_n2283; assert_equal("2030", worksheet.lever_graphs_n2283); end
+  def test_lever_graphs_o2283; assert_equal("2035", worksheet.lever_graphs_o2283); end
+  def test_lever_graphs_p2283; assert_equal("2040", worksheet.lever_graphs_p2283); end
+  def test_lever_graphs_q2283; assert_equal("2045", worksheet.lever_graphs_q2283); end
+  def test_lever_graphs_r2283; assert_equal("2050", worksheet.lever_graphs_r2283); end
+  def test_lever_graphs_b2284; assert_equal("Historic data", worksheet.lever_graphs_b2284); end
+  def test_lever_graphs_b2285; assert_in_delta(1.0, worksheet.lever_graphs_b2285, 0.002); end
+  def test_lever_graphs_j2285; assert_in_epsilon(18.0, worksheet.lever_graphs_j2285, 0.002); end
+  def test_lever_graphs_k2285; assert_in_epsilon(17.384615384615383, worksheet.lever_graphs_k2285, 0.002); end
+  def test_lever_graphs_l2285; assert_in_epsilon(16.615384615384617, worksheet.lever_graphs_l2285, 0.002); end
+  def test_lever_graphs_m2285; assert_in_epsilon(15.846153846153847, worksheet.lever_graphs_m2285, 0.002); end
+  def test_lever_graphs_n2285; assert_in_epsilon(15.076923076923077, worksheet.lever_graphs_n2285, 0.002); end
+  def test_lever_graphs_o2285; assert_in_epsilon(14.307692307692308, worksheet.lever_graphs_o2285, 0.002); end
+  def test_lever_graphs_p2285; assert_in_epsilon(13.538461538461538, worksheet.lever_graphs_p2285, 0.002); end
+  def test_lever_graphs_q2285; assert_in_epsilon(12.76923076923077, worksheet.lever_graphs_q2285, 0.002); end
+  def test_lever_graphs_r2285; assert_in_epsilon(12.0, worksheet.lever_graphs_r2285, 0.002); end
+  def test_lever_graphs_b2286; assert_in_epsilon(2.0, worksheet.lever_graphs_b2286, 0.002); end
+  def test_lever_graphs_j2286; assert_in_epsilon(18.0, worksheet.lever_graphs_j2286, 0.002); end
+  def test_lever_graphs_k2286; assert_in_epsilon(17.076923076923077, worksheet.lever_graphs_k2286, 0.002); end
+  def test_lever_graphs_l2286; assert_in_epsilon(15.923076923076923, worksheet.lever_graphs_l2286, 0.002); end
+  def test_lever_graphs_m2286; assert_in_epsilon(14.76923076923077, worksheet.lever_graphs_m2286, 0.002); end
+  def test_lever_graphs_n2286; assert_in_epsilon(13.615384615384613, worksheet.lever_graphs_n2286, 0.002); end
+  def test_lever_graphs_o2286; assert_in_epsilon(12.461538461538462, worksheet.lever_graphs_o2286, 0.002); end
+  def test_lever_graphs_p2286; assert_in_epsilon(11.307692307692307, worksheet.lever_graphs_p2286, 0.002); end
+  def test_lever_graphs_q2286; assert_in_epsilon(10.153846153846153, worksheet.lever_graphs_q2286, 0.002); end
+  def test_lever_graphs_r2286; assert_in_epsilon(9.0, worksheet.lever_graphs_r2286, 0.002); end
+  def test_lever_graphs_b2287; assert_in_epsilon(3.0, worksheet.lever_graphs_b2287, 0.002); end
+  def test_lever_graphs_j2287; assert_in_epsilon(18.0, worksheet.lever_graphs_j2287, 0.002); end
+  def test_lever_graphs_k2287; assert_in_epsilon(16.76923076923077, worksheet.lever_graphs_k2287, 0.002); end
+  def test_lever_graphs_l2287; assert_in_epsilon(15.230769230769232, worksheet.lever_graphs_l2287, 0.002); end
+  def test_lever_graphs_m2287; assert_in_epsilon(13.692307692307693, worksheet.lever_graphs_m2287, 0.002); end
+  def test_lever_graphs_n2287; assert_in_epsilon(12.153846153846153, worksheet.lever_graphs_n2287, 0.002); end
+  def test_lever_graphs_o2287; assert_in_epsilon(10.615384615384617, worksheet.lever_graphs_o2287, 0.002); end
+  def test_lever_graphs_p2287; assert_in_epsilon(9.076923076923077, worksheet.lever_graphs_p2287, 0.002); end
+  def test_lever_graphs_q2287; assert_in_epsilon(7.538461538461538, worksheet.lever_graphs_q2287, 0.002); end
+  def test_lever_graphs_r2287; assert_in_epsilon(6.0, worksheet.lever_graphs_r2287, 0.002); end
+  def test_lever_graphs_b2288; assert_in_epsilon(4.0, worksheet.lever_graphs_b2288, 0.002); end
+  def test_lever_graphs_j2288; assert_in_epsilon(18.0, worksheet.lever_graphs_j2288, 0.002); end
+  def test_lever_graphs_k2288; assert_in_epsilon(16.564102564102562, worksheet.lever_graphs_k2288, 0.002); end
+  def test_lever_graphs_l2288; assert_in_epsilon(14.76923076923077, worksheet.lever_graphs_l2288, 0.002); end
+  def test_lever_graphs_m2288; assert_in_epsilon(12.974358974358976, worksheet.lever_graphs_m2288, 0.002); end
+  def test_lever_graphs_n2288; assert_in_epsilon(11.179487179487179, worksheet.lever_graphs_n2288, 0.002); end
+  def test_lever_graphs_o2288; assert_in_epsilon(9.384615384615385, worksheet.lever_graphs_o2288, 0.002); end
+  def test_lever_graphs_p2288; assert_in_epsilon(7.589743589743589, worksheet.lever_graphs_p2288, 0.002); end
+  def test_lever_graphs_q2288; assert_in_epsilon(5.794871794871796, worksheet.lever_graphs_q2288, 0.002); end
+  def test_lever_graphs_r2288; assert_in_epsilon(4.000000000000001, worksheet.lever_graphs_r2288, 0.002); end
+  def test_lever_graphs_c2273; assert_equal("1975", worksheet.lever_graphs_c2273); end
+  def test_lever_graphs_d2273; assert_equal("1980", worksheet.lever_graphs_d2273); end
+  def test_lever_graphs_e2273; assert_equal("1985", worksheet.lever_graphs_e2273); end
+  def test_lever_graphs_f2273; assert_equal("1990", worksheet.lever_graphs_f2273); end
+  def test_lever_graphs_g2273; assert_equal("1995", worksheet.lever_graphs_g2273); end
+  def test_lever_graphs_h2273; assert_equal("2000", worksheet.lever_graphs_h2273); end
+  def test_lever_graphs_i2273; assert_equal("2005", worksheet.lever_graphs_i2273); end
+  def test_lever_graphs_j2273; assert_equal("2011", worksheet.lever_graphs_j2273); end
+  def test_lever_graphs_k2273; assert_equal("2015", worksheet.lever_graphs_k2273); end
+  def test_lever_graphs_l2273; assert_equal("2020", worksheet.lever_graphs_l2273); end
+  def test_lever_graphs_m2273; assert_equal("2025", worksheet.lever_graphs_m2273); end
+  def test_lever_graphs_n2273; assert_equal("2030", worksheet.lever_graphs_n2273); end
+  def test_lever_graphs_o2273; assert_equal("2035", worksheet.lever_graphs_o2273); end
+  def test_lever_graphs_p2273; assert_equal("2040", worksheet.lever_graphs_p2273); end
+  def test_lever_graphs_q2273; assert_equal("2045", worksheet.lever_graphs_q2273); end
+  def test_lever_graphs_r2273; assert_equal("2050", worksheet.lever_graphs_r2273); end
+  def test_lever_graphs_b2274; assert_equal("Historic data", worksheet.lever_graphs_b2274); end
+  def test_lever_graphs_b2275; assert_in_delta(1.0, worksheet.lever_graphs_b2275, 0.002); end
+  def test_lever_graphs_j2275; assert_in_epsilon(15.000000000000002, worksheet.lever_graphs_j2275, 0.002); end
+  def test_lever_graphs_k2275; assert_in_epsilon(14.692307692307693, worksheet.lever_graphs_k2275, 0.002); end
+  def test_lever_graphs_l2275; assert_in_epsilon(14.30769230769231, worksheet.lever_graphs_l2275, 0.002); end
+  def test_lever_graphs_m2275; assert_in_epsilon(13.923076923076923, worksheet.lever_graphs_m2275, 0.002); end
+  def test_lever_graphs_n2275; assert_in_epsilon(13.538461538461538, worksheet.lever_graphs_n2275, 0.002); end
+  def test_lever_graphs_o2275; assert_in_epsilon(13.153846153846155, worksheet.lever_graphs_o2275, 0.002); end
+  def test_lever_graphs_p2275; assert_in_epsilon(12.76923076923077, worksheet.lever_graphs_p2275, 0.002); end
+  def test_lever_graphs_q2275; assert_in_epsilon(12.384615384615385, worksheet.lever_graphs_q2275, 0.002); end
+  def test_lever_graphs_r2275; assert_in_epsilon(12.0, worksheet.lever_graphs_r2275, 0.002); end
+  def test_lever_graphs_b2276; assert_in_epsilon(2.0, worksheet.lever_graphs_b2276, 0.002); end
+  def test_lever_graphs_j2276; assert_in_epsilon(15.000000000000002, worksheet.lever_graphs_j2276, 0.002); end
+  def test_lever_graphs_k2276; assert_in_epsilon(14.384615384615387, worksheet.lever_graphs_k2276, 0.002); end
+  def test_lever_graphs_l2276; assert_in_epsilon(13.615384615384617, worksheet.lever_graphs_l2276, 0.002); end
+  def test_lever_graphs_m2276; assert_in_epsilon(12.846153846153847, worksheet.lever_graphs_m2276, 0.002); end
+  def test_lever_graphs_n2276; assert_in_epsilon(12.076923076923077, worksheet.lever_graphs_n2276, 0.002); end
+  def test_lever_graphs_o2276; assert_in_epsilon(11.307692307692308, worksheet.lever_graphs_o2276, 0.002); end
+  def test_lever_graphs_p2276; assert_in_epsilon(10.538461538461538, worksheet.lever_graphs_p2276, 0.002); end
+  def test_lever_graphs_q2276; assert_in_epsilon(9.76923076923077, worksheet.lever_graphs_q2276, 0.002); end
+  def test_lever_graphs_r2276; assert_in_epsilon(9.0, worksheet.lever_graphs_r2276, 0.002); end
+  def test_lever_graphs_b2277; assert_in_epsilon(3.0, worksheet.lever_graphs_b2277, 0.002); end
+  def test_lever_graphs_j2277; assert_in_epsilon(15.000000000000002, worksheet.lever_graphs_j2277, 0.002); end
+  def test_lever_graphs_k2277; assert_in_epsilon(14.076923076923078, worksheet.lever_graphs_k2277, 0.002); end
+  def test_lever_graphs_l2277; assert_in_epsilon(12.923076923076925, worksheet.lever_graphs_l2277, 0.002); end
+  def test_lever_graphs_m2277; assert_in_epsilon(11.76923076923077, worksheet.lever_graphs_m2277, 0.002); end
+  def test_lever_graphs_n2277; assert_in_epsilon(10.615384615384615, worksheet.lever_graphs_n2277, 0.002); end
+  def test_lever_graphs_o2277; assert_in_epsilon(9.461538461538463, worksheet.lever_graphs_o2277, 0.002); end
+  def test_lever_graphs_p2277; assert_in_epsilon(8.307692307692308, worksheet.lever_graphs_p2277, 0.002); end
+  def test_lever_graphs_q2277; assert_in_epsilon(7.153846153846154, worksheet.lever_graphs_q2277, 0.002); end
+  def test_lever_graphs_r2277; assert_in_epsilon(6.0, worksheet.lever_graphs_r2277, 0.002); end
+  def test_lever_graphs_b2278; assert_in_epsilon(4.0, worksheet.lever_graphs_b2278, 0.002); end
+  def test_lever_graphs_j2278; assert_in_epsilon(15.000000000000002, worksheet.lever_graphs_j2278, 0.002); end
+  def test_lever_graphs_k2278; assert_in_epsilon(13.871794871794874, worksheet.lever_graphs_k2278, 0.002); end
+  def test_lever_graphs_l2278; assert_in_epsilon(12.461538461538463, worksheet.lever_graphs_l2278, 0.002); end
+  def test_lever_graphs_m2278; assert_in_epsilon(11.051282051282053, worksheet.lever_graphs_m2278, 0.002); end
+  def test_lever_graphs_n2278; assert_in_epsilon(9.641025641025642, worksheet.lever_graphs_n2278, 0.002); end
+  def test_lever_graphs_o2278; assert_in_epsilon(8.230769230769232, worksheet.lever_graphs_o2278, 0.002); end
+  def test_lever_graphs_p2278; assert_in_epsilon(6.820512820512821, worksheet.lever_graphs_p2278, 0.002); end
+  def test_lever_graphs_q2278; assert_in_epsilon(5.4102564102564115, worksheet.lever_graphs_q2278, 0.002); end
+  def test_lever_graphs_r2278; assert_in_epsilon(4.000000000000001, worksheet.lever_graphs_r2278, 0.002); end
+  def test_lever_graphs_c2137; assert_equal("1975", worksheet.lever_graphs_c2137); end
+  def test_lever_graphs_d2137; assert_equal("1980", worksheet.lever_graphs_d2137); end
+  def test_lever_graphs_e2137; assert_equal("1985", worksheet.lever_graphs_e2137); end
+  def test_lever_graphs_f2137; assert_equal("1990", worksheet.lever_graphs_f2137); end
+  def test_lever_graphs_g2137; assert_equal("1995", worksheet.lever_graphs_g2137); end
+  def test_lever_graphs_h2137; assert_equal("2000", worksheet.lever_graphs_h2137); end
+  def test_lever_graphs_i2137; assert_equal("2005", worksheet.lever_graphs_i2137); end
+  def test_lever_graphs_j2137; assert_equal("2011", worksheet.lever_graphs_j2137); end
+  def test_lever_graphs_k2137; assert_equal("2015", worksheet.lever_graphs_k2137); end
+  def test_lever_graphs_l2137; assert_equal("2020", worksheet.lever_graphs_l2137); end
+  def test_lever_graphs_m2137; assert_equal("2025", worksheet.lever_graphs_m2137); end
+  def test_lever_graphs_n2137; assert_equal("2030", worksheet.lever_graphs_n2137); end
+  def test_lever_graphs_o2137; assert_equal("2035", worksheet.lever_graphs_o2137); end
+  def test_lever_graphs_p2137; assert_equal("2040", worksheet.lever_graphs_p2137); end
+  def test_lever_graphs_q2137; assert_equal("2045", worksheet.lever_graphs_q2137); end
+  def test_lever_graphs_r2137; assert_equal("2050", worksheet.lever_graphs_r2137); end
+  def test_lever_graphs_b2138; assert_equal("Historic data", worksheet.lever_graphs_b2138); end
+  def test_lever_graphs_b2139; assert_in_delta(1.0, worksheet.lever_graphs_b2139, 0.002); end
+  def test_lever_graphs_j2139; assert_in_epsilon(29.0, worksheet.lever_graphs_j2139, 0.002); end
+  def test_lever_graphs_k2139; assert_in_epsilon(28.48717948717949, worksheet.lever_graphs_k2139, 0.002); end
+  def test_lever_graphs_l2139; assert_in_epsilon(27.846153846153847, worksheet.lever_graphs_l2139, 0.002); end
+  def test_lever_graphs_m2139; assert_in_epsilon(27.205128205128204, worksheet.lever_graphs_m2139, 0.002); end
+  def test_lever_graphs_n2139; assert_in_epsilon(26.564102564102562, worksheet.lever_graphs_n2139, 0.002); end
+  def test_lever_graphs_o2139; assert_in_epsilon(25.923076923076927, worksheet.lever_graphs_o2139, 0.002); end
+  def test_lever_graphs_p2139; assert_in_epsilon(25.28205128205128, worksheet.lever_graphs_p2139, 0.002); end
+  def test_lever_graphs_q2139; assert_in_epsilon(24.641025641025642, worksheet.lever_graphs_q2139, 0.002); end
+  def test_lever_graphs_r2139; assert_in_epsilon(24.0, worksheet.lever_graphs_r2139, 0.002); end
+  def test_lever_graphs_b2140; assert_in_epsilon(2.0, worksheet.lever_graphs_b2140, 0.002); end
+  def test_lever_graphs_j2140; assert_in_epsilon(29.0, worksheet.lever_graphs_j2140, 0.002); end
+  def test_lever_graphs_k2140; assert_in_epsilon(28.58974358974359, worksheet.lever_graphs_k2140, 0.002); end
+  def test_lever_graphs_l2140; assert_in_epsilon(28.07692307692308, worksheet.lever_graphs_l2140, 0.002); end
+  def test_lever_graphs_m2140; assert_in_epsilon(27.564102564102566, worksheet.lever_graphs_m2140, 0.002); end
+  def test_lever_graphs_n2140; assert_in_epsilon(27.05128205128205, worksheet.lever_graphs_n2140, 0.002); end
+  def test_lever_graphs_o2140; assert_in_epsilon(26.53846153846154, worksheet.lever_graphs_o2140, 0.002); end
+  def test_lever_graphs_p2140; assert_in_epsilon(26.025641025641026, worksheet.lever_graphs_p2140, 0.002); end
+  def test_lever_graphs_q2140; assert_in_epsilon(25.512820512820515, worksheet.lever_graphs_q2140, 0.002); end
+  def test_lever_graphs_r2140; assert_in_epsilon(25.0, worksheet.lever_graphs_r2140, 0.002); end
+  def test_lever_graphs_b2141; assert_in_epsilon(3.0, worksheet.lever_graphs_b2141, 0.002); end
+  def test_lever_graphs_j2141; assert_in_epsilon(29.0, worksheet.lever_graphs_j2141, 0.002); end
+  def test_lever_graphs_k2141; assert_in_epsilon(28.692307692307693, worksheet.lever_graphs_k2141, 0.002); end
+  def test_lever_graphs_l2141; assert_in_epsilon(28.30769230769231, worksheet.lever_graphs_l2141, 0.002); end
+  def test_lever_graphs_m2141; assert_in_epsilon(27.923076923076927, worksheet.lever_graphs_m2141, 0.002); end
+  def test_lever_graphs_n2141; assert_in_epsilon(27.538461538461537, worksheet.lever_graphs_n2141, 0.002); end
+  def test_lever_graphs_o2141; assert_in_epsilon(27.153846153846153, worksheet.lever_graphs_o2141, 0.002); end
+  def test_lever_graphs_p2141; assert_in_epsilon(26.76923076923077, worksheet.lever_graphs_p2141, 0.002); end
+  def test_lever_graphs_q2141; assert_in_epsilon(26.384615384615387, worksheet.lever_graphs_q2141, 0.002); end
+  def test_lever_graphs_r2141; assert_in_epsilon(26.0, worksheet.lever_graphs_r2141, 0.002); end
+  def test_lever_graphs_b2142; assert_in_epsilon(4.0, worksheet.lever_graphs_b2142, 0.002); end
+  def test_lever_graphs_j2142; assert_in_epsilon(29.0, worksheet.lever_graphs_j2142, 0.002); end
+  def test_lever_graphs_k2142; assert_in_epsilon(28.794871794871796, worksheet.lever_graphs_k2142, 0.002); end
+  def test_lever_graphs_l2142; assert_in_epsilon(28.53846153846154, worksheet.lever_graphs_l2142, 0.002); end
+  def test_lever_graphs_m2142; assert_in_epsilon(28.282051282051285, worksheet.lever_graphs_m2142, 0.002); end
+  def test_lever_graphs_n2142; assert_in_epsilon(28.025641025641022, worksheet.lever_graphs_n2142, 0.002); end
+  def test_lever_graphs_o2142; assert_in_epsilon(27.769230769230774, worksheet.lever_graphs_o2142, 0.002); end
+  def test_lever_graphs_p2142; assert_in_epsilon(27.51282051282051, worksheet.lever_graphs_p2142, 0.002); end
+  def test_lever_graphs_q2142; assert_in_epsilon(27.25641025641026, worksheet.lever_graphs_q2142, 0.002); end
+  def test_lever_graphs_r2142; assert_in_epsilon(27.0, worksheet.lever_graphs_r2142, 0.002); end
+  def test_lever_graphs_c2127; assert_equal("1975", worksheet.lever_graphs_c2127); end
+  def test_lever_graphs_d2127; assert_equal("1980", worksheet.lever_graphs_d2127); end
+  def test_lever_graphs_e2127; assert_equal("1985", worksheet.lever_graphs_e2127); end
+  def test_lever_graphs_f2127; assert_equal("1990", worksheet.lever_graphs_f2127); end
+  def test_lever_graphs_g2127; assert_equal("1995", worksheet.lever_graphs_g2127); end
+  def test_lever_graphs_h2127; assert_equal("2000", worksheet.lever_graphs_h2127); end
+  def test_lever_graphs_i2127; assert_equal("2005", worksheet.lever_graphs_i2127); end
+  def test_lever_graphs_j2127; assert_equal("2011", worksheet.lever_graphs_j2127); end
+  def test_lever_graphs_k2127; assert_equal("2015", worksheet.lever_graphs_k2127); end
+  def test_lever_graphs_l2127; assert_equal("2020", worksheet.lever_graphs_l2127); end
+  def test_lever_graphs_m2127; assert_equal("2025", worksheet.lever_graphs_m2127); end
+  def test_lever_graphs_n2127; assert_equal("2030", worksheet.lever_graphs_n2127); end
+  def test_lever_graphs_o2127; assert_equal("2035", worksheet.lever_graphs_o2127); end
+  def test_lever_graphs_p2127; assert_equal("2040", worksheet.lever_graphs_p2127); end
+  def test_lever_graphs_q2127; assert_equal("2045", worksheet.lever_graphs_q2127); end
+  def test_lever_graphs_r2127; assert_equal("2050", worksheet.lever_graphs_r2127); end
+  def test_lever_graphs_b2128; assert_equal("Historic data", worksheet.lever_graphs_b2128); end
+  def test_lever_graphs_b2129; assert_in_delta(1.0, worksheet.lever_graphs_b2129, 0.002); end
+  def test_lever_graphs_j2129; assert_in_epsilon(26.5, worksheet.lever_graphs_j2129, 0.002); end
+  def test_lever_graphs_k2129; assert_in_epsilon(26.243589743589745, worksheet.lever_graphs_k2129, 0.002); end
+  def test_lever_graphs_l2129; assert_in_epsilon(25.923076923076927, worksheet.lever_graphs_l2129, 0.002); end
+  def test_lever_graphs_m2129; assert_in_epsilon(25.602564102564102, worksheet.lever_graphs_m2129, 0.002); end
+  def test_lever_graphs_n2129; assert_in_epsilon(25.282051282051277, worksheet.lever_graphs_n2129, 0.002); end
+  def test_lever_graphs_o2129; assert_in_epsilon(24.961538461538463, worksheet.lever_graphs_o2129, 0.002); end
+  def test_lever_graphs_p2129; assert_in_epsilon(24.641025641025642, worksheet.lever_graphs_p2129, 0.002); end
+  def test_lever_graphs_q2129; assert_in_epsilon(24.32051282051282, worksheet.lever_graphs_q2129, 0.002); end
+  def test_lever_graphs_r2129; assert_in_epsilon(24.0, worksheet.lever_graphs_r2129, 0.002); end
+  def test_lever_graphs_b2130; assert_in_epsilon(2.0, worksheet.lever_graphs_b2130, 0.002); end
+  def test_lever_graphs_j2130; assert_in_epsilon(26.5, worksheet.lever_graphs_j2130, 0.002); end
+  def test_lever_graphs_k2130; assert_in_epsilon(26.346153846153847, worksheet.lever_graphs_k2130, 0.002); end
+  def test_lever_graphs_l2130; assert_in_epsilon(26.153846153846157, worksheet.lever_graphs_l2130, 0.002); end
+  def test_lever_graphs_m2130; assert_in_epsilon(25.961538461538463, worksheet.lever_graphs_m2130, 0.002); end
+  def test_lever_graphs_n2130; assert_in_epsilon(25.769230769230766, worksheet.lever_graphs_n2130, 0.002); end
+  def test_lever_graphs_o2130; assert_in_epsilon(25.57692307692308, worksheet.lever_graphs_o2130, 0.002); end
+  def test_lever_graphs_p2130; assert_in_epsilon(25.384615384615387, worksheet.lever_graphs_p2130, 0.002); end
+  def test_lever_graphs_q2130; assert_in_epsilon(25.192307692307693, worksheet.lever_graphs_q2130, 0.002); end
+  def test_lever_graphs_r2130; assert_in_epsilon(25.0, worksheet.lever_graphs_r2130, 0.002); end
+  def test_lever_graphs_b2131; assert_in_epsilon(3.0, worksheet.lever_graphs_b2131, 0.002); end
+  def test_lever_graphs_j2131; assert_in_epsilon(26.5, worksheet.lever_graphs_j2131, 0.002); end
+  def test_lever_graphs_k2131; assert_in_epsilon(26.448717948717952, worksheet.lever_graphs_k2131, 0.002); end
+  def test_lever_graphs_l2131; assert_in_epsilon(26.384615384615387, worksheet.lever_graphs_l2131, 0.002); end
+  def test_lever_graphs_m2131; assert_in_epsilon(26.320512820512825, worksheet.lever_graphs_m2131, 0.002); end
+  def test_lever_graphs_n2131; assert_in_epsilon(26.256410256410255, worksheet.lever_graphs_n2131, 0.002); end
+  def test_lever_graphs_o2131; assert_in_epsilon(26.192307692307693, worksheet.lever_graphs_o2131, 0.002); end
+  def test_lever_graphs_p2131; assert_in_epsilon(26.12820512820513, worksheet.lever_graphs_p2131, 0.002); end
+  def test_lever_graphs_q2131; assert_in_epsilon(26.064102564102566, worksheet.lever_graphs_q2131, 0.002); end
+  def test_lever_graphs_r2131; assert_in_epsilon(26.0, worksheet.lever_graphs_r2131, 0.002); end
+  def test_lever_graphs_b2132; assert_in_epsilon(4.0, worksheet.lever_graphs_b2132, 0.002); end
+  def test_lever_graphs_j2132; assert_in_epsilon(26.5, worksheet.lever_graphs_j2132, 0.002); end
+  def test_lever_graphs_k2132; assert_in_epsilon(26.551282051282055, worksheet.lever_graphs_k2132, 0.002); end
+  def test_lever_graphs_l2132; assert_in_epsilon(26.615384615384617, worksheet.lever_graphs_l2132, 0.002); end
+  def test_lever_graphs_m2132; assert_in_epsilon(26.679487179487182, worksheet.lever_graphs_m2132, 0.002); end
+  def test_lever_graphs_n2132; assert_in_epsilon(26.74358974358974, worksheet.lever_graphs_n2132, 0.002); end
+  def test_lever_graphs_o2132; assert_in_epsilon(26.80769230769231, worksheet.lever_graphs_o2132, 0.002); end
+  def test_lever_graphs_p2132; assert_in_epsilon(26.87179487179487, worksheet.lever_graphs_p2132, 0.002); end
+  def test_lever_graphs_q2132; assert_in_epsilon(26.935897435897438, worksheet.lever_graphs_q2132, 0.002); end
+  def test_lever_graphs_r2132; assert_in_epsilon(27.0, worksheet.lever_graphs_r2132, 0.002); end
+  def test_lever_graphs_c2157; assert_equal("1975", worksheet.lever_graphs_c2157); end
+  def test_lever_graphs_d2157; assert_equal("1980", worksheet.lever_graphs_d2157); end
+  def test_lever_graphs_e2157; assert_equal("1985", worksheet.lever_graphs_e2157); end
+  def test_lever_graphs_f2157; assert_equal("1990", worksheet.lever_graphs_f2157); end
+  def test_lever_graphs_g2157; assert_equal("1995", worksheet.lever_graphs_g2157); end
+  def test_lever_graphs_h2157; assert_equal("2000", worksheet.lever_graphs_h2157); end
+  def test_lever_graphs_i2157; assert_equal("2005", worksheet.lever_graphs_i2157); end
+  def test_lever_graphs_j2157; assert_equal("2011", worksheet.lever_graphs_j2157); end
+  def test_lever_graphs_k2157; assert_equal("2015", worksheet.lever_graphs_k2157); end
+  def test_lever_graphs_l2157; assert_equal("2020", worksheet.lever_graphs_l2157); end
+  def test_lever_graphs_m2157; assert_equal("2025", worksheet.lever_graphs_m2157); end
+  def test_lever_graphs_n2157; assert_equal("2030", worksheet.lever_graphs_n2157); end
+  def test_lever_graphs_o2157; assert_equal("2035", worksheet.lever_graphs_o2157); end
+  def test_lever_graphs_p2157; assert_equal("2040", worksheet.lever_graphs_p2157); end
+  def test_lever_graphs_q2157; assert_equal("2045", worksheet.lever_graphs_q2157); end
+  def test_lever_graphs_r2157; assert_equal("2050", worksheet.lever_graphs_r2157); end
+  def test_lever_graphs_b2158; assert_equal("Historic data", worksheet.lever_graphs_b2158); end
+  def test_lever_graphs_b2159; assert_in_delta(1.0, worksheet.lever_graphs_b2159, 0.002); end
+  def test_lever_graphs_j2159; assert_in_epsilon(13.0, worksheet.lever_graphs_j2159, 0.002); end
+  def test_lever_graphs_k2159; assert_in_epsilon(13.410256410256412, worksheet.lever_graphs_k2159, 0.002); end
+  def test_lever_graphs_l2159; assert_in_epsilon(13.923076923076923, worksheet.lever_graphs_l2159, 0.002); end
+  def test_lever_graphs_m2159; assert_in_epsilon(14.435897435897436, worksheet.lever_graphs_m2159, 0.002); end
+  def test_lever_graphs_n2159; assert_in_epsilon(14.948717948717947, worksheet.lever_graphs_n2159, 0.002); end
+  def test_lever_graphs_o2159; assert_in_epsilon(15.461538461538462, worksheet.lever_graphs_o2159, 0.002); end
+  def test_lever_graphs_p2159; assert_in_epsilon(15.974358974358974, worksheet.lever_graphs_p2159, 0.002); end
+  def test_lever_graphs_q2159; assert_in_epsilon(16.48717948717949, worksheet.lever_graphs_q2159, 0.002); end
+  def test_lever_graphs_r2159; assert_in_epsilon(17.0, worksheet.lever_graphs_r2159, 0.002); end
+  def test_lever_graphs_b2160; assert_in_epsilon(2.0, worksheet.lever_graphs_b2160, 0.002); end
+  def test_lever_graphs_j2160; assert_in_epsilon(13.0, worksheet.lever_graphs_j2160, 0.002); end
+  def test_lever_graphs_k2160; assert_in_epsilon(13.307692307692308, worksheet.lever_graphs_k2160, 0.002); end
+  def test_lever_graphs_l2160; assert_in_epsilon(13.692307692307693, worksheet.lever_graphs_l2160, 0.002); end
+  def test_lever_graphs_m2160; assert_in_epsilon(14.076923076923077, worksheet.lever_graphs_m2160, 0.002); end
+  def test_lever_graphs_n2160; assert_in_epsilon(14.46153846153846, worksheet.lever_graphs_n2160, 0.002); end
+  def test_lever_graphs_o2160; assert_in_epsilon(14.846153846153847, worksheet.lever_graphs_o2160, 0.002); end
+  def test_lever_graphs_p2160; assert_in_epsilon(15.23076923076923, worksheet.lever_graphs_p2160, 0.002); end
+  def test_lever_graphs_q2160; assert_in_epsilon(15.615384615384615, worksheet.lever_graphs_q2160, 0.002); end
+  def test_lever_graphs_r2160; assert_in_epsilon(16.0, worksheet.lever_graphs_r2160, 0.002); end
+  def test_lever_graphs_b2161; assert_in_epsilon(3.0, worksheet.lever_graphs_b2161, 0.002); end
+  def test_lever_graphs_j2161; assert_in_epsilon(13.0, worksheet.lever_graphs_j2161, 0.002); end
+  def test_lever_graphs_k2161; assert_in_epsilon(13.205128205128206, worksheet.lever_graphs_k2161, 0.002); end
+  def test_lever_graphs_l2161; assert_in_epsilon(13.461538461538462, worksheet.lever_graphs_l2161, 0.002); end
+  def test_lever_graphs_m2161; assert_in_epsilon(13.717948717948719, worksheet.lever_graphs_m2161, 0.002); end
+  def test_lever_graphs_n2161; assert_in_epsilon(13.974358974358974, worksheet.lever_graphs_n2161, 0.002); end
+  def test_lever_graphs_o2161; assert_in_epsilon(14.230769230769232, worksheet.lever_graphs_o2161, 0.002); end
+  def test_lever_graphs_p2161; assert_in_epsilon(14.487179487179485, worksheet.lever_graphs_p2161, 0.002); end
+  def test_lever_graphs_q2161; assert_in_epsilon(14.743589743589743, worksheet.lever_graphs_q2161, 0.002); end
+  def test_lever_graphs_r2161; assert_in_epsilon(15.0, worksheet.lever_graphs_r2161, 0.002); end
+  def test_lever_graphs_b2162; assert_in_epsilon(4.0, worksheet.lever_graphs_b2162, 0.002); end
+  def test_lever_graphs_j2162; assert_in_epsilon(13.0, worksheet.lever_graphs_j2162, 0.002); end
+  def test_lever_graphs_k2162; assert_in_epsilon(13.102564102564104, worksheet.lever_graphs_k2162, 0.002); end
+  def test_lever_graphs_l2162; assert_in_epsilon(13.23076923076923, worksheet.lever_graphs_l2162, 0.002); end
+  def test_lever_graphs_m2162; assert_in_epsilon(13.35897435897436, worksheet.lever_graphs_m2162, 0.002); end
+  def test_lever_graphs_n2162; assert_in_epsilon(13.487179487179485, worksheet.lever_graphs_n2162, 0.002); end
+  def test_lever_graphs_o2162; assert_in_epsilon(13.615384615384617, worksheet.lever_graphs_o2162, 0.002); end
+  def test_lever_graphs_p2162; assert_in_epsilon(13.743589743589745, worksheet.lever_graphs_p2162, 0.002); end
+  def test_lever_graphs_q2162; assert_in_epsilon(13.87179487179487, worksheet.lever_graphs_q2162, 0.002); end
+  def test_lever_graphs_r2162; assert_in_epsilon(14.0, worksheet.lever_graphs_r2162, 0.002); end
+  def test_lever_graphs_c2147; assert_equal("1975", worksheet.lever_graphs_c2147); end
+  def test_lever_graphs_d2147; assert_equal("1980", worksheet.lever_graphs_d2147); end
+  def test_lever_graphs_e2147; assert_equal("1985", worksheet.lever_graphs_e2147); end
+  def test_lever_graphs_f2147; assert_equal("1990", worksheet.lever_graphs_f2147); end
+  def test_lever_graphs_g2147; assert_equal("1995", worksheet.lever_graphs_g2147); end
+  def test_lever_graphs_h2147; assert_equal("2000", worksheet.lever_graphs_h2147); end
+  def test_lever_graphs_i2147; assert_equal("2005", worksheet.lever_graphs_i2147); end
+  def test_lever_graphs_j2147; assert_equal("2011", worksheet.lever_graphs_j2147); end
+  def test_lever_graphs_k2147; assert_equal("2015", worksheet.lever_graphs_k2147); end
+  def test_lever_graphs_l2147; assert_equal("2020", worksheet.lever_graphs_l2147); end
+  def test_lever_graphs_m2147; assert_equal("2025", worksheet.lever_graphs_m2147); end
+  def test_lever_graphs_n2147; assert_equal("2030", worksheet.lever_graphs_n2147); end
+  def test_lever_graphs_o2147; assert_equal("2035", worksheet.lever_graphs_o2147); end
+  def test_lever_graphs_p2147; assert_equal("2040", worksheet.lever_graphs_p2147); end
+  def test_lever_graphs_q2147; assert_equal("2045", worksheet.lever_graphs_q2147); end
+  def test_lever_graphs_r2147; assert_equal("2050", worksheet.lever_graphs_r2147); end
+  def test_lever_graphs_b2148; assert_equal("Historic data", worksheet.lever_graphs_b2148); end
+  def test_lever_graphs_b2149; assert_in_delta(1.0, worksheet.lever_graphs_b2149, 0.002); end
+  def test_lever_graphs_j2149; assert_in_epsilon(17.5, worksheet.lever_graphs_j2149, 0.002); end
+  def test_lever_graphs_k2149; assert_in_epsilon(17.756410256410255, worksheet.lever_graphs_k2149, 0.002); end
+  def test_lever_graphs_l2149; assert_in_epsilon(18.076923076923077, worksheet.lever_graphs_l2149, 0.002); end
+  def test_lever_graphs_m2149; assert_in_epsilon(18.397435897435898, worksheet.lever_graphs_m2149, 0.002); end
+  def test_lever_graphs_n2149; assert_in_epsilon(18.717948717948715, worksheet.lever_graphs_n2149, 0.002); end
+  def test_lever_graphs_o2149; assert_in_epsilon(19.03846153846154, worksheet.lever_graphs_o2149, 0.002); end
+  def test_lever_graphs_p2149; assert_in_epsilon(19.358974358974358, worksheet.lever_graphs_p2149, 0.002); end
+  def test_lever_graphs_q2149; assert_in_epsilon(19.679487179487182, worksheet.lever_graphs_q2149, 0.002); end
+  def test_lever_graphs_r2149; assert_in_epsilon(20.0, worksheet.lever_graphs_r2149, 0.002); end
+  def test_lever_graphs_b2150; assert_in_epsilon(2.0, worksheet.lever_graphs_b2150, 0.002); end
+  def test_lever_graphs_j2150; assert_in_epsilon(17.5, worksheet.lever_graphs_j2150, 0.002); end
+  def test_lever_graphs_k2150; assert_in_epsilon(17.653846153846153, worksheet.lever_graphs_k2150, 0.002); end
+  def test_lever_graphs_l2150; assert_in_epsilon(17.846153846153847, worksheet.lever_graphs_l2150, 0.002); end
+  def test_lever_graphs_m2150; assert_in_epsilon(18.03846153846154, worksheet.lever_graphs_m2150, 0.002); end
+  def test_lever_graphs_n2150; assert_in_epsilon(18.23076923076923, worksheet.lever_graphs_n2150, 0.002); end
+  def test_lever_graphs_o2150; assert_in_epsilon(18.423076923076923, worksheet.lever_graphs_o2150, 0.002); end
+  def test_lever_graphs_p2150; assert_in_epsilon(18.615384615384613, worksheet.lever_graphs_p2150, 0.002); end
+  def test_lever_graphs_q2150; assert_in_epsilon(18.80769230769231, worksheet.lever_graphs_q2150, 0.002); end
+  def test_lever_graphs_r2150; assert_in_epsilon(19.0, worksheet.lever_graphs_r2150, 0.002); end
+  def test_lever_graphs_b2151; assert_in_epsilon(3.0, worksheet.lever_graphs_b2151, 0.002); end
+  def test_lever_graphs_j2151; assert_in_epsilon(17.5, worksheet.lever_graphs_j2151, 0.002); end
+  def test_lever_graphs_k2151; assert_in_epsilon(17.55128205128205, worksheet.lever_graphs_k2151, 0.002); end
+  def test_lever_graphs_l2151; assert_in_epsilon(17.615384615384617, worksheet.lever_graphs_l2151, 0.002); end
+  def test_lever_graphs_m2151; assert_in_epsilon(17.679487179487182, worksheet.lever_graphs_m2151, 0.002); end
+  def test_lever_graphs_n2151; assert_in_epsilon(17.743589743589745, worksheet.lever_graphs_n2151, 0.002); end
+  def test_lever_graphs_o2151; assert_in_epsilon(17.807692307692307, worksheet.lever_graphs_o2151, 0.002); end
+  def test_lever_graphs_p2151; assert_in_epsilon(17.871794871794872, worksheet.lever_graphs_p2151, 0.002); end
+  def test_lever_graphs_q2151; assert_in_epsilon(17.935897435897438, worksheet.lever_graphs_q2151, 0.002); end
+  def test_lever_graphs_r2151; assert_in_epsilon(18.0, worksheet.lever_graphs_r2151, 0.002); end
+  def test_lever_graphs_b2152; assert_in_epsilon(4.0, worksheet.lever_graphs_b2152, 0.002); end
+  def test_lever_graphs_j2152; assert_in_epsilon(17.5, worksheet.lever_graphs_j2152, 0.002); end
+  def test_lever_graphs_k2152; assert_in_epsilon(17.44871794871795, worksheet.lever_graphs_k2152, 0.002); end
+  def test_lever_graphs_l2152; assert_in_epsilon(17.384615384615387, worksheet.lever_graphs_l2152, 0.002); end
+  def test_lever_graphs_m2152; assert_in_epsilon(17.32051282051282, worksheet.lever_graphs_m2152, 0.002); end
+  def test_lever_graphs_n2152; assert_in_epsilon(17.256410256410255, worksheet.lever_graphs_n2152, 0.002); end
+  def test_lever_graphs_o2152; assert_in_epsilon(17.192307692307693, worksheet.lever_graphs_o2152, 0.002); end
+  def test_lever_graphs_p2152; assert_in_epsilon(17.12820512820513, worksheet.lever_graphs_p2152, 0.002); end
+  def test_lever_graphs_q2152; assert_in_epsilon(17.064102564102566, worksheet.lever_graphs_q2152, 0.002); end
+  def test_lever_graphs_r2152; assert_in_epsilon(17.0, worksheet.lever_graphs_r2152, 0.002); end
+  def test_lever_graphs_d1568; assert_equal("Title", worksheet.lever_graphs_d1568); end
+  def test_lever_graphs_e1568; assert_equal("Solid fueled", worksheet.lever_graphs_e1568); end
+  def test_lever_graphs_f1568; assert_equal("Liquid fueled", worksheet.lever_graphs_f1568); end
+  def test_lever_graphs_g1568; assert_equal("Gas fueled", worksheet.lever_graphs_g1568); end
+  def test_lever_graphs_d1569; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1569, 0.002); end
+  def test_lever_graphs_e1569; assert_in_delta(0.6029, worksheet.lever_graphs_e1569, 0.002); end
+  def test_lever_graphs_f1569; assert_in_delta(0.0882, worksheet.lever_graphs_f1569, 0.002); end
+  def test_lever_graphs_g1569; assert_in_delta(0.3089, worksheet.lever_graphs_g1569, 0.002); end
+  def test_lever_graphs_d1570; assert_equal("2050: Level 1", worksheet.lever_graphs_d1570); end
+  def test_lever_graphs_e1570; assert_in_delta(0.5818, worksheet.lever_graphs_e1570, 0.002); end
+  def test_lever_graphs_f1570; assert_in_delta(0.2909, worksheet.lever_graphs_f1570, 0.002); end
+  def test_lever_graphs_g1570; assert_in_delta(0.12730000000000002, worksheet.lever_graphs_g1570, 0.002); end
+  def test_lever_graphs_d1571; assert_equal("2050: Level 2", worksheet.lever_graphs_d1571); end
+  def test_lever_graphs_e1571; assert_in_delta(0.4, worksheet.lever_graphs_e1571, 0.002); end
+  def test_lever_graphs_f1571; assert_in_delta(0.19, worksheet.lever_graphs_f1571, 0.002); end
+  def test_lever_graphs_g1571; assert_in_delta(0.41, worksheet.lever_graphs_g1571, 0.002); end
+  def test_lever_graphs_d1572; assert_equal("2050: Level 3", worksheet.lever_graphs_d1572); end
+  def test_lever_graphs_e1572; assert_in_delta(0.32, worksheet.lever_graphs_e1572, 0.002); end
+  def test_lever_graphs_f1572; assert_in_delta(0.06, worksheet.lever_graphs_f1572, 0.002); end
+  def test_lever_graphs_g1572; assert_in_delta(0.6199999999999999, worksheet.lever_graphs_g1572, 0.002); end
+  def test_lever_graphs_d1573; assert_equal("2050: Level 4", worksheet.lever_graphs_d1573); end
+  def test_lever_graphs_e1573; assert_in_delta(0.2641, worksheet.lever_graphs_e1573, 0.002); end
+  def test_lever_graphs_f1573; assert_in_delta(0.0188, worksheet.lever_graphs_f1573, 0.002); end
+  def test_lever_graphs_g1573; assert_in_delta(0.7171, worksheet.lever_graphs_g1573, 0.002); end
+  def test_lever_graphs_c2620; assert_equal("1975", worksheet.lever_graphs_c2620); end
+  def test_lever_graphs_d2620; assert_equal("1980", worksheet.lever_graphs_d2620); end
+  def test_lever_graphs_e2620; assert_equal("1985", worksheet.lever_graphs_e2620); end
+  def test_lever_graphs_f2620; assert_equal("1990", worksheet.lever_graphs_f2620); end
+  def test_lever_graphs_g2620; assert_equal("1995", worksheet.lever_graphs_g2620); end
+  def test_lever_graphs_h2620; assert_equal("2000", worksheet.lever_graphs_h2620); end
+  def test_lever_graphs_i2620; assert_equal("2005", worksheet.lever_graphs_i2620); end
+  def test_lever_graphs_j2620; assert_equal("2011", worksheet.lever_graphs_j2620); end
+  def test_lever_graphs_k2620; assert_equal("2015", worksheet.lever_graphs_k2620); end
+  def test_lever_graphs_l2620; assert_equal("2020", worksheet.lever_graphs_l2620); end
+  def test_lever_graphs_m2620; assert_equal("2025", worksheet.lever_graphs_m2620); end
+  def test_lever_graphs_n2620; assert_equal("2030", worksheet.lever_graphs_n2620); end
+  def test_lever_graphs_o2620; assert_equal("2035", worksheet.lever_graphs_o2620); end
+  def test_lever_graphs_p2620; assert_equal("2040", worksheet.lever_graphs_p2620); end
+  def test_lever_graphs_q2620; assert_equal("2045", worksheet.lever_graphs_q2620); end
+  def test_lever_graphs_r2620; assert_equal("2050", worksheet.lever_graphs_r2620); end
+  def test_lever_graphs_b2621; assert_equal("Historic data", worksheet.lever_graphs_b2621); end
+  def test_lever_graphs_b2622; assert_in_delta(1.0, worksheet.lever_graphs_b2622, 0.002); end
+  def test_lever_graphs_j2622; assert_in_delta(1.0, worksheet.lever_graphs_j2622, 0.002); end
+  def test_lever_graphs_k2622; assert_in_delta(0.99, worksheet.lever_graphs_k2622, 0.002); end
+  def test_lever_graphs_l2622; assert_in_epsilon(1.01, worksheet.lever_graphs_l2622, 0.002); end
+  def test_lever_graphs_m2622; assert_in_epsilon(1.02, worksheet.lever_graphs_m2622, 0.002); end
+  def test_lever_graphs_n2622; assert_in_epsilon(1.04, worksheet.lever_graphs_n2622, 0.002); end
+  def test_lever_graphs_o2622; assert_in_epsilon(1.05, worksheet.lever_graphs_o2622, 0.002); end
+  def test_lever_graphs_p2622; assert_in_epsilon(1.07, worksheet.lever_graphs_p2622, 0.002); end
+  def test_lever_graphs_q2622; assert_in_epsilon(1.08, worksheet.lever_graphs_q2622, 0.002); end
+  def test_lever_graphs_r2622; assert_in_epsilon(1.1, worksheet.lever_graphs_r2622, 0.002); end
+  def test_lever_graphs_b2623; assert_in_epsilon(2.0, worksheet.lever_graphs_b2623, 0.002); end
+  def test_lever_graphs_j2623; assert_in_delta(1.0, worksheet.lever_graphs_j2623, 0.002); end
+  def test_lever_graphs_k2623; assert_in_delta(0.99, worksheet.lever_graphs_k2623, 0.002); end
+  def test_lever_graphs_l2623; assert_in_delta(0.99, worksheet.lever_graphs_l2623, 0.002); end
+  def test_lever_graphs_m2623; assert_in_delta(0.99, worksheet.lever_graphs_m2623, 0.002); end
+  def test_lever_graphs_n2623; assert_in_delta(0.99, worksheet.lever_graphs_n2623, 0.002); end
+  def test_lever_graphs_o2623; assert_in_delta(1.0, worksheet.lever_graphs_o2623, 0.002); end
+  def test_lever_graphs_p2623; assert_in_delta(1.0, worksheet.lever_graphs_p2623, 0.002); end
+  def test_lever_graphs_q2623; assert_in_delta(1.0, worksheet.lever_graphs_q2623, 0.002); end
+  def test_lever_graphs_r2623; assert_in_delta(1.0, worksheet.lever_graphs_r2623, 0.002); end
+  def test_lever_graphs_b2624; assert_in_epsilon(3.0, worksheet.lever_graphs_b2624, 0.002); end
+  def test_lever_graphs_j2624; assert_in_delta(1.0, worksheet.lever_graphs_j2624, 0.002); end
+  def test_lever_graphs_k2624; assert_in_delta(0.99, worksheet.lever_graphs_k2624, 0.002); end
+  def test_lever_graphs_l2624; assert_in_delta(0.98, worksheet.lever_graphs_l2624, 0.002); end
+  def test_lever_graphs_m2624; assert_in_delta(0.96, worksheet.lever_graphs_m2624, 0.002); end
+  def test_lever_graphs_n2624; assert_in_delta(0.95, worksheet.lever_graphs_n2624, 0.002); end
+  def test_lever_graphs_o2624; assert_in_delta(0.94, worksheet.lever_graphs_o2624, 0.002); end
+  def test_lever_graphs_p2624; assert_in_delta(0.93, worksheet.lever_graphs_p2624, 0.002); end
+  def test_lever_graphs_q2624; assert_in_delta(0.91, worksheet.lever_graphs_q2624, 0.002); end
+  def test_lever_graphs_r2624; assert_in_delta(0.9, worksheet.lever_graphs_r2624, 0.002); end
+  def test_lever_graphs_b2625; assert_in_epsilon(4.0, worksheet.lever_graphs_b2625, 0.002); end
+  def test_lever_graphs_j2625; assert_in_delta(1.0, worksheet.lever_graphs_j2625, 0.002); end
+  def test_lever_graphs_k2625; assert_in_delta(0.99, worksheet.lever_graphs_k2625, 0.002); end
+  def test_lever_graphs_l2625; assert_in_delta(0.95, worksheet.lever_graphs_l2625, 0.002); end
+  def test_lever_graphs_m2625; assert_in_delta(0.91, worksheet.lever_graphs_m2625, 0.002); end
+  def test_lever_graphs_n2625; assert_in_delta(0.87, worksheet.lever_graphs_n2625, 0.002); end
+  def test_lever_graphs_o2625; assert_in_delta(0.82, worksheet.lever_graphs_o2625, 0.002); end
+  def test_lever_graphs_p2625; assert_in_delta(0.78, worksheet.lever_graphs_p2625, 0.002); end
+  def test_lever_graphs_q2625; assert_in_delta(0.74, worksheet.lever_graphs_q2625, 0.002); end
+  def test_lever_graphs_r2625; assert_in_delta(0.7, worksheet.lever_graphs_r2625, 0.002); end
+  def test_lever_graphs_d2715; assert_equal("Title", worksheet.lever_graphs_d2715); end
+  def test_lever_graphs_e2715; assert_equal("Forest", worksheet.lever_graphs_e2715); end
+  def test_lever_graphs_f2715; assert_equal("Arable.bio", worksheet.lever_graphs_f2715); end
+  def test_lever_graphs_g2715; assert_equal("Other.Land.productive", worksheet.lever_graphs_g2715); end
+  def test_lever_graphs_d2716; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2716, 0.002); end
+  def test_lever_graphs_e2716; assert_in_delta(0.8, worksheet.lever_graphs_e2716, 0.002); end
+  def test_lever_graphs_f2716; assert_in_delta(0.0, (worksheet.lever_graphs_f2716||0), 0.002); end
+  def test_lever_graphs_g2716; assert_in_delta(0.2, worksheet.lever_graphs_g2716, 0.002); end
+  def test_lever_graphs_d2717; assert_equal("2050: Level 1", worksheet.lever_graphs_d2717); end
+  def test_lever_graphs_e2717; assert_in_delta(0.8, worksheet.lever_graphs_e2717, 0.002); end
+  def test_lever_graphs_f2717; assert_in_delta(0.0, (worksheet.lever_graphs_f2717||0), 0.002); end
+  def test_lever_graphs_g2717; assert_in_delta(0.2, worksheet.lever_graphs_g2717, 0.002); end
+  def test_lever_graphs_d2718; assert_equal("2050: Level 2", worksheet.lever_graphs_d2718); end
+  def test_lever_graphs_e2718; assert_in_delta(0.6, worksheet.lever_graphs_e2718, 0.002); end
+  def test_lever_graphs_f2718; assert_in_delta(0.4, worksheet.lever_graphs_f2718, 0.002); end
+  def test_lever_graphs_g2718; assert_in_delta(0.0, (worksheet.lever_graphs_g2718||0), 0.002); end
+  def test_lever_graphs_d2719; assert_equal("2050: Level 3", worksheet.lever_graphs_d2719); end
+  def test_lever_graphs_e2719; assert_in_delta(0.4, worksheet.lever_graphs_e2719, 0.002); end
+  def test_lever_graphs_f2719; assert_in_delta(0.6, worksheet.lever_graphs_f2719, 0.002); end
+  def test_lever_graphs_g2719; assert_in_delta(0.0, (worksheet.lever_graphs_g2719||0), 0.002); end
+  def test_lever_graphs_d2720; assert_equal("2050: Level 4", worksheet.lever_graphs_d2720); end
+  def test_lever_graphs_e2720; assert_in_delta(0.0, (worksheet.lever_graphs_e2720||0), 0.002); end
+  def test_lever_graphs_f2720; assert_in_delta(1.0, worksheet.lever_graphs_f2720, 0.002); end
+  def test_lever_graphs_g2720; assert_in_delta(0.0, (worksheet.lever_graphs_g2720||0), 0.002); end
+  def test_lever_graphs_c2704; assert_equal("1975", worksheet.lever_graphs_c2704); end
+  def test_lever_graphs_d2704; assert_equal("1980", worksheet.lever_graphs_d2704); end
+  def test_lever_graphs_e2704; assert_equal("1985", worksheet.lever_graphs_e2704); end
+  def test_lever_graphs_f2704; assert_equal("1990", worksheet.lever_graphs_f2704); end
+  def test_lever_graphs_g2704; assert_equal("1995", worksheet.lever_graphs_g2704); end
+  def test_lever_graphs_h2704; assert_equal("2000", worksheet.lever_graphs_h2704); end
+  def test_lever_graphs_i2704; assert_equal("2005", worksheet.lever_graphs_i2704); end
+  def test_lever_graphs_j2704; assert_equal("2011", worksheet.lever_graphs_j2704); end
+  def test_lever_graphs_k2704; assert_equal("2015", worksheet.lever_graphs_k2704); end
+  def test_lever_graphs_l2704; assert_equal("2020", worksheet.lever_graphs_l2704); end
+  def test_lever_graphs_m2704; assert_equal("2025", worksheet.lever_graphs_m2704); end
+  def test_lever_graphs_n2704; assert_equal("2030", worksheet.lever_graphs_n2704); end
+  def test_lever_graphs_o2704; assert_equal("2035", worksheet.lever_graphs_o2704); end
+  def test_lever_graphs_p2704; assert_equal("2040", worksheet.lever_graphs_p2704); end
+  def test_lever_graphs_q2704; assert_equal("2045", worksheet.lever_graphs_q2704); end
+  def test_lever_graphs_r2704; assert_equal("2050", worksheet.lever_graphs_r2704); end
+  def test_lever_graphs_b2705; assert_equal("Historic data", worksheet.lever_graphs_b2705); end
+  def test_lever_graphs_b2706; assert_in_delta(1.0, worksheet.lever_graphs_b2706, 0.002); end
+  def test_lever_graphs_j2706; assert_in_delta(0.8, worksheet.lever_graphs_j2706, 0.002); end
+  def test_lever_graphs_k2706; assert_in_delta(0.8, worksheet.lever_graphs_k2706, 0.002); end
+  def test_lever_graphs_l2706; assert_in_delta(0.8, worksheet.lever_graphs_l2706, 0.002); end
+  def test_lever_graphs_m2706; assert_in_delta(0.8, worksheet.lever_graphs_m2706, 0.002); end
+  def test_lever_graphs_n2706; assert_in_delta(0.8, worksheet.lever_graphs_n2706, 0.002); end
+  def test_lever_graphs_o2706; assert_in_delta(0.8, worksheet.lever_graphs_o2706, 0.002); end
+  def test_lever_graphs_p2706; assert_in_delta(0.8, worksheet.lever_graphs_p2706, 0.002); end
+  def test_lever_graphs_q2706; assert_in_delta(0.8, worksheet.lever_graphs_q2706, 0.002); end
+  def test_lever_graphs_r2706; assert_in_delta(0.8, worksheet.lever_graphs_r2706, 0.002); end
+  def test_lever_graphs_b2707; assert_in_epsilon(2.0, worksheet.lever_graphs_b2707, 0.002); end
+  def test_lever_graphs_j2707; assert_in_delta(0.6, worksheet.lever_graphs_j2707, 0.002); end
+  def test_lever_graphs_k2707; assert_in_delta(0.6, worksheet.lever_graphs_k2707, 0.002); end
+  def test_lever_graphs_l2707; assert_in_delta(0.6, worksheet.lever_graphs_l2707, 0.002); end
+  def test_lever_graphs_m2707; assert_in_delta(0.6, worksheet.lever_graphs_m2707, 0.002); end
+  def test_lever_graphs_n2707; assert_in_delta(0.6, worksheet.lever_graphs_n2707, 0.002); end
+  def test_lever_graphs_o2707; assert_in_delta(0.6, worksheet.lever_graphs_o2707, 0.002); end
+  def test_lever_graphs_p2707; assert_in_delta(0.6, worksheet.lever_graphs_p2707, 0.002); end
+  def test_lever_graphs_q2707; assert_in_delta(0.6, worksheet.lever_graphs_q2707, 0.002); end
+  def test_lever_graphs_r2707; assert_in_delta(0.6, worksheet.lever_graphs_r2707, 0.002); end
+  def test_lever_graphs_b2708; assert_in_epsilon(3.0, worksheet.lever_graphs_b2708, 0.002); end
+  def test_lever_graphs_j2708; assert_in_delta(0.4, worksheet.lever_graphs_j2708, 0.002); end
+  def test_lever_graphs_k2708; assert_in_delta(0.4, worksheet.lever_graphs_k2708, 0.002); end
+  def test_lever_graphs_l2708; assert_in_delta(0.4, worksheet.lever_graphs_l2708, 0.002); end
+  def test_lever_graphs_m2708; assert_in_delta(0.4, worksheet.lever_graphs_m2708, 0.002); end
+  def test_lever_graphs_n2708; assert_in_delta(0.4, worksheet.lever_graphs_n2708, 0.002); end
+  def test_lever_graphs_o2708; assert_in_delta(0.4, worksheet.lever_graphs_o2708, 0.002); end
+  def test_lever_graphs_p2708; assert_in_delta(0.4, worksheet.lever_graphs_p2708, 0.002); end
+  def test_lever_graphs_q2708; assert_in_delta(0.4, worksheet.lever_graphs_q2708, 0.002); end
+  def test_lever_graphs_r2708; assert_in_delta(0.4, worksheet.lever_graphs_r2708, 0.002); end
+  def test_lever_graphs_b2709; assert_in_epsilon(4.0, worksheet.lever_graphs_b2709, 0.002); end
+  def test_lever_graphs_j2709; assert_in_delta(0.0, (worksheet.lever_graphs_j2709||0), 0.002); end
+  def test_lever_graphs_k2709; assert_in_delta(0.0, (worksheet.lever_graphs_k2709||0), 0.002); end
+  def test_lever_graphs_l2709; assert_in_delta(0.0, (worksheet.lever_graphs_l2709||0), 0.002); end
+  def test_lever_graphs_m2709; assert_in_delta(0.0, (worksheet.lever_graphs_m2709||0), 0.002); end
+  def test_lever_graphs_n2709; assert_in_delta(0.0, (worksheet.lever_graphs_n2709||0), 0.002); end
+  def test_lever_graphs_o2709; assert_in_delta(0.0, (worksheet.lever_graphs_o2709||0), 0.002); end
+  def test_lever_graphs_p2709; assert_in_delta(0.0, (worksheet.lever_graphs_p2709||0), 0.002); end
+  def test_lever_graphs_q2709; assert_in_delta(0.0, (worksheet.lever_graphs_q2709||0), 0.002); end
+  def test_lever_graphs_r2709; assert_in_delta(0.0, (worksheet.lever_graphs_r2709||0), 0.002); end
+  def test_lever_graphs_c2231; assert_equal("1975", worksheet.lever_graphs_c2231); end
+  def test_lever_graphs_d2231; assert_equal("1980", worksheet.lever_graphs_d2231); end
+  def test_lever_graphs_e2231; assert_equal("1985", worksheet.lever_graphs_e2231); end
+  def test_lever_graphs_f2231; assert_equal("1990", worksheet.lever_graphs_f2231); end
+  def test_lever_graphs_g2231; assert_equal("1995", worksheet.lever_graphs_g2231); end
+  def test_lever_graphs_h2231; assert_equal("2000", worksheet.lever_graphs_h2231); end
+  def test_lever_graphs_i2231; assert_equal("2005", worksheet.lever_graphs_i2231); end
+  def test_lever_graphs_j2231; assert_equal("2011", worksheet.lever_graphs_j2231); end
+  def test_lever_graphs_k2231; assert_equal("2015", worksheet.lever_graphs_k2231); end
+  def test_lever_graphs_l2231; assert_equal("2020", worksheet.lever_graphs_l2231); end
+  def test_lever_graphs_m2231; assert_equal("2025", worksheet.lever_graphs_m2231); end
+  def test_lever_graphs_n2231; assert_equal("2030", worksheet.lever_graphs_n2231); end
+  def test_lever_graphs_o2231; assert_equal("2035", worksheet.lever_graphs_o2231); end
+  def test_lever_graphs_p2231; assert_equal("2040", worksheet.lever_graphs_p2231); end
+  def test_lever_graphs_q2231; assert_equal("2045", worksheet.lever_graphs_q2231); end
+  def test_lever_graphs_r2231; assert_equal("2050", worksheet.lever_graphs_r2231); end
+  def test_lever_graphs_b2232; assert_equal("Historic data", worksheet.lever_graphs_b2232); end
+  def test_lever_graphs_b2233; assert_in_delta(1.0, worksheet.lever_graphs_b2233, 0.002); end
+  def test_lever_graphs_j2233; assert_in_epsilon(20.0, worksheet.lever_graphs_j2233, 0.002); end
+  def test_lever_graphs_k2233; assert_in_epsilon(22.05128205128205, worksheet.lever_graphs_k2233, 0.002); end
+  def test_lever_graphs_l2233; assert_in_epsilon(24.615384615384617, worksheet.lever_graphs_l2233, 0.002); end
+  def test_lever_graphs_m2233; assert_in_epsilon(27.179487179487182, worksheet.lever_graphs_m2233, 0.002); end
+  def test_lever_graphs_n2233; assert_in_epsilon(29.74358974358974, worksheet.lever_graphs_n2233, 0.002); end
+  def test_lever_graphs_o2233; assert_in_epsilon(32.30769230769231, worksheet.lever_graphs_o2233, 0.002); end
+  def test_lever_graphs_p2233; assert_in_epsilon(34.871794871794876, worksheet.lever_graphs_p2233, 0.002); end
+  def test_lever_graphs_q2233; assert_in_epsilon(37.43589743589744, worksheet.lever_graphs_q2233, 0.002); end
+  def test_lever_graphs_r2233; assert_in_epsilon(40.0, worksheet.lever_graphs_r2233, 0.002); end
+  def test_lever_graphs_b2234; assert_in_epsilon(2.0, worksheet.lever_graphs_b2234, 0.002); end
+  def test_lever_graphs_j2234; assert_in_epsilon(20.0, worksheet.lever_graphs_j2234, 0.002); end
+  def test_lever_graphs_k2234; assert_in_epsilon(21.53846153846154, worksheet.lever_graphs_k2234, 0.002); end
+  def test_lever_graphs_l2234; assert_in_epsilon(23.46153846153846, worksheet.lever_graphs_l2234, 0.002); end
+  def test_lever_graphs_m2234; assert_in_epsilon(25.384615384615387, worksheet.lever_graphs_m2234, 0.002); end
+  def test_lever_graphs_n2234; assert_in_epsilon(27.307692307692307, worksheet.lever_graphs_n2234, 0.002); end
+  def test_lever_graphs_o2234; assert_in_epsilon(29.230769230769234, worksheet.lever_graphs_o2234, 0.002); end
+  def test_lever_graphs_p2234; assert_in_epsilon(31.153846153846153, worksheet.lever_graphs_p2234, 0.002); end
+  def test_lever_graphs_q2234; assert_in_epsilon(33.07692307692308, worksheet.lever_graphs_q2234, 0.002); end
+  def test_lever_graphs_r2234; assert_in_epsilon(35.0, worksheet.lever_graphs_r2234, 0.002); end
+  def test_lever_graphs_b2235; assert_in_epsilon(3.0, worksheet.lever_graphs_b2235, 0.002); end
+  def test_lever_graphs_j2235; assert_in_epsilon(20.0, worksheet.lever_graphs_j2235, 0.002); end
+  def test_lever_graphs_k2235; assert_in_epsilon(21.025641025641026, worksheet.lever_graphs_k2235, 0.002); end
+  def test_lever_graphs_l2235; assert_in_epsilon(22.307692307692307, worksheet.lever_graphs_l2235, 0.002); end
+  def test_lever_graphs_m2235; assert_in_epsilon(23.58974358974359, worksheet.lever_graphs_m2235, 0.002); end
+  def test_lever_graphs_n2235; assert_in_epsilon(24.87179487179487, worksheet.lever_graphs_n2235, 0.002); end
+  def test_lever_graphs_o2235; assert_in_epsilon(26.153846153846157, worksheet.lever_graphs_o2235, 0.002); end
+  def test_lever_graphs_p2235; assert_in_epsilon(27.435897435897434, worksheet.lever_graphs_p2235, 0.002); end
+  def test_lever_graphs_q2235; assert_in_epsilon(28.717948717948715, worksheet.lever_graphs_q2235, 0.002); end
+  def test_lever_graphs_r2235; assert_in_epsilon(30.0, worksheet.lever_graphs_r2235, 0.002); end
+  def test_lever_graphs_b2236; assert_in_epsilon(4.0, worksheet.lever_graphs_b2236, 0.002); end
+  def test_lever_graphs_j2236; assert_in_epsilon(20.0, worksheet.lever_graphs_j2236, 0.002); end
+  def test_lever_graphs_k2236; assert_in_epsilon(20.51282051282051, worksheet.lever_graphs_k2236, 0.002); end
+  def test_lever_graphs_l2236; assert_in_epsilon(21.153846153846153, worksheet.lever_graphs_l2236, 0.002); end
+  def test_lever_graphs_m2236; assert_in_epsilon(21.794871794871796, worksheet.lever_graphs_m2236, 0.002); end
+  def test_lever_graphs_n2236; assert_in_epsilon(22.435897435897434, worksheet.lever_graphs_n2236, 0.002); end
+  def test_lever_graphs_o2236; assert_in_epsilon(23.076923076923077, worksheet.lever_graphs_o2236, 0.002); end
+  def test_lever_graphs_p2236; assert_in_epsilon(23.71794871794872, worksheet.lever_graphs_p2236, 0.002); end
+  def test_lever_graphs_q2236; assert_in_epsilon(24.358974358974358, worksheet.lever_graphs_q2236, 0.002); end
+  def test_lever_graphs_r2236; assert_in_epsilon(25.0, worksheet.lever_graphs_r2236, 0.002); end
+  def test_lever_graphs_d2241; assert_equal("Title", worksheet.lever_graphs_d2241); end
+  def test_lever_graphs_e2241; assert_equal("Global urban incandescent light bulb", worksheet.lever_graphs_e2241); end
+  def test_lever_graphs_f2241; assert_equal("Global urban halogens light bulb", worksheet.lever_graphs_f2241); end
+  def test_lever_graphs_g2241; assert_equal("Global urban compact fluorescent lamp", worksheet.lever_graphs_g2241); end
+  def test_lever_graphs_h2241; assert_equal("Global urban LEDs bulb", worksheet.lever_graphs_h2241); end
+  def test_lever_graphs_d2242; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2242, 0.002); end
+  def test_lever_graphs_e2242; assert_in_delta(0.717, worksheet.lever_graphs_e2242, 0.002); end
+  def test_lever_graphs_f2242; assert_in_delta(0.03, worksheet.lever_graphs_f2242, 0.002); end
+  def test_lever_graphs_g2242; assert_in_delta(0.25, worksheet.lever_graphs_g2242, 0.002); end
+  def test_lever_graphs_h2242; assert_in_delta(0.0030000000000000027, worksheet.lever_graphs_h2242, 0.002); end
+  def test_lever_graphs_d2243; assert_equal("2050: Level 1", worksheet.lever_graphs_d2243); end
+  def test_lever_graphs_e2243; assert_in_delta(0.717, worksheet.lever_graphs_e2243, 0.002); end
+  def test_lever_graphs_f2243; assert_in_delta(0.03, worksheet.lever_graphs_f2243, 0.002); end
+  def test_lever_graphs_g2243; assert_in_delta(0.25, worksheet.lever_graphs_g2243, 0.002); end
+  def test_lever_graphs_h2243; assert_in_delta(0.0030000000000000027, worksheet.lever_graphs_h2243, 0.002); end
+  def test_lever_graphs_d2244; assert_equal("2050: Level 2", worksheet.lever_graphs_d2244); end
+  def test_lever_graphs_e2244; assert_in_delta(0.48, worksheet.lever_graphs_e2244, 0.002); end
+  def test_lever_graphs_f2244; assert_in_delta(0.02, worksheet.lever_graphs_f2244, 0.002); end
+  def test_lever_graphs_g2244; assert_in_delta(0.45, worksheet.lever_graphs_g2244, 0.002); end
+  def test_lever_graphs_h2244; assert_in_delta(0.04999999999999999, worksheet.lever_graphs_h2244, 0.002); end
+  def test_lever_graphs_d2245; assert_equal("2050: Level 3", worksheet.lever_graphs_d2245); end
+  def test_lever_graphs_e2245; assert_in_delta(0.18199999999999994, worksheet.lever_graphs_e2245, 0.002); end
+  def test_lever_graphs_f2245; assert_in_delta(0.018, worksheet.lever_graphs_f2245, 0.002); end
+  def test_lever_graphs_g2245; assert_in_delta(0.45, worksheet.lever_graphs_g2245, 0.002); end
+  def test_lever_graphs_h2245; assert_in_delta(0.35000000000000003, worksheet.lever_graphs_h2245, 0.002); end
+  def test_lever_graphs_d2246; assert_equal("2050: Level 4", worksheet.lever_graphs_d2246); end
+  def test_lever_graphs_e2246; assert_in_delta(0.0, (worksheet.lever_graphs_e2246||0), 0.002); end
+  def test_lever_graphs_f2246; assert_in_delta(0.01, worksheet.lever_graphs_f2246, 0.002); end
+  def test_lever_graphs_g2246; assert_in_delta(0.34, worksheet.lever_graphs_g2246, 0.002); end
+  def test_lever_graphs_h2246; assert_in_delta(0.6499999999999999, worksheet.lever_graphs_h2246, 0.002); end
+  def test_lever_graphs_d1597; assert_equal("Title", worksheet.lever_graphs_d1597); end
+  def test_lever_graphs_e1597; assert_equal("liquid-fuel efficient power plant", worksheet.lever_graphs_e1597); end
+  def test_lever_graphs_f1597; assert_equal("Liquid-fuel inefficient power plant", worksheet.lever_graphs_f1597); end
+  def test_lever_graphs_d1598; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1598, 0.002); end
+  def test_lever_graphs_e1598; assert_in_delta(0.3, worksheet.lever_graphs_e1598, 0.002); end
+  def test_lever_graphs_f1598; assert_in_delta(0.7, worksheet.lever_graphs_f1598, 0.002); end
+  def test_lever_graphs_d1599; assert_equal("2050: Level 1", worksheet.lever_graphs_d1599); end
+  def test_lever_graphs_e1599; assert_in_delta(0.3288, worksheet.lever_graphs_e1599, 0.002); end
+  def test_lever_graphs_f1599; assert_in_delta(0.6712, worksheet.lever_graphs_f1599, 0.002); end
+  def test_lever_graphs_d1600; assert_equal("2050: Level 2", worksheet.lever_graphs_d1600); end
+  def test_lever_graphs_e1600; assert_in_delta(0.47, worksheet.lever_graphs_e1600, 0.002); end
+  def test_lever_graphs_f1600; assert_in_delta(0.53, worksheet.lever_graphs_f1600, 0.002); end
+  def test_lever_graphs_d1601; assert_equal("2050: Level 3", worksheet.lever_graphs_d1601); end
+  def test_lever_graphs_e1601; assert_in_delta(0.65, worksheet.lever_graphs_e1601, 0.002); end
+  def test_lever_graphs_f1601; assert_in_delta(0.35, worksheet.lever_graphs_f1601, 0.002); end
+  def test_lever_graphs_d1602; assert_equal("2050: Level 4", worksheet.lever_graphs_d1602); end
+  def test_lever_graphs_e1602; assert_in_delta(0.7142, worksheet.lever_graphs_e1602, 0.002); end
+  def test_lever_graphs_f1602; assert_in_delta(0.28580000000000005, worksheet.lever_graphs_f1602, 0.002); end
+  def test_lever_graphs_c1452; assert_equal("1975", worksheet.lever_graphs_c1452); end
+  def test_lever_graphs_d1452; assert_equal("1980", worksheet.lever_graphs_d1452); end
+  def test_lever_graphs_e1452; assert_equal("1985", worksheet.lever_graphs_e1452); end
+  def test_lever_graphs_f1452; assert_equal("1990", worksheet.lever_graphs_f1452); end
+  def test_lever_graphs_g1452; assert_equal("1995", worksheet.lever_graphs_g1452); end
+  def test_lever_graphs_h1452; assert_equal("2000", worksheet.lever_graphs_h1452); end
+  def test_lever_graphs_i1452; assert_equal("2005", worksheet.lever_graphs_i1452); end
+  def test_lever_graphs_j1452; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1452, 0.002); end
+  def test_lever_graphs_k1452; assert_equal("2015", worksheet.lever_graphs_k1452); end
+  def test_lever_graphs_l1452; assert_equal("2020", worksheet.lever_graphs_l1452); end
+  def test_lever_graphs_m1452; assert_equal("2025", worksheet.lever_graphs_m1452); end
+  def test_lever_graphs_n1452; assert_equal("2030", worksheet.lever_graphs_n1452); end
+  def test_lever_graphs_o1452; assert_equal("2035", worksheet.lever_graphs_o1452); end
+  def test_lever_graphs_p1452; assert_equal("2040", worksheet.lever_graphs_p1452); end
+  def test_lever_graphs_q1452; assert_equal("2045", worksheet.lever_graphs_q1452); end
+  def test_lever_graphs_r1452; assert_equal("2050", worksheet.lever_graphs_r1452); end
+  def test_lever_graphs_b1453; assert_equal("Historic data", worksheet.lever_graphs_b1453); end
+  def test_lever_graphs_b1454; assert_in_delta(1.0, worksheet.lever_graphs_b1454, 0.002); end
+  def test_lever_graphs_j1454; assert_in_delta(0.24, worksheet.lever_graphs_j1454, 0.002); end
+  def test_lever_graphs_k1454; assert_in_delta(0.24, worksheet.lever_graphs_k1454, 0.002); end
+  def test_lever_graphs_l1454; assert_in_delta(0.24, worksheet.lever_graphs_l1454, 0.002); end
+  def test_lever_graphs_m1454; assert_in_delta(0.24, worksheet.lever_graphs_m1454, 0.002); end
+  def test_lever_graphs_n1454; assert_in_delta(0.24, worksheet.lever_graphs_n1454, 0.002); end
+  def test_lever_graphs_o1454; assert_in_delta(0.24, worksheet.lever_graphs_o1454, 0.002); end
+  def test_lever_graphs_p1454; assert_in_delta(0.24, worksheet.lever_graphs_p1454, 0.002); end
+  def test_lever_graphs_q1454; assert_in_delta(0.24, worksheet.lever_graphs_q1454, 0.002); end
+  def test_lever_graphs_r1454; assert_in_delta(0.24, worksheet.lever_graphs_r1454, 0.002); end
+  def test_lever_graphs_b1455; assert_in_epsilon(2.0, worksheet.lever_graphs_b1455, 0.002); end
+  def test_lever_graphs_j1455; assert_in_delta(0.24, worksheet.lever_graphs_j1455, 0.002); end
+  def test_lever_graphs_k1455; assert_in_delta(0.24246153846153845, worksheet.lever_graphs_k1455, 0.002); end
+  def test_lever_graphs_l1455; assert_in_delta(0.24553846153846157, worksheet.lever_graphs_l1455, 0.002); end
+  def test_lever_graphs_m1455; assert_in_delta(0.24861538461538463, worksheet.lever_graphs_m1455, 0.002); end
+  def test_lever_graphs_n1455; assert_in_delta(0.25169230769230766, worksheet.lever_graphs_n1455, 0.002); end
+  def test_lever_graphs_o1455; assert_in_delta(0.25476923076923075, worksheet.lever_graphs_o1455, 0.002); end
+  def test_lever_graphs_p1455; assert_in_delta(0.2578461538461539, worksheet.lever_graphs_p1455, 0.002); end
+  def test_lever_graphs_q1455; assert_in_delta(0.2609230769230769, worksheet.lever_graphs_q1455, 0.002); end
+  def test_lever_graphs_r1455; assert_in_delta(0.264, worksheet.lever_graphs_r1455, 0.002); end
+  def test_lever_graphs_b1456; assert_in_epsilon(3.0, worksheet.lever_graphs_b1456, 0.002); end
+  def test_lever_graphs_j1456; assert_in_delta(0.24, worksheet.lever_graphs_j1456, 0.002); end
+  def test_lever_graphs_k1456; assert_in_delta(0.2449230769230769, worksheet.lever_graphs_k1456, 0.002); end
+  def test_lever_graphs_l1456; assert_in_delta(0.2510769230769231, worksheet.lever_graphs_l1456, 0.002); end
+  def test_lever_graphs_m1456; assert_in_delta(0.2572307692307692, worksheet.lever_graphs_m1456, 0.002); end
+  def test_lever_graphs_n1456; assert_in_delta(0.26338461538461533, worksheet.lever_graphs_n1456, 0.002); end
+  def test_lever_graphs_o1456; assert_in_delta(0.2695384615384615, worksheet.lever_graphs_o1456, 0.002); end
+  def test_lever_graphs_p1456; assert_in_delta(0.2756923076923077, worksheet.lever_graphs_p1456, 0.002); end
+  def test_lever_graphs_q1456; assert_in_delta(0.28184615384615386, worksheet.lever_graphs_q1456, 0.002); end
+  def test_lever_graphs_r1456; assert_in_delta(0.288, worksheet.lever_graphs_r1456, 0.002); end
+  def test_lever_graphs_b1457; assert_in_epsilon(4.0, worksheet.lever_graphs_b1457, 0.002); end
+  def test_lever_graphs_j1457; assert_in_delta(0.24, worksheet.lever_graphs_j1457, 0.002); end
+  def test_lever_graphs_k1457; assert_in_delta(0.2473846153846154, worksheet.lever_graphs_k1457, 0.002); end
+  def test_lever_graphs_l1457; assert_in_delta(0.25661538461538463, worksheet.lever_graphs_l1457, 0.002); end
+  def test_lever_graphs_m1457; assert_in_delta(0.26584615384615384, worksheet.lever_graphs_m1457, 0.002); end
+  def test_lever_graphs_n1457; assert_in_delta(0.27507692307692305, worksheet.lever_graphs_n1457, 0.002); end
+  def test_lever_graphs_o1457; assert_in_delta(0.2843076923076923, worksheet.lever_graphs_o1457, 0.002); end
+  def test_lever_graphs_p1457; assert_in_delta(0.2935384615384615, worksheet.lever_graphs_p1457, 0.002); end
+  def test_lever_graphs_q1457; assert_in_delta(0.30276923076923073, worksheet.lever_graphs_q1457, 0.002); end
+  def test_lever_graphs_r1457; assert_in_delta(0.312, worksheet.lever_graphs_r1457, 0.002); end
+  def test_lever_graphs_c1464; assert_equal("1975", worksheet.lever_graphs_c1464); end
+  def test_lever_graphs_d1464; assert_equal("1980", worksheet.lever_graphs_d1464); end
+  def test_lever_graphs_e1464; assert_equal("1985", worksheet.lever_graphs_e1464); end
+  def test_lever_graphs_f1464; assert_equal("1990", worksheet.lever_graphs_f1464); end
+  def test_lever_graphs_g1464; assert_equal("1995", worksheet.lever_graphs_g1464); end
+  def test_lever_graphs_h1464; assert_equal("2000", worksheet.lever_graphs_h1464); end
+  def test_lever_graphs_i1464; assert_equal("2005", worksheet.lever_graphs_i1464); end
+  def test_lever_graphs_j1464; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1464, 0.002); end
+  def test_lever_graphs_k1464; assert_equal("2015", worksheet.lever_graphs_k1464); end
+  def test_lever_graphs_l1464; assert_equal("2020", worksheet.lever_graphs_l1464); end
+  def test_lever_graphs_m1464; assert_equal("2025", worksheet.lever_graphs_m1464); end
+  def test_lever_graphs_n1464; assert_equal("2030", worksheet.lever_graphs_n1464); end
+  def test_lever_graphs_o1464; assert_equal("2035", worksheet.lever_graphs_o1464); end
+  def test_lever_graphs_p1464; assert_equal("2040", worksheet.lever_graphs_p1464); end
+  def test_lever_graphs_q1464; assert_equal("2045", worksheet.lever_graphs_q1464); end
+  def test_lever_graphs_r1464; assert_equal("2050", worksheet.lever_graphs_r1464); end
+  def test_lever_graphs_b1465; assert_equal("Historic data", worksheet.lever_graphs_b1465); end
+  def test_lever_graphs_b1466; assert_in_delta(1.0, worksheet.lever_graphs_b1466, 0.002); end
+  def test_lever_graphs_j1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_j1466, 0.002); end
+  def test_lever_graphs_k1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_k1466, 0.002); end
+  def test_lever_graphs_l1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_l1466, 0.002); end
+  def test_lever_graphs_m1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_m1466, 0.002); end
+  def test_lever_graphs_n1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_n1466, 0.002); end
+  def test_lever_graphs_o1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_o1466, 0.002); end
+  def test_lever_graphs_p1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_p1466, 0.002); end
+  def test_lever_graphs_q1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_q1466, 0.002); end
+  def test_lever_graphs_r1466; assert_in_epsilon(60000.0, worksheet.lever_graphs_r1466, 0.002); end
+  def test_lever_graphs_b1467; assert_in_epsilon(2.0, worksheet.lever_graphs_b1467, 0.002); end
+  def test_lever_graphs_j1467; assert_in_epsilon(60000.0, worksheet.lever_graphs_j1467, 0.002); end
+  def test_lever_graphs_k1467; assert_in_epsilon(60307.692307692305, worksheet.lever_graphs_k1467, 0.002); end
+  def test_lever_graphs_l1467; assert_in_epsilon(60692.30769230769, worksheet.lever_graphs_l1467, 0.002); end
+  def test_lever_graphs_m1467; assert_in_epsilon(61076.92307692307, worksheet.lever_graphs_m1467, 0.002); end
+  def test_lever_graphs_n1467; assert_in_epsilon(61461.538461538454, worksheet.lever_graphs_n1467, 0.002); end
+  def test_lever_graphs_o1467; assert_in_epsilon(61846.15384615385, worksheet.lever_graphs_o1467, 0.002); end
+  def test_lever_graphs_p1467; assert_in_epsilon(62230.76923076922, worksheet.lever_graphs_p1467, 0.002); end
+  def test_lever_graphs_q1467; assert_in_epsilon(62615.38461538462, worksheet.lever_graphs_q1467, 0.002); end
+  def test_lever_graphs_r1467; assert_in_epsilon(63000.0, worksheet.lever_graphs_r1467, 0.002); end
+  def test_lever_graphs_b1468; assert_in_epsilon(3.0, worksheet.lever_graphs_b1468, 0.002); end
+  def test_lever_graphs_j1468; assert_in_epsilon(60000.0, worksheet.lever_graphs_j1468, 0.002); end
+  def test_lever_graphs_k1468; assert_in_epsilon(60615.38461538461, worksheet.lever_graphs_k1468, 0.002); end
+  def test_lever_graphs_l1468; assert_in_epsilon(61384.61538461539, worksheet.lever_graphs_l1468, 0.002); end
+  def test_lever_graphs_m1468; assert_in_epsilon(62153.846153846156, worksheet.lever_graphs_m1468, 0.002); end
+  def test_lever_graphs_n1468; assert_in_epsilon(62923.076923076915, worksheet.lever_graphs_n1468, 0.002); end
+  def test_lever_graphs_o1468; assert_in_epsilon(63692.307692307695, worksheet.lever_graphs_o1468, 0.002); end
+  def test_lever_graphs_p1468; assert_in_epsilon(64461.538461538476, worksheet.lever_graphs_p1468, 0.002); end
+  def test_lever_graphs_q1468; assert_in_epsilon(65230.76923076924, worksheet.lever_graphs_q1468, 0.002); end
+  def test_lever_graphs_r1468; assert_in_epsilon(66000.0, worksheet.lever_graphs_r1468, 0.002); end
+  def test_lever_graphs_b1469; assert_in_epsilon(4.0, worksheet.lever_graphs_b1469, 0.002); end
+  def test_lever_graphs_j1469; assert_in_epsilon(60000.0, worksheet.lever_graphs_j1469, 0.002); end
+  def test_lever_graphs_k1469; assert_in_epsilon(60923.07692307692, worksheet.lever_graphs_k1469, 0.002); end
+  def test_lever_graphs_l1469; assert_in_epsilon(62076.923076923085, worksheet.lever_graphs_l1469, 0.002); end
+  def test_lever_graphs_m1469; assert_in_epsilon(63230.769230769234, worksheet.lever_graphs_m1469, 0.002); end
+  def test_lever_graphs_n1469; assert_in_epsilon(64384.61538461537, worksheet.lever_graphs_n1469, 0.002); end
+  def test_lever_graphs_o1469; assert_in_epsilon(65538.46153846155, worksheet.lever_graphs_o1469, 0.002); end
+  def test_lever_graphs_p1469; assert_in_epsilon(66692.3076923077, worksheet.lever_graphs_p1469, 0.002); end
+  def test_lever_graphs_q1469; assert_in_epsilon(67846.15384615384, worksheet.lever_graphs_q1469, 0.002); end
+  def test_lever_graphs_r1469; assert_in_epsilon(69000.0, worksheet.lever_graphs_r1469, 0.002); end
+  def test_lever_graphs_c2563; assert_equal("1975", worksheet.lever_graphs_c2563); end
+  def test_lever_graphs_d2563; assert_equal("1980", worksheet.lever_graphs_d2563); end
+  def test_lever_graphs_e2563; assert_equal("1985", worksheet.lever_graphs_e2563); end
+  def test_lever_graphs_f2563; assert_equal("1990", worksheet.lever_graphs_f2563); end
+  def test_lever_graphs_g2563; assert_equal("1995", worksheet.lever_graphs_g2563); end
+  def test_lever_graphs_h2563; assert_equal("2000", worksheet.lever_graphs_h2563); end
+  def test_lever_graphs_i2563; assert_equal("2005", worksheet.lever_graphs_i2563); end
+  def test_lever_graphs_j2563; assert_equal("2011", worksheet.lever_graphs_j2563); end
+  def test_lever_graphs_k2563; assert_equal("2015", worksheet.lever_graphs_k2563); end
+  def test_lever_graphs_l2563; assert_equal("2020", worksheet.lever_graphs_l2563); end
+  def test_lever_graphs_m2563; assert_equal("2025", worksheet.lever_graphs_m2563); end
+  def test_lever_graphs_n2563; assert_equal("2030", worksheet.lever_graphs_n2563); end
+  def test_lever_graphs_o2563; assert_equal("2035", worksheet.lever_graphs_o2563); end
+  def test_lever_graphs_p2563; assert_equal("2040", worksheet.lever_graphs_p2563); end
+  def test_lever_graphs_q2563; assert_equal("2045", worksheet.lever_graphs_q2563); end
+  def test_lever_graphs_r2563; assert_equal("2050", worksheet.lever_graphs_r2563); end
+  def test_lever_graphs_b2564; assert_equal("Historic data", worksheet.lever_graphs_b2564); end
+  def test_lever_graphs_b2565; assert_in_delta(1.0, worksheet.lever_graphs_b2565, 0.002); end
+  def test_lever_graphs_j2565; assert_in_epsilon(212.0, worksheet.lever_graphs_j2565, 0.002); end
+  def test_lever_graphs_k2565; assert_in_epsilon(212.0, worksheet.lever_graphs_k2565, 0.002); end
+  def test_lever_graphs_l2565; assert_in_epsilon(225.85714285714286, worksheet.lever_graphs_l2565, 0.002); end
+  def test_lever_graphs_m2565; assert_in_epsilon(239.71428571428575, worksheet.lever_graphs_m2565, 0.002); end
+  def test_lever_graphs_n2565; assert_in_epsilon(253.57142857142858, worksheet.lever_graphs_n2565, 0.002); end
+  def test_lever_graphs_o2565; assert_in_epsilon(267.4285714285714, worksheet.lever_graphs_o2565, 0.002); end
+  def test_lever_graphs_p2565; assert_in_epsilon(281.2857142857143, worksheet.lever_graphs_p2565, 0.002); end
+  def test_lever_graphs_q2565; assert_in_epsilon(295.14285714285717, worksheet.lever_graphs_q2565, 0.002); end
+  def test_lever_graphs_r2565; assert_in_epsilon(309.0, worksheet.lever_graphs_r2565, 0.002); end
+  def test_lever_graphs_b2566; assert_in_epsilon(2.0, worksheet.lever_graphs_b2566, 0.002); end
+  def test_lever_graphs_j2566; assert_in_epsilon(212.0, worksheet.lever_graphs_j2566, 0.002); end
+  def test_lever_graphs_k2566; assert_in_epsilon(212.0, worksheet.lever_graphs_k2566, 0.002); end
+  def test_lever_graphs_l2566; assert_in_epsilon(212.0, worksheet.lever_graphs_l2566, 0.002); end
+  def test_lever_graphs_m2566; assert_in_epsilon(212.0, worksheet.lever_graphs_m2566, 0.002); end
+  def test_lever_graphs_n2566; assert_in_epsilon(212.0, worksheet.lever_graphs_n2566, 0.002); end
+  def test_lever_graphs_o2566; assert_in_epsilon(212.0, worksheet.lever_graphs_o2566, 0.002); end
+  def test_lever_graphs_p2566; assert_in_epsilon(212.0, worksheet.lever_graphs_p2566, 0.002); end
+  def test_lever_graphs_q2566; assert_in_epsilon(212.0, worksheet.lever_graphs_q2566, 0.002); end
+  def test_lever_graphs_r2566; assert_in_epsilon(212.0, worksheet.lever_graphs_r2566, 0.002); end
+  def test_lever_graphs_b2567; assert_in_epsilon(3.0, worksheet.lever_graphs_b2567, 0.002); end
+  def test_lever_graphs_j2567; assert_in_epsilon(212.0, worksheet.lever_graphs_j2567, 0.002); end
+  def test_lever_graphs_k2567; assert_in_epsilon(212.0, worksheet.lever_graphs_k2567, 0.002); end
+  def test_lever_graphs_l2567; assert_in_epsilon(204.85714285714286, worksheet.lever_graphs_l2567, 0.002); end
+  def test_lever_graphs_m2567; assert_in_epsilon(197.7142857142857, worksheet.lever_graphs_m2567, 0.002); end
+  def test_lever_graphs_n2567; assert_in_epsilon(190.57142857142858, worksheet.lever_graphs_n2567, 0.002); end
+  def test_lever_graphs_o2567; assert_in_epsilon(183.42857142857142, worksheet.lever_graphs_o2567, 0.002); end
+  def test_lever_graphs_p2567; assert_in_epsilon(176.28571428571428, worksheet.lever_graphs_p2567, 0.002); end
+  def test_lever_graphs_q2567; assert_in_epsilon(169.1428571428571, worksheet.lever_graphs_q2567, 0.002); end
+  def test_lever_graphs_r2567; assert_in_epsilon(162.0, worksheet.lever_graphs_r2567, 0.002); end
+  def test_lever_graphs_b2568; assert_in_epsilon(4.0, worksheet.lever_graphs_b2568, 0.002); end
+  def test_lever_graphs_j2568; assert_in_epsilon(212.0, worksheet.lever_graphs_j2568, 0.002); end
+  def test_lever_graphs_k2568; assert_in_epsilon(212.0, worksheet.lever_graphs_k2568, 0.002); end
+  def test_lever_graphs_l2568; assert_in_epsilon(183.85714285714286, worksheet.lever_graphs_l2568, 0.002); end
+  def test_lever_graphs_m2568; assert_in_epsilon(155.71428571428572, worksheet.lever_graphs_m2568, 0.002); end
+  def test_lever_graphs_n2568; assert_in_epsilon(127.57142857142857, worksheet.lever_graphs_n2568, 0.002); end
+  def test_lever_graphs_o2568; assert_in_epsilon(99.42857142857144, worksheet.lever_graphs_o2568, 0.002); end
+  def test_lever_graphs_p2568; assert_in_epsilon(71.28571428571429, worksheet.lever_graphs_p2568, 0.002); end
+  def test_lever_graphs_q2568; assert_in_epsilon(43.14285714285713, worksheet.lever_graphs_q2568, 0.002); end
+  def test_lever_graphs_r2568; assert_in_epsilon(15.0, worksheet.lever_graphs_r2568, 0.002); end
+  def test_lever_graphs_b2569; assert_equal("USA today", worksheet.lever_graphs_b2569); end
+  def test_lever_graphs_b2570; assert_equal("EU today", worksheet.lever_graphs_b2570); end
+  def test_lever_graphs_j2570; assert_in_epsilon(309.0, worksheet.lever_graphs_j2570, 0.002); end
+  def test_lever_graphs_b2571; assert_equal("Colombia today", worksheet.lever_graphs_b2571); end
+  def test_lever_graphs_j2571; assert_in_epsilon(196.0, worksheet.lever_graphs_j2571, 0.002); end
+  def test_lever_graphs_b2572; assert_equal("Japan today", worksheet.lever_graphs_b2572); end
+  def test_lever_graphs_j2572; assert_in_epsilon(167.0, worksheet.lever_graphs_j2572, 0.002); end
+  def test_lever_graphs_b2573; assert_equal("India today", worksheet.lever_graphs_b2573); end
+  def test_lever_graphs_j2573; assert_in_epsilon(15.0, worksheet.lever_graphs_j2573, 0.002); end
+  def test_lever_graphs_b2574; assert_equal("WHO healthy diet recommendation", worksheet.lever_graphs_b2574); end
+  def test_lever_graphs_j2574; assert_in_epsilon(162.0, worksheet.lever_graphs_j2574, 0.002); end
+  def test_lever_graphs_d1391; assert_equal("Title", worksheet.lever_graphs_d1391); end
+  def test_lever_graphs_e1391; assert_equal("Urban passenger walk", worksheet.lever_graphs_e1391); end
+  def test_lever_graphs_f1391; assert_equal("Urban passenger bike", worksheet.lever_graphs_f1391); end
+  def test_lever_graphs_g1391; assert_equal("Urban passenger motorbike", worksheet.lever_graphs_g1391); end
+  def test_lever_graphs_h1391; assert_equal("Urban passenger car", worksheet.lever_graphs_h1391); end
+  def test_lever_graphs_i1391; assert_equal("Urban passenger bus", worksheet.lever_graphs_i1391); end
+  def test_lever_graphs_j1391; assert_equal("Urban passenger train", worksheet.lever_graphs_j1391); end
+  def test_lever_graphs_d1392; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1392, 0.002); end
+  def test_lever_graphs_e1392; assert_in_delta(0.015507080535660264, worksheet.lever_graphs_e1392, 0.002); end
+  def test_lever_graphs_f1392; assert_in_delta(0.0034792482929148173, worksheet.lever_graphs_f1392, 0.002); end
+  def test_lever_graphs_g1392; assert_in_delta(0.012141563527703942, worksheet.lever_graphs_g1392, 0.002); end
+  def test_lever_graphs_h1392; assert_in_delta(0.7808966542956052, worksheet.lever_graphs_h1392, 0.002); end
+  def test_lever_graphs_i1392; assert_in_delta(0.1319655903223447, worksheet.lever_graphs_i1392, 0.002); end
+  def test_lever_graphs_j1392; assert_in_delta(0.05600986302577115, worksheet.lever_graphs_j1392, 0.002); end
+  def test_lever_graphs_d1393; assert_equal("2050: Level 1", worksheet.lever_graphs_d1393); end
+  def test_lever_graphs_e1393; assert_in_delta(0.011251832010415743, worksheet.lever_graphs_e1393, 0.002); end
+  def test_lever_graphs_f1393; assert_in_delta(0.003324397894609336, worksheet.lever_graphs_f1393, 0.002); end
+  def test_lever_graphs_g1393; assert_in_delta(0.02387680187251377, worksheet.lever_graphs_g1393, 0.002); end
+  def test_lever_graphs_h1393; assert_in_delta(0.7819377110673233, worksheet.lever_graphs_h1393, 0.002); end
+  def test_lever_graphs_i1393; assert_in_delta(0.1260922169659082, worksheet.lever_graphs_i1393, 0.002); end
+  def test_lever_graphs_j1393; assert_in_delta(0.05351704018922964, worksheet.lever_graphs_j1393, 0.002); end
+  def test_lever_graphs_d1394; assert_equal("2050: Level 2", worksheet.lever_graphs_d1394); end
+  def test_lever_graphs_e1394; assert_in_delta(0.02597259165894617, worksheet.lever_graphs_e1394, 0.002); end
+  def test_lever_graphs_f1394; assert_in_delta(0.010838186744898594, worksheet.lever_graphs_f1394, 0.002); end
+  def test_lever_graphs_g1394; assert_in_delta(0.036922769307271244, worksheet.lever_graphs_g1394, 0.002); end
+  def test_lever_graphs_h1394; assert_in_delta(0.6994265430998902, worksheet.lever_graphs_h1394, 0.002); end
+  def test_lever_graphs_i1394; assert_in_delta(0.15591515442445067, worksheet.lever_graphs_i1394, 0.002); end
+  def test_lever_graphs_j1394; assert_in_delta(0.07092475476454325, worksheet.lever_graphs_j1394, 0.002); end
+  def test_lever_graphs_d1395; assert_equal("2050: Level 3", worksheet.lever_graphs_d1395); end
+  def test_lever_graphs_e1395; assert_in_delta(0.028697511633068187, worksheet.lever_graphs_e1395, 0.002); end
+  def test_lever_graphs_f1395; assert_in_delta(0.011176925583405509, worksheet.lever_graphs_f1395, 0.002); end
+  def test_lever_graphs_g1395; assert_in_delta(0.0653316409650743, worksheet.lever_graphs_g1395, 0.002); end
+  def test_lever_graphs_h1395; assert_in_delta(0.5738122970130435, worksheet.lever_graphs_h1395, 0.002); end
+  def test_lever_graphs_i1395; assert_in_delta(0.22028860153148505, worksheet.lever_graphs_i1395, 0.002); end
+  def test_lever_graphs_j1395; assert_in_delta(0.10069302327392349, worksheet.lever_graphs_j1395, 0.002); end
+  def test_lever_graphs_d1396; assert_equal("2050: Level 4", worksheet.lever_graphs_d1396); end
+  def test_lever_graphs_e1396; assert_in_delta(0.03990968782558564, worksheet.lever_graphs_e1396, 0.002); end
+  def test_lever_graphs_f1396; assert_in_delta(0.030224003353294396, worksheet.lever_graphs_f1396, 0.002); end
+  def test_lever_graphs_g1396; assert_in_delta(0.10599965370815287, worksheet.lever_graphs_g1396, 0.002); end
+  def test_lever_graphs_h1396; assert_in_delta(0.4551104752040469, worksheet.lever_graphs_h1396, 0.002); end
+  def test_lever_graphs_i1396; assert_in_delta(0.2520611862668567, worksheet.lever_graphs_i1396, 0.002); end
+  def test_lever_graphs_j1396; assert_in_delta(0.11669499364206332, worksheet.lever_graphs_j1396, 0.002); end
+  def test_lever_graphs_d1413; assert_equal("Title", worksheet.lever_graphs_d1413); end
+  def test_lever_graphs_e1413; assert_equal("Urban passenger walk", worksheet.lever_graphs_e1413); end
+  def test_lever_graphs_f1413; assert_equal("Urban passenger bike", worksheet.lever_graphs_f1413); end
+  def test_lever_graphs_g1413; assert_equal("Urban passenger motorbike", worksheet.lever_graphs_g1413); end
+  def test_lever_graphs_h1413; assert_equal("Urban passenger car", worksheet.lever_graphs_h1413); end
+  def test_lever_graphs_i1413; assert_equal("Urban passenger bus", worksheet.lever_graphs_i1413); end
+  def test_lever_graphs_j1413; assert_equal("Urban passenger train", worksheet.lever_graphs_j1413); end
+  def test_lever_graphs_d1414; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1414, 0.002); end
+  def test_lever_graphs_e1414; assert_in_delta(0.11148900182723108, worksheet.lever_graphs_e1414, 0.002); end
+  def test_lever_graphs_f1414; assert_in_delta(0.08357908158611507, worksheet.lever_graphs_f1414, 0.002); end
+  def test_lever_graphs_g1414; assert_in_delta(0.14076286877965222, worksheet.lever_graphs_g1414, 0.002); end
+  def test_lever_graphs_h1414; assert_in_delta(0.24186452782219042, worksheet.lever_graphs_h1414, 0.002); end
+  def test_lever_graphs_i1414; assert_in_delta(0.40723433044037066, worksheet.lever_graphs_i1414, 0.002); end
+  def test_lever_graphs_j1414; assert_in_delta(0.015070189544440485, worksheet.lever_graphs_j1414, 0.002); end
+  def test_lever_graphs_d1415; assert_equal("2050: Level 1", worksheet.lever_graphs_d1415); end
+  def test_lever_graphs_e1415; assert_in_delta(0.02435070224884275, worksheet.lever_graphs_e1415, 0.002); end
+  def test_lever_graphs_f1415; assert_in_delta(0.003738046397848669, worksheet.lever_graphs_f1415, 0.002); end
+  def test_lever_graphs_g1415; assert_in_delta(0.1922423861750744, worksheet.lever_graphs_g1415, 0.002); end
+  def test_lever_graphs_h1415; assert_in_delta(0.5874072910905052, worksheet.lever_graphs_h1415, 0.002); end
+  def test_lever_graphs_i1415; assert_in_delta(0.18692150780508796, worksheet.lever_graphs_i1415, 0.002); end
+  def test_lever_graphs_j1415; assert_in_delta(0.005340066282640956, worksheet.lever_graphs_j1415, 0.002); end
+  def test_lever_graphs_d1416; assert_equal("2050: Level 2", worksheet.lever_graphs_d1416); end
+  def test_lever_graphs_e1416; assert_in_delta(0.03514873584532978, worksheet.lever_graphs_e1416, 0.002); end
+  def test_lever_graphs_f1416; assert_in_delta(0.02589906851761142, worksheet.lever_graphs_f1416, 0.002); end
+  def test_lever_graphs_g1416; assert_in_delta(0.22643185618254555, worksheet.lever_graphs_g1416, 0.002); end
+  def test_lever_graphs_h1416; assert_in_delta(0.44398403173048157, worksheet.lever_graphs_h1416, 0.002); end
+  def test_lever_graphs_i1416; assert_in_delta(0.25497012897671156, worksheet.lever_graphs_i1416, 0.002); end
+  def test_lever_graphs_j1416; assert_in_delta(0.01356617874732027, worksheet.lever_graphs_j1416, 0.002); end
+  def test_lever_graphs_d1417; assert_equal("2050: Level 3", worksheet.lever_graphs_d1417); end
+  def test_lever_graphs_e1417; assert_in_delta(0.04864648171177004, worksheet.lever_graphs_e1417, 0.002); end
+  def test_lever_graphs_f1417; assert_in_delta(0.034782306911936095, worksheet.lever_graphs_f1417, 0.002); end
+  def test_lever_graphs_g1417; assert_in_delta(0.16407107281879899, worksheet.lever_graphs_g1417, 0.002); end
+  def test_lever_graphs_h1417; assert_in_delta(0.3802471855265136, worksheet.lever_graphs_h1417, 0.002); end
+  def test_lever_graphs_i1417; assert_in_delta(0.34277694530994707, worksheet.lever_graphs_i1417, 0.002); end
+  def test_lever_graphs_j1417; assert_in_delta(0.029476007721034158, worksheet.lever_graphs_j1417, 0.002); end
+  def test_lever_graphs_d1418; assert_equal("2050: Level 4", worksheet.lever_graphs_d1418); end
+  def test_lever_graphs_e1418; assert_in_delta(0.06483945670353654, worksheet.lever_graphs_e1418, 0.002); end
+  def test_lever_graphs_f1418; assert_in_delta(0.05960611049164361, worksheet.lever_graphs_f1418, 0.002); end
+  def test_lever_graphs_g1418; assert_in_delta(0.18521343770871196, worksheet.lever_graphs_g1418, 0.002); end
+  def test_lever_graphs_h1418; assert_in_delta(0.22899115934895292, worksheet.lever_graphs_h1418, 0.002); end
+  def test_lever_graphs_i1418; assert_in_delta(0.41757211410691414, worksheet.lever_graphs_i1418, 0.002); end
+  def test_lever_graphs_j1418; assert_in_delta(0.043777721640241, worksheet.lever_graphs_j1418, 0.002); end
+  def test_lever_graphs_d1402; assert_equal("Title", worksheet.lever_graphs_d1402); end
+  def test_lever_graphs_e1402; assert_equal("Urban passenger walk", worksheet.lever_graphs_e1402); end
+  def test_lever_graphs_f1402; assert_equal("Urban passenger bike", worksheet.lever_graphs_f1402); end
+  def test_lever_graphs_g1402; assert_equal("Urban passenger motorbike", worksheet.lever_graphs_g1402); end
+  def test_lever_graphs_h1402; assert_equal("Urban passenger car", worksheet.lever_graphs_h1402); end
+  def test_lever_graphs_i1402; assert_equal("Urban passenger bus", worksheet.lever_graphs_i1402); end
+  def test_lever_graphs_j1402; assert_equal("Urban passenger train", worksheet.lever_graphs_j1402); end
+  def test_lever_graphs_d1403; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1403, 0.002); end
+  def test_lever_graphs_e1403; assert_in_delta(0.04321991292777188, worksheet.lever_graphs_e1403, 0.002); end
+  def test_lever_graphs_f1403; assert_in_delta(0.024651019499377053, worksheet.lever_graphs_f1403, 0.002); end
+  def test_lever_graphs_g1403; assert_in_delta(0.06587424374056515, worksheet.lever_graphs_g1403, 0.002); end
+  def test_lever_graphs_h1403; assert_in_delta(0.5868167028048443, worksheet.lever_graphs_h1403, 0.002); end
+  def test_lever_graphs_i1403; assert_in_delta(0.2570013952439703, worksheet.lever_graphs_i1403, 0.002); end
+  def test_lever_graphs_j1403; assert_in_delta(0.022436725783471334, worksheet.lever_graphs_j1403, 0.002); end
+  def test_lever_graphs_d1404; assert_equal("2050: Level 1", worksheet.lever_graphs_d1404); end
+  def test_lever_graphs_e1404; assert_in_delta(0.026225717721503585, worksheet.lever_graphs_e1404, 0.002); end
+  def test_lever_graphs_f1404; assert_in_delta(0.017023711503432154, worksheet.lever_graphs_f1404, 0.002); end
+  def test_lever_graphs_g1404; assert_in_delta(0.03866345219235265, worksheet.lever_graphs_g1404, 0.002); end
+  def test_lever_graphs_h1404; assert_in_delta(0.7448137926232905, worksheet.lever_graphs_h1404, 0.002); end
+  def test_lever_graphs_i1404; assert_in_delta(0.15366174205690428, worksheet.lever_graphs_i1404, 0.002); end
+  def test_lever_graphs_j1404; assert_in_delta(0.019611583902516834, worksheet.lever_graphs_j1404, 0.002); end
+  def test_lever_graphs_d1405; assert_equal("2050: Level 2", worksheet.lever_graphs_d1405); end
+  def test_lever_graphs_e1405; assert_in_delta(0.03534089555409994, worksheet.lever_graphs_e1405, 0.002); end
+  def test_lever_graphs_f1405; assert_in_delta(0.024290027284861262, worksheet.lever_graphs_f1405, 0.002); end
+  def test_lever_graphs_g1405; assert_in_delta(0.06017799552555719, worksheet.lever_graphs_g1405, 0.002); end
+  def test_lever_graphs_h1405; assert_in_delta(0.5875410771112931, worksheet.lever_graphs_h1405, 0.002); end
+  def test_lever_graphs_i1405; assert_in_delta(0.2513373157450613, worksheet.lever_graphs_i1405, 0.002); end
+  def test_lever_graphs_j1405; assert_in_delta(0.04131268877912732, worksheet.lever_graphs_j1405, 0.002); end
+  def test_lever_graphs_d1406; assert_equal("2050: Level 3", worksheet.lever_graphs_d1406); end
+  def test_lever_graphs_e1406; assert_in_delta(0.03955319845307432, worksheet.lever_graphs_e1406, 0.002); end
+  def test_lever_graphs_f1406; assert_in_delta(0.02837750249126385, worksheet.lever_graphs_f1406, 0.002); end
+  def test_lever_graphs_g1406; assert_in_delta(0.11374140147636165, worksheet.lever_graphs_g1406, 0.002); end
+  def test_lever_graphs_h1406; assert_in_delta(0.44426618381626387, worksheet.lever_graphs_h1406, 0.002); end
+  def test_lever_graphs_i1406; assert_in_delta(0.31160929515291885, worksheet.lever_graphs_i1406, 0.002); end
+  def test_lever_graphs_j1406; assert_in_delta(0.06245241861011736, worksheet.lever_graphs_j1406, 0.002); end
+  def test_lever_graphs_d1407; assert_equal("2050: Level 4", worksheet.lever_graphs_d1407); end
+  def test_lever_graphs_e1407; assert_in_delta(0.04935744654692902, worksheet.lever_graphs_e1407, 0.002); end
+  def test_lever_graphs_f1407; assert_in_delta(0.03803409554562839, worksheet.lever_graphs_f1407, 0.002); end
+  def test_lever_graphs_g1407; assert_in_delta(0.1160317303251607, worksheet.lever_graphs_g1407, 0.002); end
+  def test_lever_graphs_h1407; assert_in_delta(0.348095190975482, worksheet.lever_graphs_h1407, 0.002); end
+  def test_lever_graphs_i1407; assert_in_delta(0.3514484579376308, worksheet.lever_graphs_i1407, 0.002); end
+  def test_lever_graphs_j1407; assert_in_delta(0.09703307866916912, worksheet.lever_graphs_j1407, 0.002); end
+  def test_lever_graphs_c1432; assert_equal("1975", worksheet.lever_graphs_c1432); end
+  def test_lever_graphs_d1432; assert_equal("1980", worksheet.lever_graphs_d1432); end
+  def test_lever_graphs_e1432; assert_equal("1985", worksheet.lever_graphs_e1432); end
+  def test_lever_graphs_f1432; assert_equal("1990", worksheet.lever_graphs_f1432); end
+  def test_lever_graphs_g1432; assert_equal("1995", worksheet.lever_graphs_g1432); end
+  def test_lever_graphs_h1432; assert_equal("2000", worksheet.lever_graphs_h1432); end
+  def test_lever_graphs_i1432; assert_equal("2005", worksheet.lever_graphs_i1432); end
+  def test_lever_graphs_j1432; assert_equal("2011", worksheet.lever_graphs_j1432); end
+  def test_lever_graphs_k1432; assert_equal("2015", worksheet.lever_graphs_k1432); end
+  def test_lever_graphs_l1432; assert_equal("2020", worksheet.lever_graphs_l1432); end
+  def test_lever_graphs_m1432; assert_equal("2025", worksheet.lever_graphs_m1432); end
+  def test_lever_graphs_n1432; assert_equal("2030", worksheet.lever_graphs_n1432); end
+  def test_lever_graphs_o1432; assert_equal("2035", worksheet.lever_graphs_o1432); end
+  def test_lever_graphs_p1432; assert_equal("2040", worksheet.lever_graphs_p1432); end
+  def test_lever_graphs_q1432; assert_equal("2045", worksheet.lever_graphs_q1432); end
+  def test_lever_graphs_r1432; assert_equal("2050", worksheet.lever_graphs_r1432); end
+  def test_lever_graphs_b1433; assert_equal("Historic data", worksheet.lever_graphs_b1433); end
+  def test_lever_graphs_b1434; assert_in_delta(1.0, worksheet.lever_graphs_b1434, 0.002); end
+  def test_lever_graphs_j1434; assert_in_epsilon(1.92, worksheet.lever_graphs_j1434, 0.002); end
+  def test_lever_graphs_k1434; assert_in_epsilon(1.9003076923076923, worksheet.lever_graphs_k1434, 0.002); end
+  def test_lever_graphs_l1434; assert_in_epsilon(1.8756923076923078, worksheet.lever_graphs_l1434, 0.002); end
+  def test_lever_graphs_m1434; assert_in_epsilon(1.8510769230769233, worksheet.lever_graphs_m1434, 0.002); end
+  def test_lever_graphs_n1434; assert_in_epsilon(1.8264615384615384, worksheet.lever_graphs_n1434, 0.002); end
+  def test_lever_graphs_o1434; assert_in_epsilon(1.8018461538461539, worksheet.lever_graphs_o1434, 0.002); end
+  def test_lever_graphs_p1434; assert_in_epsilon(1.7772307692307692, worksheet.lever_graphs_p1434, 0.002); end
+  def test_lever_graphs_q1434; assert_in_epsilon(1.7526153846153845, worksheet.lever_graphs_q1434, 0.002); end
+  def test_lever_graphs_r1434; assert_in_epsilon(1.728, worksheet.lever_graphs_r1434, 0.002); end
+  def test_lever_graphs_b1435; assert_in_epsilon(2.0, worksheet.lever_graphs_b1435, 0.002); end
+  def test_lever_graphs_j1435; assert_in_epsilon(1.92, worksheet.lever_graphs_j1435, 0.002); end
+  def test_lever_graphs_k1435; assert_in_epsilon(1.92, worksheet.lever_graphs_k1435, 0.002); end
+  def test_lever_graphs_l1435; assert_in_epsilon(1.92, worksheet.lever_graphs_l1435, 0.002); end
+  def test_lever_graphs_m1435; assert_in_epsilon(1.92, worksheet.lever_graphs_m1435, 0.002); end
+  def test_lever_graphs_n1435; assert_in_epsilon(1.92, worksheet.lever_graphs_n1435, 0.002); end
+  def test_lever_graphs_o1435; assert_in_epsilon(1.92, worksheet.lever_graphs_o1435, 0.002); end
+  def test_lever_graphs_p1435; assert_in_epsilon(1.92, worksheet.lever_graphs_p1435, 0.002); end
+  def test_lever_graphs_q1435; assert_in_epsilon(1.92, worksheet.lever_graphs_q1435, 0.002); end
+  def test_lever_graphs_r1435; assert_in_epsilon(1.92, worksheet.lever_graphs_r1435, 0.002); end
+  def test_lever_graphs_b1436; assert_in_epsilon(3.0, worksheet.lever_graphs_b1436, 0.002); end
+  def test_lever_graphs_j1436; assert_in_epsilon(1.92, worksheet.lever_graphs_j1436, 0.002); end
+  def test_lever_graphs_k1436; assert_in_epsilon(1.9396923076923076, worksheet.lever_graphs_k1436, 0.002); end
+  def test_lever_graphs_l1436; assert_in_epsilon(1.9643076923076925, worksheet.lever_graphs_l1436, 0.002); end
+  def test_lever_graphs_m1436; assert_in_epsilon(1.988923076923077, worksheet.lever_graphs_m1436, 0.002); end
+  def test_lever_graphs_n1436; assert_in_epsilon(2.0135384615384613, worksheet.lever_graphs_n1436, 0.002); end
+  def test_lever_graphs_o1436; assert_in_epsilon(2.038153846153846, worksheet.lever_graphs_o1436, 0.002); end
+  def test_lever_graphs_p1436; assert_in_epsilon(2.062769230769231, worksheet.lever_graphs_p1436, 0.002); end
+  def test_lever_graphs_q1436; assert_in_epsilon(2.0873846153846154, worksheet.lever_graphs_q1436, 0.002); end
+  def test_lever_graphs_r1436; assert_in_epsilon(2.112, worksheet.lever_graphs_r1436, 0.002); end
+  def test_lever_graphs_b1437; assert_in_epsilon(4.0, worksheet.lever_graphs_b1437, 0.002); end
+  def test_lever_graphs_j1437; assert_in_epsilon(1.92, worksheet.lever_graphs_j1437, 0.002); end
+  def test_lever_graphs_k1437; assert_in_epsilon(1.9593846153846153, worksheet.lever_graphs_k1437, 0.002); end
+  def test_lever_graphs_l1437; assert_in_epsilon(2.0086153846153847, worksheet.lever_graphs_l1437, 0.002); end
+  def test_lever_graphs_m1437; assert_in_epsilon(2.0578461538461537, worksheet.lever_graphs_m1437, 0.002); end
+  def test_lever_graphs_n1437; assert_in_epsilon(2.1070769230769226, worksheet.lever_graphs_n1437, 0.002); end
+  def test_lever_graphs_o1437; assert_in_epsilon(2.156307692307692, worksheet.lever_graphs_o1437, 0.002); end
+  def test_lever_graphs_p1437; assert_in_epsilon(2.2055384615384614, worksheet.lever_graphs_p1437, 0.002); end
+  def test_lever_graphs_q1437; assert_in_epsilon(2.254769230769231, worksheet.lever_graphs_q1437, 0.002); end
+  def test_lever_graphs_r1437; assert_in_epsilon(2.304, worksheet.lever_graphs_r1437, 0.002); end
+  def test_lever_graphs_c2784; assert_equal("1975", worksheet.lever_graphs_c2784); end
+  def test_lever_graphs_d2784; assert_equal("1980", worksheet.lever_graphs_d2784); end
+  def test_lever_graphs_e2784; assert_equal("1985", worksheet.lever_graphs_e2784); end
+  def test_lever_graphs_f2784; assert_equal("1990", worksheet.lever_graphs_f2784); end
+  def test_lever_graphs_g2784; assert_equal("1995", worksheet.lever_graphs_g2784); end
+  def test_lever_graphs_h2784; assert_equal("2000", worksheet.lever_graphs_h2784); end
+  def test_lever_graphs_i2784; assert_equal("2005", worksheet.lever_graphs_i2784); end
+  def test_lever_graphs_j2784; assert_equal("2011", worksheet.lever_graphs_j2784); end
+  def test_lever_graphs_k2784; assert_equal("2015", worksheet.lever_graphs_k2784); end
+  def test_lever_graphs_l2784; assert_equal("2020", worksheet.lever_graphs_l2784); end
+  def test_lever_graphs_m2784; assert_equal("2025", worksheet.lever_graphs_m2784); end
+  def test_lever_graphs_n2784; assert_equal("2030", worksheet.lever_graphs_n2784); end
+  def test_lever_graphs_o2784; assert_equal("2035", worksheet.lever_graphs_o2784); end
+  def test_lever_graphs_p2784; assert_equal("2040", worksheet.lever_graphs_p2784); end
+  def test_lever_graphs_q2784; assert_equal("2045", worksheet.lever_graphs_q2784); end
+  def test_lever_graphs_r2784; assert_equal("2050", worksheet.lever_graphs_r2784); end
+  def test_lever_graphs_b2785; assert_equal("Historic data", worksheet.lever_graphs_b2785); end
+  def test_lever_graphs_c2785; assert_in_epsilon(48.366777087544, worksheet.lever_graphs_c2785, 0.002); end
+  def test_lever_graphs_d2785; assert_in_epsilon(100.8586055269058, worksheet.lever_graphs_d2785, 0.002); end
+  def test_lever_graphs_e2785; assert_in_epsilon(57.79701296868199, worksheet.lever_graphs_e2785, 0.002); end
+  def test_lever_graphs_f2785; assert_in_epsilon(40.96227805628421, worksheet.lever_graphs_f2785, 0.002); end
+  def test_lever_graphs_g2785; assert_in_epsilon(25.195809116543934, worksheet.lever_graphs_g2785, 0.002); end
+  def test_lever_graphs_h2785; assert_in_epsilon(37.34055877514925, worksheet.lever_graphs_h2785, 0.002); end
+  def test_lever_graphs_i2785; assert_in_epsilon(62.994224615593296, worksheet.lever_graphs_i2785, 0.002); end
+  def test_lever_graphs_j2785; assert_in_epsilon(111.60806135788701, worksheet.lever_graphs_j2785, 0.002); end
+  def test_lever_graphs_b2786; assert_in_delta(1.0, worksheet.lever_graphs_b2786, 0.002); end
+  def test_lever_graphs_b2787; assert_in_epsilon(2.0, worksheet.lever_graphs_b2787, 0.002); end
+  def test_lever_graphs_b2788; assert_in_epsilon(3.0, worksheet.lever_graphs_b2788, 0.002); end
+  def test_lever_graphs_b2789; assert_in_epsilon(4.0, worksheet.lever_graphs_b2789, 0.002); end
+  def test_lever_graphs_c1215; assert_equal("1975", worksheet.lever_graphs_c1215); end
+  def test_lever_graphs_d1215; assert_equal("1980", worksheet.lever_graphs_d1215); end
+  def test_lever_graphs_e1215; assert_equal("1985", worksheet.lever_graphs_e1215); end
+  def test_lever_graphs_f1215; assert_equal("1990", worksheet.lever_graphs_f1215); end
+  def test_lever_graphs_g1215; assert_equal("1995", worksheet.lever_graphs_g1215); end
+  def test_lever_graphs_h1215; assert_equal("2000", worksheet.lever_graphs_h1215); end
+  def test_lever_graphs_i1215; assert_equal("2005", worksheet.lever_graphs_i1215); end
+  def test_lever_graphs_j1215; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1215, 0.002); end
+  def test_lever_graphs_k1215; assert_equal("2015", worksheet.lever_graphs_k1215); end
+  def test_lever_graphs_l1215; assert_equal("2020", worksheet.lever_graphs_l1215); end
+  def test_lever_graphs_m1215; assert_equal("2025", worksheet.lever_graphs_m1215); end
+  def test_lever_graphs_n1215; assert_equal("2030", worksheet.lever_graphs_n1215); end
+  def test_lever_graphs_o1215; assert_equal("2035", worksheet.lever_graphs_o1215); end
+  def test_lever_graphs_p1215; assert_equal("2040", worksheet.lever_graphs_p1215); end
+  def test_lever_graphs_q1215; assert_equal("2045", worksheet.lever_graphs_q1215); end
+  def test_lever_graphs_r1215; assert_equal("2050", worksheet.lever_graphs_r1215); end
+  def test_lever_graphs_b1216; assert_equal("Historic data", worksheet.lever_graphs_b1216); end
+  def test_lever_graphs_b1217; assert_in_delta(1.0, worksheet.lever_graphs_b1217, 0.002); end
+  def test_lever_graphs_j1217; assert_in_epsilon(10427.16296686, worksheet.lever_graphs_j1217, 0.002); end
+  def test_lever_graphs_k1217; assert_in_epsilon(10627.567205423802, worksheet.lever_graphs_k1217, 0.002); end
+  def test_lever_graphs_l1217; assert_in_epsilon(10883.497540721351, worksheet.lever_graphs_l1217, 0.002); end
+  def test_lever_graphs_m1217; assert_in_epsilon(11145.591124414272, worksheet.lever_graphs_m1217, 0.002); end
+  def test_lever_graphs_n1217; assert_in_epsilon(11413.996378262487, worksheet.lever_graphs_n1217, 0.002); end
+  def test_lever_graphs_o1217; assert_in_epsilon(11688.865298280505, worksheet.lever_graphs_o1217, 0.002); end
+  def test_lever_graphs_p1217; assert_in_epsilon(11970.353540811693, worksheet.lever_graphs_p1217, 0.002); end
+  def test_lever_graphs_q1217; assert_in_epsilon(12258.620510675375, worksheet.lever_graphs_q1217, 0.002); end
+  def test_lever_graphs_r1217; assert_in_epsilon(12553.829451436664, worksheet.lever_graphs_r1217, 0.002); end
+  def test_lever_graphs_b1218; assert_in_epsilon(2.0, worksheet.lever_graphs_b1218, 0.002); end
+  def test_lever_graphs_j1218; assert_in_epsilon(10427.16296686, worksheet.lever_graphs_j1218, 0.002); end
+  def test_lever_graphs_k1218; assert_in_epsilon(10627.567205423802, worksheet.lever_graphs_k1218, 0.002); end
+  def test_lever_graphs_l1218; assert_in_epsilon(10700.86773510627, worksheet.lever_graphs_l1218, 0.002); end
+  def test_lever_graphs_m1218; assert_in_epsilon(10774.673833706618, worksheet.lever_graphs_m1218, 0.002); end
+  def test_lever_graphs_n1218; assert_in_epsilon(10848.988988238265, worksheet.lever_graphs_n1218, 0.002); end
+  def test_lever_graphs_o1218; assert_in_epsilon(10923.816709765284, worksheet.lever_graphs_o1218, 0.002); end
+  def test_lever_graphs_p1218; assert_in_epsilon(10999.160533568283, worksheet.lever_graphs_p1218, 0.002); end
+  def test_lever_graphs_q1218; assert_in_epsilon(11075.024019311435, worksheet.lever_graphs_q1218, 0.002); end
+  def test_lever_graphs_r1218; assert_in_epsilon(11151.41075121065, worksheet.lever_graphs_r1218, 0.002); end
+  def test_lever_graphs_b1219; assert_in_epsilon(3.0, worksheet.lever_graphs_b1219, 0.002); end
+  def test_lever_graphs_j1219; assert_in_epsilon(10427.16296686, worksheet.lever_graphs_j1219, 0.002); end
+  def test_lever_graphs_k1219; assert_in_epsilon(10627.567205423802, worksheet.lever_graphs_k1219, 0.002); end
+  def test_lever_graphs_l1219; assert_in_epsilon(10642.258951404601, worksheet.lever_graphs_l1219, 0.002); end
+  def test_lever_graphs_m1219; assert_in_epsilon(10656.971007527487, worksheet.lever_graphs_m1219, 0.002); end
+  def test_lever_graphs_n1219; assert_in_epsilon(10671.703401869574, worksheet.lever_graphs_n1219, 0.002); end
+  def test_lever_graphs_o1219; assert_in_epsilon(10686.456162546796, worksheet.lever_graphs_o1219, 0.002); end
+  def test_lever_graphs_p1219; assert_in_epsilon(10701.22931771395, worksheet.lever_graphs_p1219, 0.002); end
+  def test_lever_graphs_q1219; assert_in_epsilon(10716.02289556476, worksheet.lever_graphs_q1219, 0.002); end
+  def test_lever_graphs_r1219; assert_in_epsilon(10730.83692433192, worksheet.lever_graphs_r1219, 0.002); end
+  def test_lever_graphs_b1220; assert_in_epsilon(4.0, worksheet.lever_graphs_b1220, 0.002); end
+  def test_lever_graphs_j1220; assert_in_epsilon(10427.16296686, worksheet.lever_graphs_j1220, 0.002); end
+  def test_lever_graphs_k1220; assert_in_epsilon(10627.567205423802, worksheet.lever_graphs_k1220, 0.002); end
+  def test_lever_graphs_l1220; assert_in_epsilon(10533.237408670511, worksheet.lever_graphs_l1220, 0.002); end
+  def test_lever_graphs_m1220; assert_in_epsilon(10439.744878846097, worksheet.lever_graphs_m1220, 0.002); end
+  def test_lever_graphs_n1220; assert_in_epsilon(10347.082184407884, worksheet.lever_graphs_n1220, 0.002); end
+  def test_lever_graphs_o1220; assert_in_epsilon(10255.241959775225, worksheet.lever_graphs_o1220, 0.002); end
+  def test_lever_graphs_p1220; assert_in_epsilon(10164.21690474403, worksheet.lever_graphs_p1220, 0.002); end
+  def test_lever_graphs_q1220; assert_in_epsilon(10073.999783906482, worksheet.lever_graphs_q1220, 0.002); end
+  def test_lever_graphs_r1220; assert_in_epsilon(9984.583426075913, worksheet.lever_graphs_r1220, 0.002); end
+  def test_lever_graphs_c1235; assert_equal("1975", worksheet.lever_graphs_c1235); end
+  def test_lever_graphs_d1235; assert_equal("1980", worksheet.lever_graphs_d1235); end
+  def test_lever_graphs_e1235; assert_equal("1985", worksheet.lever_graphs_e1235); end
+  def test_lever_graphs_f1235; assert_equal("1990", worksheet.lever_graphs_f1235); end
+  def test_lever_graphs_g1235; assert_equal("1995", worksheet.lever_graphs_g1235); end
+  def test_lever_graphs_h1235; assert_equal("2000", worksheet.lever_graphs_h1235); end
+  def test_lever_graphs_i1235; assert_equal("2005", worksheet.lever_graphs_i1235); end
+  def test_lever_graphs_j1235; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1235, 0.002); end
+  def test_lever_graphs_k1235; assert_equal("2015", worksheet.lever_graphs_k1235); end
+  def test_lever_graphs_l1235; assert_equal("2020", worksheet.lever_graphs_l1235); end
+  def test_lever_graphs_m1235; assert_equal("2025", worksheet.lever_graphs_m1235); end
+  def test_lever_graphs_n1235; assert_equal("2030", worksheet.lever_graphs_n1235); end
+  def test_lever_graphs_o1235; assert_equal("2035", worksheet.lever_graphs_o1235); end
+  def test_lever_graphs_p1235; assert_equal("2040", worksheet.lever_graphs_p1235); end
+  def test_lever_graphs_q1235; assert_equal("2045", worksheet.lever_graphs_q1235); end
+  def test_lever_graphs_r1235; assert_equal("2050", worksheet.lever_graphs_r1235); end
+  def test_lever_graphs_b1236; assert_equal("Historic data", worksheet.lever_graphs_b1236); end
+  def test_lever_graphs_b1237; assert_in_delta(1.0, worksheet.lever_graphs_b1237, 0.002); end
+  def test_lever_graphs_j1237; assert_in_epsilon(8971.32836353237, worksheet.lever_graphs_j1237, 0.002); end
+  def test_lever_graphs_k1237; assert_in_epsilon(9396.473382974675, worksheet.lever_graphs_k1237, 0.002); end
+  def test_lever_graphs_l1237; assert_in_epsilon(9956.347744915838, worksheet.lever_graphs_l1237, 0.002); end
+  def test_lever_graphs_m1237; assert_in_epsilon(10549.581356480056, worksheet.lever_graphs_m1237, 0.002); end
+  def test_lever_graphs_n1237; assert_in_epsilon(11178.161877062113, worksheet.lever_graphs_n1237, 0.002); end
+  def test_lever_graphs_o1237; assert_in_epsilon(11844.195397673648, worksheet.lever_graphs_o1237, 0.002); end
+  def test_lever_graphs_p1237; assert_in_epsilon(12549.913497508218, worksheet.lever_graphs_p1237, 0.002); end
+  def test_lever_graphs_q1237; assert_in_epsilon(13297.680720960923, worksheet.lever_graphs_q1237, 0.002); end
+  def test_lever_graphs_r1237; assert_in_epsilon(14090.002500154684, worksheet.lever_graphs_r1237, 0.002); end
+  def test_lever_graphs_b1238; assert_in_epsilon(2.0, worksheet.lever_graphs_b1238, 0.002); end
+  def test_lever_graphs_j1238; assert_in_epsilon(8971.32836353237, worksheet.lever_graphs_j1238, 0.002); end
+  def test_lever_graphs_k1238; assert_in_epsilon(9396.473382974675, worksheet.lever_graphs_k1238, 0.002); end
+  def test_lever_graphs_l1238; assert_in_epsilon(9738.623123765085, worksheet.lever_graphs_l1238, 0.002); end
+  def test_lever_graphs_m1238; assert_in_epsilon(10093.23141579612, worksheet.lever_graphs_m1238, 0.002); end
+  def test_lever_graphs_n1238; assert_in_epsilon(10460.751906931595, worksheet.lever_graphs_n1238, 0.002); end
+  def test_lever_graphs_o1238; assert_in_epsilon(10841.654763519731, worksheet.lever_graphs_o1238, 0.002); end
+  def test_lever_graphs_p1238; assert_in_epsilon(11236.427271873612, worksheet.lever_graphs_p1238, 0.002); end
+  def test_lever_graphs_q1238; assert_in_epsilon(11645.574461653101, worksheet.lever_graphs_q1238, 0.002); end
+  def test_lever_graphs_r1238; assert_in_epsilon(12069.619751945685, worksheet.lever_graphs_r1238, 0.002); end
+  def test_lever_graphs_b1239; assert_in_epsilon(3.0, worksheet.lever_graphs_b1239, 0.002); end
+  def test_lever_graphs_j1239; assert_in_epsilon(8971.32836353237, worksheet.lever_graphs_j1239, 0.002); end
+  def test_lever_graphs_k1239; assert_in_epsilon(9396.473382974675, worksheet.lever_graphs_k1239, 0.002); end
+  def test_lever_graphs_l1239; assert_in_epsilon(9577.767462372236, worksheet.lever_graphs_l1239, 0.002); end
+  def test_lever_graphs_m1239; assert_in_epsilon(9762.559401220362, worksheet.lever_graphs_m1239, 0.002); end
+  def test_lever_graphs_n1239; assert_in_epsilon(9950.916686669081, worksheet.lever_graphs_n1239, 0.002); end
+  def test_lever_graphs_o1239; assert_in_epsilon(10142.908107954881, worksheet.lever_graphs_o1239, 0.002); end
+  def test_lever_graphs_p1239; assert_in_epsilon(10338.60378152296, worksheet.lever_graphs_p1239, 0.002); end
+  def test_lever_graphs_q1239; assert_in_epsilon(10538.075176634175, worksheet.lever_graphs_q1239, 0.002); end
+  def test_lever_graphs_r1239; assert_in_epsilon(10741.395141466062, worksheet.lever_graphs_r1239, 0.002); end
+  def test_lever_graphs_b1240; assert_in_epsilon(4.0, worksheet.lever_graphs_b1240, 0.002); end
+  def test_lever_graphs_j1240; assert_in_epsilon(8971.32836353237, worksheet.lever_graphs_j1240, 0.002); end
+  def test_lever_graphs_k1240; assert_in_epsilon(9396.473382974675, worksheet.lever_graphs_k1240, 0.002); end
+  def test_lever_graphs_l1240; assert_in_epsilon(9487.149591171363, worksheet.lever_graphs_l1240, 0.002); end
+  def test_lever_graphs_m1240; assert_in_epsilon(9578.700827093646, worksheet.lever_graphs_m1240, 0.002); end
+  def test_lever_graphs_n1240; assert_in_epsilon(9671.135534781431, worksheet.lever_graphs_n1240, 0.002); end
+  def test_lever_graphs_o1240; assert_in_epsilon(9764.462239759827, worksheet.lever_graphs_o1240, 0.002); end
+  def test_lever_graphs_p1240; assert_in_epsilon(9858.689549825474, worksheet.lever_graphs_p1240, 0.002); end
+  def test_lever_graphs_q1240; assert_in_epsilon(9953.826155840472, worksheet.lever_graphs_q1240, 0.002); end
+  def test_lever_graphs_r1240; assert_in_epsilon(10049.880832533963, worksheet.lever_graphs_r1240, 0.002); end
+  def test_lever_graphs_c1225; assert_equal("1975", worksheet.lever_graphs_c1225); end
+  def test_lever_graphs_d1225; assert_equal("1980", worksheet.lever_graphs_d1225); end
+  def test_lever_graphs_e1225; assert_equal("1985", worksheet.lever_graphs_e1225); end
+  def test_lever_graphs_f1225; assert_equal("1990", worksheet.lever_graphs_f1225); end
+  def test_lever_graphs_g1225; assert_equal("1995", worksheet.lever_graphs_g1225); end
+  def test_lever_graphs_h1225; assert_equal("2000", worksheet.lever_graphs_h1225); end
+  def test_lever_graphs_i1225; assert_equal("2005", worksheet.lever_graphs_i1225); end
+  def test_lever_graphs_j1225; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1225, 0.002); end
+  def test_lever_graphs_k1225; assert_equal("2015", worksheet.lever_graphs_k1225); end
+  def test_lever_graphs_l1225; assert_equal("2020", worksheet.lever_graphs_l1225); end
+  def test_lever_graphs_m1225; assert_equal("2025", worksheet.lever_graphs_m1225); end
+  def test_lever_graphs_n1225; assert_equal("2030", worksheet.lever_graphs_n1225); end
+  def test_lever_graphs_o1225; assert_equal("2035", worksheet.lever_graphs_o1225); end
+  def test_lever_graphs_p1225; assert_equal("2040", worksheet.lever_graphs_p1225); end
+  def test_lever_graphs_q1225; assert_equal("2045", worksheet.lever_graphs_q1225); end
+  def test_lever_graphs_r1225; assert_equal("2050", worksheet.lever_graphs_r1225); end
+  def test_lever_graphs_b1226; assert_equal("Historic data", worksheet.lever_graphs_b1226); end
+  def test_lever_graphs_b1227; assert_in_delta(1.0, worksheet.lever_graphs_b1227, 0.002); end
+  def test_lever_graphs_j1227; assert_in_epsilon(8595.98128835765, worksheet.lever_graphs_j1227, 0.002); end
+  def test_lever_graphs_k1227; assert_in_epsilon(8976.021829014844, worksheet.lever_graphs_k1227, 0.002); end
+  def test_lever_graphs_l1227; assert_in_epsilon(9474.786844597846, worksheet.lever_graphs_l1227, 0.002); end
+  def test_lever_graphs_m1227; assert_in_epsilon(10001.266425219601, worksheet.lever_graphs_m1227, 0.002); end
+  def test_lever_graphs_n1227; assert_in_epsilon(10557.000568857695, worksheet.lever_graphs_n1227, 0.002); end
+  def test_lever_graphs_o1227; assert_in_epsilon(11143.614845598371, worksheet.lever_graphs_o1227, 0.002); end
+  def test_lever_graphs_p1227; assert_in_epsilon(11762.825152568608, worksheet.lever_graphs_p1227, 0.002); end
+  def test_lever_graphs_q1227; assert_in_epsilon(12416.44273308255, worksheet.lever_graphs_q1227, 0.002); end
+  def test_lever_graphs_r1227; assert_in_epsilon(13106.379474683707, worksheet.lever_graphs_r1227, 0.002); end
+  def test_lever_graphs_b1228; assert_in_epsilon(2.0, worksheet.lever_graphs_b1228, 0.002); end
+  def test_lever_graphs_j1228; assert_in_epsilon(8595.98128835765, worksheet.lever_graphs_j1228, 0.002); end
+  def test_lever_graphs_k1228; assert_in_epsilon(8976.021829014844, worksheet.lever_graphs_k1228, 0.002); end
+  def test_lever_graphs_l1228; assert_in_epsilon(9284.739853192128, worksheet.lever_graphs_l1228, 0.002); end
+  def test_lever_graphs_m1228; assert_in_epsilon(9604.075812604802, worksheet.lever_graphs_m1228, 0.002); end
+  def test_lever_graphs_n1228; assert_in_epsilon(9934.394896648475, worksheet.lever_graphs_n1228, 0.002); end
+  def test_lever_graphs_o1228; assert_in_epsilon(10276.074854909764, worksheet.lever_graphs_o1228, 0.002); end
+  def test_lever_graphs_p1228; assert_in_epsilon(10629.506429156927, worksheet.lever_graphs_p1228, 0.002); end
+  def test_lever_graphs_q1228; assert_in_epsilon(10995.093800188222, worksheet.lever_graphs_q1228, 0.002); end
+  def test_lever_graphs_r1228; assert_in_epsilon(11373.255050049014, worksheet.lever_graphs_r1228, 0.002); end
+  def test_lever_graphs_b1229; assert_in_epsilon(3.0, worksheet.lever_graphs_b1229, 0.002); end
+  def test_lever_graphs_j1229; assert_in_epsilon(8595.98128835765, worksheet.lever_graphs_j1229, 0.002); end
+  def test_lever_graphs_k1229; assert_in_epsilon(8976.021829014844, worksheet.lever_graphs_k1229, 0.002); end
+  def test_lever_graphs_l1229; assert_in_epsilon(9252.684641180966, worksheet.lever_graphs_l1229, 0.002); end
+  def test_lever_graphs_m1229; assert_in_epsilon(9537.874873744868, worksheet.lever_graphs_m1229, 0.002); end
+  def test_lever_graphs_n1229; assert_in_epsilon(9831.855362532122, worksheet.lever_graphs_n1229, 0.002); end
+  def test_lever_graphs_o1229; assert_in_epsilon(10134.897044607358, worksheet.lever_graphs_o1229, 0.002); end
+  def test_lever_graphs_p1229; assert_in_epsilon(10447.279207974148, worksheet.lever_graphs_p1229, 0.002); end
+  def test_lever_graphs_q1229; assert_in_epsilon(10769.289748971241, worksheet.lever_graphs_q1229, 0.002); end
+  def test_lever_graphs_r1229; assert_in_epsilon(11101.22543760238, worksheet.lever_graphs_r1229, 0.002); end
+  def test_lever_graphs_b1230; assert_in_epsilon(4.0, worksheet.lever_graphs_b1230, 0.002); end
+  def test_lever_graphs_j1230; assert_in_epsilon(8595.98128835765, worksheet.lever_graphs_j1230, 0.002); end
+  def test_lever_graphs_k1230; assert_in_epsilon(8976.021829014844, worksheet.lever_graphs_k1230, 0.002); end
+  def test_lever_graphs_l1230; assert_in_epsilon(9171.279213358283, worksheet.lever_graphs_l1230, 0.002); end
+  def test_lever_graphs_m1230; assert_in_epsilon(9370.784074687284, worksheet.lever_graphs_m1230, 0.002); end
+  def test_lever_graphs_n1230; assert_in_epsilon(9574.628809306363, worksheet.lever_graphs_n1230, 0.002); end
+  def test_lever_graphs_o1230; assert_in_epsilon(9782.907823437246, worksheet.lever_graphs_o1230, 0.002); end
+  def test_lever_graphs_p1230; assert_in_epsilon(9995.71757694104, worksheet.lever_graphs_p1230, 0.002); end
+  def test_lever_graphs_q1230; assert_in_epsilon(10213.156627991506, worksheet.lever_graphs_q1230, 0.002); end
+  def test_lever_graphs_r1230; assert_in_epsilon(10435.325678720114, worksheet.lever_graphs_r1230, 0.002); end
+  def test_lever_graphs_c1848; assert_equal("1975", worksheet.lever_graphs_c1848); end
+  def test_lever_graphs_d1848; assert_equal("1980", worksheet.lever_graphs_d1848); end
+  def test_lever_graphs_e1848; assert_equal("1985", worksheet.lever_graphs_e1848); end
+  def test_lever_graphs_f1848; assert_equal("1990", worksheet.lever_graphs_f1848); end
+  def test_lever_graphs_g1848; assert_equal("1995", worksheet.lever_graphs_g1848); end
+  def test_lever_graphs_h1848; assert_equal("2000", worksheet.lever_graphs_h1848); end
+  def test_lever_graphs_i1848; assert_equal("2005", worksheet.lever_graphs_i1848); end
+  def test_lever_graphs_j1848; assert_in_epsilon(2011.0, worksheet.lever_graphs_j1848, 0.002); end
+  def test_lever_graphs_k1848; assert_equal("2015", worksheet.lever_graphs_k1848); end
+  def test_lever_graphs_l1848; assert_equal("2020", worksheet.lever_graphs_l1848); end
+  def test_lever_graphs_m1848; assert_equal("2025", worksheet.lever_graphs_m1848); end
+  def test_lever_graphs_n1848; assert_equal("2030", worksheet.lever_graphs_n1848); end
+  def test_lever_graphs_o1848; assert_equal("2035", worksheet.lever_graphs_o1848); end
+  def test_lever_graphs_p1848; assert_equal("2040", worksheet.lever_graphs_p1848); end
+  def test_lever_graphs_q1848; assert_equal("2045", worksheet.lever_graphs_q1848); end
+  def test_lever_graphs_r1848; assert_equal("2050", worksheet.lever_graphs_r1848); end
+  def test_lever_graphs_b1849; assert_equal("Historic data", worksheet.lever_graphs_b1849); end
+  def test_lever_graphs_b1850; assert_in_delta(1.0, worksheet.lever_graphs_b1850, 0.002); end
+  def test_lever_graphs_j1850; assert_in_epsilon(1.42, worksheet.lever_graphs_j1850, 0.002); end
+  def test_lever_graphs_k1850; assert_in_epsilon(1.4343589743589742, worksheet.lever_graphs_k1850, 0.002); end
+  def test_lever_graphs_l1850; assert_in_epsilon(1.4523076923076925, worksheet.lever_graphs_l1850, 0.002); end
+  def test_lever_graphs_m1850; assert_in_epsilon(1.4702564102564102, worksheet.lever_graphs_m1850, 0.002); end
+  def test_lever_graphs_n1850; assert_in_epsilon(1.488205128205128, worksheet.lever_graphs_n1850, 0.002); end
+  def test_lever_graphs_o1850; assert_in_epsilon(1.5061538461538464, worksheet.lever_graphs_o1850, 0.002); end
+  def test_lever_graphs_p1850; assert_in_epsilon(1.5241025641025643, worksheet.lever_graphs_p1850, 0.002); end
+  def test_lever_graphs_q1850; assert_in_epsilon(1.5420512820512822, worksheet.lever_graphs_q1850, 0.002); end
+  def test_lever_graphs_r1850; assert_in_epsilon(1.56, worksheet.lever_graphs_r1850, 0.002); end
+  def test_lever_graphs_b1851; assert_in_epsilon(2.0, worksheet.lever_graphs_b1851, 0.002); end
+  def test_lever_graphs_j1851; assert_in_epsilon(1.42, worksheet.lever_graphs_j1851, 0.002); end
+  def test_lever_graphs_k1851; assert_in_epsilon(1.42, worksheet.lever_graphs_k1851, 0.002); end
+  def test_lever_graphs_l1851; assert_in_epsilon(1.4200000000000002, worksheet.lever_graphs_l1851, 0.002); end
+  def test_lever_graphs_m1851; assert_in_epsilon(1.42, worksheet.lever_graphs_m1851, 0.002); end
+  def test_lever_graphs_n1851; assert_in_epsilon(1.42, worksheet.lever_graphs_n1851, 0.002); end
+  def test_lever_graphs_o1851; assert_in_epsilon(1.42, worksheet.lever_graphs_o1851, 0.002); end
+  def test_lever_graphs_p1851; assert_in_epsilon(1.42, worksheet.lever_graphs_p1851, 0.002); end
+  def test_lever_graphs_q1851; assert_in_epsilon(1.42, worksheet.lever_graphs_q1851, 0.002); end
+  def test_lever_graphs_r1851; assert_in_epsilon(1.42, worksheet.lever_graphs_r1851, 0.002); end
+  def test_lever_graphs_b1852; assert_in_epsilon(3.0, worksheet.lever_graphs_b1852, 0.002); end
+  def test_lever_graphs_j1852; assert_in_epsilon(1.42, worksheet.lever_graphs_j1852, 0.002); end
+  def test_lever_graphs_k1852; assert_in_epsilon(1.4046153846153846, worksheet.lever_graphs_k1852, 0.002); end
+  def test_lever_graphs_l1852; assert_in_epsilon(1.3853846153846154, worksheet.lever_graphs_l1852, 0.002); end
+  def test_lever_graphs_m1852; assert_in_epsilon(1.3661538461538463, worksheet.lever_graphs_m1852, 0.002); end
+  def test_lever_graphs_n1852; assert_in_epsilon(1.3469230769230767, worksheet.lever_graphs_n1852, 0.002); end
+  def test_lever_graphs_o1852; assert_in_epsilon(1.327692307692308, worksheet.lever_graphs_o1852, 0.002); end
+  def test_lever_graphs_p1852; assert_in_epsilon(1.3084615384615383, worksheet.lever_graphs_p1852, 0.002); end
+  def test_lever_graphs_q1852; assert_in_epsilon(1.2892307692307692, worksheet.lever_graphs_q1852, 0.002); end
+  def test_lever_graphs_r1852; assert_in_epsilon(1.27, worksheet.lever_graphs_r1852, 0.002); end
+  def test_lever_graphs_b1853; assert_in_epsilon(4.0, worksheet.lever_graphs_b1853, 0.002); end
+  def test_lever_graphs_j1853; assert_in_epsilon(1.42, worksheet.lever_graphs_j1853, 0.002); end
+  def test_lever_graphs_k1853; assert_in_epsilon(1.3915897435897435, worksheet.lever_graphs_k1853, 0.002); end
+  def test_lever_graphs_l1853; assert_in_epsilon(1.3560769230769232, worksheet.lever_graphs_l1853, 0.002); end
+  def test_lever_graphs_m1853; assert_in_epsilon(1.3205641025641026, worksheet.lever_graphs_m1853, 0.002); end
+  def test_lever_graphs_n1853; assert_in_epsilon(1.285051282051282, worksheet.lever_graphs_n1853, 0.002); end
+  def test_lever_graphs_o1853; assert_in_epsilon(1.2495384615384615, worksheet.lever_graphs_o1853, 0.002); end
+  def test_lever_graphs_p1853; assert_in_epsilon(1.214025641025641, worksheet.lever_graphs_p1853, 0.002); end
+  def test_lever_graphs_q1853; assert_in_epsilon(1.1785128205128206, worksheet.lever_graphs_q1853, 0.002); end
+  def test_lever_graphs_r1853; assert_in_epsilon(1.143, worksheet.lever_graphs_r1853, 0.002); end
+  def test_lever_graphs_b1854; assert_equal("Comparator A", worksheet.lever_graphs_b1854); end
+  def test_lever_graphs_b1855; assert_equal("Comparator B", worksheet.lever_graphs_b1855); end
+  def test_lever_graphs_b1856; assert_equal("Comparator C", worksheet.lever_graphs_b1856); end
+  def test_lever_graphs_c2755; assert_equal("1975", worksheet.lever_graphs_c2755); end
+  def test_lever_graphs_d2755; assert_equal("1980", worksheet.lever_graphs_d2755); end
+  def test_lever_graphs_e2755; assert_equal("1985", worksheet.lever_graphs_e2755); end
+  def test_lever_graphs_f2755; assert_equal("1990", worksheet.lever_graphs_f2755); end
+  def test_lever_graphs_g2755; assert_equal("1995", worksheet.lever_graphs_g2755); end
+  def test_lever_graphs_h2755; assert_equal("2000", worksheet.lever_graphs_h2755); end
+  def test_lever_graphs_i2755; assert_equal("2005", worksheet.lever_graphs_i2755); end
+  def test_lever_graphs_j2755; assert_equal("2011", worksheet.lever_graphs_j2755); end
+  def test_lever_graphs_k2755; assert_equal("2015", worksheet.lever_graphs_k2755); end
+  def test_lever_graphs_l2755; assert_equal("2020", worksheet.lever_graphs_l2755); end
+  def test_lever_graphs_m2755; assert_equal("2025", worksheet.lever_graphs_m2755); end
+  def test_lever_graphs_n2755; assert_equal("2030", worksheet.lever_graphs_n2755); end
+  def test_lever_graphs_o2755; assert_equal("2035", worksheet.lever_graphs_o2755); end
+  def test_lever_graphs_p2755; assert_equal("2040", worksheet.lever_graphs_p2755); end
+  def test_lever_graphs_q2755; assert_equal("2045", worksheet.lever_graphs_q2755); end
+  def test_lever_graphs_r2755; assert_equal("2050", worksheet.lever_graphs_r2755); end
+  def test_lever_graphs_b2756; assert_equal("Historic data", worksheet.lever_graphs_b2756); end
+  def test_lever_graphs_b2757; assert_in_delta(1.0, worksheet.lever_graphs_b2757, 0.002); end
+  def test_lever_graphs_j2757; assert_in_delta(0.1, worksheet.lever_graphs_j2757, 0.002); end
+  def test_lever_graphs_k2757; assert_in_delta(0.1, worksheet.lever_graphs_k2757, 0.002); end
+  def test_lever_graphs_l2757; assert_in_delta(0.1, worksheet.lever_graphs_l2757, 0.002); end
+  def test_lever_graphs_m2757; assert_in_delta(0.1, worksheet.lever_graphs_m2757, 0.002); end
+  def test_lever_graphs_n2757; assert_in_delta(0.1, worksheet.lever_graphs_n2757, 0.002); end
+  def test_lever_graphs_o2757; assert_in_delta(0.1, worksheet.lever_graphs_o2757, 0.002); end
+  def test_lever_graphs_p2757; assert_in_delta(0.1, worksheet.lever_graphs_p2757, 0.002); end
+  def test_lever_graphs_q2757; assert_in_delta(0.1, worksheet.lever_graphs_q2757, 0.002); end
+  def test_lever_graphs_r2757; assert_in_delta(0.1, worksheet.lever_graphs_r2757, 0.002); end
+  def test_lever_graphs_b2758; assert_in_epsilon(2.0, worksheet.lever_graphs_b2758, 0.002); end
+  def test_lever_graphs_j2758; assert_in_delta(0.1, worksheet.lever_graphs_j2758, 0.002); end
+  def test_lever_graphs_k2758; assert_in_delta(0.11025641025641027, worksheet.lever_graphs_k2758, 0.002); end
+  def test_lever_graphs_l2758; assert_in_delta(0.12307692307692308, worksheet.lever_graphs_l2758, 0.002); end
+  def test_lever_graphs_m2758; assert_in_delta(0.13589743589743591, worksheet.lever_graphs_m2758, 0.002); end
+  def test_lever_graphs_n2758; assert_in_delta(0.14871794871794872, worksheet.lever_graphs_n2758, 0.002); end
+  def test_lever_graphs_o2758; assert_in_delta(0.16153846153846155, worksheet.lever_graphs_o2758, 0.002); end
+  def test_lever_graphs_p2758; assert_in_delta(0.17435897435897435, worksheet.lever_graphs_p2758, 0.002); end
+  def test_lever_graphs_q2758; assert_in_delta(0.18717948717948718, worksheet.lever_graphs_q2758, 0.002); end
+  def test_lever_graphs_r2758; assert_in_delta(0.2, worksheet.lever_graphs_r2758, 0.002); end
+  def test_lever_graphs_b2759; assert_in_epsilon(3.0, worksheet.lever_graphs_b2759, 0.002); end
+  def test_lever_graphs_j2759; assert_in_delta(0.1, worksheet.lever_graphs_j2759, 0.002); end
+  def test_lever_graphs_k2759; assert_in_delta(0.12051282051282051, worksheet.lever_graphs_k2759, 0.002); end
+  def test_lever_graphs_l2759; assert_in_delta(0.14615384615384616, worksheet.lever_graphs_l2759, 0.002); end
+  def test_lever_graphs_m2759; assert_in_delta(0.1717948717948718, worksheet.lever_graphs_m2759, 0.002); end
+  def test_lever_graphs_n2759; assert_in_delta(0.19743589743589743, worksheet.lever_graphs_n2759, 0.002); end
+  def test_lever_graphs_o2759; assert_in_delta(0.22307692307692306, worksheet.lever_graphs_o2759, 0.002); end
+  def test_lever_graphs_p2759; assert_in_delta(0.24871794871794872, worksheet.lever_graphs_p2759, 0.002); end
+  def test_lever_graphs_q2759; assert_in_delta(0.2743589743589744, worksheet.lever_graphs_q2759, 0.002); end
+  def test_lever_graphs_r2759; assert_in_delta(0.3, worksheet.lever_graphs_r2759, 0.002); end
+  def test_lever_graphs_b2760; assert_in_epsilon(4.0, worksheet.lever_graphs_b2760, 0.002); end
+  def test_lever_graphs_j2760; assert_in_delta(0.1, worksheet.lever_graphs_j2760, 0.002); end
+  def test_lever_graphs_k2760; assert_in_delta(0.13076923076923078, worksheet.lever_graphs_k2760, 0.002); end
+  def test_lever_graphs_l2760; assert_in_delta(0.16923076923076924, worksheet.lever_graphs_l2760, 0.002); end
+  def test_lever_graphs_m2760; assert_in_delta(0.20769230769230773, worksheet.lever_graphs_m2760, 0.002); end
+  def test_lever_graphs_n2760; assert_in_delta(0.24615384615384617, worksheet.lever_graphs_n2760, 0.002); end
+  def test_lever_graphs_o2760; assert_in_delta(0.28461538461538466, worksheet.lever_graphs_o2760, 0.002); end
+  def test_lever_graphs_p2760; assert_in_delta(0.32307692307692315, worksheet.lever_graphs_p2760, 0.002); end
+  def test_lever_graphs_q2760; assert_in_delta(0.3615384615384616, worksheet.lever_graphs_q2760, 0.002); end
+  def test_lever_graphs_r2760; assert_in_delta(0.4, worksheet.lever_graphs_r2760, 0.002); end
+  def test_lever_graphs_d2766; assert_equal("Title", worksheet.lever_graphs_d2766); end
+  def test_lever_graphs_e2766; assert_equal("Food crops", worksheet.lever_graphs_e2766); end
+  def test_lever_graphs_f2766; assert_equal("Cows and other bovines ", worksheet.lever_graphs_f2766); end
+  def test_lever_graphs_g2766; assert_equal("Chickens and other poultry", worksheet.lever_graphs_g2766); end
+  def test_lever_graphs_h2766; assert_equal("Pigs", worksheet.lever_graphs_h2766); end
+  def test_lever_graphs_i2766; assert_equal("Sheep and goats", worksheet.lever_graphs_i2766); end
+  def test_lever_graphs_j2766; assert_equal("Other animals", worksheet.lever_graphs_j2766); end
+  def test_lever_graphs_k2766; assert_equal("Eggs", worksheet.lever_graphs_k2766); end
+  def test_lever_graphs_l2766; assert_equal("Milk products", worksheet.lever_graphs_l2766); end
+  def test_lever_graphs_d2767; assert_in_epsilon(2011.0, worksheet.lever_graphs_d2767, 0.002); end
+  def test_lever_graphs_e2767; assert_in_delta(0.01, worksheet.lever_graphs_e2767, 0.002); end
+  def test_lever_graphs_f2767; assert_in_delta(0.01, worksheet.lever_graphs_f2767, 0.002); end
+  def test_lever_graphs_g2767; assert_in_delta(0.01, worksheet.lever_graphs_g2767, 0.002); end
+  def test_lever_graphs_h2767; assert_in_delta(0.01, worksheet.lever_graphs_h2767, 0.002); end
+  def test_lever_graphs_i2767; assert_in_delta(0.01, worksheet.lever_graphs_i2767, 0.002); end
+  def test_lever_graphs_j2767; assert_in_delta(0.01, worksheet.lever_graphs_j2767, 0.002); end
+  def test_lever_graphs_k2767; assert_in_delta(0.002, worksheet.lever_graphs_k2767, 0.002); end
+  def test_lever_graphs_l2767; assert_in_delta(0.001, worksheet.lever_graphs_l2767, 0.002); end
+  def test_lever_graphs_d2768; assert_equal("2050: Level 1", worksheet.lever_graphs_d2768); end
+  def test_lever_graphs_e2768; assert_in_delta(0.05, worksheet.lever_graphs_e2768, 0.002); end
+  def test_lever_graphs_f2768; assert_in_delta(0.05, worksheet.lever_graphs_f2768, 0.002); end
+  def test_lever_graphs_g2768; assert_in_delta(0.05, worksheet.lever_graphs_g2768, 0.002); end
+  def test_lever_graphs_h2768; assert_in_delta(0.05, worksheet.lever_graphs_h2768, 0.002); end
+  def test_lever_graphs_i2768; assert_in_delta(0.05, worksheet.lever_graphs_i2768, 0.002); end
+  def test_lever_graphs_j2768; assert_in_delta(0.05, worksheet.lever_graphs_j2768, 0.002); end
+  def test_lever_graphs_k2768; assert_in_delta(0.005, worksheet.lever_graphs_k2768, 0.002); end
+  def test_lever_graphs_l2768; assert_in_delta(0.005, worksheet.lever_graphs_l2768, 0.002); end
+  def test_lever_graphs_d2769; assert_equal("2050: Level 2", worksheet.lever_graphs_d2769); end
+  def test_lever_graphs_e2769; assert_in_delta(0.15, worksheet.lever_graphs_e2769, 0.002); end
+  def test_lever_graphs_f2769; assert_in_delta(0.15, worksheet.lever_graphs_f2769, 0.002); end
+  def test_lever_graphs_g2769; assert_in_delta(0.15, worksheet.lever_graphs_g2769, 0.002); end
+  def test_lever_graphs_h2769; assert_in_delta(0.15, worksheet.lever_graphs_h2769, 0.002); end
+  def test_lever_graphs_i2769; assert_in_delta(0.15, worksheet.lever_graphs_i2769, 0.002); end
+  def test_lever_graphs_j2769; assert_in_delta(0.15, worksheet.lever_graphs_j2769, 0.002); end
+  def test_lever_graphs_k2769; assert_in_delta(0.02, worksheet.lever_graphs_k2769, 0.002); end
+  def test_lever_graphs_l2769; assert_in_delta(0.02, worksheet.lever_graphs_l2769, 0.002); end
+  def test_lever_graphs_d2770; assert_equal("2050: Level 3", worksheet.lever_graphs_d2770); end
+  def test_lever_graphs_e2770; assert_in_delta(0.2, worksheet.lever_graphs_e2770, 0.002); end
+  def test_lever_graphs_f2770; assert_in_delta(0.2, worksheet.lever_graphs_f2770, 0.002); end
+  def test_lever_graphs_g2770; assert_in_delta(0.2, worksheet.lever_graphs_g2770, 0.002); end
+  def test_lever_graphs_h2770; assert_in_delta(0.2, worksheet.lever_graphs_h2770, 0.002); end
+  def test_lever_graphs_i2770; assert_in_delta(0.2, worksheet.lever_graphs_i2770, 0.002); end
+  def test_lever_graphs_j2770; assert_in_delta(0.2, worksheet.lever_graphs_j2770, 0.002); end
+  def test_lever_graphs_k2770; assert_in_delta(0.05, worksheet.lever_graphs_k2770, 0.002); end
+  def test_lever_graphs_l2770; assert_in_delta(0.05, worksheet.lever_graphs_l2770, 0.002); end
+  def test_lever_graphs_d2771; assert_equal("2050: Level 4", worksheet.lever_graphs_d2771); end
+  def test_lever_graphs_e2771; assert_in_delta(0.3, worksheet.lever_graphs_e2771, 0.002); end
+  def test_lever_graphs_f2771; assert_in_delta(0.3, worksheet.lever_graphs_f2771, 0.002); end
+  def test_lever_graphs_g2771; assert_in_delta(0.3, worksheet.lever_graphs_g2771, 0.002); end
+  def test_lever_graphs_h2771; assert_in_delta(0.3, worksheet.lever_graphs_h2771, 0.002); end
+  def test_lever_graphs_i2771; assert_in_delta(0.3, worksheet.lever_graphs_i2771, 0.002); end
+  def test_lever_graphs_j2771; assert_in_delta(0.3, worksheet.lever_graphs_j2771, 0.002); end
+  def test_lever_graphs_k2771; assert_in_delta(0.1, worksheet.lever_graphs_k2771, 0.002); end
+  def test_lever_graphs_l2771; assert_in_delta(0.1, worksheet.lever_graphs_l2771, 0.002); end
+  def test_lever_graphs_c1496; assert_equal("1975", worksheet.lever_graphs_c1496); end
+  def test_lever_graphs_d1496; assert_equal("1980", worksheet.lever_graphs_d1496); end
+  def test_lever_graphs_e1496; assert_equal("1985", worksheet.lever_graphs_e1496); end
+  def test_lever_graphs_f1496; assert_equal("1990", worksheet.lever_graphs_f1496); end
+  def test_lever_graphs_g1496; assert_equal("1995", worksheet.lever_graphs_g1496); end
+  def test_lever_graphs_h1496; assert_equal("2000", worksheet.lever_graphs_h1496); end
+  def test_lever_graphs_i1496; assert_equal("2005", worksheet.lever_graphs_i1496); end
+  def test_lever_graphs_j1496; assert_equal("2010", worksheet.lever_graphs_j1496); end
+  def test_lever_graphs_k1496; assert_equal("2015", worksheet.lever_graphs_k1496); end
+  def test_lever_graphs_l1496; assert_equal("2020", worksheet.lever_graphs_l1496); end
+  def test_lever_graphs_m1496; assert_equal("2025", worksheet.lever_graphs_m1496); end
+  def test_lever_graphs_n1496; assert_equal("2030", worksheet.lever_graphs_n1496); end
+  def test_lever_graphs_o1496; assert_equal("2035", worksheet.lever_graphs_o1496); end
+  def test_lever_graphs_p1496; assert_equal("2040", worksheet.lever_graphs_p1496); end
+  def test_lever_graphs_q1496; assert_equal("2045", worksheet.lever_graphs_q1496); end
+  def test_lever_graphs_r1496; assert_equal("2050", worksheet.lever_graphs_r1496); end
+  def test_lever_graphs_b1497; assert_equal("Historic data", worksheet.lever_graphs_b1497); end
+  def test_lever_graphs_c1497; assert_in_epsilon(4071020000.0, worksheet.lever_graphs_c1497, 0.002); end
+  def test_lever_graphs_d1497; assert_in_epsilon(4449049000.0, worksheet.lever_graphs_d1497, 0.002); end
+  def test_lever_graphs_e1497; assert_in_epsilon(4863602000.0, worksheet.lever_graphs_e1497, 0.002); end
+  def test_lever_graphs_f1497; assert_in_epsilon(5320817000.0, worksheet.lever_graphs_f1497, 0.002); end
+  def test_lever_graphs_g1497; assert_in_epsilon(5741822000.0, worksheet.lever_graphs_g1497, 0.002); end
+  def test_lever_graphs_h1497; assert_in_epsilon(6127700000.0, worksheet.lever_graphs_h1497, 0.002); end
+  def test_lever_graphs_i1497; assert_in_epsilon(6514095000.0, worksheet.lever_graphs_i1497, 0.002); end
+  def test_lever_graphs_j1497; assert_in_epsilon(6916183000.0, worksheet.lever_graphs_j1497, 0.002); end
+  def test_lever_graphs_b1498; assert_in_delta(1.0, worksheet.lever_graphs_b1498, 0.002); end
+  def test_lever_graphs_j1498; assert_in_epsilon(6916183000.0, worksheet.lever_graphs_j1498, 0.002); end
+  def test_lever_graphs_k1498; assert_in_epsilon(7392233000.0, worksheet.lever_graphs_k1498, 0.002); end
+  def test_lever_graphs_l1498; assert_in_epsilon(7893904000.0, worksheet.lever_graphs_l1498, 0.002); end
+  def test_lever_graphs_m1498; assert_in_epsilon(8398226000.0, worksheet.lever_graphs_m1498, 0.002); end
+  def test_lever_graphs_n1498; assert_in_epsilon(8881519000.0, worksheet.lever_graphs_n1498, 0.002); end
+  def test_lever_graphs_o1498; assert_in_epsilon(9359400000.0, worksheet.lever_graphs_o1498, 0.002); end
+  def test_lever_graphs_p1498; assert_in_epsilon(9847909000.0, worksheet.lever_graphs_p1498, 0.002); end
+  def test_lever_graphs_q1498; assert_in_epsilon(10352435000.0, worksheet.lever_graphs_q1498, 0.002); end
+  def test_lever_graphs_r1498; assert_in_epsilon(10868444000.0, worksheet.lever_graphs_r1498, 0.002); end
+  def test_lever_graphs_b1499; assert_in_epsilon(2.0, worksheet.lever_graphs_b1499, 0.002); end
+  def test_lever_graphs_j1499; assert_in_epsilon(6916183000.0, worksheet.lever_graphs_j1499, 0.002); end
+  def test_lever_graphs_k1499; assert_in_epsilon(7324782000.0, worksheet.lever_graphs_k1499, 0.002); end
+  def test_lever_graphs_l1499; assert_in_epsilon(7716749000.0, worksheet.lever_graphs_l1499, 0.002); end
+  def test_lever_graphs_m1499; assert_in_epsilon(8083413000.0, worksheet.lever_graphs_m1499, 0.002); end
+  def test_lever_graphs_n1499; assert_in_epsilon(8424937000.0, worksheet.lever_graphs_n1499, 0.002); end
+  def test_lever_graphs_o1499; assert_in_epsilon(8743447000.0, worksheet.lever_graphs_o1499, 0.002); end
+  def test_lever_graphs_p1499; assert_in_epsilon(9038687000.0, worksheet.lever_graphs_p1499, 0.002); end
+  def test_lever_graphs_q1499; assert_in_epsilon(9308438000.0, worksheet.lever_graphs_q1499, 0.002); end
+  def test_lever_graphs_r1499; assert_in_epsilon(9550945000.0, worksheet.lever_graphs_r1499, 0.002); end
+  def test_lever_graphs_b1500; assert_in_epsilon(3.0, worksheet.lever_graphs_b1500, 0.002); end
+  def test_lever_graphs_j1500; assert_in_epsilon(6916183000.0, worksheet.lever_graphs_j1500, 0.002); end
+  def test_lever_graphs_k1500; assert_in_epsilon(7256925000.0, worksheet.lever_graphs_k1500, 0.002); end
+  def test_lever_graphs_l1500; assert_in_epsilon(7539163000.0, worksheet.lever_graphs_l1500, 0.002); end
+  def test_lever_graphs_m1500; assert_in_epsilon(7768450000.0, worksheet.lever_graphs_m1500, 0.002); end
+  def test_lever_graphs_n1500; assert_in_epsilon(7969407000.0, worksheet.lever_graphs_n1500, 0.002); end
+  def test_lever_graphs_o1500; assert_in_epsilon(8135087000.0, worksheet.lever_graphs_o1500, 0.002); end
+  def test_lever_graphs_p1500; assert_in_epsilon(8255351000.0, worksheet.lever_graphs_p1500, 0.002); end
+  def test_lever_graphs_q1500; assert_in_epsilon(8323978000.0, worksheet.lever_graphs_q1500, 0.002); end
+  def test_lever_graphs_r1500; assert_in_epsilon(8341706000.0, worksheet.lever_graphs_r1500, 0.002); end
+  def test_lever_graphs_d1481; assert_equal("Title", worksheet.lever_graphs_d1481); end
+  def test_lever_graphs_e1481; assert_equal("Proportion of 15 year trend", worksheet.lever_graphs_e1481); end
+  def test_lever_graphs_d1482; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1482, 0.002); end
+  def test_lever_graphs_e1482; assert_in_delta(0.0, (worksheet.lever_graphs_e1482||0), 0.002); end
+  def test_lever_graphs_d1483; assert_equal("2050: Level 1", worksheet.lever_graphs_d1483); end
+  def test_lever_graphs_e1483; assert_in_delta(0.0, (worksheet.lever_graphs_e1483||0), 0.002); end
+  def test_lever_graphs_d1484; assert_equal("2050: Level 2", worksheet.lever_graphs_d1484); end
+  def test_lever_graphs_e1484; assert_in_delta(0.33, worksheet.lever_graphs_e1484, 0.002); end
+  def test_lever_graphs_d1485; assert_equal("2050: Level 3", worksheet.lever_graphs_d1485); end
+  def test_lever_graphs_e1485; assert_in_delta(0.66, worksheet.lever_graphs_e1485, 0.002); end
+  def test_lever_graphs_d1486; assert_equal("2050: Level 4", worksheet.lever_graphs_d1486); end
+  def test_lever_graphs_e1486; assert_in_epsilon(1.1592740742999998, worksheet.lever_graphs_e1486, 0.002); end
+  def test_lever_graphs_d1587; assert_equal("Title", worksheet.lever_graphs_d1587); end
+  def test_lever_graphs_e1587; assert_equal("Solid-fuel ultrasupercritical power plant", worksheet.lever_graphs_e1587); end
+  def test_lever_graphs_f1587; assert_equal("Solid-fuel supercritical power plant", worksheet.lever_graphs_f1587); end
+  def test_lever_graphs_g1587; assert_equal("Solid-fuel subcritical power plant", worksheet.lever_graphs_g1587); end
+  def test_lever_graphs_d1588; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1588, 0.002); end
+  def test_lever_graphs_e1588; assert_in_delta(0.08, worksheet.lever_graphs_e1588, 0.002); end
+  def test_lever_graphs_f1588; assert_in_delta(0.17, worksheet.lever_graphs_f1588, 0.002); end
+  def test_lever_graphs_g1588; assert_in_delta(0.75, worksheet.lever_graphs_g1588, 0.002); end
+  def test_lever_graphs_d1589; assert_equal("2050: Level 1", worksheet.lever_graphs_d1589); end
+  def test_lever_graphs_e1589; assert_in_delta(0.1435, worksheet.lever_graphs_e1589, 0.002); end
+  def test_lever_graphs_f1589; assert_in_delta(0.2315, worksheet.lever_graphs_f1589, 0.002); end
+  def test_lever_graphs_g1589; assert_in_delta(0.625, worksheet.lever_graphs_g1589, 0.002); end
+  def test_lever_graphs_d1590; assert_equal("2050: Level 2", worksheet.lever_graphs_d1590); end
+  def test_lever_graphs_e1590; assert_in_delta(0.18, worksheet.lever_graphs_e1590, 0.002); end
+  def test_lever_graphs_f1590; assert_in_delta(0.27, worksheet.lever_graphs_f1590, 0.002); end
+  def test_lever_graphs_g1590; assert_in_delta(0.55, worksheet.lever_graphs_g1590, 0.002); end
+  def test_lever_graphs_d1591; assert_equal("2050: Level 3", worksheet.lever_graphs_d1591); end
+  def test_lever_graphs_e1591; assert_in_delta(0.204, worksheet.lever_graphs_e1591, 0.002); end
+  def test_lever_graphs_f1591; assert_in_delta(0.293, worksheet.lever_graphs_f1591, 0.002); end
+  def test_lever_graphs_g1591; assert_in_delta(0.5030000000000001, worksheet.lever_graphs_g1591, 0.002); end
+  def test_lever_graphs_d1592; assert_equal("2050: Level 4", worksheet.lever_graphs_d1592); end
+  def test_lever_graphs_e1592; assert_in_delta(0.2324, worksheet.lever_graphs_e1592, 0.002); end
+  def test_lever_graphs_f1592; assert_in_delta(0.3223, worksheet.lever_graphs_f1592, 0.002); end
+  def test_lever_graphs_g1592; assert_in_delta(0.4453000000000001, worksheet.lever_graphs_g1592, 0.002); end
+  def test_lever_graphs_d1886; assert_equal("Title", worksheet.lever_graphs_d1886); end
+  def test_lever_graphs_e1886; assert_equal("Internal Combustion Engine (liquid)", worksheet.lever_graphs_e1886); end
+  def test_lever_graphs_f1886; assert_equal("Internal Combustion Engine (gas)", worksheet.lever_graphs_f1886); end
+  def test_lever_graphs_g1886; assert_equal("Plug-in hybrid technology (electric and internal combustion)", worksheet.lever_graphs_g1886); end
+  def test_lever_graphs_h1886; assert_equal("Electric Vehicle", worksheet.lever_graphs_h1886); end
+  def test_lever_graphs_i1886; assert_equal("Hydrogen", worksheet.lever_graphs_i1886); end
+  def test_lever_graphs_d1887; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1887, 0.002); end
+  def test_lever_graphs_e1887; assert_in_delta(0.9995553411198423, worksheet.lever_graphs_e1887, 0.002); end
+  def test_lever_graphs_f1887; assert_in_delta(8.937397766306532e-08, worksheet.lever_graphs_f1887, 0.002); end
+  def test_lever_graphs_g1887; assert_in_delta(0.0, (worksheet.lever_graphs_g1887||0), 0.002); end
+  def test_lever_graphs_h1887; assert_in_delta(0.0004445695061800071, worksheet.lever_graphs_h1887, 0.002); end
+  def test_lever_graphs_i1887; assert_in_delta(0.0, (worksheet.lever_graphs_i1887||0), 0.002); end
+  def test_lever_graphs_d1888; assert_equal("2050: Level 1", worksheet.lever_graphs_d1888); end
+  def test_lever_graphs_e1888; assert_in_delta(0.9299999999999999, worksheet.lever_graphs_e1888, 0.002); end
+  def test_lever_graphs_f1888; assert_in_delta(0.03, worksheet.lever_graphs_f1888, 0.002); end
+  def test_lever_graphs_g1888; assert_in_delta(0.03, worksheet.lever_graphs_g1888, 0.002); end
+  def test_lever_graphs_h1888; assert_in_delta(0.01, worksheet.lever_graphs_h1888, 0.002); end
+  def test_lever_graphs_i1888; assert_in_delta(0.0, (worksheet.lever_graphs_i1888||0), 0.002); end
+  def test_lever_graphs_d1889; assert_equal("2050: Level 2", worksheet.lever_graphs_d1889); end
+  def test_lever_graphs_e1889; assert_in_delta(0.7499999999999999, worksheet.lever_graphs_e1889, 0.002); end
+  def test_lever_graphs_f1889; assert_in_delta(0.05, worksheet.lever_graphs_f1889, 0.002); end
+  def test_lever_graphs_g1889; assert_in_delta(0.05, worksheet.lever_graphs_g1889, 0.002); end
+  def test_lever_graphs_h1889; assert_in_delta(0.15, worksheet.lever_graphs_h1889, 0.002); end
+  def test_lever_graphs_i1889; assert_in_delta(0.0, (worksheet.lever_graphs_i1889||0), 0.002); end
+  def test_lever_graphs_d1890; assert_equal("2050: Level 3", worksheet.lever_graphs_d1890); end
+  def test_lever_graphs_e1890; assert_in_delta(0.4, worksheet.lever_graphs_e1890, 0.002); end
+  def test_lever_graphs_f1890; assert_in_delta(0.1, worksheet.lever_graphs_f1890, 0.002); end
+  def test_lever_graphs_g1890; assert_in_delta(0.1, worksheet.lever_graphs_g1890, 0.002); end
+  def test_lever_graphs_h1890; assert_in_delta(0.3, worksheet.lever_graphs_h1890, 0.002); end
+  def test_lever_graphs_i1890; assert_in_delta(0.1, worksheet.lever_graphs_i1890, 0.002); end
+  def test_lever_graphs_d1891; assert_equal("2050: Level 4", worksheet.lever_graphs_d1891); end
+  def test_lever_graphs_e1891; assert_in_delta(0.04999999999999999, worksheet.lever_graphs_e1891, 0.002); end
+  def test_lever_graphs_f1891; assert_in_delta(0.2, worksheet.lever_graphs_f1891, 0.002); end
+  def test_lever_graphs_g1891; assert_in_delta(0.15, worksheet.lever_graphs_g1891, 0.002); end
+  def test_lever_graphs_h1891; assert_in_delta(0.4, worksheet.lever_graphs_h1891, 0.002); end
+  def test_lever_graphs_i1891; assert_in_delta(0.2, worksheet.lever_graphs_i1891, 0.002); end
+  def test_lever_graphs_d1873; assert_equal("Title", worksheet.lever_graphs_d1873); end
+  def test_lever_graphs_e1873; assert_equal("Internal Combustion Engine (liquid)", worksheet.lever_graphs_e1873); end
+  def test_lever_graphs_f1873; assert_equal("Internal Combustion Engine (gas)", worksheet.lever_graphs_f1873); end
+  def test_lever_graphs_g1873; assert_equal("Plug-in hybrid technology (electric and internal combustion)", worksheet.lever_graphs_g1873); end
+  def test_lever_graphs_h1873; assert_equal("Electric Vehicle", worksheet.lever_graphs_h1873); end
+  def test_lever_graphs_i1873; assert_equal("Hydrogen", worksheet.lever_graphs_i1873); end
+  def test_lever_graphs_d1874; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1874, 0.002); end
+  def test_lever_graphs_e1874; assert_in_delta(0.988235872414889, worksheet.lever_graphs_e1874, 0.002); end
+  def test_lever_graphs_f1874; assert_in_delta(0.00959176661788106, worksheet.lever_graphs_f1874, 0.002); end
+  def test_lever_graphs_g1874; assert_in_delta(2.834105983229307e-08, worksheet.lever_graphs_g1874, 0.002); end
+  def test_lever_graphs_h1874; assert_in_delta(0.00217233262617009, worksheet.lever_graphs_h1874, 0.002); end
+  def test_lever_graphs_i1874; assert_in_delta(0.0, (worksheet.lever_graphs_i1874||0), 0.002); end
+  def test_lever_graphs_d1875; assert_equal("2050: Level 1", worksheet.lever_graphs_d1875); end
+  def test_lever_graphs_e1875; assert_in_delta(0.9099999999999999, worksheet.lever_graphs_e1875, 0.002); end
+  def test_lever_graphs_f1875; assert_in_delta(0.02, worksheet.lever_graphs_f1875, 0.002); end
+  def test_lever_graphs_g1875; assert_in_delta(0.05, worksheet.lever_graphs_g1875, 0.002); end
+  def test_lever_graphs_h1875; assert_in_delta(0.02, worksheet.lever_graphs_h1875, 0.002); end
+  def test_lever_graphs_i1875; assert_in_delta(0.0, (worksheet.lever_graphs_i1875||0), 0.002); end
+  def test_lever_graphs_d1876; assert_equal("2050: Level 2", worksheet.lever_graphs_d1876); end
+  def test_lever_graphs_e1876; assert_in_delta(0.77, worksheet.lever_graphs_e1876, 0.002); end
+  def test_lever_graphs_f1876; assert_in_delta(0.03, worksheet.lever_graphs_f1876, 0.002); end
+  def test_lever_graphs_g1876; assert_in_delta(0.1, worksheet.lever_graphs_g1876, 0.002); end
+  def test_lever_graphs_h1876; assert_in_delta(0.1, worksheet.lever_graphs_h1876, 0.002); end
+  def test_lever_graphs_i1876; assert_in_delta(0.0, (worksheet.lever_graphs_i1876||0), 0.002); end
+  def test_lever_graphs_d1877; assert_equal("2050: Level 3", worksheet.lever_graphs_d1877); end
+  def test_lever_graphs_e1877; assert_in_delta(0.32999999999999996, worksheet.lever_graphs_e1877, 0.002); end
+  def test_lever_graphs_f1877; assert_in_delta(0.07, worksheet.lever_graphs_f1877, 0.002); end
+  def test_lever_graphs_g1877; assert_in_delta(0.25, worksheet.lever_graphs_g1877, 0.002); end
+  def test_lever_graphs_h1877; assert_in_delta(0.2, worksheet.lever_graphs_h1877, 0.002); end
+  def test_lever_graphs_i1877; assert_in_delta(0.15, worksheet.lever_graphs_i1877, 0.002); end
+  def test_lever_graphs_d1878; assert_equal("2050: Level 4", worksheet.lever_graphs_d1878); end
+  def test_lever_graphs_e1878; assert_in_delta(0.020000000000000073, worksheet.lever_graphs_e1878, 0.002); end
+  def test_lever_graphs_f1878; assert_in_delta(0.1, worksheet.lever_graphs_f1878, 0.002); end
+  def test_lever_graphs_g1878; assert_in_delta(0.33, worksheet.lever_graphs_g1878, 0.002); end
+  def test_lever_graphs_h1878; assert_in_delta(0.35, worksheet.lever_graphs_h1878, 0.002); end
+  def test_lever_graphs_i1878; assert_in_delta(0.2, worksheet.lever_graphs_i1878, 0.002); end
+  def test_lever_graphs_d1912; assert_equal("Title", worksheet.lever_graphs_d1912); end
+  def test_lever_graphs_e1912; assert_equal("Fuel-powered plane", worksheet.lever_graphs_e1912); end
+  def test_lever_graphs_f1912; assert_equal("Hydrogen-powered plane", worksheet.lever_graphs_f1912); end
+  def test_lever_graphs_d1913; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1913, 0.002); end
+  def test_lever_graphs_e1913; assert_in_delta(0.562586153718789, worksheet.lever_graphs_e1913, 0.002); end
+  def test_lever_graphs_f1913; assert_in_delta(0.43741384628121105, worksheet.lever_graphs_f1913, 0.002); end
+  def test_lever_graphs_d1914; assert_equal("2050: Level 1", worksheet.lever_graphs_d1914); end
+  def test_lever_graphs_e1914; assert_in_delta(0.6, worksheet.lever_graphs_e1914, 0.002); end
+  def test_lever_graphs_f1914; assert_in_delta(0.4, worksheet.lever_graphs_f1914, 0.002); end
+  def test_lever_graphs_d1915; assert_equal("2050: Level 2", worksheet.lever_graphs_d1915); end
+  def test_lever_graphs_e1915; assert_in_delta(0.4, worksheet.lever_graphs_e1915, 0.002); end
+  def test_lever_graphs_f1915; assert_in_delta(0.6, worksheet.lever_graphs_f1915, 0.002); end
+  def test_lever_graphs_d1916; assert_equal("2050: Level 3", worksheet.lever_graphs_d1916); end
+  def test_lever_graphs_e1916; assert_in_delta(0.29000000000000004, worksheet.lever_graphs_e1916, 0.002); end
+  def test_lever_graphs_f1916; assert_in_delta(0.71, worksheet.lever_graphs_f1916, 0.002); end
+  def test_lever_graphs_d1917; assert_equal("2050: Level 4", worksheet.lever_graphs_d1917); end
+  def test_lever_graphs_e1917; assert_in_delta(0.19999999999999996, worksheet.lever_graphs_e1917, 0.002); end
+  def test_lever_graphs_f1917; assert_in_delta(0.8, worksheet.lever_graphs_f1917, 0.002); end
+  def test_lever_graphs_d1899; assert_equal("Title", worksheet.lever_graphs_d1899); end
+  def test_lever_graphs_e1899; assert_equal("Fuel-powered train", worksheet.lever_graphs_e1899); end
+  def test_lever_graphs_f1899; assert_equal("Electric-powered train", worksheet.lever_graphs_f1899); end
+  def test_lever_graphs_d1900; assert_in_epsilon(2011.0, worksheet.lever_graphs_d1900, 0.002); end
+  def test_lever_graphs_e1900; assert_in_delta(0.562586153718789, worksheet.lever_graphs_e1900, 0.002); end
+  def test_lever_graphs_f1900; assert_in_delta(0.43741384628121105, worksheet.lever_graphs_f1900, 0.002); end
+  def test_lever_graphs_d1901; assert_equal("2050: Level 1", worksheet.lever_graphs_d1901); end
+  def test_lever_graphs_e1901; assert_in_delta(0.6, worksheet.lever_graphs_e1901, 0.002); end
+  def test_lever_graphs_f1901; assert_in_delta(0.4, worksheet.lever_graphs_f1901, 0.002); end
+  def test_lever_graphs_d1902; assert_equal("2050: Level 2", worksheet.lever_graphs_d1902); end
+  def test_lever_graphs_e1902; assert_in_delta(0.4, worksheet.lever_graphs_e1902, 0.002); end
+  def test_lever_graphs_f1902; assert_in_delta(0.6, worksheet.lever_graphs_f1902, 0.002); end
+  def test_lever_graphs_d1903; assert_equal("2050: Level 3", worksheet.lever_graphs_d1903); end
+  def test_lever_graphs_e1903; assert_in_delta(0.29000000000000004, worksheet.lever_graphs_e1903, 0.002); end
+  def test_lever_graphs_f1903; assert_in_delta(0.71, worksheet.lever_graphs_f1903, 0.002); end
+  def test_lever_graphs_d1904; assert_equal("2050: Level 4", worksheet.lever_graphs_d1904); end
+  def test_lever_graphs_e1904; assert_in_delta(0.19999999999999996, worksheet.lever_graphs_e1904, 0.002); end
+  def test_lever_graphs_f1904; assert_in_delta(0.8, worksheet.lever_graphs_f1904, 0.002); end
+  def test_lever_graphs_c1512; assert_equal("1975", worksheet.lever_graphs_c1512); end
+  def test_lever_graphs_d1512; assert_equal("1980", worksheet.lever_graphs_d1512); end
+  def test_lever_graphs_e1512; assert_equal("1985", worksheet.lever_graphs_e1512); end
+  def test_lever_graphs_f1512; assert_equal("1990", worksheet.lever_graphs_f1512); end
+  def test_lever_graphs_g1512; assert_equal("1995", worksheet.lever_graphs_g1512); end
+  def test_lever_graphs_h1512; assert_equal("2000", worksheet.lever_graphs_h1512); end
+  def test_lever_graphs_i1512; assert_equal("2005", worksheet.lever_graphs_i1512); end
+  def test_lever_graphs_j1512; assert_equal("2010", worksheet.lever_graphs_j1512); end
+  def test_lever_graphs_k1512; assert_equal("2015", worksheet.lever_graphs_k1512); end
+  def test_lever_graphs_l1512; assert_equal("2020", worksheet.lever_graphs_l1512); end
+  def test_lever_graphs_m1512; assert_equal("2025", worksheet.lever_graphs_m1512); end
+  def test_lever_graphs_n1512; assert_equal("2030", worksheet.lever_graphs_n1512); end
+  def test_lever_graphs_o1512; assert_equal("2035", worksheet.lever_graphs_o1512); end
+  def test_lever_graphs_p1512; assert_equal("2040", worksheet.lever_graphs_p1512); end
+  def test_lever_graphs_q1512; assert_equal("2045", worksheet.lever_graphs_q1512); end
+  def test_lever_graphs_r1512; assert_equal("2050", worksheet.lever_graphs_r1512); end
+  def test_lever_graphs_b1513; assert_equal("Historic data", worksheet.lever_graphs_b1513); end
+  def test_lever_graphs_c1513; assert_in_delta(0.377, worksheet.lever_graphs_c1513, 0.002); end
+  def test_lever_graphs_d1513; assert_in_delta(0.39399999999999996, worksheet.lever_graphs_d1513, 0.002); end
+  def test_lever_graphs_e1513; assert_in_delta(0.41200000000000003, worksheet.lever_graphs_e1513, 0.002); end
+  def test_lever_graphs_f1513; assert_in_delta(0.43, worksheet.lever_graphs_f1513, 0.002); end
+  def test_lever_graphs_g1513; assert_in_delta(0.44799999999999995, worksheet.lever_graphs_g1513, 0.002); end
+  def test_lever_graphs_h1513; assert_in_delta(0.467, worksheet.lever_graphs_h1513, 0.002); end
+  def test_lever_graphs_i1513; assert_in_delta(0.491, worksheet.lever_graphs_i1513, 0.002); end
+  def test_lever_graphs_j1513; assert_in_delta(0.516, worksheet.lever_graphs_j1513, 0.002); end
+  def test_lever_graphs_b1514; assert_in_delta(1.0, worksheet.lever_graphs_b1514, 0.002); end
+  def test_lever_graphs_j1514; assert_in_delta(0.516, worksheet.lever_graphs_j1514, 0.002); end
+  def test_lever_graphs_k1514; assert_in_delta(0.54, worksheet.lever_graphs_k1514, 0.002); end
+  def test_lever_graphs_l1514; assert_in_delta(0.57, worksheet.lever_graphs_l1514, 0.002); end
+  def test_lever_graphs_m1514; assert_in_delta(0.6, worksheet.lever_graphs_m1514, 0.002); end
+  def test_lever_graphs_n1514; assert_in_delta(0.63, worksheet.lever_graphs_n1514, 0.002); end
+  def test_lever_graphs_o1514; assert_in_delta(0.65, worksheet.lever_graphs_o1514, 0.002); end
+  def test_lever_graphs_p1514; assert_in_delta(0.68, worksheet.lever_graphs_p1514, 0.002); end
+  def test_lever_graphs_q1514; assert_in_delta(0.71, worksheet.lever_graphs_q1514, 0.002); end
+  def test_lever_graphs_r1514; assert_in_delta(0.75, worksheet.lever_graphs_r1514, 0.002); end
+  def test_lever_graphs_b1515; assert_in_epsilon(2.0, worksheet.lever_graphs_b1515, 0.002); end
+  def test_lever_graphs_j1515; assert_in_delta(0.516, worksheet.lever_graphs_j1515, 0.002); end
+  def test_lever_graphs_k1515; assert_in_delta(0.54, worksheet.lever_graphs_k1515, 0.002); end
+  def test_lever_graphs_l1515; assert_in_delta(0.56, worksheet.lever_graphs_l1515, 0.002); end
+  def test_lever_graphs_m1515; assert_in_delta(0.57, worksheet.lever_graphs_m1515, 0.002); end
+  def test_lever_graphs_n1515; assert_in_delta(0.59, worksheet.lever_graphs_n1515, 0.002); end
+  def test_lever_graphs_o1515; assert_in_delta(0.61, worksheet.lever_graphs_o1515, 0.002); end
+  def test_lever_graphs_p1515; assert_in_delta(0.62, worksheet.lever_graphs_p1515, 0.002); end
+  def test_lever_graphs_q1515; assert_in_delta(0.64, worksheet.lever_graphs_q1515, 0.002); end
+  def test_lever_graphs_r1515; assert_in_delta(0.65, worksheet.lever_graphs_r1515, 0.002); end
+  def test_lever_graphs_b1516; assert_in_epsilon(3.0, worksheet.lever_graphs_b1516, 0.002); end
+  def test_lever_graphs_j1516; assert_in_delta(0.516, worksheet.lever_graphs_j1516, 0.002); end
+  def test_lever_graphs_k1516; assert_in_delta(0.53, worksheet.lever_graphs_k1516, 0.002); end
+  def test_lever_graphs_l1516; assert_in_delta(0.54, worksheet.lever_graphs_l1516, 0.002); end
+  def test_lever_graphs_m1516; assert_in_delta(0.55, worksheet.lever_graphs_m1516, 0.002); end
+  def test_lever_graphs_n1516; assert_in_delta(0.56, worksheet.lever_graphs_n1516, 0.002); end
+  def test_lever_graphs_o1516; assert_in_delta(0.57, worksheet.lever_graphs_o1516, 0.002); end
+  def test_lever_graphs_p1516; assert_in_delta(0.57, worksheet.lever_graphs_p1516, 0.002); end
+  def test_lever_graphs_q1516; assert_in_delta(0.57, worksheet.lever_graphs_q1516, 0.002); end
+  def test_lever_graphs_r1516; assert_in_delta(0.58, worksheet.lever_graphs_r1516, 0.002); end
+  def test_lever_graphs_b1517; assert_equal("Comparator A", worksheet.lever_graphs_b1517); end
+  def test_lever_graphs_b1518; assert_equal("Comparator B", worksheet.lever_graphs_b1518); end
+  def test_lever_graphs_b1519; assert_equal("Comparator C", worksheet.lever_graphs_b1519); end
+  def test_lever_graphs_b1947; assert_equal("Technology code", worksheet.lever_graphs_b1947); end
+  def test_lever_graphs_c1947; assert_equal("1975", worksheet.lever_graphs_c1947); end
+  def test_lever_graphs_d1947; assert_equal("1980", worksheet.lever_graphs_d1947); end
+  def test_lever_graphs_e1947; assert_equal("1985", worksheet.lever_graphs_e1947); end
+  def test_lever_graphs_f1947; assert_equal("1990", worksheet.lever_graphs_f1947); end
+  def test_lever_graphs_g1947; assert_equal("1995", worksheet.lever_graphs_g1947); end
+  def test_lever_graphs_h1947; assert_equal("2000", worksheet.lever_graphs_h1947); end
+  def test_lever_graphs_i1947; assert_equal("2005", worksheet.lever_graphs_i1947); end
+  def test_lever_graphs_j1947; assert_equal("2011", worksheet.lever_graphs_j1947); end
+  def test_lever_graphs_b1948; assert_equal("walk.passenger.urban", worksheet.lever_graphs_b1948); end
+  def test_lever_graphs_j1948; assert_in_delta(0.0, (worksheet.lever_graphs_j1948||0), 0.002); end
+  def test_lever_graphs_b1949; assert_equal("bike.passenger.urban", worksheet.lever_graphs_b1949); end
+  def test_lever_graphs_j1949; assert_in_delta(0.0, (worksheet.lever_graphs_j1949||0), 0.002); end
+  def test_lever_graphs_b1950; assert_equal("motorbike.passenger.urban.fuel", worksheet.lever_graphs_b1950); end
+  def test_lever_graphs_j1950; assert_in_epsilon(4.320306698732465, worksheet.lever_graphs_j1950, 0.002); end
+  def test_lever_graphs_b1951; assert_equal("motorbike.passenger.urban.elec", worksheet.lever_graphs_b1951); end
+  def test_lever_graphs_j1951; assert_in_epsilon(1.198701595980695, worksheet.lever_graphs_j1951, 0.002); end
+  def test_lever_graphs_b1952; assert_equal("car.passenger.urban.ICE.liquid", worksheet.lever_graphs_b1952); end
+  def test_lever_graphs_j1952; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1952, 0.002); end
+  def test_lever_graphs_b1953; assert_equal("car.passenger.urban.ICE.gas", worksheet.lever_graphs_b1953); end
+  def test_lever_graphs_j1953; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1953, 0.002); end
+  def test_lever_graphs_b1954; assert_equal("car.passenger.urban.PH", worksheet.lever_graphs_b1954); end
+  def test_lever_graphs_j1954; assert_in_epsilon(6.537621244105451, worksheet.lever_graphs_j1954, 0.002); end
+  def test_lever_graphs_b1955; assert_equal("car.passenger.urban.EV", worksheet.lever_graphs_b1955); end
+  def test_lever_graphs_j1955; assert_in_epsilon(2.39740319196139, worksheet.lever_graphs_j1955, 0.002); end
+  def test_lever_graphs_b1956; assert_equal("car.passenger.urban.H2", worksheet.lever_graphs_b1956); end
+  def test_lever_graphs_j1956; assert_in_epsilon(7.894395740652819, worksheet.lever_graphs_j1956, 0.002); end
+  def test_lever_graphs_b1957; assert_equal("bus.passenger.urban.ICE.liquid", worksheet.lever_graphs_b1957); end
+  def test_lever_graphs_j1957; assert_in_epsilon(32.331711258141304, worksheet.lever_graphs_j1957, 0.002); end
+  def test_lever_graphs_b1958; assert_equal("bus.passenger.urban.ICE.gas", worksheet.lever_graphs_b1958); end
+  def test_lever_graphs_j1958; assert_in_epsilon(32.331711258141304, worksheet.lever_graphs_j1958, 0.002); end
+  def test_lever_graphs_b1959; assert_equal("bus.passenger.urban.PH", worksheet.lever_graphs_b1959); end
+  def test_lever_graphs_j1959; assert_in_epsilon(28.138535157781295, worksheet.lever_graphs_j1959, 0.002); end
+  def test_lever_graphs_b1960; assert_equal("bus.passenger.urban.EV", worksheet.lever_graphs_b1960); end
+  def test_lever_graphs_j1960; assert_in_epsilon(7.13287824899877, worksheet.lever_graphs_j1960, 0.002); end
+  def test_lever_graphs_b1961; assert_equal("bus.passenger.urban.H2", worksheet.lever_graphs_b1961); end
+  def test_lever_graphs_j1961; assert_in_epsilon(19.615415184746603, worksheet.lever_graphs_j1961, 0.002); end
+  def test_lever_graphs_b1962; assert_equal("train.passenger.urban.fuel", worksheet.lever_graphs_b1962); end
+  def test_lever_graphs_j1962; assert_in_epsilon(347.9830499369259, worksheet.lever_graphs_j1962, 0.002); end
+  def test_lever_graphs_b1963; assert_equal("train.passenger.urban.elec", worksheet.lever_graphs_b1963); end
+  def test_lever_graphs_j1963; assert_in_epsilon(143.2773007442537, worksheet.lever_graphs_j1963, 0.002); end
+  def test_lever_graphs_b1964; assert_equal("walk.passenger.rural", worksheet.lever_graphs_b1964); end
+  def test_lever_graphs_j1964; assert_in_delta(0.0, (worksheet.lever_graphs_j1964||0), 0.002); end
+  def test_lever_graphs_b1965; assert_equal("bike.passenger.rural", worksheet.lever_graphs_b1965); end
+  def test_lever_graphs_j1965; assert_in_delta(0.0, (worksheet.lever_graphs_j1965||0), 0.002); end
+  def test_lever_graphs_b1966; assert_equal("motorbike.passenger.rural.fuel", worksheet.lever_graphs_b1966); end
+  def test_lever_graphs_j1966; assert_in_epsilon(4.320306698732465, worksheet.lever_graphs_j1966, 0.002); end
+  def test_lever_graphs_b1967; assert_equal("motorbike.passenger.rural.elec", worksheet.lever_graphs_b1967); end
+  def test_lever_graphs_j1967; assert_in_epsilon(1.198701595980695, worksheet.lever_graphs_j1967, 0.002); end
+  def test_lever_graphs_b1968; assert_equal("car.passenger.rural.ICE.liquid", worksheet.lever_graphs_b1968); end
+  def test_lever_graphs_j1968; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1968, 0.002); end
+  def test_lever_graphs_b1969; assert_equal("car.passenger.rural.ICE.gas", worksheet.lever_graphs_b1969); end
+  def test_lever_graphs_j1969; assert_in_epsilon(8.64061339746493, worksheet.lever_graphs_j1969, 0.002); end
+  def test_lever_graphs_b1970; assert_equal("car.passenger.rural.PH", worksheet.lever_graphs_b1970); end
+  def test_lever_graphs_j1970; assert_in_epsilon(6.537621244105451, worksheet.lever_graphs_j1970, 0.002); end
+  def test_lever_graphs_b1971; assert_equal("car.passenger.rural.EV", worksheet.lever_graphs_b1971); end
+  def test_lever_graphs_j1971; assert_in_epsilon(2.39740319196139, worksheet.lever_graphs_j1971, 0.002); end
+  def test_lever_graphs_b1972; assert_equal("car.passenger.rural.H2", worksheet.lever_graphs_b1972); end
+  def test_lever_graphs_j1972; assert_in_epsilon(7.894395740652819, worksheet.lever_graphs_j1972, 0.002); end
+  def test_lever_graphs_b1973; assert_equal("bus.passenger.rural.ICE.liquid", worksheet.lever_graphs_b1973); end
+  def test_lever_graphs_j1973; assert_in_epsilon(32.331711258141304, worksheet.lever_graphs_j1973, 0.002); end
+  def test_lever_graphs_b1974; assert_equal("bus.passenger.rural.ICE.gas", worksheet.lever_graphs_b1974); end
+  def test_lever_graphs_j1974; assert_in_epsilon(32.331711258141304, worksheet.lever_graphs_j1974, 0.002); end
+  def test_lever_graphs_b1975; assert_equal("bus.passenger.rural.PH", worksheet.lever_graphs_b1975); end
+  def test_lever_graphs_j1975; assert_in_epsilon(28.138535157781295, worksheet.lever_graphs_j1975, 0.002); end
+  def test_lever_graphs_b1976; assert_equal("bus.passenger.rural.EV", worksheet.lever_graphs_b1976); end
+  def test_lever_graphs_j1976; assert_in_epsilon(7.13287824899877, worksheet.lever_graphs_j1976, 0.002); end
+  def test_lever_graphs_b1977; assert_equal("bus.passenger.rural.H2", worksheet.lever_graphs_b1977); end
+  def test_lever_graphs_j1977; assert_in_epsilon(19.615415184746603, worksheet.lever_graphs_j1977, 0.002); end
+  def test_lever_graphs_b1978; assert_equal("train.passenger.rural.fuel", worksheet.lever_graphs_b1978); end
+  def test_lever_graphs_j1978; assert_in_epsilon(347.9830499369259, worksheet.lever_graphs_j1978, 0.002); end
+  def test_lever_graphs_b1979; assert_equal("train.passenger.rural.elec", worksheet.lever_graphs_b1979); end
+  def test_lever_graphs_j1979; assert_in_epsilon(143.2773007442537, worksheet.lever_graphs_j1979, 0.002); end
+  def test_lever_graphs_b1980; assert_equal("plane.passenger.international.short.fuel", worksheet.lever_graphs_b1980); end
+  def test_lever_graphs_j1980; assert_in_epsilon(955.579493787423, worksheet.lever_graphs_j1980, 0.002); end
+  def test_lever_graphs_b1981; assert_equal("plane.passenger.international.short.H2", worksheet.lever_graphs_b1981); end
+  def test_lever_graphs_j1981; assert_in_epsilon(955.579493787423, worksheet.lever_graphs_j1981, 0.002); end
+  def test_lever_graphs_b1982; assert_equal("plane.passenger.international.long.fuel", worksheet.lever_graphs_b1982); end
+  def test_lever_graphs_j1982; assert_in_epsilon(687.3122998348063, worksheet.lever_graphs_j1982, 0.002); end
+  def test_lever_graphs_b1983; assert_equal("plane.passenger.international.long.H2", worksheet.lever_graphs_b1983); end
+  def test_lever_graphs_j1983; assert_in_epsilon(687.3122998348063, worksheet.lever_graphs_j1983, 0.002); end
+  def test_lever_graphs_b1984; assert_equal("train.passenger.international.fuel", worksheet.lever_graphs_b1984); end
+  def test_lever_graphs_j1984; assert_in_epsilon(347.9830499369259, worksheet.lever_graphs_j1984, 0.002); end
+  def test_lever_graphs_b1985; assert_equal("train.passenger.international.elec", worksheet.lever_graphs_b1985); end
+  def test_lever_graphs_j1985; assert_in_epsilon(143.2773007442537, worksheet.lever_graphs_j1985, 0.002); end
+  def test_lever_graphs_b2019; assert_equal("Technology code", worksheet.lever_graphs_b2019); end
+  def test_lever_graphs_c2019; assert_equal("1975", worksheet.lever_graphs_c2019); end
+  def test_lever_graphs_d2019; assert_equal("1980", worksheet.lever_graphs_d2019); end
+  def test_lever_graphs_e2019; assert_equal("1985", worksheet.lever_graphs_e2019); end
+  def test_lever_graphs_f2019; assert_equal("1990", worksheet.lever_graphs_f2019); end
+  def test_lever_graphs_g2019; assert_equal("1995", worksheet.lever_graphs_g2019); end
+  def test_lever_graphs_h2019; assert_equal("2000", worksheet.lever_graphs_h2019); end
+  def test_lever_graphs_i2019; assert_equal("2005", worksheet.lever_graphs_i2019); end
+  def test_lever_graphs_j2019; assert_equal("2011", worksheet.lever_graphs_j2019); end
+  def test_lever_graphs_b2020; assert_equal("light.truck.domestic.ICE.liquid", worksheet.lever_graphs_b2020); end
+  def test_lever_graphs_j2020; assert_in_epsilon(9.96, worksheet.lever_graphs_j2020, 0.002); end
+  def test_lever_graphs_b2021; assert_equal("light.truck.domestic.ICE.gas", worksheet.lever_graphs_b2021); end
+  def test_lever_graphs_j2021; assert_in_epsilon(9.96, worksheet.lever_graphs_j2021, 0.002); end
+  def test_lever_graphs_b2022; assert_equal("light.truck.domestic.PH", worksheet.lever_graphs_b2022); end
+  def test_lever_graphs_j2022; assert_in_epsilon(9.060000000000002, worksheet.lever_graphs_j2022, 0.002); end
+  def test_lever_graphs_b2023; assert_equal("light.truck.domestic.EV", worksheet.lever_graphs_b2023); end
+  def test_lever_graphs_j2023; assert_in_epsilon(3.3999999999999995, worksheet.lever_graphs_j2023, 0.002); end
+  def test_lever_graphs_b2024; assert_equal("light.truck.domestic.H2", worksheet.lever_graphs_b2024); end
+  def test_lever_graphs_j2024; assert_in_epsilon(7.62, worksheet.lever_graphs_j2024, 0.002); end
+  def test_lever_graphs_b2025; assert_equal("heavy.truck.domestic.ICE.liquid", worksheet.lever_graphs_b2025); end
+  def test_lever_graphs_j2025; assert_in_epsilon(31.970000000000002, worksheet.lever_graphs_j2025, 0.002); end
+  def test_lever_graphs_b2026; assert_equal("heavy.truck.domestic.ICE.gas", worksheet.lever_graphs_b2026); end
+  def test_lever_graphs_j2026; assert_in_epsilon(31.970000000000002, worksheet.lever_graphs_j2026, 0.002); end
+  def test_lever_graphs_b2027; assert_equal("heavy.truck.domestic.PH", worksheet.lever_graphs_b2027); end
+  def test_lever_graphs_j2027; assert_in_epsilon(28.57, worksheet.lever_graphs_j2027, 0.002); end
+  def test_lever_graphs_b2028; assert_equal("heavy.truck.domestic.EV", worksheet.lever_graphs_b2028); end
+  def test_lever_graphs_j2028; assert_in_epsilon(12.37, worksheet.lever_graphs_j2028, 0.002); end
+  def test_lever_graphs_b2029; assert_equal("heavy.truck.domestic.H2", worksheet.lever_graphs_b2029); end
+  def test_lever_graphs_j2029; assert_in_epsilon(26.35, worksheet.lever_graphs_j2029, 0.002); end
+  def test_lever_graphs_b2030; assert_equal("train.freight.domestic.fuel", worksheet.lever_graphs_b2030); end
+  def test_lever_graphs_j2030; assert_in_epsilon(13847.986298180851, worksheet.lever_graphs_j2030, 0.002); end
+  def test_lever_graphs_b2031; assert_equal("train.freight.domestic.elec", worksheet.lever_graphs_b2031); end
+  def test_lever_graphs_j2031; assert_in_epsilon(13847.986298180851, worksheet.lever_graphs_j2031, 0.002); end
+  def test_lever_graphs_b2032; assert_equal("ship.freight.domestic.fuel", worksheet.lever_graphs_b2032); end
+  def test_lever_graphs_j2032; assert_in_epsilon(3852.2580065848556, worksheet.lever_graphs_j2032, 0.002); end
+  def test_lever_graphs_b2033; assert_equal("ship.freight.domestic.H2", worksheet.lever_graphs_b2033); end
+  def test_lever_graphs_j2033; assert_in_epsilon(3852.2580065848556, worksheet.lever_graphs_j2033, 0.002); end
+  def test_lever_graphs_b2034; assert_equal("heavy.truck.international.ICE.liquid", worksheet.lever_graphs_b2034); end
+  def test_lever_graphs_j2034; assert_in_epsilon(31.970000000000002, worksheet.lever_graphs_j2034, 0.002); end
+  def test_lever_graphs_b2035; assert_equal("heavy.truck.international.ICE.gas", worksheet.lever_graphs_b2035); end
+  def test_lever_graphs_j2035; assert_in_epsilon(31.970000000000002, worksheet.lever_graphs_j2035, 0.002); end
+  def test_lever_graphs_b2036; assert_equal("heavy.truck.international.PH", worksheet.lever_graphs_b2036); end
+  def test_lever_graphs_j2036; assert_in_epsilon(28.57, worksheet.lever_graphs_j2036, 0.002); end
+  def test_lever_graphs_b2037; assert_equal("heavy.truck.international.EV", worksheet.lever_graphs_b2037); end
+  def test_lever_graphs_j2037; assert_in_epsilon(12.37, worksheet.lever_graphs_j2037, 0.002); end
+  def test_lever_graphs_b2038; assert_equal("heavy.truck.international.H2", worksheet.lever_graphs_b2038); end
+  def test_lever_graphs_j2038; assert_in_epsilon(26.35, worksheet.lever_graphs_j2038, 0.002); end
+  def test_lever_graphs_b2039; assert_equal("train.freight.international.fuel", worksheet.lever_graphs_b2039); end
+  def test_lever_graphs_j2039; assert_in_epsilon(13847.986298180851, worksheet.lever_graphs_j2039, 0.002); end
+  def test_lever_graphs_b2040; assert_equal("train.freight.international.elec", worksheet.lever_graphs_b2040); end
+  def test_lever_graphs_j2040; assert_in_epsilon(13847.986298180851, worksheet.lever_graphs_j2040, 0.002); end
+  def test_lever_graphs_b2041; assert_equal("ship.freight.international.fuel", worksheet.lever_graphs_b2041); end
+  def test_lever_graphs_j2041; assert_in_epsilon(18490.838431607306, worksheet.lever_graphs_j2041, 0.002); end
+  def test_lever_graphs_b2042; assert_equal("ship.freight.international.H2", worksheet.lever_graphs_b2042); end
+  def test_lever_graphs_j2042; assert_in_epsilon(18490.838431607306, worksheet.lever_graphs_j2042, 0.002); end
+  def test_lever_graphs_b2043; assert_equal("plane.freight.international.fuel", worksheet.lever_graphs_b2043); end
+  def test_lever_graphs_j2043; assert_in_epsilon(1200.0000000000002, worksheet.lever_graphs_j2043, 0.002); end
+  def test_lever_graphs_b2044; assert_equal("plane.freight.international.H2", worksheet.lever_graphs_b2044); end
+  def test_lever_graphs_j2044; assert_in_epsilon(1200.0000000000002, worksheet.lever_graphs_j2044, 0.002); end
   def test_outputs_energy_d63; assert_equal("Transport", worksheet.outputs_energy_d63); end
   def test_outputs_energy_f63; assert_equal("Excludes pipeline transport", worksheet.outputs_energy_f63); end
   def test_outputs_energy_h63; assert_in_epsilon(45.51369989, worksheet.outputs_energy_h63, 0.002); end
@@ -1172,7 +5914,12 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_energy_x329; assert_in_epsilon(11.05854566307615, worksheet.outputs_energy_x329, 0.002); end
   def test_outputs_energy_y329; assert_in_epsilon(11.382234298798666, worksheet.outputs_energy_y329, 0.002); end
   def test_outputs_energy_z329; assert_in_epsilon(11.711557469362482, worksheet.outputs_energy_z329, 0.002); end
-  def test_outputs_climate_impacts_c527; assert_equal("In order to avoid the most dangerous impacts of global climate change the international community agreed limiting global average temperature increase to no more than 2°C above pre-industrial levels (UNFCCC Cancun 2010).", worksheet.outputs_climate_impacts_c527); end
+  def test_outputs_climate_impacts_c528; assert_equal("In order to avoid the most dangerous impacts of global climate change the international community agreed limiting global average temperature increase to no more than 2°C above pre-industrial levels (UNFCCC Cancun 2010).", worksheet.outputs_climate_impacts_c528); end
+  def test_outputs_climate_impacts_h50; assert_in_epsilon(3400000.0, worksheet.outputs_climate_impacts_h50, 0.002); end
+  def test_outputs_climate_impacts_i50; assert_in_epsilon(8200000.0, worksheet.outputs_climate_impacts_i50, 0.002); end
+  def test_outputs_climate_impacts_i55; assert_in_epsilon(650000.0, worksheet.outputs_climate_impacts_i55, 0.002); end
+  def test_outputs_climate_impacts_i60; assert_in_epsilon(1.8, worksheet.outputs_climate_impacts_i60, 0.002); end
+  def test_outputs_climate_impacts_i65; assert_in_delta(0.39, worksheet.outputs_climate_impacts_i65, 0.002); end
   def test_outputs_climate_impacts_d11; assert_in_epsilon(3.962282660284033, worksheet.outputs_climate_impacts_d11, 0.002); end
   def test_outputs_climate_impacts_d12; assert_in_delta(0.9196476048139026, worksheet.outputs_climate_impacts_d12, 0.002); end
   def test_outputs_climate_impacts_e11; assert_in_epsilon(6.107475905067359, worksheet.outputs_climate_impacts_e11, 0.002); end
@@ -4588,55 +9335,35 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_detailed_lever_guides_n42; assert_equal("Surplus land would be allocated 100% for a limmited expansion of energy crops. If there is still land available, such land will be allocated as natural restoration and planted forests.", worksheet.detailed_lever_guides_n42); end
   def test_detailed_lever_guides_o42; assert_equal("Assumes that the remaining land would be allocated 100% for a limmited expansion of energy crops. If there is still land available, such land will be allocated as natural restoration and planted forests. The maximum expansion of bioenergy is a linear growth rate of 22 million ha / year, which were estimated for meeting 300 EJ of bioenergy by 2050, defined by IPCC as an extreme global bioenergy potential, when all levers are in level 4 for example.", worksheet.detailed_lever_guides_o42); end
   def test_detailed_lever_guides_b43; assert_equal("Biochar", worksheet.detailed_lever_guides_b43); end
-  def test_detailed_lever_guides_d43; assert_equal("No biochar technologies, with many risks and uncertainties associated with them.", worksheet.detailed_lever_guides_d43); end
-  def test_detailed_lever_guides_h43; assert_equal("No biochar by 2050", worksheet.detailed_lever_guides_h43); end
-  def test_detailed_lever_guides_i43; assert_equal("Means no biochar technologies. This assumes that biochar will not be implemented by 2050 at any scale, due to potential risks associated to them (e.g.,  biodegradation, impacts on soil biota, land-use change for biomass production), costs or negative public perception.", worksheet.detailed_lever_guides_i43); end
-  def test_detailed_lever_guides_j43; assert_equal("Low effort on biochar technologies, but still a relevant contribution, removing up to 0.8 GtCO2/year by 2050 (25% of level 4)", worksheet.detailed_lever_guides_j43); end
-  def test_detailed_lever_guides_k43; assert_equal("Represents a low effort on biochar technologies. Such technologies would not require additional technological advances or changes in regulation. A limited amount would be expected to occur without a carbon price, but would be driven by other benefits/subsidy systems. Total removal by 2050 here suggested as 0.8 GtCO2/year (25% of the level 4 potential).", worksheet.detailed_lever_guides_k43); end
-  def test_detailed_lever_guides_l43; assert_equal("Substantial contribution of biochar to tackle global warming, removing up to 1.7 GtCO2/year by 2050 (50% of level 4). ", worksheet.detailed_lever_guides_l43); end
-  def test_detailed_lever_guides_m43; assert_equal("Means a substantial contribution of biochar to tackle global warming. It would require a carbon price to make deployment of such technologies economically viable. It would also require technical and regulatory advances. Total removal by 2050 here suggested as 1.7 GtCO2/year (50% of the level 4 potential).", worksheet.detailed_lever_guides_m43); end
-  def test_detailed_lever_guides_n43; assert_equal("Extreme increase of biochar technologies, based on technical speculations regarding the maximum expansion that would be technically possible by 2050, here suggested as 3.3 GtCO2/yr.", worksheet.detailed_lever_guides_n43); end
-  def test_detailed_lever_guides_o43; assert_equal("This is a highly uncertain pathway, with significant risks associated to biochar. A carbon price would be required and potentially an obligation on emitters to either remove an equivalent quantity as is emitted, or pay someone else to do so. The timeline of scalability would mean that it is highly unlikely that substantial emissions could be removed in this way in the 2050 timeframe, but an obligation to remove emissions at some later date could create a market in such negative emissions. Based on the implementation of 3.3GtCO2/yr biochar by 2050.", worksheet.detailed_lever_guides_o43); end
+  def test_detailed_lever_guides_d43; assert_equal("Biochar is already routinely produced on a large scale for use as charcoal and as a soil improver. What is less well-established is the long-term characterisation of the behaviour of biochar as a means of storing carbon away from the atmosphere. ", worksheet.detailed_lever_guides_d43); end
+  def test_detailed_lever_guides_h43; assert_equal("No biochar technologies. This assumes that biochar will not be implemented by 2050 at any scale", worksheet.detailed_lever_guides_h43); end
+  def test_detailed_lever_guides_j43; assert_equal("Low effort on biochar technologies. Such technologies would not require additional technological advances or changes in regulation. The removal rate would reach 0.8 GtCO2/year by 2050 (10% of level 4).", worksheet.detailed_lever_guides_j43); end
+  def test_detailed_lever_guides_l43; assert_equal("Substantial contribution of biochar to tackle global warming. It would require technical and regulatory advances. The removal rate would reach 1.7 GtCO2/year by 2050 (25% of level 4).", worksheet.detailed_lever_guides_l43); end
+  def test_detailed_lever_guides_n43; assert_equal("Top estimate of how much biochar could contribute by 2050. It is highly unlikely that emissions could be removed at this level in this timeframe, and the pathway carries significant risks. The removal rate would reach 3.3 GtCO2/year by 2050..", worksheet.detailed_lever_guides_n43); end
   def test_detailed_lever_guides_b44; assert_equal("Direct air capture", worksheet.detailed_lever_guides_b44); end
-  def test_detailed_lever_guides_d44; assert_equal("No direct air capture technologies, with many risks and uncertainties associated with them.", worksheet.detailed_lever_guides_d44); end
-  def test_detailed_lever_guides_h44; assert_equal("No direct air capture technologies biochar by 2050.", worksheet.detailed_lever_guides_h44); end
-  def test_detailed_lever_guides_i44; assert_equal("Means no direct air capture technologies. This assumes that they will not be implemented by 2050 at any scale, due to potential risks associated to them (e.g. carbon storage stability, energy penalty), costs or negative public perception.", worksheet.detailed_lever_guides_i44); end
-  def test_detailed_lever_guides_j44; assert_equal("Low effort on direct air capture technologies, but still a relevant contribution, removing up to 2.5 GtCO2/year by 2050 (25% of level 4)", worksheet.detailed_lever_guides_j44); end
-  def test_detailed_lever_guides_k44; assert_equal("Represents a low effort on direct air capture technologies. Such technologies would not require additional technological advances or changes in regulation. A limited amount would be expected to occur without a carbon price, but would be driven by other benefits/subsidy systems. Total removal by 2050 here suggested as 2.5 GtCO2/year (25% of the level 4 potential).", worksheet.detailed_lever_guides_k44); end
-  def test_detailed_lever_guides_l44; assert_equal("Substantial contribution of direct air capture to tackle global warming, removing up to 5.0 GtCO2/year by 2050 (50% of level 4). ", worksheet.detailed_lever_guides_l44); end
-  def test_detailed_lever_guides_m44; assert_equal("Means a substantial contribution of direct air capture to tackle global warming. It would require a carbon price to make deployment of such technologies economically viable. It would also require technical and regulatory advances. Total removal by 2050 here suggested as 5.0 GtCO2/year (50% of the level 4 potential).", worksheet.detailed_lever_guides_m44); end
-  def test_detailed_lever_guides_n44; assert_equal("Extreme increase of direct air capture technologies, based on technical speculations regarding the maximum expansion that would be technically possible by 2050, here suggested as 10.0 GtCO2/yr.", worksheet.detailed_lever_guides_n44); end
-  def test_detailed_lever_guides_o44; assert_equal("This is a highly uncertain pathway, with significant risks associated to direct air capture. A carbon price would be required and potentially an obligation on emitters to either remove an equivalent quantity as is emitted, or pay someone else to do so. The timeline of scalability would mean that it is highly unlikely that substantial emissions could be removed in this way in the 2050 timeframe, but an obligation to remove emissions at some later date could create a market in such negative emissions. Based on the implementation of 10.0 GtCO2/yr direct air capture by 2050.", worksheet.detailed_lever_guides_o44); end
+  def test_detailed_lever_guides_d44; assert_equal("There are about a dozen proposed DAC technologies that have been demonstrated at small scales. Technically the process works – in fact, the removal of carbon dioxide from ambient air in submarines and spacecraft has been practised for decades. The real questions are around the carbon balance of the systems and the economics.", worksheet.detailed_lever_guides_d44); end
+  def test_detailed_lever_guides_h44; assert_equal("No direct air capture technologies. This assumes that they will not be implemented by 2050 at any scale.", worksheet.detailed_lever_guides_h44); end
+  def test_detailed_lever_guides_j44; assert_equal("Low effort on DAC technologies. Such technologies would not require additional technological advances or changes in regulation. The removal rate would reach 2.5 GtCO2/year by 2050 (10% of level 4).", worksheet.detailed_lever_guides_j44); end
+  def test_detailed_lever_guides_l44; assert_equal("Substantial contribution of DAC to tackle global warming. It would require technical and regulatory advances. The removal rate would reach 5.0 GtCO2/year by 2050 (25% of level 4).", worksheet.detailed_lever_guides_l44); end
+  def test_detailed_lever_guides_n44; assert_equal("Top estimate of how much DAC could contribute by 2050. It is highly unlikely that emissions could be removed at this level in this timeframe, and the pathway carries significant risks. The removal rate would reach 10.0 GtCO2/year by 2050.", worksheet.detailed_lever_guides_n44); end
   def test_detailed_lever_guides_b45; assert_equal("Ocean fertilisation", worksheet.detailed_lever_guides_b45); end
-  def test_detailed_lever_guides_d45; assert_equal("No ocean fertilisation technologies, with many risks and uncertainties associated with them.", worksheet.detailed_lever_guides_d45); end
-  def test_detailed_lever_guides_h45; assert_equal("No ocean fertilisation by 2050.", worksheet.detailed_lever_guides_h45); end
-  def test_detailed_lever_guides_i45; assert_equal("Means no ocean fertilisation technologies. This assumes that they will not be implemented by 2050 at any scale, due to potential risks associated to them (e.g., impacts on ocean biota, quick release of the carbon captured back to the atmosphere), costs or negative public perception.", worksheet.detailed_lever_guides_i45); end
-  def test_detailed_lever_guides_j45; assert_equal("Low effort on ocean fertilisation technologies, but still a relevant contribution, removing up to 0.3 GtCO2/year by 2050 (25% of level 4)", worksheet.detailed_lever_guides_j45); end
-  def test_detailed_lever_guides_k45; assert_equal("Represents a low effort on ocean fertilisation technologies. Such technologies would not require additional technological advances or changes in regulation. A limited amount would be expected to occur without a carbon price, but would be driven by other benefits/subsidy systems. Total removal by 2050 here suggested as 0.3 GtCO2/year (25% of the level 4 potential).", worksheet.detailed_lever_guides_k45); end
-  def test_detailed_lever_guides_l45; assert_equal("Substantial contribution of ocean fertilisation to tackle global warming, removing up to 0.5 GtCO2/year by 2050 (50% of level 4). ", worksheet.detailed_lever_guides_l45); end
-  def test_detailed_lever_guides_m45; assert_equal("Means a substantial contribution of ocean fertilisation to tackle global warming. It would require a carbon price to make deployment of such technologies economically viable. It would also require technical and regulatory advances. Total removal by 2050 here suggested as 0.5 GtCO2/year (50% of the level 4 potential).", worksheet.detailed_lever_guides_m45); end
-  def test_detailed_lever_guides_n45; assert_equal("Extreme increase of ocean fertilisation technologies, based on technical speculations regarding the maximum expansion that would be technically possible by 2050, here suggested as 1.0 GtCO2/yr.", worksheet.detailed_lever_guides_n45); end
-  def test_detailed_lever_guides_o45; assert_equal("This is a highly uncertain pathway, with significant risks associated to ocean fertilisation. A carbon price would be required and potentially an obligation on emitters to either remove an equivalent quantity as is emitted, or pay someone else to do so. The timeline of scalability would mean that it is highly unlikely that substantial emissions could be removed in this way in the 2050 timeframe, but an obligation to remove emissions at some later date could create a market in such negative emissions. Based on the implementation of 1.0 GtCO2/yr ocean fertilisation by 2050.", worksheet.detailed_lever_guides_o45); end
+  def test_detailed_lever_guides_d45; assert_equal("A small number of OF experiments have been undertaken, most with the approval of national research establishments, but some without such approval. Those experiments that have been undertaken without approval have been highly controversial. The results of the officially approved experiments have indicated, at least in some instances, that there has been net carbon drawdown, but there are still many unanswered questions as to the long-term effects of this technique. ", worksheet.detailed_lever_guides_d45); end
+  def test_detailed_lever_guides_h45; assert_equal("No OF technologies. It means that they will not be implemented by 2050 at any scale.", worksheet.detailed_lever_guides_h45); end
+  def test_detailed_lever_guides_j45; assert_equal("Low effort on OF technologies. Such technologies would not require additional technological advances or changes in regulation. The removal rate would reach 0.3 GtCO2/year by 2050 (10% of level 4).", worksheet.detailed_lever_guides_j45); end
+  def test_detailed_lever_guides_l45; assert_equal("Substantial contribution of OF to tackle global warming. It would also require technical and regulatory advances. The removal rate would reach 0.5 GtCO2/year by 2050 (25% of level 4). ", worksheet.detailed_lever_guides_l45); end
+  def test_detailed_lever_guides_n45; assert_equal("Top estimate of how much OF could contribute by 2050. It is highly unlikely that emissions could be removed at this level in this timeframe, and the pathway carries significant risks. The removal rate would reach 1.0 GtCO2/year by 2050", worksheet.detailed_lever_guides_n45); end
   def test_detailed_lever_guides_b46; assert_equal("Enhanced weathering (ocean)", worksheet.detailed_lever_guides_b46); end
-  def test_detailed_lever_guides_d46; assert_equal("No ocean-based enhanced weathering technologies, with many risks and uncertainties associated with them.", worksheet.detailed_lever_guides_d46); end
-  def test_detailed_lever_guides_h46; assert_equal("No ocean-based enhanced weathering technologies by 2050.", worksheet.detailed_lever_guides_h46); end
-  def test_detailed_lever_guides_i46; assert_equal("Means no ocean-based enhanced weathering technologies. This assumes that they will not be implemented by 2050 at any scale, due to potential risks associated to them (e.g., impacts on ocean biota, ocean alkalinization, energy penalty), costs or negative public perception.", worksheet.detailed_lever_guides_i46); end
-  def test_detailed_lever_guides_j46; assert_equal("Low effort on ocean-based enhanced weathering technologies, but still a relevant contribution, removing up to 2.5 GtCO2/year by 2050 (25% of level 4)", worksheet.detailed_lever_guides_j46); end
-  def test_detailed_lever_guides_k46; assert_equal("Represents a low effort on ocean-based enhanced weathering technologies. Such technologies would not require additional technological advances or changes in regulation. A limited amount would be expected to occur without a carbon price, but would be driven by other benefits/subsidy systems. Total removal by 2050 here suggested as 2.5 GtCO2/year (25% of the level 4 potential).", worksheet.detailed_lever_guides_k46); end
-  def test_detailed_lever_guides_l46; assert_equal("Substantial contribution of enhanced weathering (oceanic) to tackle global warming, removing up to 5.0 GtCO2/year by 2050 (50% of level 4). ", worksheet.detailed_lever_guides_l46); end
-  def test_detailed_lever_guides_m46; assert_equal("Means a substantial contribution of enhanced weathering (oceanic) to tackle global warming. It would require a carbon price to make deployment of such technologies economically viable. It would also require technical and regulatory advances. Total removal by 2050 here suggested as 5.0 GtCO2/year (50% of the level 4 potential).", worksheet.detailed_lever_guides_m46); end
-  def test_detailed_lever_guides_n46; assert_equal("Extreme increase of enhanced weathering (oceanic) technologies, based on technical speculations regarding the maximum expansion that would be technically possible by 2050, here suggested as 10.0 GtCO2/yr.", worksheet.detailed_lever_guides_n46); end
-  def test_detailed_lever_guides_o46; assert_equal("This is a highly uncertain pathway, with significant risks associated to enhanced weathering (oceanic). A carbon price would be required and potentially an obligation on emitters to either remove an equivalent quantity as is emitted, or pay someone else to do so. The timeline of scalability would mean that it is highly unlikely that substantial emissions could be removed in this way in the 2050 timeframe, but an obligation to remove emissions at some later date could create a market in such negative emissions. Based on the implementation of 10.0 GtCO2/yr enhanced weathering (oceanic) by 2050.", worksheet.detailed_lever_guides_o46); end
+  def test_detailed_lever_guides_d46; assert_equal("EW-O has been studied in the laboratory and has been modelled, but it has not been researched in the open environment. The processes required to generate alkaline materials are well established at an industrial scale. However, the environmental impacts of adding them into the oceans are not known. ", worksheet.detailed_lever_guides_d46); end
+  def test_detailed_lever_guides_h46; assert_equal("No ocean-based EW-O technologies. This assumes that they will not be implemented by 2050 at any scale.", worksheet.detailed_lever_guides_h46); end
+  def test_detailed_lever_guides_j46; assert_equal("Low effort on EW-O technologies. Such technologies would not require additional technological advances or changes in regulation. The removal rate would reach 2.5 GtCO2/year by 2050 (10% of level 4).", worksheet.detailed_lever_guides_j46); end
+  def test_detailed_lever_guides_l46; assert_equal("Substantial contribution of EW-O to tackle global warming. This would require technical and regulatory advances. The removal rate would reach 5.0 GtCO2/year by 2050 (25% of level 4).", worksheet.detailed_lever_guides_l46); end
+  def test_detailed_lever_guides_n46; assert_equal("Top estimate of how much EW-O could contribute by 2050. It is highly unlikely that emissions could be removed at this level in this timeframe, and the pathway carries significant risks. The removal rate would reach 10.0 GtCO2/year by 2050.", worksheet.detailed_lever_guides_n46); end
   def test_detailed_lever_guides_b47; assert_equal("Enhanced weathering (terrestial)", worksheet.detailed_lever_guides_b47); end
-  def test_detailed_lever_guides_d47; assert_equal("No land-based enhanced weathering technologies, with many risks and uncertainties associated with them.", worksheet.detailed_lever_guides_d47); end
-  def test_detailed_lever_guides_h47; assert_equal("No land-based enhanced weathering technologies  by 2050.", worksheet.detailed_lever_guides_h47); end
-  def test_detailed_lever_guides_i47; assert_equal("Means no land-based enhanced weathering technologies. This assumes that they will not be implemented by 2050 at any scale, due to potential risks associated to them (e.g., changes in land use and landscape, high energy penalty), costs or negative public perception.", worksheet.detailed_lever_guides_i47); end
-  def test_detailed_lever_guides_j47; assert_equal("Low effort on land-based enhanced weathering technologies, but still a relevant contribution, removing up to 0.9 GtCO2/year by 2050 (25% of level 4)", worksheet.detailed_lever_guides_j47); end
-  def test_detailed_lever_guides_k47; assert_equal("Represents a low effort on land-based enhanced weathering technologies. Such technologies would not require additional technological advances or changes in regulation. A limited amount would be expected to occur without a carbon price, but would be driven by other benefits/subsidy systems. Total removal by 2050 here suggested as 0.9 GtCO2/year (25% of the level 4 potential).", worksheet.detailed_lever_guides_k47); end
-  def test_detailed_lever_guides_l47; assert_equal("Substantial contribution of enhanced weathering (terrestrial) to tackle global warming, removing up to 1.9 GtCO2/year by 2050 (50% of level 4). ", worksheet.detailed_lever_guides_l47); end
-  def test_detailed_lever_guides_m47; assert_equal("Means a substantial contribution of enhanced weathering (terrestrial) to tackle global warming. It would require a carbon price to make deployment of such technologies economically viable. It would also require technical and regulatory advances. Total removal by 2050 here suggested as 1.9 GtCO2/year (50% of the level 4 potential).", worksheet.detailed_lever_guides_m47); end
-  def test_detailed_lever_guides_n47; assert_equal("Extreme increase of enhanced weathering (terrestrial) technologies, based on technical speculations regarding the maximum expansion that would be technically possible by 2050, here suggested as 3.7 GtCO2/yr.", worksheet.detailed_lever_guides_n47); end
-  def test_detailed_lever_guides_o47; assert_equal("This is a highly uncertain pathway, with significant risks associated to enhanced weathering (terrestrial). A carbon price would be required and potentially an obligation on emitters to either remove an equivalent quantity as is emitted, or pay someone else to do so. The timeline of scalability would mean that it is highly unlikely that substantial emissions could be removed in this way in the 2050 timeframe, but an obligation to remove emissions at some later date could create a market in such negative emissions. Based on the implementation of 3.7 GtCO2/yr enhanced weathering (terrestrial) by 2050.", worksheet.detailed_lever_guides_o47); end
+  def test_detailed_lever_guides_d47; assert_equal("EW-T has been studied in the laboratory and has been modelled, but it has had little research in the open environment (though proponents of EW-T have marketed ground olivine as a soil additive already). Technical and theoretical modelling of the particle sizes indicate that while there would be some carbon dioxide drawdown, it is far less than has been claimed. ", worksheet.detailed_lever_guides_d47); end
+  def test_detailed_lever_guides_h47; assert_equal("No land-based EW-T technologies. It means that they will not be implemented by 2050 at any scale.", worksheet.detailed_lever_guides_h47); end
+  def test_detailed_lever_guides_j47; assert_equal("Low effort on EW-T technologies. Such technologies would not require additional technological advances or changes in regulation. The removal rate would reach 0.9 GtCO2/year by 2050 (10% of level 4). ", worksheet.detailed_lever_guides_j47); end
+  def test_detailed_lever_guides_l47; assert_equal("Substantial contribution of EW-T to tackle global warming. It would require technical and regulatory advances. The removal rate would reach 1.9 GtCO2/year by 2050 (25% of level 4).", worksheet.detailed_lever_guides_l47); end
+  def test_detailed_lever_guides_n47; assert_equal("Top estimate of how much EW-T could contribute by 2050. It is highly unlikely that emissions could be removed at this level in this timeframe, and the pathway carries significant risks. The removal rate would reach 3.7 GtCO2/year by 2050.", worksheet.detailed_lever_guides_n47); end
   def test_detailed_lever_guides_b48; assert_equal("Wastes and residues", worksheet.detailed_lever_guides_b48); end
   def test_detailed_lever_guides_d48; assert_equal("Susbtantial production of wastes and residues worldwide with a low collection of them for energy and animal feed purposes. Total on-farm residues are equivalent to 100% of the total food production, which includes straws, stoves and husks, with approximately 10% currently collected for energy or feed. As for the post-farm residues and wastes, it is estimated that 25% of the total food produciton and 10% of meat products, milk and eggs become losses, with the collection for energy and feed of only 1% of food and meat, 0.1% of milk (derivates) and 0.2% eggs (mostly derivates) out ot this total production. Note that all these values are in energy terms.  ", worksheet.detailed_lever_guides_d48); end
   def test_detailed_lever_guides_h48; assert_equal("Assumes no increase in the production and collection of on-farm residues; and no increase in the production of post-farm wastes and residues, but with a low increse in their collection for energy and feed. ", worksheet.detailed_lever_guides_h48); end
@@ -8640,19 +13367,19 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f7; assert_equal("2050", worksheet.outputs_summary_table_f7); end
   def test_outputs_summary_table_g7; assert_equal("% increase 2011 to 2050", worksheet.outputs_summary_table_g7); end
   def test_outputs_summary_table_b8; assert_equal("Emissions and temperature", worksheet.outputs_summary_table_b8); end
-  def test_outputs_summary_table_c8; assert_equal("GHG emissions per capita", worksheet.outputs_summary_table_c8); end
+  def test_outputs_summary_table_c8; assert_equal("GHG emissions (t CO2e) per capita", worksheet.outputs_summary_table_c8); end
   def test_outputs_summary_table_d8; assert_equal("t CO2e / capita", worksheet.outputs_summary_table_d8); end
   def test_outputs_summary_table_e8; assert_equal("6.7", worksheet.outputs_summary_table_e8); end
   def test_outputs_summary_table_f8; assert_equal("7.7", worksheet.outputs_summary_table_f8); end
   def test_outputs_summary_table_g8; assert_equal("16%", worksheet.outputs_summary_table_g8); end
-  def test_outputs_summary_table_c9; assert_equal("Cumulative emissions by 2100", worksheet.outputs_summary_table_c9); end
+  def test_outputs_summary_table_c9; assert_equal("Cumulative emissions by 2100 (Gt CO2e)", worksheet.outputs_summary_table_c9); end
   def test_outputs_summary_table_d9; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d9); end
   def test_outputs_summary_table_e9; assert_equal("7,078", worksheet.outputs_summary_table_e9); end
-  def test_outputs_summary_table_c10; assert_equal("Temperature change in 2100", worksheet.outputs_summary_table_c10); end
+  def test_outputs_summary_table_c10; assert_equal("Temperature change in 2100 (⁰C)", worksheet.outputs_summary_table_c10); end
   def test_outputs_summary_table_d10; assert_equal("⁰C", worksheet.outputs_summary_table_d10); end
   def test_outputs_summary_table_e10; assert_equal("2.0⁰C to 6.1⁰C higher", worksheet.outputs_summary_table_e10); end
   def test_outputs_summary_table_b12; assert_equal("Demographics and long term", worksheet.outputs_summary_table_b12); end
-  def test_outputs_summary_table_c12; assert_equal("Population", worksheet.outputs_summary_table_c12); end
+  def test_outputs_summary_table_c12; assert_equal("Population (billions of people)", worksheet.outputs_summary_table_c12); end
   def test_outputs_summary_table_d12; assert_equal("billions of people", worksheet.outputs_summary_table_d12); end
   def test_outputs_summary_table_e12; assert_equal("7.0", worksheet.outputs_summary_table_e12); end
   def test_outputs_summary_table_f12; assert_equal("9.6", worksheet.outputs_summary_table_f12); end
@@ -8663,17 +13390,17 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f13; assert_equal("65.0%", worksheet.outputs_summary_table_f13); end
   def test_outputs_summary_table_g13; assert_equal("25%", worksheet.outputs_summary_table_g13); end
   def test_outputs_summary_table_b15; assert_equal("Energy", worksheet.outputs_summary_table_b15); end
-  def test_outputs_summary_table_c15; assert_equal("Total energy supply", worksheet.outputs_summary_table_c15); end
+  def test_outputs_summary_table_c15; assert_equal("Total energy supply (EJ / year)", worksheet.outputs_summary_table_c15); end
   def test_outputs_summary_table_d15; assert_equal("EJ / year", worksheet.outputs_summary_table_d15); end
   def test_outputs_summary_table_e15; assert_equal("577", worksheet.outputs_summary_table_e15); end
   def test_outputs_summary_table_f15; assert_equal("989", worksheet.outputs_summary_table_f15); end
   def test_outputs_summary_table_g15; assert_equal("71%", worksheet.outputs_summary_table_g15); end
-  def test_outputs_summary_table_c16; assert_equal("Total energy demand", worksheet.outputs_summary_table_c16); end
+  def test_outputs_summary_table_c16; assert_equal("Total energy supply (EJ / year)", worksheet.outputs_summary_table_c16); end
   def test_outputs_summary_table_d16; assert_equal("EJ / year", worksheet.outputs_summary_table_d16); end
   def test_outputs_summary_table_e16; assert_equal("363", worksheet.outputs_summary_table_e16); end
   def test_outputs_summary_table_f16; assert_equal("632", worksheet.outputs_summary_table_f16); end
   def test_outputs_summary_table_g16; assert_equal("74%", worksheet.outputs_summary_table_g16); end
-  def test_outputs_summary_table_c17; assert_equal("Energy demand (kWh) per capita", worksheet.outputs_summary_table_c17); end
+  def test_outputs_summary_table_c17; assert_equal("Energy demand (kWh / capita)", worksheet.outputs_summary_table_c17); end
   def test_outputs_summary_table_d17; assert_equal("kWh / capita", worksheet.outputs_summary_table_d17); end
   def test_outputs_summary_table_e17; assert_equal("14,483", worksheet.outputs_summary_table_e17); end
   def test_outputs_summary_table_f17; assert_equal("18,389", worksheet.outputs_summary_table_f17); end
@@ -8683,7 +13410,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e18; assert_equal("80.5%", worksheet.outputs_summary_table_e18); end
   def test_outputs_summary_table_f18; assert_equal("81.6%", worksheet.outputs_summary_table_f18); end
   def test_outputs_summary_table_g18; assert_equal("1%", worksheet.outputs_summary_table_g18); end
-  def test_outputs_summary_table_c19; assert_equal("Bioenergy supply", worksheet.outputs_summary_table_c19); end
+  def test_outputs_summary_table_c19; assert_equal("Bioenergy supply (EJ)", worksheet.outputs_summary_table_c19); end
   def test_outputs_summary_table_d19; assert_equal("EJ", worksheet.outputs_summary_table_d19); end
   def test_outputs_summary_table_e19; assert_equal("57.0", worksheet.outputs_summary_table_e19); end
   def test_outputs_summary_table_f19; assert_equal("73.3", worksheet.outputs_summary_table_f19); end
@@ -8701,42 +13428,42 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e22; assert_equal("100.0%", worksheet.outputs_summary_table_e22); end
   def test_outputs_summary_table_f22; assert_equal("69% to 74%", worksheet.outputs_summary_table_f22); end
   def test_outputs_summary_table_b24; assert_equal("Electricity", worksheet.outputs_summary_table_b24); end
-  def test_outputs_summary_table_c24; assert_equal("Electricity demand", worksheet.outputs_summary_table_c24); end
+  def test_outputs_summary_table_c24; assert_equal("Electricity demand (kWh / capita)", worksheet.outputs_summary_table_c24); end
   def test_outputs_summary_table_d24; assert_equal("kWh / capita", worksheet.outputs_summary_table_d24); end
   def test_outputs_summary_table_e24; assert_equal("2,727", worksheet.outputs_summary_table_e24); end
   def test_outputs_summary_table_f24; assert_equal("4,167", worksheet.outputs_summary_table_f24); end
   def test_outputs_summary_table_g24; assert_equal("53%", worksheet.outputs_summary_table_g24); end
-  def test_outputs_summary_table_c25; assert_equal("Wind capacity", worksheet.outputs_summary_table_c25); end
+  def test_outputs_summary_table_c25; assert_equal("Wind capacity (GW)", worksheet.outputs_summary_table_c25); end
   def test_outputs_summary_table_d25; assert_equal("GW", worksheet.outputs_summary_table_d25); end
   def test_outputs_summary_table_e25; assert_equal("238", worksheet.outputs_summary_table_e25); end
   def test_outputs_summary_table_f25; assert_equal("1,390", worksheet.outputs_summary_table_f25); end
   def test_outputs_summary_table_g25; assert_equal("485%", worksheet.outputs_summary_table_g25); end
-  def test_outputs_summary_table_c26; assert_equal("Solar capacity", worksheet.outputs_summary_table_c26); end
+  def test_outputs_summary_table_c26; assert_equal("Solar capacity (GW)", worksheet.outputs_summary_table_c26); end
   def test_outputs_summary_table_d26; assert_equal("GW", worksheet.outputs_summary_table_d26); end
   def test_outputs_summary_table_e26; assert_equal("30", worksheet.outputs_summary_table_e26); end
   def test_outputs_summary_table_f26; assert_equal("480", worksheet.outputs_summary_table_f26); end
   def test_outputs_summary_table_g26; assert_equal("1520%", worksheet.outputs_summary_table_g26); end
-  def test_outputs_summary_table_c27; assert_equal("Nuclear capacity", worksheet.outputs_summary_table_c27); end
+  def test_outputs_summary_table_c27; assert_equal("Nuclear capacity (GW)", worksheet.outputs_summary_table_c27); end
   def test_outputs_summary_table_d27; assert_equal("GW", worksheet.outputs_summary_table_d27); end
   def test_outputs_summary_table_e27; assert_equal("364", worksheet.outputs_summary_table_e27); end
   def test_outputs_summary_table_f27; assert_equal("502", worksheet.outputs_summary_table_f27); end
   def test_outputs_summary_table_g27; assert_equal("38%", worksheet.outputs_summary_table_g27); end
-  def test_outputs_summary_table_c28; assert_equal("Hydro-electric capacity", worksheet.outputs_summary_table_c28); end
+  def test_outputs_summary_table_c28; assert_equal("Hydro-electric capacity (GW)", worksheet.outputs_summary_table_c28); end
   def test_outputs_summary_table_d28; assert_equal("GW", worksheet.outputs_summary_table_d28); end
   def test_outputs_summary_table_e28; assert_equal("970", worksheet.outputs_summary_table_e28); end
   def test_outputs_summary_table_f28; assert_equal("1,660", worksheet.outputs_summary_table_f28); end
   def test_outputs_summary_table_g28; assert_equal("71%", worksheet.outputs_summary_table_g28); end
-  def test_outputs_summary_table_c29; assert_equal("CCS for power", worksheet.outputs_summary_table_c29); end
+  def test_outputs_summary_table_c29; assert_equal("CCS for power (GW)", worksheet.outputs_summary_table_c29); end
   def test_outputs_summary_table_d29; assert_equal("GW", worksheet.outputs_summary_table_d29); end
   def test_outputs_summary_table_e29; assert_equal("0", worksheet.outputs_summary_table_e29); end
   def test_outputs_summary_table_f29; assert_equal("111", worksheet.outputs_summary_table_f29); end
   def test_outputs_summary_table_g29; assert_equal("", worksheet.outputs_summary_table_g29); end
-  def test_outputs_summary_table_c30; assert_equal("Unabated fossil fuel capacity", worksheet.outputs_summary_table_c30); end
+  def test_outputs_summary_table_c30; assert_equal("Unabated fossil fuel capacity (GW)", worksheet.outputs_summary_table_c30); end
   def test_outputs_summary_table_d30; assert_equal("GW", worksheet.outputs_summary_table_d30); end
   def test_outputs_summary_table_e30; assert_equal("2,434", worksheet.outputs_summary_table_e30); end
   def test_outputs_summary_table_f30; assert_equal("5,073", worksheet.outputs_summary_table_f30); end
   def test_outputs_summary_table_g30; assert_equal("108%", worksheet.outputs_summary_table_g30); end
-  def test_outputs_summary_table_c31; assert_equal("Storage capacity", worksheet.outputs_summary_table_c31); end
+  def test_outputs_summary_table_c31; assert_equal("Storage capacity (GW)", worksheet.outputs_summary_table_c31); end
   def test_outputs_summary_table_d31; assert_equal("GW", worksheet.outputs_summary_table_d31); end
   def test_outputs_summary_table_e31; assert_equal("120", worksheet.outputs_summary_table_e31); end
   def test_outputs_summary_table_f31; assert_equal("278", worksheet.outputs_summary_table_f31); end
@@ -8762,12 +13489,12 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e37; assert_equal("0.2%", worksheet.outputs_summary_table_e37); end
   def test_outputs_summary_table_f37; assert_equal("2.0%", worksheet.outputs_summary_table_f37); end
   def test_outputs_summary_table_g37; assert_equal("821%", worksheet.outputs_summary_table_g37); end
-  def test_outputs_summary_table_c38; assert_equal("Efficiency of urban ICE cars", worksheet.outputs_summary_table_c38); end
+  def test_outputs_summary_table_c38; assert_equal("Efficiency of urban ICE cars (lge per 100km)", worksheet.outputs_summary_table_c38); end
   def test_outputs_summary_table_d38; assert_equal("lge per 100km", worksheet.outputs_summary_table_d38); end
   def test_outputs_summary_table_e38; assert_equal("8.6", worksheet.outputs_summary_table_e38); end
   def test_outputs_summary_table_f38; assert_equal("5.8", worksheet.outputs_summary_table_f38); end
   def test_outputs_summary_table_g38; assert_equal("-33%", worksheet.outputs_summary_table_g38); end
-  def test_outputs_summary_table_c39; assert_equal("Total vehicle km travelled per capita", worksheet.outputs_summary_table_c39); end
+  def test_outputs_summary_table_c39; assert_equal("Total passenger vehicle km travelled per capita", worksheet.outputs_summary_table_c39); end
   def test_outputs_summary_table_d39; assert_equal("Passenger km / capita", worksheet.outputs_summary_table_d39); end
   def test_outputs_summary_table_e39; assert_equal("7,441", worksheet.outputs_summary_table_e39); end
   def test_outputs_summary_table_f39; assert_equal("10,713", worksheet.outputs_summary_table_f39); end
@@ -8777,17 +13504,17 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e40; assert_equal("71.7%", worksheet.outputs_summary_table_e40); end
   def test_outputs_summary_table_f40; assert_equal("77.0%", worksheet.outputs_summary_table_f40); end
   def test_outputs_summary_table_g40; assert_equal("7%", worksheet.outputs_summary_table_g40); end
-  def test_outputs_summary_table_c41; assert_equal("Freight tonne km/head (domestic)", worksheet.outputs_summary_table_c41); end
+  def test_outputs_summary_table_c41; assert_equal("Domestic freight (Tonne km / capita)", worksheet.outputs_summary_table_c41); end
   def test_outputs_summary_table_d41; assert_equal("Tonne km / capita", worksheet.outputs_summary_table_d41); end
   def test_outputs_summary_table_e41; assert_equal("819", worksheet.outputs_summary_table_e41); end
   def test_outputs_summary_table_f41; assert_equal("1,149", worksheet.outputs_summary_table_f41); end
   def test_outputs_summary_table_g41; assert_equal("40%", worksheet.outputs_summary_table_g41); end
-  def test_outputs_summary_table_c42; assert_equal("Freight tonne km/head (international)", worksheet.outputs_summary_table_c42); end
+  def test_outputs_summary_table_c42; assert_equal("International freight (Tonne km / capita)", worksheet.outputs_summary_table_c42); end
   def test_outputs_summary_table_d42; assert_equal("Tonne km / capita", worksheet.outputs_summary_table_d42); end
   def test_outputs_summary_table_e42; assert_equal("15,348", worksheet.outputs_summary_table_e42); end
   def test_outputs_summary_table_f42; assert_equal("23,214", worksheet.outputs_summary_table_f42); end
   def test_outputs_summary_table_g42; assert_equal("51%", worksheet.outputs_summary_table_g42); end
-  def test_outputs_summary_table_c43; assert_equal("Air freight (as % of international freight)", worksheet.outputs_summary_table_c43); end
+  def test_outputs_summary_table_c43; assert_equal("Air freight (as % of international freight tonne-km)", worksheet.outputs_summary_table_c43); end
   def test_outputs_summary_table_d43; assert_equal("% of international freight tonne-km", worksheet.outputs_summary_table_d43); end
   def test_outputs_summary_table_e43; assert_equal("0.20%", worksheet.outputs_summary_table_e43); end
   def test_outputs_summary_table_f43; assert_equal("0.26%", worksheet.outputs_summary_table_f43); end
@@ -8798,27 +13525,27 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e45; assert_equal("5.1", worksheet.outputs_summary_table_e45); end
   def test_outputs_summary_table_f45; assert_equal("7.2", worksheet.outputs_summary_table_f45); end
   def test_outputs_summary_table_g45; assert_equal("41%", worksheet.outputs_summary_table_g45); end
-  def test_outputs_summary_table_c46; assert_equal("Refrigerator efficiency (urban)", worksheet.outputs_summary_table_c46); end
+  def test_outputs_summary_table_c46; assert_equal("Refrigerator efficiency (W) in urban areas", worksheet.outputs_summary_table_c46); end
   def test_outputs_summary_table_d46; assert_equal("Efficiency (W)", worksheet.outputs_summary_table_d46); end
   def test_outputs_summary_table_e46; assert_equal("100", worksheet.outputs_summary_table_e46); end
   def test_outputs_summary_table_f46; assert_equal("71", worksheet.outputs_summary_table_f46); end
   def test_outputs_summary_table_g46; assert_equal("-29%", worksheet.outputs_summary_table_g46); end
-  def test_outputs_summary_table_c47; assert_equal("Building temperature in warm months", worksheet.outputs_summary_table_c47); end
+  def test_outputs_summary_table_c47; assert_equal("Building temperature in warm months (⁰C)", worksheet.outputs_summary_table_c47); end
   def test_outputs_summary_table_d47; assert_equal("⁰C", worksheet.outputs_summary_table_d47); end
   def test_outputs_summary_table_e47; assert_equal("27.4", worksheet.outputs_summary_table_e47); end
   def test_outputs_summary_table_f47; assert_equal("25.0", worksheet.outputs_summary_table_f47); end
   def test_outputs_summary_table_g47; assert_equal("-9%", worksheet.outputs_summary_table_g47); end
-  def test_outputs_summary_table_c48; assert_equal("Building temperature in cold months", worksheet.outputs_summary_table_c48); end
+  def test_outputs_summary_table_c48; assert_equal("Building temperature in cold months (⁰C)", worksheet.outputs_summary_table_c48); end
   def test_outputs_summary_table_d48; assert_equal("⁰C", worksheet.outputs_summary_table_d48); end
   def test_outputs_summary_table_e48; assert_equal("15.9", worksheet.outputs_summary_table_e48); end
   def test_outputs_summary_table_f48; assert_equal("18.2", worksheet.outputs_summary_table_f48); end
   def test_outputs_summary_table_g48; assert_equal("15%", worksheet.outputs_summary_table_g48); end
-  def test_outputs_summary_table_c49; assert_equal("Home/building insulation  (rate of heat loss)", worksheet.outputs_summary_table_c49); end
+  def test_outputs_summary_table_c49; assert_equal("Home/building insulation  (rate of heat loss in GW / M ha*℃)", worksheet.outputs_summary_table_c49); end
   def test_outputs_summary_table_d49; assert_equal("GW / M ha*℃", worksheet.outputs_summary_table_d49); end
   def test_outputs_summary_table_e49; assert_equal("16.1", worksheet.outputs_summary_table_e49); end
   def test_outputs_summary_table_f49; assert_equal("10.2", worksheet.outputs_summary_table_f49); end
   def test_outputs_summary_table_g49; assert_equal("-37%", worksheet.outputs_summary_table_g49); end
-  def test_outputs_summary_table_c50; assert_equal("% urban households using heat-pumps for pace heating", worksheet.outputs_summary_table_c50); end
+  def test_outputs_summary_table_c50; assert_equal("% urban households using heat-pumps for space heating", worksheet.outputs_summary_table_c50); end
   def test_outputs_summary_table_d50; assert_equal("% of hhds (from all urban households with access to electricity)", worksheet.outputs_summary_table_d50); end
   def test_outputs_summary_table_e50; assert_equal("2.0%", worksheet.outputs_summary_table_e50); end
   def test_outputs_summary_table_f50; assert_equal("3.0%", worksheet.outputs_summary_table_f50); end
@@ -8834,47 +13561,47 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f52; assert_equal("0.3%", worksheet.outputs_summary_table_f52); end
   def test_outputs_summary_table_g52; assert_equal("", worksheet.outputs_summary_table_g52); end
   def test_outputs_summary_table_b54; assert_equal("Manufacturing", worksheet.outputs_summary_table_b54); end
-  def test_outputs_summary_table_c54; assert_equal("Iron, steel and aluminium output", worksheet.outputs_summary_table_c54); end
+  def test_outputs_summary_table_c54; assert_equal("Iron, steel and aluminium output (Gt)", worksheet.outputs_summary_table_c54); end
   def test_outputs_summary_table_d54; assert_equal("Gt", worksheet.outputs_summary_table_d54); end
   def test_outputs_summary_table_e54; assert_equal("1.5", worksheet.outputs_summary_table_e54); end
   def test_outputs_summary_table_f54; assert_equal("3.4", worksheet.outputs_summary_table_f54); end
   def test_outputs_summary_table_g54; assert_equal("126%", worksheet.outputs_summary_table_g54); end
-  def test_outputs_summary_table_c55; assert_equal("Paper and other output", worksheet.outputs_summary_table_c55); end
+  def test_outputs_summary_table_c55; assert_equal("Paper and other output (Gt)", worksheet.outputs_summary_table_c55); end
   def test_outputs_summary_table_d55; assert_equal("Gt", worksheet.outputs_summary_table_d55); end
   def test_outputs_summary_table_e55; assert_equal("0.6", worksheet.outputs_summary_table_e55); end
   def test_outputs_summary_table_f55; assert_equal("0.9", worksheet.outputs_summary_table_f55); end
   def test_outputs_summary_table_g55; assert_equal("45%", worksheet.outputs_summary_table_g55); end
-  def test_outputs_summary_table_c56; assert_equal("Chemicals output", worksheet.outputs_summary_table_c56); end
+  def test_outputs_summary_table_c56; assert_equal("Chemicals output (Gt)", worksheet.outputs_summary_table_c56); end
   def test_outputs_summary_table_d56; assert_equal("Gt", worksheet.outputs_summary_table_d56); end
   def test_outputs_summary_table_e56; assert_equal("0.8", worksheet.outputs_summary_table_e56); end
   def test_outputs_summary_table_f56; assert_equal("1.4", worksheet.outputs_summary_table_f56); end
   def test_outputs_summary_table_g56; assert_equal("86%", worksheet.outputs_summary_table_g56); end
-  def test_outputs_summary_table_c57; assert_equal("Cement output", worksheet.outputs_summary_table_c57); end
+  def test_outputs_summary_table_c57; assert_equal("Cement output (Gt)", worksheet.outputs_summary_table_c57); end
   def test_outputs_summary_table_d57; assert_equal("Gt", worksheet.outputs_summary_table_d57); end
   def test_outputs_summary_table_e57; assert_equal("3.6", worksheet.outputs_summary_table_e57); end
   def test_outputs_summary_table_f57; assert_equal("6.3", worksheet.outputs_summary_table_f57); end
   def test_outputs_summary_table_g57; assert_equal("73%", worksheet.outputs_summary_table_g57); end
-  def test_outputs_summary_table_c58; assert_equal("Timber output", worksheet.outputs_summary_table_c58); end
+  def test_outputs_summary_table_c58; assert_equal("Timber output (Gt)", worksheet.outputs_summary_table_c58); end
   def test_outputs_summary_table_d58; assert_equal("Gt", worksheet.outputs_summary_table_d58); end
   def test_outputs_summary_table_e58; assert_equal("0.8", worksheet.outputs_summary_table_e58); end
   def test_outputs_summary_table_f58; assert_equal("1.3", worksheet.outputs_summary_table_f58); end
   def test_outputs_summary_table_g58; assert_equal("61%", worksheet.outputs_summary_table_g58); end
-  def test_outputs_summary_table_c59; assert_equal("Efficiency for Global Oxygen steel technology", worksheet.outputs_summary_table_c59); end
+  def test_outputs_summary_table_c59; assert_equal("Global Oxygen steel technology (% decrease in energy demand from 2011)", worksheet.outputs_summary_table_c59); end
   def test_outputs_summary_table_d59; assert_equal("% decrease in energy demand from 2011", worksheet.outputs_summary_table_d59); end
   def test_outputs_summary_table_e59; assert_equal("0.0%", worksheet.outputs_summary_table_e59); end
   def test_outputs_summary_table_f59; assert_equal("2.5%", worksheet.outputs_summary_table_f59); end
   def test_outputs_summary_table_g59; assert_equal("", worksheet.outputs_summary_table_g59); end
-  def test_outputs_summary_table_c60; assert_equal("Efficiency for Global Pulp & paper: Pulp technology", worksheet.outputs_summary_table_c60); end
+  def test_outputs_summary_table_c60; assert_equal("Global Pulp & paper: Pulp technology (% decrease in energy demand from 2011)", worksheet.outputs_summary_table_c60); end
   def test_outputs_summary_table_d60; assert_equal("% decrease in energy demand from 2011", worksheet.outputs_summary_table_d60); end
   def test_outputs_summary_table_e60; assert_equal("0.0%", worksheet.outputs_summary_table_e60); end
   def test_outputs_summary_table_f60; assert_equal("18.0%", worksheet.outputs_summary_table_f60); end
   def test_outputs_summary_table_g60; assert_equal("", worksheet.outputs_summary_table_g60); end
-  def test_outputs_summary_table_c61; assert_equal("Efficiency for Global Chemicals: High Value Chemicals  technology", worksheet.outputs_summary_table_c61); end
+  def test_outputs_summary_table_c61; assert_equal("Global Chemicals: High Value Chemicals  technology (% decrease in energy demand from 2011)", worksheet.outputs_summary_table_c61); end
   def test_outputs_summary_table_d61; assert_equal("% decrease in energy demand from 2011", worksheet.outputs_summary_table_d61); end
   def test_outputs_summary_table_e61; assert_equal("0.0%", worksheet.outputs_summary_table_e61); end
   def test_outputs_summary_table_f61; assert_equal("0.0%", worksheet.outputs_summary_table_f61); end
   def test_outputs_summary_table_g61; assert_equal("", worksheet.outputs_summary_table_g61); end
-  def test_outputs_summary_table_c62; assert_equal("Efficiency for Global Cement technology", worksheet.outputs_summary_table_c62); end
+  def test_outputs_summary_table_c62; assert_equal("Global Cement technology (% decrease in energy demand from 2011)", worksheet.outputs_summary_table_c62); end
   def test_outputs_summary_table_d62; assert_equal("% decrease in energy demand from 2011", worksheet.outputs_summary_table_d62); end
   def test_outputs_summary_table_e62; assert_equal("0.0%", worksheet.outputs_summary_table_e62); end
   def test_outputs_summary_table_f62; assert_equal("7.4%", worksheet.outputs_summary_table_f62); end
@@ -8884,17 +13611,17 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e63; assert_equal("0.0%", worksheet.outputs_summary_table_e63); end
   def test_outputs_summary_table_f63; assert_equal("0.0%", worksheet.outputs_summary_table_f63); end
   def test_outputs_summary_table_g63; assert_equal("", worksheet.outputs_summary_table_g63); end
-  def test_outputs_summary_table_c64; assert_equal("Demand for consumer packaging", worksheet.outputs_summary_table_c64); end
+  def test_outputs_summary_table_c64; assert_equal("Demand for consumer packaging (% of 2011 tonne demand)", worksheet.outputs_summary_table_c64); end
   def test_outputs_summary_table_d64; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d64); end
   def test_outputs_summary_table_e64; assert_equal("100.0%", worksheet.outputs_summary_table_e64); end
   def test_outputs_summary_table_f64; assert_equal("145.3%", worksheet.outputs_summary_table_f64); end
   def test_outputs_summary_table_g64; assert_equal("45%", worksheet.outputs_summary_table_g64); end
-  def test_outputs_summary_table_c65; assert_equal("Demand for electrical equipment", worksheet.outputs_summary_table_c65); end
+  def test_outputs_summary_table_c65; assert_equal("Demand for electrical equipment (% of 2011 tonne demand)", worksheet.outputs_summary_table_c65); end
   def test_outputs_summary_table_d65; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d65); end
   def test_outputs_summary_table_e65; assert_equal("100.0%", worksheet.outputs_summary_table_e65); end
   def test_outputs_summary_table_f65; assert_equal("226.2%", worksheet.outputs_summary_table_f65); end
   def test_outputs_summary_table_g65; assert_equal("126%", worksheet.outputs_summary_table_g65); end
-  def test_outputs_summary_table_c66; assert_equal("Llifespan of refrigerator (urban)", worksheet.outputs_summary_table_c66); end
+  def test_outputs_summary_table_c66; assert_equal("Llifespan of refrigerator (years) in urban areas", worksheet.outputs_summary_table_c66); end
   def test_outputs_summary_table_d66; assert_equal("Refrigerator lifespan (years)", worksheet.outputs_summary_table_d66); end
   def test_outputs_summary_table_e66; assert_equal("15", worksheet.outputs_summary_table_e66); end
   def test_outputs_summary_table_f66; assert_equal("12", worksheet.outputs_summary_table_f66); end
@@ -8903,17 +13630,17 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f67; assert_equal("", worksheet.outputs_summary_table_f67); end
   def test_outputs_summary_table_g67; assert_equal("", worksheet.outputs_summary_table_g67); end
   def test_outputs_summary_table_b68; assert_equal("Land", worksheet.outputs_summary_table_b68); end
-  def test_outputs_summary_table_c68; assert_equal("Crop yields", worksheet.outputs_summary_table_c68); end
+  def test_outputs_summary_table_c68; assert_equal("Crop yields (EJ per M ha)", worksheet.outputs_summary_table_c68); end
   def test_outputs_summary_table_d68; assert_equal("EJ per M ha", worksheet.outputs_summary_table_d68); end
   def test_outputs_summary_table_e68; assert_equal("0.03", worksheet.outputs_summary_table_e68); end
   def test_outputs_summary_table_f68; assert_equal("0.04", worksheet.outputs_summary_table_f68); end
   def test_outputs_summary_table_g68; assert_equal("30%", worksheet.outputs_summary_table_g68); end
-  def test_outputs_summary_table_c69; assert_equal("Livestock yields (cows and other bovines)", worksheet.outputs_summary_table_c69); end
+  def test_outputs_summary_table_c69; assert_equal("Livestock yields for cows and other bovines (% increase from 2011 in non-intensive animal yields and carrying capacity of pasture)", worksheet.outputs_summary_table_c69); end
   def test_outputs_summary_table_d69; assert_equal("% increase from 2011 in non-intensive animal yields (animals per area) and carrying capacity of pasture", worksheet.outputs_summary_table_d69); end
   def test_outputs_summary_table_e69; assert_equal("0.0%", worksheet.outputs_summary_table_e69); end
   def test_outputs_summary_table_f69; assert_equal("10.0%", worksheet.outputs_summary_table_f69); end
   def test_outputs_summary_table_g69; assert_equal("", worksheet.outputs_summary_table_g69); end
-  def test_outputs_summary_table_c70; assert_equal("Bioenergy yields", worksheet.outputs_summary_table_c70); end
+  def test_outputs_summary_table_c70; assert_equal("Bioenergy yields (Increase in energy crop yields (NPP) and change in crop mix from base year)", worksheet.outputs_summary_table_c70); end
   def test_outputs_summary_table_d70; assert_equal("Increase in energy crop yields (NPP) and change in crop mix from base year", worksheet.outputs_summary_table_d70); end
   def test_outputs_summary_table_e70; assert_equal("21.1%", worksheet.outputs_summary_table_e70); end
   def test_outputs_summary_table_f70; assert_equal("65.4%", worksheet.outputs_summary_table_f70); end
@@ -8939,28 +13666,28 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f74; assert_equal("32.4%", worksheet.outputs_summary_table_f74); end
   def test_outputs_summary_table_g74; assert_equal("-21%", worksheet.outputs_summary_table_g74); end
   def test_outputs_summary_table_b76; assert_equal("Food", worksheet.outputs_summary_table_b76); end
-  def test_outputs_summary_table_c76; assert_equal("Calories consumed per head", worksheet.outputs_summary_table_c76); end
+  def test_outputs_summary_table_c76; assert_equal("Calories consumed per head (kCal)", worksheet.outputs_summary_table_c76); end
   def test_outputs_summary_table_d76; assert_equal("kCal", worksheet.outputs_summary_table_d76); end
   def test_outputs_summary_table_e76; assert_equal("2,140", worksheet.outputs_summary_table_e76); end
   def test_outputs_summary_table_f76; assert_equal("2,350", worksheet.outputs_summary_table_f76); end
   def test_outputs_summary_table_g76; assert_equal("10%", worksheet.outputs_summary_table_g76); end
-  def test_outputs_summary_table_c77; assert_equal("Calories from meat", worksheet.outputs_summary_table_c77); end
+  def test_outputs_summary_table_c77; assert_equal("Calories from meat (kCal)", worksheet.outputs_summary_table_c77); end
   def test_outputs_summary_table_d77; assert_equal("kCal", worksheet.outputs_summary_table_d77); end
   def test_outputs_summary_table_e77; assert_equal("212", worksheet.outputs_summary_table_e77); end
   def test_outputs_summary_table_f77; assert_equal("222", worksheet.outputs_summary_table_f77); end
   def test_outputs_summary_table_g77; assert_equal("5%", worksheet.outputs_summary_table_g77); end
   def test_outputs_summary_table_b79; assert_equal("Cost", worksheet.outputs_summary_table_b79); end
-  def test_outputs_summary_table_c79; assert_equal("Cost in 2050 - point estimate", worksheet.outputs_summary_table_c79); end
+  def test_outputs_summary_table_c79; assert_equal("Cost in 2050 - point estimate ($tn)", worksheet.outputs_summary_table_c79); end
   def test_outputs_summary_table_d79; assert_equal("$tn", worksheet.outputs_summary_table_d79); end
   def test_outputs_summary_table_e79; assert_equal("n / a", worksheet.outputs_summary_table_e79); end
   def test_outputs_summary_table_f79; assert_equal("17.8", worksheet.outputs_summary_table_f79); end
   def test_outputs_summary_table_g79; assert_equal("", worksheet.outputs_summary_table_g79); end
-  def test_outputs_summary_table_c80; assert_equal("Cost in 2050 - high estimate", worksheet.outputs_summary_table_c80); end
+  def test_outputs_summary_table_c80; assert_equal("Cost in 2050 - high estimate ($tn)", worksheet.outputs_summary_table_c80); end
   def test_outputs_summary_table_d80; assert_equal("$tn", worksheet.outputs_summary_table_d80); end
   def test_outputs_summary_table_e80; assert_equal("n / a", worksheet.outputs_summary_table_e80); end
   def test_outputs_summary_table_f80; assert_equal("23.3", worksheet.outputs_summary_table_f80); end
   def test_outputs_summary_table_g80; assert_equal("", worksheet.outputs_summary_table_g80); end
-  def test_outputs_summary_table_c81; assert_equal("Cost in 2050 - low estimate", worksheet.outputs_summary_table_c81); end
+  def test_outputs_summary_table_c81; assert_equal("Cost in 2050 - low estimate ($tn)", worksheet.outputs_summary_table_c81); end
   def test_outputs_summary_table_d81; assert_equal("$tn", worksheet.outputs_summary_table_d81); end
   def test_outputs_summary_table_e81; assert_equal("n / a", worksheet.outputs_summary_table_e81); end
   def test_outputs_summary_table_f81; assert_equal("13.2", worksheet.outputs_summary_table_f81); end
@@ -8970,13 +13697,13 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e82; assert_equal("n / a", worksheet.outputs_summary_table_e82); end
   def test_outputs_summary_table_f82; assert_equal("22.2%", worksheet.outputs_summary_table_f82); end
   def test_outputs_summary_table_g82; assert_equal("", worksheet.outputs_summary_table_g82); end
-  def test_outputs_summary_table_c83; assert_equal("Tax levied by fossil fuel exporters in 2050", worksheet.outputs_summary_table_c83); end
+  def test_outputs_summary_table_c83; assert_equal("Tax levied by fossil fuel exporters in 2050 ($tn)", worksheet.outputs_summary_table_c83); end
   def test_outputs_summary_table_d83; assert_equal("$tn", worksheet.outputs_summary_table_d83); end
   def test_outputs_summary_table_e83; assert_equal("n / a", worksheet.outputs_summary_table_e83); end
   def test_outputs_summary_table_f83; assert_equal("5.9", worksheet.outputs_summary_table_f83); end
   def test_outputs_summary_table_g83; assert_equal("", worksheet.outputs_summary_table_g83); end
   def test_outputs_summary_table_b85; assert_equal("Emissions saved", worksheet.outputs_summary_table_b85); end
-  def test_outputs_summary_table_c85; assert_equal("Emissions saved by speculative GHG removal technologies", worksheet.outputs_summary_table_c85); end
+  def test_outputs_summary_table_c85; assert_equal("Emissions saved by speculative GHG removal technologies (Gt CO2e)", worksheet.outputs_summary_table_c85); end
   def test_outputs_summary_table_d85; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d85); end
   def test_outputs_summary_table_e85; assert_equal("0.0", worksheet.outputs_summary_table_e85); end
   def test_outputs_summary_table_f85; assert_equal("0.0", worksheet.outputs_summary_table_f85); end
@@ -8986,7 +13713,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f90; assert_equal("2050", worksheet.outputs_summary_table_f90); end
   def test_outputs_summary_table_g90; assert_equal("% increase", worksheet.outputs_summary_table_g90); end
   def test_outputs_summary_table_b91; assert_equal("Emissions and temperature", worksheet.outputs_summary_table_b91); end
-  def test_outputs_summary_table_c91; assert_equal("Cumulative emissions by each year", worksheet.outputs_summary_table_c91); end
+  def test_outputs_summary_table_c91; assert_equal("Cumulative emissions by each year (Gt CO2e)", worksheet.outputs_summary_table_c91); end
   def test_outputs_summary_table_d91; assert_equal("Gt CO2e", worksheet.outputs_summary_table_d91); end
   def test_outputs_summary_table_e91; assert_equal("1,890", worksheet.outputs_summary_table_e91); end
   def test_outputs_summary_table_f91; assert_equal("4,062", worksheet.outputs_summary_table_f91); end
@@ -8996,65 +13723,65 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e92; assert_equal("115.9%", worksheet.outputs_summary_table_e92); end
   def test_outputs_summary_table_g92; assert_equal("", worksheet.outputs_summary_table_g92); end
   def test_outputs_summary_table_b94; assert_equal("Demographics and long term", worksheet.outputs_summary_table_b94); end
-  def test_outputs_summary_table_c94; assert_equal("Urban population", worksheet.outputs_summary_table_c94); end
+  def test_outputs_summary_table_c94; assert_equal("Urban population (billions of people)", worksheet.outputs_summary_table_c94); end
   def test_outputs_summary_table_d94; assert_equal("billions of people", worksheet.outputs_summary_table_d94); end
   def test_outputs_summary_table_e94; assert_equal("3.6", worksheet.outputs_summary_table_e94); end
   def test_outputs_summary_table_f94; assert_equal("6.2", worksheet.outputs_summary_table_f94); end
   def test_outputs_summary_table_g94; assert_equal("71%", worksheet.outputs_summary_table_g94); end
-  def test_outputs_summary_table_c95; assert_equal("Rural population", worksheet.outputs_summary_table_c95); end
+  def test_outputs_summary_table_c95; assert_equal("Rural population (billions of people)", worksheet.outputs_summary_table_c95); end
   def test_outputs_summary_table_d95; assert_equal("billions of people", worksheet.outputs_summary_table_d95); end
   def test_outputs_summary_table_e95; assert_equal("3.3", worksheet.outputs_summary_table_e95); end
   def test_outputs_summary_table_f95; assert_equal("3.3", worksheet.outputs_summary_table_f95); end
   def test_outputs_summary_table_g95; assert_equal("0%", worksheet.outputs_summary_table_g95); end
   def test_outputs_summary_table_b97; assert_equal("Electricity", worksheet.outputs_summary_table_b97); end
-  def test_outputs_summary_table_c97; assert_equal("Electricity demand per capita", worksheet.outputs_summary_table_c97); end
+  def test_outputs_summary_table_c97; assert_equal("Electricity demand (kWh per capita)", worksheet.outputs_summary_table_c97); end
   def test_outputs_summary_table_d97; assert_equal("kWh per capita", worksheet.outputs_summary_table_d97); end
   def test_outputs_summary_table_e97; assert_equal("2,727", worksheet.outputs_summary_table_e97); end
   def test_outputs_summary_table_f97; assert_equal("4,167", worksheet.outputs_summary_table_f97); end
   def test_outputs_summary_table_g97; assert_equal("53%", worksheet.outputs_summary_table_g97); end
-  def test_outputs_summary_table_c98; assert_equal("Offshore wind capacity", worksheet.outputs_summary_table_c98); end
+  def test_outputs_summary_table_c98; assert_equal("Offshore wind capacity (GW)", worksheet.outputs_summary_table_c98); end
   def test_outputs_summary_table_d98; assert_equal("GW", worksheet.outputs_summary_table_d98); end
   def test_outputs_summary_table_e98; assert_equal("4", worksheet.outputs_summary_table_e98); end
   def test_outputs_summary_table_f98; assert_equal("273", worksheet.outputs_summary_table_f98); end
   def test_outputs_summary_table_g98; assert_equal("6559%", worksheet.outputs_summary_table_g98); end
-  def test_outputs_summary_table_c99; assert_equal("Onshore wind capacity", worksheet.outputs_summary_table_c99); end
+  def test_outputs_summary_table_c99; assert_equal("Onshore wind capacity (GW)", worksheet.outputs_summary_table_c99); end
   def test_outputs_summary_table_d99; assert_equal("GW", worksheet.outputs_summary_table_d99); end
   def test_outputs_summary_table_e99; assert_equal("234", worksheet.outputs_summary_table_e99); end
   def test_outputs_summary_table_f99; assert_equal("1,117", worksheet.outputs_summary_table_f99); end
   def test_outputs_summary_table_g99; assert_equal("378%", worksheet.outputs_summary_table_g99); end
-  def test_outputs_summary_table_c100; assert_equal("Solar PV capacity", worksheet.outputs_summary_table_c100); end
+  def test_outputs_summary_table_c100; assert_equal("Solar PV capacity (GW)", worksheet.outputs_summary_table_c100); end
   def test_outputs_summary_table_d100; assert_equal("GW", worksheet.outputs_summary_table_d100); end
   def test_outputs_summary_table_e100; assert_equal("28", worksheet.outputs_summary_table_e100); end
   def test_outputs_summary_table_f100; assert_equal("324", worksheet.outputs_summary_table_f100); end
   def test_outputs_summary_table_g100; assert_equal("1059%", worksheet.outputs_summary_table_g100); end
-  def test_outputs_summary_table_c101; assert_equal("CSP capacity", worksheet.outputs_summary_table_c101); end
+  def test_outputs_summary_table_c101; assert_equal("CSP capacity (GW)", worksheet.outputs_summary_table_c101); end
   def test_outputs_summary_table_d101; assert_equal("GW", worksheet.outputs_summary_table_d101); end
   def test_outputs_summary_table_e101; assert_equal("2", worksheet.outputs_summary_table_e101); end
   def test_outputs_summary_table_f101; assert_equal("155", worksheet.outputs_summary_table_f101); end
   def test_outputs_summary_table_g101; assert_equal("9600%", worksheet.outputs_summary_table_g101); end
-  def test_outputs_summary_table_c102; assert_equal("Unabated", worksheet.outputs_summary_table_c102); end
+  def test_outputs_summary_table_c102; assert_equal("Unabated (GW)", worksheet.outputs_summary_table_c102); end
   def test_outputs_summary_table_d102; assert_equal("GW", worksheet.outputs_summary_table_d102); end
   def test_outputs_summary_table_e102; assert_equal("2,434", worksheet.outputs_summary_table_e102); end
   def test_outputs_summary_table_f102; assert_equal("5,073", worksheet.outputs_summary_table_f102); end
   def test_outputs_summary_table_g102; assert_equal("108%", worksheet.outputs_summary_table_g102); end
   def test_outputs_summary_table_b104; assert_equal("Transport", worksheet.outputs_summary_table_b104); end
   def test_outputs_summary_table_c104; assert_equal("Passenger km (total)", worksheet.outputs_summary_table_c104); end
-  def test_outputs_summary_table_c105; assert_equal("Light road", worksheet.outputs_summary_table_c105); end
+  def test_outputs_summary_table_c105; assert_equal("Light road (number of vehicles)", worksheet.outputs_summary_table_c105); end
   def test_outputs_summary_table_d105; assert_equal("Number of vehicles", worksheet.outputs_summary_table_d105); end
   def test_outputs_summary_table_e105; assert_equal("1,982,207,976", worksheet.outputs_summary_table_e105); end
   def test_outputs_summary_table_f105; assert_equal("5,143,064,535", worksheet.outputs_summary_table_f105); end
   def test_outputs_summary_table_g105; assert_equal("159%", worksheet.outputs_summary_table_g105); end
-  def test_outputs_summary_table_c106; assert_equal("Heavy road", worksheet.outputs_summary_table_c106); end
+  def test_outputs_summary_table_c106; assert_equal("Heavy road (number of vehicles)", worksheet.outputs_summary_table_c106); end
   def test_outputs_summary_table_d106; assert_equal("Number of vehicles", worksheet.outputs_summary_table_d106); end
   def test_outputs_summary_table_e106; assert_equal("7,179,818", worksheet.outputs_summary_table_e106); end
   def test_outputs_summary_table_f106; assert_equal("12,088,432", worksheet.outputs_summary_table_f106); end
   def test_outputs_summary_table_g106; assert_equal("68%", worksheet.outputs_summary_table_g106); end
-  def test_outputs_summary_table_c107; assert_equal("Rail", worksheet.outputs_summary_table_c107); end
+  def test_outputs_summary_table_c107; assert_equal("Rail (number of vehicles)", worksheet.outputs_summary_table_c107); end
   def test_outputs_summary_table_d107; assert_equal("Number of vehicles", worksheet.outputs_summary_table_d107); end
   def test_outputs_summary_table_e107; assert_equal("78,389", worksheet.outputs_summary_table_e107); end
   def test_outputs_summary_table_f107; assert_equal("163,505", worksheet.outputs_summary_table_f107); end
   def test_outputs_summary_table_g107; assert_equal("109%", worksheet.outputs_summary_table_g107); end
-  def test_outputs_summary_table_c108; assert_equal("Plane", worksheet.outputs_summary_table_c108); end
+  def test_outputs_summary_table_c108; assert_equal("Plane (number of vehicles)", worksheet.outputs_summary_table_c108); end
   def test_outputs_summary_table_d108; assert_equal("Number of vehicles", worksheet.outputs_summary_table_d108); end
   def test_outputs_summary_table_e108; assert_equal("44,994", worksheet.outputs_summary_table_e108); end
   def test_outputs_summary_table_f108; assert_equal("123,911", worksheet.outputs_summary_table_f108); end
@@ -9094,7 +13821,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e115; assert_equal("0.0%", worksheet.outputs_summary_table_e115); end
   def test_outputs_summary_table_f115; assert_equal("0.0%", worksheet.outputs_summary_table_f115); end
   def test_outputs_summary_table_g115; assert_equal("", worksheet.outputs_summary_table_g115); end
-  def test_outputs_summary_table_c117; assert_equal("Emissions saved by speculative GHG removal technologies", worksheet.outputs_summary_table_c117); end
+  def test_outputs_summary_table_c117; assert_equal("Emissions saved by speculative GHG removal technologies (Gt CO2)", worksheet.outputs_summary_table_c117); end
   def test_outputs_summary_table_d117; assert_equal("Gt CO2", worksheet.outputs_summary_table_d117); end
   def test_outputs_summary_table_e117; assert_equal("0.0", worksheet.outputs_summary_table_e117); end
   def test_outputs_summary_table_f117; assert_equal("0.0", worksheet.outputs_summary_table_f117); end
@@ -9146,37 +13873,37 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f127; assert_equal("89%", worksheet.outputs_summary_table_f127); end
   def test_outputs_summary_table_g127; assert_equal("-1%", worksheet.outputs_summary_table_g127); end
   def test_outputs_summary_table_b129; assert_equal("Manufacturing", worksheet.outputs_summary_table_b129); end
-  def test_outputs_summary_table_c129; assert_equal("Electrical equipment", worksheet.outputs_summary_table_c129); end
+  def test_outputs_summary_table_c129; assert_equal("Electrical equipment (% of 2011 demand (tonnes))", worksheet.outputs_summary_table_c129); end
   def test_outputs_summary_table_d129; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d129); end
   def test_outputs_summary_table_e129; assert_equal("100%", worksheet.outputs_summary_table_e129); end
   def test_outputs_summary_table_f129; assert_equal("226%", worksheet.outputs_summary_table_f129); end
   def test_outputs_summary_table_g129; assert_equal("126%", worksheet.outputs_summary_table_g129); end
-  def test_outputs_summary_table_c130; assert_equal("Consumer packaging", worksheet.outputs_summary_table_c130); end
+  def test_outputs_summary_table_c130; assert_equal("Consumer packaging (% of 2011 demand (tonnes))", worksheet.outputs_summary_table_c130); end
   def test_outputs_summary_table_d130; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d130); end
   def test_outputs_summary_table_e130; assert_equal("100%", worksheet.outputs_summary_table_e130); end
   def test_outputs_summary_table_f130; assert_equal("145%", worksheet.outputs_summary_table_f130); end
   def test_outputs_summary_table_g130; assert_equal("45%", worksheet.outputs_summary_table_g130); end
-  def test_outputs_summary_table_c131; assert_equal("Metal goods", worksheet.outputs_summary_table_c131); end
+  def test_outputs_summary_table_c131; assert_equal("Metal goods (% of 2011 demand (tonnes))", worksheet.outputs_summary_table_c131); end
   def test_outputs_summary_table_d131; assert_equal("% of 2011 demand (tonnes)", worksheet.outputs_summary_table_d131); end
   def test_outputs_summary_table_e131; assert_equal("100%", worksheet.outputs_summary_table_e131); end
   def test_outputs_summary_table_f131; assert_equal("159%", worksheet.outputs_summary_table_f131); end
   def test_outputs_summary_table_g131; assert_equal("59%", worksheet.outputs_summary_table_g131); end
-  def test_outputs_summary_table_c132; assert_equal("IPCC emissions sector G.X2.A", worksheet.outputs_summary_table_c132); end
+  def test_outputs_summary_table_c132; assert_equal("IPCC emissions sector G.X2.A (Gt CO2)", worksheet.outputs_summary_table_c132); end
   def test_outputs_summary_table_d132; assert_equal("Gt CO2", worksheet.outputs_summary_table_d132); end
   def test_outputs_summary_table_e132; assert_equal("0.0", worksheet.outputs_summary_table_e132); end
   def test_outputs_summary_table_f132; assert_equal("0.0", worksheet.outputs_summary_table_f132); end
   def test_outputs_summary_table_g132; assert_equal("", worksheet.outputs_summary_table_g132); end
-  def test_outputs_summary_table_c133; assert_equal("IPCC emissions sector G.X2.B", worksheet.outputs_summary_table_c133); end
+  def test_outputs_summary_table_c133; assert_equal("IPCC emissions sector G.X2.B (Gt CO2)", worksheet.outputs_summary_table_c133); end
   def test_outputs_summary_table_d133; assert_equal("Gt CO2", worksheet.outputs_summary_table_d133); end
   def test_outputs_summary_table_e133; assert_equal("0.0", worksheet.outputs_summary_table_e133); end
   def test_outputs_summary_table_f133; assert_equal("0.0", worksheet.outputs_summary_table_f133); end
   def test_outputs_summary_table_g133; assert_equal("", worksheet.outputs_summary_table_g133); end
-  def test_outputs_summary_table_c134; assert_equal("IPCC emissions sector G.1A", worksheet.outputs_summary_table_c134); end
+  def test_outputs_summary_table_c134; assert_equal("IPCC emissions sector G.1A (Gt CO2)", worksheet.outputs_summary_table_c134); end
   def test_outputs_summary_table_d134; assert_equal("Gt CO2", worksheet.outputs_summary_table_d134); end
   def test_outputs_summary_table_e134; assert_equal("6.4", worksheet.outputs_summary_table_e134); end
   def test_outputs_summary_table_f134; assert_equal("11.9", worksheet.outputs_summary_table_f134); end
   def test_outputs_summary_table_g134; assert_equal("86%", worksheet.outputs_summary_table_g134); end
-  def test_outputs_summary_table_c135; assert_equal("IPCC emissions sector G.2", worksheet.outputs_summary_table_c135); end
+  def test_outputs_summary_table_c135; assert_equal("IPCC emissions sector G.2 (Gt CO2)", worksheet.outputs_summary_table_c135); end
   def test_outputs_summary_table_d135; assert_equal("Gt CO2", worksheet.outputs_summary_table_d135); end
   def test_outputs_summary_table_e135; assert_equal("3.3", worksheet.outputs_summary_table_e135); end
   def test_outputs_summary_table_f135; assert_equal("6.4", worksheet.outputs_summary_table_f135); end
@@ -9192,52 +13919,52 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_e138; assert_equal("96%", worksheet.outputs_summary_table_e138); end
   def test_outputs_summary_table_f138; assert_equal("96%", worksheet.outputs_summary_table_f138); end
   def test_outputs_summary_table_g138; assert_equal("0%", worksheet.outputs_summary_table_g138); end
-  def test_outputs_summary_table_c139; assert_equal("Land for animals", worksheet.outputs_summary_table_c139); end
+  def test_outputs_summary_table_c139; assert_equal("Land for animals (M ha)", worksheet.outputs_summary_table_c139); end
   def test_outputs_summary_table_d139; assert_equal("M ha", worksheet.outputs_summary_table_d139); end
   def test_outputs_summary_table_e139; assert_equal("3,359", worksheet.outputs_summary_table_e139); end
   def test_outputs_summary_table_f139; assert_equal("3,515", worksheet.outputs_summary_table_f139); end
   def test_outputs_summary_table_g139; assert_equal("5%", worksheet.outputs_summary_table_g139); end
-  def test_outputs_summary_table_c140; assert_equal("Land for food crops", worksheet.outputs_summary_table_c140); end
+  def test_outputs_summary_table_c140; assert_equal("Land for food crops (M ha)", worksheet.outputs_summary_table_c140); end
   def test_outputs_summary_table_d140; assert_equal("M ha", worksheet.outputs_summary_table_d140); end
   def test_outputs_summary_table_e140; assert_equal("1,448", worksheet.outputs_summary_table_e140); end
   def test_outputs_summary_table_f140; assert_equal("1,806", worksheet.outputs_summary_table_f140); end
   def test_outputs_summary_table_g140; assert_equal("25%", worksheet.outputs_summary_table_g140); end
-  def test_outputs_summary_table_c141; assert_equal("Land for non-food crops ", worksheet.outputs_summary_table_c141); end
+  def test_outputs_summary_table_c141; assert_equal("Land for non-food crops  (M ha)", worksheet.outputs_summary_table_c141); end
   def test_outputs_summary_table_d141; assert_equal("M ha", worksheet.outputs_summary_table_d141); end
   def test_outputs_summary_table_e141; assert_equal("60", worksheet.outputs_summary_table_e141); end
   def test_outputs_summary_table_f141; assert_equal("60", worksheet.outputs_summary_table_f141); end
   def test_outputs_summary_table_g141; assert_equal("0%", worksheet.outputs_summary_table_g141); end
-  def test_outputs_summary_table_c142; assert_equal("Native forest", worksheet.outputs_summary_table_c142); end
+  def test_outputs_summary_table_c142; assert_equal("Native forest (M ha)", worksheet.outputs_summary_table_c142); end
   def test_outputs_summary_table_d142; assert_equal("M ha", worksheet.outputs_summary_table_d142); end
   def test_outputs_summary_table_e142; assert_equal("3,753", worksheet.outputs_summary_table_e142); end
   def test_outputs_summary_table_f142; assert_equal("2,978", worksheet.outputs_summary_table_f142); end
   def test_outputs_summary_table_g142; assert_equal("-21%", worksheet.outputs_summary_table_g142); end
-  def test_outputs_summary_table_c143; assert_equal("Commercial forest", worksheet.outputs_summary_table_c143); end
+  def test_outputs_summary_table_c143; assert_equal("Commercial forest (M ha)", worksheet.outputs_summary_table_c143); end
   def test_outputs_summary_table_d143; assert_equal("M ha", worksheet.outputs_summary_table_d143); end
   def test_outputs_summary_table_e143; assert_equal("274", worksheet.outputs_summary_table_e143); end
   def test_outputs_summary_table_f143; assert_equal("413", worksheet.outputs_summary_table_f143); end
   def test_outputs_summary_table_g143; assert_equal("51%", worksheet.outputs_summary_table_g143); end
-  def test_outputs_summary_table_c144; assert_equal("Land for bioenergy", worksheet.outputs_summary_table_c144); end
+  def test_outputs_summary_table_c144; assert_equal("Land for bioenergy (M ha)", worksheet.outputs_summary_table_c144); end
   def test_outputs_summary_table_d144; assert_equal("M ha", worksheet.outputs_summary_table_d144); end
   def test_outputs_summary_table_e144; assert_equal("45", worksheet.outputs_summary_table_e144); end
   def test_outputs_summary_table_f144; assert_equal("45", worksheet.outputs_summary_table_f144); end
   def test_outputs_summary_table_g144; assert_equal("0%", worksheet.outputs_summary_table_g144); end
-  def test_outputs_summary_table_c145; assert_equal("Unused productive land", worksheet.outputs_summary_table_c145); end
+  def test_outputs_summary_table_c145; assert_equal("Unused productive land (M ha)", worksheet.outputs_summary_table_c145); end
   def test_outputs_summary_table_d145; assert_equal("M ha", worksheet.outputs_summary_table_d145); end
   def test_outputs_summary_table_e145; assert_equal("0", worksheet.outputs_summary_table_e145); end
   def test_outputs_summary_table_f145; assert_equal("0", worksheet.outputs_summary_table_f145); end
   def test_outputs_summary_table_g145; assert_equal("-100%", worksheet.outputs_summary_table_g145); end
-  def test_outputs_summary_table_c146; assert_equal("Settlements and infrastructure", worksheet.outputs_summary_table_c146); end
+  def test_outputs_summary_table_c146; assert_equal("Settlements and infrastructure (M ha)", worksheet.outputs_summary_table_c146); end
   def test_outputs_summary_table_d146; assert_equal("M ha", worksheet.outputs_summary_table_d146); end
   def test_outputs_summary_table_e146; assert_equal("245", worksheet.outputs_summary_table_e146); end
   def test_outputs_summary_table_f146; assert_equal("367", worksheet.outputs_summary_table_f146); end
   def test_outputs_summary_table_g146; assert_equal("50%", worksheet.outputs_summary_table_g146); end
-  def test_outputs_summary_table_c147; assert_equal("Desert, ice etc", worksheet.outputs_summary_table_c147); end
+  def test_outputs_summary_table_c147; assert_equal("Desert, ice etc (M ha)", worksheet.outputs_summary_table_c147); end
   def test_outputs_summary_table_d147; assert_equal("M ha", worksheet.outputs_summary_table_d147); end
   def test_outputs_summary_table_e147; assert_equal("3,832", worksheet.outputs_summary_table_e147); end
   def test_outputs_summary_table_f147; assert_equal("3,832", worksheet.outputs_summary_table_f147); end
   def test_outputs_summary_table_g147; assert_equal("0%", worksheet.outputs_summary_table_g147); end
-  def test_outputs_summary_table_c148; assert_equal("Total productive land (all excluding desert, ice)", worksheet.outputs_summary_table_c148); end
+  def test_outputs_summary_table_c148; assert_equal("Total productive land (all excluding desert, ice) (M ha)", worksheet.outputs_summary_table_c148); end
   def test_outputs_summary_table_d148; assert_equal("M ha", worksheet.outputs_summary_table_d148); end
   def test_outputs_summary_table_e148; assert_equal("9,184", worksheet.outputs_summary_table_e148); end
   def test_outputs_summary_table_f148; assert_equal("9,184", worksheet.outputs_summary_table_f148); end
@@ -9248,7 +13975,7 @@ class TestGlobal2050Model < Minitest::Unit::TestCase
   def test_outputs_summary_table_f149; assert_equal("38.3%", worksheet.outputs_summary_table_f149); end
   def test_outputs_summary_table_g149; assert_equal("5%", worksheet.outputs_summary_table_g149); end
   def test_outputs_summary_table_b152; assert_equal("Cost", worksheet.outputs_summary_table_b152); end
-  def test_outputs_summary_table_c152; assert_equal("Cost in 2050 - point estimate", worksheet.outputs_summary_table_c152); end
+  def test_outputs_summary_table_c152; assert_equal("Cost in 2050 - point estimate ($tn)", worksheet.outputs_summary_table_c152); end
   def test_outputs_summary_table_d152; assert_equal("$tn", worksheet.outputs_summary_table_d152); end
   def test_outputs_summary_table_e152; assert_equal("n / a", worksheet.outputs_summary_table_e152); end
   def test_outputs_summary_table_f152; assert_equal("4.0", worksheet.outputs_summary_table_f152); end

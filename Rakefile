@@ -22,9 +22,13 @@ def setup(command)
   #  "Outputs - Energy flows" => :all,
   #  "Outputs - food flows" => :all,
   #}
+  
+  #command.cells_to_keep = {
+  #  "User output preferences" => :all
+  #}
 
   command.named_references_to_keep = lambda do |named_reference|
-    named_reference =~ /^webtool\./i
+    named_reference =~ /^(webtool\.|g\.1pager)/i
   end
 
   command.named_references_that_can_be_set_at_runtime = [
