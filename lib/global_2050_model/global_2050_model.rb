@@ -10998,10 +10998,15 @@ module Global2050Model
   attach_function 'user_inputs_d62', [], ExcelValue.by_value
   attach_function 'user_inputs_d63', [], ExcelValue.by_value
   # end of User inputs
+  attach_function 'user_output_preferences_c12', [], ExcelValue.by_value
+  attach_function 'user_output_preferences_c6', [], ExcelValue.by_value
+  attach_function 'user_output_preferences_c14', [], ExcelValue.by_value
+  attach_function 'user_output_preferences_c8', [], ExcelValue.by_value
   # end of User output preferences
   attach_function 'outputs_summary_graphs_c47', [], ExcelValue.by_value
   attach_function 'outputs_summary_graphs_c55', [], ExcelValue.by_value
   attach_function 'outputs_summary_graphs_c51', [], ExcelValue.by_value
+  attach_function 'outputs_summary_graphs_c58', [], ExcelValue.by_value
   attach_function 'outputs_summary_graphs_c52', [], ExcelValue.by_value
   attach_function 'outputs_summary_graphs_c57', [], ExcelValue.by_value
   attach_function 'outputs_summary_graphs_c50', [], ExcelValue.by_value
@@ -11953,24 +11958,6 @@ module Global2050Model
   attach_function 'outputs_summary_table_e165', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_f165', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g165', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_b166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_c166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_d166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_e166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_f166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_g166', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_b167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_c167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_d167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_e167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_f167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_g167', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_b168', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_c168', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_d168', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_e168', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_f168', [], ExcelValue.by_value
-  attach_function 'outputs_summary_table_g168', [], ExcelValue.by_value
   # end of Outputs - Summary table
   attach_function 'outputs_climate_impacts_c528', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_h50', [], ExcelValue.by_value
@@ -30522,178 +30509,178 @@ module Global2050Model
   attach_function 'outputs_costs_f12', [], ExcelValue.by_value
   attach_function 'outputs_costs_g12', [], ExcelValue.by_value
   attach_function 'outputs_costs_h12', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r698', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r699', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r700', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r701', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r702', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r720', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r721', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r722', [], ExcelValue.by_value
-  attach_function 'outputs_costs_c723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_d723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_e723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_f723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_g723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_h723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_i723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_j723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_k723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_l723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_m723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_n723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_o723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_p723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_q723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_r723', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br636', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br637', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br638', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br639', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br640', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br641', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r704', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r705', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r706', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r707', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r708', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r726', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r727', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r728', [], ExcelValue.by_value
+  attach_function 'outputs_costs_c729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_d729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_e729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_f729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_g729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_h729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_i729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_j729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_k729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_l729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_m729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_n729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_o729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_p729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_q729', [], ExcelValue.by_value
+  attach_function 'outputs_costs_r729', [], ExcelValue.by_value
   attach_function 'outputs_costs_br642', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br649', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br650', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br651', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br652', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br653', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br654', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br643', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br644', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br645', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br646', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br647', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br648', [], ExcelValue.by_value
   attach_function 'outputs_costs_br655', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br675', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br676', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br677', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br678', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br679', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br680', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br656', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br657', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br658', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br659', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br660', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br661', [], ExcelValue.by_value
   attach_function 'outputs_costs_br681', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br662', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br663', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br664', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br665', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br666', [], ExcelValue.by_value
-  attach_function 'outputs_costs_br667', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br682', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br683', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br684', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br685', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br686', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br687', [], ExcelValue.by_value
   attach_function 'outputs_costs_br668', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br669', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br670', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br671', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br672', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br673', [], ExcelValue.by_value
+  attach_function 'outputs_costs_br674', [], ExcelValue.by_value
   attach_function 'outputs_costs_c18', [], ExcelValue.by_value
   attach_function 'outputs_costs_d18', [], ExcelValue.by_value
   attach_function 'outputs_costs_e18', [], ExcelValue.by_value
@@ -30899,10 +30886,8 @@ module Global2050Model
   attach_function 'outputs_costs_nb226', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb227', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb228', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb436', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb437', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb438', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb439', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb229', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb230', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb440', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb441', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb442', [], ExcelValue.by_value
@@ -31090,8 +31075,12 @@ module Global2050Model
   attach_function 'outputs_costs_nb624', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb625', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb626', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb235', [], ExcelValue.by_value
-  attach_function 'outputs_costs_nb236', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb627', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb628', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb629', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb630', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb631', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb632', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb237', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb238', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb239', [], ExcelValue.by_value
@@ -31281,6 +31270,10 @@ module Global2050Model
   attach_function 'outputs_costs_nb423', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb424', [], ExcelValue.by_value
   attach_function 'outputs_costs_nb425', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb426', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb427', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb428', [], ExcelValue.by_value
+  attach_function 'outputs_costs_nb429', [], ExcelValue.by_value
   # end of Outputs - Costs
   attach_function 'outputs_lifestyle_d8', [], ExcelValue.by_value
   attach_function 'outputs_lifestyle_e8', [], ExcelValue.by_value
@@ -31663,6 +31656,10 @@ module Global2050Model
   attach_function 'webtool_percent_with_elec_2050', [], ExcelValue.by_value
   attach_function 'webtool_population_2011', [], ExcelValue.by_value
   attach_function 'webtool_population_2050', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_area', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_energy', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_money', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_power', [], ExcelValue.by_value
   attach_function 'webtool_remaining_coal', [], ExcelValue.by_value
   attach_function 'webtool_remaining_gas', [], ExcelValue.by_value
   attach_function 'webtool_remaining_oil', [], ExcelValue.by_value
@@ -31697,6 +31694,7 @@ module Global2050Model
   attach_function 'webtool_warning_50_percent_chance_warming', [], ExcelValue.by_value
   attach_function 'webtool_warning_bio_oversupply', [], ExcelValue.by_value
   attach_function 'webtool_warning_electricity_oversupply', [], ExcelValue.by_value
+  attach_function 'webtool_warnings_co2_concentrations', [], ExcelValue.by_value
   attach_function 'webtool_warnings_coal_reserves', [], ExcelValue.by_value
   attach_function 'webtool_warnings_forest', [], ExcelValue.by_value
   attach_function 'webtool_warnings_fossil_fuel_proportion', [], ExcelValue.by_value
@@ -31875,6 +31873,10 @@ module Global2050Model
   attach_function 'webtool_percent_with_elec_2050', [], ExcelValue.by_value
   attach_function 'webtool_population_2011', [], ExcelValue.by_value
   attach_function 'webtool_population_2050', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_area', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_energy', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_money', [], ExcelValue.by_value
+  attach_function 'webtool_preferences_power', [], ExcelValue.by_value
   attach_function 'webtool_remaining_coal', [], ExcelValue.by_value
   attach_function 'webtool_remaining_gas', [], ExcelValue.by_value
   attach_function 'webtool_remaining_oil', [], ExcelValue.by_value
@@ -31909,6 +31911,7 @@ module Global2050Model
   attach_function 'webtool_warning_50_percent_chance_warming', [], ExcelValue.by_value
   attach_function 'webtool_warning_bio_oversupply', [], ExcelValue.by_value
   attach_function 'webtool_warning_electricity_oversupply', [], ExcelValue.by_value
+  attach_function 'webtool_warnings_co2_concentrations', [], ExcelValue.by_value
   attach_function 'webtool_warnings_coal_reserves', [], ExcelValue.by_value
   attach_function 'webtool_warnings_forest', [], ExcelValue.by_value
   attach_function 'webtool_warnings_fossil_fuel_proportion', [], ExcelValue.by_value
