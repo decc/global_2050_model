@@ -31446,6 +31446,221 @@ module Global2050Model
   # end of Outputs - Lifestyle
   # end of Structure of the model
   # end of Constants
+  attach_function 'conversions_b67', [], ExcelValue.by_value
+  attach_function 'conversions_c67', [], ExcelValue.by_value
+  attach_function 'conversions_d67', [], ExcelValue.by_value
+  attach_function 'conversions_e67', [], ExcelValue.by_value
+  attach_function 'conversions_f67', [], ExcelValue.by_value
+  attach_function 'conversions_b68', [], ExcelValue.by_value
+  attach_function 'conversions_c68', [], ExcelValue.by_value
+  attach_function 'conversions_d68', [], ExcelValue.by_value
+  attach_function 'conversions_e68', [], ExcelValue.by_value
+  attach_function 'conversions_f68', [], ExcelValue.by_value
+  attach_function 'conversions_b69', [], ExcelValue.by_value
+  attach_function 'conversions_c69', [], ExcelValue.by_value
+  attach_function 'conversions_d69', [], ExcelValue.by_value
+  attach_function 'conversions_e69', [], ExcelValue.by_value
+  attach_function 'conversions_f69', [], ExcelValue.by_value
+  attach_function 'conversions_b70', [], ExcelValue.by_value
+  attach_function 'conversions_c70', [], ExcelValue.by_value
+  attach_function 'conversions_d70', [], ExcelValue.by_value
+  attach_function 'conversions_e70', [], ExcelValue.by_value
+  attach_function 'conversions_f70', [], ExcelValue.by_value
+  attach_function 'conversions_b71', [], ExcelValue.by_value
+  attach_function 'conversions_c71', [], ExcelValue.by_value
+  attach_function 'conversions_d71', [], ExcelValue.by_value
+  attach_function 'conversions_e71', [], ExcelValue.by_value
+  attach_function 'conversions_f71', [], ExcelValue.by_value
+  attach_function 'conversions_b72', [], ExcelValue.by_value
+  attach_function 'conversions_c72', [], ExcelValue.by_value
+  attach_function 'conversions_d72', [], ExcelValue.by_value
+  attach_function 'conversions_e72', [], ExcelValue.by_value
+  attach_function 'conversions_f72', [], ExcelValue.by_value
+  attach_function 'conversions_b73', [], ExcelValue.by_value
+  attach_function 'conversions_c73', [], ExcelValue.by_value
+  attach_function 'conversions_d73', [], ExcelValue.by_value
+  attach_function 'conversions_e73', [], ExcelValue.by_value
+  attach_function 'conversions_f73', [], ExcelValue.by_value
+  attach_function 'conversions_b74', [], ExcelValue.by_value
+  attach_function 'conversions_c74', [], ExcelValue.by_value
+  attach_function 'conversions_d74', [], ExcelValue.by_value
+  attach_function 'conversions_e74', [], ExcelValue.by_value
+  attach_function 'conversions_f74', [], ExcelValue.by_value
+  attach_function 'conversions_b75', [], ExcelValue.by_value
+  attach_function 'conversions_c75', [], ExcelValue.by_value
+  attach_function 'conversions_d75', [], ExcelValue.by_value
+  attach_function 'conversions_e75', [], ExcelValue.by_value
+  attach_function 'conversions_f75', [], ExcelValue.by_value
+  attach_function 'conversions_b76', [], ExcelValue.by_value
+  attach_function 'conversions_c76', [], ExcelValue.by_value
+  attach_function 'conversions_d76', [], ExcelValue.by_value
+  attach_function 'conversions_e76', [], ExcelValue.by_value
+  attach_function 'conversions_f76', [], ExcelValue.by_value
+  attach_function 'conversions_b77', [], ExcelValue.by_value
+  attach_function 'conversions_c77', [], ExcelValue.by_value
+  attach_function 'conversions_d77', [], ExcelValue.by_value
+  attach_function 'conversions_e77', [], ExcelValue.by_value
+  attach_function 'conversions_f77', [], ExcelValue.by_value
+  attach_function 'conversions_b6', [], ExcelValue.by_value
+  attach_function 'conversions_c6', [], ExcelValue.by_value
+  attach_function 'conversions_d6', [], ExcelValue.by_value
+  attach_function 'conversions_e6', [], ExcelValue.by_value
+  attach_function 'conversions_f6', [], ExcelValue.by_value
+  attach_function 'conversions_b7', [], ExcelValue.by_value
+  attach_function 'conversions_c7', [], ExcelValue.by_value
+  attach_function 'conversions_d7', [], ExcelValue.by_value
+  attach_function 'conversions_e7', [], ExcelValue.by_value
+  attach_function 'conversions_f7', [], ExcelValue.by_value
+  attach_function 'conversions_b8', [], ExcelValue.by_value
+  attach_function 'conversions_c8', [], ExcelValue.by_value
+  attach_function 'conversions_d8', [], ExcelValue.by_value
+  attach_function 'conversions_e8', [], ExcelValue.by_value
+  attach_function 'conversions_f8', [], ExcelValue.by_value
+  attach_function 'conversions_b9', [], ExcelValue.by_value
+  attach_function 'conversions_c9', [], ExcelValue.by_value
+  attach_function 'conversions_d9', [], ExcelValue.by_value
+  attach_function 'conversions_e9', [], ExcelValue.by_value
+  attach_function 'conversions_f9', [], ExcelValue.by_value
+  attach_function 'conversions_b10', [], ExcelValue.by_value
+  attach_function 'conversions_c10', [], ExcelValue.by_value
+  attach_function 'conversions_d10', [], ExcelValue.by_value
+  attach_function 'conversions_e10', [], ExcelValue.by_value
+  attach_function 'conversions_f10', [], ExcelValue.by_value
+  attach_function 'conversions_b11', [], ExcelValue.by_value
+  attach_function 'conversions_c11', [], ExcelValue.by_value
+  attach_function 'conversions_d11', [], ExcelValue.by_value
+  attach_function 'conversions_e11', [], ExcelValue.by_value
+  attach_function 'conversions_f11', [], ExcelValue.by_value
+  attach_function 'conversions_b12', [], ExcelValue.by_value
+  attach_function 'conversions_c12', [], ExcelValue.by_value
+  attach_function 'conversions_d12', [], ExcelValue.by_value
+  attach_function 'conversions_e12', [], ExcelValue.by_value
+  attach_function 'conversions_f12', [], ExcelValue.by_value
+  attach_function 'conversions_b13', [], ExcelValue.by_value
+  attach_function 'conversions_c13', [], ExcelValue.by_value
+  attach_function 'conversions_d13', [], ExcelValue.by_value
+  attach_function 'conversions_e13', [], ExcelValue.by_value
+  attach_function 'conversions_f13', [], ExcelValue.by_value
+  attach_function 'conversions_b14', [], ExcelValue.by_value
+  attach_function 'conversions_c14', [], ExcelValue.by_value
+  attach_function 'conversions_d14', [], ExcelValue.by_value
+  attach_function 'conversions_e14', [], ExcelValue.by_value
+  attach_function 'conversions_f14', [], ExcelValue.by_value
+  attach_function 'conversions_b15', [], ExcelValue.by_value
+  attach_function 'conversions_c15', [], ExcelValue.by_value
+  attach_function 'conversions_d15', [], ExcelValue.by_value
+  attach_function 'conversions_e15', [], ExcelValue.by_value
+  attach_function 'conversions_f15', [], ExcelValue.by_value
+  attach_function 'conversions_b16', [], ExcelValue.by_value
+  attach_function 'conversions_c16', [], ExcelValue.by_value
+  attach_function 'conversions_d16', [], ExcelValue.by_value
+  attach_function 'conversions_e16', [], ExcelValue.by_value
+  attach_function 'conversions_f16', [], ExcelValue.by_value
+  attach_function 'conversions_b17', [], ExcelValue.by_value
+  attach_function 'conversions_c17', [], ExcelValue.by_value
+  attach_function 'conversions_d17', [], ExcelValue.by_value
+  attach_function 'conversions_e17', [], ExcelValue.by_value
+  attach_function 'conversions_f17', [], ExcelValue.by_value
+  attach_function 'conversions_b18', [], ExcelValue.by_value
+  attach_function 'conversions_c18', [], ExcelValue.by_value
+  attach_function 'conversions_d18', [], ExcelValue.by_value
+  attach_function 'conversions_e18', [], ExcelValue.by_value
+  attach_function 'conversions_f18', [], ExcelValue.by_value
+  attach_function 'conversions_b19', [], ExcelValue.by_value
+  attach_function 'conversions_c19', [], ExcelValue.by_value
+  attach_function 'conversions_d19', [], ExcelValue.by_value
+  attach_function 'conversions_e19', [], ExcelValue.by_value
+  attach_function 'conversions_f19', [], ExcelValue.by_value
+  attach_function 'conversions_b20', [], ExcelValue.by_value
+  attach_function 'conversions_c20', [], ExcelValue.by_value
+  attach_function 'conversions_d20', [], ExcelValue.by_value
+  attach_function 'conversions_e20', [], ExcelValue.by_value
+  attach_function 'conversions_f20', [], ExcelValue.by_value
+  attach_function 'conversions_b21', [], ExcelValue.by_value
+  attach_function 'conversions_c21', [], ExcelValue.by_value
+  attach_function 'conversions_d21', [], ExcelValue.by_value
+  attach_function 'conversions_e21', [], ExcelValue.by_value
+  attach_function 'conversions_f21', [], ExcelValue.by_value
+  attach_function 'conversions_b22', [], ExcelValue.by_value
+  attach_function 'conversions_c22', [], ExcelValue.by_value
+  attach_function 'conversions_d22', [], ExcelValue.by_value
+  attach_function 'conversions_e22', [], ExcelValue.by_value
+  attach_function 'conversions_f22', [], ExcelValue.by_value
+  attach_function 'conversions_b23', [], ExcelValue.by_value
+  attach_function 'conversions_c23', [], ExcelValue.by_value
+  attach_function 'conversions_d23', [], ExcelValue.by_value
+  attach_function 'conversions_e23', [], ExcelValue.by_value
+  attach_function 'conversions_f23', [], ExcelValue.by_value
+  attach_function 'conversions_b24', [], ExcelValue.by_value
+  attach_function 'conversions_c24', [], ExcelValue.by_value
+  attach_function 'conversions_d24', [], ExcelValue.by_value
+  attach_function 'conversions_e24', [], ExcelValue.by_value
+  attach_function 'conversions_f24', [], ExcelValue.by_value
+  attach_function 'conversions_b25', [], ExcelValue.by_value
+  attach_function 'conversions_c25', [], ExcelValue.by_value
+  attach_function 'conversions_d25', [], ExcelValue.by_value
+  attach_function 'conversions_e25', [], ExcelValue.by_value
+  attach_function 'conversions_f25', [], ExcelValue.by_value
+  attach_function 'conversions_b26', [], ExcelValue.by_value
+  attach_function 'conversions_c26', [], ExcelValue.by_value
+  attach_function 'conversions_d26', [], ExcelValue.by_value
+  attach_function 'conversions_e26', [], ExcelValue.by_value
+  attach_function 'conversions_f26', [], ExcelValue.by_value
+  attach_function 'conversions_b27', [], ExcelValue.by_value
+  attach_function 'conversions_c27', [], ExcelValue.by_value
+  attach_function 'conversions_d27', [], ExcelValue.by_value
+  attach_function 'conversions_e27', [], ExcelValue.by_value
+  attach_function 'conversions_f27', [], ExcelValue.by_value
+  attach_function 'conversions_b28', [], ExcelValue.by_value
+  attach_function 'conversions_c28', [], ExcelValue.by_value
+  attach_function 'conversions_d28', [], ExcelValue.by_value
+  attach_function 'conversions_e28', [], ExcelValue.by_value
+  attach_function 'conversions_f28', [], ExcelValue.by_value
+  attach_function 'conversions_b29', [], ExcelValue.by_value
+  attach_function 'conversions_c29', [], ExcelValue.by_value
+  attach_function 'conversions_d29', [], ExcelValue.by_value
+  attach_function 'conversions_e29', [], ExcelValue.by_value
+  attach_function 'conversions_f29', [], ExcelValue.by_value
+  attach_function 'conversions_b30', [], ExcelValue.by_value
+  attach_function 'conversions_c30', [], ExcelValue.by_value
+  attach_function 'conversions_d30', [], ExcelValue.by_value
+  attach_function 'conversions_e30', [], ExcelValue.by_value
+  attach_function 'conversions_f30', [], ExcelValue.by_value
+  attach_function 'conversions_b34', [], ExcelValue.by_value
+  attach_function 'conversions_c34', [], ExcelValue.by_value
+  attach_function 'conversions_d34', [], ExcelValue.by_value
+  attach_function 'conversions_e34', [], ExcelValue.by_value
+  attach_function 'conversions_f34', [], ExcelValue.by_value
+  attach_function 'conversions_b35', [], ExcelValue.by_value
+  attach_function 'conversions_c35', [], ExcelValue.by_value
+  attach_function 'conversions_d35', [], ExcelValue.by_value
+  attach_function 'conversions_e35', [], ExcelValue.by_value
+  attach_function 'conversions_f35', [], ExcelValue.by_value
+  attach_function 'conversions_b36', [], ExcelValue.by_value
+  attach_function 'conversions_c36', [], ExcelValue.by_value
+  attach_function 'conversions_d36', [], ExcelValue.by_value
+  attach_function 'conversions_e36', [], ExcelValue.by_value
+  attach_function 'conversions_f36', [], ExcelValue.by_value
+  attach_function 'conversions_b37', [], ExcelValue.by_value
+  attach_function 'conversions_c37', [], ExcelValue.by_value
+  attach_function 'conversions_d37', [], ExcelValue.by_value
+  attach_function 'conversions_e37', [], ExcelValue.by_value
+  attach_function 'conversions_f37', [], ExcelValue.by_value
+  attach_function 'conversions_b38', [], ExcelValue.by_value
+  attach_function 'conversions_c38', [], ExcelValue.by_value
+  attach_function 'conversions_d38', [], ExcelValue.by_value
+  attach_function 'conversions_e38', [], ExcelValue.by_value
+  attach_function 'conversions_f38', [], ExcelValue.by_value
+  attach_function 'conversions_b39', [], ExcelValue.by_value
+  attach_function 'conversions_c39', [], ExcelValue.by_value
+  attach_function 'conversions_d39', [], ExcelValue.by_value
+  attach_function 'conversions_e39', [], ExcelValue.by_value
+  attach_function 'conversions_f39', [], ExcelValue.by_value
+  attach_function 'conversions_b40', [], ExcelValue.by_value
+  attach_function 'conversions_c40', [], ExcelValue.by_value
+  attach_function 'conversions_d40', [], ExcelValue.by_value
+  attach_function 'conversions_e40', [], ExcelValue.by_value
+  attach_function 'conversions_f40', [], ExcelValue.by_value
   # end of Conversions
   # end of G.Universal (data)
   # end of G.op.cost (data)
@@ -31582,6 +31797,7 @@ module Global2050Model
   attach_function 'webtool_1990_to_2050_demand', [], ExcelValue.by_value
   attach_function 'webtool_1990_to_2050_supply', [], ExcelValue.by_value
   attach_function 'webtool_2degrees_context', [], ExcelValue.by_value
+  attach_function 'webtool_area_conversions', [], ExcelValue.by_value
   attach_function 'webtool_bio_2011', [], ExcelValue.by_value
   attach_function 'webtool_bio_2050', [], ExcelValue.by_value
   attach_function 'webtool_bioenergy_demand', [], ExcelValue.by_value
@@ -31629,6 +31845,7 @@ module Global2050Model
   attach_function 'webtool_electricity_2050', [], ExcelValue.by_value
   attach_function 'webtool_emissions_per_head_2011', [], ExcelValue.by_value
   attach_function 'webtool_emissions_per_head_2050', [], ExcelValue.by_value
+  attach_function 'webtool_energy_conversions', [], ExcelValue.by_value
   attach_function 'webtool_example_pathways', [], ExcelValue.by_value
   attach_function 'webtool_freight_vehicles', [], ExcelValue.by_value
   attach_function 'webtool_fuel_costs_undiscounted_chosen', [], ExcelValue.by_value
@@ -31656,6 +31873,7 @@ module Global2050Model
   attach_function 'webtool_percent_with_elec_2050', [], ExcelValue.by_value
   attach_function 'webtool_population_2011', [], ExcelValue.by_value
   attach_function 'webtool_population_2050', [], ExcelValue.by_value
+  attach_function 'webtool_power_conversions', [], ExcelValue.by_value
   attach_function 'webtool_preferences_area', [], ExcelValue.by_value
   attach_function 'webtool_preferences_energy', [], ExcelValue.by_value
   attach_function 'webtool_preferences_money', [], ExcelValue.by_value
@@ -31799,6 +32017,7 @@ module Global2050Model
   attach_function 'webtool_1990_to_2050_demand', [], ExcelValue.by_value
   attach_function 'webtool_1990_to_2050_supply', [], ExcelValue.by_value
   attach_function 'webtool_2degrees_context', [], ExcelValue.by_value
+  attach_function 'webtool_area_conversions', [], ExcelValue.by_value
   attach_function 'webtool_bio_2011', [], ExcelValue.by_value
   attach_function 'webtool_bio_2050', [], ExcelValue.by_value
   attach_function 'webtool_bioenergy_demand', [], ExcelValue.by_value
@@ -31846,6 +32065,7 @@ module Global2050Model
   attach_function 'webtool_electricity_2050', [], ExcelValue.by_value
   attach_function 'webtool_emissions_per_head_2011', [], ExcelValue.by_value
   attach_function 'webtool_emissions_per_head_2050', [], ExcelValue.by_value
+  attach_function 'webtool_energy_conversions', [], ExcelValue.by_value
   attach_function 'webtool_example_pathways', [], ExcelValue.by_value
   attach_function 'webtool_freight_vehicles', [], ExcelValue.by_value
   attach_function 'webtool_fuel_costs_undiscounted_chosen', [], ExcelValue.by_value
@@ -31873,6 +32093,7 @@ module Global2050Model
   attach_function 'webtool_percent_with_elec_2050', [], ExcelValue.by_value
   attach_function 'webtool_population_2011', [], ExcelValue.by_value
   attach_function 'webtool_population_2050', [], ExcelValue.by_value
+  attach_function 'webtool_power_conversions', [], ExcelValue.by_value
   attach_function 'webtool_preferences_area', [], ExcelValue.by_value
   attach_function 'webtool_preferences_energy', [], ExcelValue.by_value
   attach_function 'webtool_preferences_money', [], ExcelValue.by_value
