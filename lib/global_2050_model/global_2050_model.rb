@@ -11959,12 +11959,12 @@ module Global2050Model
   attach_function 'outputs_summary_table_f165', [], ExcelValue.by_value
   attach_function 'outputs_summary_table_g165', [], ExcelValue.by_value
   # end of Outputs - Summary table
-  attach_function 'outputs_climate_impacts_c528', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_h50', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_i50', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_i55', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_i60', [], ExcelValue.by_value
-  attach_function 'outputs_climate_impacts_i65', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c532', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_h54', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i54', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i59', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i64', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i69', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_d11', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_d12', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_e11', [], ExcelValue.by_value
@@ -11997,6 +11997,15 @@ module Global2050Model
   attach_function 'outputs_climate_impacts_ab26', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ac26', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ad26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al26', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am26', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_c27', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_d27', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_e27', [], ExcelValue.by_value
@@ -12025,6 +12034,15 @@ module Global2050Model
   attach_function 'outputs_climate_impacts_ab27', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ac27', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ad27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al27', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am27', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_c28', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_d28', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_e28', [], ExcelValue.by_value
@@ -12053,6 +12071,15 @@ module Global2050Model
   attach_function 'outputs_climate_impacts_ab28', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ac28', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ad28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al28', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am28', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_c29', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_d29', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_e29', [], ExcelValue.by_value
@@ -12081,6 +12108,89 @@ module Global2050Model
   attach_function 'outputs_climate_impacts_ab29', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ac29', [], ExcelValue.by_value
   attach_function 'outputs_climate_impacts_ad29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am29', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_h30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_j30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_k30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_l30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_m30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_n30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_o30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_p30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_q30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_r30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_s30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_t30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_u30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_v30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_w30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_x30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_y30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_z30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aa30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ab30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ac30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ad30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am30', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_c31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_d31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_e31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_f31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_g31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_h31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_i31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_j31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_k31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_l31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_m31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_n31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_o31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_p31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_q31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_r31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_s31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_t31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_u31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_v31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_w31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_x31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_y31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_z31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aa31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ab31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ac31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ad31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ae31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_af31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ag31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ah31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ai31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_aj31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_ak31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_al31', [], ExcelValue.by_value
+  attach_function 'outputs_climate_impacts_am31', [], ExcelValue.by_value
   # end of Outputs - Climate impacts
   attach_function 'outputs_emissions_h190', [], ExcelValue.by_value
   attach_function 'outputs_emissions_i190', [], ExcelValue.by_value
