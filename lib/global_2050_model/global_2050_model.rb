@@ -931,24 +931,31 @@ module Global2050Model
   attach_function 'detailed_lever_guides_m62', [], ExcelValue.by_value
   attach_function 'detailed_lever_guides_n62', [], ExcelValue.by_value
   attach_function 'detailed_lever_guides_o62', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b67', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c67', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d67', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e67', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b68', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c68', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d68', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e68', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b69', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c69', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d69', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e69', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b70', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c70', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d70', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e70', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b71', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c71', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d71', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e71', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_b72', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_c72', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_d72', [], ExcelValue.by_value
+  attach_function 'detailed_lever_guides_e72', [], ExcelValue.by_value
   # end of Detailed lever guides
-  attach_function 'lever_graphs_b2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2648', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2648', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2649', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2649', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2649', [], ExcelValue.by_value
@@ -1034,23 +1041,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2653', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2653', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2653', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2638', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2638', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2654', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2654', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2639', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2639', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2639', [], ExcelValue.by_value
@@ -1136,6 +1143,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2643', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2643', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2643', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2644', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2644', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2254', [], ExcelValue.by_value
   attach_function 'lever_graphs_e2254', [], ExcelValue.by_value
   attach_function 'lever_graphs_f2254', [], ExcelValue.by_value
@@ -1220,23 +1244,6 @@ module Global2050Model
   attach_function 'lever_graphs_h2202', [], ExcelValue.by_value
   attach_function 'lever_graphs_i2202', [], ExcelValue.by_value
   attach_function 'lever_graphs_j2202', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2686', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2686', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2687', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2687', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2687', [], ExcelValue.by_value
@@ -1322,6 +1329,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2691', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2691', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2691', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2692', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2692', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2103', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2103', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2103', [], ExcelValue.by_value
@@ -1985,6 +2009,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2552', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2552', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2552', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2553', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2553', [], ExcelValue.by_value
   attach_function 'lever_graphs_b1691', [], ExcelValue.by_value
   attach_function 'lever_graphs_c1691', [], ExcelValue.by_value
   attach_function 'lever_graphs_d1691', [], ExcelValue.by_value
@@ -3995,23 +4036,6 @@ module Global2050Model
   attach_function 'lever_graphs_g2224', [], ExcelValue.by_value
   attach_function 'lever_graphs_h2224', [], ExcelValue.by_value
   attach_function 'lever_graphs_i2224', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2588', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2588', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2589', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2589', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2589', [], ExcelValue.by_value
@@ -4097,23 +4121,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2593', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2593', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2593', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2658', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2658', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2594', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2594', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2659', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2659', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2659', [], ExcelValue.by_value
@@ -4199,23 +4223,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2663', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2663', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2663', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2668', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2668', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2664', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2664', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2669', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2669', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2669', [], ExcelValue.by_value
@@ -4301,23 +4325,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2673', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2673', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2673', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2733', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2733', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2674', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2674', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2734', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2734', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2734', [], ExcelValue.by_value
@@ -4403,15 +4427,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2738', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2738', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2738', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2744', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2744', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2739', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2739', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2745', [], ExcelValue.by_value
   attach_function 'lever_graphs_e2745', [], ExcelValue.by_value
   attach_function 'lever_graphs_f2745', [], ExcelValue.by_value
@@ -4457,6 +4489,15 @@ module Global2050Model
   attach_function 'lever_graphs_j2749', [], ExcelValue.by_value
   attach_function 'lever_graphs_k2749', [], ExcelValue.by_value
   attach_function 'lever_graphs_l2749', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2750', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2750', [], ExcelValue.by_value
   attach_function 'lever_graphs_b1310', [], ExcelValue.by_value
   attach_function 'lever_graphs_c1310', [], ExcelValue.by_value
   attach_function 'lever_graphs_d1310', [], ExcelValue.by_value
@@ -7391,23 +7432,6 @@ module Global2050Model
   attach_function 'lever_graphs_e1573', [], ExcelValue.by_value
   attach_function 'lever_graphs_f1573', [], ExcelValue.by_value
   attach_function 'lever_graphs_g1573', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2620', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2620', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2621', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2621', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2621', [], ExcelValue.by_value
@@ -7493,10 +7517,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2625', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2625', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2625', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2715', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2715', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2715', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2715', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2626', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2626', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2716', [], ExcelValue.by_value
   attach_function 'lever_graphs_e2716', [], ExcelValue.by_value
   attach_function 'lever_graphs_f2716', [], ExcelValue.by_value
@@ -7517,23 +7554,10 @@ module Global2050Model
   attach_function 'lever_graphs_e2720', [], ExcelValue.by_value
   attach_function 'lever_graphs_f2720', [], ExcelValue.by_value
   attach_function 'lever_graphs_g2720', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2704', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2704', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2721', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2721', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2721', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2721', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2705', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2705', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2705', [], ExcelValue.by_value
@@ -7619,6 +7643,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2709', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2709', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2709', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2710', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2710', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2231', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2231', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2231', [], ExcelValue.by_value
@@ -7973,23 +8014,6 @@ module Global2050Model
   attach_function 'lever_graphs_p1469', [], ExcelValue.by_value
   attach_function 'lever_graphs_q1469', [], ExcelValue.by_value
   attach_function 'lever_graphs_r1469', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2563', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2563', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2564', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2564', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2564', [], ExcelValue.by_value
@@ -8177,6 +8201,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2574', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2574', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2574', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2575', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2575', [], ExcelValue.by_value
   attach_function 'lever_graphs_d1391', [], ExcelValue.by_value
   attach_function 'lever_graphs_e1391', [], ExcelValue.by_value
   attach_function 'lever_graphs_f1391', [], ExcelValue.by_value
@@ -8405,23 +8446,6 @@ module Global2050Model
   attach_function 'lever_graphs_p1437', [], ExcelValue.by_value
   attach_function 'lever_graphs_q1437', [], ExcelValue.by_value
   attach_function 'lever_graphs_r1437', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2784', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2784', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2785', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2785', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2785', [], ExcelValue.by_value
@@ -8507,6 +8531,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2789', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2789', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2789', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2790', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2790', [], ExcelValue.by_value
   attach_function 'lever_graphs_b1215', [], ExcelValue.by_value
   attach_function 'lever_graphs_c1215', [], ExcelValue.by_value
   attach_function 'lever_graphs_d1215', [], ExcelValue.by_value
@@ -8966,23 +9007,6 @@ module Global2050Model
   attach_function 'lever_graphs_p1856', [], ExcelValue.by_value
   attach_function 'lever_graphs_q1856', [], ExcelValue.by_value
   attach_function 'lever_graphs_r1856', [], ExcelValue.by_value
-  attach_function 'lever_graphs_b2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_c2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_m2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_n2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_o2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_p2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_q2755', [], ExcelValue.by_value
-  attach_function 'lever_graphs_r2755', [], ExcelValue.by_value
   attach_function 'lever_graphs_b2756', [], ExcelValue.by_value
   attach_function 'lever_graphs_c2756', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2756', [], ExcelValue.by_value
@@ -9068,15 +9092,23 @@ module Global2050Model
   attach_function 'lever_graphs_p2760', [], ExcelValue.by_value
   attach_function 'lever_graphs_q2760', [], ExcelValue.by_value
   attach_function 'lever_graphs_r2760', [], ExcelValue.by_value
-  attach_function 'lever_graphs_d2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_e2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_f2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_g2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_h2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_i2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_j2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_k2766', [], ExcelValue.by_value
-  attach_function 'lever_graphs_l2766', [], ExcelValue.by_value
+  attach_function 'lever_graphs_b2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_c2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_m2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_n2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_o2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_p2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_q2761', [], ExcelValue.by_value
+  attach_function 'lever_graphs_r2761', [], ExcelValue.by_value
   attach_function 'lever_graphs_d2767', [], ExcelValue.by_value
   attach_function 'lever_graphs_e2767', [], ExcelValue.by_value
   attach_function 'lever_graphs_f2767', [], ExcelValue.by_value
@@ -9122,6 +9154,15 @@ module Global2050Model
   attach_function 'lever_graphs_j2771', [], ExcelValue.by_value
   attach_function 'lever_graphs_k2771', [], ExcelValue.by_value
   attach_function 'lever_graphs_l2771', [], ExcelValue.by_value
+  attach_function 'lever_graphs_d2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_e2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_f2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_g2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_h2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_i2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_j2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_k2772', [], ExcelValue.by_value
+  attach_function 'lever_graphs_l2772', [], ExcelValue.by_value
   attach_function 'lever_graphs_b1496', [], ExcelValue.by_value
   attach_function 'lever_graphs_c1496', [], ExcelValue.by_value
   attach_function 'lever_graphs_d1496', [], ExcelValue.by_value
@@ -32031,6 +32072,7 @@ module Global2050Model
   attach_function 'webtool_warnings_land_use', [], ExcelValue.by_value
   attach_function 'webtool_warnings_level4', [], ExcelValue.by_value
   attach_function 'webtool_warnings_oil_reserves', [], ExcelValue.by_value
+  attach_function 'webtool_descriptions_for_lever_1pagers', [], ExcelValue.by_value
   attach_function 'g_1pager_passenger_efficiencies_baseyear', [], ExcelValue.by_value
   attach_function 'g_1pager_freight_efficiencies_baseyear', [], ExcelValue.by_value
   attach_function 'g_1pager_animals_intensification_cows', [], ExcelValue.by_value
