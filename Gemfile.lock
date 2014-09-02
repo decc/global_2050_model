@@ -1,11 +1,10 @@
 GIT
   remote: /Users/tamc/Documents/github/excel_to_code
-  revision: ee7ca6c5c2e29f710e7c80f4cf13e51202fd252d
+  revision: 829e599824f43fd4d0810fc8198233e15a2cbb93
   branch: master
   specs:
-    excel_to_code (0.2.29)
+    excel_to_code (0.3.2)
       ffi (~> 1.0, >= 1.0.11)
-      nokogiri (~> 1.5, >= 1.5.0)
       ox (~> 2.0, >= 2.0.12)
       rspec (~> 2.7, >= 2.7.0)
       rubypeg (~> 0)
@@ -21,10 +20,7 @@ GEM
     ffi (1.9.3)
     interception (0.4)
     method_source (0.8.2)
-    mini_portile (0.6.0)
     minitest (5.2.3)
-    nokogiri (1.6.2.1)
-      mini_portile (= 0.6.0)
     ox (2.1.1)
     pry (0.9.12.6)
       coderay (~> 1.0)

@@ -2,18 +2,18 @@ require 'ffi'
 
 this_directory = File.dirname(__FILE__)
 
-COMPILER = "gcc"
-COMPILE_FLAGS = "-fPIC"
-SHARED_LIBRARY_FLAGS = "-shared -fPIC"
+COMPILER = 'gcc'
+COMPILE_FLAGS = '-fPIC'
+SHARED_LIBRARY_FLAGS = '-shared -fPIC'
 
-OUTPUT = FFI.map_library_name "global_2050_model"
-OUTPUT_DIR = "../lib/global_2050_model/"
-SOURCE = "global_2050_model.c"
-OBJECT = "global_2050_model.o"
+OUTPUT = FFI.map_library_name 'global_2050_model'
+OUTPUT_DIR = this_directory
+SOURCE = 'global_2050_model.c'
+OBJECT = 'global_2050_model.o'
 
 task :default => [:build]
 
-desc "Build the 2050 model, then install it"
+desc 'Build the 2050 model, then install it'
 task :build => [OUTPUT]
 
 file OUTPUT => OBJECT do
