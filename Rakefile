@@ -28,7 +28,7 @@ def setup(command)
   #}
 
   command.named_references_to_keep = lambda do |named_reference|
-    named_reference =~ /^(webtool\.|g\.1pager)/i
+    named_reference =~ /^(webtool\.|g\.1pager|g\.supertable)/i
   end
 
   command.named_references_that_can_be_set_at_runtime = [
