@@ -78,7 +78,7 @@ task :put_generated_files_in_right_place do
   
   mv 'ext/global_2050_model.rb', 'lib/global_2050_model/global_2050_model.rb'
   mv 'ext/test_global_2050_model.rb', 'test/test_global_2050_model.rb'
-  rm 'ext/Makefile'
+  #rm 'ext/Makefile'
 end
 
 task :fix_test_require do
