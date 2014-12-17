@@ -41,6 +41,8 @@ def setup(command)
 
   command.actually_compile_code = true
   command.actually_run_tests = true
+  command.write_tests_in_c = true
+  
 
 end
 
